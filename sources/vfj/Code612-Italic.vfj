@@ -51,7 +51,7 @@
       {
         "name":"space",
         "unicode":"0020",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-06 03:35:58",
         "layers":[
           {
             "name":"Italic",
@@ -62,7 +62,7 @@
       {
         "name":"exclam",
         "unicode":"0021",
-        "lastModified":"2026-04-20 02:58:53",
+        "lastModified":"2026-05-06 03:35:58",
         "layers":[
           {
             "name":"mask",
@@ -122,36 +122,54 @@
                     {
                       "nodes":[
                         "883 1500 {n:'.at01'}",
-                        "698 450",
-                        "494 429",
+                        "710 519",
+                        "506 498",
                         "683 1500"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "415 106",
-                        "415 136 o",
-                        "441 184 o",
-                        "483 216 o",
-                        "534 231 o",
-                        "558 227 {n:'.av01'}",
-                        "582 223 o",
-                        "618 199 o",
-                        "643 164 o",
-                        "656 125 o",
-                        "657 106",
-                        "658 76 o",
-                        "635 27 o",
-                        "596 -6 o",
-                        "544 -21 o",
-                        "516 -17 {n:'.ab01'}",
-                        "469 -11 o",
-                        "415 55 o"
                       ]
                     }
                   ]
                 },
                 "active":true
+              },
+              {
+                "elementData":{
+                  "id":"elementdata.1",
+                  "contours":[
+                    {
+                      "nodes":[
+                        "107 150",
+                        "113 184 o",
+                        "149 244 o",
+                        "202 289 o",
+                        "266 315 o",
+                        "300 315",
+                        "334 315 o",
+                        "389 289 o",
+                        "426 244 o",
+                        "442 184 o",
+                        "436 150",
+                        "430 116 o",
+                        "393 55 o",
+                        "341 10 o",
+                        "277 -17 o",
+                        "243 -17",
+                        "209 -17 o",
+                        "153 10 o",
+                        "116 55 o",
+                        "101 116 o"
+                      ]
+                    }
+                  ]
+                },
+                "transform":{
+                  "xOffset":273
+                }
+              }
+            ],
+            "guidelines":[
+              {
+                "horizontal":true,
+                "position":509
               }
             ],
             "color":"#bac000",
@@ -1577,7 +1595,7 @@
       {
         "name":"period",
         "unicode":"002e",
-        "lastModified":"2026-04-20 02:55:09",
+        "lastModified":"2026-05-06 03:35:58",
         "layers":[
           {
             "name":"mask",
@@ -1607,35 +1625,7 @@
             "advanceWidth":1300,
             "elements":[
               {
-                "elementData":{
-                  "id":"elementdata.3",
-                  "contours":[
-                    {
-                      "nodes":[
-                        "107 150",
-                        "113 184 o",
-                        "149 244 o",
-                        "202 289 o",
-                        "266 315 o",
-                        "300 315",
-                        "334 315 o",
-                        "389 289 o",
-                        "426 244 o",
-                        "442 184 o",
-                        "436 150",
-                        "430 116 o",
-                        "393 55 o",
-                        "341 10 o",
-                        "277 -17 o",
-                        "243 -17",
-                        "209 -17 o",
-                        "153 10 o",
-                        "116 55 o",
-                        "101 116 o"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.1",
                 "transform":{
                   "xOffset":273
                 },
@@ -1701,7 +1691,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c1800000476494441546881ed9abd72d34010c7ef2c1385f1640e066628952e2594747247096fc023f008724141094f14170c3525a5a1a223ccc08c2763b2e8cbd2dedeedde45718813b40551743f6ef7febb27cbb7516ab4db62e6a603d8378b1464d48dd82808b1b190888d820cb3513762775390f3282a83a57bd359690a70168115009b30564e0617e1c8cac900de87285d51b00e61691c666aec8f7bdffe35ab3108610d050b194b5b6c298796b498270fd84e5a2cb054d3629e7461cb5bcc5d2ac5565ecc5e69a545f6c5b3540b9bd6d5f1b8c456125626fe53e35a546406f05cd5eb151549e1e295aa4516153981cd71e35b2ce00cd6cbea67e128622d2187f345f393d608c17eb7b352e12cac80efcd4d5738640f003ed617fe2dbdb5438077f54522620fbbc8454c773a3869c04b287d1d3757394d03c65e74e2171296765846b38531d3cd914965de63260e4b3d1b1f615b191209cb3a5135c5f01272f8d55edda32562635d8a24ac2f9fa4102a094d2160bac774ce638985b19584b0529b9fd698f16386141c83bd8cc352527008c3f94ef9c7c309c2121e7b6a616cc1e15ad4043357c214293884e1ed341d8629062bd84f416b0fef004379247569f0488fe9d3280cedd9cb600a63ebebc3b80fc1028f903d63fe11b661b13316530c4637ea55316ba3a2d860006662311880a97dc2c86720afdb8eb1a517d312a6ae86251c769f62ab88d822b11987453ab5b147dc7be36c20e67f24d9d8431beb63b35f4f3587cd768a257198189bba2c66ec81e8d9f053f5d2baa592d31e7362f33b15b1de92b895ceecff1f8df963739cfa311db70411b376161a60932562dcc030cc5c1336b50612ae90d40e3085b14d0476b003cc8a2d12bb6031c5632bef6c9338ac7c5de1b1deecd952f6a040c22ca7e82de0491ce61e62f44e1166b80f717b361e93664356e0778a619861b08c7d5d29f00419fbd52812cb31f69a759a93d9540476cabee6e538dbf920cc3058c1be1e67783315ec976709e3660316b34e0ef9733f8c09c783063d4434b05f793096f2588a1c25fc09672496a03d93120c39d5f1d8627b5b387d4558c6cfa6d0a971469ea9182b784cd9d8aabd940e90d1584e1e96d829f254081852a1108efb51eea5ae004a2ac5c8996a9b2d1d8f2d38a77db69210b6dc46c91e10d5d8aac3148b75a21af1dcbdcb9683192f96d1c37e0beb8a31177b02dd2432d68554d0ad6039ed74703a3816b6cd9696fb41db54260e463b2975b652a7e562b76fcad0bf354b117b55adbe462c90fa8473ddd02256ed8679d30c2403d66fed6e00a740dc5e5bb360b17f5309f6b6fe57e82fa8b6cc4d102bd7f87591059b72d563641eeeddbd29812370db63c469a50884b1f22b0854e28a49d8b6595d8ccc3629fcfd4282e9bca1425de01f0d16685256a51496ad6b8dd20d43dbd347e093cdc10ebc7a3858ab088d8562fa34468faa4f11b1d076a9cb20563559e173283675e8ee3e1f36fd508abb083a4da6191c846753f374358dc09e4de6c7419fa5e9490c156b879e7bbbfd33923bf04729a320c4eec0126ec446ddaed56e44b77dcee93e3bfd7f62db6741461bed16db5f71cbd7eabcf0d1df0000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c18000005ca494441546881ed9abd72eb4414c7b5966dd9711271076628952e6528e9948ef2f2063c028f20171494f04471c15053520a2a3ac20ccc64ee982cd687b5e763cfe60f68b805d922b6a55ff6ec9e8fd56acfc932a4ed20eafdb415866d306c31abd07256a19718768561e0d82e66155acc2a7439ab508761a0b1c0de40b7cc310c1c1ba85ed0c9c199ae310c5408180b6003bd77de3805bd17ec0dc440636d316cde29802b12d8dbbc2b3938d3791d695ea1d7180636706ca02381510f3670b5045bc458ef20a1953f684ccdb4f0fe51634abd8df7c797859e3af3cf91c1e9cebcff465d16b1e03aca3fbd84150626665af6d89f0a1353a87acc2b4c3cc407caef25c6178762c40e692c1f3165071e32b723a6a6ca7b2b474c998baf6ff588a9a9ae24d64631ee969d2eaa1f235365d8b2f78e8f4e582b30f65c3819fefb4174c43343db79ff69d6cf576a84bd2f14fef9f3ac57b2d408137aeb8f3783eca40357fee9d07d364a23cc58b57fb71f3ea58f08ec8fb157a93836b6c6ffd27f965a71a47de0fd77fd171dd2b4b78df75ff75f7285d1a87f338d3c89b9490fca0c143bc9ba19bed5b175e4dc3e9b94df488c3a79316195b4169d6939f55145223a8295122ba358218dca859ed59047d687a95593529dc4e833abf6bf8fdf56d2451cc3261345569b2cdc6bcf636b129e44ba901811ea02e66abbb79c61dc93d651eca49bdf10ac140eb789636f31acb0fd92dabb100e478c754bb05c60446f770c33fd92faa213d81586b93896d97e49c369f9cf3067608de9972c8605b6c0302694d8d1f64bba0cb9078ee5718cc4ac149ac298d02713bbc63067627a0734b486de913183610b0c5b9a180bad35c51e4dcc19981da829ecc2c458a012a13e81650656726c61622c503718768d61f6d8e6c4d433f03fc20e51caa5b025866d0c2cb7846e25d6929bc1f4aa378a6506b6e3580899a4d095817d688d6d97c29c8d3d02d81b6bfbceb7a77cdec458bb14b6c5b0f0a0cc53589842726c5b0c0b3bd592dfe0bf8215546f74555ddb18ed6d67604268d8d0aab151a13986057fcb5342c3c2b5e3ff6f7988c2e8afd09b121a7fb6b914768961e1f57fcb6e38abb724e68c1b2e31051bdb60d8258605275fb21b42d9648f94c21c86ad287634b120749dc27618c6c6666357147b36b1858db5040be1bc48616c2b6563c1a6bcb78263e43c2485b13d12d9057c6c3d6538260e3198de0856728ced2d6d8c2824d51bd92335744f61f796c2160656f1ed0ac70e1696ff6daca6d81718268e3a2cec2185b5f4c78c58c3b7c7c40a150d26816dfe1d260ef4c839123b3914581ec7e4f120c78e04636f1fcb385678f395a7208272f15828318ccc34273153580f99e1c4ddc2f8c9cfe48af2f4959e9313ac12d88e6387809947be8d8d5d73ac1dbfa60e90c9bd9a2f6feca491486a0446f30b440b8d785d5873ec6c6f79544ea7408c1a4b1e9c5b30aa93d8dac4f61616ac954bec526087f32839b611583b616cd82c0d3129b594e7ee2c0335594b61ab2856c9c37e76ea3e39632db10b811de3186bd3901a19582c313ae9416570d84ccfd6722a1fc432296753e60a5b49ec300a6fedb17543ff79988a70379e441bf55baacc174f2ddd0d33ac15c6534b5d34dc0fc940765de4dac668f02a31934bcc0f1316184f54750afbaaff2b4c2a8a527a4d941a13d9d8d31c7fda573a292792dddd32721fc9dd8992832f4fc095d7e93121b4d3888f602295797a05f19d72e5d18a4865ba73225060a2b74513cf178a4cb1ab074a1e97c9f29b5f074cc6954c76df0d987c60496c4c8dcad55e66ffaf7c4c6daa06631dd5872afc183592bd80b987983e7486fd6d6ca2ba28a59fea415e5535665d92d5ff20afaa72888d8ebe2c52e2b2fcf6a4dcbdbcaaeab8f265e5759d952eaeb82f5a5dbfa1cb6f3e59dcdfa88b91720807d6b3445aa43e24560b020a98b782082c93038b63c11217b037b0a611acd201dbbcf548f3d69881856def059bb7840fd41b580405d6bf810dac310385ceab10309cc13a553000c199ce1b32e014e60dc0d7f6da5edb6bfbbfb7bf007414d6759ad0e9490000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -1797,7 +1787,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.2",
+                  "id":"elementdata.3",
                   "contours":[
                     {
                       "nodes":[
@@ -1898,7 +1888,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c1800000280494441546881edd93f6fd43018c771bb3929b7656060e81010c38d193b30b8122f809700122fc45998197929656b07f6ae154b3321860e956e29e22e0fb123dacdcf1764c855f837dcf4911ffb71fe5d624c494949494949494949494949c963492b3d615e64273f7ae3e422c564ca4b1f7eef12ca06205fde4f3f63825591c9f8e23a54d658c8f7c4e4ea0736de26987f709f5051b9612cd111cbd8d47dc48c697eb121c9ee5d5ac5ed9f9268dbfdfc46d10f2887060b6c5051388229d34bc6a284c1d19a032e0a192cba08cbdbb7bced85a3755957da691786391bc6e068909db02540b6c1a30d80c1f6d659378b2f212383c7db86f52d2feb18837b0ad9222b85ecff5969f6865c00068fb745e6f694b10d638e31383758741106fb562fb1f570097017b26fd6005887cf2c58f4df3338b706b30130f82705fee5814b80673d646f0e9879c65af0e774666434be04521432fff899c3a30145192ceab216e5accfca60d1c2fe264bbdda3466cdd82963b0a8fd86d8eb1d62ed889817c87ac2dc7c8354e736b3f40be670f7be25a375f30b0e8dd5b2634547c2eaf974d79865cccc4f16ea81e4634754e6624754d6c68ea86cee88ca6c3cf5f473217644673e7444672e7484b03b7271884bd547abc34088f5a06825720a980def86c0f54de48a302f3784b5f295b046b6843d990860c7b2efc9bd5ec6b7e4c9616a1cb83b5b2f5760b4a3563e03565dca08983d93fd3958e907d9820f41e65dfc12a415352bd91376e447c28e1d62954373b31d62e68cb18f724dd82b36da73c62ac62c636b5e7404453d63e788c58f8a80359891a768c82c2b7ae84c5781ed19438fc7ec93d1746fd81236d5652c679e656520abdf196d85d4fa0fa7525252525292373f010b204f0c0d2773dd0000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c1800000301494441546881ed993d6fd3501486ed2692b3796060e8601043468f1d185c891fc04f28123fc4599819f929656b0676d68aa59910438748598a487cb8be166aa84f7c1fae1dd5a8f71d32448fce7b3eeef5f54714053d4da58f9d4050d04814f6c21804a730e6618d3937a861a7f0280d0953f0c3821ee8e94c21e4f6ff9a66b2205829b2955f8ba89065172646afcbfaf7ae838a6b40be7d303f550736b19854af6e6ae73da51a56eb674772c93d56ad3bb0f29efbeccccdea96611d1d890f610f665a30ccfcf1075b1d36dde7ba293b7ea3bfdba6ac37935f25ee0555b4831dc0564ea85ec16d4cc92d2396d69460305aaa607adf08d6c3d41fd34c616ec3628a7a0ccb3fb71e7d5394fb57aae4962b9719059b334c8ba6089a9eb112344cd19c6167ece2001752e2bf9d15f1127c317da630b71588a661fed172160dce14623d4a383aa695e08ff598e958fac647bf04d1b4f5e6df901eb929d87386cd1956b086c0dca0a98629ea81f9f72d1974cbf00db864d17c3168aa632b609ae39d054d7d31fff506734b99693ae8430a7ce4d14af0dff510bb180ba6545a322c030fa70dd68aa608e676a198fa63252ba1077674d3029bb6fef3c734533d375f5345bc84058bd6c286cd0d62471f560f4cd1f1a3a958d7abcd289a1dc6f6733b675887e93e16ff40b9bddda2685985a29502b105c18ae68074e6d660dd2f98ebd37b4d4cf3e60587cb34912d33ad089634dbdd85c50c8b9a3b0b57a5065813acb01d716299ed88136b3ae2c462bbf5dc7bc176c419cd102b821575470876472e0eb65477b4a40ee4aed4ae11b7e944e41c6071fd6e085cdf44ae0956ca2dc132f94eb05436047b6610809dca6ea19df50f25d53b72bb621a070ef1b8946b701f7292c917804dbe4a05b0f8527657a0d28fb2011f82a2f7f64b90cb349aca8e60276545b0d302619302e516e7088b2e19f6496e08f6468dd63ac45f32d309c36286cdb869054c4b865d21cc7e5404588a3172b30db198998e1d735335b66318ba3d665f96ccd9b02198f165d8907a31280634fd97685344cd3c53090a0a0a0a1a56bf012fd354611a5a259d0000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -2383,7 +2373,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c18000002db494441546881ed99317214311045a5dd02052e6a42070eb43780cc09d4f808dc006e41c082e6160ee108be81e708441411de8c84621d0006761921695c2311d0fd7109d686fe91abfcaa7bd4dd52b7b44a8944229148241289442291a8907ed623d8dcfb0ec3106eee07ff85c74cb0b6e5311d3007786dbd1f2e78ae8de67a04db025ff7d447414efd86f5aa5f448e0f5d72ca7f9c4d1cebf5b68bd8396bee2c62038b1d6221b993b0158719078544276b1f58afcb88f17bc246afed3d0e6b52445e7158dc367efd9ec3c6359c709872a701fbca6229fbcf7b0e9ba535b058aab9f547deab858a248664cb17898a7958f21fb71f9d3e66b183807d7fc36206db85295faf592cad814f573a233e752cb617cc7de6adc5006f8e780eca96524f42ba1ef2588b590b35321cf19841ce11b82b69e4b85129227c99a7a5024955f743c501d88310918ec71a2c220dd8a7cf80ee103007056e063511a55b646fa53480183043a8471806d62f5ae6a735b365d0e10b4aaac630056e1a07e5fe373024f7164bea3e86353086e4de54c5c2168430cc9aae8d21550e624ab0ab610eb586e45461f5163064cba018b601157638d4c574556c8e1d83d7193330b6aa873558cfb230d601584b6c2c9dff45ed98263ba26abc9d82a0292c7b9a53e5160e84c5f897a1b0dce02d91529de72c721acc0f0ed47ca1a7f70b72a8192fc421fc9a7e51f0858863abc48883a6c488122fb11ec3ba5f630e5a418951e74c81119f36be4a5d8618c2c8e3f92ee4335ba31bcc84d1a74cc4de710b18b195f5dcf360c45ed2c82576bec2b00586f114b93b7fc6c0d119c476e2f4a663073b725af79e83607bd718abbbd2ba173fd0daad5ddc362bdf5dff27ace24df81fc0143df45c01ebff3ae6b0dc3b2c228e1d7c262c4c2c0b08f37e43df9ea671f01bd946f2d4b8ee208cec4ac570f916c3a8b8fc318c4a9acd14d5200a8cfa612663c312c22ea8f0668cec5d1153b3633fd01dce5aece9c5f408251289442291e8a6e8074f35eae52f1434290000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c1800000323494441546881edd83d72d3401407f05d6b6265f06454a64821df8074696094237003b8050506e91629e108dc203a02154345dcd130380524808d96dd55c6fa5abdf7b723b061f655f9f8cd7bd6befd9285f0e1c3870f1f3e7cf8f0e1c3870f1fb5902f7384054a6518435ca00af59d67a1ceb6e299d42c05aa264a15b7bc4b4cba1c612be0d3bd5026a0a26ac95695af8de387ce16e53f5c6c1d5b759c1a76cda6bb32ac60d91936244796cd3916a6d090489bed0b5b756618bf2662533539e5586447e41dc7ccb2518bcf1c2b9fe12dc7447aa9d90f96d9eebfca3936b2cfc0323be7165ff9aa313449cc90acf849224c1f66fc873b36459fb1ec44b35f1f581662abd0f6eb3dcbec33f0edb27bc4b78c65139dee86cf66067879ce3ba85b423cd7ed7ac2b304cba6e74871ceb310d947e0534922db8db023c24f73fba84053c5233de300f6588f48c6b3081b91083ca7af80d341b3141ab81174880899206bcbb60164c01d423cc518387fd1697e3964b742f4f2053555624c808b26857abf01437a1f634d3dc6580433a4f7e1a04c2f418861d9e4d00c99e520139e6dc752341bd25381cd37cd902583326c010a6c731896c94159806d83fbcc4298cd8763117666c530cb0096100b4b56ffa2564c5415a2e678b21e0449b1aa52404d37bd214ccb9f428a55077c4cb45456f72cf236587de140dd2fe4fafb0bf25253be10ebe197f4370aaa16c4b65567c4465367c414afb31c63593f4ba127a8336a9fa931e2a395df4add0d31c4c8edf92154b3ca461f306b46ef32867de21ea064f358715f0f1af6862677ec7a8eb129c67845aece2603afce20db49d17f9d9dfc95a251a7a87381b658df7bce766c723f36c158b055d17b3e69d061ce2dab95adef8dae5b1461078316dd09eb7b291d630cccb627cc790e1d357fed7b138ef6981d6e954df45c7ab667f91f6707addf5377efdbd952f788b898239d8be91bcb14624a2de9b7a7f575f067e318e9cba6d4228358e3546ab3dae5f223c68acd593b36cfa60816576a85b11b8815b3da9f1ff4b25b6a782bd638bb5c4c8c2e54d13ce13a2c761e816d26c2dca1bacc1d639e6c906d27ec9027c317f5ecff633e7cf8f0b147f11b0105eefdd13cf86f0000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -2685,7 +2675,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c18000001f4494441546881ed9a414ec33014441302ca324b569093a070038e141f85a3e426e406456c40a2d4a42a955a5327cf304ab2f8b3ed93bf933f1edb51b3cc6432994c2693c96432994c7f51d923acd912aaf03b8255de6b3107b0dafb9e61e41938469e413edafc5865d80ab0128f46fc56320c8e366024446e1836cced8b15156243d1ad43d84e8b4d5329182c2ac5484643f72e8215f2a28e61cf00db308c170558c1b16ea558eed19960112ce3d8ebecd83bc35aef3f74d8131e8dec1f10839b56c3c217628b9c416fe5a746378d552f0ce3c9d5c9307d24f5322c216bb4e94056e0e7120bf5812d0688dd4997d6bdfc2ae06458d962ac9bc6aea48b41bfa30a5daedddc1ae6f21a63c20d447ef7149e42b559be98e1e63f4dc15885bee4d8fc079b04fb3a19a6bd1de50c4bb83310ac5563c4e50dc688cb6b8c092f03f20f36c2ef13d09739c73a19a6f7e5fc86e3be141a4ebb4127245c378d2558a49fc612f64a5074df2d52145a84870dc178ef8561035324e798031c8c07d854edb6b5f2de6b2d126b6a71f2e647b07d0e1d3b3e9222076cd0db688a34fe5c3dc322dd6a032cd286108bbc5f1fea5f5858d43fb2d13a863956f4f2dc9a808a3829c422af37c42e3fc12fecf2130cab69f8e17a73a4626ba13e4ca6fcc162cbb93a4ea6189bdaa946a676a6bc457f8b30994c269369467d03b406b5549103dbd20000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000037e494441546881edda5d72d330148661a76e31e5a7b9e40ab21226ec8025c54b6129d909d9413bdcd019424433a533eef9ded37eb55d9c29d11de1e991641d49b6ecaa72cadc5247766447f672d8d914951e593f669643eec20b60af3d769c5987c02e3c76eeb1431ed37a8a4a4df6ca639374e1648a4a9b292a1d779731cbb8954e922171b09a8d156db975585d760e9b97822cfe95cd5aa3d245291b62b530ecc385c7b452ec83328ca66d33a3211b375afcab614c330459e3b1f7a3563a09337b1aa235f605e1892ad19c24cfa269a5b8888468671ebb69db6faf6d23b29b4ab72db046d88e98464376ae8cda16dbe00dd6c0b6f566b8469bd93b2eab3d265bdba04a4379c205f966b04b8ff9951aacf6d9fa50d8e9fd7fce4a724fe0b1f973b2ca6757ff9cfdf4d8aa94ebfe2c6c1fd55766b1ac78ff804a1d966c5a727bcc8b6f4f96dc0ef667b42445f6c163e6ede022591d62f4efc860141cd6f0b4efc992456400db8cc6924584184dd45898c90151c119280f9ebf3cc633b02ffb8c93a12ffbe8319e0cc23e79ec098f50adfcface636fe20fcd8a989c71edd95a9b127f38c1c9308b3f70964b34cef2be8cb31c99a6af32dcb5e29e95303d755f5296eb49e382981ee4e2cef0d66392219c977a41f0d65719e6254733d9fa71868bb432cc24934119b0fac2996a729be430381ba46515de2f505e42349f49c201a3bc642609078cd257933c7dece9c7e8e9482720e625746106ec54193d33d0b1b0c95663b398e5c496ca64fbb86531cbe1f2ee5324327a5b01cb2abd18858701ea029cc450a5c09268317d89c1f944c6dac7d9cc67eb5e8c060bf2125f9168c2e1bb0f4d38649a7058a9265c16cd619a70c834e132560ca69994b2f671a64b17321d7bbd47aa684be5f759b2573293bb55664baf52491166b2d80c6232f629db194c161b66d9296728b3c8389aac22ccaa9822098b839ab34d0f46fb69a5639f448b833a8cc5b13759d285982249b4b83c7458ddb9f20fb0fd3a7437e271151176537ee82ad261cb72bf6cb8d9917547ab136d15d8b5c7b6cc4a2c4f679d122b2d5fbc686b8fb5564f932e2c83da79ac7b79eb9c757af050b496d962ff1fa797772a9b328bdbc6347f59369de7778da9a569c96772b169d9cc9aad9cb557ca91bd3c962cd1b18cfb8d99f941203c143f7f3439b71c14cdfc42d2fcf4d1fc9a6edccf32f1c9488b39f46622999ff0995d30e782f9edb19921e628983dfd8fca1fc7a1c5ac14173a3a0000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -3621,7 +3611,7 @@
       {
         "name":"question",
         "unicode":"003f",
-        "lastModified":"2026-04-20 02:59:18",
+        "lastModified":"2026-05-06 03:35:58",
         "layers":[
           {
             "name":"mask",
@@ -3696,24 +3686,24 @@
                         "1116 1381 o",
                         "1168 1254 o",
                         "1168 1176",
-                        "1168 1105 o",
-                        "1127 998 o",
-                        "1058 912 o",
-                        "970 842 o",
-                        "876 775 o",
-                        "783 705 o",
-                        "707 622 o",
-                        "654 518 o",
-                        "646 450",
-                        "432 429",
-                        "441 520 o",
-                        "497 656 o",
-                        "574 761 o",
-                        "667 841 o",
-                        "761 908 o",
-                        "850 969 o",
-                        "918 1037 o",
-                        "959 1119 o",
+                        "1168 1106 o s",
+                        "1128 1004 o s",
+                        "1061 928 o s",
+                        "975 870 o s",
+                        "883 816 o s",
+                        "793 760 o s",
+                        "718 686 o s",
+                        "666 588 o s",
+                        "658 520",
+                        "444 499",
+                        "453 589 o s",
+                        "507 720 o s",
+                        "583 815 o s",
+                        "673 882 o s",
+                        "766 936 o s",
+                        "852 985 o s",
+                        "919 1043 o s",
+                        "959 1119 o s",
                         "959 1173",
                         "959 1219 o",
                         "926 1287 o",
@@ -3731,30 +3721,16 @@
                         "589 1496 o",
                         "722 1517 o"
                       ]
-                    },
-                    {
-                      "nodes":[
-                        "359 105",
-                        "359 128 o",
-                        "380 171 o",
-                        "414 205 o",
-                        "460 225 o",
-                        "484 225 {n:'.av01'}",
-                        "538 225 o",
-                        "597 158 o",
-                        "597 105",
-                        "597 82 o",
-                        "579 39 o",
-                        "547 4 o",
-                        "503 -17 o",
-                        "478 -17 {n:'.ab01'}",
-                        "422 -17 o",
-                        "359 51 o"
-                      ]
                     }
                   ]
                 },
                 "active":true
+              },
+              {
+                "elementData":"elementdata.1",
+                "transform":{
+                  "xOffset":224
+                }
               }
             ],
             "color":"#bac000",
@@ -4048,7 +4024,7 @@
       {
         "name":"A",
         "unicode":"0041",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"img",
@@ -4058,7 +4034,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d4948445200000253000001a401030000002ff0329700000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000013349444154789cedd5810902511003513bb1ff2e2d410e83093bf30a087f96435faf98776e0a2179afd5db131a9308f722342611ee45684c22dc8bd0b86af55e846fc2773de337d1437817a13189f0aed54649fa86f0fbb5dab8fa3fe4bd7a561bbd57cf6aa3f7ea596df45e3d84c624c2bd088d49847bd978632bc9c61b5b4936f610de45684c22bc8bd0984478978dbdad241b6f6c25d9d8db5a45b817a13189702f1b6f6c25d978632bc9c61ec2bb088d498477111a9308efb2b1b79564e38dad241b7b5bab08f722342611ee65e38dad241b6f6c25d9d8437817a13189f02e426312e15d36f6b6926cbcb19564e38dad241b7b5b49ab8ddeab67b5d17bf5f8ae6756bf89d5ada4d546b77a561bddea596d74abc7c61b5b4936ded84ab2b1b7b5ca7b3d63636f6b15a151d26ffc9d90f4571f0ea61d4f2e6bff530000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d4948445200000253000001a401030000002ff0329700000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c18000001db49444154789ceddc696ac34010056167df374212b2dfff96f96f3058504185bbbe033c46d268346ab7b5d9281d81591760d62398f529cd22fdae3d801d8ec12cebb9bf03b3c8eb3821cb8a3cc65730cb7aee1bd77ac83d409621e7d717983561de93c748ee7326b0ee279ec1ac1f30cb3abf6ed71e40b2a71730eb0ccc225daf3d806405646d68c2bd7d0e6691acfb4292f518c9f74712798cd6e7a375ae927ba64b308bfcad893cf70f6096b52e675dbf484f6b0f20d9d31b9845feee6e655dbfc87a6196b13e8748f76b0f600772cf34c13798f50166594db8b77318acf509d295348bac215bdf1fad6ba1755c24eb3192b534328b549fc261b0de431390bd51134c98abe4fe8b64adf14d9813246b6dc8ba1692f59c1b30cb6ac2fd48f6fa58e7446bf43213de87ac3d6ec936b2d7c7ba2727917d0aa7601689ecebb0229fb513e6bdb5be3a61ff651d17f9fd096b0f92f5dc27dbc8bddc84fe1ceb7f9b5b7396219f4359cf841e24b28792fc3e13895cbfc867da8475b5b530dbc8fac4846fcb90acf509f23a9e8059d63961bd8e59c6da1f9dfc27f2bd83645d0bc971596b69e43192ff61b1ce096bef0ab997239f8fef6016c9fadd02ebbc9fb07e9159e4bc27c765edebb0bef359ebabd6ef042649922449922449b2d31f72b00ca96db7c8fe0000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -4349,7 +4325,7 @@
       {
         "name":"C",
         "unicode":"0043",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"img",
@@ -4660,7 +4636,7 @@
       {
         "name":"E",
         "unicode":"0045",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"img",
@@ -4670,7 +4646,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d49484452000000570000009701030000005aee559b00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000009649444154388dc5d5510a80200c06e079b28ed6553d828f068a1184a9f8e76f13f2e923e61aaea648b1525e9e70a8bc6747e0b0c8574e7b576c64cb16e036c6756cc0731483dceef51d1b60267e368679d7aafc682f53cfac35f56bce5f9387cd7f2f2785cdd8beb44c1ae409a5e5c55f7ba4e9efaa3efef52dadfa07d1bc62ccccb476bed9293f73fb20ec89bb03dd2f757c1a3a229f1818a719fb69da950000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d49484452000000570000009701030000005aee559b00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000005c49444154388d63604002ffe1e00711ec3f28ec7abab21fc0dd6c4f32fb031dd93f46d9a36c12d950f08144f60f1ab0ff10cb1e0ce13652d98c38ca1f5a893f40127f40501c516eff4462ff2042fc2f8ef29f38f1ff48e2ff49130700385da6e1feef75b90000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -4888,7 +4864,7 @@
       {
         "name":"G",
         "unicode":"0047",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"img",
@@ -5052,7 +5028,7 @@
       {
         "name":"H",
         "unicode":"0048",
-        "lastModified":"2026-04-28 03:17:50",
+        "lastModified":"2026-05-06 03:10:30",
         "layers":[
           {
             "name":"img",
@@ -5154,7 +5130,7 @@
       {
         "name":"I",
         "unicode":"0049",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"mask",
@@ -5346,7 +5322,7 @@
       {
         "name":"K",
         "unicode":"004b",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"img",
@@ -5420,7 +5396,7 @@
       {
         "name":"L",
         "unicode":"004c",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"img",
@@ -5870,7 +5846,7 @@
       {
         "name":"O",
         "unicode":"004f",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"img",
@@ -6205,7 +6181,7 @@
       {
         "name":"Q",
         "unicode":"0051",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-06 03:10:30",
         "layers":[
           {
             "name":"img",
@@ -6740,7 +6716,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "color":"#00cce5",
@@ -6757,7 +6734,7 @@
       {
         "name":"U",
         "unicode":"0055",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"img",
@@ -6881,7 +6858,7 @@
       {
         "name":"V",
         "unicode":"0056",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"img",
@@ -7717,7 +7694,7 @@
       {
         "name":"a",
         "unicode":"0061",
-        "lastModified":"2026-04-28 02:48:03",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"img",
@@ -8081,7 +8058,7 @@
       {
         "name":"c",
         "unicode":"0063",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"img",
@@ -8382,7 +8359,7 @@
       {
         "name":"e",
         "unicode":"0065",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 03:10:30",
         "layers":[
           {
             "name":"img",
@@ -8712,7 +8689,7 @@
       {
         "name":"g",
         "unicode":"0067",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"img",
@@ -9044,7 +9021,7 @@
       {
         "name":"i",
         "unicode":"0069",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-06 03:10:30",
         "layers":[
           {
             "name":"mask",
@@ -9430,7 +9407,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000003a000000a5010300000037457cfd00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000019049444154388d75d4c94e02411080e14640144411155c406511822b6171c1851733d1683c78f0a431be0089890713e3d1838fe22370f430a1ed9e99bf63ac3897f9324b777555752bf5eb5ad3fad387d6fadbdea3065ed22061a0b30633161fc1b75adf1bf42d1ec0c0e0c2e23d1846eb5a88515ba9888fb9105e3c98417b3be10cdfeb2186073e86f1e1ac3fe7975aeff930f12540c1c7a552693f1c83ba0f33611e4440cc62649001111bf22878d5d79ec10658045360018c812dd002715015dfcc802268fc8f3248823ce88a502744cc9b202b223c0547e018ec835dd003cbe00ce440413c7103d6c19e78e256e1b23a0f0ec0aac8c60a8889986362c0253157144c8aea5444050b221bd362a532300757e57cb007b4ce8122688129d0042fe0153c8137700706e016dc806bf00c1ec19548b86b92b468e37df1aa0dfa22f36eede3a0239ad6f5b3eba89428caf6ff0977f56a8292685ad775ae94876240b72b5db32540069c88fce4ec096751031550063ba001b2a00352e2f7237b5286f9f9832ea882923d3cc38c29756e77f70f57d305dc9ce4a5c20000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000003a000000a5010300000037457cfd00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c18000000ae49444154388dedd4cd0983401005e00921e49812b493692ce0d6905a72d7525282470f8b2ff3b30bea9c241022c4cb7cf01ecec2a2448ba70106038049e759901557011ac14df1f02e9004bc422fe82a74a2bc0fb3cc93810b32fb065b611ba68a910de345213b5fd4fa723f9fc3a36468fc0c065a8057986b54c00656e42528e0df3956a70d889daf00285fc10ea4cff00c889dfec7eeeb589dae461b50c0de0e6ab4010790fe3c0b88ee1abd01158d01fed4da668c0000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -9894,7 +9871,7 @@
       {
         "name":"o",
         "unicode":"006f",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"img",
@@ -10043,7 +10020,7 @@
       {
         "name":"p",
         "unicode":"0070",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"img",
@@ -10200,7 +10177,7 @@
       {
         "name":"q",
         "unicode":"0071",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"img",
@@ -10795,7 +10772,7 @@
       {
         "name":"u",
         "unicode":"0075",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-06 03:10:30",
         "layers":[
           {
             "name":"img",
@@ -10932,7 +10909,7 @@
       {
         "name":"v",
         "unicode":"0076",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"mask",
@@ -11006,7 +10983,7 @@
       {
         "name":"w",
         "unicode":"0077",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"img",
@@ -11162,7 +11139,7 @@
       {
         "name":"x",
         "unicode":"0078",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"img",
@@ -11262,7 +11239,7 @@
       {
         "name":"y",
         "unicode":"0079",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"img",
@@ -11952,7 +11929,7 @@
       {
         "name":"exclamdown",
         "unicode":"00a1",
-        "lastModified":"2026-04-20 02:59:42",
+        "lastModified":"2026-05-06 03:35:58",
         "layers":[
           {
             "name":"mask",
@@ -11995,36 +11972,31 @@
                     {
                       "nodes":[
                         "347 -396 {n:'.av01'}",
-                        "532 654",
-                        "736 675 {n:'.av02'}",
+                        "521 590",
+                        "725 611 {n:'.av02'}",
                         "547 -396 {n:'.sv01'}"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "815 998",
-                        "815 968 o",
-                        "789 920 o",
-                        "747 888 o",
-                        "696 873 o",
-                        "672 877 {n:'.av03'}",
-                        "648 881 o",
-                        "612 905 o",
-                        "587 940 o",
-                        "574 979 o",
-                        "573 998",
-                        "572 1028 o",
-                        "595 1077 o",
-                        "634 1110 o",
-                        "686 1125 o",
-                        "714 1121 {n:'.av04'}",
-                        "761 1115 o",
-                        "815 1049 o"
                       ]
                     }
                   ]
+                }
+              },
+              {
+                "elementData":"elementdata.1",
+                "transform":{
+                  "xOffset":415,
+                  "yOffset":807
                 },
                 "active":true
+              }
+            ],
+            "guidelines":[
+              {
+                "vertical":true,
+                "position":-700
+              },
+              {
+                "horizontal":true,
+                "position":600
               }
             ],
             "color":"#bac000",
@@ -14671,7 +14643,7 @@
       {
         "name":"questiondown",
         "unicode":"00bf",
-        "lastModified":"2026-04-20 03:00:14",
+        "lastModified":"2026-05-06 03:36:22",
         "layers":[
           {
             "name":"mask",
@@ -14762,24 +14734,24 @@
                         "184 120 o",
                         "132 247 o",
                         "132 325",
-                        "132 396 o",
-                        "173 503 o",
-                        "242 589 o",
-                        "330 659 o",
-                        "424 726 o",
-                        "517 796 o",
-                        "593 879 o",
-                        "646 983 o",
-                        "654 1051",
-                        "868 1072",
-                        "859 981 o",
-                        "803 845 o",
-                        "726 740 o",
-                        "633 660 o",
-                        "539 593 o",
-                        "450 532 o",
-                        "382 464 o",
-                        "341 382 o",
+                        "132 396 o s",
+                        "172 497 o s",
+                        "239 573 o s",
+                        "325 631 o s",
+                        "416 685 o s",
+                        "506 741 o s",
+                        "581 815 o s",
+                        "633 913 o s",
+                        "641 981",
+                        "855 1002",
+                        "846 912 o s",
+                        "792 782 o s",
+                        "717 687 o s",
+                        "626 620 o s",
+                        "534 565 o s",
+                        "448 517 o s",
+                        "381 458 o s",
+                        "341 382 o s",
                         "341 328",
                         "341 282 o",
                         "374 214 o",
@@ -14797,30 +14769,27 @@
                         "711 5 o",
                         "578 -16 o"
                       ]
-                    },
-                    {
-                      "nodes":[
-                        "941 1396",
-                        "941 1373 o",
-                        "920 1330 o",
-                        "886 1296 o",
-                        "840 1276 o",
-                        "816 1276",
-                        "762 1276 o",
-                        "703 1343 o",
-                        "703 1396",
-                        "703 1419 o",
-                        "721 1462 o",
-                        "753 1497 o",
-                        "797 1518 o",
-                        "822 1518",
-                        "878 1518 o",
-                        "941 1450 o"
-                      ]
                     }
                   ]
                 },
+                "transform":{
+                  "xOffset":-70,
+                  "yOffset":-396
+                },
                 "active":true
+              },
+              {
+                "elementData":"elementdata.1",
+                "transform":{
+                  "xOffset":472,
+                  "yOffset":807
+                }
+              }
+            ],
+            "guidelines":[
+              {
+                "horizontal":true,
+                "position":1122
               }
             ],
             "color":"#bac000",
@@ -23517,7 +23486,7 @@
       {
         "name":"Epsilon",
         "unicode":"0395",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"Italic",
@@ -23653,7 +23622,7 @@
       {
         "name":"Theta",
         "unicode":"0398",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"Italic",
@@ -25950,7 +25919,7 @@
       {
         "name":"eta",
         "unicode":"03b7",
-        "lastModified":"2026-04-19 21:03:57",
+        "lastModified":"2026-05-06 02:37:49",
         "layers":[
           {
             "name":"mask",
@@ -29365,7 +29334,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.1",
+                  "id":"elementdata.2",
                   "contours":[
                     {
                       "nodes":[
@@ -29447,7 +29416,7 @@
             "advanceWidth":1300,
             "elements":[
               {
-                "elementData":"elementdata.1",
+                "elementData":"elementdata.2",
                 "active":true
               }
             ],
@@ -62756,7 +62725,7 @@
       {
         "name":"zero",
         "unicode":"0030",
-        "lastModified":"2026-04-20 02:55:07",
+        "lastModified":"2026-05-06 03:35:58",
         "layers":[
           {
             "name":"Italic",
@@ -62764,10 +62733,10 @@
             "advanceWidth":1300,
             "elements":[
               {
-                "elementData":"elementdata.2"
+                "elementData":"elementdata.3"
               },
               {
-                "elementData":"elementdata.3",
+                "elementData":"elementdata.1",
                 "transform":{
                   "xOffset":374,
                   "yOffset":601
