@@ -62647,6 +62647,7 @@
           "caretOffset":-132,
           "cornerTension":0.67,
           "inktrapLen":4,
+          "italic":true,
           "monospaced":true,
           "panose":"2 11 6 9 5 0 0 2 0 4",
           "guidelines":[
