@@ -62,7 +62,7 @@
       {
         "name":"space",
         "unicode":"0020",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-13 02:33:48",
         "layers":[
           {
             "name":"Bold",
@@ -144,7 +144,7 @@
               },
               {
                 "elementData":{
-                  "id":"elementdata.1",
+                  "id":"elementdata.2",
                   "contours":[
                     {
                       "nodes":[
@@ -1328,7 +1328,7 @@
       {
         "name":"parenleft",
         "unicode":"0028",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-13 02:36:30",
         "layers":[
           {
             "name":"mask",
@@ -1386,46 +1386,29 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.1",
                   "contours":[
                     {
                       "nodes":[
-                        "379 1158",
-                        "379 1251 o",
-                        "399 1412 o",
-                        "470 1532 o",
-                        "605 1600 o",
-                        "719 1600 {n:'.av01'}",
-                        "744 1600 o",
-                        "801 1593 o",
-                        "858 1579 o",
-                        "910 1558 o",
-                        "931 1545 {n:'.ah01'}",
-                        "841 1431",
-                        "823 1431 o",
-                        "774 1421 o",
-                        "730 1380 o",
-                        "700 1298 o",
-                        "700 1227",
-                        "700 -46",
-                        "700 -120 o",
-                        "731 -200 o",
-                        "773 -238 o",
-                        "818 -245 o",
-                        "833 -245",
-                        "931 -365 {n:'.ah02'}",
-                        "910 -378 o",
-                        "858 -399 o",
-                        "801 -413 o",
-                        "744 -420 o",
-                        "719 -420 {n:'.av02'}",
-                        "605 -420 o",
-                        "470 -347 o",
-                        "399 -221 o",
-                        "379 -55 o",
-                        "379 38"
+                        "1043 1600 s",
+                        "1100 1600  1173 1591  1200 1575",
+                        "1131 1449",
+                        "1114 1451 s",
+                        "1102 1452  1087 1454  1070 1454 s",
+                        "876 1451  782 961  782 594 s",
+                        "782 226  876 -274  1070 -274 s",
+                        "1087 -274  1102 -273  1114 -272",
+                        "1131 -269",
+                        "1200 -395",
+                        "1173 -411  1100 -420  1043 -420 s",
+                        "530 -420  461 362  461 592 s",
+                        "461 823  534 1600 c"
                       ]
                     }
                   ]
+                },
+                "transform":{
+                  "xOffset":-180
                 },
                 "active":true
               }
@@ -1463,7 +1446,7 @@
       {
         "name":"parenright",
         "unicode":"0029",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-13 02:36:30",
         "layers":[
           {
             "name":"mask",
@@ -1475,38 +1458,38 @@
                   "contours":[
                     {
                       "nodes":[
-                        "699 0",
-                        "699 -238  670 -420  399 -420 s",
-                        "347 -420  285 -411  260 -395",
-                        "329 -269",
-                        "343 -272",
-                        "352 -273  364 -274  379 -274 s",
-                        "497 -274  499 -153  499 -14 s",
-                        "499 1194 s",
-                        "499 1333  497 1454  379 1454 s",
-                        "364 1454  352 1452  343 1451 s",
-                        "329 1449",
-                        "260 1575",
-                        "285 1591  347 1600  399 1600 s",
-                        "670 1600  699 1418  699 1180 s"
+                        "698 0",
+                        "698 -238  669 -420  398 -420 s",
+                        "346 -420  284 -411  259 -395",
+                        "328 -269",
+                        "342 -272",
+                        "351 -273  363 -274  378 -274 s",
+                        "496 -274  498 -153  498 -14 s",
+                        "498 1194 s",
+                        "498 1333  496 1454  378 1454 s",
+                        "363 1454  351 1452  342 1451 s",
+                        "328 1449",
+                        "259 1575",
+                        "284 1591  346 1600  398 1600 s",
+                        "669 1600  698 1418  698 1180 s"
                       ]
                     },
                     {
                       "nodes":[
-                        "899 0",
-                        "899 -238  870 -420  599 -420 s",
-                        "547 -420  485 -411  460 -395",
-                        "529 -269",
-                        "543 -272",
-                        "552 -273  564 -274  579 -274 s",
-                        "697 -274  699 -153  699 -14 s",
-                        "699 1194 s",
-                        "699 1333  697 1454  579 1454 s",
-                        "564 1454  552 1452  543 1451 s",
-                        "529 1449",
-                        "460 1575",
-                        "485 1591  547 1600  599 1600 s",
-                        "870 1600  899 1418  899 1180 s"
+                        "898 0",
+                        "898 -238  869 -420  598 -420 s",
+                        "546 -420  484 -411  459 -395",
+                        "528 -269",
+                        "542 -272",
+                        "551 -273  563 -274  578 -274 s",
+                        "696 -274  698 -153  698 -14 s",
+                        "698 1194 s",
+                        "698 1333  696 1454  578 1454 s",
+                        "563 1454  551 1452  542 1451 s",
+                        "528 1449",
+                        "459 1575",
+                        "484 1591  546 1600  598 1600 s",
+                        "869 1600  898 1418  898 1180 s"
                       ]
                     }
                   ]
@@ -1520,48 +1503,12 @@
             "advanceWidth":1300,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "1020 38",
-                        "1020 -55 o",
-                        "1000 -221 o",
-                        "929 -347 o",
-                        "794 -420 o",
-                        "680 -420 {n:'.av02'}",
-                        "654 -420 o",
-                        "598 -413 o",
-                        "541 -399 o",
-                        "489 -378 o",
-                        "468 -365 {n:'.ah02'}",
-                        "566 -245",
-                        "581 -245 o",
-                        "626 -238 o",
-                        "668 -200 o",
-                        "699 -120 o",
-                        "699 -46",
-                        "699 1227",
-                        "699 1298 o",
-                        "669 1380 o",
-                        "625 1421 o",
-                        "576 1431 o",
-                        "558 1431",
-                        "468 1545 {n:'.ah01'}",
-                        "489 1558 o",
-                        "541 1579 o",
-                        "598 1593 o",
-                        "654 1600 o",
-                        "680 1600 {n:'.av01'}",
-                        "794 1600 o",
-                        "929 1532 o",
-                        "1000 1412 o",
-                        "1020 1251 o",
-                        "1020 1158"
-                      ]
-                    }
-                  ]
-                }
+                "elementData":"elementdata.1",
+                "transform":{
+                  "xScale":-1,
+                  "xOffset":1480
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -1579,7 +1526,7 @@
               },
               {
                 "vertical":true,
-                "position":699,
+                "position":698,
                 "thickness":321
               }
             ],
@@ -2088,7 +2035,7 @@
             "advanceWidth":1300,
             "elements":[
               {
-                "elementData":"elementdata.1",
+                "elementData":"elementdata.2",
                 "transform":{
                   "xOffset":349
                 },
@@ -2203,7 +2150,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000045e494441546881ed9abd6e134110c777732697c88a160412e5a54b194aba734719de8047e011ce0505253c515c206a4aca838a8e2081144526c37ddfcedeceecf86c092bbe2de24beee7f9efceccaecf3351ea408699444761bb1dfb2cbadbb93d80283c00874c51385851e1981c324ef4a01d72277a63022b011503dc08443380b5c818dc87b1c218c08710a54b0a6e43738b09cc7d5785fd0d6149854148b4a660c91b8b1b6cc563518379e2608f8b060b2cd53458205c69830d97ea62b9002b7d917c0d2d755665c7b302cb39ac08fce75a9af5c81ce0a5aad6cb7a2486fbd7aa7232eb910b589fd7da6c022770bb2a5f33de2329dc2deb57364752f8d358651d97c18fead5b08e7b0cf0a9baf06fe9769c00bcaf2e22167bd2cd9cc574e707360c85d6797d95726178d5393fe3b0b8c3122e5aa6b39170d1ea3123c3622ea8a67343c46149e754cd6129fc6eae1e712992f621e2b03e7da28cc924cb0483e91ed3298d45082333c9c20adffc9260864e381bbb9261319d7076bc6327e1accf850b0b8b68ec126164c2d9b9a8c761c68f293ae1eced341b871902cbc8bc447b7807981547272f8d7da7c7f43599bee8b44ac8f4e530247a4b626a5b0c65b9259ad977cc284c6d8ba1ad85446f484c1118bd51398c1275f7733f6004663066480c4660b4e8186c4b51fa3390c3285139b6f26aea1d6086c022cadaa98be5025107a344e79435a128c69e52a2f39198ff48c2d8130ac38fa778dda4a896899258241365e7a636c50cbe21b6669faa5bce8d141dcccd2fca62fd8864a273fc7e26f418f3cf6d20ea9f9bde01d68b9ea21b9ab226c43487191926b4b6b1e80cdd88a860290e5323b03589f5a2c71ca636c584a20ad506e458eed53c9261c5e30a8df5a2d85a4c5a1362a8bcf19c12c5185dc440e5234362198321f78ab0cc7ea6604537c612f27125b30d24e43392104b6dec0d299a3ad6fcc63076cd61b9fdcb08cc1058463e4527f6661a871902a30b7aa87228c3dcf220fe8abdb630eadb878dc5744d32b68422bab4c661966864ed9998b6a6e5d8b215a1459585254c75d0aa1a27e4098df68c8b198ce5cda55b40b631eb5e4a9e8248296330cb0b997384188cb5f1e64ae5565039ac0faa763143624bca5a1fad2884adda59f258de61e80eeaa4744e356cddbd8b96104bdc8d8544bb644cd99e406784c7ba29656e8e23d1ce0f830e0ec2da6869be1fd486320a63ab463ca745cba97faf97c2f6211aff9a40e7ebb25e613ac0b068b91b1675339031d6ee060834666affea2186454b87bdab7eae39ac4e73136ca3156bfcb64c824db9f21859787a778ee8db023883507bacf20884b1e22b0894ce7563e588eab611c8634799a85fa8d39a0a75817fd698eb5db7ef7c5963a1ee6ed31a0d3450d51978dde68a1e7bfd31188d470254595df6f963d061bff22e7480554b5d8544ab262b7c096227dedd37109d7d2c9cbb0c5a8b66091c0729a516713e0b8baa17478b738135a58f2494749c78feb62ffff8b137a2fb3cb7c311dde7b9fd17d17d9edb03109dc634a6318d69eceff807db29d5bf129385620000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000051b494441546881ed9bbd92e34410c73596ceda3d9f575c4115a136db1042326d4678bc018fc0238c830b2e84275a07143121a12122e3a882aaad2b7383accfee99e9d61fa3452eea3a58cb353f4fcff4c7489a9e4d920f42259bb5b71586bd9855e9258bc1b07409a5eb25942e22cf961ec07f26a017c03c0531307ac1a50674568e615718f61cc3c085eb06c34001bd00da0d34c806c3c0998261094ee11ac3b61836efd8c0402a300c4c19d020a0d2c84cdf45b030424ab70fb1c0bcb9736f432c084bebdc31c4fc29d49db9f721e6dfdaeace9cfb36c0bce83527ca3d069867905cc0bc782b1aecafa9deca067353636b29b7f3313ed3bcc3f641774cd20e0bfcc003e9aec382a9f215a9e8b0c05d7cb5ac3a2c98eadac70e518c07d2c916e54f91a9b2b0cc9ae8f8a4c60e9ad2daf13fb4aa239149ba76ee8ba4996fe87c22b97bff55d2183912c0a3dcb9e36dabdb0f60763f2ddde3fef469038b306755eeddaefdf46364cdb13fbb5e7dc3316759f76bf359848623f29173df3717f194eee5cab937cd451a6054e9cb61e40146b3de0c7608dc4033abd675db5e559a1bbe1c8c6f352c1fb0d2f7160dcb62e8a3f4bd9547b12292f8112c8f243ec17a33a41a560e46351a56b93fbaab67da32528d2ed2b0317c52eb45d20b860d5df818113362a692b194613c926ea2586d9bdf81de88a555ec1586e572c0517fe7b1fb5b2b77044b65ec338689014763d1cc8a255ec091db074da7ccc3320c4b04ccf2b8149426560c5f18237ef4e232a52d23661e38b68e6324677d81b1c7a7c3a428b7b445ce9927c5586a198abd15b142c0e4443d0f9312d59d811528c6127585613718062a2d30cc08987c0fd4b02d8629bdeda39479422c95b06b1f3b90c6d159416f1493946e244c556a04ec63a9b78d866d652cbe2471eca584f1c7533e6f62b78d86494a452cd5b0f125451d5bf24fb18237c0bdc557d5b3c6262a0dc616570a6229a674c37fcfb1b58c814ae3989915bb660da2b354ac101ac4dee6c00c868d92b186f06db197b9b12380ad67c540a509db1bc0b143945a69187bf891b171e1e2bde5e2460188b1ed8d4fa55b1bc7bc4d0cf68041b042c42c8669bd11b1f499625eac141f572cede03c8cccb4a2d8d71c5b0958b0d511c71e34ec40bfd0b614c33201b3fcf1983c5b963499acf8147d0ee66de8918d0eb673e861591cf3b707d70c3b12ec0860b98ce544512aef7082584a722697318363bbee5adb7d2558a963fb1113772e2d8c1dba4b6d0399b455de2a486b46449315174b6605ab6cc011df6b5501e2540d1b9d6a706cc79ae897a131f531e361fb7e94cac6e5b0c79ffbb5036f67bbc38a68e1a897c15b2056aa9bfd43305653d8318eb1b2d73024ab1622063b04151ce685de5b26a807312ff4ae4c6365238eed3be507790aa7a1ffd24e45ad5575f62d54cf373b9c8f2dad62a76cb86f8b810ad567830b3cffdcc75c3b6125405a83bd6efeaad5a036cc8b49ac9ee3cfbb322cca7915cfd332721fa9dd796709bea981ad8b94c7b89c2ce2a6b1fa15c49d8cab3aa12fb38698778c6465857aa1d75bd552aa136af9adc574eb36a114315b205d69542d17d6b27580d99ab78669b30d16097eed7d370f517b04c7485e45271a54ff9ba9ee2786d61659dd8f93d8d554f6b5927d571b773789a559e990636cf7f901394af1f9eafe16c012133992031eae88087822e7e965de53881fe4ff2760902f12d160f48267a5c0937e8b9c7a058f3e2e22e0a1bb4564de6399f30a78c8735e99f7b4f0bc0206f9251fedbee47f73b8e435641139fff9ed5f0878cfbae4ffad48fe06903ed33c95d9fe1d0000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -2334,7 +2281,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.3",
+                  "id":"elementdata.4",
                   "contours":[
                     {
                       "nodes":[
@@ -2445,7 +2392,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c1800000280494441546881edd93f6fd43018c771bb3929b7656060e81010c38d193b30b8122f809700122fc45998197929656b07f6ae154b3321860e956e29e22e0fb123dacdcf1764c855f837dcf4911ffb71fe5d624c494949494949494949494949c963492b3d615e64273f7ae3e422c564ca4b1f7eef12ca06205fde4f3f63825591c9f8e23a54d658c8f7c4e4ea0736de26987f709f5051b9612cd111cbd8d47dc48c697eb121c9ee5d5ac5ed9f9268dbfdfc46d10f2887060b6c5051388229d34bc6a284c1d19a032e0a192cba08cbdbb7bced85a3755957da691786391bc6e068909db02540b6c1a30d80c1f6d659378b2f212383c7db86f52d2feb18837b0ad9222b85ecff5969f6865c00068fb745e6f694b10d638e31383758741106fb562fb1f570097017b26fd6005887cf2c58f4df3338b706b30130f82705fee5814b80673d646f0e9879c65af0e774666434be04521432fff899c3a30145192ceab216e5accfca60d1c2fe264bbdda3466cdd82963b0a8fd86d8eb1d62ed889817c87ac2dc7c8354e736b3f40be670f7be25a375f30b0e8dd5b2634547c2eaf974d79865cccc4f16ea81e4634754e6624754d6c68ea86cee88ca6c3cf5f473217644673e7444672e7484b03b7271884bd547abc34088f5a06825720a980def86c0f54de48a302f3784b5f295b046b6843d990860c7b2efc9bd5ec6b7e4c9616a1cb83b5b2f5760b4a3563e03565dca08983d93fd3958e907d9820f41e65dfc12a415352bd91376e447c28e1d62954373b31d62e68cb18f724dd82b36da73c62ac62c636b5e7404453d63e788c58f8a80359891a768c82c2b7ae84c5781ed19438fc7ec93d1746fd81236d5652c679e656520abdf196d85d4fa0fa7525252525292373f010b204f0c0d2773dd0000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c18000002bc494441546881edda316fd34014c0f1bb3ad461f2c0c0d0c120868c1e19185c890fc04700890f725e3a33f251cad60cecac154b3d21860e95b21491f8e13b0b5a12c7f7a79cea04ee0d19d29fdebb7b3edb17bb4ac5881163c7e370ec01c4182be2a18ff1cf475ce43162c4887187c8a522cc882ce57ba54a99fff6fddab557da7861ece7f540326d817c3e693f9a01963826cdb30b5bd9c76c7c9b6f67e90d6bae0698b9711f5051b9bcfd87c3ad6ca0239ab1b6fb882995fd64f5ed6f1f6e7583c9943bfc6d0cb4edd7f81a595b503d77e71225b3acf622bb8229f39774450983d9b21d2e0a192c3a0a0bdbb7b0ed85d98aa0332d7c17862e668cc16c903d6753806c86b3d580c1f6a6410f169f424006d7db8cf52d2c2b1883c714b251660ad9ff33d3e00d990306d75bdfd87a763561c7f698b119632563706cb0e8280cf62d1d6359c229c0a310fc60d58015f8cc8245ef9fc1b16598d580c11f29f0270f9c023ceb217bbdc3cc3096afff38ddca48363e05521432b3ffacc4d980a20c162d8316e5ac0aca60d1bd623d3bae9d195b2f1b7ab4a9d494b163c66051fd15b1574bc4f206312390558495dd0dd23bb68e0d3f60b677ef2b92ade81e70f8582a4b56b4212ced4e771fd38ca96e67e15d48c675c4cb4ad7112fcb5d47bcaceb88976977eaf9cf05d7113f33b6237e56da8e10764d2e0e6eaafe6ca94d8458058a2622c78069fb6c085cdf44ce09337249582e5f08cb6441d8a396007624ab8adceba57943760e6de3c0dd591b3907d90e72f90858f2491ac0f4a9accec04cdfc902bc08526fdd9b205f513591156107a621eca8442c29d1d87481983a65ecbd5c10f692657bca58c298ee651b5ba9292fda80a286b133c4dc4bc50db6b91bcc58b60c35a49f6d866645ef813df89b6c7e65d98a31b43d66af8cda7bc382b0b62e6321e349500662f227d926484def38941831f639e2bf8cc6d8c5f801574b4f6236663fcf0000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -2571,7 +2518,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c1800000299494441546881ed99c18dd43014866d8294134a095e8902d80e4c05b4401bdcec0eb6044a211dc091634a586e73c8ae4966123344d8fe467a9a44c2ff29523ec5ceef17bff71ca5aaaaaaaa7690675880d84f42e9103e32cca3415f09a5027a8769d08161bd28e645b16780293637c5dcadaaaaaaaa3aa09a13c24cf8f50e61933e4d17fac167b02e9cf5fd4bfe690b36295b3bb4e14aef7fbc7dfc37d684bf95488410d31bac47582a61424c6d061d18967a9cdb709e618957b5218c0e61e17a828941edf9565bc2cc3290b950a9609e6ebf0cf345dede29e0c6cbd5a3ca147b735ca6eedd8eb59985dc60a0768358238e817d44736c2c638a63a44e750cb36c512166c4315fc63a86b5e96f788b0d650c4692669892c51c8acb192301677124114c36446ed8bafa320643a4d92b44c8a2c25d44767b805faa61fe763c8300ec8665b8bfbf8e196799718639d289a75e605cc38cd330bd051698d05fc7fcb5cc5ff96500feb6ff97bfc0388875a2fe36cc5f0dfdcdb40a5bac2f63bb2cc30dfe1e76191caf923dc37a860d650c66cba36ffab2adcffd17f58666a517c3644ba07d2a25bea8c2052bc4bc1826db85404cefd1ac50ccb103946fa201f755ba8227d867d126fac35edd9b1c064f6d8e8cb507c61a51ecc873dbed4d933735c3ba1e61e61961f6748df914e6c66b2cf934f7cab0782b7b10e7e27c0a58cfb0e10f96de066dcc40268f9d1836c6ab4cfab071de59ccc4157239ac8ba93b9b28db986cb36957af4315b2f3ea7da124704bf951e83fecf210932f57cc32b942b5bd0446e9146339a12d358b4b256b4bd5cadc25fa73af38e4b0b9a1b8c8e7b0f81b389fc2e3bfc242b1b262857aeb69c1863cb6fe2ece53eb0fde621d65c998ab2525eae230a8046109a25859a9d41b445555555555555555dd45bf01620142f46fec73960000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c1800000455494441546881ed9a4b76d3500c86edbae0f2287709e61c1640776056c016d806337b072c81a5e01dc090619610661d845ef270dc2be9ff6dd549494f4f340ac987742329570f37cb3c125cd4193b634f117be5c3f2a31a3d09f6f21446e763adef7f46f0de5b80fdf618cd63fce4c35a0796c53b8fd12c82ef708d8c2e7c67eb8e8ab573b137085b9a37415aface9601ef9e267b9de2d4f6e2a8da9ee7e57000e69493683b634adef93067f682ba80e4293be42963ce60a51d57714bb1b47c54f18f2d883b09025bcbe7f58bfc7d3b8285b8959f5fc7b5f5d85a4cef9062654ce4c3afcb1b8c1551caf2202c5758e7c2d28279edc38428a30b6c546389ba22c51ac5b53eecfeab0aa3758cabc685c5f480c468bdfda80498d056f586aa1d9524b3c6fe2e362f8c7b05b64eb8d5eed54d269bbd2b85a1a6570bc784d132a2be72fb89c66ceff6004c182d0ec54a8de17b4468cbfdd86a1acbfc18fd3d25d2304c6aab7db1a798f0db366d2176edc382c1da69a38161525b19d11490a9df294f5fa98d6692c4729a70527cda28261db2893dcccb0b83c1845373564d3229f830e95e1afbe0c3d437657752b058378dd11491529014091643d152516029a27b2472d95c590c05556b23d783c6c8ef5e63e4975a02ac9bd616b07f35c60b8d101206ad8d5ce6a653c5fe3518f6af76c8b61769a7b5d5d07106aba0470c16a0470afd062ebd461b2e9610c3e54d480ecb9b9d17224a4c8b41ff62ac9b3e5c8dfc6bb5c130580c86c16225f22fc68c7fe162cdfa17ae105d7d01f22fd086fc0b30e45f8055bea28a30a02d00ff020cf9176005f02fc072e05f341447eb5f8675e07d25200c481b0803c2807f1186fc0b04a439d206c280301006848130c0d544e3c36a132d8a75e8038b2da6b5d96a49b1e534c6e72d21f6d287daeca50f313b21e10591092ac64cb40ec24c505f43ccb440589be9440fc24c0b8431d3021d84994e896cf374503976e7c074434530ddb09215221b2f00d626ffbef061e46c3aa86403a9a710a2cd89e52a4508a6633fa2ed8858233349cf327bec87c4d8f32c9570a6d9eee5bbc488519d70ec797d33b27f4be48b0fab7dd847b7b6e8c054fa1e176342b736a3180b7df09d6d1ec61e43943e6d8f8ad967e23b297cda14864b9b31cac489cd3b9b13bb3c4cdb03a290312c6798da5b762e6dd59260f2e2aa6f53acbdff406648b34a317ab6e68e60f26ccdf05118c75a8c29a3433d9bd0b6b8c7f835580f15a81ac76e3196296c35bc12e5c3acd33d583544a891980c56184ab72a946665dd7fd5d1b29bef4d4d54e7bdef754ba016444ddf7ee8f9c3ae85b74aaaf176a5ea0fa7bb6db0c8cdd8962839eaee4c665854dafa4eb69eea7b375362bb9d151763d866a0d8493b860d8f81c76799e159e1c464b4c72686bb6f3db618c7f68f8bb3712c474703b7650d6c0209c026db23397635a805c16b13c7622d436d3fab0bcf0f336be1ff61f4b8181b041ed5e84930d60d3eaad1e3624e617fbd33cfe8199b87917d8816d693cf337ac69e1f769699f20fdd9a535eac3f7a360000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -2695,7 +2642,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c1800000312494441546881edd9416ed4301480e15819290b845c89050b24cc0d587669d873186ee08803206ec04d989ea0e200480c3b768040a2d24cc7c4c924f52cf2de3f282da2f2db4ca57ecad8ef3d3b4ea6aa4a942851a2448912254a942851a2c4bd8aef8c7d406a75f98230b37bd81217ecd53bc0dec6f84d570ff62efed6675b471fe30eb0141b8db99e5d31b6672c5e28cc0f4c99ab0d917cab8d87806cc3989c926664f2e026165b89d513fb2231b36683736c701393ebf5686262bd6eae260ecec0cc55e1c4b2b62233acfad32cb465e8491da6cb69eb66acbfc2aa7332d56accdd85c62cc9c8d8c4fac6843272c889cefa9ce8db5c45f25b0d0503ac216538b493cefa42b43af38c5952ad610e80d58c1954fb7eaa847952fbbe4940edd35409ab51ed532f211618f3a845d25409b38c35a893525509ab200b8c797d4f3a8139d2be983d61cc32d650864eb7ff889185daad2dc40c63155acf893d232ca0854a195bf6155ba8dd618eb01ab218cf186bef9c35db45afc698c50ca8b44793ab79c60262353b14348c39c40c3a370e07479d79c682c2ce42ffa19d695fd9b4afbdd4d8eb6e8efb5dadb1b04f1de45496febf8e1a8b592ccbda3b624dcee62fe66e8d097bef5f30e12ee33326dcb3dce94cb8ede65fba61ec629e0554d22336af7226ddc3b3b10933c89930b48c8907028f2e763305f90e8ee699b10d63e2d0a6b129870bd0443993bf73fc52ed4c16904a55b8066f2e5d37c973fd1868e5761c03de1f8dbc54a650cb3944c08fb9e420db65e41a30cb1e4c1b9638c31257e9cdd6479791af80c18c783655d823f070045b2965e42363f01dc72fc02ceb1158fc9a2d879a15dfc0a986458bef305bf0000d3372c2aa813df209b0139603600befac61d19dd5b1c459c6167f81881e2761e23c4b1c648ee5b791591dc74f31bff5e1d388f9356fb6abe12f994d2fbec537afd32f9e2648f93dfcd8b252127760ebcff1bdc6b6fa79707c7c5acb47b8a3a7ac796617658e31bf287b9eb3f94e3abada7c8bdc3736dfe59085db63f33bdcd1d8e6ef208f19733f62f353674f870f6d6c5334e24cf308ec55748912254afcf7f1079be96774dc2a5c070000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000045d494441546881ed9a4d6e533110c7dfe3155c28c59558b040c2dc8065970ff61c861b38e200881b7013d213200e8044d8b1030412959ac624af7d0f7be63ff69084266a339b50f2eb8c67c61fe371ab4a235645edb01db68dd85d1d56afd5e846b03b9b30ba5e4c29f7d76a7423d8e1268cae173bd06137675a2ab5dd5eabb69bb3396c2459ebd5b6c3883cd061cad97b0dce856dc694c952565ccae3639b03b2cd5852607cd7fdce7b95d1bd0fcf25ac89fe5d4f0f470aacf2f6f46dd968f526846f65ec60e6c26fec6d6cb4096d08d3a2b6262c6452c25c879deab019c2f619164ee0e8fe4a7b81215f23a3d607d1aa89b070294a6c9237da63202411667a0c0cce002c8c72da9a01fb92c3eab13c389e2c383888e5f3f570c058beb0363899061fe4c899e4272fa535bd7d0cf91a65c636372b653f353a78415da51b578b5d6dc8cf0ebb4ab5f5f92f60d5b1349788789455bef75a1411c3308322728b5b45110107a503183817ba98906d8e86b7b74ae28b4e999663dcd34b5fcbda6a1dd6256284bee0834b31a8cdb26c812c5cf89062505bc3b07d84d52cf7f810f73aaca5b9c798a3b947c9ea5c4d31acada1b917ea10e184a3e275da5a324504cce9304b301c904544460a6db50eab94984f31b44e17d2a67b92a44d89395cdd143049db631d667598d18dcda46b46d6b611ec5483353aacce970583a4eb59bc2f84e9530de69385aac444093a6de94215033256618d120be148878dfe1d9344a9cd9c2d63549e96aab1599d36ab4b96d3696b759857614d50614657623895b69ad68d18b33aac2dde2d3af1056d47befb60352dc15edac5bef6a284bd9afb389b3625cccf1633c815b1c5f7e350c2422431764f8765b48dae083331568998fb6f5866ef5d02cb9c326d84256756da42741256895872eca6a57b6c74a21bdb49fc457a29f6424a89b618ab5458ae748fc636d161231546ee8012962a237799c1057ad0a7ef5962420dc62604dbc718191a79aff7c2d088a77012c918b589739aef23f558be1556755938879d4bb60067c768ada498a5d3110b3d1f05a9e952e9853c65827482b1f16b2ec65aa1454b9e21e611395768b3c2c5946046081cc16a2170b45783261bd7b688c8578091a34d8c08c734c5b83047e8d884e208f5df00b647ff638e7d2c6bab344ba6ea92ff4b81593847d8f51f279f696be072609d9f06269f75f36ae82a6f4d78947c5e34c2e473cc218c1b75e56db0fb451d062302ea5e61d550f1207040dbdc874f0a0c2d07d07a457304f46ad0720046d1ce8a2e029eefaca841047656a4cdf1c021ccea30d640c4c21a88c29587c757c24e1458cb02b70ae6587c2166f25813facf6c0fbf4f709daddfead767977b6c1e1b1adfb4f39ac8f0e2597b1a5fcbb0b0070207b0f1e7f0ae849de17a30c6faebd39897700803955e8cd9b5624e87b52b63f1aa7f1663f2b522d126b7faaf0c333a6c55a3f2fb8212f32b630712265f1593b1c917cf473accfd08e667197b72f181c606c5304fa53f67f59aa725263b6c390c3e65726135f94a4677d8f5c376b2a4fc01179177de997fdcfe0000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -4494,7 +4441,7 @@
                 "active":true
               },
               {
-                "elementData":"elementdata.1",
+                "elementData":"elementdata.2",
                 "transform":{
                   "xOffset":313
                 }
@@ -4842,7 +4789,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d4948445200000253000001a401030000002ff0329700000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000016449444154789ceddb6b4a8201140661a5a4a2b0288a2ebaff6dba8681f971e8ccb380171cedbbf8d9e1907fe063e8d651dcba17b7dec5ad0771cbecf5296e99bdbec4ada9cc5ebfe2d69bb865323ff7f562eac5d48ba917532fa65e4cbd987a31f562eac5d48ba917532fa65e4cbd987a31f562eac5d48b99dacb7c3e64f63a8b5b66afa9cff99ec52db397f90cccecf5276e99bdccf7d1ec65be8f662ff3b86af6ba8a5b1b8e5fe679c8ec7511b736f47a14b7cc5e77e2d686f3e349dc327b7d8b5b66af57716bc3fdd0d4ebaf1f716beaef1ecd5e4fe256d75fcc86f3a3795c357b99c709b397b965f69afa1acdcffd86f3a369c3f7abe66b34b7ccfb5ab39779df61f67a11b7cc5ee6ff51f4fd04b3e17edb64debb6f502fc6fc1b3299d798a67a31f562eac5d48ba917532fa65e4cbd987a31f562eac5d48ba917532fa65e4cbd987a31f562eac5d48ba917532fa65eccd45e4992244992244992244992244932c60d49e909204744ec6b0000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d4948445200000253000001a401030000002ff0329700000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c18000001f249444154789ceddcd96ec2301844e1b4b485ee85ee2befff96bd47e202e9804f34f33dc0c8368ee3fc319926cc331735bd80591760d60d98750b66fd8159a4ede806ec41b68bcc7a05b3acac73825c73acbec0ac0598f50866912ec12c72bdb7ae5fa4843e2648f81dc976917b4cd21998b502b3acac73957c56b0f691bc6f5bfb68f504669d835924727e91eb6a026bad2301796d571dd3359865dd03586b0aef60d60f984522c7eb0accb23e6fdf8159641df31bcc2259d71c720f40be9b23bd8d6ec00924cc2f92755d2559c79e64dd4f9012e62ab9c7b4f69194d0c71aa7f3eb30d6f77c09efe6eec12c6b1da0ea98c86b8864bd86c83a93b5ee4b4a788621dbf5096659e717d92e92f59db4f55c5ac2f568ed2389acdf5bc7cb7a06c9da2e2bf2ff0ad63ab9f51ab2b68bb41edd801320ffe3693d5b50351709eb6a02f2def1016655cd05598321eb4cd67a3429a16e623dab9830f656d67a748287d10d98992598d575a276fd825909679048d63d0099659d1309e7c949bd771c2661bcc87d349945ee31c9df91fcffa315395efdc6c6389bd10da89a39f27b4324ebb302897c9f667d1740be7f24f726d6333564bbc873db55bbc8e7a18433a7d6fb90b55da484fd4402f27bee09df72b53e235beb26d675c23abf1258c79efc9698b58f64bb12bebd5655555555555555557bfc03b4cc0d86178d69f60000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -5515,7 +5462,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d49484452000000570000009701030000005aee559b00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000005849444154388d63604002ffe1e00711ec3f28ec7a92d87f49548fce7e0077b33dc9ec0f7464ff186513c5661c046e182c6c28f84022fb070dd87f88658fa6878165d3b34c7b40121b516eff20918dabbe20aeeef84f3e1b003ceba6d70c84f28a0000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d49484452000000570000009701030000005aee559b00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000006b49444154388dedd5310e80200c4051389947e3aa1ca163496aea62f02f2246494ca4d3cf9b1a861202c6eb28ba9cf88ab690e069b8e7baf3523ba25b2e7019ec0ad7e9d33b7c1f89e80e57b8bee406b7967fe1ddfeeca3ef183dc3f3a51f77bba0b5c39ffd170ef77bbe0132f8a71d92aeb9ef0000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -10272,7 +10219,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "guidelines":[
@@ -11328,7 +11276,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000003a000000a5010300000037457cfd00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000008249444154388dedd3bd0980301005e013114b47d04d5c4c30a3398a23a4b4083e7339cf5f2c2c220aa6c8fb8a84770442b45925d005001838530fc7c83dc0281846ce0aea135a05f416e7e833d9c1cd0d01a161505881cdac74f6540964be2d8c8ebe802e311e50af703f7e440030ff821b304fe025eff349b4d1803b4815440d6f136151f195cffc97a70000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000003a000000a5010300000037457cfd00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c18000000b149444154388dddd3c10e82300c00d02ec4e8cdf34e7ad1dfe0c74cd86ff835f0297ec28e1c166abb6e0304cd30261077a02f4db376640318ac1362e381882dc782e0187b021e084786915a4139424da862862386fdb0a3a84670a18387efd0465881dd59e9f980b340e61bc2c4d113e02dba17943ddc5ab8acda3d416f638c4550db182361ee1f22865710a0279929cc8f70ff54f3cd01affff52e72eefc6c4db51c3aa346f10d08991c14110037fe3c012b68f2fd6770bad80000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -13075,7 +13023,7 @@
       {
         "name":"v",
         "unicode":"0076",
-        "lastModified":"2026-04-19 21:03:04",
+        "lastModified":"2026-05-13 01:49:28",
         "layers":[
           {
             "name":"mask",
@@ -14387,7 +14335,7 @@
                 "active":true
               },
               {
-                "elementData":"elementdata.1",
+                "elementData":"elementdata.2",
                 "transform":{
                   "xOffset":350,
                   "yOffset":736
@@ -18185,7 +18133,7 @@
                 }
               },
               {
-                "elementData":"elementdata.1",
+                "elementData":"elementdata.2",
                 "transform":{
                   "xOffset":386,
                   "yOffset":736
@@ -38270,7 +38218,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.2",
+                  "id":"elementdata.3",
                   "contours":[
                     {
                       "nodes":[
@@ -38378,7 +38326,7 @@
             "advanceWidth":1300,
             "elements":[
               {
-                "elementData":"elementdata.2",
+                "elementData":"elementdata.3",
                 "transform":{
                   "xOffset":3,
                   "yOffset":1225
@@ -38458,7 +38406,7 @@
             "advanceWidth":1300,
             "elements":[
               {
-                "elementData":"elementdata.2",
+                "elementData":"elementdata.3",
                 "transform":{
                   "xOffset":3,
                   "yOffset":-33
@@ -38565,14 +38513,14 @@
                   "composite":{
                     "includes":[
                       {
-                        "elementData":"elementdata.2",
+                        "elementData":"elementdata.3",
                         "transform":{
                           "xOffset":-270,
                           "yOffset":1225
                         }
                       },
                       {
-                        "elementData":"elementdata.2",
+                        "elementData":"elementdata.3",
                         "transform":{
                           "xOffset":205,
                           "yOffset":1225
@@ -38644,14 +38592,14 @@
             "advanceWidth":1300,
             "elements":[
               {
-                "elementData":"elementdata.2",
+                "elementData":"elementdata.3",
                 "transform":{
                   "xOffset":-235,
                   "yOffset":1225
                 }
               },
               {
-                "elementData":"elementdata.2",
+                "elementData":"elementdata.3",
                 "transform":{
                   "xOffset":240,
                   "yOffset":1225
@@ -38778,14 +38726,14 @@
                   "composite":{
                     "includes":[
                       {
-                        "elementData":"elementdata.2",
+                        "elementData":"elementdata.3",
                         "transform":{
                           "xOffset":-235,
                           "yOffset":1227
                         }
                       },
                       {
-                        "elementData":"elementdata.2",
+                        "elementData":"elementdata.3",
                         "transform":{
                           "xOffset":240,
                           "yOffset":1227
@@ -41180,7 +41128,7 @@
       {
         "name":"superscriptfour",
         "unicode":"2074",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-13 02:35:43",
         "layers":[
           {
             "name":"img",
@@ -41232,7 +41180,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -41923,7 +41872,7 @@
       {
         "name":"superscriptleftparenthesis",
         "unicode":"207d",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-13 02:36:30",
         "layers":[
           {
             "name":"img",
@@ -41952,47 +41901,12 @@
             "advanceWidth":1300,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "189 1296",
-                        "189 1342 o",
-                        "199 1423 o",
-                        "235 1483 o",
-                        "302 1517 o",
-                        "359 1517",
-                        "372 1517 o",
-                        "400 1513 o",
-                        "429 1506 o",
-                        "455 1496 o",
-                        "465 1489",
-                        "420 1432",
-                        "411 1432 o",
-                        "387 1427 o",
-                        "365 1407 o",
-                        "350 1366 o",
-                        "350 1330",
-                        "350 694",
-                        "350 657 o",
-                        "365 617 o",
-                        "386 598 o",
-                        "409 594 o",
-                        "416 594",
-                        "465 534",
-                        "455 528 o",
-                        "429 517 o",
-                        "400 510 o",
-                        "372 507 o",
-                        "359 507",
-                        "302 507 o",
-                        "235 543 o",
-                        "199 606 o",
-                        "189 689 o",
-                        "189 736"
-                      ]
-                    }
-                  ]
+                "elementData":"elementdata.1",
+                "transform":{
+                  "xScale":0.5,
+                  "yScale":0.5,
+                  "xOffset":235,
+                  "yOffset":717
                 }
               }
             ],
@@ -42009,7 +41923,7 @@
               },
               {
                 "vertical":true,
-                "position":189,
+                "position":465,
                 "thickness":161
               }
             ],
@@ -42021,7 +41935,7 @@
       {
         "name":"superscriptrightparenthesis",
         "unicode":"207e",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-13 02:36:30",
         "layers":[
           {
             "name":"img",
@@ -42050,47 +41964,12 @@
             "advanceWidth":1300,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "510 736",
-                        "510 689 o",
-                        "500 606 o",
-                        "464 543 o",
-                        "397 507 o",
-                        "340 507",
-                        "327 507 o",
-                        "299 510 o",
-                        "270 517 o",
-                        "244 528 o",
-                        "234 534",
-                        "283 594",
-                        "290 594 o",
-                        "313 598 o",
-                        "334 617 o",
-                        "349 657 o",
-                        "349 694",
-                        "349 1330",
-                        "349 1366 o",
-                        "334 1407 o",
-                        "312 1427 o",
-                        "288 1432 o",
-                        "279 1432",
-                        "234 1489",
-                        "244 1496 o",
-                        "270 1506 o",
-                        "299 1513 o",
-                        "327 1517 o",
-                        "340 1517",
-                        "397 1517 o",
-                        "464 1483 o",
-                        "500 1423 o",
-                        "510 1342 o",
-                        "510 1296"
-                      ]
-                    }
-                  ]
+                "elementData":"elementdata.1",
+                "transform":{
+                  "xScale":-0.5,
+                  "yScale":-0.5,
+                  "xOffset":1065,
+                  "yOffset":1307
                 }
               }
             ],
@@ -42107,7 +41986,7 @@
               },
               {
                 "vertical":true,
-                "position":349,
+                "position":673,
                 "thickness":161
               }
             ],
@@ -43328,7 +43207,7 @@
       {
         "name":"subscriptleftparenthesis",
         "unicode":"208d",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-13 02:36:30",
         "layers":[
           {
             "name":"img",
@@ -43357,48 +43236,14 @@
             "advanceWidth":1300,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "189 79",
-                        "189 125 o",
-                        "199 206 o",
-                        "235 266 o",
-                        "302 300 o",
-                        "359 300",
-                        "372 300 o",
-                        "400 296 o",
-                        "429 289 o",
-                        "455 279 o",
-                        "465 272",
-                        "420 215",
-                        "411 215 o",
-                        "387 210 o",
-                        "365 190 o",
-                        "350 149 o",
-                        "350 113",
-                        "350 -523",
-                        "350 -560 o",
-                        "365 -600 o",
-                        "386 -619 o",
-                        "409 -623 o",
-                        "416 -623",
-                        "465 -683",
-                        "455 -689 o",
-                        "429 -700 o",
-                        "400 -707 o",
-                        "372 -710 o",
-                        "359 -710",
-                        "302 -710 o",
-                        "235 -674 o",
-                        "199 -611 o",
-                        "189 -528 o",
-                        "189 -481"
-                      ]
-                    }
-                  ]
-                }
+                "elementData":"elementdata.1",
+                "transform":{
+                  "xScale":0.5,
+                  "yScale":0.5,
+                  "xOffset":235,
+                  "yOffset":-500
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -43414,7 +43259,7 @@
               },
               {
                 "vertical":true,
-                "position":189,
+                "position":466,
                 "thickness":161
               }
             ],
@@ -43426,7 +43271,7 @@
       {
         "name":"subscriptrightparenthesis",
         "unicode":"208e",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-13 02:36:35",
         "layers":[
           {
             "name":"img",
@@ -43455,48 +43300,14 @@
             "advanceWidth":1300,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "510 -481",
-                        "510 -528 o",
-                        "500 -611 o",
-                        "464 -674 o",
-                        "397 -710 o",
-                        "340 -710",
-                        "327 -710 o",
-                        "299 -707 o",
-                        "270 -700 o",
-                        "244 -689 o",
-                        "234 -683",
-                        "283 -623",
-                        "290 -623 o",
-                        "313 -619 o",
-                        "334 -600 o",
-                        "349 -560 o",
-                        "349 -523",
-                        "349 113",
-                        "349 149 o",
-                        "334 190 o",
-                        "312 210 o",
-                        "288 215 o",
-                        "279 215",
-                        "234 272",
-                        "244 279 o",
-                        "270 289 o",
-                        "299 296 o",
-                        "327 300 o",
-                        "340 300",
-                        "397 300 o",
-                        "464 266 o",
-                        "500 206 o",
-                        "510 125 o",
-                        "510 79"
-                      ]
-                    }
-                  ]
-                }
+                "elementData":"elementdata.1",
+                "transform":{
+                  "xScale":-0.5,
+                  "yScale":-0.5,
+                  "xOffset":1065,
+                  "yOffset":90
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -43512,7 +43323,7 @@
               },
               {
                 "vertical":true,
-                "position":349,
+                "position":673,
                 "thickness":161
               }
             ],
@@ -77255,10 +77066,10 @@
             "advanceWidth":1300,
             "elements":[
               {
-                "elementData":"elementdata.3"
+                "elementData":"elementdata.4"
               },
               {
-                "elementData":"elementdata.1",
+                "elementData":"elementdata.2",
                 "transform":{
                   "xScale":0.56970422,
                   "yScale":0.75960562,
