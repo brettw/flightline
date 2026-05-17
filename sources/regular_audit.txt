@@ -1,0 +1,170 @@
+X A: left=18 right=15
+X W: left=12 right=10
+X onehalf: right=30
+X Agrave: left=18 right=15
+X Aacute: left=18 right=15
+X Acircumflex: left=18 right=15
+X Atilde: left=18 right=15
+X Adieresis: left=18 right=15
+X Aring: left=18 right=15
+X AE: left=21 right=85
+? Eth: left=50
+X OE: left=21 right=85
+X oe: left=20 right=11
+X Alpha: left=18 right=15
+X Deltagreek: left=1
+X Omicron: right=124
+X Phi: left=29
+X pi: left=19
+X omega: right=40
+X omega1: right=47
+X emdash: left=50 right=50
+X quotationdash: left=50
+X ellipsis: left=13
+X perthousand: left=600
+X pertenthousandsign: left=600 right=500
+  centigrade: left=189 right=187
+  fahrenheit: left=174 right=165
+X weierstrass: left=29 right=39
+X trademark: left=50
+X angstrom: left=18 right=15
+X onethirds: right=50
+X twothirds: right=51
+X onefifth: right=33
+X twofifths: right=33
+X threefifths: right=33
+X fourfifths: right=33
+X onesixth: right=50
+X fivesixths: right=50
+X oneeighth: right=49
+X threeeighths: right=49
+X fiveeighths: right=49
+X seveneighths: right=49
+X romannumeraltwo: left=114 right=126
+X romannumeralthree: left=414 right=302
+X romannumeralfour: left=414 right=295
+X romannumeralsix: left=588 right=6
+X romannumeralseven: left=588 right=526
+X romannumeraleight: left=788 right=802
+X romannumeralnine: left=314 right=298
+X romannumeraleleven: left=630 right=26
+X romannumeraltwelve: left=630 right=536
+  smallromannumeralthree: left=50
+  smallromannumeralfour: left=50
+  smallromannumeralsix: left=76
+  smallromannumeralseven: left=526
+  smallromannumeraleight: left=526 right=290
+  smallromannumeralnine: left=50 right=37
+  smallromannumeraleleven: left=144
+  smallromannumeraltwelve: left=394 right=90
+X arrowleft: left=70 right=50
+X arrowright: left=50 right=70
+X arrowboth: left=70 right=70
+X leftwardsarrowwithhook: left=70
+X rightwardsarrowwithhook: left=50
+  undo: left=70 right=50
+  redo: left=50 right=70
+  arrowdblleft: left=150 right=50
+  arrowdblright: left=50 right=150
+  arrowdblleftright: left=150 right=150
+  leftwardsdashedarrow: left=70 right=100
+  rightwardsdashedarrow: left=100 right=70
+  universal: left=22
+  emptyset: left=40
+  gradient: left=1
+  infinity: left=30 right=30
+  therefore: left=414
+  because: left=414
+  circleplus: left=67 right=67
+  circleminus: left=67 right=67
+  circlemultiply: left=67 right=67
+  circledivide: left=67 right=67
+  verticalellipsis: left=14
+  house: left=50 right=50
+  day: left=201 right=175
+  cloud: left=300 right=140
+  blackstar: left=51 right=51
+  boxwithacheck: right=38
+  sun: left=35 right=36
+  warning: left=308 right=209
+  plane: left=270 right=200
+  mail: left=50
+  whitecircledone: left=40 right=40
+  whitecircledtwo: left=40 right=40
+  whitecircledthree: left=40 right=40
+  whitecircledfour: left=40 right=40
+  whitecircledfive: left=40 right=40
+  whitecircledsix: left=40 right=40
+  whitecircledseven: left=40 right=40
+  whitecircledeight: left=40 right=40
+  whitecirclednine: left=40 right=40
+  whitecircledzero: left=40 right=40
+  widerightwardsarrow: left=50 right=50
+  ffligature: right=1
+  stligature: left=16 right=11
+  takeoff: left=623 right=602
+  climb: left=580 right=602
+  cruise: left=600 right=600
+  descent: left=519 right=516
+  landing: left=620 right=503
+  levelup: left=332 right=346
+  leveldown: left=332 right=346
+  hot: left=300 right=366
+  cold: left=300 right=167
+  wet: left=300 right=140
+  slush: left=300 right=140
+  ice: left=300 right=140
+  lightning: left=300 right=140
+  fog: left=300 right=140
+  wind: left=300 right=300
+  clock: left=217 right=117
+  clockwiseclock: left=217 right=357
+  counterclockwiseclock: left=257 right=317
+  phonein: left=200
+  phoneout: left=331 right=100
+  slashedphone: left=11
+  mailin: left=400 right=300
+  mailout: left=400 right=300
+  slashedmail: left=61
+  wifiin: left=350 right=230
+  wifiout: left=231 right=450
+  slashedwifi: left=231 right=130
+  comsatin: left=500 right=344
+  comsatout: left=475 right=500
+  slashedcomsat: left=211 right=44
+  radioin: left=350 right=37
+  radioout: left=36 right=450
+  slashedradio: left=101 right=46
+  speakerlow: left=50
+  speakerhigh: left=50 right=216
+  eject: left=64
+  play: left=64
+  rewind: left=64
+  pause: left=64
+  stop: left=64
+  start: left=64
+  end: left=64
+  fastrewind: left=64
+  fastforward: left=64
+  back: left=64
+  next: left=64
+  standby: left=64
+  zoomin: left=50 right=50
+  zoomout: left=50 right=50
+  save: left=50
+  erase: left=50
+  print: left=50
+  import: left=200 right=100
+  export: left=200 right=300
+  send: left=50 right=50
+  return: left=50 right=50
+  copy: right=50
+  paste: right=50
+  close: left=16
+  suppr: left=18
+  add: left=17
+  help: left=300 right=34
+  info: left=300 right=34
+  update: left=100 right=100
+  noentry: left=64
+  noparking: left=64
