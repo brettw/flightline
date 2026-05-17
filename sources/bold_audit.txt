@@ -1,0 +1,204 @@
+numbersign: left=14 right=14
+at: left=9 right=9
+G: left=6 right=1
+H: left=2
+K: right=3
+V: left=35 right=31
+W: left=29 right=16
+X: left=34 right=33
+Y: left=10 right=3
+m: right=8
+w: left=16
+asciitilde: left=19 right=16
+yen: left=10 right=3
+guillemotleft: left=24
+logicalnot: right=11
+mu: right=19
+guillemotright: right=27
+onequarter: right=24
+onehalf: right=33
+threequarters: right=2
+AE: left=50 right=50
+Eth: left=50 right=49
+Ograve: left=26
+Oacute: left=26
+Ocircumflex: left=27
+Otilde: left=26
+Odieresis: left=26
+Yacute: left=41
+ae: left=31 right=35
+oslash: left=14
+OE: left=81 right=50
+oe: left=48 right=49
+Ydieresis: left=7 right=6
+florin: left=16 right=10
+Deltagreek: left=45 right=44
+Eta: left=73
+Kappa: right=2
+Lambda: left=18 right=17
+Omicron: right=171
+Upsilon: right=32
+Phi: left=28 right=25
+Chi: left=33 right=34
+Psi: left=1
+Omegagreek: left=15
+pi: left=49 right=49
+phi: left=33 right=32
+chi: left=16 right=15
+omega: left=27 right=21
+theta1: left=32 right=30
+phi1: left=24 right=21
+omega1: left=23 right=36
+emdash: left=50 right=50
+quotationdash: left=50
+ellipsis: left=47 right=128
+perthousand: left=646
+pertenthousandsign: left=646 right=528
+centigrade: left=596
+fahrenheit: left=596
+weierstrass: left=29 right=39
+trademark: left=37 right=34
+Ohm: left=15
+onethirds: right=58
+twothirds: right=59
+onefifth: right=50
+twofifths: right=50
+threefifths: right=50
+fourfifths: right=50
+onesixth: right=72
+fivesixths: right=72
+oneeighth: right=66
+threeeighths: right=66
+fiveeighths: right=66
+seveneighths: right=66
+romannumeraltwo: left=246 right=95
+romannumeralthree: left=646 right=300
+romannumeralfour: left=296 right=381
+romannumeralfive: left=35 right=31
+romannumeralsix: left=685 right=45
+romannumeralseven: left=685 right=695
+romannumeraleight: left=885 right=495
+romannumeralnine: left=396 right=352
+romannumeralten: left=65 right=2
+romannumeraleleven: left=715
+romannumeraltwelve: left=715 right=595
+smallromannumeralthree: left=100
+smallromannumeralfour: left=60 right=62
+smallromannumeralsix: left=58 right=60
+smallromannumeralseven: left=568 right=50
+smallromannumeraleight: left=568 right=550
+smallromannumeralnine: left=100 right=90
+smallromannumeraleleven: left=93 right=100
+smallromannumeraltwelve: left=443 right=150
+arrowleft: left=70 right=50
+arrowright: left=50 right=70
+arrowboth: left=70 right=70
+leftwardsarrowwithhook: left=70
+rightwardsarrowwithhook: left=50
+undo: left=70 right=50
+redo: left=50 right=70
+arrowdblleft: left=150 right=50
+arrowdblright: left=50 right=150
+arrowdblleftright: left=150 right=150
+leftwardsdashedarrow: left=70 right=100
+rightwardsdashedarrow: left=100 right=70
+universal: left=22
+emptyset: left=40
+gradient: left=1
+infinity: left=30 right=30
+therefore: left=447
+because: left=447
+circleplus: left=67 right=67
+circleminus: left=67 right=67
+circlemultiply: left=67 right=67
+circledivide: left=67 right=67
+verticalellipsis: left=47
+house: left=50 right=50
+day: left=201 right=175
+cloud: left=300 right=140
+blackstar: left=51 right=51
+boxwithacheck: right=38
+sun: left=35 right=36
+warning: left=308 right=209
+plane: left=270 right=200
+mail: left=50
+whitecircledone: left=40 right=40
+whitecircledtwo: left=40 right=40
+whitecircledthree: left=40 right=40
+whitecircledfour: left=40 right=40
+whitecircledfive: left=40 right=40
+whitecircledsix: left=40 right=40
+whitecircledseven: left=40 right=40
+whitecircledeight: left=40 right=40
+whitecirclednine: left=40 right=40
+whitecircledzero: left=40 right=40
+widerightwardsarrow: left=50 right=50
+ffligature: left=22 right=31
+flligature: left=20 right=13
+stligature: left=49 right=49
+takeoff: left=623 right=602
+climb: left=580 right=602
+cruise: left=600 right=600
+descent: left=519 right=516
+landing: left=620 right=503
+levelup: left=332 right=346
+leveldown: left=332 right=346
+hot: left=300 right=366
+cold: left=300 right=167
+wet: left=300 right=140
+slush: left=300 right=140
+ice: left=300 right=140
+lightning: left=300 right=140
+fog: left=300 right=140
+wind: left=300 right=300
+clock: left=217 right=117
+clockwiseclock: left=217 right=357
+counterclockwiseclock: left=257 right=317
+phonein: left=200
+phoneout: left=331 right=100
+slashedphone: left=11
+mailin: left=400 right=300
+mailout: left=400 right=300
+slashedmail: left=61
+wifiin: left=350 right=230
+wifiout: left=231 right=450
+slashedwifi: left=231 right=130
+comsatin: left=500 right=344
+comsatout: left=475 right=500
+slashedcomsat: left=211 right=44
+radioin: left=350 right=37
+radioout: left=36 right=450
+slashedradio: left=101 right=46
+speakerlow: left=50
+speakerhigh: left=50 right=216
+eject: left=64
+play: left=64
+rewind: left=64
+pause: left=64
+stop: left=64
+start: left=64
+end: left=64
+fastrewind: left=64
+fastforward: left=64
+back: left=64
+next: left=64
+standby: left=64
+zoomin: left=50 right=50
+zoomout: left=50 right=50
+save: left=50
+erase: left=50
+print: left=50
+import: left=200 right=100
+export: left=200 right=300
+send: left=50 right=50
+return: left=50 right=50
+copy: right=50
+paste: right=50
+close: left=16
+suppr: left=18
+add: left=17
+help: left=300 right=34
+info: left=300 right=34
+update: left=100 right=100
+noentry: left=64
+noparking: left=64
