@@ -1,0 +1,283 @@
+.notdef: left=42 right=42
+numbersign: left=51 right=47
+dollar: left=26
+percent: left=17 right=10
+ampersand: left=69
+slash: left=50 right=50
+two: left=1
+at: left=59 right=61
+A: left=15
+C: left=19 right=21
+D: left=48 right=44
+E: left=11 right=4
+F: left=18 right=14
+G: left=31 right=36
+H: left=40 right=37
+K: left=42 right=42
+M: left=45 right=49
+N: left=45 right=47
+O: left=18 right=26
+P: left=22 right=27
+Q: left=20 right=30
+S: left=11
+U: left=8 right=11
+V: left=33 right=33
+W: left=20 right=26
+X: left=20 right=50
+Y: right=13
+Z: left=20 right=37
+asciicircum: right=19
+underscore: left=133
+f: left=34 right=32
+m: left=78 right=83
+p: left=13 right=24
+w: right=23
+x: left=51 right=79
+y: left=76 right=60
+braceright: left=45
+asciitilde: left=81 right=33
+sterling: left=33 right=29
+yen: left=44 right=43
+guillemotleft: left=9 right=9
+logicalnot: left=18 right=21
+mu: left=33 right=32
+guillemotright: right=39
+onequarter: right=42
+onehalf: right=32
+threequarters: right=42
+questiondown: left=57
+Agrave: left=15
+Aacute: left=15 right=51
+Acircumflex: left=15
+Atilde: left=15 right=51
+Adieresis: left=15 right=51
+Aring: left=15
+AE: left=132 right=115
+Ccedilla: left=29 right=11
+Egrave: left=11 right=4
+Eacute: left=11 right=4
+Ecircumflex: left=11 right=4
+Edieresis: left=11 right=4
+Iacute: right=48
+Eth: left=86 right=126
+Ntilde: left=45 right=47
+Ograve: left=44
+Oacute: left=44
+Ocircumflex: left=45
+Otilde: left=18 right=26
+Odieresis: left=14 right=30
+Oslash: left=18 right=26
+Ugrave: left=8 right=11
+Uacute: left=8 right=11
+Ucircumflex: left=8 right=11
+Udieresis: left=8 right=11
+Yacute: left=31
+ae: left=71 right=49
+oacute: right=6
+oslash: left=40 right=40
+yacute: left=67 right=69
+thorn: left=29 right=37
+ydieresis: left=67 right=69
+OE: left=57 right=95
+oe: left=61 right=85
+Scaron: left=9 right=17
+Ydieresis: right=16
+florin: left=166 right=160
+Alpha: left=15
+Gamma: left=4
+Deltagreek: left=44 right=44
+Epsilon: left=11 right=4
+Zeta: left=60
+Eta: left=111
+Theta: right=50
+Kappa: left=43 right=41
+Lambda: left=21 right=12
+Mu: left=45 right=49
+Nu: left=45 right=47
+Xi: left=42 right=43
+Omicron: right=200
+Rho: left=22 right=27
+Sigma: left=47 right=42
+Upsilon: right=42
+Phi: left=63 right=62
+Chi: left=19 right=51
+Psi: left=31 right=31
+Omegagreek: left=89 right=47
+beta: left=12 right=19
+uni03BC: left=2
+sigma: left=24 right=19
+phi: left=51 right=51
+chi: left=157 right=150
+psi: left=26 right=26
+omega: left=50 right=57
+theta1: left=47 right=42
+Upsilon1: right=7
+phi1: left=41 right=40
+omega1: left=75 right=117
+endash: left=28
+emdash: left=74 right=64
+quotationdash: left=19 right=19
+ellipsis: left=50 right=140
+perthousand: left=663
+pertenthousandsign: left=663 right=535
+Euro: left=32 right=50
+centigrade: left=606
+fahrenheit: left=606 right=64
+weierstrass: left=29 right=39
+trademark: left=38 right=50
+Ohm: left=89 right=47
+angstrom: left=15
+onethirds: right=42
+twothirds: left=27 right=42
+onefifth: right=33
+twofifths: left=27 right=42
+threefifths: right=33
+fourfifths: right=33
+onesixth: right=42
+fivesixths: right=32
+oneeighth: right=42
+threeeighths: right=42
+fiveeighths: right=42
+seveneighths: right=22
+fractionnumeratorone: right=42
+romannumeraltwo: left=319 right=231
+romannumeralthree: left=719 right=436
+romannumeralfour: left=569 right=583
+romannumeralfive: left=33 right=33
+romannumeralsix: left=683 right=181
+romannumeralseven: left=683 right=831
+romannumeraleight: left=883 right=631
+romannumeralnine: left=469 right=369
+romannumeralten: left=51 right=19
+romannumeraleleven: left=701 right=131
+romannumeraltwelve: left=701 right=731
+smallromannumeralthree: left=199 right=98
+smallromannumeralfour: left=159 right=142
+smallromannumeralsix: left=52 right=48
+smallromannumeralseven: left=572 right=148
+smallromannumeraleight: left=572 right=648
+smallromannumeralnine: left=179 right=179
+smallromannumeralten: left=51 right=79
+smallromannumeraleleven: left=151 right=238
+smallromannumeraltwelve: left=501 right=278
+arrowleft: left=70 right=50
+arrowright: left=50 right=70
+arrowboth: left=70 right=70
+leftwardsarrowwithhook: left=70
+rightwardsarrowwithhook: left=50
+undo: left=70 right=50
+redo: left=50 right=70
+arrowdblleft: left=150 right=50
+arrowdblright: left=50 right=150
+arrowdblleftright: left=150 right=150
+leftwardsdashedarrow: left=70 right=100
+rightwardsdashedarrow: left=100 right=70
+universal: left=22
+emptyset: left=40
+gradient: left=1
+infinity: left=30 right=30
+therefore: left=455
+because: left=455
+circleplus: left=67 right=67
+circleminus: left=67 right=67
+circlemultiply: left=67 right=67
+circledivide: left=67 right=67
+verticalellipsis: left=55
+house: left=50 right=50
+day: left=201 right=175
+cloud: left=300 right=140
+blackstar: left=51 right=51
+boxwithacheck: right=38
+sun: left=35 right=36
+warning: left=308 right=209
+plane: left=270 right=200
+mail: left=50
+whitecircledone: left=57 right=57
+whitecircledtwo: left=57 right=57
+whitecircledthree: left=57 right=57
+whitecircledfour: left=57 right=57
+whitecircledfive: left=57 right=57
+whitecircledsix: left=57 right=57
+whitecircledseven: left=57 right=57
+whitecircledeight: left=57 right=57
+whitecirclednine: left=57 right=57
+whitecircledzero: left=57 right=57
+blackcircledone: left=24 right=16
+blackcircledtwo: left=24 right=16
+blackcircledthree: left=25 right=14
+blackcircledfour: left=24 right=16
+blackcircledfive: left=24 right=16
+blackcircledsix: left=25 right=15
+blackcircledseven: left=24 right=16
+blackcircledeight: left=24 right=16
+blackcirclednine: left=24 right=16
+blackcircledzero: left=24 right=16
+widerightwardsarrow: left=50 right=50
+ffligature: left=251 right=249
+stligature: left=99 right=139
+takeoff: left=623 right=602
+climb: left=580 right=602
+cruise: left=600 right=600
+descent: left=519 right=516
+landing: left=620 right=503
+levelup: left=332 right=346
+leveldown: left=332 right=346
+hot: left=300 right=366
+cold: left=300 right=167
+wet: left=300 right=140
+slush: left=300 right=140
+ice: left=300 right=140
+lightning: left=300 right=140
+fog: left=300 right=140
+wind: left=300 right=300
+clock: left=217 right=117
+clockwiseclock: left=217 right=357
+counterclockwiseclock: left=257 right=317
+phonein: left=200
+phoneout: left=331 right=100
+slashedphone: left=11
+mailin: left=400 right=300
+mailout: left=400 right=300
+slashedmail: left=61
+wifiin: left=350 right=230
+wifiout: left=231 right=450
+slashedwifi: left=231 right=130
+comsatin: left=500 right=344
+comsatout: left=475 right=500
+slashedcomsat: left=211 right=44
+radioin: left=350 right=37
+radioout: left=36 right=450
+slashedradio: left=101 right=46
+speakerlow: left=50
+speakerhigh: left=50 right=216
+eject: left=64
+play: left=64
+rewind: left=64
+pause: left=64
+stop: left=64
+start: left=64
+end: left=64
+fastrewind: left=64
+fastforward: left=64
+back: left=64
+next: left=64
+standby: left=64
+zoomin: left=50 right=50
+zoomout: left=50 right=50
+save: left=50
+erase: left=50
+print: left=50
+import: left=200 right=100
+export: left=200 right=300
+send: left=50 right=50
+return: left=50 right=50
+copy: right=50
+paste: right=50
+close: left=16
+suppr: left=18
+add: left=17
+help: left=300 right=34
+info: left=300 right=34
+update: left=100 right=100
+noentry: left=64
+noparking: left=64
