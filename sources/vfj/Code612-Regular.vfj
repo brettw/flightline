@@ -9156,7 +9156,7 @@
       {
         "name":"c",
         "unicode":"0063",
-        "lastModified":"2026-05-22 02:52:03",
+        "lastModified":"2026-05-22 03:34:30",
         "layers":[
           {
             "name":"img",
@@ -10561,19 +10561,19 @@
             ],
             "color":"#00cce5",
             "tth":[
+              "alignv .ah01 round",
+              "alignv .av02 round",
+              "alignt .sh01 \"t: 1\"",
+              "alignb .ab01 \"b: -500\"",
+              "singlev .sh01, .sv01 .none",
+              "singlev .av02, .ah03 \"Y: 162\"",
+              "singlev .ab01, .av01 \"Y: 171\"",
               "alignh .ah01 round",
               "alignh .ah02 round",
               "alignh .ah03 round",
               "doubleh .dh01, .dh02 \"X: 190\"",
               "singleh .dh01, .sh01 .none",
-              "singleh .dh02, .sh02 .none",
-              "alignv .ah01 round",
-              "alignv .av01 round",
-              "alignv .av02 round",
-              "alignt .sh01 \"t: 1\"",
-              "alignb .ab01 \"b: -500\"",
-              "singlev .sh01, .sv01 .none",
-              "singlev .av02, .ah03 \"Y: 162\""
+              "singleh .dh02, .sh02 .none"
             ],
             "active":true
           }
@@ -10927,7 +10927,7 @@
       {
         "name":"m",
         "unicode":"006d",
-        "lastModified":"2026-05-22 02:52:03",
+        "lastModified":"2026-05-22 03:34:30",
         "layers":[
           {
             "name":"img",
@@ -11000,69 +11000,35 @@
                   "contours":[
                     {
                       "nodes":[
-                        "214 0 {n:'.dh02'}",
-                        "36 0 {n:'.dh01'}",
-                        "36 1100",
-                        "214 1120 {n:'.sh01'}",
-                        "214 937 {n:'.iv01'}",
-                        "235 977 o",
-                        "258 1022 o",
-                        "269 1043 o",
-                        "272 1048 o",
-                        "272 1048",
-                        "281 1057 o",
-                        "314 1081 o",
-                        "362 1102 o",
-                        "424 1117 o",
-                        "463 1117 {n:'.at02'}",
-                        "519 1117 o",
-                        "591 1088 o",
-                        "637 1037 o",
-                        "663 965 o",
-                        "674 923 {n:'.ih01'}",
-                        "737 1043",
-                        "747 1052 o",
-                        "792 1078 o",
-                        "851 1101 o",
-                        "917 1117 o",
-                        "949 1117 {n:'.at01'}",
-                        "1025 1117 o",
-                        "1114 1066 o",
-                        "1159 970 o",
-                        "1172 834 o",
-                        "1172 750",
-                        "1172 0 {n:'.sh05'}",
-                        "994 0 {n:'.sh04'}",
-                        "994 740",
-                        "994 794 o",
-                        "991 875 o",
-                        "970 930 o",
-                        "925 957 o",
-                        "884 957 {n:'.sv01'}",
-                        "864 957 o",
-                        "806 932 o",
-                        "749 893 o",
-                        "700 844 o",
-                        "690 819 {n:'.sh06'}",
-                        "690 813 o",
-                        "691 786 o",
-                        "692 757 o",
-                        "692 732 o",
-                        "692 727",
-                        "692 0 {n:'.sh03'}",
-                        "513 0 {n:'.sh02'}",
-                        "513 720",
-                        "513 774 o",
-                        "509 862 o",
-                        "488 923 o",
-                        "441 957 o",
-                        "398 957 {n:'.sv02'}",
-                        "382 957 o",
-                        "332 939 o",
-                        "279 904 o",
-                        "230 855 o",
-                        "214 824"
+                        "290 0 {n:'.dh02'}",
+                        "112 0 {n:'.dh01'}",
+                        "112 1100",
+                        "290 1120 {n:'.sh01'}",
+                        "290 937 {n:'.iv01'}",
+                        "343 1043",
+                        "355 1073  396 1117  469 1117 {n:'.at02'}",
+                        "594 1117  635 1057  649 1010 s",
+                        "659 975  664 945  668 923 {n:'.ih01'}",
+                        "728 1043",
+                        "742 1072  786 1117  859 1117 {n:'.at01'}",
+                        "1072 1117  1072 975  1072 750",
+                        "1072 0 {n:'.sh05'}",
+                        "894 0 {n:'.sh04'}",
+                        "894 740",
+                        "894 884  894 957  794 957 {n:'.sv01'}",
+                        "739 957  725 923  682 819 {n:'.sh06'}",
+                        "682 0 {n:'.sh03'}",
+                        "503 0 {n:'.sh02'}",
+                        "503 740",
+                        "503 884  504 957  404 957 {n:'.sv02'}",
+                        "349 957  333 906  290 824"
                       ]
+                    }
+                  ],
+                  "pinPoints":[
+                    {
+                      "name":"p1",
+                      "point":"314 927"
                     }
                   ]
                 },
@@ -11079,34 +11045,10 @@
                 "horizontal":true,
                 "flags":6,
                 "thickness":21
-              },
-              {
-                "vertical":true,
-                "position":200,
-                "thickness":190
-              },
-              {
-                "vertical":true,
-                "position":810,
-                "thickness":190
-              },
-              {
-                "vertical":true,
-                "position":1400,
-                "thickness":190
               }
             ],
             "color":"#00cce5",
             "tth":[
-              "doubleh .dh01, .dh02 \"X: 199\"",
-              "singleh .dh02, .sh01 .none",
-              "singleh .dh02, .sh02 .round",
-              "singleh .sh02, .sh03 \"X: 199\"",
-              "interpolateh .ih01 .sh02, .sh03",
-              "singleh .sh03, .sh04 .round",
-              "singleh .sh04, .sh05 \"X: 199\"",
-              "singleh .sh03, .sh06 .none",
-              "singleh .sh05, rsb .round",
               "alignt .at01 \"t: x\"",
               "alignt .at02 \"t: x\"",
               "alignt .sh01 \"t: x\"",
@@ -11116,7 +11058,17 @@
               "interpolatev .iv01 .sh01, .dh02",
               "interpolatev .ih01 .sh01, .dh02",
               "singlev .at01, .sv01 \"Y: 162\"",
-              "singlev .at02, .sv02 \"Y: 162\""
+              "singlev .at02, .sv02 \"Y: 162\"",
+              "alignh .dh01 round",
+              "singleh .dh01, .dh02 \"X: 199\"",
+              "singleh .dh02, .sh01 .none",
+              "singleh .dh02, .sh02 .round",
+              "singleh .sh02, .sh03 \"X: 199\"",
+              "interpolateh .ih01 .sh02, .sh03",
+              "singleh .sh03, .sh04 .round",
+              "singleh .sh04, .sh05 \"X: 199\"",
+              "singleh .sh03, .sh06 .none",
+              "singleh .sh05, rsb .round"
             ],
             "active":true
           }
@@ -11273,7 +11225,7 @@
       {
         "name":"o",
         "unicode":"006f",
-        "lastModified":"2026-05-22 02:52:38",
+        "lastModified":"2026-05-22 03:34:30",
         "layers":[
           {
             "name":"img",
@@ -12390,6 +12342,14 @@
             ],
             "color":"#00cce5",
             "tth":[
+              "alignt .sh01 \"t: x\"",
+              "alignt .av01 \"t: x\"",
+              "alignb .ab01 \"b: 0\"",
+              "alignb .ab02 \"b: 0\"",
+              "mdeltav .sh01 42-42 -5",
+              "interpolatev .ih01 .ab02, .sh01",
+              "mdeltav .av01 42-42 -5",
+              "singlev .ab02, .sv01 \"Y: 162\"",
               "alignh lsb round",
               "alignh .ah01 round",
               "singleh .ah01, .sh01 \"X: 190\"",
@@ -12397,15 +12357,7 @@
               "singleh lsb, .sh03 .none round",
               "interpolateh .ih01 .sh03, .sh01",
               "singleh .sh03, .sh04 \"X: 190\"",
-              "singleh .sh01, rsb .none",
-              "alignv .sh01 round",
-              "alignv .av01 round",
-              "alignb .ab01 \"b: 0\"",
-              "alignb .ab02 \"b: 0\"",
-              "mdeltav .sh01 42-42 -5",
-              "interpolatev .ih01 .ab02, .sh01",
-              "mdeltav .av01 42-42 -5",
-              "singlev .ab02, .sv01 \"Y: 162\""
+              "singleh .sh01, rsb .none"
             ],
             "active":true
           }
