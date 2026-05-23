@@ -73,7 +73,7 @@
       {
         "name":"exclam",
         "unicode":"0021",
-        "lastModified":"2026-05-12 03:49:01",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"mask",
@@ -200,7 +200,6 @@
               "alignv .av01 round",
               "alignt .mh03 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
-              "singlev .mh03, .av02 .round",
               "alignh .ah01 round",
               "alignh .ah02 round",
               "mdeltah .mh01 20-20 2",
@@ -216,7 +215,7 @@
       {
         "name":"quotedbl",
         "unicode":"0022",
-        "lastModified":"2026-04-28 03:11:24",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"mask",
@@ -334,7 +333,7 @@
       {
         "name":"numbersign",
         "unicode":"0023",
-        "lastModified":"2026-05-17 04:08:34",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"mask",
@@ -539,7 +538,7 @@
       {
         "name":"dollar",
         "unicode":"0024",
-        "lastModified":"2026-04-20 03:42:35",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"img",
@@ -783,7 +782,7 @@
       {
         "name":"percent",
         "unicode":"0025",
-        "lastModified":"2026-04-20 03:42:58",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"mask",
@@ -1017,16 +1016,16 @@
             ],
             "color":"#bac000",
             "tth":[
+              "alignv .av01 round",
+              "alignv .av02 round",
+              "alignv .av03 round",
+              "alignb .ab01 \"b: 0\"",
               "alignh .ah01 round",
               "alignh .ah02 round",
               "alignh .ah03 round",
               "alignh .ah04 round",
               "mdeltah .mh01 16-16 -2",
-              "mdeltah .mh02 13-13 -1",
-              "alignv .av01 round",
-              "alignv .av02 round",
-              "alignv .av03 round",
-              "alignb .ab01 \"b: 0\""
+              "mdeltah .mh02 13-13 -1"
             ],
             "active":true
           }
@@ -1035,7 +1034,7 @@
       {
         "name":"ampersand",
         "unicode":"0026",
-        "lastModified":"2026-04-20 03:43:09",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"mask",
@@ -1247,10 +1246,6 @@
             ],
             "color":"#bac000",
             "tth":[
-              "alignh .ah01 round",
-              "alignh .hr01 round",
-              "alignh .ah02 round",
-              "alignh .ah03 round",
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
             ],
@@ -1261,7 +1256,7 @@
       {
         "name":"quotesingle",
         "unicode":"0027",
-        "lastModified":"2026-04-28 03:12:21",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"mask",
@@ -1328,7 +1323,7 @@
       {
         "name":"parenleft",
         "unicode":"0028",
-        "lastModified":"2026-05-13 02:36:30",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"mask",
@@ -1433,12 +1428,6 @@
               }
             ],
             "color":"#bac000",
-            "tth":[
-              "alignh .ah01 round",
-              "alignh .ah02 round",
-              "alignv .av01 round",
-              "alignv .av02 round"
-            ],
             "active":true
           }
         ]
@@ -1446,7 +1435,7 @@
       {
         "name":"parenright",
         "unicode":"0029",
-        "lastModified":"2026-05-13 02:36:30",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"mask",
@@ -1544,7 +1533,7 @@
       {
         "name":"asterisk",
         "unicode":"002a",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"mask",
@@ -1655,7 +1644,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -1685,7 +1675,7 @@
       {
         "name":"plus",
         "unicode":"002b",
-        "lastModified":"2026-04-20 03:44:04",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"mask",
@@ -1920,7 +1910,7 @@
       {
         "name":"hyphen",
         "unicode":"002d",
-        "lastModified":"2026-05-12 03:42:16",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"mask",
@@ -2151,7 +2141,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c18000004f0494441546881ed9abd72dc36108081c3e928f92c239e642625d5a994cb745497d279833c421e8157a448993c9159645cbb4c794995cef64c3273e3b978c3bf237717587075a647b27d282412fc6e17d85d002416c6688a575127ec844d14f7c5287dc86d3b9b555a362ba62cf3b6ed5e5c7f2f6d7bc8655e837c06e67dc833f9131d76aec394ce5ae8b08f3ea9be53fd30872aac0ce6de0ce08d426909b09fc66a61f07e1aab8501fc3a85d986825d282ed419c398eb7d8bfd1760cc20798bc194d28e820dafa75dc87aac4a63aec7023f50ecbac782ae52ccf758e02e8a153d167435c0b60aacb145fe47a4ab045bb6d1f14d8d6db9385c6ac7bfec54738b109fae01be336d7f933192c1fb1f4c6be448008fe51af6579d6e1ec0a40b39ecaae67f1958846005bcdb74ff798c30ecdf5e2a371cc14af8bbab4c1aee2b80dfdb8b70486369e700bfb4172e893d1d5a1e602b746d073b046ec0d26a5d57dd55c1dd7089aebf1f8c5f720c4bcb062ce7dec2981f64e4dc5b368a798ec5a565dca9143b98c1a5b07c30aa8d4c234329e09ffeea8c87c88a60838b3886958ee1e34a1649141b44700c153b62b6903147301a493e8ad5b679abc13c0b38017baec332167008c3fece58c0212f5c23cc310c4d5c3704a3018794e258b4c761268e191670481a1e4ecb79b192c6a580991930e44716971e3f1931fb4285a131db16a7c39e606c2762fe433112e5a86d257ec2c68cd7614a6946c4a495b7c49d53626ca07a1d264b2303f562bc84046604cc53cc8b187c2a582660c11a3827b692b12a2acca6b04c8779017392b40b8e6d154a9df40a47b135c51eeb944ad8d7141bcdbb4e61998ce129c90bd8538a2d47b9e481d54963d8231d3676c1e99426db66ee8a79fa80de8deb42206da7c3346d0bdfdea5b6c5a7f22436dacda594129fee8ec1944a3136ae5956d78524367ea45c90075692a6c4ec03c696e481939c65e6c6f60a6c352ba6546ac8de801edb46b1850eab5f57ee2e2d13a5a530b4d693ed8d6fc56d0782859b18a352847969d9a5d2fc0cd23612b6d06192b49cbeae50ac9a0f2b30f6a30ecbc5d73c82bd10bf150beced82622b1db616b0527c8bcef1602ac5b7e86330b6a1873ec7c8ce21c3cee258647b10617b84495f1f18cb40fc96c99022c716e7950ea31b1d807e4230b435611398a7d866ec8e841984e50cb314ab464cfadac5636602dbf697910de4a1a0678538bd114d25c3f0fe1bb24229ce5bc4f7b1acc0a120a7a6b0d1a9568f6d487bf0cdf0d04d61d5a195696c3b6046c406a37a3eb0d83e79ef0625962737fb87602c38f69861fb3846940e4d2af93b34c1063b04191c821dbc65837c10c10eae74d358d52bdfca58d3f4bfbaae24768f07fbfa20f345b19bae87c504d68c86db2e196812583f1a209879cf38065d8719b626778dc17e6eff26f20ba60f733f89d57dfc73938749398635d3c86d2477c7b09f6ae012c2f418c31a8bc034567f824063dc447aa129f69008641893b628857c2193567494b44a1ecaeb0ee3a394a7ce6f3a8c7f9b5eb0fb3e35ca677b9e77be8498d9829cf82a6a8fa06dbd45582d9d434cbbbb1cb34790617f1eeb6888b55dad78ed8a5734495678c56b83721e8e3ec3874c5d96bfd5c6ddf0da4b5ee19639042d891caeb8cdb6cba0323ce7f06c717ba5c08c8d9ccb38fec04cecc888529af260dba369e40e4a4fe7df8ec3eea56dcaa341f39e20fa7294cedbb67b09cb13f6f961ca75e1849db01376c23e08fb1f3c02dcf09058f32a0000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c1800000519494441546881ed9bbd72db46108071044d906628c493ccb8843a9576990eea52da6f9047c8231c8b14299327120b8f6b972e9954e962cf38331a0fe30b88c3cfeeeded62ad39051a8fb79020dda75bdcfe1cc0dd53967d1528cba4b32d74d83749953e64313a2c9f43e96a0ea5b3c8a3b96fe07f13a5179479aac494d1abdc6a94ce2a74d85a873dd661ca8deb42872945e905a5dd9406d9ea30e54a9561a95cc24687ed7458da7b530652a9c39429a33488526964a51f23188d90ca1d2846cc5b38f78e62242cad73278a854b6826739f28163eda9ac99cfb8d6041f49a33e56e091618a460b020deca16fb776ab6aac5dcd4bd79caed430cafb4e8b003990e49de61c40f3890ae3a8c2c15ef4865871177e1ddb2ee30b2d455881da3180ea4b32daab791a5a2b05cb6d1f17d831d25a58de35f7bd591c804533bf743d6ae973a1f48e13ebdcc5a23470278942b77baf4bac30046cfd3cadd1ecedf2db1087256ed3eeefdf730465618fba79b35341cca2cebfef2bfa48603f2ad73afda8b784af7b276eed7f62227188c9027c39d130cc69b19ec40dc0033abd175e9af6ac90d3f0ec6b712560c58157a0b866539cc5185de2aa2581949fc085644121f60bd197209ab06a31a09abdd87eeea91b48dd4a38b246c0c9fdc069154226c9822c480981133358fe508c3917411c51adbbc57cc062c2d622f7458c1071cf477117bbe79b90258ce63cf10c6061c8c459314cb828003e90cd36919604b1d963198c571c928cd2c1bbe6a0cf83188cb351c19317383b1551c03391b8a1abbbd3f8c8b720b47f89cb9570ca59681d83b162b198c4f5409dbb01897a8ee0e58a9c550a22e74d8850e532a2d75986130fe1928613b1d26cc768852e61eb19cc33621760483a3b3c86c10e3946e394c546a18ec3b6eb6ad84ed782cbe2561ec0987e1d753bc6e60b7ad84714a592c97b0f1438a786fd9e762251e50cf16df55ef746fac52726f71a54a2cd729dde2bfe7bc4030a5d2386692621b34c03a4bc42e980176b614d846878db24403f4d3622fa9b193025b25c5944a33541bd063c728b59030f4f2c36363cae0d90ab650a0c45079e329f768c35850c4402f18002b59ccea3069362016be53a4c52af675c5c209ee868195d610fb09630b0623a58e3876236147f8031c5beb30c36016bf1e03ac82c964d9b7e8bb6041410fd4b850e530c096712c2c0fae107602d84981153c560045395fe1546239c89982c78c1edb77d752f51560958c1d468cad5c5a3576ec2ea5023218ab835d10d67b8126cb6e96c80a5628c001df4b5d01e054091b9d6af4d81e0ea12ecf3098879809b0437f9742e172a8f11761ef20a86c7758196d1cf532784b895562b17f08c67a0a3bc531b484e196acd88818ec403a38a8abd87bcb907e10f242efca3cd636c2d8a1537e4423b89fd5dcfa9f7e2962afaab36f297abead70de7a5ac4ced970ed9b8102d56783239e3721e6fc828500f106fba5fd2a76837c98979358b3c63ff6156dca051dcff336721de9dd0567097e6e809d8bb4c7b09c2de2a6b1e623883b1b577442df66a558708c6461997e61305bed29d1098dfced31d9ba6d2845cc46a46b8d8aedc246764e61b6f653c3b4d9068b90bf0e7e3637517b9063242fa20b25ddff76a987895bf34d56f766125b4f659f97e5ef8d71f79358beac9ce618db7571d41ca578beb8be546099891cc9511eae8888f244cefd4bda53885fe5cb136590cf12d14aa569cf4acd72ea5579f47116511eba9b45d21ecb4c2bca439e6925ed69e1b492f6b4f02cf290ffcde121ef21b3c82c9b83f28deb21ff6f45f61f6863d34d4499e5ac0000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -2286,28 +2276,28 @@
                   "contours":[
                     {
                       "nodes":[
-                        "578 -16",
+                        "578 -16 {n:'.ab02'}",
                         "485 -16 o",
                         "329 49 o",
                         "205 161 o",
                         "111 311 o",
                         "49 481 o",
                         "18 663 o",
-                        "18 750",
+                        "18 750 {n:'.sv03'}",
                         "18 840 o",
                         "44 1023 o",
                         "101 1194 o",
                         "190 1342 o",
                         "314 1453 o",
                         "476 1516 o",
-                        "578 1516",
+                        "578 1516 {n:'.at01'}",
                         "671 1516 o",
                         "827 1451 o",
                         "951 1339 o",
                         "1045 1189 o",
                         "1107 1019 o",
                         "1138 837 o",
-                        "1138 750",
+                        "1138 750 {n:'.sv05'}",
                         "1138 660 o",
                         "1111 477 o",
                         "1055 306 o",
@@ -2318,28 +2308,28 @@
                     },
                     {
                       "nodes":[
-                        "346 791",
+                        "346 791 {n:'.sv04'}",
                         "346 740 o",
                         "355 616 o",
                         "376 491 o",
                         "412 373 o",
                         "465 281 o",
                         "537 226 o",
-                        "585 226",
+                        "585 226 {n:'.sv01'}",
                         "627 226 o",
                         "693 267 o",
                         "743 338 o",
                         "778 433 o",
                         "800 541 o",
                         "810 654 o",
-                        "810 709",
+                        "810 709 {n:'.sv06'}",
                         "810 760 o",
                         "801 884 o",
                         "780 1009 o",
                         "744 1127 o",
                         "691 1218 o",
                         "618 1273 o",
-                        "570 1273",
+                        "570 1273 {n:'.sv02'}",
                         "528 1273 o",
                         "462 1232 o",
                         "412 1161 o",
@@ -2383,7 +2373,7 @@
       {
         "name":"one",
         "unicode":"0031",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:53:25",
         "layers":[
           {
             "name":"img",
@@ -2465,13 +2455,13 @@
                     {
                       "nodes":[
                         "495 200",
-                        "252 200",
-                        "252 0",
-                        "1069 0",
+                        "252 200 {n:'.sv01'}",
+                        "252 0 {n:'.ab01'}",
+                        "1069 0 {n:'.ab02'}",
                         "1069 200",
                         "826 200",
-                        "826 1500",
-                        "583 1520",
+                        "826 1500 {n:'.at02'}",
+                        "583 1520 {n:'.at01'}",
                         "103 1083",
                         "258 898",
                         "342 972",
@@ -2502,6 +2492,13 @@
               }
             ],
             "color":"#00cce5",
+            "tth":[
+              "alignt .at01 \"t: 1\"",
+              "alignt .at02 \"t: 1\"",
+              "alignb .ab01 \"b: 0\"",
+              "alignb .ab02 \"b: 0\"",
+              "singlev .ab01, .sv01 \"eq Y: 171\""
+            ],
             "active":true
           }
         ]
@@ -2509,7 +2506,7 @@
       {
         "name":"two",
         "unicode":"0032",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:53:25",
         "layers":[
           {
             "name":"img",
@@ -2590,19 +2587,19 @@
                   "contours":[
                     {
                       "nodes":[
-                        "1072 0",
-                        "1072 200",
+                        "1072 0 {n:'.ab01'}",
+                        "1072 200 {n:'.sv01'}",
                         "430 200",
                         "489 283  651 460  785 621 s",
-                        "918 781  1047 899  1047 1086 s",
-                        "1047 1298  872 1517  568 1517 s",
-                        "310 1517  143 1387  66 1183",
+                        "918 781  1047 899  1047 1086 s {n:'.sv02'}",
+                        "1047 1298  872 1517  568 1517 s {n:'.at01'}",
+                        "310 1517  143 1387  66 1183 {n:'.sv05'}",
                         "299 1096",
-                        "363 1221  444 1300  553 1300 s",
-                        "661 1300  730 1197  730 1097 s",
+                        "363 1221  444 1300  553 1300 s {n:'.sv04'}",
+                        "661 1300  730 1197  730 1097 s {n:'.sv03'}",
                         "730 971  678 931  533 775 s",
                         "407 639  187 387  62 190",
-                        "62 0"
+                        "62 0 {n:'.ab02'}"
                       ]
                     }
                   ]
@@ -2627,6 +2624,15 @@
               }
             ],
             "color":"#00cce5",
+            "tth":[
+              "alignv .sv02 round",
+              "alignt .at01 \"t: 1\"",
+              "alignb .ab01 \"b: 0\"",
+              "alignb .ab02 \"b: 0\"",
+              "singlev .ab01, .sv01 \"eq Y: 171\"",
+              "singlev .at01, .sv04 \"eq Y: 171\"",
+              "singlev .sv02, .sv03 .round"
+            ],
             "active":true
           }
         ]
@@ -2634,7 +2640,7 @@
       {
         "name":"three",
         "unicode":"0033",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:53:25",
         "layers":[
           {
             "name":"img",
@@ -2644,7 +2650,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c1800000313494441546881edd94d8a143114c0f10ad5520b910cb87021186fe07296d1bd87f106293c8078036f62f709060f20d8eedca92838d03d1deb7bd28b7aefdf52d3c290b7e981f9519dbcf7924a5517458e1c3972e4c89123478e1c3972e4b857f183b18f48adae5e1266f68f6ae282bd7e0fd8bb18bfebeae1c1c53ffa6ccbe863dc03d6c65663ae63d78c1d188b1b85f99e2973b521926fb57108c8b68cc929a946260f6e62b1965839b1af12336b3638c7063731b95e8f2726d6ebf66ae2e00ccc5c114e2c6b2d32c3aa3fcd425b869ed461ba9cb66ec6fa2bacb824532dc6dc6d34664946c626d63726949121273aeb72a26f7305c96fd1170cb08a946168279d7585a875e619b3a45afd1c002b1933a8f6dd5409f3a4f65d9380dab75325ac44b56f7b09b1c098472dd24e9530cb58853aa9ad2a6105648131afef49273047da17b3a78c59c62acad0e9f63f31b2509bb5859861ac40ebb965cf090b68a152c6967dc1166a739823ac842cc60bc6eab3b36ab7e8d518b39801d5eed1e46a9eb18058c90e0515630e3183ce8dfdc151679eb1a0b08bd07d6867dad7b6ddd75e69ec4d33c7c3bed45838b41de454d6fe7f1d3516935896d5676255cae62fe6ee8c097bef3f30e12ee31326dcb3dce94cb8eda65fba656c33cf022ae9119b572993eee1c9d88419a44c185ac2c403814717bb9d827c0747f34cd896317168d3d894c30568a294c9df397ea976260b48b555b8016f2e5d33c94bfd1868e5761c03de1f8dbc54a650cbd947c08fb9e420db64e40630cb1e4c2b9638c31257e8cdd64593916f80c18c783655d823f070045ba9cdc827c6e03b8edf8059d623b0f8255b0e252bbe81530d8b16df61b6e0011a66e48455037be43360272c07c016de59c3a23bab6389b38c2dfe02113d4ec2c4799638c81ccb6f25b3328e9f627ecbe1d388f9356f77abfe2f994d2fbec537afd32f9e2648f91d7e6c5929891bd8fa4bfca0b19d7e1e1c1f9fd6f211eee8296b9ed9459963cc2fca5ea46cbe938eae36df22f78dcd773964e1eed8fc0e7734b6f93bc813c6dccf58fdd2d9b3fe431bdb149538d334027b159d23478e1ce78f07cbb2bf9e416783e579353d0000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c1800000458494441546881ed9bcd6ed43010c71d5208b41457e2c00109f3061c7b0cdc7918dec0110f807803de84ed13201e0089e5c60d1048acd4ed9a38bb49fd3163ff9ba6ca0a752edb6d7f9af17c783ceb6c8540a482a889a59cc3e8addcca24728c618f26357a07c3c0b54d2bfb6cf4de1c46a70d08584860858002ba703887d16931306eb36cc0fb73189da5c8f7b9de1e4eaa6d9feb6d5a4f41013d05d706ca2c453eed767e307e21e38dfe07e7e92c46411963f427867d64ff72e0fefce925a2ac581f3708a7e5ea3d80bd33e6479e3ada28f337ef6d696a63d600666599c35487ad306c8361e62c83d55b2ce3abd406b12acd4e406c8961e990543d965edc809926859503f62d85150b6c710a5bdc80a5f3f578c092f9bad4965c5c01464ee82ba6b549620596fdc18bdc36ac913c0cea72fba6cf7f0613a788aba28fdd590e934844fa22ce37262822bb9804d8518c7531c9b73981c4576c1316607709ac42d2b02ba73cd625a2c91aed16d7507ff04522d9dafae063a4d132c2c8d3b98072dfb9ea63a451ebea0ac014947bebaa8fd1daca30f73426a04ab2ae42daeaa044184c419564938f68aba04ab259f5306ed80e306e7ed33ec65d80d77e4f625c08314e945fbe9c36107b8a6c2d9b060fe33cad500c9a6e67c2bc8dcac5ad045abeb005076913fe7e661fdf98f573e71d7b6da2bd8dca1ad5d0b61706d3e66f540e6b8739c466b980b4b51dee04c31ac4a88f81da38ac3a9fd228d8e024a62decaa8c285f1bd72d6bcca8865c280da4adc230058d18453837d2da2486d5d014ba9d565d2cb8313bd1dd4b34d306465f4bdbd75ee546df37ad8f9b7599c3f4c65690ca19edd6be30396dc6911158c5630da6edda58e562bc32756358a2458fc012c365ed6089a34d5d1d4b1cbbaed125869df1988652ea613ce562a9a3de595bc203174b2ccdc1929f036a48d9a50be9831ef2d3c19618965cdab0b6cc0c0214918ba56df64673a39b86289b850be0e652b54e9ee6a745992ec75ec2f3919122bd5506c9a6732b9ac940f0e0a0c63ebfb611b90030c95487f4df5658e00a2c708229b6c0a88dc877401b18919a763534cad4488885c311234c2985da6c443e6318f299a84dfe1f409b246b24c2c0e497e47688b49564f223ac205d8dbfd1a1a9e417d16fc8e44746bb3e826148f2c91a89b5911189316ed784a289c011da5a1fbe0018d832a91a219e3b53db8198f0d1ceaae3ce4ab8407556eaba49c581a3b4c918a39eb0471788b4d1e80291362ab034883870dcb5f07214468a8ae24bba50a5b1d2f4afc91ed75f7815517c5d6dc5dbf3ddc3d934365c7c8737afbecd7e262b74185f1961e680081c812dbe9a0f21761860e7f979b0fff8b48847384960c4a4e76292c70486b9da1486d598d104e66a7be1622b16f3b4f1f343023bc6b0698d82186b94af7210d33c26318cd5c677386f6dfe09e236ae273ce68afa65aadf79ecd9f625b7b641aaa4a7ae68645ebd95bd94833c62251e41af23e4797ad3027e7d7adab581ff56336d78c12f524e6b14945952cf3e811a87fd03692f6d34c6af90cd0000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -2721,25 +2727,26 @@
                   "contours":[
                     {
                       "nodes":[
-                        "233 760",
+                        "233 760 {n:'.av01'}",
                         "271 763  398 770  439 770 s",
                         "604 770  745 718  745 563 s",
-                        "745 347  434 211  120 200",
-                        "120 0",
-                        "563 0  1086 177  1086 573 s",
+                        "745 347  434 211  120 200 {n:'.sv01'}",
+                        "120 0 {n:'.ab01'}",
+                        "563 0  1086 177  1086 573 s {n:'.sv03'}",
                         "1086 818  900 969  619 969",
                         "775 1052",
                         "870 1137  952 1222  993 1327",
-                        "993 1500",
-                        "151 1500",
-                        "130 1300",
+                        "993 1500 {n:'.at02'}",
+                        "151 1500 {n:'.at01'}",
+                        "130 1300 {n:'.sv02'}",
                         "461 1300",
                         "721 1374",
                         "625 1221  351 1023  233 938"
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -2764,6 +2771,13 @@
               }
             ],
             "color":"#00cce5",
+            "tth":[
+              "alignt .at01 \"t: 1\"",
+              "alignt .at02 \"t: 1\"",
+              "alignb .ab01 \"b: 0\"",
+              "singlev .ab01, .sv01 \"eq Y: 171\"",
+              "singlev .at01, .sv02 \"eq Y: 171\""
+            ],
             "active":true
           }
         ]
@@ -2771,7 +2785,7 @@
       {
         "name":"four",
         "unicode":"0034",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:53:25",
         "layers":[
           {
             "name":"img",
@@ -2865,19 +2879,20 @@
                         "630 500",
                         "339 500",
                         "513 763",
-                        "844 1500",
-                        "563 1520",
+                        "844 1500 {n:'.at01'}",
+                        "563 1520 {n:'.at02'}",
                         "70 500",
                         "70 300",
                         "630 300",
-                        "630 0",
-                        "951 0",
+                        "630 0 {n:'.ab01'}",
+                        "951 0 {n:'.ab02'}",
                         "951 300",
                         "1129 300"
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -2904,6 +2919,12 @@
               }
             ],
             "color":"#00cce5",
+            "tth":[
+              "alignt .at01 \"t: 1\"",
+              "alignt .at02 \"t: 1\"",
+              "alignb .ab01 \"b: 0\"",
+              "alignb .ab02 \"b: 0\""
+            ],
             "active":true
           }
         ]
@@ -2911,7 +2932,7 @@
       {
         "name":"five",
         "unicode":"0035",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:53:25",
         "layers":[
           {
             "name":"img",
@@ -2993,22 +3014,23 @@
                     {
                       "nodes":[
                         "471 1300",
-                        "988 1300",
-                        "988 1500",
-                        "122 1500",
+                        "988 1300 {n:'.sv02'}",
+                        "988 1500 {n:'.at01'}",
+                        "122 1500 {n:'.at02'}",
                         "122 759",
                         "347 759",
-                        "386 785  458 822  561 822 s",
-                        "675 822  753 715  753 606 s",
-                        "753 390  406 234  122 226",
-                        "122 0",
-                        "554 0  1080 216  1080 626 s",
-                        "1080 865  896 1059  587 1059 s",
+                        "386 785  458 822  561 822 s {n:'.sv04'}",
+                        "675 822  753 715  753 606 s {n:'.sv06'}",
+                        "753 390  406 234  122 226 {n:'.sv01'}",
+                        "122 0 {n:'.ab01'}",
+                        "554 0  1080 216  1080 626 s {n:'.sv05'}",
+                        "1080 865  896 1059  587 1059 s {n:'.sv03'}",
                         "540 1059  503 1054  471 1046"
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -3038,6 +3060,17 @@
               }
             ],
             "color":"#00cce5",
+            "tth":[
+              "alignv .sv04 round",
+              "alignv .sv05 round",
+              "alignt .at01 \"t: 1\"",
+              "alignt .at02 \"t: 1\"",
+              "alignb .ab01 \"b: 0\"",
+              "singlev .at01, .sv02 \"eq Y: 171\"",
+              "singlev .sv05, .sv06 .round",
+              "singlev .ab01, .sv01 \"eq Y: 171\"",
+              "singlev .sv04, .sv03 \"eq Y: 171\""
+            ],
             "active":true
           }
         ]
@@ -3045,7 +3078,7 @@
       {
         "name":"six",
         "unicode":"0036",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:53:25",
         "layers":[
           {
             "name":"img",
@@ -3141,29 +3174,30 @@
                     {
                       "nodes":[
                         "988 1498",
-                        "920 1517  876 1517  852 1517 s",
-                        "359 1517  45 1099  45 627 s",
-                        "45 399  167 -17  598 -17 s",
-                        "927 -17  1150 229  1150 525 s",
-                        "1150 829  907 956  648 956 s",
+                        "920 1517  876 1517  852 1517 s {n:'.at01'}",
+                        "359 1517  45 1099  45 627 s {n:'.sv06'}",
+                        "45 399  167 -17  598 -17 s {n:'.ab01'}",
+                        "927 -17  1150 229  1150 525 s {n:'.sv04'}",
+                        "1150 829  907 956  648 956 s {n:'.av01'}",
                         "617 956  583 952  547 945",
                         "382 800",
-                        "430 1117  660 1300  843 1300 s",
+                        "430 1117  660 1300  843 1300 s {n:'.sv02'}",
                         "875 1300  919 1299  954 1280"
                       ]
                     },
                     {
                       "nodes":[
-                        "634 756 s",
-                        "736 756  813 650  813 516 s",
-                        "813 368  746 200  601 200 s",
+                        "634 756 s {n:'.sv03'}",
+                        "736 756  813 650  813 516 s {n:'.sv05'}",
+                        "813 368  746 200  601 200 s {n:'.sv01'}",
                         "503 200  431 309  399 434",
                         "383 489  382 532  382 601",
                         "433 666  538 756 c"
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -3189,6 +3223,17 @@
               }
             ],
             "color":"#00cce5",
+            "tth":[
+              "alignv .av01 round",
+              "alignv .sv04 round",
+              "alignv .sv06 round",
+              "alignt .at01 \"t: 1\"",
+              "alignb .ab01 \"b: 0\"",
+              "singlev .at01, .sv02 \"eq Y: 171\"",
+              "singlev .av01, .sv03 \"eq Y: 171\"",
+              "singlev .sv04, .sv05 .round",
+              "singlev .ab01, .sv01 \"eq Y: 171\""
+            ],
             "active":true
           }
         ]
@@ -3196,7 +3241,7 @@
       {
         "name":"seven",
         "unicode":"0037",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:53:25",
         "layers":[
           {
             "name":"img",
@@ -3269,21 +3314,22 @@
                   "contours":[
                     {
                       "nodes":[
-                        "90 1272",
+                        "90 1272 {n:'.sv01'}",
                         "726 1272",
                         "710 1228  669 1162  622 1086 s",
                         "510 905  365 657  314 418 s",
-                        "290 309  290 85  290 0",
+                        "290 309  290 85  290 0 {n:'.ab01'}",
                         "627 0",
                         "627 103  627 250  638 346 s",
                         "662 546  807 789  919 976",
                         "1015 1131  1097 1269  1097 1339 s",
-                        "1097 1500",
-                        "90 1500"
+                        "1097 1500 {n:'.at01'}",
+                        "90 1500 {n:'.at02'}"
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -3299,6 +3345,12 @@
               }
             ],
             "color":"#00cce5",
+            "tth":[
+              "alignt .at01 \"t: 1\"",
+              "alignt .at02 \"t: 1\"",
+              "alignb .ab01 \"b: 0\"",
+              "singlev .at02, .sv01 \"eq Y: 171\""
+            ],
             "active":true
           }
         ]
@@ -3306,7 +3358,7 @@
       {
         "name":"eight",
         "unicode":"0038",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:53:25",
         "layers":[
           {
             "name":"img",
@@ -3415,11 +3467,11 @@
                   "contours":[
                     {
                       "nodes":[
-                        "566 1517 s",
+                        "566 1517 s {n:'.at01'}",
                         "366 1517  105 1397  105 1124 s",
                         "105 1009  198 920  320 848",
                         "153 769  32 631  32 441 s {n:'.hr01'}",
-                        "32 142  295 -17  572 -17 s",
+                        "32 142  295 -17  572 -17 s {n:'.ab01'}",
                         "856 -17  1137 119  1137 427 s",
                         "1137 617  997 758  820 844",
                         "928 906  1044 998  1044 1134 s {n:'.hr02'}",
@@ -3438,14 +3490,15 @@
                     {
                       "nodes":[
                         "425 1156 s",
-                        "425 1237  509 1300  584 1300 s",
+                        "425 1237  509 1300  584 1300 s {n:'.sv01'}",
                         "637 1300  724 1253  724 1152 s {n:'.hr04'}",
                         "724 1068  665 1004  593 964",
                         "507 1004  425 1065 c"
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -3481,6 +3534,11 @@
               }
             ],
             "color":"#00cce5",
+            "tth":[
+              "alignt .at01 \"t: 1\"",
+              "alignb .ab01 \"b: 0\"",
+              "singlev .ab01, .hr03 \"eq Y: 171\""
+            ],
             "active":true
           }
         ]
@@ -3488,7 +3546,7 @@
       {
         "name":"nine",
         "unicode":"0039",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:53:25",
         "layers":[
           {
             "name":"img",
@@ -3498,7 +3556,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c1800000410494441546881edd94d6ed4301400e0b86e95428b524008215572b9082e70108ee2413d483946779d058760c72c5874475931823226ff75de5f1eea946e3c1b22f5c3f67b7e496ca72834bf3d95ca2cb3cc32cb2cb3cc32cb2cb3cc32cbec7e59b952b170a36351c34c8c4b052b63bc56301b233d38c436ba4ee3e254d31a1d034a081d03602ec6b582554c0c80191d2b7c1daa825574a890593a545496810c153147c68058a963860c15df3264a898f9b8d230476504b38a2a60cc2c152a6675a81a5650192158204225189511823962f20956e91835f904a31247329c11eaa11a71a87760447e2956e152a2194a1cc59ee38aa3d8235c4a14dbc78f7d8a1d06945f8aed3a740f92afb60a25ee3fb0331dfb88668b7e3b2b197afbde859d78783790ecc8c149a53b75705249b65bc249a55bb330bf24b316268e6eed3dbc1b6866e0dd40b3031d7b17361a86d64a343b81370dcd8ebc8a19786fd16c5fc7761c982d2652f8ec625a53b3b582999760b698b1953a76065e210c7b0f1e980c7bab63afc10b89614f75ec1958db30ec40c7f6c0eb8d4b6f50311ba673cf30a3647e5a22c46ab09d4db0712096a0ede03fc8ac5e6fb5cd85698910abe836b35e66be61d768f90b59a39a61b9692501665b16e758d5b155732130d7b1eb862d7816623fb85264b1ff3d169919d8a19dd625deb5b5bf6f22ab06165f49cc8dec7c5ae553d64cd58f967d9758938fc5d033cfba898a438e1966ba69f733ac99f8f518ef9a6365d78651b055310c8e6555bf27f6326bb2bb28862cffe1988f5d319643a9d32cf47b5da3635d75b26cfc5b1bc386616664d51cebb250ea9895981de7dbccb1d518cce47e866cd95d8619b6e82efddd5979fb27a76395cc36c9ff481f220cb3321baac208ac4a8a4766eb7f644164e39dee79e692c78b92b96db065324e2d5bd2cc270d945b65761b6cbc360fc18a2db0cd7db1c04efdc333ff409d2eb73736656b81656eab912a5b73ba485d5abd97d26370d25aa163a7f3cce899a653c7be9dd3b5aed05aca76bcaa3525b397ece2275d39ef7a15dbe73bb5c9ebe330b0ad9984bd086c6be961ea31df5a91bc280f852568c28ec5d5e0d8c213a1b530616c6b494aeb6af9a56056d82f2435266d79a6ec8263b7e56bcf63fc24b0c578c5efda6e99aba79465e5386e3fdd07a0bd4c9fdf1085fd69cdaebaab5afd66991967e82bf84a06b7635da7e6a7784a90aef085a389d00f1c2c7d881de5a2f9f74d140f8886c594875f3e115b756314d9b0baacd967810d0be43a6b17021b3eb3c240316b423533ace87633f86b2b3e73b8414b41cc7cec0f43e4135ad7f68ad2461d9b6c1c9c78c4c6b3892b91d9817d11d9786eb29499ef592133d7a9b92f027d0c73df17fa8384d50ceb8f881673aca2fac4aca0fa249827fa2498a1bec56356c013778651bfcc32cb2cb3cc329bb0bfa07e61f3dd59a5800000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c18000003a1494441546881ed994b6e14311086ed38c8810cea0042082992c345702007e1286e94838463b0cb2c38043b7ac1223bc28a88c71877bbed7144aafc038d2224ffab96e61bdbf5b0bb5c2d44535353535353535353535353d3ff223d4098fb8e611ea1a4f76b00d3de5f0298f21e595cc036d8a4be3f4646836c70980dc6fb2b00eb301b2486091b4cc5665d0398c24c0d2e414c0d2e816cd01826315305666af0dc806006f34807257070306a2a8209d0230e3315f60814fc0ec3c0e0838e53708e0c0b62a07f3b349520c73dc232ee2e964a7bd8b1bf72907f770db6073bd4714b62a718f61a8b960031f4ed0b614716da0d07063b460c16548d055541fe550a73dc09b61b24b61bf631eca583fc0bd64a47d8a639b01026b1bdb587613b66c9b36b07c690a0ca2758b434869d62af9013ecc07c8161cfb017d2030c7b88d536fb1876077bbd69ecf5a61c147b0962b692223246b3767130d1c6573c16eaad6938c7a748a8a227cf5a1eb32376592d7f476a5c966133494d98af615dc486f181c14cc42e47aca731e7e7c56916f3b3eeb1984cd84a7179a913f691c5ba84f9a71c663276c665f918aacf13f689c3467ff469661a8b81f2c9c784640cbbad6063e0afb2bde466d0710c096083488b23b16ebe135b1e1bbddb8be4e51f14667d4c469d52fd66b9f9ae2b312c662789e5df261ba81d2833d6d5b0e8058d618ac3548eb7ac61433686dccf45ffc255b03e3edabfc7f4f62783611d8f6d8a7f50874881291e4b592119ac2b9287c7ae7e13732c9677baa531531c2f206696c0d6c53a516c7d33668b01f4a218d3b0c3b1fc2c6f03130b609b7f853932f4b78fd95b9a74bddcdac0d11c8999452d05473398a5a6ccde73ee18bc36dacdd42fd8711d9338864c4ad7ee65adcb8c56623bf485e10f30754e163f65e5bc6b216c8f9e5415af8f9523479305f698b94115d8213d9a285e942ba6042db043b61acc23dc674673d73072b4c2a5215bbe029862ee0b458e71579eebd85b0adba6af3af3fe0d83f5f989beb56d3113424a623aafdb32f78071ddb37f1d5d0c4ed8457c0ad437129339421fd8af646952f985ed1294153ed39a70f3c299d267543a229f73866e8b29cb37305205c75d78c4b6ba0cd83b064b0572f01a994662fb99953734dd1898ca272ade66aa5f5bddb438a6148cb27e6e86f0cd3c33cd5a715b0ce6c6f08117456fe282c554c2deb358ee9bac79ccce184fa55647adb939db506b95ce8d84a182cd2da2be8675c89c22baa43a277b272a25b16ff102ebb8373535353535d5f513d5055b1da2622a6b0000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -3577,27 +3635,28 @@
                   "contours":[
                     {
                       "nodes":[
-                        "311 -17",
+                        "311 -17 {n:'.ab01'}",
                         "839 26  1145 400  1145 873 s",
-                        "1145 1113  1032 1517  591 1517 s",
+                        "1145 1113  1032 1517  591 1517 s {n:'.at01'}",
                         "260 1517  50 1313  50 1017 s",
-                        "50 731  277 544  569 544 s",
+                        "50 731  277 544  569 544 s {n:'.sv02'}",
                         "592 544  614 545  635 548",
                         "813 700",
-                        "809 456  543 207  268 199"
+                        "809 456  543 207  268 199 {n:'.sv01'}"
                       ]
                     },
                     {
                       "nodes":[
                         "578 761 s {n:'.hr01'}",
                         "454 761  380 891  380 1034 s",
-                        "380 1178  474 1300  598 1300 s",
+                        "380 1178  474 1300  598 1300 s {n:'.sv03'}",
                         "728 1300  809 1114  817 945",
                         "774 854  670 761 c"
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -3634,6 +3693,12 @@
               }
             ],
             "color":"#00cce5",
+            "tth":[
+              "alignv .sv02 round",
+              "alignt .at01 \"t: 1\"",
+              "singlev .sv02, .hr01 \"eq Y: 171\"",
+              "singlev .at01, .sv03 \"eq Y: 171\""
+            ],
             "active":true
           }
         ]
@@ -3641,7 +3706,7 @@
       {
         "name":"colon",
         "unicode":"003a",
-        "lastModified":"2026-05-12 02:01:25",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"mask",
@@ -3836,7 +3901,7 @@
       {
         "name":"semicolon",
         "unicode":"003b",
-        "lastModified":"2026-05-12 02:01:56",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"mask",
@@ -4129,7 +4194,7 @@
       {
         "name":"equal",
         "unicode":"003d",
-        "lastModified":"2026-04-28 02:45:07",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"mask",
@@ -4334,7 +4399,7 @@
       {
         "name":"question",
         "unicode":"003f",
-        "lastModified":"2026-05-12 03:49:01",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"mask",
@@ -4490,7 +4555,7 @@
       {
         "name":"at",
         "unicode":"0040",
-        "lastModified":"2026-05-17 04:10:37",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"mask",
@@ -4784,7 +4849,7 @@
       {
         "name":"A",
         "unicode":"0041",
-        "lastModified":"2026-05-17 14:08:40",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -4794,7 +4859,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d4948445200000253000001a401030000002ff0329700000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000005949444154789cedd2a10d00200c44d10a3600dffdb7c4e39a5494e4bd01beb85c449bdd978ad3d85a8d2d00000000000000000000000000000000000000000000000000000000fe94435b53d98b974fd4d88b974fd4d8ab262f7ac601bffea188290000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d4948445200000253000001a401030000002ff0329700000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c18000001e549444154789ceddd594ec3401045d13087414c0131c3fe77c9bfa5feb074715dbade5940a9dcb67b4abbb2db618eb950a8d3ea0406ceaa1318f8ac4e20a6f6589dc0c04f75021bb8ad4e60e01d8c65bd8f2f602cf21ac958d6318dbc46eb7c22e67003c622fb55ab93ea0406ac7d74c492f5f93aaf4e60806caf2f3096f53e1e55271053fb06637d80b11ec058d6f944e65feb90eb47b2edc96bbc0363edc1581d90f7f1128c6545b6d73518eb0a8c659d1792632dd9e7449dd7ea0436403ef7073096d57375021b20e739d6fe3eeadc5727f0cfe41d9a43e685f1972ec058d9eb5887dcff22d7ee1dc60eeb355af3b222d7dbd639a6759f9c94bdda3ad6bc3a9cc7b4227fe7b3b617f97c59fb2fb2edc96f6bacbfd73e81b1accf3d896c7bf2bc49acd3e177182bb29f48ff151d91e74d3ab0bedbd67934c97ab6935c0f91b1ac677449e4da8afc2da003f21d7a036391ac7d8e751cb29e998f397438134822ebae58fb9c0ec8f32656642db13cab73c87d5c87fcaedc5adb2f22624be43844d6e3eb303ea68ec81cac6b98bc8feb9075573a9c5db1d6b3b2eab04f6ed5a1262fc93aa675403e5f1dea3493ac756aac351aad3abc4356d69a7056d6ef0c23624e3913184b1dc6da9cbd8ba5ec754447f9b62696d25e1173eaf0ff69a40e7d61876bd4fa05822d0c2a487ee85d0000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -4899,18 +4964,18 @@
             ],
             "color":"#00cce5",
             "tth":[
+              "alignt .at01 \"t: 1\"",
+              "alignb .sh02 \"b: 0\"",
+              "alignb .sh04 \"b: 0\"",
+              "doublev .dv01, .ih02 \"eq Y: 144\"",
+              "interpolatev .ah01 .at01, .sh02",
               "alignh .ah01 round",
               "singleh .ah01, .sh01 .none",
               "singleh .sh01, .sh02 \"eq X: dia Lite\"",
               "singleh .ah01, .sh03 .none",
               "singleh .sh03, .sh04 \"eq X: dia Fat\"",
               "interpolateh .ih01 .ah01, .sh01",
-              "interpolateh .ih02 .ah01, .sh03",
-              "alignt .at01 \"t: 1\"",
-              "alignb .sh02 \"b: 0\"",
-              "alignb .sh04 \"b: 0\"",
-              "doublev .dv01, .ih02 \"eq Y: 144\"",
-              "interpolatev .ah01 .at01, .sh02"
+              "interpolateh .ih02 .ah01, .sh03"
             ],
             "active":true
           }
@@ -4919,7 +4984,7 @@
       {
         "name":"B",
         "unicode":"0042",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"mask",
@@ -5083,6 +5148,12 @@
             ],
             "color":"#bac000",
             "tth":[
+              "alignt .at01 \"t: 1\"",
+              "alignb .dh01 \"b: 0\"",
+              "doublev .ih02, .ih03 \"eq Y: 153\"",
+              "singlev .at01, .sv01 \"eq Y: 144\"",
+              "interpolatev .ih01 .ih03, .ih02",
+              "singlev .dh01, .dh02 \"eq Y: 162\"",
               "doubleh .dh01, .dh02 \"eq X: 208\"",
               "doubleh .dh03, .dh04 \"eq X: 199\"",
               "singleh .dh02, .sh01 .none",
@@ -5090,13 +5161,7 @@
               "singleh .dh04, .sh02 \"eq X: ecart du B\"",
               "singleh .sh02, .sh03 \"eq X: 208\"",
               "singleh .dh01, lsb .round",
-              "singleh .dh04, rsb .round",
-              "alignt .at01 \"t: 1\"",
-              "alignb .dh01 \"b: 0\"",
-              "doublev .ih02, .ih03 \"eq Y: 153\"",
-              "singlev .at01, .sv01 \"eq Y: 144\"",
-              "interpolatev .ih01 .ih03, .ih02",
-              "singlev .dh01, .dh02 \"eq Y: 162\""
+              "singleh .dh04, rsb .round"
             ],
             "active":true
           }
@@ -5105,7 +5170,7 @@
       {
         "name":"C",
         "unicode":"0043",
-        "lastModified":"2026-05-17 14:08:40",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -5211,7 +5276,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "guidelines":[
@@ -5239,15 +5305,6 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh .ah01 round",
-              "alignh .ah02 round",
-              "doubleh .dh01, .dh02 \"eq X: 208\"",
-              "mdeltah .mh01 13-13 -2",
-              "mdeltah .dh01 7-7 2",
-              "mdeltah .mh02 7-7 6",
-              "mdeltah .ah01 6-6 2",
-              "mdeltah .dh02 17-17 3",
-              "mdeltah .mh03 12-12 3",
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "mdeltav .mv01 6-6 2",
@@ -5258,7 +5315,16 @@
               "mdeltav .mv03 6-6 4",
               "mdeltav .mh03 12-12 3",
               "singlev .ab01, .sv02 \"eq Y: 171\"",
-              "mdeltav .sv02 12-12 5"
+              "mdeltav .sv02 12-12 5",
+              "alignh .ah01 round",
+              "alignh .ah02 round",
+              "doubleh .dh01, .dh02 \"eq X: 208\"",
+              "mdeltah .mh01 13-13 -2",
+              "mdeltah .dh01 7-7 2",
+              "mdeltah .mh02 7-7 6",
+              "mdeltah .ah01 6-6 2",
+              "mdeltah .dh02 17-17 3",
+              "mdeltah .mh03 12-12 3"
             ],
             "active":true
           }
@@ -5267,7 +5333,7 @@
       {
         "name":"D",
         "unicode":"0044",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -5395,7 +5461,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "guidelines":[
@@ -5435,20 +5502,20 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh lsb round",
-              "alignh .ah01 round",
-              "singleh .ah01, .sh01 \"eq X: 208\"",
-              "singleh lsb, .sh02 .round",
-              "singleh .sh02, .sh03 \"eq X: 208\"",
-              "singleh .sh03, .sh04 .none",
-              "singleh .sh01, rsb .round",
               "alignt .at01 \"t: 1\"",
               "alignt .at02 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sh03 \"eq Y: 162\"",
               "singlev .at01, .sh04 \"eq Y: 153\"",
               "singlev .sh04, .sv01 .none",
-              "singlev .sv01, .sv02 .none"
+              "singlev .sv01, .sv02 .none",
+              "alignh lsb round",
+              "alignh .ah01 round",
+              "singleh .ah01, .sh01 \"eq X: 208\"",
+              "singleh lsb, .sh02 .round",
+              "singleh .sh02, .sh03 \"eq X: 208\"",
+              "singleh .sh03, .sh04 .none",
+              "singleh .sh01, rsb .round"
             ],
             "active":true
           }
@@ -5457,7 +5524,7 @@
       {
         "name":"E",
         "unicode":"0045",
-        "lastModified":"2026-05-17 14:08:40",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -5467,7 +5534,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d49484452000000570000009701030000005aee559b00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000005249444154388d63604002ffe1e00711ec3f28ec7abab21fc0dd6c4f32fb031dd93f46d9a36c12d950f08144f60f1ab0ff10cb1e0ce13692d9f42cd31e90c44694db3f4864535647c099ffffe2a8b3708a03002ec1a6d54c9c96e00000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d49484452000000570000009701030000005aee559b00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000005649444154388d63604002ffe1e00711ec3f28ec7abab21fc0dd6c4f32fb0394c588c4a695f80f24f11f648a8fb247161b0a3e90c8fe4103f61f62d98321dc46321b5bf9432bf60392d88872fb07896ccaea88ffe4b301572da6d959ba64160000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -5543,7 +5610,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -5569,17 +5637,17 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh .ah01 round",
-              "doubleh .dh01, .dh02 \"eq X: ecart du B\"",
-              "doubleh .dh03, .dh04 \"eq X: 208\"",
-              "singleh .dh04, .sh01 .none",
               "alignt .ah01 \"t: 1\"",
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "doublev .dv01, .dh01 \"eq Y: 144\"",
               "singlev .ab01, .dh02 \"eq Y: 171\"",
-              "singlev .ah01, .sv01 \"eq Y: 171\""
+              "singlev .ah01, .sv01 \"eq Y: 171\"",
+              "alignh .ah01 round",
+              "doubleh .dh01, .dh02 \"eq X: ecart du B\"",
+              "doubleh .dh03, .dh04 \"eq X: 208\"",
+              "singleh .dh04, .sh01 .none"
             ],
             "active":true
           }
@@ -5588,7 +5656,7 @@
       {
         "name":"F",
         "unicode":"0046",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -5694,13 +5762,13 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "doubleh .dh01, .dh02 \"eq X: 208\"",
-              "doubleh .dh03, .dh04 \"eq X: ecart du B\"",
-              "singleh .dh02, .sh01 .none",
               "alignt .at01 \"t: 1\"",
               "alignb .dh02 \"b: 0\"",
               "doublev .dh03, .dv01 \"eq Y: 144\"",
-              "singlev .at01, .sv01 \"eq Y: 162\""
+              "singlev .at01, .sv01 \"eq Y: 162\"",
+              "doubleh .dh01, .dh02 \"eq X: 208\"",
+              "doubleh .dh03, .dh04 \"eq X: ecart du B\"",
+              "singleh .dh02, .sh01 .none"
             ],
             "active":true
           }
@@ -5709,7 +5777,7 @@
       {
         "name":"G",
         "unicode":"0047",
-        "lastModified":"2026-05-17 14:08:40",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -5858,7 +5926,6 @@
               "mdeltah .ah02 28-28 -8",
               "mdeltah .mh01 20-20 -1",
               "mdeltah .mh02 19-19 -1",
-              "mdeltah .mh03 19-19 5",
               "singleh .sh02, .sh03 \"eq X: 208\"",
               "singleh .sh01, rsb .round"
             ],
@@ -5869,7 +5936,7 @@
       {
         "name":"H",
         "unicode":"0048",
-        "lastModified":"2026-05-17 14:08:40",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -6005,7 +6072,7 @@
       {
         "name":"I",
         "unicode":"0049",
-        "lastModified":"2026-05-17 14:08:40",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"mask",
@@ -6076,7 +6143,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -6092,6 +6160,15 @@
             ],
             "color":"#bac000",
             "tth":[
+              "alignt .mh01 \"t: 1\"",
+              "alignt .ah02 \"t: 1\"",
+              "alignb .ah01 \"b: 0\"",
+              "alignb .ah03 \"b: 0\"",
+              "singlev .ah02, .mh02 \"eq Y: 171\"",
+              "singlev .ah03, .sh01 \"eq Y: 171\"",
+              "singlev .ah01, .mh03 \"eq Y: 171\"",
+              "singlev .mh01, .sh02 \"eq Y: 171\"",
+              "mdeltav .sh02 22-22 1",
               "alignh .ah01 round",
               "alignh .ah02 round",
               "alignh .ah03 round",
@@ -6105,8 +6182,8 @@
               "mdeltah .ah01 22-22 -4",
               "mdeltah .ah01 24-24 -6",
               "singleh .ah01, .sh01 .round",
-              "mdeltah .sh01 17-17 -5",
               "mdeltah .sh01 24-24 -5",
+              "mdeltah .sh01 17-17 -5",
               "mdeltah .sh01 19-19 -8",
               "mdeltah .ah03 24-24 -5",
               "mdeltah .mh03 22-22 -4",
@@ -6115,16 +6192,7 @@
               "mdeltah .sh02 24-24 -1",
               "mdeltah .sh02 22-22 -5",
               "singleh .ah01, lsb \"eq X: 190\"",
-              "singleh .ah03, rsb \"eq X: 190\"",
-              "alignt .mh01 \"t: 1\"",
-              "alignt .ah02 \"t: 1\"",
-              "alignb .ah01 \"b: 0\"",
-              "alignb .ah03 \"b: 0\"",
-              "singlev .ah02, .mh02 \"eq Y: 171\"",
-              "singlev .ah03, .sh01 \"eq Y: 171\"",
-              "singlev .ah01, .mh03 \"eq Y: 171\"",
-              "singlev .mh01, .sh02 \"eq Y: 171\"",
-              "mdeltav .sh02 22-22 1"
+              "singleh .ah03, rsb \"eq X: 190\""
             ],
             "active":true
           }
@@ -6133,7 +6201,7 @@
       {
         "name":"J",
         "unicode":"004a",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -6143,7 +6211,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c18000003d3494441546881ed9b3d6ed4401480ed758803846c40a2b6500a2a04051d854595929a8e1b8084848484e4bd418e902b700024b6e11014487b0010015224908d59db31f2f83d7b3e6647d8205e9195bc5fde9bf733cf63cf6c10fc97a66c78d53661d8b657a363969061d110463787303a885c1a7a007f4c6016e03c8518ac5ed86a60b262866d31ec0ac360e3da611814980518371890ab0c839ec2b2842e5c66d83586f91d1b2ca429c3e09481018146a1a7b042607861594217e0ad0d562f0c08ac37a80d8ecdf1269e9eab975b8594e6a76ac7333b52f836cff3b98299ffbb93adb05cc14c176e14d4722131b390f60a2c7f2331b32c0f4bec87cd685a62aa134dc92aeca89fba5e51f9593f76fb02932131eea70735366b6346b2921a9bb7b1a6a793b4c6166dac99acedacc67a5ddd2a91c4e66a585027b1e66ad368540e2bd45c8ddbd83cd05c6dceacc2dce72a637d3e4c57df9f57d13bb16067bf3e0c6996e5d395b2a3ca767b7e355d48aaf8470ad6363abf085f0fb60ac5e9acfc506aa421d1f98be223b360c1e363843d7a55fc4d6dd87e19fd4466cb680ebbf79f7560a6dc7a52638b3eec65a9249698d654154c1388450c9bd8db482929c28a0e4cb0a4bfca6b3964d881b5c57560ea825662eae2276646f7995189416daa3c1498fa64745360ea4dfc0e33bae7158b1816302cf48aed422c6b63fa1234cb3f9a17f4b5a5d0a60bc6fa3a7e2d5b4c5be88ae94f94025397a0abb11d03a3b242d4f04a4fd564c180484c5d933b6b5b07f35e48245950db86abd1ae99e5a64d7f801a71dc9c31fdd9791c85b40e36193106eb6d24635b079346d5de3bc8d8fc16d298e7c2df85c1c5cf208d0bb668e8c23a98f38a6b4d8c2c1a39e6e6a9ba68e42e2c0126b3a06f2d61175a0151972b306ece2b7c7dcf4860faab7ef1ea477fdfeb1b83014139b5bcbdfa4d2ca3da3c3ec6524f5d2b44df33c265e937593ee3260a499fce02d31f2b5cc7d635013d3eb0f329e3f7eeec56216b660106a4354f7517f2fc3bd33606ac2b6e838cedab79a1ab93b75e0b77bdf95176c834ec94615f18f6cdbcd075af87dae0d8fe3d4c4fbdc0ba52dfc2e4f6f4028d2d8c67c88508611bd3b37263cb86c539d1b619e70ba06d325df55d3b566ccc2d0426fbdbdd727b94682358ccb06a8fda8e250aa64c400d532405fbddf5d896332bb6b4ed6556d80775235b8cadd466ddd04a1856a66169df1e4b89b22af964af2d6358c4b0e013c39ebf7b6d5ed06fe20fdecfcc0b1d8779ee119bce024f21c2b352f0a4df20a75ee1d1c741041e821a44fc1ecbf42bf090a75ff17b5ad8afc0221ff3d1ee31ffcc61cc3d641081274bfd0abc678df9b715c14f0b4223c25cee3bbe0000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c1800000258494441546881edd9316ed44014c6717b1de114111b90a82d94822a82221d854595929a8e1b8084848414c9be418e902be4009148c3212822f9002002a4c8c27a07cf0c4ec7bc7fd08bd684f71571919fdece9b195bde9d2cb3582c168bc562b158febbd42ba4dc624b56f97be7dca9c8ee36037322bbef55df496cc7337722b1a3c07e4aac0e4c6ca289ec3cadee45e59669f6e83713a6e470646d9255233b4da9593db22ec5b69a91255bdd0ca4925acdbdba2ca5568b30ac5c6ab5884d4aadfa8ffb12572cd5c37cf8ff2acedea5c09657973fe6d550ec3c7e76eafeaae2fc17029bc7167369e29c5bb4e1224cdceaadbf34d2567a7181d8f303ffb796d87e98fd4a58adedbdd784650f5f8eac4bb177a14829b1185d563036931f23213562fe094c5895dee5638e183b141f7137c04ac6f6d7c19e31f680b15dc6765459c158c658aecab6216b580b8dfbc418ac061979f1da64d57255065b18c67641aab1c5829dde02a6be9114d9c684c766ec1f62b309b329b730e55598f2469af2bd60ecf631dd372ecec84b23676b69a1074c7db114e74df70d9f32f28be90d30d8025a53ddb135b49ae2d758dae95a76086670b134e70d6e24cc74d75473b1f02db386b1e9b68019bc4f7f18fb2bf68d31f223f3b043c413b2c8168c7d65ecbb6a35383663d7651d6279d9a26a05621bf36538d89258e948b53ba5eb40b5d97c78eecacc1fcc75803d0ec7a3a41a612563f18c5a66952aabc179f738b6be15592f9f777b76261e6487b1856ae28156c55858865e3e1eab49b1b8f8e4acad61ac602cfbccd89b0fc7843dfdd812963d41ca62b1582c16cbf4f30bc7d81fc2ead3031e0000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -6228,7 +6296,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -6250,15 +6319,15 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh .ah01 round",
-              "doubleh .dh01, .dh02 \"eq X: 208\"",
-              "singleh .ah01, .sh01 .round",
-              "singleh .dh02, rsb .round",
               "alignt .ah01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "doublev .dv01, .dv02 \"eq Y: 171\"",
               "singlev .ab01, .sv01 \"eq Y: 171\"",
-              "singlev .ah01, .sh01 \"eq Y: 171\""
+              "singlev .ah01, .sh01 \"eq Y: 171\"",
+              "alignh .ah01 round",
+              "doubleh .dh01, .dh02 \"eq X: 208\"",
+              "singleh .ah01, .sh01 .round",
+              "singleh .dh02, rsb .round"
             ],
             "active":true
           }
@@ -6267,7 +6336,7 @@
       {
         "name":"K",
         "unicode":"004b",
-        "lastModified":"2026-05-17 14:08:40",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -6277,7 +6346,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000047a494441546881ed9acb71db30108609c116e3c4368e39b28494c094900e5c0a55424a7019b999336984c71c75b4671c21a2c5c72eb02f67e4d033e19e42f3e302f8ff5d808a54146bacb1c61aff73dcda30f7b6b3f817615c825190f3867febfc3be28fb920d7d4b3e41fdf499cd72ca30b8bf4c222832ed20bef39c2d21310e266e9090861d4edbc9831364b0cba46515cd830243c34abdcc33b55cb3c5f1e10b667b01077e0aa7e0617701bac6207ae9af8133e0531386a8c91c66a78c3c5f874cf612dc4c043571ce68fd8772e5b375d94113e04a381583862df74ac62073d62bfe00ce23d87ed11c6ce6d0f2f0e24d5df799c2e22eb02c47a75a39ecdd9b2795bb6de04c3127a0cd4e50d83f55e3d166434204165c37a13989e49b16ebe75c9600d6b699f61c278756136c1840ca3298879de0488a55ec1ed092c2160af50004c30010e5adbb026f18a995b83bde2e61613af3c89b9147324e605af0056a65e6d588cf30a60920900934c0098d0097f8165267cc0d8b0bc54ddd45380edd441a58601d9a4860158de308ec24ac9841913762d885599bad71456a7eaa2435cc04879855d0b62a2ba13269b8031969a3c25762d6a09b20908e34d9830b161309674c296c08886b9223069d73a0df682650d43cf4d3661945738bf6136e9e800d9281388ea953b0161ec3e3363952cdb38b7bc13484cee0484edf4b951eae6d5eb147525cc6798a73a21dfb8944e1831d22bb8846ac232af7c86695e01acd5b1da86915e6d482ccbe030f64c5b9a0efaac360cc0f25d2b5098e8d509532d3d615a5f0d82109b1b87753aa67a75c2b4f63b61ca093360517c259bb1a07af5823534769b6091c61c8109e715c4084b4b0223bcdadab00d817536ac95163063c4ad90638a092346c94664933b61c2a812bfccb1ce96adb5610a3560da98278c562db75e4b3660ed99e6165875094ce984112397ea338cecf9eb1c6b4d83aa6b08b67aebb1ca841d820d2bf55ee831af9bdf6305ad4849609d3e28fe4f387ed05a5d6a184e991f86b90552119762a5bad7bc604e156ec49e763a46eb7b91614d3c74866c955698617c31cb319f614c29a598d7840be39baa11fbad61bd014c47a758a374f480554a61be0e2b151b06cc2b653e608eb0e136c70a45df1913eb77c41a59df11ab657d474c116ec4c8c2ccb152166ec4bc5cbf612821a5a3474c110e62bbe4163137a530272cdf3129eb95c6af464c3e43264c6e7c8809153761f2513361b970e9fbdbe95f626122ac45b7d297ed09eb0cd9be48face987894cfd82749df1913f57d35b6916c983197d94062cc8b4186dd09fa022c6dfcf44d75c6587d31c6ea0b3049388049075735df93b61180490717c484fd21c13a0356f3f59b609cbe35c0041b20266c231013de1f6a9021b1016e0e0dc41acbd75ec997d0e8e507610fc80687b159843bd62df42120b06e21ec33720bcccd21ccc16f9761f43b2e48c00dea10b66d9812c1d9fc83093b0ad7ce17e07396c31f1502d30c0eef2f9eeb19dc4dae06171f11862ad131d9ea6498af34b6c652b1d5913eae74a48ff7fcd3c7457e807aa9237d18e53d6f185d30febe6a8d35ce137f00490cc5f0015db6780000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c18000003c7494441546881edd94172d3401005500b015a40d52c59ea081c411c811be428d21138428ec12eaae2225ab2f432a90a1e2c63d933ddff4f7770165431deb9f23292fb4f8f46d26ee7f9bc73a9ca2aabacb2ca2afb17593bb9d8c7573d6865955556596595a1cf5b1f0b8c75fbf42ffdccd821637bc2429c926fc333617d5c926f63fc3111961e35c688d990fea189f1e99eb139657cb42b6b8fec1b63d7dfd0c5f49f5236a62c1cd9579bf5f4a047f6333d8378cfd83e63f4dcf6e997a4d8823d5ebe445ab794add58df6688d6fb4d637da1a82e327acecd9666b568f945d06e87d6c0d61ef638bcdc62c52392d2f2caf2e1bad7901db99accd4360ac2bb0e427843c2bc64408eca0838f8d7956eca0639e156331cf8ab0c6c75a9115619dc8aac00e369321102643204c74c28d4c8620d9f9e7c9ea16d8641e54360c194d360c61b26108eb64089805190266bdac2e6683acee4d6c942160a6aa0b990e81b35d899d8aaa4380a3e910287bb4996a18cef636530d83996a18b9e3fac354c3e0d17408a8bcad0e018d064240a38110d068ba1328dbdbacd76543e7a63b0132dd09944df6b981ea02d680eafe3d6b410880814e400c6505a625ca0a30941561b3cd061f435911269564cf3852cd50c310a6b2c24c85a0198c543398952e0858dc185b6c06b3d20cb59f66e00a0358545b32cc02cc4ab1d1c7a29fe9e421d39142a6b3ba852d3e36fb98568881b22106ca8618281b62a01e882d3e36fb185080a1636a86aa864673b2f995ce2dd0ea028622050cfe54cd40cf4336fb983543826fbeadac77b143f0b1ceee8595b57603ae6c67b7f3c616071bdccc58dfc2f92af3ddc182b9a89e58672ed127d6c0c221f634d90cd757b3311e1607ebadab73d836661e06a79266adb5ab09db4ed5c97e596c0d00753460a3b11b3cb3ded882be8c75c6bef7cc5a63177d668db1753fb39d71237065c5bb8f8d8de57b998d0de53ba38d81c221062626625df95671636df9c6339ca710e868c440e1189bec7303131332bd6242a61b5f5e9d375f78827161baf1192b3c84b9307da9814c170e333531299b7d6c71b0cfa5e76f57a62ee5987d283d1bbc3255df9bd81b1903668d8c013375e122ecaef0bc3761b2f139a38fac73461f80274c168e3079e142cfdf767a19214c4e73c646fe7e41b0c5c106fe8a4430f6c2654858f031b18c3026f60fe0c1dae9d37036a66cf4bcf6122fa1397ba06feec6b408779465370181be2eccd827f6f2b1c95893be5d4ed9bae22603b08336197b3f9283e6a3b50f2e762cdc4c0f9a9c4e202934f9fad2b2b0f26e6a06cab205a1216c1097962f98153e955556596595fd2fec37195cca015565d9920000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -6377,6 +6446,15 @@
             ],
             "color":"#00cce5",
             "tth":[
+              "alignv .sh04 round",
+              "alignt .at01 \"t: 1\"",
+              "alignt .hr01 \"t: 1\"",
+              "alignt .sh02 \"t: 1\"",
+              "alignb .sh01 \"b: 0\"",
+              "alignb .sh07 \"b: 0\"",
+              "interpolatev .ah02 .sh01, .hr01",
+              "interpolatev .sh03 .sh01, .hr01",
+              "interpolatev .ah03 .sh01, .hr01",
               "alignh .ah01 round",
               "alignh .hr01 round",
               "alignh .ah02 round",
@@ -6389,20 +6467,11 @@
               "mdeltah .sh04 14-14 -2",
               "mdeltah .mh01 14-14 2",
               "singleh .ah03, .sh05 \"eq X: dia Fat\"",
-              "mdeltah .sh05 14-14 -2",
               "mdeltah .sh05 18-18 -2",
+              "mdeltah .sh05 14-14 -2",
               "singleh .ah03, .sh06 .round",
               "singleh .sh06, .sh07 \"eq X: dia Fat\"",
-              "mdeltah .sh07 15-16 4",
-              "alignv .sh04 round",
-              "alignt .at01 \"t: 1\"",
-              "alignt .hr01 \"t: 1\"",
-              "alignt .sh02 \"t: 1\"",
-              "alignb .sh01 \"b: 0\"",
-              "alignb .sh07 \"b: 0\"",
-              "interpolatev .ah02 .sh01, .hr01",
-              "interpolatev .sh03 .sh01, .hr01",
-              "interpolatev .ah03 .sh01, .hr01"
+              "mdeltah .sh07 15-16 4"
             ],
             "active":true
           }
@@ -6411,7 +6480,7 @@
       {
         "name":"L",
         "unicode":"004c",
-        "lastModified":"2026-05-17 14:08:40",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -6484,7 +6553,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -6506,11 +6576,11 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh .ah01 round",
-              "doubleh .dh01, .dh02 \"eq X: 208\"",
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
-              "singlev .ab01, .sv01 \"eq Y: 162\""
+              "singlev .ab01, .sv01 \"eq Y: 162\"",
+              "alignh .ah01 round",
+              "doubleh .dh01, .dh02 \"eq X: 208\""
             ],
             "active":true
           }
@@ -6519,7 +6589,7 @@
       {
         "name":"M",
         "unicode":"004d",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -6617,7 +6687,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "guidelines":[
@@ -6651,28 +6722,118 @@
             ],
             "color":"#00cce5",
             "tth":[
+              "alignv .ih03 round",
+              "alignt .ih02 \"t: 1\"",
+              "alignt .sh02 \"t: 1\"",
+              "alignb .dh02 \"b: 0\"",
+              "alignb .ah01 \"b: 0\"",
+              "mdeltav .mh01 32-32 5",
+              "mdeltav .mh01 12-12 2",
+              "mdeltav .mh01 22-22 1",
+              "mdeltav .mh02 26-26 -8",
+              "mdeltav .mh02 30-30 -8",
+              "mdeltav .mh02 19-20 -6",
+              "mdeltav .mh02 34-34 -5",
+              "mdeltav .mh02 27-27 -2",
+              "mdeltav .mh02 23-23 -1",
+              "mdeltav .mh02 48-48 4",
+              "mdeltav .mh02 31-31 5",
+              "mdeltav .mh02 33-33 -1",
+              "mdeltav .mh02 18-18 -1",
+              "mdeltav .mh02 12-12 -3",
+              "mdeltav .mh02 29-29 -6",
+              "mdeltav .mh02 25-25 -7",
+              "mdeltav .mh02 28-28 -8",
+              "mdeltav .mh02 22-22 -8",
+              "mdeltav .mh02 16-16 -8",
+              "mdeltav .ih01 34-34 -8",
+              "mdeltav .ih01 28-28 -5",
+              "mdeltav .ih01 42-42 -3",
+              "mdeltav .ih01 32-32 -2",
+              "mdeltav .ih01 30-30 6",
+              "mdeltav .ih01 48-48 -2",
+              "mdeltav .ih01 14-14 -2",
+              "mdeltav .ih01 31-31 -5",
+              "mdeltav .ih01 29-29 -7",
+              "mdeltav .ih01 22-22 -8",
+              "mdeltav .ih01 16-16 -8",
+              "mdeltav .mh03 19-19 8",
+              "mdeltav .mh03 27-27 8",
+              "mdeltav .mh03 33-33 8",
+              "mdeltav .mh03 22-22 8",
+              "mdeltav .mh03 25-25 6",
+              "mdeltav .mh03 23-23 -4",
+              "mdeltav .ih03 22-22 8",
+              "mdeltav .ih03 12-12 4",
+              "mdeltav .ih04 22-22 8",
+              "mdeltav .ih04 27-27 8",
+              "mdeltav .ih04 12-12 8",
+              "mdeltav .ih04 14-14 5",
+              "mdeltav .mh05 13-13 5",
+              "mdeltav .mh05 19-19 8",
+              "mdeltav .mh05 27-27 8",
+              "mdeltav .mh05 34-35 8",
+              "mdeltav .mh05 29-29 8",
+              "mdeltav .mh05 23-23 8",
+              "mdeltav .mh05 22-22 6",
+              "mdeltav .mh05 31-31 -1",
+              "mdeltav .mh05 12-12 -3",
+              "mdeltav .ih05 26-26 -8",
+              "mdeltav .ih05 12-12 -7",
+              "mdeltav .ih05 28-28 -6",
+              "mdeltav .ih05 14-14 -2",
+              "mdeltav .ih05 34-34 2",
+              "mdeltav .ih05 31-31 4",
+              "mdeltav .ih05 33-33 3",
+              "mdeltav .ih05 18-19 -2",
+              "mdeltav .ih05 22-22 -5",
+              "mdeltav .ih05 21-21 -6",
+              "mdeltav .ih05 29-29 -8",
+              "mdeltav .ih05 20-20 -8",
+              "mdeltav .ih05 13-13 -8",
+              "mdeltav .mh06 26-26 -8",
+              "mdeltav .mh06 20-20 -6",
+              "mdeltav .mh06 35-35 -5",
+              "mdeltav .mh06 28-28 -3",
+              "mdeltav .mh06 27-27 -1",
+              "mdeltav .mh06 33-33 3",
+              "mdeltav .mh06 34-34 6",
+              "mdeltav .mh06 31-31 3",
+              "mdeltav .mh06 13-14 -2",
+              "mdeltav .mh06 15-15 -3",
+              "mdeltav .mh06 25-25 -5",
+              "mdeltav .mh06 29-29 -8",
+              "mdeltav .mh06 22-23 -8",
+              "mdeltav .mh06 19-19 -8",
+              "mdeltav .mh04 29-29 8",
+              "mdeltav .mh04 33-33 8",
+              "mdeltav .mh04 18-18 7",
+              "mdeltav .mh04 12-12 3",
+              "mdeltav .mh07 13-13 6",
+              "interpolatev .ah02 .dh02, .sh02",
+              "mdeltav .sh03 13-13 -3",
               "alignh .ah01 round",
               "alignh .ah02 round",
               "doubleh .dh01, .dh02 \"eq X: 208\"",
               "singleh .ah01, .sh01 \"eq X: 208\"",
               "mdeltah .mh01 22-22 3",
               "mdeltah .mh01 12-12 -2",
-              "mdeltah .mh02 24-25 -8",
+              "mdeltah .mh02 29-29 -8",
               "mdeltah .mh02 27-27 -7",
               "mdeltah .mh02 30-30 -6",
               "mdeltah .mh02 26-26 -5",
-              "mdeltah .mh02 18-18 -4",
-              "mdeltah .mh02 22-22 -3",
-              "mdeltah .mh02 12-12 -3",
-              "mdeltah .mh02 31-31 1",
-              "mdeltah .mh02 48-48 1",
+              "mdeltah .mh02 23-23 -4",
               "mdeltah .mh02 14-14 -3",
               "mdeltah .mh02 28-28 -3",
-              "mdeltah .mh02 23-23 -4",
+              "mdeltah .mh02 48-48 1",
+              "mdeltah .mh02 31-31 1",
+              "mdeltah .mh02 22-22 -3",
+              "mdeltah .mh02 12-12 -3",
+              "mdeltah .mh02 18-18 -4",
               "mdeltah .mh02 34-34 -6",
               "mdeltah .mh02 20-20 -6",
               "mdeltah .mh02 33-33 -8",
-              "mdeltah .mh02 29-29 -8",
+              "mdeltah .mh02 24-25 -8",
               "mdeltah .mh02 19-19 -8",
               "mdeltah .mh03 14-14 -4",
               "mdeltah .mh03 24-24 -3",
@@ -6680,10 +6841,10 @@
               "mdeltah .mh03 28-28 1",
               "mdeltah .mh03 31-31 3",
               "mdeltah .mh03 22-22 -1",
-              "mdeltah .mh03 18-18 -3",
               "mdeltah .mh03 30-30 -3",
-              "mdeltah .mh03 19-19 -5",
+              "mdeltah .mh03 18-18 -3",
               "mdeltah .mh03 29-29 -5",
+              "mdeltah .mh03 19-19 -5",
               "interpolateh .ih01 .ih02, .mh03",
               "mdeltah .ih01 14-14 -3",
               "mdeltah .ih01 32-32 1",
@@ -6694,29 +6855,29 @@
               "mdeltah .ih01 27-27 -2",
               "mdeltah .ih01 28-29 -3",
               "mdeltah .ih01 19-19 -4",
-              "mdeltah .mh04 12-12 -1",
               "mdeltah .mh04 33-33 -1",
+              "mdeltah .mh04 12-12 -1",
               "mdeltah .mh04 18-18 -2",
               "interpolateh .ih03 .mh01, .mh04",
               "mdeltah .ih03 20-20 -5",
               "interpolateh .ih04 .mh04, .mh01",
-              "mdeltah .ih04 16-16 4",
-              "mdeltah .ih04 20-20 5",
               "mdeltah .ih04 13-13 4",
+              "mdeltah .ih04 20-20 5",
+              "mdeltah .ih04 16-16 4",
               "mdeltah .ih04 23-23 4",
               "mdeltah .ih04 12-12 -2",
               "mdeltah .mh05 34-34 1",
-              "mdeltah .mh05 16-16 2",
-              "mdeltah .mh05 18-18 4",
-              "mdeltah .mh05 31-31 5",
-              "mdeltah .mh05 28-28 5",
-              "mdeltah .mh05 13-13 4",
-              "mdeltah .mh05 22-22 3",
               "mdeltah .mh05 23-23 2",
+              "mdeltah .mh05 13-13 4",
+              "mdeltah .mh05 28-28 5",
+              "mdeltah .mh05 31-31 5",
+              "mdeltah .mh05 18-18 4",
+              "mdeltah .mh05 22-22 3",
+              "mdeltah .mh05 16-16 2",
               "mdeltah .mh05 12-12 -2",
               "mdeltah .mh05 27-27 -4",
               "interpolateh .ih05 .ih06, .mh05",
-              "mdeltah .ih05 22-22 -6",
+              "mdeltah .ih05 28-28 -6",
               "mdeltah .ih05 34-34 -5",
               "mdeltah .ih05 29-29 -1",
               "mdeltah .ih05 21-21 3",
@@ -6728,20 +6889,20 @@
               "mdeltah .ih05 14-14 -1",
               "mdeltah .ih05 33-33 -4",
               "mdeltah .ih05 31-31 -5",
-              "mdeltah .ih05 28-28 -6",
+              "mdeltah .ih05 22-22 -6",
               "mdeltah .ih05 24-24 -8",
-              "mdeltah .mh06 14-15 2",
-              "mdeltah .mh06 13-13 3",
-              "mdeltah .mh06 35-35 5",
+              "mdeltah .mh06 33-33 2",
+              "mdeltah .mh06 31-31 3",
               "mdeltah .mh06 19-20 5",
+              "mdeltah .mh06 35-35 5",
               "mdeltah .mh06 22-22 7",
               "mdeltah .mh06 23-25 8",
               "mdeltah .mh06 29-29 8",
               "mdeltah .mh06 26-26 6",
               "mdeltah .mh06 28-28 5",
               "mdeltah .mh06 34-34 4",
-              "mdeltah .mh06 31-31 3",
-              "mdeltah .mh06 33-33 2",
+              "mdeltah .mh06 13-13 3",
+              "mdeltah .mh06 14-15 2",
               "mdeltah .mh06 27-27 1",
               "singleh .ah02, .sh02 .none",
               "mdeltah .sh02 19-19 5",
@@ -6753,97 +6914,7 @@
               "singleh .ah02, .sh03 .none",
               "mdeltah .sh03 23-23 8",
               "mdeltah .sh03 13-13 1",
-              "mdeltah .sh03 15-15 1",
-              "alignv .ih03 round",
-              "alignt .ih02 \"t: 1\"",
-              "alignt .sh02 \"t: 1\"",
-              "alignb .dh02 \"b: 0\"",
-              "alignb .ah01 \"b: 0\"",
-              "mdeltav .mh01 32-32 5",
-              "mdeltav .mh01 12-12 2",
-              "mdeltav .mh01 22-22 1",
-              "mdeltav .mh02 26-26 -8",
-              "mdeltav .mh02 16-16 -8",
-              "mdeltav .mh02 29-29 -6",
-              "mdeltav .mh02 34-34 -5",
-              "mdeltav .mh02 27-27 -2",
-              "mdeltav .mh02 23-23 -1",
-              "mdeltav .mh02 48-48 4",
-              "mdeltav .mh02 31-31 5",
-              "mdeltav .mh02 18-18 -1",
-              "mdeltav .mh02 33-33 -1",
-              "mdeltav .mh02 12-12 -3",
-              "mdeltav .mh02 19-20 -6",
-              "mdeltav .mh02 25-25 -7",
-              "mdeltav .mh02 22-22 -8",
-              "mdeltav .mh02 28-28 -8",
-              "mdeltav .mh02 30-30 -8",
-              "mdeltav .ih01 16-16 -8",
-              "mdeltav .ih01 31-31 -5",
-              "mdeltav .ih01 42-42 -3",
-              "mdeltav .ih01 32-32 -2",
-              "mdeltav .ih01 30-30 6",
-              "mdeltav .ih01 14-14 -2",
-              "mdeltav .ih01 48-48 -2",
-              "mdeltav .ih01 28-28 -5",
-              "mdeltav .ih01 29-29 -7",
-              "mdeltav .ih01 22-22 -8",
-              "mdeltav .ih01 34-34 -8",
-              "mdeltav .mh03 33-33 8",
-              "mdeltav .mh03 22-22 8",
-              "mdeltav .mh03 19-19 8",
-              "mdeltav .mh03 27-27 8",
-              "mdeltav .mh03 25-25 6",
-              "mdeltav .mh03 23-23 -4",
-              "mdeltav .ih03 22-22 8",
-              "mdeltav .ih03 12-12 4",
-              "mdeltav .ih04 22-22 8",
-              "mdeltav .ih04 12-12 8",
-              "mdeltav .ih04 27-27 8",
-              "mdeltav .ih04 14-14 5",
-              "mdeltav .mh05 13-13 5",
-              "mdeltav .mh05 34-35 8",
-              "mdeltav .mh05 27-27 8",
-              "mdeltav .mh05 19-19 8",
-              "mdeltav .mh05 23-23 8",
-              "mdeltav .mh05 29-29 8",
-              "mdeltav .mh05 22-22 6",
-              "mdeltav .mh05 31-31 -1",
-              "mdeltav .mh05 12-12 -3",
-              "mdeltav .ih05 20-20 -8",
-              "mdeltav .ih05 12-12 -7",
-              "mdeltav .ih05 21-21 -6",
-              "mdeltav .ih05 18-19 -2",
-              "mdeltav .ih05 34-34 2",
-              "mdeltav .ih05 31-31 4",
-              "mdeltav .ih05 33-33 3",
-              "mdeltav .ih05 14-14 -2",
-              "mdeltav .ih05 22-22 -5",
-              "mdeltav .ih05 28-28 -6",
-              "mdeltav .ih05 13-13 -8",
-              "mdeltav .ih05 26-26 -8",
-              "mdeltav .ih05 29-29 -8",
-              "mdeltav .mh06 22-23 -8",
-              "mdeltav .mh06 20-20 -6",
-              "mdeltav .mh06 25-25 -5",
-              "mdeltav .mh06 15-15 -3",
-              "mdeltav .mh06 27-27 -1",
-              "mdeltav .mh06 31-31 3",
-              "mdeltav .mh06 34-34 6",
-              "mdeltav .mh06 33-33 3",
-              "mdeltav .mh06 13-14 -2",
-              "mdeltav .mh06 28-28 -3",
-              "mdeltav .mh06 35-35 -5",
-              "mdeltav .mh06 19-19 -8",
-              "mdeltav .mh06 26-26 -8",
-              "mdeltav .mh06 29-29 -8",
-              "mdeltav .mh04 33-33 8",
-              "mdeltav .mh04 29-29 8",
-              "mdeltav .mh04 18-18 7",
-              "mdeltav .mh04 12-12 3",
-              "mdeltav .mh07 13-13 6",
-              "interpolatev .ah02 .dh02, .sh02",
-              "mdeltav .sh03 13-13 -3"
+              "mdeltah .sh03 15-15 1"
             ],
             "active":true
           }
@@ -6852,7 +6923,7 @@
       {
         "name":"N",
         "unicode":"004e",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -6862,7 +6933,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c1800000326494441546881edd93b929c30100660a90870a62370148e0637f155380a814307846c15a68d0601422b75ff3ba86a5d2e7504cc37ad47c30c08a54a9428118b1fdfdd8112254a942851a2448912ff72ccc17e15551505079a3ecec6800d3156d3743fd04d3156d172dbd7c1fe996d0dbeb6c619f5c17eac7338bb1d36140e3dca1a0a877eb02960615d1c9bdf602d456764637ffcfd8e28acb263843130db8d6dea3edf7b983bd369465f6715c5fb166372b63a9ded23f816908d61fe8434d81040d63e66fef9d5618cb046099a378d65d358b60acb06b21a6b14648661def43658368e79d95a66a49f98d8e8f61d64de8816806d259d81461d93b255309b8046eb9d49d9ec7f07906ddb19806c0dc6b65af5f9d876cd2b6008dd76b6008c20b695745172df7036a7d97992dbca03ac762c3e84d5db1e01d63826346a2b0f305bd22f30a16fb6f209567bccb6a7e56caf4d91e9834586e0355ad9cacbec75bba4c5093959a46f5e36632b0fb11198b757e5e56cadad3cc47a66428ec39d658909f1d86b0b61ab6246ea9816981bc25e52319bbb03cec4cc7e772ef5cd3d0248ac11986bb4dd9f1c1eb1ebf7addb3f97fad6ed5e626e43607aaf9534049055eea1466035cc2680198cb992026c0058eb3e165877b181672a1f3b6acbb3a3a402ab60361f7d64d8f90ccd673b1fd49fb2d7441c25455972082f76545ec8d61e5735cf3aefe2679877553f6767e5453603acc2582d3352fe220bcbae951c969d25e5592bb3557995e7b39d25e519414c5f3706dc95759554ca86b0aba42cf316c4b8be19988d006b307695546219b375d79f01c708664a661a63d5fd6980610bc06a8c196f8d936793c856bff2021b00d67a7fdc0cbb2e66760884b215630bc0b4bf829c6695cfd29773edaf6ea7b381cc60cc2f29cf863cccae06fa956718c14ce5642bc696ac6cc6d8f41d6cc4d89095f5efb031c5d43b2cd5e8fa164b35bae46275701e716ccacac6ac6cc8ca7a8ca93bfbf59999088b643341e519b664634d507986dd5ea0d25336caacc5d99095f5debe7ecc94cc9a80d9befd8eb2db09a2c3219decfe1e3fce4cf8729ba2eb21fa67c0bae882e4a70059137bc15ea2448912254afc27f1177ba039e18eac9bc40000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c1800000324494441546881edd94b8e9c301006605b5644763e0247e16870935c85a3b0c8320b96442254a079158c5df54f636994c8bd82ee6fca8f1f7783c718e4f50d529965f63fb1ef5fd1686699659659669965965966ff0a1b6e1fb920737463651366dd8db52156507f65751f628ec68bb2fc9c579b2eccf173cea8e16c3e6f1fb196334f6ce87156121bfa85f5373684d9f006ab88cdc885fde1ac26a230238c81d52e6c56e77c9fcc5f998d33fa3c7314ee5b88e9d58a78b5df8c79ac9ac0f88494d81040563d667c05d61823ac5182e6cd62d52c56cd61d54056608d82cc0b8c4d6f89559318ab560923fdc0d446e7bf41e68d6804d81ce90034ba31ad9a83590f345aac4cabb6fc7600d5e69316a856626cceaa49c7e6356f8021d4f3d5023082d81ce968f4bee16c88b3e3225f920758b1b1f0102676dc01acdc98d2e8923cc096483fc194be2dc94758c1d8d29ed5abbd0e5566771618026bd42dc9ebec75bb64d50939983c52bf240fb10e98b757f27ab56a491e628d3021fbdbf5c22213c2d8eb0861931146ba31abb06d086ba46ab5ed0e3811f3ebddb9d6b7ed114063a5c2b646abf5c9e1113bbfdfeaf573ad6ff5ea35b61d28ccae5969430099db1e6a1456c0ac0798c7d81629c05a8055dbc70aab4fd6cacca4637bb632db23559883d9b0f75160c733b45ced78507fca5e13b1478ab2e8105e6c4f5ea956edab5a66355bfc0263abfa393b9257d9003087b1426764f8268bc8ce9d1c911d91caacd2d96458f272b523529911c4ec796320adac3352ad1ac2ce4845c636c4a4be799875002b317646aab184d5eaf3c740620433a3338b31777d1a10d808b002639eed71caac57d9c49357580bb08afd700bec5ccce210086513c6468059be831c678eb3f8722ef8ee76bc1ac83cc678a4326bd3b0653790272f30829949c9268c8d49d980b1fe2b5887b136296bde615d8c997758acd1e92d166b744cc58adb7524b13e29eb92b236296b3066aeece747e6032c50cddf9217d8988c95b7e40576f9072a3d659dce2a9cb54959c3947dcc8cceca1b5bfaf62bc82e1788a5e07748794b3e72e7e06fc947f643ec8f1bab831b921f5e202b597181f15766996596596699fd33ec2f471940b7abee10f50000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -6967,24 +7038,6 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh .ah01 round",
-              "alignh .ah02 round",
-              "alignh .ah03 round",
-              "alignh .ah04 round",
-              "mdeltah .mh01 10-10 5",
-              "mdeltah .mh02 25-25 -2",
-              "mdeltah .mh02 24-24 -1",
-              "mdeltah .mh02 10-10 -2",
-              "mdeltah .mh02 22-22 -6",
-              "mdeltah .mh03 24-24 5",
-              "mdeltah .mh03 25-25 6",
-              "mdeltah .mh03 10-10 2",
-              "mdeltah .mh03 22-22 2",
-              "mdeltah .mh04 22-22 -1",
-              "mdeltah .mh05 10-10 -3",
-              "mdeltah .mh06 24-24 -4",
-              "mdeltah .mh07 22-22 -7",
-              "mdeltah .mh08 22-22 -1",
               "alignt .mh05 \"t: 1\"",
               "alignt .ah04 \"t: 1\"",
               "alignb .ah02 \"b: 0\"",
@@ -7000,7 +7053,25 @@
               "mdeltav .mh07 22-22 3",
               "mdeltav .mh08 48-48 4",
               "mdeltav .mh08 22-22 1",
-              "mdeltav .mh08 10-10 -2"
+              "mdeltav .mh08 10-10 -2",
+              "alignh .ah01 round",
+              "alignh .ah02 round",
+              "alignh .ah03 round",
+              "alignh .ah04 round",
+              "mdeltah .mh01 10-10 5",
+              "mdeltah .mh02 25-25 -2",
+              "mdeltah .mh02 24-24 -1",
+              "mdeltah .mh02 10-10 -2",
+              "mdeltah .mh02 22-22 -6",
+              "mdeltah .mh03 24-24 5",
+              "mdeltah .mh03 25-25 6",
+              "mdeltah .mh03 22-22 2",
+              "mdeltah .mh03 10-10 2",
+              "mdeltah .mh04 22-22 -1",
+              "mdeltah .mh05 10-10 -3",
+              "mdeltah .mh06 24-24 -4",
+              "mdeltah .mh07 22-22 -7",
+              "mdeltah .mh08 22-22 -1"
             ],
             "active":true
           }
@@ -7009,7 +7080,7 @@
       {
         "name":"O",
         "unicode":"004f",
-        "lastModified":"2026-05-17 14:08:40",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -7141,7 +7212,7 @@
       {
         "name":"P",
         "unicode":"0050",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -7151,7 +7222,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c18000002a7494441546881edd83192d4301005507b2770386490798fc00d7c2d124ae606041cc021214770c81108151212104c303562ec1dcb6daafafb6ba7b7d82aba93dde055b7d4926d69aacac3c3c3c3c3c3c3c3c3e3b547d373eebd65d1c73754d5364586a5f48b50754a278e9dedd8c19a5d4c591a4dd94fb36c35cfa219b36f08c1fed94ced58c1d846b3a205ed1d384614b59da96d430a96bee7d8c0152559346564d1d7cc22c77a8e7de5d8c0b1c8b1de349b6dd1c1b42871c228606451928d1c23c7f66d9f551c2357a1e21973cebbb2cffbaa6087900d21b2154c816c6fcfb1812b1a394636849c29c9be98668bfb8a7c64ec67faff30e6ce93b8cb4c306564d12b4b5c5166aa13dbdf9875e0aaa639e2778a5df6562ca45be0f16506075867056fe482a1ee09865e879281c9d681aa2ab3a1b94ebdfd7463a3cec254acde1ddcccaa66af734fac7a17f0360eb7240d9ec3c2e6c5ed559687d4c2a966768053cd45f15b3833f11f2a3a0d4e5fd575c98fa8716ba9036a5cc8d9e0956b1ddb03c7ae892f23c1d03204994d7fa645b68e632d58ad2d53574b8cedc8b1062cea96a98b2a185a54c16a8e553ceb0916b86c81ce06d88f42d6e91b4e16e559248ab6909d38762658b7cda6ed72c98e34d37639cfcea6ece5c6a63da87f65bb9f91454b19f880b4343b71cc365b29eb68a62dfdf38a32d93afdc96ab7ef3792458e8df731f99880cff3f3587f375b7a857e5810d94886bea7e50c7dc405034f73015b1a828e2b221bd8bc321b3ad1aed9e0ef7feb801a8eb5e86cb9b2800eb4994d4ba51f8f33eb123a6c2faf97f9d6a39ff0a7241f6e7f937e99ed9e0e97b3029794992d77b7479585b406be40e5007745c97eeb4c2830d10d1b5445de4f0f42810ba56451670f544d998dbcfe0325da8b7f626928758d2e566f3fee210f0f0f0f0f0f0f0f8f97883fccdedb29502930e60000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c18000002ae494441546881edd83d6edb301407702a46a1d1ddd24d39426fa06b7529a8de20430fe0b1638fa03147e8c8b1a3870e1a04b39620d9e2c77bf9d37e410af4718981fcf03e484a266d0c323e404a993265ca942953a64c99b2b761758745fb2c99f4e9239535608d7708f3fe08b0cafb0163a31cdb49b39328f3bd28fb2d16adc2991363f21302b077eb548e15d4d68bd606449b921e30062495ed5476420a96bec3d8014b0a32a0b602265bdbbb3087b10e633ffee1dac068b2490fa2498913c68d0c4c0ab25eb4b69faf33833170150cce801626f62c565bc18400d10a5a00a7b7c318589b13abada053907d178de65e67e02323dfe9ffc3883b4fcc88cb4cc0ac2803939e99c79212ad262cbf31836d69c9ac496de7702f103b65562cad2d5b5f9e2505c64fd632e21b39c1e2d92358fc3aa4d8916196cc4a45f3349b37d2b785f534b353b22a575cca4c9d99b90c339f6cb28d633607a9931eb26c5edc8e6497929ab8d53cdbc5ade693266fe13cdb7ce2924ec58d1c5bfeb98f268e48ba8b262eb70a26bd7211b53d60ec1cf8d4032c5a06a285e9a303a2b5186bc2d562d840b14d6d7b8cd5e1a232ec04b06851295661cce0ac0398c5a259381ac37e15b236d87064529c392069c3b2016323c0da30da11607b980d77b35194bd5d6d23cd065106262d650dcd1a980d18938d56ca5a98514b7f5b52245a4b3f594df87e0399c3587f1fdb3e265e9a7577b375ae2a2c1ac8b8efd372c67d896fd89e3912e06c9d10eeb8b289d6f26c8de69933d2355afcfb1fb1df6a8c35dcd9f2ca2c77a0bdb069a9e8e3f185b59e3b6cafaf97f9d6439ff0a7205f96bffe8565c3a2984bcaccd6bbdb13c9acbf0efe02751923c6fed06ca3c24669762019783fdd6dd4803147b3073227150dbcfe1b865da737f989256035a54276de23ce3c7e4d50c2a8a14c993265ca942953a6ec76f6179857e1ff93f99ff50000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -7221,7 +7292,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "guidelines":[
@@ -7259,6 +7331,10 @@
             ],
             "color":"#00cce5",
             "tth":[
+              "alignt .at01 \"t: 1\"",
+              "alignb .sh02 \"b: 0\"",
+              "doublev .dv01, .dv02 \"eq Y: 144\"",
+              "singlev .at01, .sv01 \"eq Y: 144\"",
               "alignh .ah01 round",
               "alignh .ah02 round",
               "alignh lsb round",
@@ -7266,11 +7342,7 @@
               "singleh .sh01, .sh02 \"eq X: 208\"",
               "singleh .sh02, .sh03 .none",
               "singleh .ah01, .sh04 \"eq X: 208\"",
-              "singleh .ah02, .sh05 \"eq X: 208\"",
-              "alignt .at01 \"t: 1\"",
-              "alignb .sh02 \"b: 0\"",
-              "doublev .dv01, .dv02 \"eq Y: 144\"",
-              "singlev .at01, .sv01 \"eq Y: 144\""
+              "singleh .ah02, .sh05 \"eq X: 208\""
             ],
             "active":true
           }
@@ -7279,7 +7351,7 @@
       {
         "name":"Q",
         "unicode":"0051",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -7454,7 +7526,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -7487,18 +7560,18 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh .ah01 round",
-              "doubleh .dh01, .dh02 \"eq X: 208\"",
-              "doubleh .dh03, .dh04 \"eq X: 208\"",
-              "mdeltah .mh01 23-23 3",
-              "singleh .dh04, rsb .round",
               "alignv .ah01 round",
               "alignv .av01 round",
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 \"eq Y: 171\"",
               "mdeltav .mv01 23-23 3",
-              "singlev .at01, .sv02 \"eq Y: 171\""
+              "singlev .at01, .sv02 \"eq Y: 171\"",
+              "alignh .ah01 round",
+              "doubleh .dh01, .dh02 \"eq X: 208\"",
+              "doubleh .dh03, .dh04 \"eq X: 208\"",
+              "mdeltah .mh01 23-23 3",
+              "singleh .dh04, rsb .round"
             ],
             "active":true
           }
@@ -7507,7 +7580,7 @@
       {
         "name":"R",
         "unicode":"0052",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -7517,7 +7590,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c1800000369494441546881edd9418adb301406602b0a7517050d745b5056edb627a802a5eb1e61e626f211baecb237982b64d95daf607a826c4a3334448d135b7a1a78bf5e328629450f0612f28d6ce9976cc5699a5ab56ad5aa55ab56ad5ab56ad5aa55eb9faea58c5919f31b110b0c53d93b1d3a49636d603e503bface1cb8ffcf3e701cb3d9d9f83dc35cd6b7c0311fc8c9a9b093b0366c59b69731d239137a969111b55c564da0ccc9986723cd58e0227dc4b8ac32a667652d1b69c60c1be963f652c0ac9471c967ccf18c46efc3762d68cdb3f3e8516b8875a9e58d802931eb044c8bd917016b4358099809e14ec40e1b01b3b22e587e6151e6a48c5d319479190bfcc2ca19bbb0083b26cfcef1cbd931f97e3ed682c94b9811b30eb1b10d943c690d454a5a13320f22250c259f9842c95fcc344a7e580067d6a2482f6630d2c4ac8c39943c6520abc4d02a252c8898829146a68bac1f198834b216461a9991310b238dccc1ac28eb04cccb58408b393285b3ba90b5382bc25056132b8430312b630e67357dee7156130b3884912919d385ac46561add9199c2e88e03765b18b6a1b5ede9d4fa325b94866d38e8aedcd1819d0a773432dcd1e1dc4ed5c9181e8fc80a3d8d0cae98d885c2f826068724317ec798337454c25027864cdff9e2989ce79b2f1df534434e5304e63a2e775738b991e942fed3c5c3e03ec46b8c877d88ccc0d91499825d8d6ce82c9fbe8d6764d08824d6a25598984603975883068e30748520cc81f1250cdd1b0843b77bc2d0e68130b46dcc199b1661684b4b19d8205306b67057303b2b6bf9097705d3b332f0fd9fb26656b6e49f7165ad09999b95f14ff3ae600b236b4dc6542b6b6d56263f68ff34e6fe33c63f3d76f46660d86b74c6e041696b4f3fb74bd9929fbd596b9f658c5f59594f21a3ad75cfc11895b19513b11bf6f7968cadbd88f13fcb50a656fc6d97b6c6ff2c9331cdef4328e3e7f8358c9f9519b3e19b8439f8c83a327f5897d9a2c14f6837e7574b30ba7443a9f133d58999f09d656417fb212c24ec41c2de7ffc03becba4d66e7ffcec38a5123bd86e85583fbcb8b13bdfac4b4ce9f07058b307d5e35793d73e985dcba9f1fbd5d7e3dffe7ec3aa919dabb993b0fd0bbeb536b1cd4ac20e4d2761bb57bc22ec1350893dbc15b1fe0eb16940f637489d323dd6ef3554e7e8df149e991c2bfc2a925ab56ad5aa55ebd9ea2ff76dc9ad192ed97f0000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000036e494441546881edd94d8ed330140770bb2998059247628be4ae60cb097025c49a23ccdcc439024b96dc802b74c98e2b449ca01b444654316da734cf1fcff9d36684841ca95223fdf4e2e76737b62b04723d815465955556596595555659659555565965953d025b62cc60cc6d20e6192603d5f81689a63cd336d9d33b3d304c0df4ce72cc90d6ec13dd31cc92dcf68972cc79d238496f78a6fc96653b8c91e4b4ef58467ad4d07c02e629b31873b4137946bf97d880b06656a66857f34cd3c215d93380199491caf3ccf28c96def9ed1a88e6e8382a452bb1768cbc019884590bb006661f01a6bc5f014c7b7f07b161033083a5608289c5328bb201610e633e985805d6036c5ff9ed7c6c5ff96e3ea6c2c1cb310db3b6c44e31a2ca73d1a29272d140e6c29272cc434c4695bf8e3551e5e397f889a9a8a4d7b1b8a40c3318b351e55916d68a610e631e62322e699e3593ac3bb11e602a2e699e698c99b8a47966e35ab1ac0598c3988f26739ec9a456d73095d48a633dc0d2226499c1984d6a95652ea95596f9a408392631d6a4b5cab14cefe6984e7b37dea41c3aec36edb624daf6d8b46e9a2d32dd963cb4cf269ab0e395249a6749a249db8e578bb1a43ff26c22d3338b674c3e85896139b2e2cc1a59b0622cb00e63a55ff2434d5fbb5c9f64c69bcb3c351d21c721527c3b9fa6bb4d1b97634d5aff1c3b4c9ad252eafc1be3e21cf24cc7a329cf649c6a9e1d92e5d7bde6dc22ed0babe891295f58ba8facf185fdc2c8842fecb3087318b361ff722c7a37704c612c5a3c704cc28cddfe132640e63066f9a3890b98999529feace602d6cccac2fd3fcbc4ac6cc99f7105d140666765fc69de056ca1b16818930a8b362bc31fda5dc7ec7fc6f8d3634b5f069a3d8b0e58f1a134daf56dfb5bb6e4476f10ed03c6f89915645a64345afb2f9800d8ca42ecc6b26f19cad60e62c1df322c932bfeb54ba3057fcbf0ace1d721940563fc6aa6f9151765c67f46982d1e599f991bd6d36c21ca27b4a7762f25c4f6bddb214cfbaf2c23abd8b77e81b07b84bd79f7abb09719a3dd7efbde724c8e6c30edaac4bac3971bd33bb19e62b2f1f7c39a7d6873da9abc705ef78a4de1617ff569ffd97dd98809f670893b84ed9ef2d1d4c8362b840da24558ff5c20ecbd40d8fd2b88757725f6a7437637b14a6ababf7eae139596fe657a6622e261f9234712c65f95555659659555f688ec37c2e6d083483ee6b40000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -7623,7 +7696,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -7650,6 +7724,12 @@
             ],
             "color":"#00cce5",
             "tth":[
+              "alignt .at01 \"t: 1\"",
+              "alignb .sh02 \"b: 0\"",
+              "alignb .mh02 \"b: 0\"",
+              "doublev .dv01, .dv02 \"eq Y: 153\"",
+              "interpolatev .ih01 .dv02, .dv01",
+              "singlev .at01, .sv01 \"eq Y: 135\"",
               "alignh lsb round",
               "alignh .ah01 round",
               "singleh lsb, .sh01 .round",
@@ -7658,13 +7738,7 @@
               "mdeltah .mh01 20-20 5",
               "interpolateh .ih01 .sh01, .sh03",
               "mdeltah .mh02 24-24 -2",
-              "singleh .sh02, .sh04 .none",
-              "alignt .at01 \"t: 1\"",
-              "alignb .sh02 \"b: 0\"",
-              "alignb .mh02 \"b: 0\"",
-              "doublev .dv01, .dv02 \"eq Y: 153\"",
-              "interpolatev .ih01 .dv02, .dv01",
-              "singlev .at01, .sv01 \"eq Y: 135\""
+              "singleh .sh02, .sh04 .none"
             ],
             "active":true
           }
@@ -7673,7 +7747,7 @@
       {
         "name":"S",
         "unicode":"0053",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"mask",
@@ -7777,7 +7851,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -7804,39 +7879,28 @@
             ],
             "color":"#bac000",
             "tth":[
-              "alignh lsb round",
-              "alignh .ah01 round",
-              "alignh .ah02 round",
-              "mdeltah .mh01 25-25 3",
-              "singleh lsb, .sh01 .round",
-              "singleh .sh01, .sh02 \"eq X: 208\"",
-              "singleh .ah02, .sh03 \"eq X: 208\"",
-              "singleh .ah01, .sh04 \"eq X: 208\"",
-              "mdeltah .mh02 25-25 -7",
-              "mdeltah .mh03 25-25 4",
-              "mdeltah .mh03 20-20 4",
-              "mdeltah .mh03 19-19 3",
-              "mdeltah .mh03 18-18 2",
-              "mdeltah .mh04 20-20 -1",
-              "mdeltah .mh04 18-18 -1",
-              "mdeltah .mh04 19-19 -4",
-              "mdeltah .mh04 25-25 -6",
-              "singleh .sh04, rsb .round",
-              "alignv .av01 round",
-              "alignv .av02 round",
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "mdeltav .mh01 20-20 -3",
               "singlev .at01, .sv01 \"eq Y: 162\"",
-              "singlev .av02, .sv02 \"eq Y: 162\"",
               "mdeltav .mv01 27-27 6",
-              "singlev .ab01, .sv03 \"eq Y: 162\"",
-              "interpolatev .sh03 .sv01, .sv03",
               "mdeltav .sh03 27-27 8",
               "mdeltav .mv02 27-27 2",
-              "singlev .av01, .sv04 \"eq Y: 162\"",
               "mdeltav .mv03 28-28 -3",
-              "interpolatev .iv01 .sv03, .sv01"
+              "singlev .ab01, .sv03 \"eq Y: 162\"",
+              "alignh lsb round",
+              "mdeltah .mh01 25-25 3",
+              "mdeltah .mh02 25-25 -7",
+              "mdeltah .mh03 20-20 4",
+              "mdeltah .mh03 25-25 4",
+              "mdeltah .mh03 19-19 3",
+              "mdeltah .mh03 18-18 2",
+              "singleh lsb, .sh01 .round",
+              "mdeltah .mh04 18-18 -1",
+              "mdeltah .mh04 20-20 -1",
+              "mdeltah .mh04 19-19 -4",
+              "mdeltah .mh04 25-25 -6",
+              "singleh .sh04, rsb .round"
             ],
             "active":true
           }
@@ -7845,7 +7909,7 @@
       {
         "name":"T",
         "unicode":"0054",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -7855,7 +7919,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000013c494441546881edd9410a8240180560a3c0a52d5b041e65ba59dea4ab78148f10b46951fe851248bee81143f3abef6d12fc18e71f6d66c42c53144551144551144551a6941da5d646b1dcce0c2becc6b0d2ace658c3b12bc102cd981a78d612ec2826f68d31ff54b1b798e3be2d8705c77d73cee24e0e9ee7b7ff337275169b1f2b7d33666f99eaa271fb16f7a26262d365ccfb29cf3c57ba1056a4609efbc63366f9f0cce2aece9e2b155b32635e3c935c34171373c998873c3a63965db1f931cfdbbcb89bed108915ed80ed4fcf830a3773ee7fee2beb039aed4f051be623b36f6c0d187819440c7cbecd01abc170000606a41c2b34338531437703b4863e4003d6700c140a2a8573eb6078afdd71039fa7ee9eb697435ef575dfb22d6219f58d5b996436a93bf04a91a2b5248ccc0c4a20a3127e6371a312969b07f07975d6b0e8b77e0000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c1800000138494441546881edd94d0e82301005600c1a96b87461c251eacde4265e85a3700412372c2aa38105241de5255619e57543035f984e81fe842441ca0e52646464646464646464646464649f670788a502b14c1a84e5e21156885418ab31d602ccc12ccce11dd601ec4c4636c7c22f956c9689e1b6ad8739c36d33cee20e0e96c7b7ef33707626fb3f56d866c8da72a9a071db16372819d9ef32647f8a33cb99ae84e54b30cb6dc319327d5866716767cb9992ad99211bcf45826664642619f2924767c8b44bf67fccf2322fee62db4562793761c7cba3522aec71ba190eb78d0cc5876cb8e4645a9e329963a9c25a8c3521cb1456852c5798d22145a8c69169642e645e61cadd1a8cd518ab1416663a195bd5ee6dfb7aed35d63fd3ee7acaca216f9fec359628ffb835f6aa901965db25829291919191196177c3ee7b80fce0d4e50000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -7912,12 +7976,9 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "doubleh .dh01, .dh02 \"eq X: 208\"",
               "alignt .at01 \"t: 1\"",
               "alignb .dh01 \"b: 0\"",
-              "singlev .at01, .sv01 \"eq Y: 162\"",
-              "singlev .sv01, .sv02 .none",
-              "singlev .sv02, .sv03 .none"
+              "doubleh .dh01, .dh02 \"eq X: 208\""
             ],
             "active":true
           }
@@ -7926,7 +7987,7 @@
       {
         "name":"U",
         "unicode":"0055",
-        "lastModified":"2026-05-17 14:08:40",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -7936,7 +7997,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c18000002f7494441546881ed9a3fb2d33010c623c41b370ca2a77001c76046b9095c011a4af966f828a9180a8a57a68008deb32d4bb276fdc596b149bc4de2f837dffed3ca49ecc301310551eb58ded8b69c695e5b25d3fb71ba5b645b6efd0dec21bbd3717b8da97dfe0e61e658214e1f7e2254d2f68d6b51dbccd47fc0b0f76708d3d531fe2815db1b51636e17b67d91dfadad7275066d86d35710a5ed2f8092d6da1a11b3889cb509b941a6c53336bad99867cc8e50a2a1ec89c78a161bf15ab6d8050a6da4745d68235ea5c358afca616c49748f71c1991e7b0cbc1019b039480f0b5649a8d6f4e0871e49b5e941254752358d8c40b073fb5af1d8a9755e93986d55545cb82053d16558b085935dbddc9ba49aec449c6cd20a37053116a82997a08e0a1760a53b597285ebb15e97506bf27be0eaab5db55eb864126adad55e684b4fbee9cf8d616d401fc3a62a02ebc31c9a57ac772358fbf66d3c3421d63552d098f0b097f412091478ac0b5b1872b6a49f1d8fb992d2932afd0669122b70acee0efeaebddf158479ab5c45983ba382e50b62b1d3ca3fa0b1e0e094c4948f05450c6263b048ed42608ac244b411cec780d842353fb63298127202a762e914a662a4d3f3d59861b047025318e69bbe694c65c572c496def1753024246666630ac36e408dc5d2cd62b0d9b1e9e57aba1c6637d1acab635b0ec317528da981d8a4d8fec5c8acd2057059cec7a6c556cfc31486ade2346f6cb49ace8a19eaa7d1069a455e17061892025790ea6aa765d6d8cadc58c614b2c7b66373317ab25651c30770cbd8d53b127da19c821d388c4c6131a7ab7c5da16213981a8865f8bae29557ccc70e19b0e43873d82a6a3446adde2106aa2d8545b11db3aacd8c2d2f16c676396218a0262761d4b294d87a1baa25276b2d0c997a1c239db2e54dfe8c2d064e118cdac98758f29f6d0ef34c0db02aa51661df30cc10375c0658faea11a5f095f8a73fb843f2a496a49e9ae557c050f7d074b0f6bf5404263f112760cbfbb4c90d3cb67403996ef9d1a0bd6ed39cdecf33dba0ed05f99fec0fa38d40540e8fc72b0000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000027f494441546881edd9b192d3301000d0089171c3607a0a17f019cc287f02bf000da5fc67f8535c31141457ba0811c7d996bd9276b3b1758973ac9b8bc76f56bb2b29e39c763bceb5672961c2840913266c93ec2d8f7dfdc962f65073d8fe372b5aea12f67fb04f3cf6b16331531f38ec9d6a382c710913260c676f58ccb8238369e75c739e994716858b99738970112b9e58f8651331fbc4dc19a67ae55a9a1503eb68560dec44b321b5b0d6808da985a3064c7b76a258e999a398995843303bb1079c4d15043540a667ec88b37e0e7e99a854c8fa39a875542a64b60fa338ac1bfed6346b87c11b94b9214a19360e30355658848d034c8ffdf21f70d6cdc32659e17701c94a5fa0091a0758e51f5641e31036c545585fdf9e62c677eb952f06617def9521989d9e9d6343429fe1a4626c4a3366b3667d38c3868fefe1dc876c9c4885333563afe1dc87cc47a0d998b6b26089cc999e574733df5247b276bc31282bf8ac196f1ed7de9f9ac51ccefc93122cdfb5ac2019b86993ac9c339d819d2e650aec991c6cd5a015d8256007e660cc41d7e6d65dcc2cc11ef23123ecaaec88b196c1acb03c2c3d594b196750b3ed86a499bbffdcf232fe0a6978d1986c516ed7d8323799858db346d85a867e5b2e6276fea679b795724aa0a2d5170f5a65cdadcacd3296903d37612f8cf137e096d9da6fa4f619195ac2b30d7a9337072c37c58bc664795f57d436587285dc11a3a61e3266b42bb1c38673cbca4e071e6344d38b18b690346fbdc5d192ebed568cb3ebf96c596ec99fb14534288761db3966c9ff1e335919b19ac17ef098450e5c22963ea80a4af88e1cc98113927fd17649a6e101acc5ce4f0d386afe56234c7fd961d71e7d224c983061c2845d8bfd0507d941b7881b52a00000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -7989,7 +8050,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -8017,18 +8079,13 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh lsb round",
-              "alignh .ah01 round",
-              "singleh .ah01, .sh01 \"eq X: 208\"",
-              "singleh .sh01, rsb .round",
-              "interpolateh .ih01 lsb, rsb",
-              "singleh lsb, .sh02 .round",
-              "singleh .sh02, .sh03 \"eq X: 208\"",
-              "interpolateh .ih02 lsb, rsb",
               "alignt .at01 \"t: 1\"",
               "alignt .at02 \"t: 1\"",
               "alignb .ih01 \"b: 0\"",
-              "singlev .ih01, .ih02 \"eq Y: 171\""
+              "singlev .ih01, .ih02 \"eq Y: 171\"",
+              "alignh lsb round",
+              "singleh lsb, .sh02 .round",
+              "singleh .sh01, rsb .round"
             ],
             "active":true
           }
@@ -8037,7 +8094,7 @@
       {
         "name":"V",
         "unicode":"0056",
-        "lastModified":"2026-05-17 14:08:40",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -8047,7 +8104,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000030f494441546881eddabd92d3301486e16854b85449a9eba0127726cf50d072095c8a3b4ab80495945b50304c88f00f8e2559e79ccfc43b61189d66f3f3ac9d287ec584d9cba54d9b366ddab469d3a64d9bff6aba00317785988f108bf106a82e46e4ac26c61f00b3d84971167b8cbdc8cce10c58918901ef6162c07b98d92032ff0c169fc0d4ccc2a94cfcec41a68f30319a73593733f1f27d0a3333139b790d266e98f649ec0bc0dc21d6cbec33c0c6bde1c3a9ec3d90fdc834c046a2701644760398c2d945de1dd4948bccf401e661266c227a1232eb26e16026ec0eddf4ea656626666126ec0e66fa384166c402edd96c98375690f52c73079846587f9143f51393433dca02cb9615c319db8c5aae0d9049056e8c6d462f9737c8a46640d62d6793d2da18db0cc8fe7ca730327b597eb0311c639d7052bb5c415281c79816985b2290d24a582f33292d0fb3f964e7b0752140e6f99e31a656e624765b19d3b35a53e1995e99657bc6d9f22cff75bc4b18d3f351c63763d675c01913c39df1cd80cca6ace758986f289639980dcb2d9c0d24f3f76380ccc32c906c5b54b6998cd1316cd705c7d4c62cccc81870b616c0a5a53346369330eebfd740d66d2f483369e58c8ca1dbd614640a673dc14cf2413ece6c72653331a48c8961649f1216ce634c332e59522686f1a9770719d38c4f969489c1c71bc8eeb799660a465de53e79866131febadf669a495f0efdcf9182d9cffb1dbac09211cd6427a5d3d2e9c7c8b2ef18bb66aca758d8ee916c5caa6f191b281630965c3b64a8267b822c70645fb77b6481f9d170564fcb642b45b2746f6042b5d949c9026d123dcf2e18ebb77b64cf3b562f303f29c95cc6c89e77ac5ea0cb1e0719d9b3cf5e0cd9f36b3232549f7d3a248b3b36c88c0cb5b85c09a6f62c008ce8f974963d4c840a32fd778c285017cbf918eb0a46f45c325b2fb072b4079829d81b98d542b50523b2b7452244f625238ee6f647abf55c32e21baf2f1e258e5663fd9e95bf4cb2fc8d119b488d7dacb1eb8e558f06315f5cacd377b861cf4c1939b125e9dde14345ede62df6c7186ddab469d3a64d9b36ffc2fc0653001abef47344a60000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c18000002f3494441546881edd931929b30140660184d46a5ca943a472aedcdc44c8ab439428e4297323902654a8a144c86a0b521d8d2134ffac164bd85688cc69f25f3d02f0cae2a64fb00a9c20a2bacb0c20a2bacb0c20a7b074c76103323c4ac83987313c0a473f1a83153ce0d00d3d8a038730dc6fa3c33388b2ab2cda263d866d13130accd32fb0ce69ec0ea9975a7327aee8f32b187d1d0fc67266746a7effb606a6634336fc2e8821931fd24f6036066176bf2ec3bc02e6bc39753d9e738f65b4c00ec426a9c75593601acc65915af0e1b6c0498d8c12ccc862c1b0026afc2c06cccb21e60eaca34cca62ceb50a6a20452a6cf66edbcb082ac4932b383098435551c54caec95c5417d947549b6540c677d8ad5cbdc00599440960d292696e90db22833c7985c468ba2c5b2e904f6ef9e42e559bfbcb8f398cc0caa97191425f0212632cc2c2188a2c5b326cfa268116661360f760e5b0b01324bf27c88d52b333936adac4fb2116062659ae4f9285bdea5b7e321931e1bcf63343321536b1d70e60046337388699f3529d6cd3b75921998b5cb1ece5a96d95b1f20b330eb58762faa81599f6013c0ea3bd3301b1e676b02548289808d00938f3379ff42228c5682b904ebf7b11a670dc39477221f67da9bd96118586693ec9bc7baf398e199f14a1a8681b2979d4cf3cc7a250dc340d804b2dbbe82d9c8b21161cefdbdedcb141b7c366db31a667f6e0d0133c7b2c16f304cf8a731c97e636c0c58c3b1eede62d9a554bf02d672acc39837772cc75490e0208184fdbcb74c82b54758cfb10660feda40824a581bb4068ebd60acc29877080a6623c72a80998049984d0c9bf633c1311b5c90833cbf150b821ab201612e626d9e553ceb0156c7ac03987d23d6f9cc0fea7e268e313f81216bcf6392308531ed2530dddb034c11f61166d306d3844996353e1318637a33716f0e60729b59f25088e96d8b353173280b1f7fd538fbbac5c6886df606b170795beee1da9829fa678cb72405bf6a4275e9fef639f21c29d83e6d5f8c125b618515565861851556d8d3d82b1e7921948978e2a00000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -8100,7 +8157,7 @@
                         "1191 1500 {n:'.sh01'}",
                         "818 200",
                         "790 -17 {n:'.ab01'}",
-                        "438 0",
+                        "438 0 {n:'.ab02'}",
                         "5 1500 {n:'.ah01'}",
                         "327 1520 {n:'.sh02'}",
                         "540 710 {n:'.mh01'}",
@@ -8130,16 +8187,13 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh .ah01 round",
-              "alignh .ah02 round",
-              "singleh .ah02, .sh01 \"eq X: dia Lite\"",
-              "singleh .ah01, .sh02 \"eq X: dia Fat\"",
-              "mdeltah .mh01 17-17 -5",
-              "interpolateh .ih01 .ah01, .sh01",
               "alignt .sh02 \"t: 1\"",
+              "alignt .sh01 \"t: 1\"",
+              "alignt .ah01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
+              "alignb .ab02 \"b: 0\"",
               "mdeltav .mh01 17-17 -1",
-              "interpolatev .ih01 .sh02, .ab01"
+              "mdeltah .mh01 17-17 -5"
             ],
             "active":true
           }
@@ -8148,7 +8202,7 @@
       {
         "name":"W",
         "unicode":"0057",
-        "lastModified":"2026-05-17 04:19:21",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -8158,7 +8212,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c1800000618494441546881edd93f8fd4461400707b7dc11b89e03ba548d0e9e444145782441389c2db51223e0134a9839422a58d0e892205a14b0791d2936f708b2842075dca3349015d1c81c42ad9db899fe7df7b33f37c73701220769add59fffc3c63fbbd1bfb9264ddd66dddd66dddd6ed436f4d94cadab868df44a98ddd2876fa9726864d7f9d45b11b9b5147bdf17354b4cdc751ecd65e144bae3631ae14f308f5898862b910b3e0ef739705a3554bd2cd84b81f64a271d8f510ab45ebb036cc3adb49e71c13020d2eef7ad68599b09d9d451a66fdcfe80c94ab11667f3f2f18d68f050deea2b8c9b395e97d271e0ab160983dc17f88672f832c17780efd115ff3acd5bd7db1081fb41078aafd748408e5fdc0ccfef748cf65e68cec73ac840dfa72a50fc84e2c1b7aab23d9b538760ff770ab7c168a56f9630b45ab05baa8693dce5ad999546fc986dff54505762068e262d6dad891ecc90853577b43b2b9a75232b658d67ffd3d541d147b15c750b4472106f9f7dadeb07d6f2f94cfc09e1bf629c7728fdde5d85f846d85722697835e5a76368e4d43ecb37ec343c3b63806d9dc98dbfff3fedb3494a8c06e11d65fd73766904afd5da6d8b931f665ad6fffdd9e4dea40a2029b62b6ecf3c16795c7d22a905ac06666c365606598ade695ce92517601b3453f5c7f6cfdb0565f959a5d01762710ad674bcb0ac59a1083b3321f7a77b868025841d8954034c8f89961c341f311d642272d200f7603693fb09cb0733e836c5ecc3583b974909321d6259a65a3acd16b8f89666d309a5e7b006be116765936544ac32ae86d85d99f86a5030b2c31803d830d436a6e0c2cf1591ecf3acb6a38171b7eda039b031b726e3ace12c2129f150136f1f399b2cd1aee218635c0862cd9943d3fed0bb241b2d46725dd9f8b56ca3fb294edf36c48a6af8f60956543cf65959ca362df4ae657076033c32e4b76cdcb6715ad90a9799563b5645f4896c99e5fb9a0843486ed99913641a64ad28f269acf0efb8f6db9e1f611ac306c697ba809790baa0d79144bc7d8bf1ef39ea1f4c382aa83858ccd32b961723ce695a44cad7b4e49568eb0567ece757963d80b8f792589b25315c3546d800dad2c48c7605e1101f6341956cfad296f3e2bbc682c6b7c5607d87db97f3fa8a965cb3156ab8be9b2528d4d5565cdaa004b8ec5fa414f8561ab309373d3cc2d22946d720c4a481362c263c397f39acdd4797299506c2917a00dc30ed59785a9a989b7c4a8f4aab484cf737a082eab09cbf410dc0cacdd6847b2d5c064cf5d62185600db45acc54ce8fb746097f514589603c8f5e949df88a58809b50055bbbbacd3a3c1ec01c96787e5b27426ee4ac461b70da319a8ebd6b043030bd048b608b1dcb02492d5fd55bc671e762e920cd4754b3258daab9d2e714c48a6ce03cde7c28bf642f64a8f359ab5e8a02cab7a512186f3b9a4cc1e9466a0a90d039bd8299ce15829d9d350b40ab30e16c78ad1443525e4380cba73c5f6c7a329969168b56585e836ec6a86e6b3c966600b60f7153b1861b57d0334122d8960b9589c26acb54cd83f75b95802d35bfe6658d63311c51261df2f3f47f99c523645ecb5c33af31dde229883fe30ca56962d62d8f788653e6b54b7729899b710db886df36c0bb1b33c4b09b3898a6a035cdfbbe8b5ca4e1c2be3d819c40aca6e2256384c8fb93f53cfd0e9cd79f60f61ab302bc54bcc6acbca1126284b083303caf605c7fe8b6105cb2acad02d0fac416cc5b054302ca7ecc0b29a67c9137c19df9a919b025de0e1df111d62adfdcab39a309ab4a8be9c04c307ed7866a355842d8f66b0e11577d0513637ddd28c87b284b21dc23a8e15a8dc92471b3a059bcffa918d898699dd7df84703c75e70ec94b9c702ac31bd9cb0c747b37c8c6584d9c1d807167d28c49e722c3d0196041894839fec065278507500f61b6187b6971cf00c2f014db4925e5387d5fa6495ded8de965d8863d7edef0565e7f5b82b3a05875598f1d14abba877d982b0ceb0551cc3f75bc930c8b81961f871c8e4b3c38a11460f1a6243096a086b8fcf7286153c3b6cf0efe449988be6b00ccd145fc409c32ed187fc8cbe41c8f4e9490bfa6681bedd48cd599c1095942de9a6c9baaddbbaaddbbabdc7ad78d7031869273bb68f67a6ef73fb7866fa4edafaf47e48ed7f702678b21d1937350000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000060b494441546881edd93f6fdc36140070ea645b57208d6c746803c3500b0f1e1d204b800cbacd63904f902c9d1ba043472970800c1d9c6cddec02ddd36fe00b32345bbc75b4dc0ef1561509e0432b8b15c57fef497c3a3a35d0a1f2e27bd24f4fa4c8475367c67c7e56bdd4c84636b2918d6c64ff0dcbbd5858f865bbebc55676bcd88d1f731f36fd69e6c51eaffb30f6f807af6ceb6fbcd8d37d2fc61ee43e6d4bf8dc83ad722f16713e73b168de65ce6c698558c8f99193f1bcc31eb958c68b0e2bdcacb44130a718e7a07151d9b0d2cdb80db616819b3587c11348ea01668fef7282356d018dbbc39fd0ac36d137fc15e70b82d907fc2b3f7bef6411877d68ee7841b34247c77ce1be69cc61579bee707e9762e6fa431475997922c7144bc4093d5cc14b7411c9daa85eca1efab143184196f6992b5bda6f9b2b5bc6c1a006d9302b643049ff256b8feb4115ec14ccab2e2b6c6e4ff67680a9d15e916cde63016a9b2f6b3efe022673977df06320db6b1713f57761276c13ed83d240ec9d619f502ceab11714fb1db10d503388bd365522d82d3f3675b14f9b13af0cdba098a8e6dc4cffcf9a4f5350a8883d45ac19d78f66a2949a59a6d8f610fb22d3d37fa76193cc162a6253c8aaa61efa2cedb120b5a585d8cc9cd8132c71b37a9eea2a1964b7215b34cdedb7ad6956fd65a2d97dc10e1cd91a5659162b96bb98782af3363aa0b271c162c4ee3bb2898a9f19d6de341a6085088258d4c18e2d7bcc22c4b6fb4c54f362ae99e84b296ad2c54aa65938c872bdf798685638b3e9bd87608598c25d16b62ba561a98836dcec37c38296812d066467e2445b9a2b2d637d16f9b3d2b24c3c8b155bf690cd056b6b6e3acc1862accf62079bd87a76b3f54ccc2182e582b555b22e235bf61d964116f45982afa7b225f28f2c66c7346b8be9ab252cb5ac8dba2c957d54ec6bc912279b19b627d94353cf9d6cb12ccd0714cb24fb5cb25046898b55b961fba6a5b993a925e97b93adcf2e9b5f9bf2c4b3252c36acb211605c4e417522f262c110fbabc7ec3b9462fa6541ad83b1cc4d3279627235669724c542b5ef59932c196085fc3dd7cb1bc1ce7bcc2e494eb696124cad0de2442117a42b30bb880076c2dadd736196b73e8b7bd94896f759e66047f2faa65153cbaa2196a9c1ecb244b54dadca9aa50ec6aec49a464fb961b59bc9be69960cb2758a8925247731de63ed875dcd66ea39751957ac921bd09c6097eac3c2aca9cc6e312cab545f2ab965642e962116ea26980a74b26d0f56b74c4621c562c176002b20e37a9eb66c4f7781649100917e3cc147b10030ae36a0eaf22e2b756b207ba90e3b5924974e6677224ef6cc305d81abfaa46a442046f1c09b2d5c2c328c79b2ac19c543f3b273477db06c6e98d8daab8bee518c4ba696bf14b1b897ed5c46498fe59a15e0a6244b1b910256039660666faa2bd03266d8c476e126c512c94e5cd952c84ab139564c17aa61f5959908d5538c8e87b32916a26c9965312f57ec6e46d7b36195610bc18e143b1d6099fd0668201bf360115fdc40acb08cdbdd77c42bc154c4fe2058d830eec518b7df2fbf93936055b500b22960171da65f4782f65b0473d3ef06596dd9c2877d0b58d867eab9c93f278015fa7ace3701dba4d90660b7681620561906d60631be2fc0d72a5b7e2cf16337018b317b0258dc61bacdcd933a038f37a2d99f88d56e96f0f790659625038c63c610335d088f39c5fef66131c952ccc094172c07ac2658c0091661766a594633f6b61dc6eb621c31fb3d7cfbef8812b042333ec032c4ec5ddaef608b6b65f0a6a54fb614b16a3913273e50371d647313266d7bfa8c61b6855849b1d8b010f594e12ec87ad6ec9cce0699bdbcfd4703c5ce29b6d6ce3182e5268a107bb39c45432c44cc36c6beb028c6013ba158700d8c3998580e9edb1368e151ab83663f23766923764a33f8ef5b932dc163da6162876bd8f36b65b7fdd8237b3cc66c57b45bb01477a1c352c8e86c8966598f2d102b0dabfd189c6f09c144c5cd1003c52debd9c1e201866fea62ed129423565c9d45048b697699c3e3b0a564b60e0b414fe1204e08760f2553750e42350a418c8e3358a6a24d8ab109522c29501830f38abdec6764231bd9c84636b2918d6c6423fb5fb07f00d8f47f2e9bbb76fb0000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -8278,36 +8332,19 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh .ah01 round",
-              "alignh .ah02 round",
-              "alignh .ah03 round",
-              "alignh .ah04 round",
-              "alignh .ah05 round",
-              "singleh .ah03, .hr01 .none",
-              "mdeltah .mh01 18-18 1",
-              "singleh .ah03, .sh01 .none",
-              "singleh .ah01, .sh02 .none",
-              "mdeltah .mh02 18-18 1",
-              "mdeltah .mh03 18-18 2",
-              "singleh .ah01, .sh03 .none",
-              "singleh .sh03, .sh04 \"eq X: dia Lite\"",
-              "singleh .ah02, .sh05 .none",
-              "mdeltah .sh05 20-20 5",
-              "mdeltah .ah04 18-18 8",
-              "mdeltah .ah04 20-20 5",
-              "singleh .ah02, .sh06 .none",
-              "singleh .hr01, .sh07 \"eq X: dia Fat\"",
-              "alignv .ah04 round",
-              "alignv .ah02 round",
               "alignt .hr01 \"t: 1\"",
               "alignb .sh06 \"b: 0\"",
               "alignb .ah05 \"b: 0\"",
-              "interpolatev .ah03 .hr01, .ah05",
               "mdeltav .mh01 18-18 -3",
               "mdeltav .mh02 18-18 -3",
-              "interpolatev .ah01 .hr01, .ah05",
               "mdeltav .ah01 18-18 -5",
-              "mdeltav .ah04 20-20 -6"
+              "mdeltav .ah04 20-20 -6",
+              "mdeltah .mh01 18-18 1",
+              "mdeltah .mh02 18-18 1",
+              "mdeltah .mh03 18-18 2",
+              "mdeltah .sh05 20-20 5",
+              "mdeltah .ah04 18-18 8",
+              "mdeltah .ah04 20-20 5"
             ],
             "active":true
           }
@@ -8316,7 +8353,7 @@
       {
         "name":"X",
         "unicode":"0058",
-        "lastModified":"2026-05-17 04:24:14",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -8326,7 +8363,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c1800000494494441546881ed9a3196d33010866dfc1e2e285453796f226e2677d0c111380327c80dd823b8a0a063dfa3098f252292a26866a499d1f296c7029e66d7c997b1acff9fb1ac6418fe9330fb49ff1eec71e38f9c740f12bb0a7f513c65b11e776c4fb9713d6ef097301dfb12dcb75f77f8703935a9d11fd0b1f56b0b7be9f1601cf9d825267f4fb0ad85bdf07830dedf9583322193f778a8307bc1668fc67cc69a977ace76c087be859d3fbe11ac64371003630e6300d91076643110e8d206c363a71ecc216cf1be2daa431fb75c36db872d0266100606e3b8b119a496e74eda89cd103b6bd276488db54bebec89cff080c7ee10d6ae67e4a499c506f84650be5932d84901dbda18b4c8d28f1dda63b300b33c062d423083b1b50c803108d69e551e8b2a631bc0509d81ff81a8bc8f90a8d42006634706438131681074fb70d70cd447043b010cb6311445542363794a17092ba212bbe1b1992b26f8086a2f624554c1475054c12012862ee1aabd6490a188fa000c1904af1cb2a8a28f0a26349a10b60fcb052d1aa4a845fa51035b2f593186af341774850d14bb0d7f4583c4f98a499c8ce54aad7c642816e7a1f21159e65db289761b7233570c92459d2acc54d8da3208c15241cf1a96b437b24122f6be03335106c547b9a015e53366352c15b46290881d5583e4f5a9971a4d8c2b865fa60f02011b3583a445dca4670b16a90d5245d0be56be89191d0b3d5f553eb507f1de71c56ead8e05ed9da67cc48e5ec782457cad3c9dde33f655573ee8f9bd81d16c517655f964a25ad2ea89d235b12a6cc4144933a63e9b2e0fc11449536350b5e2b06a4266df90b48e84ad1a36f5616353d2faf1bf4bf9845592b6b3a992268b7460b647d26eac59f3f525a8ddbe9cb40353dbb880b5a777d5b3f549da8975dc1442c46e7fd387e9d9e67eccbf52b158a71ffab055c596ae6a4ed8a662b1bf7deac3d4be957aaf6ef2887d53b1d81b7ea827ed6be463fbb6c0dc8c342c75417fd387adcad8828fbed4a2d26cc1201f751982f26fe1a64d3b5bc05ef7659bf4067736c8a9033b2b7f1a75b52e9876af7721935ea9d11e4eed22b18dd71839e918b14513758a85607ab02daef5c493ceb1e4e7aaa09bd8a4d5bd89969c34ed13366aa22ea95c3ab0a09353b4b709b30ae69287aca2fd055b94e7059706afa975e96d33c5aa87e28c6d42b2f1d29e1519a60ba6c830e57b828ccdb919c94fbb574c56ebba234f65301c2695e0f2408c96203ea9cd6d61116f96364fc42c620e609b88a5d9974bd0034cd0de83bd3084d1fdb7b201c76b5f306a912adb96317eff6d2a98134a107c9d24552af89e48d21e7c01541534c64e055b3b3052f774871660070e5b3cdc8c66315b30c922b64844b527d85d1b231be0e53d719f1c62dc1efe005795bcf6235ca3f2da4f18e34445182fea02975a7c33a7d8a1bc05afd4c265a061db8383186e0ff88b2a30096cdd4ffd581188adfb59c00cc6c03b9d18ba3510ec8ec1c8d8b6726899934e023660eca063235e8b2f5c05e20700d3f33d6048fea6493d5ff014f877203578fd99c3fd761dda31f7fd50828f7fe067247b90d835fdadb1ff40eb29c4531edb1f89fd57887b3c4aec9afed6d8a7f7d7629fb75f8c9f54f925f817a5658e0000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c1800000427494441546881edd93db2d3301007701b0fb8a0704da577137133b9830e8ec01938416ec03b820b0a3a3243638660614971b45aadb49b50c1e87579f94551fc5f7d58ee3ac9df4b916aacb1c61a6bacb1c6fe2136ac22365d686652a63692f5f694306d678abdb16bc20cfc586483bd20b650ecb5dd1266ed996ecd42d55bd87a64a3857d766ca3d8de1ae8b37b6929b67f7c416ca619e8b3eb43a9b555c0bae4a77553996d126612a60a3f6167f0faea526b5ac69498c5ceb82ed07d9b92b46ca935211b21db33a12b246764bdb99af8065f94d939612bc9924a1a8bac836fb8e4c921935692630bcd608928393bd14c03a6cb0c96489dcdb103969e91d2ecd3e413368ad902183d5b26a1f6150642450582d92a605dca8aeb82b9b530d6d906d8b9c462a8539d1d9754d5580c15955bcaa61b430592b19380c550511da52c868a0ae42176cb1e17085ac48f84ee6097323b42c5755460b84010d332760c685c20881d69a1f98860f3b5d51a3b0634cf9ec34f490b04b1e1da88a9b363a4e23aca99bf0eb840f0feedda1acf2e1d512098855007019b8902c12c0ce8916321fb091708c13e09d8e463c8ea08b330a0b3e469a6391606745620045b8902c12cec4f2d2e906ceb7e631dcb7a9eb94ddc20611b51201973d9e7c9936ce2999bf3f3e433e6a607bc76d0ec59f3cc656fb2e429b65a9eb912b159f214fb91279fb13dcf5f3266f348f37bc0a0368e1919d39e5d646ce598ba879d39365922ab87d96889484b6ce6d820633d1529715f7f07c39116188e946046c63411e9e38c18f325b6c8be54c0f269fc6f18957c8165ff7c94118b02c5fc6cff24637c6ba39cd9b72cf3e3f4b38ccd2c53d4682eb085657e7efb2a637cf59a3bd84f96f9b9e1b78cb1c3b9279785d262c4b1300bda27199b19e6eae83b3f45bb02f9c22f1f2ef90ff0d0a6ccdec95a1bf8a56d2f904dc0f6e4b79e5f76af8c5bc48d6b8967be3c0cbbc1f0d338cb7acf14b7ab19fc4098246cf17bbd2a1bfd901fb9fd5b6003c7265f9203b7b70cace736b42a0c17017339196617ad03d30c33a18634b3c3bf32c5dc2f98d0f92cadecfed45fb1b1cefac81686b9f7b318b21b76cfb21872760a7dacb1f1988cea77bb3786d3ca4e30c275c5311459edf65fddc9f010c4473ad73ea9ea41873e2ec4586506b0a5cac2d5c743109f7145563947b2e02caccc8e72cb4ba4c07089646c3958f9606d88cc544ef3c0e3245d61e03991ae9c34820740aaceb6c866019bc4ec5462cac2c3e822d391a112c1ec88a8af9f459f05cc80f7aae7e490550ee763bf4ded8940bc0abac88694959e56244c151f9128b8d59ac4ec44330db7816566204ba707c892bd673aee011be42c06948e7bc0463903ef0859b234207696b125bed4852f1de4ecc4b33edd8bab4a58e0d524790ee81a7f4fb2572a9d48ed47bab5172661d34cb36eccce1a4856fe6bacb1c61a6bacb1c61a6bacb1c6fe2bf607ae0227882dfef80c0000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -8349,19 +8386,19 @@
                   "contours":[
                     {
                       "nodes":[
-                        "830 0",
+                        "830 0 {n:'.ab01'}",
                         "558 583",
                         "557 400",
-                        "349 0",
+                        "349 0 {n:'.ab02'}",
                         "6 0",
                         "427 797",
                         "380 878 o",
-                        "65 1500",
-                        "413 1520",
+                        "65 1500 {n:'.at04'}",
+                        "413 1520 {n:'.at03'}",
                         "667 995",
                         "668 1199",
-                        "819 1500",
-                        "1164 1500",
+                        "819 1500 {n:'.at01'}",
+                        "1164 1500 {n:'.at02'}",
                         "794 800",
                         "1193 0"
                       ]
@@ -8385,6 +8422,16 @@
               }
             ],
             "color":"#00cce5",
+            "tth":[
+              "alignt .at01 \"t: 1\"",
+              "alignt .at02 \"t: 1\"",
+              "alignt .at03 \"t: 1\"",
+              "alignt .at04 \"t: 1\"",
+              "alignb lsb \"b: 0\"",
+              "alignb .ab01 \"b: 0\"",
+              "alignb rsb \"b: 0\"",
+              "alignb .ab02 \"b: 0\""
+            ],
             "active":true
           }
         ]
@@ -8392,7 +8439,7 @@
       {
         "name":"Y",
         "unicode":"0059",
-        "lastModified":"2026-05-17 04:25:32",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -8402,7 +8449,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c18000003f5494441546881ed9a3d72db400c8545d132e3c80e4b172e58a6d41178841cc1074941dd244731db74b941942ea5bab8d09821455304f0b04b44da581c992834c39d6fb07f8f5860c5d9cc62a9899ab0091bb0f8dd743ae6b12d827a4b8262460b3bb6b36cfd59c636660bbb2017b0bc6389e45fd7d8f6095aa2ea05b10fd0925415bac3cdaab10d34ce6d1806d51adb4223ceb4c67636ac8246b458c330f6aa18761a1e5bdbb0125a6dde70eb55ccb8207aa7d0f816eb66c4d6231e1b34a2a998bea7c77a336217b06e613bbd0eeaedee586fd1095814d45b580c4dc57017c63336237696e50d8b19770103d778366bcccb3b660cd3bc1ac31c54cb54154cc97b6d639b69de94badeeccd32531553ecff6361df859b63bd8d2725088ba995916541d213300caaa996d0a2651a865350315c904cab3ed05b6ec38a4aab156dd8adda29949488551a86cbdb60cfb211a7a062b86e0d0675ec956c88550cbced3108701f61b02a0653d0bd41a77b6fc3f26db1f51096aa189c0b2d560e612b1503ab05f2c720383bf60b9504ebf65455df0d58adf11f664c0a0eb0e68529008333ab5934c4a4b7fd8d430eba94458a0393de1a81ac33109cc4523bd6fc58b0c486c5a04b89e5cdfb62c74a3f5634af7c34883dee2303e852e9d4823ded455448c1092c2af6583e84b51135974a1258dc613b2f366fa37d3680c576ac6c76f6c58b2ddb68044a12d13269315412b7873652aaf7aac4ee5b0c9424c6b63a60a5cfdbaa8de2a024e1ad780df65222e222f7e7eb412431e1ad3bafa49238f6aaa3067bb66052491c8bbb035c2a8963d71d2625c2b1ab2eb90089305bb8309e39dc75e79094c8923f75879f5f490f2e8c4fe1be3b98a59238f6b9c3a444f879baeab20189f16be1f4903478cfca2f8784c68b6504634ae253f87638fb84e0f82ef439995012f3d6c86dab62fc6aa2c7849298b7799fa49a31a62476ff76d5634270ccdb826295134bfbecc827b8832afda18bdca40bc1b15dc81856babc91da090fc1de52866d5cd88aa4b21eac601855125bb74782156e2c27493b8f700c7b22895beec66841c19544b1c88e1dc69d2a7fa5b536e71815dcadc036dd43c230da69ccb1ca8395e4c18125b450e082a3182b87233356ea58c66a1d1f4616a1a082a3582eb0ad13dbd12713965125d1105db03a21a50f4b8e6d1d18ed9417cd091d01c1225ea93389fc3b26feea8c1d58c2b188ee1cc1c47d49e48870e2f685498478e302111261188bde851e93720f16336cc7b17e4f6e6c58ca307686d298b4f061fd231fdb866219c16e19b6e658a98d2da97e53aade959986f90caf744eb1e530d218fe73a7da983f82329ad19bf1c336b8bc3aa9d3e9fbb7e3b0b38ccdf8bd65d8cf32df4fa761c77616594ed8e561934d36d9646f608bbfbb75e1bb131dca080000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c18000002d5494441546881edd93d729b401407701056283c1e4a172e2853ea081c2147f0415c2c37c951b46dbadc204a97922e2e34da08a185f7c1ee3e49cc444e9e0acfe0f9cd82cc9fb7efe12c937cd622a54c993265ca9429fb87d85b2b61b93b4858e91c5f6e96ed16659d8ced65cc095871e7ac9531bbe86a42c67ef9f1587bc7d7a64cd9cd2c57a64c99b27b62bc07bd9a65b293664baff6d1d95fb9f5f7bc512ecb84d347b5386bd3ac5e9cd9346b64ccb89959f16ad69f948d949c39397b5f94b13996b1e202c60a1c63a58c5db21acb6580b529565dc26c8a6d64ec1890df3c4937b09f3c498c6d9dfb2660c78c7f17331a38c6fa07c688984db3d31b8786e5f24ad607a4ad59e028abe4acff2161a58c152c979435fdf3226736ce4cffc8e749f67aaa0c2c97332795b0ed294486068eb0dc9c58936243456d6892082b3cdb47d96aa8f67582157266fb3b7b88b2c7a11ab12411560e8c2589b097a152b2f7aa843d0f8c2589b0cdc86c82f5df91258930732ef6342284fd386f4409e6f72b9a24ccce39ead9bb84d1246156f80d9c2609b34f9ed18860f6e09b0b1a11ccd632f6e4f7211a11cc1efde617672f32f6ec37669a24cc3e7b462382d9c6770371568d4d038908665fc68626ca6ac0ba30fb3aee7d26c6a69e8c2409b13e6e5d9a65132349426c3535a9627608b287895511b686cc055935754765848da964a50b31f026bd88b01a311b626076ca23ac426c17621bd0ca469841ac0bb157c04c9835a069c7150eb12d68dc9a308303054e1264b99c8dd75d05d90ab34384edfc41196405662ec22c3808b0120e0a387090a1713817333bcf6a34ebc418f823181838c81ac2ba20dbc32311ab61922033684ea822ac13303c3497f00a00cbf1a48e22723923ffea2c02acc42c87770e30f2be044584b00c313bc7704070443043d51b4604b046ccf69875b731b487c29a1465a1d57690d541d66266e758e97e4175bc2bd91c8b7d942953a64c993265ca942953f63fb23fce9ddb70342f95fb0000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -8507,21 +8554,15 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh .ah01 round",
-              "alignh .ah02 round",
-              "alignh .ah03 round",
-              "interpolateh .ih01 .ih02, .ih03",
-              "mdeltah .ih01 34-34 -1",
-              "singleh .ah02, .sh01 \"eq X: dia Lite\"",
-              "singleh .ah01, .sh02 \"eq X: dia Lite\"",
-              "singleh .ah03, .sh03 \"eq X: dia Fat\"",
               "alignt .sh03 \"t: 1\"",
               "alignt .ah02 \"t: 1\"",
               "alignt .sh01 \"t: 1\"",
               "alignt .ah03 \"t: 1\"",
               "alignb .ah01 \"b: 0\"",
-              "mdeltav .ih01 34-34 8",
               "mdeltav .ih01 48-48 8",
+              "mdeltav .ih01 34-34 8",
+              "alignh .ah01 round",
+              "mdeltah .ih01 34-34 -1",
               "fdeltav .ih01 19-19 3",
               "fdeltav .ih01 17-17 6"
             ],
@@ -8532,7 +8573,7 @@
       {
         "name":"Z",
         "unicode":"005a",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:19:31",
         "layers":[
           {
             "name":"img",
@@ -8542,7 +8583,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000021e494441546881ed99315284301846419ca5646b9b1c25de0c7a5b0fe20de41e3634b68e9d16ab71d9118785c4bc30bf03eefc5fc7f8964df2be8d61c8328d46a3d168341a8d2621e640a8dcb90660a5736e3f5c144feec58f5977ca877b70dff10ea276b3f80631a75cc7b05751ccf7a59e29b4cb67eac13cd4b0bca37897d7a01964151ada497d7c6873cc5fbfa2ff53bfeed73777cf6d68687d2dcfbe67e7a566582810ab39d6c431cb3013a8ce32ac0a2ee912ac74fe1fc932ac77ff1ec7f260799660bdfb4f392ca122008315b1ffbf228578450096c956a46698e5ee016658452aee1e6025735f700cb8875285ddd718dbb47b88b5710cba97ad88bc7bd98a40f7821531a218ac48c92b0230f9ed016009ee09c6b70782c18a188c09ba4fd81e0096e01e60d0bd70455671cf2bb2cef600b1368ead52914bd81e644f0fb207cc84ff205d1c4b786ad8ec0153f6e142f61c9ab08b34716c9567902d3729a12297700e6de2d86abb08c4f41c3ace960f1985e821236758c6dd13ac66ee2d936a3046dc575c2ac064a5e6a25806ddd71823ee2d736f185631f725730fb182b9cf39d6000e4aad31d601cc32cc30f761ecb8a4f7cd705105dd1f051df6a38b0036bce16b86cf0487f393abf059c48eb0cff0a9768cb930564fb040456658e3c5a65400fbe3bbb12980e5ed1368c8f4ad6d77ebc5a6af635bffdd8ac3f98cfd13cdb2e1e3f9e32f133dcbee0ded21c75b925f8c46a3d168341a8d46939a2fb60d9d7d3ce6b8a90000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000012c0000015e01030000000559b0fc00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c18000002d1494441546881edd93192d3401085e1118255a88d49741471334d4eca41b801ba07891252ca1904c68345a15a4df77b3b5dd3266294b9f6b3d7d2df3b9a5a856039de9954638d35d658638d35d65863ff019bae16d6a5140d6c48293d1f2ffaafe93b6673fa73fc4a9fd3dfe38ad892d41101d32a6d3676792843bf149cc25a7fa680a1eb362b052fef44cf206323fd6a2a3dfe6aafb32b64fdfea3fdbabf7dfff1db7afe6a722c4fbf2784a7606201b360648b9dc5329b6d6c3a8d8e9f8dd925f5b221bdfc91f8d9defe679975d9f078d9defef6384647a48ad111d16c2d333a2239a3edab186d9fb3decee088e4acb3b1c0464433d85eb0c5c666d2be8e4d6444041b49fb3a3690f682f57686da0bc6a2d631d65eb2c5cc507bc948d44a46da4b36dad95a66a47d2523232219895ac9829d81f68ae1f68acd6606da2b363d94e111516c802352cb707bc8f4f2a0586763b87d3583cb43358323a2d96466babd66b03d666b99c1f69ac1f6d50cb6af66b03d60286a3d43edeb196a5fcfd0880036d8d95a66a87d3d43edd1bf4d407b0703ed1d0cb4274c46450cec1e1c0c2c0f8881f68c6d65066e0d0e06760f0e06760f8cdd0c4c6f323c4c8f08647a79a02c96991e110fd323e2617a443c4c8f08647a445c4cb5c74cad229425035323c2592c33d51e33b58a70b69599ba837076293375a3c14cdd417c4cde417c4c8e0861b2bd8fc94d0661729341582f46e415b69559676341b477b2256fcfd89c47656c32b39b818d795427135119135119eb1eca42de9eb2c5cc2e063667ed299b6c6cccda533664edbdaccfda53d6d9592cb39045e56c31b3cdc0661b9bceed6bd8fd927e8ac78bf1dc3e63f740d7e7d30bc28e277cf1780f66537a39de24cae613bb65bb5aca12678b60f8a9a2661132a908fbc79f663b05c3e5dd0f3221f2a9edf60132f93876c59fd65ff3338e9885e3eddd97fc44f9903ffd30ad21f78fb4ac96f9d158638d35d658638d35d6586365f61b8186a45303eaacc30000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -8582,7 +8623,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -8600,9 +8642,7 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
-              "interpolatev .iv01 .iv02, .iv03",
               "singlev .at01, .sv01 \"eq Y: 171\"",
-              "interpolatev .iv04 .iv05, .iv06",
               "singlev .ab01, .sv02 \"eq Y: 171\""
             ],
             "active":true
@@ -8612,7 +8652,7 @@
       {
         "name":"bracketleft",
         "unicode":"005b",
-        "lastModified":"2026-04-20 03:47:46",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"mask",
@@ -8787,7 +8827,7 @@
       {
         "name":"bracketright",
         "unicode":"005d",
-        "lastModified":"2026-04-20 03:47:54",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"mask",
@@ -8888,7 +8928,7 @@
       {
         "name":"asciicircum",
         "unicode":"005e",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"mask",
@@ -8949,7 +8989,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -8968,17 +9009,9 @@
             ],
             "color":"#bac000",
             "tth":[
-              "alignh .ah01 round",
-              "alignh .ah02 round",
-              "singleh .ah02, .sh01 \"eq X: dia Lite\"",
-              "interpolateh .ih01 .ah01, .sh01",
-              "singleh .ah01, .sh02 \"eq X: dia Lite\"",
-              "interpolateh .ih02 .sh01, .sh02",
-              "interpolateh .ih03 .ah01, .ah02",
-              "alignv .sh02 round",
-              "alignv .ah02 round",
               "alignt .ih03 \"t: 1\"",
-              "alignt .ih02 \"t: 1\""
+              "alignt .ih02 \"t: 1\"",
+              "singlev .ih03, .ih01 \"eq Y: 171\""
             ],
             "active":true
           }
@@ -8987,7 +9020,7 @@
       {
         "name":"underscore",
         "unicode":"005f",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"mask",
@@ -9135,7 +9168,7 @@
       {
         "name":"a",
         "unicode":"0061",
-        "lastModified":"2026-05-17 14:10:17",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -9324,13 +9357,10 @@
               "alignb .ah02 \"b: 0\"",
               "alignb .ab01 \"b: 0\"",
               "doublev .sv01, .dv01 \"eq Y: 171\"",
-              "singlev .ab01, .sv02 \"eq Y: 171\"",
-              "mdeltav .sv02 9-12 -1",
-              "interpolatev .ah01 .ab01, .sv02",
-              "singlev .dv01, .sh02 .none round",
               "singlev .mh03, .sv01 \"eq Y: 171\"",
               "mdeltav .sv01 9-12 1",
-              "singlev .dv02, .sh06 .none round"
+              "singlev .ab01, .sv02 \"eq Y: 171\"",
+              "mdeltav .sv02 9-12 -1"
             ],
             "active":true
           }
@@ -9339,7 +9369,7 @@
       {
         "name":"b",
         "unicode":"0062",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -9477,7 +9507,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -9510,19 +9541,15 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh lsb round",
-              "alignh .ah01 round",
-              "singleh lsb, .sh01 .round",
-              "singleh .sh01, .sh02 \"eq X: 190\"",
-              "singleh .sh02, .sh03 .none",
-              "singleh .ah01, .sh04 \"eq X: 190\"",
-              "singleh .sh04, rsb .round",
               "alignv .sh02 round",
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 \"eq Y: 162\"",
               "singlev .at01, .sv02 \"eq Y: 162\"",
-              "interpolatev .iv01 .sv02, .at01"
+              "alignh lsb round",
+              "singleh lsb, .sh01 .round",
+              "singleh .sh01, .sh02 \"eq X: 190\"",
+              "singleh .sh04, rsb .round"
             ],
             "active":true
           }
@@ -9531,7 +9558,7 @@
       {
         "name":"c",
         "unicode":"0063",
-        "lastModified":"2026-05-17 14:08:40",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -9633,7 +9660,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -9655,13 +9683,13 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh lsb round",
-              "singleh lsb, .sh01 .round",
-              "singleh .sh01, .sh02 \"eq X: 199\"",
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 \"eq Y: 162\"",
-              "singlev .ab01, .sv02 \"eq Y: 171\""
+              "singlev .ab01, .sv02 \"eq Y: 171\"",
+              "alignh lsb round",
+              "singleh lsb, .sh01 .round",
+              "singleh .sh01, .sh02 \"eq X: 199\""
             ],
             "active":true
           }
@@ -9670,7 +9698,7 @@
       {
         "name":"d",
         "unicode":"0064",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -9851,20 +9879,17 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh lsb round",
-              "alignh .ah01 round",
-              "singleh lsb, .sh01 .round",
-              "singleh .sh01, .sh02 \"eq X: 190\"",
-              "singleh .ah01, .sh03 .none",
-              "singleh .ah01, .sh04 .none",
-              "singleh .ah01, .sh05 \"eq X: 190\"",
-              "singleh .sh05, rsb .round",
               "alignv .av01 round",
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "singlev .at01, .sv01 \"eq Y: 162\"",
-              "singlev .ab01, .sv02 \"eq Y: 162\""
+              "singlev .ab01, .sv02 \"eq Y: 162\"",
+              "alignh lsb round",
+              "singleh lsb, .sh01 .round",
+              "singleh .sh01, .sh02 \"eq X: 190\"",
+              "singleh .ah01, .sh05 \"eq X: 190\"",
+              "singleh .sh05, rsb .round"
             ],
             "active":true
           }
@@ -9873,7 +9898,7 @@
       {
         "name":"e",
         "unicode":"0065",
-        "lastModified":"2026-05-17 14:08:40",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -9992,6 +10017,7 @@
                         "1109 605 o",
                         "1102 517 o",
                         "1097 466 {n:'.ih04'}",
+                        "656 466 {n:'.dv02'}",
                         "350 466 {n:'.sh02'}",
                         "352 412 o",
                         "408 315 o",
@@ -10002,7 +10028,7 @@
                         "802 222 o",
                         "879 254 o",
                         "936 288 o",
-                        "950 300"
+                        "950 300 {n:'.dv01'}"
                       ]
                     },
                     {
@@ -10056,26 +10082,22 @@
             ],
             "color":"#00cce5",
             "tth":[
+              "alignt .ih02 \"t: x\"",
+              "alignb .ih01 \"b: 0\"",
+              "singlev .ih01, .ih03 \"eq Y: 171\"",
+              "singlev .ih02, .sv01 \"eq Y: 162\"",
+              "mdeltav .sv01 29-29 5",
+              "interpolatev .dv02 .ih03, .sv01",
+              "mdeltav .dh01 29-29 -4",
+              "mdeltav .ih05 29-29 3",
+              "interpolatev .mv01 .dv02, .sv01",
+              "mdeltav .mv01 29-29 3",
               "alignh lsb round",
               "doubleh .dh01, .dh02 \"eq X: 190\"",
               "singleh lsb, .sh01 .round",
-              "interpolateh .ih01 .sh01, .dh02",
-              "interpolateh .ih02 .sh01, .dh02",
               "singleh .sh01, .sh02 \"eq X: 190\"",
-              "interpolateh .ih03 .sh02, .ih04",
-              "interpolateh .ih05 .sh01, .sh02",
               "mdeltah .ih05 29-29 1",
-              "singleh .dh02, rsb .round",
-              "alignt .ih02 \"t: x\"",
-              "alignb .ih01 \"b: 0\"",
-              "doublev .dh01, .ih04 \"eq Y: 153\"",
-              "singlev .ih01, .ih03 \"eq Y: 171\"",
-              "mdeltav .dh01 29-29 -4",
-              "singlev .ih02, .sv01 \"eq Y: 162\"",
-              "mdeltav .sv01 29-29 5",
-              "interpolatev .ih05 .dh01, .ih04",
-              "mdeltav .ih05 29-29 3",
-              "mdeltav .mv01 29-29 3"
+              "singleh .dh02, rsb .round"
             ],
             "active":true
           }
@@ -10084,7 +10106,7 @@
       {
         "name":"f",
         "unicode":"0066",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -10220,15 +10242,13 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "doubleh .dh01, .dh02 \"eq X: 190\"",
-              "doubleh .dh03, .dh04 \"eq X: 190\"",
-              "singleh .dh01, .sh01 .none",
-              "singleh .dh02, .sh02 .none",
               "alignv .av01 round",
+              "alignt .dv03 \"t: x\"",
+              "alignt .dv01 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
-              "doublev .dv01, .dv02 \"eq Y: 162\"",
-              "doublev .dv03, .dv04 \"eq Y: 162\"",
-              "singlev .av01, .sv01 \"eq Y: 162\""
+              "singlev .av01, .sv01 \"eq Y: 162\"",
+              "singlev .dv03, .dv04 \"eq Y: 171\"",
+              "singlev .dv01, .dv02 \"eq Y: 171\""
             ],
             "active":true
           }
@@ -10237,7 +10257,7 @@
       {
         "name":"g",
         "unicode":"0067",
-        "lastModified":"2026-05-17 14:08:40",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -10414,7 +10434,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -10452,25 +10473,18 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh lsb round",
-              "alignh .ah01 round",
-              "alignh .ah02 round",
-              "singleh lsb, .sh01 .round",
-              "singleh .ah02, .sh02 .none",
-              "singleh .ah01, .sh03 \"eq X: 190\"",
-              "singleh .sh01, .sh04 \"eq X: 190\"",
-              "singleh .sh04, .sh05 .round",
-              "singleh .ah02, .sh06 .none",
-              "singleh .sh03, rsb .round",
               "alignt .at01 \"t: x\"",
               "alignt .at02 \"t: x\"",
               "alignb .ab01 \"b: -500\"",
               "alignb .ab02 \"b: 0\"",
-              "singlev .ab02, .sv01 \"eq Y: 162\"",
-              "interpolatev .ah02 .ab02, .sv01",
+              "singlev .ab01, .sv02 \"eq Y: 162\"",
               "singlev .at01, .hr01 \"eq Y: 162\"",
-              "interpolatev .sh02 .at01, .hr01",
-              "singlev .ab01, .sv02 \"eq Y: 162\""
+              "singlev .ab02, .sv01 \"eq Y: 162\"",
+              "alignh lsb round",
+              "singleh lsb, .sh01 .round",
+              "singleh .ah01, .sh03 \"eq X: 190\"",
+              "singleh .sh01, .sh04 \"eq X: 190\"",
+              "singleh .sh03, rsb .round"
             ],
             "active":true
           }
@@ -10479,7 +10493,7 @@
       {
         "name":"h",
         "unicode":"0068",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -10617,21 +10631,15 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh .ah01 round",
-              "alignh lsb round",
-              "alignh .ah02 round",
-              "singleh lsb, .sh01 .round",
-              "singleh .sh01, .sh02 \"eq X: 190\"",
-              "singleh .sh02, .sh03 .none",
-              "singleh .ah01, .sh04 \"eq X: 199\"",
-              "interpolateh .ih01 .sh02, .ah01",
-              "singleh .sh04, rsb .round",
               "alignv .sh03 round",
               "alignt .at01 \"t: x\"",
               "alignb .ah01 \"b: 0\"",
               "alignb .sh02 \"b: 0\"",
-              "interpolatev .iv01 .sh03, .sh02",
-              "singlev .at01, .ih01 \"eq Y: 162\""
+              "singlev .at01, .ih01 \"eq Y: 162\"",
+              "singleh lsb, .sh01 .round",
+              "singleh .sh01, .sh02 \"eq X: 190\"",
+              "singleh .ah01, .sh04 \"eq X: 199\"",
+              "singleh .sh04, rsb .round"
             ],
             "active":true
           }
@@ -10640,7 +10648,7 @@
       {
         "name":"i",
         "unicode":"0069",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"mask",
@@ -10802,9 +10810,9 @@
                       "nodes":[
                         "484 916 {n:'.ah02'}",
                         "314 876",
-                        "139 876",
+                        "139 876 {n:'.sv02'}",
                         "111 1100 {n:'.ah01'}",
-                        "741 1100",
+                        "741 1100 {n:'.at01'}",
                         "741 423 {n:'.dh02'}",
                         "741 382 o",
                         "761 313 o",
@@ -10829,7 +10837,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -10856,19 +10865,14 @@
             ],
             "color":"#bac000",
             "tth":[
-              "alignh .ah01 round",
-              "alignh .ah02 round",
-              "alignh .ah03 round",
-              "doubleh .dh01, .dh02 \"eq X: 190\"",
-              "singleh .dh01, .sh01 .none",
-              "singleh .dh02, .sh02 .none",
-              "alignv .av01 round",
-              "alignv .ah02 round",
-              "alignv .av02 round",
               "alignt .sh01 \"t: 1\"",
+              "alignt .ah01 \"t: x\"",
+              "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
-              "singlev .sh01, .sv01 .round",
-              "singlev .av02, .ah03 \"eq Y: 162\""
+              "interpolatev .sv01 .at01, .sh01",
+              "singlev .ah01, .sv02 \"eq Y: 171\"",
+              "singlev .ab01, .av01 \"eq Y: 171\"",
+              "doubleh .dh01, .dh02 \"eq X: 190\""
             ],
             "active":true
           }
@@ -10877,7 +10881,7 @@
       {
         "name":"j",
         "unicode":"006a",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -11009,7 +11013,7 @@
                         "448 876",
                         "273 876",
                         "245 1100 {n:'.ah02'}",
-                        "875 1100",
+                        "875 1100 {n:'.at01'}",
                         "875 -68 {n:'.dh02'}",
                         "875 -159 o",
                         "822 -322 o",
@@ -11034,7 +11038,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -11061,19 +11066,17 @@
             ],
             "color":"#00cce5",
             "tth":[
+              "alignt .sh01 \"t: 1\"",
+              "alignt .ah02 \"t: x\"",
+              "alignt .at01 \"t: x\"",
+              "alignb .ab01 \"b: -500\"",
+              "interpolatev .sv01 .at01, .sh01",
               "alignh .ah01 round",
               "alignh .ah02 round",
               "alignh .ah03 round",
               "doubleh .dh01, .dh02 \"eq X: 190\"",
               "singleh .dh01, .sh01 .none",
-              "singleh .dh02, .sh02 .none",
-              "alignv .ah01 round",
-              "alignv .av01 round",
-              "alignv .av02 round",
-              "alignt .sh01 \"t: 1\"",
-              "alignb .ab01 \"b: -500\"",
-              "singlev .sh01, .sv01 .none",
-              "singlev .av02, .ah03 \"eq Y: 162\""
+              "singleh .dh02, .sh02 .none"
             ],
             "active":true
           }
@@ -11082,7 +11085,7 @@
       {
         "name":"k",
         "unicode":"006b",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -11167,7 +11170,7 @@
                       "nodes":[
                         "137 0 {n:'.ab01'}",
                         "137 1397 {n:'.sh01'}",
-                        "115 1600",
+                        "115 1600 {n:'.av01'}",
                         "443 1631 {n:'.sh02'}",
                         "443 769 {n:'.sh03'}",
                         "708 1100 {n:'.ah01'}",
@@ -11182,7 +11185,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -11211,6 +11215,12 @@
             ],
             "color":"#00cce5",
             "tth":[
+              "alignv .sh02 round",
+              "alignv .av01 round",
+              "alignt .sh04 \"t: x\"",
+              "alignt .ah01 \"t: x\"",
+              "alignb .ab01 \"b: 0\"",
+              "alignb .sh05 \"b: 0\"",
               "alignh lsb round",
               "alignh .ah01 round",
               "alignh .ah02 round",
@@ -11219,12 +11229,7 @@
               "singleh .sh02, .sh03 .none",
               "singleh .ah01, .sh04 \"eq X: dia Lite\"",
               "singleh .ah02, .sh05 \"eq X: dia Fat\"",
-              "singleh .sh02, .sh06 .none",
-              "alignv .sh02 round",
-              "alignb .ab01 \"b: 0\"",
-              "alignb .sh05 \"b: 0\"",
-              "interpolatev .iv01 .ah01, .ah02",
-              "singlev .iv01, .sh04 .round"
+              "singleh .sh02, .sh06 .none"
             ],
             "active":true
           }
@@ -11233,7 +11238,7 @@
       {
         "name":"l",
         "unicode":"006c",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -11243,7 +11248,7 @@
               {
                 "elementData":{
                   "image":{
-                    "PNG":"89504e470d0a1a0a0000000d494844520000003a000000a5010300000037457cfd00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c180000009749444154388dd5d34b0e83201006e0698c71d97557f5265ccc448ed6a3f4082c5d10ff328cd3aaa40bb56265c17ce1911908108dda1d784400e83816019e510580716558592b30095a057417c73ec4cb047ec8101133740a2770a5939c4faa0552df18564b7f83bea29fc17ce0f7805935b5717186e3fc0a875c6fdecb04865fb0003607fee2459d14ed14b7646435b0048582a8e1ee058377f55f7d2f642a0000000049454e44ae426082"
+                    "PNG":"89504e470d0a1a0a0000000d494844520000003a000000a5010300000037457cfd00000006504c5445000000000000a567b9cf0000000174524e530040e6d866000000097048597300000b1300000b1301009a9c18000000a449444154388dedd3510a83300c06e00c913dee08db4d72b181bd993bca8ed0471fc47f4dd3488529edd017990fe623b64d244a945d77e015016090d8048c826b00043741af6b0117c09699d1d923d82e8953889705c654212256180c5ee15bcfb1e69b1e0aed2f87b3d667d02aa61c2c2da70ceb6bee04defbc03f6a513282dfc654793290fe820ab875f4056bca70868ff6b8296fa33b0cb09eb1cc7c4563207acaed037437f5856f70a21d0000000049454e44ae426082"
                   }
                 },
                 "transform":{
@@ -11335,7 +11340,7 @@
                       "nodes":[
                         "443 1382 {n:'.ah01'}",
                         "273 1342",
-                        "97 1342",
+                        "97 1342 {n:'.sv01'}",
                         "70 1566 {n:'.ah02'}",
                         "690 1566 {n:'.sh01'}",
                         "690 388 {n:'.dh02'}",
@@ -11387,18 +11392,17 @@
             ],
             "color":"#00cce5",
             "tth":[
+              "alignv .sh01 round",
+              "alignv .ah02 round",
+              "alignb .ab01 \"b: 0\"",
+              "singlev .ah02, .sv01 \"eq Y: 171\"",
+              "singlev .ab01, .av01 \"eq Y: 171\"",
               "alignh .ah01 round",
               "alignh .ah02 round",
               "alignh .ah03 round",
               "doubleh .dh01, .dh02 \"eq X: 190\"",
               "singleh .dh02, .sh01 .none",
-              "singleh .dh01, .sh02 .none",
-              "alignv .sh01 round",
-              "alignv .ah02 round",
-              "alignv .av01 round",
-              "alignv .av02 round",
-              "alignb .ab01 \"b: 0\"",
-              "singlev .av02, .ah03 \"eq Y: 162\""
+              "singleh .dh01, .sh02 .none"
             ],
             "active":true
           }
@@ -11407,7 +11411,7 @@
       {
         "name":"m",
         "unicode":"006d",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -11573,25 +11577,17 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "doubleh .dh01, .dh02 \"eq X: 199\"",
-              "singleh .dh02, .hr01 .none",
-              "singleh .dh02, .sh01 .round",
-              "singleh .sh01, .sh02 \"eq X: 199\"",
-              "interpolateh .ih01 .sh01, .sh02",
-              "singleh .sh02, .sh03 .round",
-              "singleh .sh03, .sh04 \"eq X: 199\"",
-              "singleh .sh02, .sh05 .none",
-              "singleh .sh04, rsb .round",
               "alignt .hr01 \"t: x\"",
               "alignt .at01 \"t: x\"",
               "alignt .at02 \"t: x\"",
               "alignb .dh02 \"b: 0\"",
               "alignb .sh02 \"b: 0\"",
               "alignb .sh04 \"b: 0\"",
-              "interpolatev .iv01 .hr01, .dh02",
-              "interpolatev .ih01 .hr01, .dh02",
               "singlev .at02, .sv01 \"eq Y: 162\"",
-              "singlev .at01, .sv02 \"eq Y: 162\""
+              "singlev .at01, .sv02 \"eq Y: 162\"",
+              "singleh .sh02, .sh03 .round",
+              "singleh .dh02, .sh01 .round",
+              "singleh .sh04, rsb .round"
             ],
             "active":true
           }
@@ -11600,7 +11596,7 @@
       {
         "name":"n",
         "unicode":"006e",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -11702,7 +11698,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "guidelines":[
@@ -11741,20 +11738,17 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh .ah01 round",
-              "alignh lsb round",
-              "singleh lsb, .sh01 .round",
-              "singleh .sh01, .sh02 \"eq X: 199\"",
-              "singleh .sh02, .hr01 .none",
-              "singleh .ah01, .sh03 \"eq X: 199\"",
-              "interpolateh .ih01 .sh01, .sh03",
-              "singleh .sh03, rsb .round",
               "alignt .hr01 \"t: x\"",
               "alignt .at01 \"t: x\"",
               "alignb .sh02 \"b: 0\"",
               "alignb .sh03 \"b: 0\"",
-              "interpolatev .ih01 .hr01, .sh02",
-              "singlev .at01, .sv01 \"eq Y: 162\""
+              "singlev .at01, .sv01 \"eq Y: 162\"",
+              "alignh .ah01 round",
+              "alignh lsb round",
+              "singleh lsb, .sh01 .round",
+              "singleh .sh01, .sh02 \"eq X: 199\"",
+              "singleh .ah01, .sh03 \"eq X: 199\"",
+              "singleh .sh03, rsb .round"
             ],
             "active":true
           }
@@ -11763,7 +11757,7 @@
       {
         "name":"o",
         "unicode":"006f",
-        "lastModified":"2026-05-17 14:08:40",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -11875,7 +11869,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -11902,6 +11897,11 @@
             ],
             "color":"#00cce5",
             "tth":[
+              "alignt .at01 \"t: x\"",
+              "alignb .mh01 \"b: 0\"",
+              "mdeltav .mv01 18-18 3",
+              "singlev .at01, .sv01 \"eq Y: 162\"",
+              "singlev .mh01, .sv02 \"eq Y: 153\"",
               "alignh lsb round",
               "alignh .ah01 round",
               "mdeltah .mh01 18-18 -3",
@@ -11909,12 +11909,7 @@
               "singleh .ah01, .sh02 \"eq X: 199\"",
               "mdeltah .mh02 18-18 2",
               "singleh .sh01, .sh03 \"eq X: 199\"",
-              "singleh .sh02, rsb .round",
-              "alignt .at01 \"t: x\"",
-              "alignb .mh01 \"b: 0\"",
-              "mdeltav .mv01 18-18 3",
-              "singlev .at01, .sv01 \"eq Y: 162\"",
-              "singlev .mh01, .sv02 \"eq Y: 153\""
+              "singleh .sh02, rsb .round"
             ],
             "active":true
           }
@@ -11923,7 +11918,7 @@
       {
         "name":"p",
         "unicode":"0070",
-        "lastModified":"2026-05-17 14:08:40",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -12060,7 +12055,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -12098,21 +12094,16 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh lsb round",
-              "alignh .ah01 round",
-              "singleh lsb, .sh01 .round",
-              "singleh .sh01, .sh02 \"eq X: 190\"",
-              "singleh .sh02, .sh03 .none",
-              "singleh .sh02, .sh04 .none",
-              "singleh .ah01, .sh05 \"eq X: 190\"",
-              "interpolateh .ih01 .sh01, .sh05",
               "alignt .at01 \"t: x\"",
               "alignt .sh04 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .sh01 \"b: -500\"",
               "singlev .ab01, .sv01 \"eq Y: 162\"",
               "singlev .at01, .sv02 \"eq Y: 162\"",
-              "interpolatev .ih01 .sh04, .sh01"
+              "alignh lsb round",
+              "singleh lsb, .sh01 .round",
+              "singleh .ah01, .sh05 \"eq X: 190\"",
+              "singleh .sh01, .sh02 \"eq X: 190\""
             ],
             "active":true
           }
@@ -12121,7 +12112,7 @@
       {
         "name":"q",
         "unicode":"0071",
-        "lastModified":"2026-05-17 14:08:40",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -12291,20 +12282,15 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh lsb round",
-              "alignh .ah01 round",
-              "singleh lsb, .sh01 .round",
-              "singleh .sh01, .sh02 \"eq X: 190\"",
-              "singleh .ah01, .sh03 .none",
-              "singleh .ah01, .sh04 \"eq X: 190\"",
-              "singleh .ah01, .sh05 .none",
-              "alignv .sh04 round",
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: -500\"",
               "singlev .at01, .sv01 \"eq Y: 162\"",
               "singlev .ab01, .sv02 \"eq Y: 162\"",
-              "interpolatev .sh03 .sv02, .ab01"
+              "alignh lsb round",
+              "singleh lsb, .sh01 .round",
+              "singleh .sh01, .sh02 \"eq X: 190\"",
+              "singleh .ah01, .sh04 \"eq X: 190\""
             ],
             "active":true
           }
@@ -12313,7 +12299,7 @@
       {
         "name":"r",
         "unicode":"0072",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -12415,7 +12401,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -12449,15 +12436,12 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "doubleh .dh01, .dh02 \"eq X: 190\"",
-              "doubleh .dh03, .hr01 \"eq X: 190\"",
-              "interpolateh .ih01 .dh02, .hr01",
-              "singleh .dh02, .sh01 .none",
               "alignt .sh01 \"t: x\"",
               "alignt .at01 \"t: x\"",
               "alignb .dh02 \"b: 0\"",
-              "interpolatev .hr02 .sh01, .dh02",
-              "singlev .at01, .sv01 \"eq Y: 162\""
+              "singlev .at01, .sv01 \"eq Y: 162\"",
+              "doubleh .dh01, .dh02 \"eq X: 190\"",
+              "doubleh .dh03, .hr01 \"eq X: 190\""
             ],
             "active":true
           }
@@ -12466,7 +12450,7 @@
       {
         "name":"s",
         "unicode":"0073",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -12625,7 +12609,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -12652,33 +12637,24 @@
             ],
             "color":"#00cce5",
             "tth":[
+              "alignv .ah02 round",
+              "alignt .at01 \"t: x\"",
+              "alignb .ab01 \"b: 0\"",
+              "singlev .at01, .sv01 \"eq Y: 171\"",
+              "singlev .mh04, .sv03 \"eq Y: 162\"",
+              "singlev .ah02, .sv03 \"eq Y: 162\"",
+              "singlev .ab01, .sv02 \"eq Y: 162\"",
+              "singlev .mh01, .sv04 \"eq Y: 171\"",
               "alignh lsb round",
-              "alignh .ah01 round",
-              "alignh .ah02 round",
               "singleh lsb, .sh01 .none",
               "singleh .sh01, .sh02 \"eq X: 190\"",
               "mdeltah .sh02 36-36 8",
               "mdeltah .mh01 36-36 4",
-              "singleh .ah01, .sh03 \"eq X: 190\"",
-              "interpolateh .ih01 .sh01, .sh03",
               "mdeltah .mh02 36-36 2",
               "mdeltah .mh03 36-36 2",
-              "singleh .sh01, .sh04 .none",
-              "interpolateh .ih02 .sh04, .ah02",
+              "singleh .ah01, .sh03 \"eq X: 190\"",
               "mdeltah .mh04 36-36 -3",
-              "interpolateh .ih03 .sh01, .sh03",
-              "interpolateh .ih04 .ah02, .sh04",
-              "singleh .ah02, rsb .none",
-              "alignv .mh04 round",
-              "alignv .mh01 round",
-              "alignt .at01 \"t: x\"",
-              "alignb .ab01 \"b: 0\"",
-              "singlev .at01, .sv01 \"eq Y: 171\"",
-              "singlev .ab01, .sv02 \"eq Y: 162\"",
-              "interpolatev .ih01 .sv01, .sv02",
-              "singlev .mh04, .sv03 \"eq Y: 171\"",
-              "interpolatev .ih03 .sv02, .sv01",
-              "singlev .mh01, .sv04 \"eq Y: 171\""
+              "singleh .ah02, rsb .none"
             ],
             "active":true
           }
@@ -12687,7 +12663,7 @@
       {
         "name":"t",
         "unicode":"0074",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -12786,7 +12762,7 @@
                         "604 1100 {n:'.sv02'}",
                         "1063 1100 {n:'.at01'}",
                         "1036 876 {n:'.sv03'}",
-                        "608 876"
+                        "608 876 {n:'.sv04'}"
                       ]
                     }
                   ]
@@ -12819,20 +12795,15 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh .ah01 round",
-              "doubleh .dh01, .dh02 \"eq X: 190\"",
-              "singleh .dh01, .sh01 .none",
-              "singleh .dh02, .sh02 .none",
               "alignv .sh02 round",
-              "alignv .av01 round",
-              "alignv .av02 round",
               "alignt .sh01 \"t: x\"",
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
-              "singlev .av01, .ah01 \"eq Y: 162\"",
+              "singlev .ab01, .av02 \"eq Y: 171\"",
               "singlev .sh01, .sv01 \"eq Y: 162\"",
               "singlev .sh01, .sv02 .none",
-              "singlev .sv01, .sv03 .none"
+              "singlev .sv02, .sv04 \"eq Y: 171\"",
+              "doubleh .dh01, .dh02 \"eq X: 190\""
             ],
             "active":true
           }
@@ -12841,7 +12812,7 @@
       {
         "name":"u",
         "unicode":"0075",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -12934,7 +12905,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -12967,22 +12939,13 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh .ah01 round",
-              "alignh lsb round",
-              "alignh .hr01 round",
-              "singleh .ah01, .sh01 \"eq X: 190\"",
-              "singleh .sh01, .sh02 .none",
-              "singleh .sh02, .sh03 \"eq X: 190\"",
-              "interpolateh .ih01 .ih02, .sh03",
-              "singleh lsb, .sh04 .round",
-              "singleh .sh04, .sh05 \"eq X: 190\"",
-              "interpolateh .ih03 .ih02, .sh03",
               "alignt .at01 \"t: x\"",
               "alignt .sh03 \"t: x\"",
               "alignb .sh01 \"b: 0\"",
               "alignb .ih01 \"b: 0\"",
-              "interpolatev .iv01 .sh03, .ih01",
-              "singlev .ih01, .ih03 \"eq Y: 162\""
+              "singlev .ih01, .ih03 \"eq Y: 162\"",
+              "alignh lsb round",
+              "singleh lsb, .sh04 .round"
             ],
             "active":true
           }
@@ -12991,7 +12954,7 @@
       {
         "name":"v",
         "unicode":"0076",
-        "lastModified":"2026-05-17 14:08:40",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"mask",
@@ -13054,7 +13017,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "guidelines":[
@@ -13079,17 +13043,11 @@
             ],
             "color":"#bac000",
             "tth":[
-              "alignh .ah01 round",
-              "singleh .ah01, .sh01 .none",
-              "singleh .sh01, .sh02 \"eq X: dia Lite\"",
-              "singleh .ah01, .sh03 .none",
-              "singleh .sh03, .sh04 \"eq X: dia Fat\"",
               "alignt .sh03 \"t: x\"",
               "alignt .sh02 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
-              "interpolatev .iv01 .sh03, .iv02",
-              "interpolatev .ah01 .ab01, .sh02",
-              "interpolatev .iv03 .iv02, .sh01"
+              "singleh .sh01, .sh02 \"eq X: dia Lite\"",
+              "singleh .sh03, .sh04 \"eq X: dia Fat\""
             ],
             "active":true
           }
@@ -13098,7 +13056,7 @@
       {
         "name":"w",
         "unicode":"0077",
-        "lastModified":"2026-05-17 14:08:40",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -13220,28 +13178,10 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh .ah01 round",
-              "alignh .ah02 round",
-              "singleh .ah02, .sh01 .none",
-              "singleh .sh01, .sh02 \"eq X: dia Lite\"",
-              "singleh .ah01, .sh03 .none",
-              "interpolateh .ih01 .sh02, .sh03",
-              "interpolateh .ih02 .sh02, .sh03",
-              "singleh .sh03, .sh04 \"eq X: dia Fat\"",
-              "interpolateh .ih03 .sh04, .sh02",
-              "interpolateh .ih04 .sh04, .sh01",
-              "interpolateh .ih05 .sh04, .sh01",
-              "interpolateh .ih06 .sh04, .sh01",
-              "interpolateh .ih07 .sh02, .sh03",
-              "alignv .ih06 round",
-              "alignv .ih07 round",
               "alignt .sh03 \"t: x\"",
               "alignt .sh02 \"t: x\"",
               "alignb .ih04 \"b: 0\"",
-              "alignb .ih01 \"b: 0\"",
-              "interpolatev .ah02 .sh03, .ih01",
-              "interpolatev .ih03 .sh03, .ih01",
-              "interpolatev .iv01 .sh03, .ih01"
+              "alignb .ih01 \"b: 0\""
             ],
             "active":true
           }
@@ -13250,7 +13190,7 @@
       {
         "name":"x",
         "unicode":"0078",
-        "lastModified":"2026-05-17 14:08:40",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -13356,7 +13296,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -13374,30 +13315,10 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh .ah01 round",
-              "alignh .ah02 round",
-              "doubleh .dh01, .dh02 \"eq X: 176\"",
-              "doubleh .dh03, .dh04 \"eq X: 176\"",
-              "singleh .ah02, .sh01 .none",
-              "singleh .sh01, .sh02 \"eq X: dia Lite\"",
-              "singleh .ah01, .sh03 .none",
-              "singleh .sh03, .sh04 \"eq X: dia Fat\"",
-              "singleh .ah01, .sh05 .none",
-              "singleh .sh05, .sh06 \"eq X: dia Lite\"",
-              "singleh .ah02, .sh07 .none",
-              "singleh .sh07, .sh08 \"eq X: dia Fat\"",
-              "alignv .ah01 round",
               "alignt .sh03 \"t: x\"",
               "alignt .sh06 \"t: x\"",
               "alignb .sh01 \"b: 0\"",
-              "alignb .sh08 \"b: 0\"",
-              "interpolatev .dh02 .sh06, .dh04",
-              "interpolatev .dh04 .sh08, .dh02",
-              "singlev .ah01, .ah02 .round",
-              "interpolatev .dh01 .sh04, .dh03",
-              "interpolatev .dh03 .sh02, .dh01",
-              "interpolatev .iv01 .sh06, .sh08",
-              "interpolatev .iv02 .sh04, .sh02"
+              "alignb .sh08 \"b: 0\""
             ],
             "active":true
           }
@@ -13406,7 +13327,7 @@
       {
         "name":"y",
         "unicode":"0079",
-        "lastModified":"2026-05-17 14:08:40",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -13540,21 +13461,13 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh .ah01 round",
-              "alignh .ah02 round",
-              "alignh lsb round",
-              "doubleh .dh01, .dh02 \"eq X: 176\"",
-              "singleh .ah02, .sh01 .none",
-              "singleh .sh01, .sh02 \"eq X: dia Lite\"",
-              "singleh lsb, .sh03 \"eq X: 208\"",
-              "interpolateh .ih01 .sh02, .sh03",
-              "singleh .ah02, .sh04 .none",
-              "singleh .sh04, .sh05 \"eq X: dia Fat\"",
               "alignv .av01 round",
-              "alignv .av02 round",
               "alignt .sh04 \"t: x\"",
               "alignt .sh02 \"t: x\"",
-              "alignb .ab01 \"b: 0\""
+              "alignb .ab01 \"b: 0\"",
+              "singleh .sh01, .sh02 \"eq X: dia Lite\"",
+              "singleh lsb, .sh03 \"eq X: 208\"",
+              "singleh .sh04, .sh05 \"eq X: dia Fat\""
             ],
             "active":true
           }
@@ -13563,7 +13476,7 @@
       {
         "name":"z",
         "unicode":"007a",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:43:34",
         "layers":[
           {
             "name":"img",
@@ -13663,7 +13576,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -13682,8 +13596,6 @@
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 \"eq Y: 162\"",
-              "singlev .at01, .sv02 .none",
-              "interpolatev .iv01 .iv02, .sv02",
               "singlev .sv02, .sv03 \"eq Y: 162\"",
               "interpolatev .iv03 .at01, .ab01"
             ],
@@ -13694,7 +13606,7 @@
       {
         "name":"braceleft",
         "unicode":"007b",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"mask",
@@ -13969,7 +13881,7 @@
       {
         "name":"braceright",
         "unicode":"007d",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-23 16:54:02",
         "layers":[
           {
             "name":"mask",
@@ -77032,7 +76944,7 @@
       {
         "name":"zero",
         "unicode":"0030",
-        "lastModified":"2026-05-12 03:49:02",
+        "lastModified":"2026-05-23 16:53:25",
         "layers":[
           {
             "name":"Bold",
@@ -77052,6 +76964,16 @@
                 },
                 "active":true
               }
+            ],
+            "tth":[
+              "alignv .sv03 round",
+              "alignv .sv05 round",
+              "alignt .at01 \"t: 1\"",
+              "alignb .ab02 \"b: 0\"",
+              "singlev .sv03, .sv04 .round",
+              "singlev .ab02, .sv01 \"eq Y: 171\"",
+              "singlev .sv05, .sv06 .round",
+              "singlev .at01, .sv02 \"eq Y: 171\""
             ]
           }
         ]
@@ -77289,7 +77211,7 @@
               "position":1500,
               "value":20,
               "name":"caps",
-              "tagsString":"fig,uc"
+              "tagsString":"uc,fig"
             }
           ],
           "fontZonesB":[
