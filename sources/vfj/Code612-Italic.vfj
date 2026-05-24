@@ -2271,7 +2271,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.8",
+                  "id":"elementdata.9",
                   "contours":[
                     {
                       "nodes":[
@@ -2362,7 +2362,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.9",
+                  "id":"elementdata.10",
                   "contours":[
                     {
                       "nodes":[
@@ -2475,7 +2475,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.10",
+                  "id":"elementdata.11",
                   "contours":[
                     {
                       "nodes":[
@@ -2585,7 +2585,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.11",
+                  "id":"elementdata.12",
                   "contours":[
                     {
                       "nodes":[
@@ -3712,7 +3712,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.12",
+                  "id":"elementdata.13",
                   "contours":[
                     {
                       "nodes":[
@@ -3915,7 +3915,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.13",
+                  "id":"elementdata.14",
                   "contours":[
                     {
                       "nodes":[
@@ -12163,6 +12163,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.6",
                   "contours":[
                     {
                       "nodes":[
@@ -49441,7 +49442,7 @@
       {
         "name":"Omicron",
         "unicode":"039f",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-05-24 03:54:06",
         "layers":[
           {
             "name":"BoldItalic",
@@ -49550,74 +49551,8 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "438 -17 {n:'.ab01'}",
-                        "348 -17 o",
-                        "206 38 o",
-                        "102 139 o",
-                        "34 279 o",
-                        "2 450 o",
-                        "5 645 o",
-                        "24 750",
-                        "42 855 o",
-                        "107 1050 o",
-                        "198 1221 o",
-                        "313 1361 o",
-                        "453 1462 o",
-                        "617 1517 o",
-                        "709 1517 {n:'.at01'}",
-                        "799 1517 o",
-                        "941 1462 o",
-                        "1045 1361 o",
-                        "1113 1221 o",
-                        "1145 1050 o",
-                        "1142 855 o",
-                        "1124 750",
-                        "1105 645 o",
-                        "1040 450 o",
-                        "950 279 o",
-                        "834 139 o",
-                        "694 38 o",
-                        "530 -17 o"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "910 719",
-                        "922 789 o",
-                        "939 935 o",
-                        "937 1074 o",
-                        "910 1197 o",
-                        "849 1288 o",
-                        "748 1342 o",
-                        "672 1342",
-                        "600 1342 o",
-                        "486 1294 o",
-                        "396 1211 o",
-                        "330 1100 o",
-                        "281 976 o",
-                        "249 846 o",
-                        "238 785",
-                        "225 714 o",
-                        "209 566 o",
-                        "211 427 o",
-                        "237 304 o",
-                        "298 212 o",
-                        "399 158 o",
-                        "475 158",
-                        "546 158 o",
-                        "660 207 o",
-                        "750 292 o",
-                        "817 403 o",
-                        "866 528 o",
-                        "899 658 o"
-                      ]
-                    }
-                  ]
-                }
+                "elementData":"elementdata.6",
+                "active":true
               }
             ],
             "color":"#bac000",
@@ -55160,7 +55095,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "color":"#bac000",
@@ -59897,7 +59833,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.6",
+                  "id":"elementdata.7",
                   "contours":[
                     {
                       "nodes":[
@@ -59977,7 +59913,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.7",
+                  "id":"elementdata.8",
                   "contours":[
                     {
                       "nodes":[
@@ -60071,7 +60007,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.6"
+                "elementData":"elementdata.7"
               }
             ],
             "color":"#00cce5",
@@ -60114,7 +60050,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.7",
+                "elementData":"elementdata.8",
                 "active":true
               }
             ],
@@ -65551,7 +65487,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.8",
+                "elementData":"elementdata.9",
                 "transform":{
                   "xScale":0.5,
                   "yxScale":0.08816349,
@@ -65609,7 +65545,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.9",
+                "elementData":"elementdata.10",
                 "transform":{
                   "xScale":0.5,
                   "yxScale":0.08816349,
@@ -65636,7 +65572,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.10",
+                "elementData":"elementdata.11",
                 "transform":{
                   "xScale":-0.5,
                   "yxScale":-0.08816349,
@@ -65693,7 +65629,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.11",
+                "elementData":"elementdata.12",
                 "transform":{
                   "xScale":0.5,
                   "yxScale":0.08816349,
@@ -68027,7 +67963,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.8",
+                "elementData":"elementdata.9",
                 "transform":{
                   "xScale":0.5,
                   "yxScale":0.08816349,
@@ -68084,7 +68020,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.9",
+                "elementData":"elementdata.10",
                 "transform":{
                   "xScale":0.5,
                   "yxScale":0.08816349,
@@ -68110,7 +68046,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.10",
+                "elementData":"elementdata.11",
                 "transform":{
                   "xScale":-0.5,
                   "yxScale":-0.08816349,
@@ -68167,7 +68103,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.11",
+                "elementData":"elementdata.12",
                 "transform":{
                   "xScale":0.5,
                   "yxScale":0.08816349,
@@ -124293,7 +124229,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.12",
+                "elementData":"elementdata.13",
                 "active":true
               },
               {
@@ -124315,7 +124251,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.13",
+                "elementData":"elementdata.14",
                 "active":true
               },
               {
@@ -124742,6 +124678,7 @@
               "name":"roundBDC",
               "style":"custom",
               "horizontal":true,
+              "auto":true,
               "position":1117
             },
             {

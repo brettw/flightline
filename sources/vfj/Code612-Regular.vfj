@@ -2052,7 +2052,7 @@
       {
         "name":"quotesingle",
         "unicode":"0027",
-        "lastModified":"2026-05-24 03:49:08",
+        "lastModified":"2026-05-24 03:52:15",
         "layers":[
           {
             "name":"mask.Bold",
@@ -2330,7 +2330,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.10",
+                  "id":"elementdata.11",
                   "contours":[
                     {
                       "nodes":[
@@ -2527,7 +2527,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.11",
+                  "id":"elementdata.12",
                   "contours":[
                     {
                       "nodes":[
@@ -3203,7 +3203,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.7",
+                  "id":"elementdata.8",
                   "contours":[
                     {
                       "nodes":[
@@ -3391,7 +3391,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.12",
+                  "id":"elementdata.13",
                   "contours":[
                     {
                       "nodes":[
@@ -3818,7 +3818,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.13",
+                  "id":"elementdata.14",
                   "contours":[
                     {
                       "nodes":[
@@ -3999,7 +3999,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.14",
+                  "id":"elementdata.15",
                   "contours":[
                     {
                       "nodes":[
@@ -12722,6 +12722,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.7",
                   "contours":[
                     {
                       "nodes":[
@@ -12780,7 +12781,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -15884,7 +15886,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.15",
+                  "id":"elementdata.16",
                   "contours":[
                     {
                       "nodes":[
@@ -15964,7 +15966,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.16",
+                  "id":"elementdata.17",
                   "contours":[
                     {
                       "nodes":[
@@ -16194,7 +16196,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.17",
+                  "id":"elementdata.18",
                   "contours":[
                     {
                       "nodes":[
@@ -16274,7 +16276,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.18",
+                  "id":"elementdata.19",
                   "contours":[
                     {
                       "nodes":[
@@ -16610,7 +16612,7 @@
       {
         "name":"grave",
         "unicode":"0060",
-        "lastModified":"2026-05-24 03:49:08",
+        "lastModified":"2026-05-24 03:52:15",
         "layers":[
           {
             "name":"mask.Bold",
@@ -24760,7 +24762,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.19",
+                  "id":"elementdata.20",
                   "contours":[
                     {
                       "nodes":[
@@ -24922,7 +24924,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.20",
+                  "id":"elementdata.21",
                   "contours":[
                     {
                       "nodes":[
@@ -25281,7 +25283,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.21",
+                  "id":"elementdata.22",
                   "contours":[
                     {
                       "nodes":[
@@ -25433,7 +25435,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.22",
+                  "id":"elementdata.23",
                   "contours":[
                     {
                       "nodes":[
@@ -56713,7 +56715,7 @@
       {
         "name":"Omicron",
         "unicode":"039f",
-        "lastModified":"2026-05-16 21:07:19",
+        "lastModified":"2026-05-24 03:53:32",
         "layers":[
           {
             "name":"Bold",
@@ -56721,70 +56723,8 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "773 -17 s {n:'.ab01'}",
-                        "675 -17 o",
-                        "510 38 o",
-                        "377 139 o",
-                        "276 279 o",
-                        "208 450 o",
-                        "174 645 o",
-                        "174 750 s {n:'.ah01'}",
-                        "174 907 o",
-                        "248 1187 o",
-                        "397 1395 o",
-                        "622 1517 o",
-                        "773 1517 s {n:'.at01'}",
-                        "920 1517 o",
-                        "1143 1395 o",
-                        "1294 1187 o",
-                        "1371 907 o",
-                        "1371 750 s {n:'.ah02'}",
-                        "1371 645 o",
-                        "1338 450 o",
-                        "1272 279 o",
-                        "1173 139 o",
-                        "1040 38 o",
-                        "873 -17 o"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "1021 721 s {n:'.sh01'}",
-                        "1021 783 o",
-                        "1014 913 o",
-                        "995 1036 o",
-                        "960 1145 o",
-                        "903 1227 o",
-                        "822 1274 o",
-                        "767 1274 s {n:'.sv01'}",
-                        "715 1274 o",
-                        "639 1231 o",
-                        "585 1158 o",
-                        "550 1061 o",
-                        "531 952 o",
-                        "524 837 o",
-                        "524 783 s {n:'.sh02'}",
-                        "524 720 o",
-                        "531 589 o",
-                        "551 465 o",
-                        "586 356 o",
-                        "642 274 o",
-                        "723 226 o",
-                        "778 226 s {n:'.sv02'}",
-                        "830 226 o",
-                        "906 269 o",
-                        "960 344 o",
-                        "994 442 o",
-                        "1014 552 o",
-                        "1021 667 o"
-                      ]
-                    }
-                  ]
-                }
+                "elementData":"elementdata.7",
+                "active":true
               }
             ],
             "hints":[
@@ -56800,12 +56740,12 @@
               },
               {
                 "vertical":true,
-                "position":224,
+                "position":70,
                 "thickness":350
               },
               {
                 "vertical":true,
-                "position":1071,
+                "position":917,
                 "thickness":350
               }
             ],
@@ -62313,7 +62253,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -66407,7 +66348,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.8",
+                  "id":"elementdata.9",
                   "contours":[
                     {
                       "nodes":[
@@ -66481,7 +66422,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.7",
+                "elementData":"elementdata.8",
                 "transform":{
                   "xScale":1.36348617,
                   "yScale":1.36348617,
@@ -66566,7 +66507,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.8",
+                "elementData":"elementdata.9",
                 "transform":{
                   "xOffset":-47,
                   "yOffset":1225
@@ -66627,7 +66568,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.7",
+                "elementData":"elementdata.8",
                 "transform":{
                   "xScale":-1.36348617,
                   "yScale":-1.36348617,
@@ -66695,7 +66636,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.8",
+                "elementData":"elementdata.9",
                 "transform":{
                   "xOffset":-47,
                   "yOffset":-33
@@ -66761,7 +66702,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.7",
+                "elementData":"elementdata.8",
                 "transform":{
                   "xScale":-1.36348617,
                   "yScale":-1.36348617,
@@ -66851,14 +66792,14 @@
                   "composite":{
                     "includes":[
                       {
-                        "elementData":"elementdata.8",
+                        "elementData":"elementdata.9",
                         "transform":{
                           "xOffset":-270,
                           "yOffset":1225
                         }
                       },
                       {
-                        "elementData":"elementdata.8",
+                        "elementData":"elementdata.9",
                         "transform":{
                           "xOffset":205,
                           "yOffset":1225
@@ -66923,7 +66864,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.7",
+                "elementData":"elementdata.8",
                 "transform":{
                   "xScale":1.36348617,
                   "yScale":1.36348617,
@@ -66932,7 +66873,7 @@
                 }
               },
               {
-                "elementData":"elementdata.7",
+                "elementData":"elementdata.8",
                 "transform":{
                   "xScale":1.36348617,
                   "yScale":1.36348617,
@@ -66967,14 +66908,14 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.8",
+                "elementData":"elementdata.9",
                 "transform":{
                   "xOffset":-285,
                   "yOffset":1225
                 }
               },
               {
-                "elementData":"elementdata.8",
+                "elementData":"elementdata.9",
                 "transform":{
                   "xOffset":190,
                   "yOffset":1225
@@ -67042,7 +66983,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.9",
+                  "id":"elementdata.10",
                   "contours":[
                     {
                       "nodes":[
@@ -67120,7 +67061,7 @@
                   "composite":{
                     "includes":[
                       {
-                        "elementData":"elementdata.7",
+                        "elementData":"elementdata.8",
                         "transform":{
                           "xScale":1.36348617,
                           "yScale":1.36348617,
@@ -67129,7 +67070,7 @@
                         }
                       },
                       {
-                        "elementData":"elementdata.7",
+                        "elementData":"elementdata.8",
                         "transform":{
                           "xScale":1.36348617,
                           "yScale":1.36348617,
@@ -67229,14 +67170,14 @@
                   "composite":{
                     "includes":[
                       {
-                        "elementData":"elementdata.8",
+                        "elementData":"elementdata.9",
                         "transform":{
                           "xOffset":-235,
                           "yOffset":1227
                         }
                       },
                       {
-                        "elementData":"elementdata.8",
+                        "elementData":"elementdata.9",
                         "transform":{
                           "xOffset":240,
                           "yOffset":1227
@@ -67306,7 +67247,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.9",
+                "elementData":"elementdata.10",
                 "transform":{
                   "xScale":-1,
                   "yScale":-1,
@@ -72543,7 +72484,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.10",
+                "elementData":"elementdata.11",
                 "transform":{
                   "xScale":0.5,
                   "yScale":0.5,
@@ -72641,7 +72582,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.11",
+                "elementData":"elementdata.12",
                 "transform":{
                   "xScale":0.5,
                   "yScale":0.5,
@@ -75034,7 +74975,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.10",
+                "elementData":"elementdata.11",
                 "transform":{
                   "xScale":0.5,
                   "yScale":0.5,
@@ -75133,7 +75074,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.11",
+                "elementData":"elementdata.12",
                 "transform":{
                   "xScale":0.5,
                   "yScale":0.5,
@@ -95624,7 +95565,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.12",
+                "elementData":"elementdata.13",
                 "active":true
               }
             ],
@@ -135206,7 +135147,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.13"
+                "elementData":"elementdata.14"
               },
               {
                 "elementData":"elementdata.3",
@@ -135273,7 +135214,7 @@
                 "active":true
               },
               {
-                "elementData":"elementdata.14"
+                "elementData":"elementdata.15"
               }
             ],
             "color":"#00cce5",
@@ -135500,7 +135441,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.10",
+                "elementData":"elementdata.11",
                 "transform":{
                   "xOffset":-151,
                   "yOffset":158
@@ -135540,7 +135481,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.11",
+                "elementData":"elementdata.12",
                 "transform":{
                   "xOffset":151,
                   "yOffset":162
@@ -135564,7 +135505,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.15",
+                "elementData":"elementdata.16",
                 "transform":{
                   "yOffset":189
                 },
@@ -135579,7 +135520,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.16",
+                "elementData":"elementdata.17",
                 "transform":{
                   "yOffset":200
                 },
@@ -135602,7 +135543,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.17",
+                "elementData":"elementdata.18",
                 "transform":{
                   "yOffset":189
                 },
@@ -135617,7 +135558,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.18",
+                "elementData":"elementdata.19",
                 "transform":{
                   "yOffset":200
                 },
@@ -135640,7 +135581,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.19",
+                "elementData":"elementdata.20",
                 "transform":{
                   "yOffset":201
                 }
@@ -135654,7 +135595,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.20",
+                "elementData":"elementdata.21",
                 "transform":{
                   "yOffset":200
                 },
@@ -135677,7 +135618,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.21",
+                "elementData":"elementdata.22",
                 "transform":{
                   "yOffset":201
                 }
@@ -135691,7 +135632,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.22",
+                "elementData":"elementdata.23",
                 "transform":{
                   "yOffset":200
                 },
