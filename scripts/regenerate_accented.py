@@ -21,6 +21,7 @@ ACCENTED_GLYPHS: tuple[tuple[str, str, str, str], ...] = (
     ("Atilde", "A", "tilde", "U+00C3 LATIN CAPITAL LETTER A WITH TILDE"),
     ("Adieresis", "A", "dieresis", "U+00C4 LATIN CAPITAL LETTER A WITH DIAERESIS"),
     ("Aring", "A", "ring", "U+00C5 LATIN CAPITAL LETTER A WITH RING ABOVE"),
+    ("Ccedilla", "C", "cedilla", "U+00C7 LATIN CAPITAL LETTER C WITH CEDILLA"),
     ("Egrave", "E", "gravecomb", "U+00C8 LATIN CAPITAL LETTER E WITH GRAVE"),
     ("Eacute", "E", "acute", "U+00C9 LATIN CAPITAL LETTER E WITH ACUTE"),
     ("Ecircumflex", "E", "circumflex", "U+00CA LATIN CAPITAL LETTER E WITH CIRCUMFLEX"),
@@ -29,6 +30,17 @@ ACCENTED_GLYPHS: tuple[tuple[str, str, str, str], ...] = (
     ("Iacute", "I", "acute", "U+00CD LATIN CAPITAL LETTER I WITH ACUTE"),
     ("Icircumflex", "I", "circumflex", "U+00CE LATIN CAPITAL LETTER I WITH CIRCUMFLEX"),
     ("Idieresis", "I", "dieresis", "U+00CF LATIN CAPITAL LETTER I WITH DIAERESIS"),
+    ("Ntilde", "N", "tilde", "U+00D1 LATIN CAPITAL LETTER N WITH TILDE"),
+    ("Ograve", "O", "gravecomb", "U+00D2 LATIN CAPITAL LETTER O WITH GRAVE"),
+    ("Oacute", "O", "acute", "U+00D3 LATIN CAPITAL LETTER O WITH ACUTE"),
+    ("Ocircumflex", "O", "circumflex", "U+00D4 LATIN CAPITAL LETTER O WITH CIRCUMFLEX"),
+    ("Otilde", "O", "tilde", "U+00D5 LATIN CAPITAL LETTER O WITH TILDE"),
+    ("Odieresis", "O", "dieresis", "U+00D6 LATIN CAPITAL LETTER O WITH DIAERESIS"),
+    ("Ugrave", "U", "gravecomb", "U+00D9 LATIN CAPITAL LETTER U WITH GRAVE"),
+    ("Uacute", "U", "acute", "U+00DA LATIN CAPITAL LETTER U WITH ACUTE"),
+    ("Ucircumflex", "U", "circumflex", "U+00DB LATIN CAPITAL LETTER U WITH CIRCUMFLEX"),
+    ("Udieresis", "U", "dieresis", "U+00DC LATIN CAPITAL LETTER U WITH DIAERESIS"),
+    ("Yacute", "Y", "acute", "U+00DD LATIN CAPITAL LETTER Y WITH ACUTE"),
     ("egrave", "e", "gravecomb", "U+00E8 LATIN SMALL LETTER E WITH GRAVE"),
     ("eacute", "e", "acute", "U+00E9 LATIN SMALL LETTER E WITH ACUTE"),
     ("ecircumflex", "e", "circumflex", "U+00EA LATIN SMALL LETTER E WITH CIRCUMFLEX"),
@@ -39,15 +51,33 @@ ACCENTED_GLYPHS: tuple[tuple[str, str, str, str], ...] = (
     ("atilde", "a", "tilde", "U+00E3 LATIN SMALL LETTER A WITH TILDE"),
     ("adieresis", "a", "dieresis", "U+00E4 LATIN SMALL LETTER A WITH DIAERESIS"),
     ("aring", "a", "ring", "U+00E5 LATIN SMALL LETTER A WITH RING ABOVE"),
+    ("ccedilla", "c", "cedilla", "U+00E7 LATIN SMALL LETTER C WITH CEDILLA"),
     ("igrave", "dotlessi", "gravecomb", "U+00EC LATIN SMALL LETTER I WITH GRAVE"),
     ("iacute", "dotlessi", "acute", "U+00ED LATIN SMALL LETTER I WITH ACUTE"),
     ("icircumflex", "dotlessi", "circumflex", "U+00EE LATIN SMALL LETTER I WITH CIRCUMFLEX"),
     ("idieresis", "dotlessi", "dieresis", "U+00EF LATIN SMALL LETTER I WITH DIAERESIS"),
+    ("ntilde", "n", "tilde", "U+00F1 LATIN SMALL LETTER N WITH TILDE"),
+    ("ograve", "o", "gravecomb", "U+00F2 LATIN SMALL LETTER O WITH GRAVE"),
+    ("oacute", "o", "acute", "U+00F3 LATIN SMALL LETTER O WITH ACUTE"),
+    ("ocircumflex", "o", "circumflex", "U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX"),
+    ("otilde", "o", "tilde", "U+00F5 LATIN SMALL LETTER O WITH TILDE"),
+    ("odieresis", "o", "dieresis", "U+00F6 LATIN SMALL LETTER O WITH DIAERESIS"),
+    ("ugrave", "u", "gravecomb", "U+00F9 LATIN SMALL LETTER U WITH GRAVE"),
+    ("uacute", "u", "acute", "U+00FA LATIN SMALL LETTER U WITH ACUTE"),
+    ("ucircumflex", "u", "circumflex", "U+00FB LATIN SMALL LETTER U WITH CIRCUMFLEX"),
+    ("udieresis", "u", "dieresis", "U+00FC LATIN SMALL LETTER U WITH DIAERESIS"),
+    ("yacute", "y", "acute", "U+00FD LATIN SMALL LETTER Y WITH ACUTE"),
+    ("ydieresis", "y", "dieresis", "U+00FF LATIN SMALL LETTER Y WITH DIAERESIS"),
+    ("Scaron", "S", "caron", "U+0160 LATIN CAPITAL LETTER S WITH CARON"),
+    ("scaron", "s", "caron", "U+0161 LATIN SMALL LETTER S WITH CARON"),
+    ("Ydieresis", "Y", "dieresis", "U+0178 LATIN CAPITAL LETTER Y WITH DIAERESIS"),
+    ("angstrom", "A", "ring", "U+212B ANGSTROM SIGN"),
 )
 
 
 AUXILIARY_LAYER_NAMES = {"img", "mask"}
 BELOW_ACCENTS = {"cedilla", "ogonek"}
+UNSHIFTED_BASE_GLYPHS = {"dotlessi"}
 NUMBER_RE = re.compile(r"^-?\d+(?:\.\d+)?$")
 ELEMENT_ID_RE = re.compile(r"^elementdata(?:\.(\d+))?$")
 
@@ -184,6 +214,9 @@ def node_anchor_points(node: str) -> Iterable[Point]:
         for index in range(0, len(numbers) - 1, 2)
     ]
     if not pairs:
+        return []
+
+    if "c" in tokens:
         return []
 
     if "o" in tokens and len(pairs) == 1:
@@ -434,6 +467,10 @@ def regenerate_font(font: dict[str, Any]) -> list[str]:
             base_dy = original_base_point.y - base_point.y
             accent_dx = original_accent_point.x - accent_point.x
             accent_dy = original_accent_point.y - accent_point.y
+
+            if base_name in UNSHIFTED_BASE_GLYPHS:
+                base_dx = 0
+                base_dy = 0
 
             new_elements: list[dict[str, Any]] = []
             for element in base_elements:
