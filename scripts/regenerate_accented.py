@@ -6,7 +6,6 @@ from __future__ import annotations
 import argparse
 import json
 import re
-import sys
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Iterable, Optional
@@ -345,6 +344,48 @@ def prepare_referenceable_elements(
                     ensure_element_id(element, next_id)
 
 
+def validate_required_inputs(
+    glyph_by_name: dict[str, dict[str, Any]],
+    layer_names: list[str],
+) -> list[str]:
+    errors: list[str] = []
+
+    for glyph_name, base_name, accent_name, _comment in ACCENTED_GLYPHS:
+        missing_glyphs = [
+            name
+            for role, name in (
+                ("target", glyph_name),
+                ("base", base_name),
+                ("accent", accent_name),
+            )
+            if name not in glyph_by_name
+        ]
+        if missing_glyphs:
+            errors.append(
+                f"{glyph_name}: missing required glyph(s): {', '.join(missing_glyphs)}"
+            )
+            continue
+
+        for role, name in (
+            ("target", glyph_name),
+            ("base", base_name),
+            ("accent", accent_name),
+        ):
+            glyph = glyph_by_name[name]
+            missing_layers = [
+                layer_name
+                for layer_name in layer_names
+                if layer_by_name(glyph, layer_name) is None
+            ]
+            if missing_layers:
+                errors.append(
+                    f"{glyph_name}: {role} glyph {name!r} is missing layer(s): "
+                    f"{', '.join(missing_layers)}"
+                )
+
+    return errors
+
+
 def referenced_points(
     element: dict[str, Any],
     elements_by_id: dict[str, dict[str, Any]],
@@ -416,42 +457,47 @@ def component_reference(element_id: str, dx: float, dy: float) -> dict[str, Any]
     return reference
 
 
-def regenerate_font(font: dict[str, Any]) -> list[str]:
+def regenerate_font(font: dict[str, Any]) -> None:
     layer_names = master_layer_names(font)
     glyph_by_name = glyphs_by_name(font)
+    input_errors = validate_required_inputs(glyph_by_name, layer_names)
+    if input_errors:
+        raise SystemExit("cannot regenerate accented glyphs:\n" + "\n".join(f"- {error}" for error in input_errors))
+
     prepare_referenceable_elements(font, glyph_by_name, layer_names)
     next_id = next_id_factory(font)
     elements_by_id = build_elements_by_id(font)
-    messages: list[str] = []
 
     for glyph_name, base_name, accent_name, _comment in ACCENTED_GLYPHS:
         glyph = glyph_by_name.get(glyph_name)
         base_glyph = glyph_by_name.get(base_name)
         accent_glyph = glyph_by_name.get(accent_name)
-        if not glyph or not base_glyph or not accent_glyph:
-            messages.append(f"skip {glyph_name}: missing glyph/base/accent")
-            continue
+        assert glyph is not None
+        assert base_glyph is not None
+        assert accent_glyph is not None
 
         for layer_name in layer_names:
             layer = layer_by_name(glyph, layer_name)
             base_layer = layer_by_name(base_glyph, layer_name)
             accent_layer = layer_by_name(accent_glyph, layer_name)
-            if not layer or not base_layer or not accent_layer:
-                messages.append(f"skip {glyph_name}/{layer_name}: missing layer")
-                continue
+            assert layer is not None
+            assert base_layer is not None
+            assert accent_layer is not None
 
             original_points = layer_points(layer, elements_by_id)
             if not original_points:
-                messages.append(f"skip {glyph_name}/{layer_name}: no original points")
-                continue
+                raise SystemExit(f"{glyph_name}/{layer_name}: no original points")
 
             accent_mode = "bottom" if accent_name in BELOW_ACCENTS else "top"
             base_mode = "top" if accent_name in BELOW_ACCENTS else "bottom"
             original_base_point = extreme_point(original_points, base_mode)
             original_accent_point = extreme_point(original_points, accent_mode)
 
-            base_elements = component_elements_for_layer(base_layer, base_name, next_id)
-            accent_elements = component_elements_for_layer(accent_layer, accent_name, next_id)
+            try:
+                base_elements = component_elements_for_layer(base_layer, base_name, next_id)
+                accent_elements = component_elements_for_layer(accent_layer, accent_name, next_id)
+            except ValueError as error:
+                raise SystemExit(f"{glyph_name}/{layer_name}: {error}") from error
             elements_by_id = build_elements_by_id(font)
 
             base_points: list[Point] = []
@@ -481,19 +527,15 @@ def regenerate_font(font: dict[str, Any]) -> list[str]:
                 new_elements.append(component_reference(element_id, accent_dx, accent_dy))
             layer["elements"] = new_elements
 
-    return messages
-
 
 def main() -> int:
     args = parse_args()
     data = load_data(args.font_file)
-    messages = regenerate_font(data["font"])
+    regenerate_font(data["font"])
     ensure_component_glyph_order(data["font"])
     out_path = output_path(args.font_file)
     write_data(out_path, data)
 
-    for message in messages:
-        print(f"warning: {message}", file=sys.stderr)
     print(out_path)
     return 0
 
