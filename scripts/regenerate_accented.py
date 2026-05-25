@@ -4,7 +4,6 @@
 from __future__ import annotations
 
 import argparse
-import copy
 import json
 import re
 import sys
@@ -16,63 +15,34 @@ from typing import Any, Iterable, Optional
 # Update this table when adding or removing generated accented glyphs.
 # Each row is (output glyph, base glyph, accent glyph, Unicode code point/comment).
 ACCENTED_GLYPHS: tuple[tuple[str, str, str, str], ...] = (
-    ("Agrave", "A", "grave", "U+00C0 LATIN CAPITAL LETTER A WITH GRAVE"),
+    ("Agrave", "A", "gravecomb", "U+00C0 LATIN CAPITAL LETTER A WITH GRAVE"),
     ("Aacute", "A", "acute", "U+00C1 LATIN CAPITAL LETTER A WITH ACUTE"),
     ("Acircumflex", "A", "circumflex", "U+00C2 LATIN CAPITAL LETTER A WITH CIRCUMFLEX"),
     ("Atilde", "A", "tilde", "U+00C3 LATIN CAPITAL LETTER A WITH TILDE"),
     ("Adieresis", "A", "dieresis", "U+00C4 LATIN CAPITAL LETTER A WITH DIAERESIS"),
     ("Aring", "A", "ring", "U+00C5 LATIN CAPITAL LETTER A WITH RING ABOVE"),
-    ("Ccedilla", "C", "cedilla", "U+00C7 LATIN CAPITAL LETTER C WITH CEDILLA"),
-    ("Egrave", "E", "grave", "U+00C8 LATIN CAPITAL LETTER E WITH GRAVE"),
+    ("Egrave", "E", "gravecomb", "U+00C8 LATIN CAPITAL LETTER E WITH GRAVE"),
     ("Eacute", "E", "acute", "U+00C9 LATIN CAPITAL LETTER E WITH ACUTE"),
     ("Ecircumflex", "E", "circumflex", "U+00CA LATIN CAPITAL LETTER E WITH CIRCUMFLEX"),
     ("Edieresis", "E", "dieresis", "U+00CB LATIN CAPITAL LETTER E WITH DIAERESIS"),
-    ("Igrave", "I", "grave", "U+00CC LATIN CAPITAL LETTER I WITH GRAVE"),
+    ("Igrave", "I", "gravecomb", "U+00CC LATIN CAPITAL LETTER I WITH GRAVE"),
     ("Iacute", "I", "acute", "U+00CD LATIN CAPITAL LETTER I WITH ACUTE"),
     ("Icircumflex", "I", "circumflex", "U+00CE LATIN CAPITAL LETTER I WITH CIRCUMFLEX"),
     ("Idieresis", "I", "dieresis", "U+00CF LATIN CAPITAL LETTER I WITH DIAERESIS"),
-    ("Ntilde", "N", "tilde", "U+00D1 LATIN CAPITAL LETTER N WITH TILDE"),
-    ("Ograve", "O", "grave", "U+00D2 LATIN CAPITAL LETTER O WITH GRAVE"),
-    ("Oacute", "O", "acute", "U+00D3 LATIN CAPITAL LETTER O WITH ACUTE"),
-    ("Ocircumflex", "O", "circumflex", "U+00D4 LATIN CAPITAL LETTER O WITH CIRCUMFLEX"),
-    ("Otilde", "O", "tilde", "U+00D5 LATIN CAPITAL LETTER O WITH TILDE"),
-    ("Odieresis", "O", "dieresis", "U+00D6 LATIN CAPITAL LETTER O WITH DIAERESIS"),
-    ("Ugrave", "U", "grave", "U+00D9 LATIN CAPITAL LETTER U WITH GRAVE"),
-    ("Uacute", "U", "acute", "U+00DA LATIN CAPITAL LETTER U WITH ACUTE"),
-    ("Ucircumflex", "U", "circumflex", "U+00DB LATIN CAPITAL LETTER U WITH CIRCUMFLEX"),
-    ("Udieresis", "U", "dieresis", "U+00DC LATIN CAPITAL LETTER U WITH DIAERESIS"),
-    ("Yacute", "Y", "acute", "U+00DD LATIN CAPITAL LETTER Y WITH ACUTE"),
-    ("agrave", "a", "grave", "U+00E0 LATIN SMALL LETTER A WITH GRAVE"),
+    ("egrave", "e", "gravecomb", "U+00E8 LATIN SMALL LETTER E WITH GRAVE"),
+    ("eacute", "e", "acute", "U+00E9 LATIN SMALL LETTER E WITH ACUTE"),
+    ("ecircumflex", "e", "circumflex", "U+00EA LATIN SMALL LETTER E WITH CIRCUMFLEX"),
+    ("edieresis", "e", "dieresis", "U+00EB LATIN SMALL LETTER E WITH DIAERESIS"),
+    ("agrave", "a", "gravecomb", "U+00E0 LATIN SMALL LETTER A WITH GRAVE"),
     ("aacute", "a", "acute", "U+00E1 LATIN SMALL LETTER A WITH ACUTE"),
     ("acircumflex", "a", "circumflex", "U+00E2 LATIN SMALL LETTER A WITH CIRCUMFLEX"),
     ("atilde", "a", "tilde", "U+00E3 LATIN SMALL LETTER A WITH TILDE"),
     ("adieresis", "a", "dieresis", "U+00E4 LATIN SMALL LETTER A WITH DIAERESIS"),
     ("aring", "a", "ring", "U+00E5 LATIN SMALL LETTER A WITH RING ABOVE"),
-    ("ccedilla", "c", "cedilla", "U+00E7 LATIN SMALL LETTER C WITH CEDILLA"),
-    ("egrave", "e", "grave", "U+00E8 LATIN SMALL LETTER E WITH GRAVE"),
-    ("eacute", "e", "acute", "U+00E9 LATIN SMALL LETTER E WITH ACUTE"),
-    ("ecircumflex", "e", "circumflex", "U+00EA LATIN SMALL LETTER E WITH CIRCUMFLEX"),
-    ("edieresis", "e", "dieresis", "U+00EB LATIN SMALL LETTER E WITH DIAERESIS"),
-    ("igrave", "i", "grave", "U+00EC LATIN SMALL LETTER I WITH GRAVE"),
-    ("iacute", "i", "acute", "U+00ED LATIN SMALL LETTER I WITH ACUTE"),
-    ("icircumflex", "i", "circumflex", "U+00EE LATIN SMALL LETTER I WITH CIRCUMFLEX"),
-    ("idieresis", "i", "dieresis", "U+00EF LATIN SMALL LETTER I WITH DIAERESIS"),
-    ("ntilde", "n", "tilde", "U+00F1 LATIN SMALL LETTER N WITH TILDE"),
-    ("ograve", "o", "grave", "U+00F2 LATIN SMALL LETTER O WITH GRAVE"),
-    ("oacute", "o", "acute", "U+00F3 LATIN SMALL LETTER O WITH ACUTE"),
-    ("ocircumflex", "o", "circumflex", "U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX"),
-    ("otilde", "o", "tilde", "U+00F5 LATIN SMALL LETTER O WITH TILDE"),
-    ("odieresis", "o", "dieresis", "U+00F6 LATIN SMALL LETTER O WITH DIAERESIS"),
-    ("ugrave", "u", "grave", "U+00F9 LATIN SMALL LETTER U WITH GRAVE"),
-    ("uacute", "u", "acute", "U+00FA LATIN SMALL LETTER U WITH ACUTE"),
-    ("ucircumflex", "u", "circumflex", "U+00FB LATIN SMALL LETTER U WITH CIRCUMFLEX"),
-    ("udieresis", "u", "dieresis", "U+00FC LATIN SMALL LETTER U WITH DIAERESIS"),
-    ("yacute", "y", "acute", "U+00FD LATIN SMALL LETTER Y WITH ACUTE"),
-    ("ydieresis", "y", "dieresis", "U+00FF LATIN SMALL LETTER Y WITH DIAERESIS"),
-    ("Scaron", "S", "caron", "U+0160 LATIN CAPITAL LETTER S WITH CARON"),
-    ("scaron", "s", "caron", "U+0161 LATIN SMALL LETTER S WITH CARON"),
-    ("Ydieresis", "Y", "dieresis", "U+0178 LATIN CAPITAL LETTER Y WITH DIAERESIS"),
-    ("angstrom", "A", "ring", "U+212B ANGSTROM SIGN"),
+    ("igrave", "dotlessi", "gravecomb", "U+00EC LATIN SMALL LETTER I WITH GRAVE"),
+    ("iacute", "dotlessi", "acute", "U+00ED LATIN SMALL LETTER I WITH ACUTE"),
+    ("icircumflex", "dotlessi", "circumflex", "U+00EE LATIN SMALL LETTER I WITH CIRCUMFLEX"),
+    ("idieresis", "dotlessi", "dieresis", "U+00EF LATIN SMALL LETTER I WITH DIAERESIS"),
 )
 
 
@@ -140,6 +110,41 @@ def glyphs_by_name(font: dict[str, Any]) -> dict[str, dict[str, Any]]:
     return {glyph["name"]: glyph for glyph in glyphs if isinstance(glyph, dict) and isinstance(glyph.get("name"), str)}
 
 
+def ensure_component_glyph_order(font: dict[str, Any]) -> None:
+    glyphs = font.get("glyphs", [])
+    if not isinstance(glyphs, list):
+        return
+
+    def index_by_name() -> dict[str, int]:
+        return {
+            glyph["name"]: index
+            for index, glyph in enumerate(glyphs)
+            if isinstance(glyph, dict) and isinstance(glyph.get("name"), str)
+        }
+
+    changed = True
+    while changed:
+        changed = False
+        indices = index_by_name()
+        for glyph_name, base_name, accent_name, _comment in ACCENTED_GLYPHS:
+            target_index = indices.get(glyph_name)
+            if target_index is None:
+                continue
+
+            for component_name in (base_name, accent_name):
+                component_index = indices.get(component_name)
+                if component_index is None or component_index < target_index:
+                    continue
+
+                component = glyphs.pop(component_index)
+                glyphs.insert(target_index, component)
+                changed = True
+                break
+
+            if changed:
+                break
+
+
 def layer_by_name(glyph: dict[str, Any], layer_name: str) -> Optional[dict[str, Any]]:
     layers = glyph.get("layers", [])
     if not isinstance(layers, list):
@@ -171,6 +176,22 @@ def parse_number(token: str) -> Optional[float]:
     return float(token) if NUMBER_RE.match(token) else None
 
 
+def node_anchor_points(node: str) -> Iterable[Point]:
+    tokens = node.split()
+    numbers = [value for token in tokens if (value := parse_number(token)) is not None]
+    pairs = [
+        Point(numbers[index], numbers[index + 1])
+        for index in range(0, len(numbers) - 1, 2)
+    ]
+    if not pairs:
+        return []
+
+    if "o" in tokens and len(pairs) == 1:
+        return []
+
+    return [pairs[-1]]
+
+
 def node_points(node: str) -> Iterable[Point]:
     numbers = [value for token in node.split() if (value := parse_number(token)) is not None]
     for index in range(0, len(numbers) - 1, 2):
@@ -184,7 +205,7 @@ def contour_points(contour: dict[str, Any]) -> list[Point]:
         return points
     for node in nodes:
         if isinstance(node, str):
-            points.extend(node_points(node))
+            points.extend(node_anchor_points(node))
     return points
 
 
@@ -271,51 +292,12 @@ def ensure_element_id(element: dict[str, Any], next_id) -> str:
     return element_data["id"]
 
 
-def split_i_layer(layer: dict[str, Any], next_id) -> None:
-    elements = layer_elements(layer)
-    if len(elements) != 1:
-        return
-    element = elements[0]
-    element_data = element.get("elementData")
-    if not isinstance(element_data, dict):
-        return
-    contours = element_data.get("contours")
-    if not isinstance(contours, list) or len(contours) < 2:
-        ensure_element_id(element, next_id)
-        return
-
-    scored_contours: list[tuple[float, int, dict[str, Any]]] = []
-    for index, contour in enumerate(contours):
-        points = contour_points(contour) if isinstance(contour, dict) else []
-        if points:
-            scored_contours.append((max(point.y for point in points), index, contour))
-    if len(scored_contours) < 2:
-        ensure_element_id(element, next_id)
-        return
-
-    dot_index = max(scored_contours)[1]
-    new_elements: list[dict[str, Any]] = []
-    for index, contour in enumerate(contours):
-        new_element = copy.deepcopy({key: value for key, value in element.items() if key != "elementData"})
-        new_element["elementData"] = {"contours": [contour]}
-        ensure_element_id(new_element, next_id)
-        new_elements.append(new_element)
-    layer["elements"] = new_elements
-
-
 def prepare_referenceable_elements(
     font: dict[str, Any],
     glyph_by_name: dict[str, dict[str, Any]],
     layer_names: list[str],
 ) -> None:
     next_id = next_id_factory(font)
-    i_glyph = glyph_by_name.get("i")
-    if i_glyph:
-        for layer_name in layer_names:
-            layer = layer_by_name(i_glyph, layer_name)
-            if layer:
-                split_i_layer(layer, next_id)
-
     needed = {base for _, base, _, _ in ACCENTED_GLYPHS} | {accent for _, _, accent, _ in ACCENTED_GLYPHS}
     for glyph_name in needed:
         glyph = glyph_by_name.get(glyph_name)
@@ -378,22 +360,7 @@ def component_elements_for_layer(
     next_id,
 ) -> list[dict[str, Any]]:
     component_elements: list[dict[str, Any]] = []
-    i_dot_element: Optional[dict[str, Any]] = None
-    if base_name == "i":
-        outlined_elements = [
-            element
-            for element in layer_elements(layer)
-            if isinstance(element.get("elementData"), dict)
-        ]
-        if len(outlined_elements) > 1:
-            i_dot_element = max(
-                outlined_elements,
-                key=lambda element: extreme_point(referenced_points(element, {}), "top").y,
-            )
-
     for element in layer_elements(layer):
-        if element is i_dot_element:
-            continue
         element_data = element.get("elementData")
         if isinstance(element_data, dict):
             component_elements.append(element)
@@ -484,6 +451,7 @@ def main() -> int:
     args = parse_args()
     data = load_data(args.font_file)
     messages = regenerate_font(data["font"])
+    ensure_component_glyph_order(data["font"])
     out_path = output_path(args.font_file)
     write_data(out_path, data)
 
