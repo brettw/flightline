@@ -57,7 +57,8 @@
                 "thickness":200
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -89,8 +90,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -102,15 +102,15 @@
           {
             "name":"Bold",
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
             "flags":0,
             "advanceWidth":1200,
             "advanceHeight":1600,
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -267,7 +267,8 @@
               "mdeltah .mh03 20-20 1",
               "mdeltah .ah01 20-20 5",
               "mdeltah .ah02 20-20 3"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -333,8 +334,7 @@
               "alignv .mh02 round",
               "alignb .ab01 \"b: 0\"",
               "mdeltav .mh02 22-22 -2"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -452,7 +452,8 @@
               "alignt .sh01 \"t: 1\"",
               "singlev .sh01, .sv01 .round",
               "singlev .sh02, .sv02 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -528,8 +529,7 @@
               "alignt .sh02 \"t: 1\"",
               "singlev .sh01, .sv01 .round",
               "singlev .sh02, .sv02 .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -767,7 +767,8 @@
                 "thickness":21
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -824,8 +825,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -1081,7 +1081,8 @@
                 "thickness":286
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -1163,15 +1164,14 @@
                 "thickness":204
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"percent",
         "unicode":"0025",
-        "lastModified":"2026-05-29 04:06:22",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"mask",
@@ -1413,7 +1413,8 @@
               "alignh .ah04 round",
               "mdeltah .mh01 16-16 -2",
               "mdeltah .mh02 13-13 -1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -1477,15 +1478,14 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"ampersand",
         "unicode":"0026",
-        "lastModified":"2026-05-29 04:06:22",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"mask",
@@ -1693,7 +1693,8 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -1753,15 +1754,14 @@
               "alignh .ah03 round",
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"quotesingle",
         "unicode":"0027",
-        "lastModified":"2026-05-29 04:06:22",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"mask",
@@ -1848,7 +1848,8 @@
                 "thickness":640
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -1891,14 +1892,13 @@
               "singleh .dh02, rsb .round",
               "alignv .av01 round",
               "alignt .dh01 \"t: 1\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"parenleft.lc",
-        "lastModified":"2026-05-29 04:06:22",
+        "lastModified":"2026-05-29 15:17:58",
         "layers":[
           {
             "name":"mask",
@@ -1985,6 +1985,33 @@
           {
             "name":"Bold",
             "advanceWidth":1200,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "1043 -420 s",
+                        "530 -420  461 362  461 592 s",
+                        "461 823  534 1600  1043 1600 s",
+                        "1100 1600  1173 1591  1200 1575",
+                        "1131 1449",
+                        "1111 1451  1090 1454  1070 1454 s",
+                        "876 1451  782 961  782 594 s",
+                        "782 226  876 -274  1070 -274 s",
+                        "1091 -274  1110 -273  1131 -269",
+                        "1200 -395",
+                        "1173 -411  1100 -420 c"
+                      ]
+                    }
+                  ]
+                },
+                "transform":{
+                  "xOffset":-230
+                },
+                "active":true
+              }
+            ],
             "hints":[
               {
                 "horizontal":true,
@@ -2004,37 +2031,36 @@
                 "thickness":321
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1200,
             "advanceHeight":1600,
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.64",
                   "contours":[
                     {
                       "nodes":[
-                        "993 -412 s",
-                        "480 -412  411 370  411 600 s",
-                        "411 831  484 1608  993 1608 s",
-                        "1050 1608  1123 1599  1150 1583",
-                        "1081 1457",
-                        "1061 1459  1040 1462  1020 1462 s",
-                        "826 1459  732 969  732 602 s",
-                        "732 234  826 -266  1020 -266 s",
-                        "1041 -266  1060 -265  1081 -261",
-                        "1150 -387",
-                        "1123 -403  1050 -412 c"
+                        "993 -420 s {n:'.av02'}",
+                        "480 -420  411 362  411 592 s",
+                        "411 823  484 1600  993 1600 s {n:'.av01'}",
+                        "1050 1600  1123 1591  1150 1575",
+                        "1081 1449",
+                        "1061 1451  1040 1454  1020 1454 s",
+                        "721 1449  611 962  611 594 s",
+                        "611 226  721 -274  1020 -274 s",
+                        "1041 -274  1060 -273  1081 -269",
+                        "1150 -395",
+                        "1123 -412  1070 -420 c"
                       ]
                     }
                   ]
                 },
                 "transform":{
-                  "xOffset":-101
+                  "xOffset":-151
                 },
                 "active":true
               }
@@ -2059,14 +2085,13 @@
               "singleh .ah02, .sh02 .round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"parenright.lc",
-        "lastModified":"2026-05-29 04:06:22",
+        "lastModified":"2026-05-29 15:09:02",
         "layers":[
           {
             "name":"mask",
@@ -2160,23 +2185,22 @@
                     {
                       "nodes":[
                         "331 -395",
-                        "358 -411  431 -420  488 -420 s",
-                        "1001 -420  1070 362  1070 592 s",
-                        "1070 604  1070 616  1070 628",
-                        "1062 985  937 1600  488 1600 s",
-                        "431 1600  358 1591  331 1575",
-                        "355 1534  377 1491  400 1449",
-                        "419 1452  442 1454  461 1454 s",
-                        "655 1451  749 961  749 594 s",
-                        "749 226  655 -274  461 -274 s",
-                        "440 -274  420 -272  400 -269",
-                        "377 -311  355 -354 c"
+                        "355 -354  377 -311  400 -269",
+                        "420 -272  440 -274  461 -274 s",
+                        "655 -274  749 226  749 594 s",
+                        "749 961  655 1451  461 1454 s",
+                        "442 1454  419 1452  400 1449",
+                        "377 1491  355 1534  331 1575",
+                        "358 1591  431 1600  488 1600 s",
+                        "955 1600  1070 937  1070 592 s",
+                        "1070 362  1001 -420  488 -420 s",
+                        "431 -420  358 -411 c"
                       ]
                     }
                   ]
                 },
                 "transform":{
-                  "xOffset":101
+                  "xOffset":-101
                 },
                 "active":true
               }
@@ -2196,7 +2220,7 @@
               },
               {
                 "vertical":true,
-                "position":698,
+                "position":496,
                 "thickness":321
               }
             ],
@@ -2206,37 +2230,36 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1200,
             "advanceHeight":1600,
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.65",
                   "contours":[
                     {
                       "nodes":[
-                        "-445 -424 s",
-                        "-502 -424  -575 -415  -602 -399",
+                        "-602 -399",
                         "-533 -273",
                         "-512 -277  -493 -278  -472 -278 s",
-                        "-278 -278  -184 222  -184 590 s",
-                        "-184 957  -278 1447  -472 1450 s",
+                        "-173 -278  -63 222  -63 590 s",
+                        "-63 958  -173 1445  -472 1450 s",
                         "-492 1450  -513 1447  -533 1445",
                         "-602 1571",
-                        "-575 1587  -502 1596  -445 1596 s",
+                        "-575 1587  -502 1596  -445 1596 s {n:'.av01'}",
                         "64 1596  137 819  137 588 s",
-                        "137 358  68 -424 c"
+                        "137 358  68 -424  -445 -424 s {n:'.av02'}",
+                        "-522 -424  -575 -416 c"
                       ]
                     }
                   ]
                 },
                 "transform":{
-                  "xOffset":101
+                  "xOffset":803
                 },
                 "active":true
               }
@@ -2254,7 +2277,7 @@
               },
               {
                 "vertical":true,
-                "position":138,
+                "position":840,
                 "thickness":200
               }
             ],
@@ -2266,15 +2289,14 @@
               "singleh .ah01, .sh02 .round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"asterisk",
         "unicode":"002a",
-        "lastModified":"2026-05-29 04:06:22",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"mask",
@@ -2458,7 +2480,8 @@
                 "thickness":229
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -2509,15 +2532,14 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"plus",
         "unicode":"002b",
-        "lastModified":"2026-05-29 04:06:22",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"mask",
@@ -2660,7 +2682,8 @@
               "alignh .av01 round",
               "singleh .ah01, .at01 \"eq X: 208\"",
               "singleh .av01, .av02 \"eq X: 208\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -2704,15 +2727,14 @@
                 "thickness":155
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"comma",
         "unicode":"002c",
-        "lastModified":"2026-05-29 04:06:22",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"mask",
@@ -2853,7 +2875,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -2909,8 +2932,7 @@
               "alignv .av01 round",
               "alignh .ah01 round",
               "alignh .ah02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -3019,7 +3041,8 @@
             "tth":[
               "alignv .av01 round",
               "singlev .av01, .sv01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -3054,8 +3077,7 @@
             "color":"#00cce5",
             "tth":[
               "doublev .dv01, .dv02 \"Y: 153\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -3158,7 +3180,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -3189,15 +3212,14 @@
               "alignb .ab01 \"b: 0\"",
               "alignh .ah01 round",
               "alignh .ah02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"slash",
         "unicode":"002f",
-        "lastModified":"2026-05-29 04:06:22",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"mask",
@@ -3286,7 +3308,8 @@
                 "thickness":21
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -3328,14 +3351,13 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"zero.alt",
-        "lastModified":"2026-05-29 04:06:22",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"img",
@@ -3581,7 +3603,8 @@
                 "thickness":328
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -3645,15 +3668,14 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 \"eq Y: 171\"",
               "singlev .at01, .sv02 \"eq Y: 171\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"one",
         "unicode":"0031",
-        "lastModified":"2026-05-29 04:06:22",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"img",
@@ -3809,7 +3831,8 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "singlev .ab01, .sv01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -3887,8 +3910,7 @@
               "fdeltah .at01 36-36 -1",
               "fdeltav .fh02 38-38 -6",
               "fdeltav .fh03 41-41 -4"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -4051,7 +4073,8 @@
               "singlev .ab01, .sv01 \"Y: 171\"",
               "singlev .at01, .sv04 \"Y: 171\"",
               "singlev .sv02, .sv03 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -4109,15 +4132,14 @@
               "alignb .sh01 \"b: 0\"",
               "singlev .at01, .sv01 \"Y: 171\"",
               "singlev .sh01, .sv02 \"Y: 162\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"three",
         "unicode":"0033",
-        "lastModified":"2026-05-29 04:06:22",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"img",
@@ -4289,7 +4311,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 \"eq Y: 171\"",
               "singlev .at01, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -4358,15 +4381,14 @@
               "singlev .at01, .sv01 \"eq Y: 162\"",
               "singlev .ab01, .dh01 \"eq Y: 162\"",
               "interpolatev .iv01 .at01, .sv01"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"four",
         "unicode":"0034",
-        "lastModified":"2026-05-29 04:06:22",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"img",
@@ -4539,7 +4561,8 @@
               "alignt .at02 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -4611,15 +4634,14 @@
               "doublev .dv01, .dv02 \"Y: 162\"",
               "singlev .dv01, .sv01 .none",
               "interpolatev .ih01 .dh02, .at01"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"five",
         "unicode":"0035",
-        "lastModified":"2026-05-29 04:06:22",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"img",
@@ -4788,7 +4810,8 @@
               "singlev .sv05, .sv06 .round",
               "singlev .ab01, .sv01 \"eq Y: 171\"",
               "singlev .sv04, .sv03 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -4861,15 +4884,14 @@
               "doublev .dv01, .dv02 \"eq Y: 171\"",
               "singlev .av01, .sh01 \"eq Y: 162\" round",
               "singlev .at01, .sv01 \"eq Y: 162\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"six",
         "unicode":"0036",
-        "lastModified":"2026-05-29 04:06:22",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"img",
@@ -5064,7 +5086,8 @@
               "singlev .av01, .sv03 \"Y: 171\"",
               "singlev .sv04, .sv05 .round",
               "singlev .ab01, .sv01 \"Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -5151,15 +5174,14 @@
               "singlev .at01, .sv01 \"Y: 171\"",
               "interpolatev .sh04 .at01, .ab01",
               "singlev .ab01, .sv02 \"Y: 171\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"seven",
         "unicode":"0037",
-        "lastModified":"2026-05-29 04:06:22",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"img",
@@ -5296,7 +5318,8 @@
               "alignt .at02 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .at02, .sv01 \"Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -5374,15 +5397,14 @@
               "alignb .sh02 \"b: 0\"",
               "alignb .sh03 \"b: 0\"",
               "singlev .at01, .sv01 \"Y: 162\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"eight",
         "unicode":"0038",
-        "lastModified":"2026-05-29 04:06:22",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"img",
@@ -5607,7 +5629,8 @@
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .hr03 \"Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -5722,15 +5745,14 @@
               "mdeltav .iv01 19-19 -2",
               "singlev .at01, .sv02 \"Y: 162\"",
               "mdeltav .sv02 18-18 -3"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"nine",
         "unicode":"0039",
-        "lastModified":"2026-05-29 04:06:22",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"img",
@@ -5917,7 +5939,8 @@
               "alignt .at01 \"t: 1\"",
               "singlev .sv02, .hr01 \"eq Y: 171\"",
               "singlev .at01, .sv03 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -6002,15 +6025,14 @@
               "singlev .at01, .sv01 \"Y: 162\"",
               "mdeltav .sv01 16-17 2",
               "mdeltav .sv01 9-15 1"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"colon",
         "unicode":"003a",
-        "lastModified":"2026-05-29 04:06:22",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"mask",
@@ -6217,7 +6239,8 @@
               "alignh .ah02 round",
               "alignh .ah03 round",
               "alignh .ah04 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -6278,8 +6301,7 @@
               "alignv .av02 round",
               "alignv .av03 round",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -6501,7 +6523,8 @@
               "alignh .ah02 round",
               "alignh .ah03 round",
               "alignh .ah04 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -6561,15 +6584,14 @@
               "alignv .av02 round",
               "alignv .av03 round",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"less",
         "unicode":"003c",
-        "lastModified":"2026-05-29 04:06:22",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"mask",
@@ -6682,7 +6704,8 @@
                 "thickness":-20
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -6711,8 +6734,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -6856,7 +6878,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"eq Y: 171\"",
               "singlev .av02, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -6906,15 +6929,14 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"Y: 144\"",
               "singlev .av02, .sv02 \"Y: 144\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"greater",
         "unicode":"003e",
-        "lastModified":"2026-05-29 04:38:10",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"mask",
@@ -7027,7 +7049,8 @@
                 "thickness":21
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -7056,8 +7079,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -7222,7 +7244,8 @@
               "alignb .ab01 \"b: 0\"",
               "alignh .ah01 round",
               "alignh .ah02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -7266,15 +7289,14 @@
               "alignv .av02 round",
               "alignv .av03 round",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"at",
         "unicode":"0040",
-        "lastModified":"2026-05-29 04:38:10",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"mask",
@@ -7530,7 +7552,8 @@
             "tth":[
               "mdeltah .mh01 13-13 1",
               "mdeltah .mh02 12-12 -1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -7600,15 +7623,14 @@
             "color":"#00cce5",
             "tth":[
               "mdeltah .mh01 26-26 2"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"A",
         "unicode":"0041",
-        "lastModified":"2026-05-29 04:36:49",
+        "lastModified":"2026-05-29 15:08:47",
         "layers":[
           {
             "name":"img",
@@ -7773,7 +7795,8 @@
               "singleh .sh03, .sh04 \"eq X: 208\"",
               "interpolateh .ih01 .ah01, .sh01",
               "interpolateh .ih02 .ah01, .sh03"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -7848,15 +7871,14 @@
               "singleh .ah01, .sh03 .none",
               "singleh .sh03, .sh04 \"eq X: 199\"",
               "interpolateh .ih01 .sh03, .ah01"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"B",
         "unicode":"0042",
-        "lastModified":"2026-05-29 04:38:10",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"mask",
@@ -8048,7 +8070,8 @@
               "singleh .sh02, .sh03 \"X: 208\"",
               "singleh .dh01, lsb .round",
               "singleh .dh04, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -8118,15 +8141,14 @@
               "singleh .sh02, .sh03 \"X: 199\"",
               "singleh .dh01, lsb .round",
               "singleh .dh04, rsb .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"C",
         "unicode":"0043",
-        "lastModified":"2026-05-29 14:08:39",
+        "lastModified":"2026-05-29 15:17:58",
         "layers":[
           {
             "name":"img",
@@ -8278,7 +8300,8 @@
               "mdeltah .ah01 6-6 2",
               "mdeltah .dh02 17-17 3",
               "mdeltah .mh03 12-12 3"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -8349,15 +8372,14 @@
               "fdeltah .fh02 18-18 -8",
               "fdeltah .fh02 19-19 -2",
               "fdeltah .fh02 20-22 1"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"D",
         "unicode":"0044",
-        "lastModified":"2026-05-29 04:38:10",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"img",
@@ -8545,7 +8567,8 @@
               "singleh .sh02, .sh03 \"eq X: 208\"",
               "singleh .sh03, .sh04 .none",
               "singleh .sh01, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -8630,15 +8653,14 @@
               "singleh .ah01, .sh01 .round",
               "singleh .sh02, .sh03 .round",
               "singleh .sh01, rsb .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"E",
         "unicode":"0045",
-        "lastModified":"2026-05-29 04:38:10",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"img",
@@ -8797,7 +8819,8 @@
               "doubleh .dh01, .dh02 \"eq X: ecart du B\"",
               "doubleh .dh03, .dh04 \"eq X: 208\"",
               "singleh .dh04, .sh01 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -8867,15 +8890,14 @@
               "doubleh .dh01, .dh02 \"X: 208\"",
               "doubleh .dh03, .dh04 \"X: ecart du B\"",
               "singleh .dh02, .sh01 .none"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"F",
         "unicode":"0046",
-        "lastModified":"2026-05-29 04:38:10",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"img",
@@ -9018,7 +9040,8 @@
               "doubleh .dh01, .dh02 \"eq X: 208\"",
               "doubleh .dh03, .dh04 \"eq X: ecart du B\"",
               "singleh .dh02, .sh01 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -9081,15 +9104,14 @@
               "doubleh .dh01, .dh02 \"X: 208\"",
               "doubleh .dh03, .dh04 \"X: ecart du B\"",
               "singleh .dh02, .sh01 .none"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"G",
         "unicode":"0047",
-        "lastModified":"2026-05-29 04:38:10",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"img",
@@ -9262,7 +9284,8 @@
               "mdeltah .mh02 19-19 -1",
               "singleh .sh02, .sh03 \"eq X: 208\"",
               "singleh .sh01, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -9339,15 +9362,14 @@
               "singleh .sh02, .sh03 \"eq X: 208\"",
               "singleh .sh01, rsb .round",
               "fdeltah .fh01 18-18 -8"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"H",
         "unicode":"0048",
-        "lastModified":"2026-05-29 04:38:10",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"img",
@@ -9506,7 +9528,8 @@
               "singleh .ah01, .sh04 .none",
               "singleh .ah01, .sh05 \"X: 208\"",
               "singleh .sh05, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -9582,15 +9605,14 @@
               "singleh .ah01, .sh04 .none",
               "singleh .ah01, .sh05 \"X: 190\"",
               "singleh .sh05, rsb .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"I",
         "unicode":"0049",
-        "lastModified":"2026-05-29 04:38:10",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"mask",
@@ -9735,7 +9757,8 @@
               "mdeltah .sh02 22-22 -5",
               "singleh .ah01, lsb .round",
               "singleh .ah03, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -9803,15 +9826,14 @@
               "singleh lsb, .sh01 .round",
               "singleh .sh01, .sh02 .round",
               "singleh .ah01, .sh03 .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"J",
         "unicode":"004a",
-        "lastModified":"2026-05-29 04:38:10",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"img",
@@ -9972,7 +9994,8 @@
               "doubleh .dh01, .dh02 \"eq X: 208\"",
               "singleh .ah01, .sh01 .round",
               "singleh .dh02, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -10033,15 +10056,14 @@
               "doubleh .dh01, .dh02 \"X: 208\"",
               "singleh .ah01, .sh01 .round",
               "singleh .dh02, rsb .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"K",
         "unicode":"004b",
-        "lastModified":"2026-05-29 04:38:10",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"img",
@@ -10209,7 +10231,8 @@
               "singleh .ah03, .sh06 .round",
               "singleh .sh06, .sh07 \"eq X: dia Fat\"",
               "mdeltah .sh07 15-16 4"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -10309,15 +10332,14 @@
               "fdeltah .sh04 14-14 4",
               "fdeltah .sh04 13-13 5",
               "fdeltah .sh04 16-16 5"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"L",
         "unicode":"004c",
-        "lastModified":"2026-05-29 04:38:10",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"img",
@@ -10446,7 +10468,8 @@
               "singlev .ab01, .sv01 \"eq Y: 162\"",
               "alignh .ah01 round",
               "doubleh .dh01, .dh02 \"eq X: 208\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -10498,15 +10521,14 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 \"Y: 162\"",
               "doubleh .dh01, .dh02 \"X: 208\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"M",
         "unicode":"004d",
-        "lastModified":"2026-05-29 04:38:10",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"img",
@@ -10873,7 +10895,8 @@
               "mdeltah .sh03 23-23 8",
               "mdeltah .sh03 13-13 1",
               "mdeltah .sh03 15-15 1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -11112,15 +11135,14 @@
               "fdeltah .sh03 22-22 8",
               "fdeltah .ih02 17-17 -8",
               "fdeltah .ah02 17-17 -8"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"N",
         "unicode":"004e",
-        "lastModified":"2026-05-29 04:38:10",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"img",
@@ -11304,7 +11326,8 @@
               "mdeltah .mh06 24-24 -4",
               "mdeltah .mh07 22-22 -7",
               "mdeltah .mh08 22-22 -1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -11408,15 +11431,14 @@
               "fdeltah .at01 15-15 -1",
               "fdeltah .at01 41-41 -1",
               "fdeltah .at01 43-43 4"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"O",
         "unicode":"004f",
-        "lastModified":"2026-05-29 04:38:10",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"img",
@@ -11535,7 +11557,8 @@
               "alignh .ah02 round",
               "singleh .ah02, .sh01 \"eq X: 208\"",
               "singleh .ah01, .sh02 \"eq X: 208\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -11604,15 +11627,14 @@
               "singleh .ah01, .sh02 \"eq X: 208\"",
               "singleh .sh01, .sh03 \"eq X: 208\"",
               "singleh .sh02, rsb .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"P",
         "unicode":"0050",
-        "lastModified":"2026-05-29 04:38:10",
+        "lastModified":"2026-05-29 15:08:55",
         "layers":[
           {
             "name":"img",
@@ -11748,7 +11770,8 @@
               "singleh .sh02, .sh03 .none",
               "singleh .ah01, .sh04 \"eq X: 208\"",
               "singleh .ah02, .sh05 \"eq X: 208\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -11830,15 +11853,14 @@
               "singleh .ah01, .sh03 \"X: 190\"",
               "singleh .sh02, .sh04 .none",
               "singleh .sh03, rsb .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"Q",
         "unicode":"0051",
-        "lastModified":"2026-05-29 14:08:39",
+        "lastModified":"2026-05-29 15:17:58",
         "layers":[
           {
             "name":"img",
@@ -12055,7 +12077,8 @@
               "doubleh .dh03, .dh04 \"X: 208\"",
               "mdeltah .mh01 23-23 3",
               "singleh .dh04, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -12140,8 +12163,7 @@
               "doubleh .dh01, .dh02 \"X: 199\"",
               "doubleh .dh03, .dh04 \"X: 199\"",
               "singleh .dh04, rsb .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -12330,7 +12352,8 @@
               "interpolateh .ih01 .sh01, .sh03",
               "mdeltah .mh02 24-24 -2",
               "singleh .sh02, .sh04 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -12423,8 +12446,7 @@
               "interpolateh .ih01 .sh03, .sh01",
               "singleh .sh02, .sh04 .none",
               "singleh .sh03, rsb .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -12567,7 +12589,8 @@
               "mdeltah .mh04 19-19 -4",
               "mdeltah .mh04 25-25 -6",
               "singleh .sh04, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -12636,8 +12659,7 @@
               "singleh .sh01, .sh02 \"X: 208\"",
               "singleh .ah01, .sh03 \"X: 208\"",
               "singleh .sh03, rsb .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -12740,7 +12762,8 @@
               "alignt .at01 \"t: 1\"",
               "alignb .dh01 \"b: 0\"",
               "doubleh .dh01, .dh02 \"eq X: 208\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -12793,8 +12816,7 @@
               "singlev .sv01, .sv02 .none",
               "singlev .sv02, .sv03 .none",
               "doubleh .dh01, .dh02 \"X: 208\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -12914,7 +12936,8 @@
               "alignh lsb round",
               "singleh lsb, .sh02 .round",
               "singleh .sh01, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -12984,8 +13007,7 @@
               "singleh .sh02, .sh03 \"X: 208\"",
               "interpolateh .ih02 .sh03, .ah01",
               "singleh .sh01, rsb .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -13121,7 +13143,8 @@
               "alignb .ab02 \"b: 0\"",
               "mdeltav .mh01 17-17 -1",
               "mdeltah .mh01 17-17 -5"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -13176,8 +13199,7 @@
               "singleh .ah01, .sh03 .round",
               "singleh .sh03, .sh04 \"X: dia Fat\"",
               "fdeltah .fh01 18-18 3"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -13392,7 +13414,8 @@
               "mdeltah .sh05 20-20 5",
               "mdeltah .ah04 18-18 8",
               "mdeltah .ah04 20-20 5"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -13468,8 +13491,7 @@
               "singleh .ah03, .sh06 .none",
               "singleh .ah01, .sh07 .none",
               "singleh .sh07, .sh08 \"eq X: 176\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -13589,7 +13611,8 @@
               "alignb .ab01 \"b: 0\"",
               "alignb rsb \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -13721,8 +13744,7 @@
               "fdeltah .sh06 24-24 3",
               "fdeltah .sh06 25-25 4",
               "fdeltah .sh06 17-17 5"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -13886,7 +13908,8 @@
               "mdeltah .ih01 34-34 -1",
               "fdeltav .ih01 19-19 3",
               "fdeltav .ih01 17-17 6"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -13984,8 +14007,7 @@
               "fdeltah .ah01 12-12 3",
               "fdeltah .ah01 22-22 6",
               "fdeltah .ah01 19-19 8"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -14095,7 +14117,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 \"eq Y: 171\"",
               "singlev .ab01, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -14148,8 +14171,7 @@
               "interpolatev .iv01 .at01, .iv02",
               "singlev .at01, .sv02 \"Y: 162\"",
               "interpolatev .iv03 .ab01, .sv01"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -14240,7 +14262,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.66",
+                  "id":"elementdata.64",
                   "contours":[
                     {
                       "nodes":[
@@ -14280,7 +14302,8 @@
                 "thickness":339
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -14290,7 +14313,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.67",
+                  "id":"elementdata.65",
                   "contours":[
                     {
                       "nodes":[
@@ -14337,8 +14360,7 @@
               "alignt .at01 \"t: 1\"",
               "doublev .dv01, .dv02 \"Y: 153\"",
               "singlev .at01, .sv01 \"Y: 153\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -14434,7 +14456,8 @@
                 "thickness":-20
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -14458,8 +14481,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -14550,7 +14572,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.68",
+                  "id":"elementdata.66",
                   "contours":[
                     {
                       "nodes":[
@@ -14590,7 +14612,8 @@
                 "thickness":340
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -14600,7 +14623,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.69",
+                  "id":"elementdata.67",
                   "contours":[
                     {
                       "nodes":[
@@ -14646,8 +14669,7 @@
               "alignt .at01 \"t: 1\"",
               "doublev .dv01, .dv02 \"Y: 153\"",
               "singlev .at01, .sv01 \"Y: 153\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -14768,7 +14790,8 @@
               "alignt .ih03 \"t: 1\"",
               "alignt .ih02 \"t: 1\"",
               "singlev .ih03, .ih01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -14810,8 +14833,7 @@
               "alignv .sh01 round",
               "alignt .ih02 \"t: 1\"",
               "alignt .ih03 \"t: 1\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -14904,7 +14926,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -14932,8 +14955,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -15039,7 +15061,8 @@
               "alignv .hr02 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .hr02, .at01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -15088,8 +15111,7 @@
               "alignv .av01 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .av01, .at01"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -15297,7 +15319,8 @@
               "mdeltav .sv01 9-12 1",
               "singlev .ab01, .sv02 \"eq Y: 171\"",
               "mdeltav .sv02 9-12 -1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -15394,8 +15417,7 @@
               "singleh .ah01, .sh05 \"eq X: dia Fat\"",
               "singleh .ah01, .sh06 .none",
               "singleh .sh05, rsb .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -15593,7 +15615,8 @@
               "singleh lsb, .sh01 .round",
               "singleh .sh01, .sh02 \"eq X: 208\"",
               "singleh .sh04, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -15674,8 +15697,7 @@
               "singleh .sh02, .sh03 .none",
               "singleh .ah01, .sh04 \"eq X: 199\"",
               "singleh .sh04, rsb .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -15816,7 +15838,8 @@
               "alignh lsb round",
               "singleh lsb, .sh01 .round",
               "singleh .sh01, .sh02 \"eq X: 199\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -15874,15 +15897,14 @@
               "alignh lsb round",
               "singleh lsb, .sh01 .round",
               "singleh .sh01, .sh02 \"X: 199\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"d",
         "unicode":"0064",
-        "lastModified":"2026-05-29 14:08:39",
+        "lastModified":"2026-05-29 15:17:58",
         "layers":[
           {
             "name":"img",
@@ -16089,7 +16111,8 @@
               "singleh .sh01, .sh02 \"eq X: 190\"",
               "singleh .ah01, .sh05 \"eq X: 190\"",
               "singleh .sh05, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -16175,8 +16198,7 @@
               "singleh .ah01, .sh04 .none",
               "singleh .ah01, .sh05 \"X: 190\"",
               "singleh .sh05, rsb .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -16384,7 +16406,8 @@
               "singleh .sh01, .sh02 \"X: 208\"",
               "mdeltah .ih05 29-29 1",
               "singleh .dh02, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -16464,8 +16487,7 @@
               "mdeltav .sv01 9-17 1",
               "doubleh .sh01, .sh02 \"X: 190\"",
               "singleh .sh02, .sh03 .none"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -16634,7 +16656,8 @@
               "singlev .av01, .sv01 \"eq Y: 162\"",
               "singlev .dv03, .dv04 \"eq Y: 171\"",
               "singlev .dv01, .dv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -16709,15 +16732,14 @@
               "doubleh .dh03, .dh04 \"X: 190\"",
               "singleh .dh03, .sh01 .none",
               "singleh .dh04, .sh02 .none"
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"g",
         "unicode":"0067",
-        "lastModified":"2026-05-29 14:08:39",
+        "lastModified":"2026-05-29 15:17:58",
         "layers":[
           {
             "name":"img",
@@ -16950,7 +16972,8 @@
               "singleh .ah01, .sh03 \"eq X: 208\"",
               "singleh .sh01, .sh04 \"eq X: 208\"",
               "singleh .sh03, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -17055,8 +17078,7 @@
               "singleh .ah01, .sh06 .none",
               "singleh .sh03, rsb .round",
               "fdeltav .av02 42-42 -3"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -17229,7 +17251,8 @@
               "singleh .sh01, .sh02 \"eq X: 190\"",
               "singleh .ah01, .sh04 \"eq X: 199\"",
               "singleh .sh04, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -17307,8 +17330,7 @@
               "singleh .ah01, .sh04 \"X: 190\"",
               "interpolateh .ih01 .sh02, .ah01",
               "singleh .sh04, rsb .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -17645,7 +17667,8 @@
               "singlev .ah01, .sv02 \"eq Y: 171\"",
               "singlev .ab01, .av01 \"eq Y: 171\"",
               "doubleh .dh01, .dh02 \"eq X: 208\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -17715,8 +17738,7 @@
               "singlev .ah01, .sv02 \"eq Y: 162\"",
               "alignh .ah01 round",
               "doubleh .dh01, .dh02 \"eq X: 190\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -17985,7 +18007,8 @@
               "doubleh .dh01, .dh02 \"eq X: 190\"",
               "singleh .dh01, .sh01 .none",
               "singleh .dh02, .sh02 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -18059,8 +18082,7 @@
               "doubleh .dh01, .dh02 \"X: 190\"",
               "singleh .dh01, .sh01 .none",
               "singleh .dh02, .sh02 .none"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -18245,7 +18267,8 @@
               "singleh .ah01, .sh04 \"eq X: dia Lite\"",
               "singleh .ah02, .sh05 \"eq X: dia Fat\"",
               "singleh .sh02, .sh06 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -18360,8 +18383,7 @@
               "fdeltah .fh04 16-16 2",
               "fdeltah .fh04 25-25 2",
               "fdeltah .fh04 11-11 3"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -18585,7 +18607,8 @@
               "doubleh .dh01, .dh02 \"eq X: 208\"",
               "singleh .dh02, .sh01 .none",
               "singleh .dh01, .sh02 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -18644,8 +18667,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .av01 \"eq Y: 162\"",
               "doubleh .dh01, .dh02 \"eq X: dia Fat\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -18828,7 +18850,8 @@
               "singleh .sh02, .sh03 .round",
               "singleh .dh02, .sh01 .round",
               "singleh .sh04, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -18911,8 +18934,7 @@
               "singleh .sh04, .sh05 \"eq X: 176\"",
               "singleh .sh03, .sh06 .none",
               "singleh .sh05, rsb .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -19091,7 +19113,8 @@
               "singleh .sh01, .sh02 \"eq X: 199\"",
               "singleh .ah01, .sh03 \"eq X: 199\"",
               "singleh .sh03, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -19165,8 +19188,7 @@
               "singleh .ah01, .sh04 \"X: 199\"",
               "interpolateh .ih01 .sh01, .sh04",
               "singleh .sh04, rsb .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -19330,7 +19352,8 @@
               "mdeltah .mh02 18-18 2",
               "singleh .sh01, .sh03 \"eq X: 199\"",
               "singleh .sh02, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -19399,8 +19422,7 @@
               "singleh .ah01, .sh02 \"X: 199\"",
               "singleh .sh01, .sh03 \"X: 199\"",
               "singleh .sh02, rsb .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -19607,7 +19629,8 @@
               "singleh lsb, .sh01 .round",
               "singleh .ah01, .sh05 \"eq X: 190\"",
               "singleh .sh01, .sh02 \"eq X: 190\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -19691,8 +19714,7 @@
               "singleh .sh02, .sh04 .none",
               "singleh .ah01, .sh05 \"X: 190\"",
               "interpolateh .ih01 .sh01, .sh05"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -19886,7 +19908,8 @@
               "singleh lsb, .sh01 .round",
               "singleh .sh01, .sh02 \"eq X: 190\"",
               "singleh .ah01, .sh04 \"eq X: 190\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -19969,8 +19992,7 @@
               "singleh .sh01, .sh02 \"X: 190\"",
               "singleh .ah01, .sh03 .none",
               "singleh .ah01, .sh04 \"X: 190\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -20139,7 +20161,8 @@
               "singlev .at01, .sv01 \"eq Y: 162\"",
               "doubleh .dh01, .dh02 \"eq X: 190\"",
               "doubleh .dh03, .hr01 \"eq X: 190\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -20200,8 +20223,7 @@
               "doubleh .dh03, .dh04 \"X: 190\"",
               "interpolateh .ih01 .dh02, .dh04",
               "singleh .dh02, .sh01 .none"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -20399,7 +20421,8 @@
               "mdeltah .sh02 36-36 8",
               "singleh .ah01, .sh03 \"eq X: 190\"",
               "singleh .ah02, rsb .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -20471,8 +20494,7 @@
               "singleh .ah01, .sh03 \"X: 190\"",
               "singleh .sh01, .sh04 .none",
               "singleh .ah02, rsb .none"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -20640,7 +20662,8 @@
               "singlev .sh01, .sv02 .none",
               "singlev .sv02, .sv04 \"eq Y: 171\"",
               "doubleh .dh01, .dh02 \"eq X: 190\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -20728,8 +20751,7 @@
               "fdelta .fh01 39-39 -1, 2",
               "fdeltav .fh01 40-40 4",
               "fdeltav .fh01 32-33 5"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -20889,7 +20911,8 @@
               "singlev .ih01, .ih03 \"eq Y: 162\"",
               "alignh lsb round",
               "singleh lsb, .sh04 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -20965,8 +20988,7 @@
               "interpolateh .ih01 .sh03, .sh01",
               "singleh .sh03, .sh04 \"X: 190\"",
               "singleh .sh01, rsb .none"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -21095,7 +21117,8 @@
               "alignb .ab01 \"b: 0\"",
               "singleh .sh01, .sh02 \"eq X: dia Lite\"",
               "singleh .sh03, .sh04 \"eq X: dia Fat\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -21157,8 +21180,7 @@
               "singleh .sh01, .sh02 \"X: dia Fat\"",
               "singleh .ah01, .sh03 .none",
               "singleh .sh03, .sh04 \"X: dia Fat\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -21327,7 +21349,8 @@
               "alignt .sh02 \"t: x\"",
               "alignb .ih04 \"b: 0\"",
               "alignb .ih01 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -21425,8 +21448,7 @@
               "interpolateh .ih05 .sh04, .ih01",
               "interpolateh .ih06 .sh04, .sh01",
               "interpolateh .ih07 .sh02, .sh03"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -21596,7 +21618,8 @@
               "alignt .sh06 \"t: x\"",
               "alignb .sh01 \"b: 0\"",
               "alignb .sh08 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -21716,8 +21739,7 @@
               "fdeltah .fh07 22-22 2",
               "fdeltah .fh07 18-18 3",
               "fdeltah .fh07 11-11 6"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -21885,7 +21907,8 @@
               "singleh .sh01, .sh02 \"eq X: dia Lite\"",
               "singleh lsb, .sh03 \"eq X: 208\"",
               "singleh .sh04, .sh05 \"eq X: dia Fat\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -21956,15 +21979,14 @@
               "interpolateh .ih01 .sh03, .sh02",
               "singleh .ah02, .sh04 .none",
               "singleh .sh04, .sh05 \"X: dia Fat\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
       {
         "name":"z",
         "unicode":"007a",
-        "lastModified":"2026-05-29 14:08:39",
+        "lastModified":"2026-05-29 15:17:58",
         "layers":[
           {
             "name":"img",
@@ -22118,7 +22140,8 @@
               "singlev .ab01, .sv01 \"eq Y: 162\"",
               "singlev .sv02, .sv03 \"eq Y: 162\"",
               "interpolatev .iv03 .at01, .ab01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -22179,8 +22202,7 @@
               "interpolatev .iv01 .ab01, .sv01",
               "mdeltah .mh01 39-39 -1",
               "fdeltah .mh01 10-10 4"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -22303,7 +22325,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.70",
+                  "id":"elementdata.68",
                   "contours":[
                     {
                       "nodes":[
@@ -22377,7 +22399,8 @@
               "alignt .at01 \"t: 1\"",
               "interpolatev .ah03 .ah02, .sh01",
               "interpolatev .iv01 .ah01, .sh02"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -22387,7 +22410,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.71",
+                  "id":"elementdata.69",
                   "contours":[
                     {
                       "nodes":[
@@ -22468,8 +22491,7 @@
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .ah03, .sh02",
               "interpolatev .ah02 .ah04, .sh01"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -22570,7 +22592,8 @@
                 "thickness":332
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -22619,8 +22642,7 @@
               "singleh .dh02, rsb .round",
               "alignv .dh02 round",
               "alignt .at01 \"t: 1\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -22743,7 +22765,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.72",
+                  "id":"elementdata.70",
                   "contours":[
                     {
                       "nodes":[
@@ -22807,7 +22829,8 @@
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .ah05, .sh01",
               "interpolatev .ah02 .sh02, .ah03"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -22817,7 +22840,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.73",
+                  "id":"elementdata.71",
                   "contours":[
                     {
                       "nodes":[
@@ -22888,8 +22911,7 @@
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .ah01, .sh01",
               "interpolatev .ah05 .sh02, .ah04"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -23026,7 +23048,8 @@
               "alignv .ih01 round",
               "alignv .ih03 round",
               "alignv .sh03 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -23068,8 +23091,7 @@
               "alignv .ih01 round",
               "alignv .ih03 round",
               "alignv .sh03 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -23081,15 +23103,15 @@
           {
             "name":"Bold",
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
             "flags":0,
             "advanceWidth":1200,
             "advanceHeight":1600,
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -23146,7 +23168,8 @@
             "tth":[
               "alignv .sv01 round",
               "singlev .sv01, .sv02 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -23177,8 +23200,7 @@
                 }
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -23422,7 +23444,8 @@
               "mdeltah .mh02 12-12 5",
               "mdeltah .mh02 13-13 3",
               "mdeltav .mv01 12-12 3"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -23512,8 +23535,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 \"Y: 171\"",
               "singlev .at01, .mh01 \"Y: 162\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -23690,7 +23712,8 @@
                 "thickness":214
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -23750,8 +23773,7 @@
                 "thickness":148
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -23967,7 +23989,8 @@
                 "thickness":258
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -24016,8 +24039,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -24245,7 +24267,8 @@
               "singlev .sv02, .sv04 .none",
               "singlev .sv02, .sh07 \"eq Y: 171\"",
               "singlev .sh07, .sh06 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -24338,8 +24361,7 @@
               "singlev .ah03, .ah02 .none",
               "singlev .av01, .sv04 \"Y: 153\"",
               "singlev .sv04, .sv05 .none"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -24472,7 +24494,8 @@
                 "thickness":342
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -24504,8 +24527,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -24661,7 +24683,8 @@
               "interpolatev .iv03 .sv02, .iv04",
               "interpolatev .iv05 .iv04, .sv02",
               "interpolatev .iv06 .sv01, .iv02"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -24755,8 +24778,7 @@
               "interpolatev .iv03 .sv02, .iv04",
               "interpolatev .iv05 .sv02, .iv04",
               "interpolatev .iv06 .sv01, .iv02"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -24896,7 +24918,8 @@
               "alignv .ah02 round",
               "singlev .ah01, .sv01 .none",
               "singlev .ah02, .sv02 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -24929,8 +24952,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -25069,7 +25091,8 @@
                 "thickness":124
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -25135,8 +25158,7 @@
                 "thickness":98
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -25251,7 +25273,8 @@
                 "thickness":159
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -25330,8 +25353,7 @@
                 "thickness":95
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -25440,7 +25462,8 @@
               "singlev .hr01, .sv03 \"eq Y: 135\"",
               "interpolatev .iv02 .hr01, .ab02",
               "singlev .ab02, .sv04 \"eq Y: 135\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -25496,8 +25519,7 @@
               "singlev .av03, .sv03 \"Y: 135\"",
               "interpolatev .iv02 .av03, .av04",
               "singlev .av04, .sv04 \"Y: 135\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -25613,7 +25635,8 @@
                 "thickness":342
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -25641,8 +25664,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -25666,15 +25688,15 @@
           {
             "name":"Bold",
             "advanceWidth":0,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
             "flags":0,
             "advanceWidth":0,
             "advanceHeight":1600,
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -25847,7 +25869,8 @@
                 "thickness":124
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -25935,8 +25958,7 @@
                 "thickness":66
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -26006,7 +26028,8 @@
               "alignt .at01 \"t: 1\"",
               "singlev .at01, .sv01 \"eq Y: 153\"",
               "singlev .sv01, .sv02 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -26035,8 +26058,7 @@
               "alignt .at01 \"t: 1\"",
               "singlev .at01, .sv01 \"Y: 153\"",
               "singlev .sv01, .sv02 .none"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -26219,7 +26241,8 @@
               "alignt .at01 \"t: 1\"",
               "singlev .av01, .sv01 .round",
               "singlev .at01, .sv02 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -26293,8 +26316,7 @@
               "alignt .at01 \"t: 1\"",
               "singlev .av01, .sv01 \"Y: 135\"",
               "singlev .at01, .sv02 \"Y: 135\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -26419,7 +26441,8 @@
               "mdeltav .ih02 22-22 1",
               "mdeltav .ih05 28-28 1",
               "mdeltav .mh04 27-27 1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -26491,8 +26514,7 @@
                 "thickness":155
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -26747,7 +26769,8 @@
               "alignv .mh01 round",
               "alignt .hr01 \"t: 1\"",
               "alignt .hr02 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -26793,8 +26816,7 @@
               "alignv .av01 round",
               "alignt .sh01 \"t: 1\"",
               "alignt .ah01 \"t: 1\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -26981,7 +27003,8 @@
               "alignb .ab03 \"b: -500\"",
               "interpolatev .ih01 .ab01, .sh01",
               "singlev .ab01, .sv01 \"eq Y: 162\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -27038,8 +27061,7 @@
               "alignb .ab03 \"b: 0\"",
               "interpolatev .ih01 .ab01, .sh02",
               "singlev .ab01, .sv01 \"Y: 162\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -27146,7 +27168,8 @@
               "mdeltah .mh01 18-18 -7",
               "mdeltah .mh02 18-18 2",
               "mdeltah .mh03 18-18 -7"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -27209,8 +27232,7 @@
                 "thickness":169
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -27289,7 +27311,8 @@
               "alignh .ah02 round",
               "alignh .ah01 round",
               "alignh .ah02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -27327,8 +27350,7 @@
               "alignh .ah02 round",
               "alignh .ah01 round",
               "alignh .ah02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -27464,7 +27486,8 @@
                 "thickness":267
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -27529,8 +27552,7 @@
               "alignb .sh01 \"b: 0\"",
               "singlev .av01, .ah03 \"Y: 135\"",
               "mdeltav .av02 23-23 -5"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -27853,7 +27875,8 @@
               "singlev .ab02, .sv03 \"eq Y: 135\"",
               "interpolatev .iv02 .at02, .ab02",
               "singlev .at02, .sv04 \"eq Y: 135\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -27909,8 +27932,7 @@
               "singlev .av04, .sv03 \"Y: 135\"",
               "interpolatev .iv02 .av03, .av04",
               "singlev .av03, .sv04 \"Y: 135\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -28499,7 +28521,8 @@
                 "thickness":-341
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -28562,8 +28585,7 @@
                 }
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -28593,7 +28615,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"mask",
@@ -28659,8 +28682,7 @@
               "alignv .av01 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .av01, .at01"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -28771,7 +28793,8 @@
               "mdeltav .hr02 14-14 6",
               "mdeltav .hr02 22-22 5",
               "mdeltav .iv01 12-12 4"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -28837,8 +28860,7 @@
               "alignv .hr01 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv01 .hr01, .at02"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -28954,7 +28976,8 @@
               "mdeltav .mh01 12-12 8",
               "mdeltav .mh01 22-22 8",
               "mdeltav .mh01 14-14 5"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -29022,8 +29045,7 @@
               "alignv .av01 round",
               "alignt .sh05 \"t: 1\"",
               "alignt .hr01 \"t: 1\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -29170,7 +29192,8 @@
               "alignt .ih02 \"t: 1\"",
               "mdeltav .mv01 18-18 2",
               "mdeltav .sh02 18-18 -1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -29220,8 +29243,7 @@
               "alignv .av02 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .av01, .at01"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -29345,7 +29367,8 @@
               "mdeltav .sh06 22-22 6",
               "mdeltav .sh06 20-20 5",
               "mdeltav .hr02 22-22 8"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -29412,8 +29435,7 @@
               "alignv .av01 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv01 .hr01, .at02"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -29585,7 +29607,8 @@
               "mdeltav .av02 21-21 7",
               "mdeltav .av02 12-12 5",
               "mdeltav .sh02 12-12 4"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -29638,8 +29661,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -29768,7 +29790,8 @@
               "mdeltav .av02 21-21 7",
               "mdeltav .av02 12-12 5",
               "mdeltav .sh05 12-12 4"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -29819,8 +29842,7 @@
               "alignb .sh04 \"b: 0\"",
               "doublev .dv01, .ih01 \"Y: 144\"",
               "interpolatev .ah01 .sh02, .at01"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -29928,7 +29950,8 @@
               "alignv .ah02 round",
               "singlev .hr01, .sv01 .none",
               "singlev .ah02, .sv02 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -29979,8 +30002,7 @@
               "alignb .sh04 \"b: 0\"",
               "doublev .dv01, .ih01 \"eq Y: 153\"",
               "interpolatev .ah01 .sh02, .at01"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -30164,7 +30186,8 @@
               "alignt .at01 \"t: x\"",
               "singlev .at01, .sv01 .round",
               "singlev .av01, .sv02 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -30239,8 +30262,7 @@
               "alignv .av02 round",
               "singlev .av02, .sv01 .round",
               "singlev .av01, .sv02 .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -30354,7 +30376,8 @@
               "alignt .at02 \"t: x\"",
               "singlev .at02, .sv01 .round",
               "singlev .hr01, .sv02 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -30413,8 +30436,7 @@
               "alignv .av02 round",
               "singlev .av02, .sv01 .round",
               "singlev .av01, .sv02 .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -30678,7 +30700,8 @@
                 "thickness":286
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -30737,8 +30760,7 @@
               "singlev .ab02, .sv01 \"Y: 162\"",
               "singlev .at01, .sv02 \"Y: 162\"",
               "interpolatev .iv01 .ab01, .at01"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -30898,7 +30920,8 @@
               "mdeltav .mh03 12-12 3",
               "singlev .ab01, .sv02 \"eq Y: 171\"",
               "mdeltav .sv02 12-12 5"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -30979,8 +31002,7 @@
               "alignb .sh01 \"b: 0\"",
               "singlev .av01, .ah03 \"Y: 135\"",
               "mdeltav .av02 23-23 -5"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -31074,7 +31096,8 @@
               "alignv .hr01 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv01 .hr01, .at02"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -31142,8 +31165,7 @@
               "alignv .hr01 round",
               "alignt .at03 \"t: 1\"",
               "interpolatev .iv01 .hr01, .at03"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -31242,7 +31264,8 @@
               "alignv .mh01 round",
               "alignt .hr02 \"t: 1\"",
               "alignt .hr01 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -31312,8 +31335,7 @@
               "alignv .av01 round",
               "alignt .sh02 \"t: 1\"",
               "alignt .hr01 \"t: 1\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -31420,7 +31442,8 @@
               "alignt .ih02 \"t: 1\"",
               "mdeltav .mv01 18-18 2",
               "mdeltav .sh03 18-18 -1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -31489,8 +31512,7 @@
               "alignv .av01 round",
               "alignt .at03 \"t: 1\"",
               "interpolatev .iv01 .hr01, .at03"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -31591,7 +31613,8 @@
               "alignv .ah02 round",
               "singlev .hr01, .sv02 .none",
               "singlev .ah02, .sv03 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -31644,8 +31667,7 @@
               "doublev .dh03, .dv01 \"Y: 144\"",
               "singlev .ab02, .dh04 \"Y: 162\"",
               "singlev .at02, .sv01 \"Y: 162\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -31754,7 +31776,8 @@
               "alignv .hr01 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .hr01, .at01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -31827,8 +31850,7 @@
               "alignv .hr01 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv01 .hr01, .at02"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -31942,7 +31964,8 @@
               "alignv .mh04 round",
               "alignt .hr02 \"t: 1\"",
               "alignt .hr01 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -32017,8 +32040,7 @@
               "alignv .av01 round",
               "alignt .sh04 \"t: 1\"",
               "alignt .hr01 \"t: 1\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -32140,7 +32162,8 @@
               "alignt .ih02 \"t: 1\"",
               "mdeltav .mv01 18-18 2",
               "mdeltav .sh03 18-18 -1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -32214,8 +32237,7 @@
               "alignv .av01 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv01 .hr01, .at02"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -32331,7 +32353,8 @@
               "alignv .ah04 round",
               "singlev .hr01, .sv01 .none",
               "singlev .ah04, .sv02 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -32389,8 +32412,7 @@
               "singlev .ab01, .sh02 \"Y: 171\"",
               "singlev .sh01, .sv02 \"Y: 171\"",
               "singlev .at01, .sh03 \"Y: 171\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -32573,7 +32595,8 @@
                 "thickness":351
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -32644,8 +32667,7 @@
                 "thickness":210
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -32793,7 +32815,8 @@
               "mdeltav .av02 21-21 7",
               "mdeltav .av02 12-12 5",
               "mdeltav .sh01 12-12 4"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -32880,8 +32903,7 @@
               "fdeltav .sh04 29-29 4",
               "fdeltav .sh04 26-26 8",
               "fdeltav .sh04 28-28 8"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -32976,7 +32998,8 @@
               "alignv .av01 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv01 .av01, .at02"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -33048,8 +33071,7 @@
               "alignv .av01 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv01 .av01, .at02"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -33148,7 +33170,8 @@
               "alignv .mh01 round",
               "alignt .sh03 \"t: 1\"",
               "alignt .ah03 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -33221,8 +33244,7 @@
               "alignv .av01 round",
               "alignt .sh04 \"t: 1\"",
               "alignt .ah02 \"t: 1\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -33330,7 +33352,8 @@
               "alignt .ih02 \"t: 1\"",
               "mdeltav .mv01 18-18 2",
               "mdeltav .sh04 18-18 -1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -33402,8 +33425,7 @@
               "alignv .av02 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv01 .av01, .at02"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -33527,7 +33549,8 @@
               "mdeltav .av02 21-21 7",
               "mdeltav .av02 12-12 5",
               "mdeltav .sh04 12-12 4"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -33584,8 +33607,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 \"Y: 171\"",
               "singlev .ab01, .sv02 \"Y: 171\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -33704,7 +33726,8 @@
               "mdeltav .mv01 21-21 5",
               "mdeltav .mv01 12-12 4",
               "mdeltav .mv01 13-13 3"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -33760,8 +33783,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 \"Y: 171\"",
               "singlev .ab01, .sv02 \"Y: 171\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -33919,7 +33941,8 @@
               "singlev .av01, .ih02 \"eq Y: 135\"",
               "interpolatev .iv02 .av02, .sh02",
               "singlev .av02, .ih04 \"eq Y: 135\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -33969,8 +33992,7 @@
               "singlev .av02, .ih02 \"Y: 135\"",
               "interpolatev .iv02 .av01, .sh01",
               "singlev .av01, .ih04 \"Y: 135\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -34063,7 +34085,8 @@
                 "thickness":350
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -34127,8 +34150,7 @@
                 "thickness":208
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -34225,7 +34247,8 @@
               "alignv .av01 round",
               "alignt .at03 \"t: 1\"",
               "interpolatev .iv01 .av01, .at03"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -34297,8 +34320,7 @@
               "alignv .av01 round",
               "alignt .at03 \"t: 1\"",
               "interpolatev .iv01 .av01, .at03"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -34400,7 +34422,8 @@
               "alignv .mh01 round",
               "alignt .sh04 \"t: 1\"",
               "alignt .ah02 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -34474,8 +34497,7 @@
               "alignv .av01 round",
               "alignt .sh04 \"t: 1\"",
               "alignt .ah02 \"t: 1\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -34585,7 +34607,8 @@
               "alignt .ih04 \"t: 1\"",
               "mdeltav .mv01 18-18 2",
               "mdeltav .sh05 18-18 -1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -34658,8 +34681,7 @@
               "alignv .av02 round",
               "alignt .at03 \"t: 1\"",
               "interpolatev .iv01 .av01, .at03"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -34763,7 +34785,8 @@
               "alignv .ah03 round",
               "singlev .ah02, .sv01 .none",
               "singlev .ah03, .sv02 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -34820,8 +34843,7 @@
               "alignt .at02 \"t: 1\"",
               "alignb .ih01 \"b: 0\"",
               "singlev .ih01, .ih02 \"Y: 171\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -34925,7 +34947,8 @@
               "alignv .mh01 round",
               "alignt .hr02 \"t: 1\"",
               "alignt .hr01 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -35030,8 +35053,7 @@
               "alignv .av01 round",
               "alignt .sh03 \"t: 1\"",
               "alignt .hr01 \"t: 1\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -35225,7 +35247,8 @@
               "alignb .sh03 \"b: 0\"",
               "interpolatev .ah03 .sh04, .sh05",
               "singlev .ah03, .sh02 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -35315,8 +35338,7 @@
               "singlev .av01, .sh03 \"Y: 153\"",
               "interpolatev .ah01 .sv01, .sh03",
               "singlev .ah01, .sh02 .none"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -35525,7 +35547,8 @@
               "interpolatev .sh03 .av01, .ab01",
               "singlev .ab01, .sv01 \"eq Y: 171\"",
               "singlev .av01, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -35581,8 +35604,7 @@
               "singlev .at01, .sv01 \"eq Y: 144\"",
               "interpolatev .iv01 .at01, .ab01",
               "singlev .ab01, .sv02 \"eq Y: 162\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -35688,7 +35710,8 @@
               "alignv .av01 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .av01, .at01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -35769,8 +35792,7 @@
               "alignv .av01 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv01 .av01, .at02"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -35881,7 +35903,8 @@
               "alignv .mh04 round",
               "alignt .sh07 \"t: 1\"",
               "alignt .ah03 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -35964,8 +35987,7 @@
               "alignv .av01 round",
               "alignt .sh07 \"t: 1\"",
               "alignt .ah03 \"t: 1\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -36084,7 +36106,8 @@
               "alignt .ih03 \"t: 1\"",
               "mdeltav .mv06 18-18 2",
               "mdeltav .sh08 18-18 -1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -36166,8 +36189,7 @@
               "alignv .av02 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv01 .av01, .at02"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -36303,7 +36325,8 @@
               "mdeltav .av02 21-21 7",
               "mdeltav .av02 12-12 5",
               "mdeltav .sh08 12-12 4"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -36369,8 +36392,7 @@
               "interpolatev .sh02 .dv02, .dv01",
               "singlev .at01, .sv01 \"Y: 162\"",
               "singlev .ab01, .sv02 \"Y: 162\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -36483,7 +36505,8 @@
               "alignv .ah04 round",
               "singlev .ah03, .sv03 .none",
               "singlev .ah04, .sv04 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -36549,8 +36572,7 @@
               "interpolatev .sh02 .dv02, .dv01",
               "singlev .at01, .sv01 \"Y: 162\"",
               "singlev .ab01, .sv02 \"Y: 162\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -36670,7 +36692,8 @@
               "alignt .at01 \"t: x\"",
               "singlev .at01, .sv03 .round",
               "singlev .av01, .sv04 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -36744,8 +36767,7 @@
               "alignv .av02 round",
               "singlev .av02, .sv03 .round",
               "singlev .av01, .sv04 .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -36967,7 +36989,8 @@
                 "thickness":265
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -37027,8 +37050,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -37095,7 +37117,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 \"eq Y: 162\"",
               "singlev .ab01, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -37159,8 +37182,7 @@
               "mdeltav .mv01 10-10 -3",
               "mdeltav .mv01 12-12 -4",
               "mdeltav .mv02 13-13 3"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -37247,7 +37269,8 @@
               "alignv .av01 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .av01, .at01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -37325,8 +37348,7 @@
               "alignv .av01 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .av01, .at01"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -37418,7 +37440,8 @@
               "alignv .mh01 round",
               "alignt .sh03 \"t: 1\"",
               "alignt .ah01 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -37498,8 +37521,7 @@
               "alignv .av01 round",
               "alignt .sh03 \"t: 1\"",
               "alignt .ah01 \"t: 1\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -37599,7 +37621,8 @@
               "alignt .ih07 \"t: 1\"",
               "mdeltav .mv02 18-18 2",
               "mdeltav .sh04 18-18 -1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -37678,8 +37701,7 @@
               "alignv .av02 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .av01, .at01"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -37773,7 +37795,8 @@
               "alignv .ah02 round",
               "singlev .ah01, .sv02 .none",
               "singlev .ah02, .sv03 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -37836,8 +37859,7 @@
               "singlev .ih01, .ih03 \"Y: 162\"",
               "singlev .ih02, .sv01 \"Y: 162\"",
               "interpolatev .ih05 .ih04, .dh01"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -38162,7 +38184,8 @@
               "singlev .ah01, .sv02 \"eq Y: 171\"",
               "singlev .ab01, .av01 \"eq Y: 171\"",
               "doubleh .dh01, .dh02 \"eq X: 208\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -38220,8 +38243,7 @@
               "singlev .ah01, .sv02 \"eq Y: 162\"",
               "alignh .ah01 round",
               "doubleh .dh01, .dh02 \"eq X: 190\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -38338,7 +38360,8 @@
                 "thickness":327
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -38401,8 +38424,7 @@
                 "thickness":190
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -38519,7 +38541,8 @@
                 "thickness":327
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -38567,8 +38590,7 @@
                 "thickness":190
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -38685,7 +38707,8 @@
                 "thickness":327
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -38733,8 +38756,7 @@
                 "thickness":190
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -38852,7 +38874,8 @@
                 "thickness":276
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -38885,8 +38908,7 @@
                 "thickness":190
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -39134,7 +39156,8 @@
                 "thickness":300
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -39212,8 +39235,7 @@
                 "thickness":206
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -39328,7 +39350,8 @@
               "mdeltav .av02 21-21 7",
               "mdeltav .av02 12-12 5",
               "mdeltav .sh05 12-12 4"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -39390,8 +39413,7 @@
               "mdeltav .sh03 42-42 -5",
               "interpolatev .ih01 .sh02, .sh03",
               "singlev .av01, .sv01 \"Y: 162\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -39487,7 +39509,8 @@
               "alignv .av01 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv01 .av01, .at02"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -39555,8 +39578,7 @@
               "alignv .av02 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .av02, .at01"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -39657,7 +39679,8 @@
               "alignv .mh03 round",
               "alignt .sh04 \"t: 1\"",
               "alignt .ah02 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -39727,8 +39750,7 @@
               "alignv .av02 round",
               "alignt .sh04 \"t: 1\"",
               "alignt .ah02 \"t: 1\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -39837,7 +39859,8 @@
               "alignt .ih02 \"t: 1\"",
               "mdeltav .mv02 18-18 2",
               "mdeltav .sh05 18-18 -1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -39906,8 +39929,7 @@
               "alignv .av03 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .av02, .at01"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -40033,7 +40055,8 @@
               "mdeltav .av02 21-21 7",
               "mdeltav .av02 12-12 5",
               "mdeltav .sh05 12-12 4"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -40087,8 +40110,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .av01, .sv01 \"Y: 153\"",
               "singlev .ab01, .sv02 \"Y: 153\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -40191,7 +40213,8 @@
               "alignv .ah03 round",
               "singlev .ah02, .sv03 .none",
               "singlev .ah03, .sv04 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -40244,8 +40267,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .av01, .sv01 \"Y: 153\"",
               "singlev .ab01, .sv02 \"Y: 153\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -40455,7 +40477,8 @@
               "mdeltav .av02 18-18 3",
               "singlev .av01, .sv01 .none",
               "singlev .av01, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -40566,8 +40589,7 @@
                 "thickness":155
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -40751,7 +40773,8 @@
                 "thickness":326
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -40845,8 +40868,7 @@
                 "thickness":190
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -40954,7 +40976,8 @@
               "alignv .av01 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv02 .av01, .at02"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -41032,8 +41055,7 @@
               "alignv .av02 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .av02, .at01"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -41146,7 +41168,8 @@
               "alignv .mh01 round",
               "alignt .sh06 \"t: 1\"",
               "alignt .ah02 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -41226,8 +41249,7 @@
               "alignv .av02 round",
               "alignt .sh05 \"t: 1\"",
               "alignt .ah02 \"t: 1\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -41348,7 +41370,8 @@
               "alignt .ih05 \"t: 1\"",
               "mdeltav .mv01 18-18 2",
               "mdeltav .sh07 18-18 -1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -41427,8 +41450,7 @@
               "alignv .av03 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .av02, .at01"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -41543,7 +41565,8 @@
               "alignv .ah03 round",
               "singlev .ah02, .sv01 .none",
               "singlev .ah03, .sv02 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -41606,8 +41629,7 @@
               "interpolatev .ih01 .ab02, .sh01",
               "mdeltav .av01 42-42 -5",
               "singlev .ab02, .sv01 \"Y: 162\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -41704,7 +41726,8 @@
               "alignv .mh01 round",
               "alignt .sh06 \"t: 1\"",
               "alignt .ah03 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -41773,8 +41796,7 @@
               "alignv .av03 round",
               "alignt .sh06 \"t: 1\"",
               "alignt .ah03 \"t: 1\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -41867,7 +41889,8 @@
                 "thickness":326
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -41964,8 +41987,7 @@
               "singleh .dh02, rsb .round",
               "alignv .dh02 round",
               "alignt .at01 \"t: 1\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -42064,7 +42086,8 @@
               "alignv .ah04 round",
               "singlev .ah03, .sv01 .none",
               "singlev .ah04, .sv02 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -42116,8 +42139,7 @@
               "alignt .sh04 \"t: x\"",
               "alignt .sh02 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -42394,7 +42416,8 @@
                 "thickness":287
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -42479,8 +42502,7 @@
               "interpolatev .iv01 .ab01, .sv02",
               "singlev .sv01, .sv03 .none round",
               "singlev .sv02, .sv04 .none round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -42715,7 +42737,8 @@
                 "thickness":279
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -42768,8 +42791,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -42890,7 +42912,8 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignt .at02 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -42936,8 +42959,7 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignt .at02 \"t: 1\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -43057,7 +43079,8 @@
               "interpolatev .iv01 .sv03, .sv01",
               "alignt .at02 \"t: 1\"",
               "alignt .at03 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -43128,8 +43151,7 @@
               "interpolatev .iv02 .sv01, .sv02",
               "alignt .at02 \"t: 1\"",
               "alignt .at03 \"t: 1\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -43242,7 +43264,8 @@
               "singlev .mh01, .sv04 \"eq Y: 171\"",
               "alignt .at02 \"t: 1\"",
               "alignt .at03 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -43322,8 +43345,7 @@
               "singlev .av02, .sv04 \"Y: 171\"",
               "alignt .at02 \"t: 1\"",
               "alignt .at03 \"t: 1\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -43430,7 +43452,8 @@
               "alignv .ah04 round",
               "singlev .hr01, .sv01 .none",
               "singlev .ah04, .sv02 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -43519,8 +43542,7 @@
               "fdeltah .ah01 12-12 3",
               "fdeltah .ah01 22-22 6",
               "fdeltah .ah01 19-19 8"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -43695,7 +43717,8 @@
               "mdeltah .mh01 16-16 2",
               "mdeltah .mh01 23-23 -2",
               "mdeltav .mh01 30-30 -1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -43752,8 +43775,7 @@
               "mdeltav .mv01 29-29 -3",
               "mdeltav .mv01 30-30 -4",
               "mdeltav .mv02 13-13 -3"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -43866,7 +43888,8 @@
             "tth":[
               "doubleh .dh01, .dh02 \"eq X: 208\"",
               "mdeltav .mv01 15-15 3"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -43897,8 +43920,7 @@
             "color":"#00cce5",
             "tth":[
               "doubleh .dh01, .dh02 \"X: 208\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -43999,7 +44021,8 @@
               "alignv .av01 round",
               "alignt .ah01 \"t: 1\"",
               "singlev .ah01, .ah02 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -44030,8 +44053,7 @@
               "alignv .av01 round",
               "alignt .ah01 \"t: 1\"",
               "singlev .ah01, .ah02 .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -44114,7 +44136,8 @@
                 "thickness":-267
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -44164,8 +44187,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -44301,7 +44323,8 @@
               "singleh .sh01, .sh02 \"eq X: dia Lite\"",
               "mdeltah .sh02 19-20 5",
               "singleh .sh02, .sh03 \"eq X: 208\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -44333,8 +44356,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -44409,7 +44431,8 @@
               "alignb .sh04 \"b: 0\"",
               "doublev .dv01, .ih02 \"eq Y: 144\"",
               "interpolatev .ah01 .at01, .sh02"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -44453,8 +44476,7 @@
               "alignb .sh04 \"b: 0\"",
               "doublev .dv01, .ih01 \"Y: 144\"",
               "interpolatev .ah01 .sh02, .at01"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -44555,7 +44577,8 @@
               "singlev .at01, .sv01 \"eq Y: 144\"",
               "interpolatev .ih01 .ih03, .ih02",
               "singlev .dh01, .dh02 \"eq Y: 162\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -44620,8 +44643,7 @@
               "singlev .at01, .sv01 \"eq Y: 135\"",
               "interpolatev .ih01 .ih02, .dv01",
               "singlev .dh01, .dh02 \"eq Y: 162\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -44748,7 +44770,8 @@
               "singlev .sh01, .sh02 .round",
               "singlev .at01, .sv01 .none",
               "singlev .sv01, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -44799,8 +44822,7 @@
               "alignt .at01 \"t: 1\"",
               "alignb .dh02 \"b: 0\"",
               "singlev .at01, .sv01 \"Y: 153\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -44936,7 +44958,8 @@
               "singlev .sv01, .sv02 .none",
               "singlev .sv02, .ih03 \"eq Y: 171\"",
               "singlev .dh02, .ih01 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -44986,8 +45009,7 @@
                 "thickness":21
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -45062,7 +45084,8 @@
               "doublev .dv01, .dh01 \"eq Y: 144\"",
               "singlev .ab01, .dh02 \"eq Y: 171\"",
               "singlev .ah01, .sv01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -45131,8 +45154,7 @@
               "doublev .dh03, .dv01 \"Y: 144\"",
               "singlev .ab02, .dh04 \"Y: 162\"",
               "singlev .at02, .sv01 \"Y: 162\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -45190,7 +45212,8 @@
               "singlev .at01, .sv01 \"eq Y: 171\"",
               "interpolatev .iv04 .iv05, .iv06",
               "singlev .ab01, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -45243,8 +45266,7 @@
               "interpolatev .iv01 .at01, .iv02",
               "singlev .at01, .sv02 \"Y: 162\"",
               "interpolatev .iv03 .ab01, .sv01"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -45326,7 +45348,8 @@
               "alignb .ah01 \"b: 0\"",
               "doublev .dv01, .dv02 \"eq Y: 171\"",
               "doublev .dv03, .dv04 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -45402,8 +45425,7 @@
               "alignb .ah01 \"b: 0\"",
               "alignb .sh02 \"b: 0\"",
               "doublev .dv01, .sh04 \"Y: 162\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -45499,7 +45521,8 @@
                 "thickness":350
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -45568,8 +45591,7 @@
                 "thickness":208
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -45652,7 +45674,8 @@
               "singlev .ah01, .mh03 \"eq Y: 171\"",
               "singlev .mh01, .sh02 \"eq Y: 171\"",
               "mdeltav .sh02 22-22 1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -45719,8 +45742,7 @@
               "singlev .ab01, .sh02 \"Y: 171\"",
               "singlev .sh01, .sv02 \"Y: 171\"",
               "singlev .at01, .sh03 \"Y: 171\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -45811,7 +45833,8 @@
               "interpolatev .ah02 .sh01, .hr01",
               "interpolatev .sh03 .sh01, .hr01",
               "interpolatev .ah03 .sh01, .hr01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -45911,8 +45934,7 @@
               "fdeltav .fh02 13-14 -2",
               "fdeltav .fh02 22-22 5",
               "fdeltav .ah02 18-22 -2"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -46037,7 +46059,8 @@
                 "thickness":21
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -46080,8 +46103,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -46346,7 +46368,8 @@
               "mdeltav .mh07 13-13 6",
               "interpolatev .ah02 .dh02, .sh02",
               "mdeltav .sh03 13-13 -3"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -46579,8 +46602,7 @@
               "fdeltav .fh06 29-29 -3",
               "fdeltav .fh06 11-11 3",
               "fdeltav .fh07 29-29 -3"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -46681,7 +46703,8 @@
               "mdeltav .mh08 48-48 4",
               "mdeltav .mh08 22-22 1",
               "mdeltav .mh08 10-10 -2"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -46786,8 +46809,7 @@
               "fdeltav .sh04 29-29 4",
               "fdeltav .sh04 26-26 8",
               "fdeltav .sh04 28-28 8"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -46948,7 +46970,8 @@
                 "thickness":241
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -46988,8 +47011,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -47039,7 +47061,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 \"eq Y: 171\"",
               "singlev .ab01, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -47107,8 +47130,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 \"Y: 171\"",
               "singlev .ab01, .sv02 \"Y: 171\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -47190,7 +47212,8 @@
               "alignb .sh02 \"b: 0\"",
               "doublev .dv01, .dv02 \"eq Y: 144\"",
               "singlev .at01, .sv01 \"eq Y: 144\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -47266,8 +47289,7 @@
               "alignb .sh02 \"b: 0\"",
               "doublev .dv01, .dv02 \"Y: 144\"",
               "singlev .at01, .sv01 \"Y: 135\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -47435,7 +47457,8 @@
               "interpolatev .ih01 .at01, .ab01",
               "singlev .at01, .sv03 .none",
               "singlev .sv03, .sv04 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -47485,8 +47508,7 @@
                 "thickness":170
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -47544,7 +47566,8 @@
               "singlev .at01, .sv01 \"eq Y: 162\"",
               "singlev .sv01, .sv02 .none",
               "singlev .sv02, .sv03 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -47597,8 +47620,7 @@
               "singlev .at01, .sv01 \"Y: 162\"",
               "singlev .sv01, .sv02 .none",
               "singlev .sv02, .sv03 .none"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -47671,7 +47693,8 @@
               "mdeltav .ih01 48-48 8",
               "fdeltav .ih01 19-19 3",
               "fdeltav .ih01 17-17 6"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -47768,8 +47791,7 @@
               "fdeltah .ah01 12-12 3",
               "fdeltah .ah01 22-22 6",
               "fdeltah .ah01 19-19 8"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -47971,7 +47993,8 @@
               "interpolatev .ah03 .iv03, .iv04",
               "interpolatev .sh08 .sh02, .sh03",
               "interpolatev .sh09 .sh05, .sh06"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -48044,8 +48067,7 @@
                 "thickness":179
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -48099,7 +48121,8 @@
                 "thickness":-20
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -48231,8 +48254,7 @@
               "fdeltah .sh06 24-24 3",
               "fdeltah .sh06 25-25 4",
               "fdeltah .sh06 17-17 5"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -48447,7 +48469,8 @@
               "singlev .sv03, .sh05 .round",
               "singlev .sh01, .sv04 .round",
               "singlev .hr01, .sv05 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -48484,8 +48507,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -48586,7 +48608,8 @@
               "singlev .ih01, .ih02 \"Y: 171\"",
               "singlev .ab01, .dh01 .none",
               "singlev .dh01, .ah01 \"Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -48647,8 +48670,7 @@
                 "thickness":210
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -48891,7 +48913,8 @@
               "singlev .ab01, .sv01 \"eq Y: 171\"",
               "singlev .sh02, .ih02 \"eq Y: 171\"",
               "singlev .sh01, .ih01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -48938,8 +48961,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -49197,7 +49219,8 @@
               "interpolatev .iv01 .at01, .ih01",
               "singlev .ih01, .sv01 \"eq Y: 171\"",
               "singlev .at01, .ih02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -49240,8 +49263,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -49418,7 +49440,8 @@
               "alignb .ah03 \"b: -500\"",
               "interpolatev .ih01 .ah01, .ah03",
               "singlev .ah01, .sv01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -49452,8 +49475,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -49678,7 +49700,8 @@
               "singlev .hr03, .sv01 \"eq Y: 171\"",
               "singlev .ih01, .hr02 \"eq Y: 171\"",
               "singlev .hr01, .sv02 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -49720,8 +49743,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -49912,7 +49934,8 @@
               "alignb .ab01 \"b: 0\"",
               "doublev .dv01, .dv02 \"eq Y: 171\"",
               "interpolatev .iv01 .at01, .ab01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -49949,8 +49972,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -50120,7 +50142,8 @@
                 "thickness":331
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -50156,8 +50179,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -50323,7 +50345,8 @@
               "singlev .ab01, .sh02 .none",
               "singlev .sh04, .ah02 .none",
               "singlev .at01, .sv01 \"Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -50384,8 +50407,7 @@
                 "thickness":180
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -50569,7 +50591,8 @@
               "singlev .sh04, .sh05 \"eq Y: 171\"",
               "singlev .sh01, .ih01 \"eq Y: 171\"",
               "singlev .sh03, .sh06 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -50632,8 +50655,7 @@
                 "thickness":180
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -50755,7 +50777,8 @@
                 "thickness":327
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -50802,8 +50825,7 @@
                 "thickness":180
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -50943,7 +50965,8 @@
                 "thickness":297
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -51006,8 +51029,7 @@
               "interpolatev .iv01 .dh01, .av01",
               "interpolatev .iv02 .dh01, .av01",
               "interpolatev .iv03 .dh01, .av01"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -51136,7 +51158,8 @@
                 "thickness":21
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -51181,8 +51204,7 @@
                 "thickness":21
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -51361,7 +51383,8 @@
               "singlev .sh02, .ih01 \"eq Y: 171\"",
               "singlev .ah01, .hr02 .none",
               "singlev .hr01, .sv01 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -51425,8 +51448,7 @@
                 "thickness":190
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -51562,7 +51584,8 @@
                 "thickness":21
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -51591,8 +51614,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -51823,7 +51845,8 @@
                 "thickness":292
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -51869,8 +51892,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -51946,7 +51968,8 @@
               "mdeltav .mv01 18-18 3",
               "singlev .at01, .sv01 \"eq Y: 162\"",
               "singlev .mh01, .sv02 \"eq Y: 153\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -52014,8 +52037,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .av01, .sv01 \"Y: 153\"",
               "singlev .ab01, .sv02 \"Y: 153\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -52184,7 +52206,8 @@
                 "thickness":317
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -52245,8 +52268,7 @@
                 "thickness":180
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -52405,7 +52427,8 @@
                 "thickness":332
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -52436,8 +52459,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -52605,7 +52627,8 @@
                 "thickness":401
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -52666,8 +52689,7 @@
                 "thickness":170
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -52811,7 +52833,8 @@
                 "thickness":309
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -52841,8 +52864,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -53000,7 +53022,8 @@
                 "thickness":326
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -53037,8 +53060,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -53275,7 +53297,8 @@
                 "thickness":288
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -53320,8 +53343,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -53486,7 +53508,8 @@
                 "thickness":-20
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -53535,8 +53558,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -53783,7 +53805,8 @@
                 "thickness":326
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -53826,8 +53849,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -54012,7 +54034,8 @@
                 "thickness":326
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -54051,8 +54074,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -54245,7 +54267,8 @@
                 "thickness":278
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -54287,8 +54310,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -54461,7 +54483,8 @@
                 "thickness":334
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -54520,8 +54543,7 @@
                 "thickness":210
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -54718,7 +54740,8 @@
                 "thickness":278
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -54758,8 +54781,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -54953,7 +54975,8 @@
                 "thickness":326
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -55004,8 +55027,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -55115,7 +55137,8 @@
                 "thickness":224
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -55139,8 +55162,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -55233,7 +55255,8 @@
               "alignv .av01 round",
               "singlev .av01, .sv01 \"eq Y: 171\"",
               "singlev .sv01, .sv02 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -55262,8 +55285,7 @@
               "alignv .av01 round",
               "singlev .av01, .sv01 \"Y: 153\"",
               "singlev .sv01, .sv02 .none"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -55348,7 +55370,8 @@
               "alignv .av01 round",
               "singlev .av01, .sv01 \"eq Y: 171\"",
               "singlev .sv01, .sv02 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -55377,8 +55400,7 @@
               "alignv .av01 round",
               "singlev .av01, .sv01 \"Y: 153\"",
               "singlev .sv01, .sv02 .none"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -55489,7 +55511,8 @@
                 "thickness":224
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -55513,8 +55536,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -55683,7 +55705,8 @@
               "singleh .sh04, .sh05 .none",
               "singleh .sh02, .sh06 \"eq X: dia Lite\"",
               "mdeltah .sh06 12-12 7"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -55725,8 +55748,7 @@
               "mdeltah .sh02 18-18 -3",
               "singleh .ah02, .sh03 \"X: 176\"",
               "singleh .sh03, .sh04 .none"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -55803,7 +55825,8 @@
               "alignv .av01 round",
               "alignv .av02 round",
               "alignv .av03 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -55873,8 +55896,7 @@
               "mdeltav .mh02 12-13 -1",
               "mdeltav .mh02 16-16 -4",
               "mdeltav .mh02 14-14 -5"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -55974,7 +55996,8 @@
               "singleh .ah01, .sh01 \"eq X: 199\"",
               "alignv .sh01 round",
               "alignt .ah02 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -55999,8 +56022,7 @@
               "singleh .ah01, .sh01 \"X: 199\"",
               "alignv .sh01 round",
               "alignt .ah02 \"t: 1\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -56108,7 +56130,8 @@
               "alignv .av01 round",
               "alignv .av02 round",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -56133,8 +56156,7 @@
               "alignv .av01 round",
               "alignv .av02 round",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -56248,7 +56270,8 @@
                 "thickness":-322
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -56279,8 +56302,7 @@
             "color":"#00cce5",
             "tth":[
               "alignv .av01 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -56366,7 +56388,8 @@
               "mdeltah .ah03 12-12 7",
               "mdeltah .mh01 12-12 -4",
               "mdeltah .mh02 12-12 5"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -56459,8 +56482,7 @@
               "alignh .ah02 round",
               "alignh .ah03 round",
               "alignh .ah04 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -56579,7 +56601,8 @@
               "alignv .av01 round",
               "alignh .ah01 round",
               "alignh .ah02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -56610,8 +56633,7 @@
               "alignv .av03 round",
               "alignv .av04 round",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -56761,7 +56783,8 @@
               "singlev .dh02, .sv01 \"eq Y: 153\"",
               "singlev .sv01, .sv02 .none",
               "singlev .sv02, .sv03 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -56829,8 +56852,7 @@
               "singlev .dh02, .sv01 \"Y: 153\"",
               "singlev .sv01, .sv02 .none",
               "singlev .sv02, .sv03 .none"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -56966,7 +56988,8 @@
               "singlev .dh02, .sv03 \"eq Y: 153\"",
               "singlev .sv03, .sv04 .none",
               "singlev .sv04, .sv05 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -57052,8 +57075,7 @@
               "singlev .dv02, .sv03 .none",
               "singlev .sv01, .sv04 .none",
               "singlev .sv04, .sv05 .none"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -57131,7 +57153,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -57156,8 +57179,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -57250,7 +57272,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -57273,8 +57296,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -57425,7 +57447,8 @@
               "alignh .ah06 round",
               "alignv .av03 round",
               "alignb .ab03 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -57571,8 +57594,7 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "alignb .ab03 \"b: 0\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -57888,7 +57910,8 @@
               "alignv .av10 round",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -58062,8 +58085,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -58355,7 +58377,8 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "alignb .ab03 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -58469,8 +58492,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -58600,7 +58622,8 @@
                 "thickness":250
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -58626,8 +58649,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -58725,7 +58747,8 @@
                 "thickness":250
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -58761,8 +58784,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -58887,7 +58909,8 @@
                 "thickness":250
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -58933,8 +58956,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -59005,7 +59027,8 @@
                 "thickness":-250
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -59031,8 +59054,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -59122,7 +59144,8 @@
               "singlev .at01, .sv01 \"eq Y: 135\"",
               "interpolatev .iv01 .at01, .ab01",
               "singlev .ab01, .sv02 \"eq Y: 135\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -59159,8 +59182,7 @@
               "singlev .av01, .sv01 \"Y: 135\"",
               "interpolatev .iv01 .av01, .av02",
               "singlev .av02, .sv02 \"Y: 135\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -59250,7 +59272,8 @@
               "singlev .ab01, .sv01 \"eq Y: 135\"",
               "interpolatev .iv01 .at01, .ab01",
               "singlev .at01, .sv02 \"eq Y: 135\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -59287,8 +59310,7 @@
               "singlev .av02, .sv01 \"Y: 135\"",
               "interpolatev .iv01 .av01, .av02",
               "singlev .av01, .sv02 \"Y: 135\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -59464,7 +59486,8 @@
                 "thickness":114
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -59567,8 +59590,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -59700,7 +59722,8 @@
                 "thickness":114
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -59774,8 +59797,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -62212,7 +62234,8 @@
                 "thickness":161
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -62267,8 +62290,7 @@
                 "thickness":100
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -62450,7 +62472,8 @@
               "singlev .dv02, .sv04 .none",
               "singlev .dv03, .sv05 .none",
               "singlev .at01, .sv06 \"Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -62511,8 +62534,7 @@
               "singlev .dv03, .sv04 .none",
               "singlev .dv02, .sv05 .none",
               "singlev .at01, .sv06 \"Y: 171\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -62715,7 +62737,8 @@
               "mdeltav .mv01 13-13 4",
               "mdeltav .mv02 13-13 -2",
               "mdeltav .mh01 13-13 1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -62777,8 +62800,7 @@
               "mdeltav .mv03 15-15 -1",
               "mdeltav .mv04 14-14 2",
               "mdeltav .mv04 16-16 -3"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -62960,7 +62982,8 @@
               "alignt .at02 \"t: 1\"",
               "singlev .av01, .sv03 .round",
               "singlev .at02, .sv04 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -63113,8 +63136,7 @@
               "alignt .at02 \"t: 1\"",
               "singlev .av01, .sv03 \"Y: 135\"",
               "singlev .at02, .sv04 \"Y: 135\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -63279,7 +63301,8 @@
               "alignt .hr01 \"t: 1\"",
               "singlev .av01, .sv02 .round",
               "singlev .hr01, .sv03 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -63398,8 +63421,7 @@
               "alignt .at02 \"t: 1\"",
               "singlev .av01, .sv02 \"Y: 135\"",
               "singlev .at02, .sv03 \"Y: 135\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -64282,7 +64304,8 @@
                 "thickness":180
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -64331,8 +64354,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -64442,7 +64464,8 @@
               "singlev .ih01, .ih02 \"Y: 171\"",
               "singlev .ab01, .dh01 .none",
               "singlev .dh01, .ah01 \"Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -64503,8 +64526,7 @@
                 "thickness":210
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -64618,7 +64640,8 @@
               "alignt .at02 \"t: x\"",
               "singlev .at02, .sv01 .round",
               "singlev .hr01, .sv02 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -64677,8 +64700,7 @@
               "alignv .av02 round",
               "singlev .av02, .sv01 .round",
               "singlev .av01, .sv02 .round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -65113,7 +65135,8 @@
                 "thickness":166
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -65211,8 +65234,7 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -65344,7 +65366,8 @@
                 "thickness":171
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -65441,8 +65464,7 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -65579,7 +65601,8 @@
                 "thickness":166
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -65678,8 +65701,7 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -65816,7 +65838,8 @@
                 "thickness":164
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -65915,8 +65938,7 @@
                 "thickness":102
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -66058,7 +66080,8 @@
                 "thickness":171
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -66164,8 +66187,7 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -66307,7 +66329,8 @@
                 "thickness":160
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -66414,8 +66437,7 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -66548,7 +66570,8 @@
                 "thickness":166
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -66655,8 +66678,7 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -66799,7 +66821,8 @@
                 "thickness":164
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -66916,8 +66939,7 @@
                 "thickness":102
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -67060,7 +67082,8 @@
                 "thickness":166
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -67184,8 +67207,7 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -67333,7 +67355,8 @@
                 "thickness":162
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -67464,8 +67487,7 @@
                 "thickness":99
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -67618,7 +67640,8 @@
                 "thickness":164
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -67752,8 +67775,7 @@
                 "thickness":102
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -67891,7 +67913,8 @@
                 "thickness":162
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -68018,8 +68041,7 @@
                 "thickness":102
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -68132,7 +68154,8 @@
                 "thickness":166
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -68190,8 +68213,7 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -73440,7 +73462,8 @@
                 "thickness":224
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -73477,8 +73500,7 @@
                 "thickness":260
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -73596,7 +73618,8 @@
               "mdeltah .mh05 20-20 6",
               "mdeltav .mh02 33-33 -1",
               "mdeltav .ih03 33-33 -1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -73668,8 +73691,7 @@
                 "thickness":155
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -73791,7 +73813,8 @@
               "alignt .at01 \"t: 1\"",
               "singlev .av01, .sv01 .round",
               "singlev .at01, .sv02 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -73865,8 +73888,7 @@
               "alignt .at01 \"t: 1\"",
               "singlev .av01, .sv01 \"Y: 135\"",
               "singlev .at01, .sv02 \"Y: 135\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -75391,7 +75413,8 @@
               "alignh .ah06 round",
               "alignv .av03 round",
               "alignb .ab03 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -75525,8 +75548,7 @@
               "alignh .ah06 round",
               "alignv .av03 round",
               "alignb .ab03 \"b: 0\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -75686,7 +75708,8 @@
               "alignh .ah06 round",
               "alignv .av03 round",
               "alignb .ab03 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -75820,8 +75843,7 @@
               "alignh .ah06 round",
               "alignv .av03 round",
               "alignb .ab03 \"b: 0\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -75920,7 +75942,8 @@
                 "thickness":210
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -75949,8 +75972,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -76092,7 +76114,8 @@
               "alignv .av01 round",
               "singlev .av01, .sv01 \"eq Y: 144\"",
               "singlev .sv01, .sv02 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -76134,8 +76157,7 @@
               "alignv .av01 round",
               "singlev .av01, .sv01 \"Y: 144\"",
               "singlev .sv01, .sv02 .none"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -76301,7 +76323,8 @@
               "singlev .sv01, .sv02 .none",
               "singlev .av01, .sv03 \"eq Y: 144\"",
               "singlev .sv03, .sv04 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -76354,8 +76377,7 @@
               "singlev .sv01, .sv02 .none",
               "singlev .av02, .sv03 \"Y: 144\"",
               "singlev .sv03, .sv04 .none"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -76446,7 +76468,8 @@
                 "thickness":210
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -76496,8 +76519,7 @@
               "mdeltav .mv04 16-16 -3",
               "mdeltav .mv05 16-16 -3",
               "mdeltav .mv06 17-17 -3"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -76673,7 +76695,8 @@
               "mdeltav .mv01 12-12 6",
               "mdeltav .mv02 12-12 6",
               "mdeltav .mh01 12-12 5"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -76726,8 +76749,7 @@
               "singlev .sv01, .sv02 .none",
               "singlev .av02, .sv03 \"Y: 144\"",
               "singlev .sv03, .sv04 .none"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -76872,7 +76894,8 @@
             "tth":[
               "mdeltav .mv01 13-13 4",
               "mdeltav .mv02 13-13 7"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -76924,8 +76947,7 @@
                 "thickness":140
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -77095,7 +77117,8 @@
               "mdeltav .av03 12-12 6",
               "mdeltav .av03 18-18 5",
               "mdeltav .mv01 18-18 2"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -77138,8 +77161,7 @@
             "color":"#00cce5",
             "tth":[
               "mdeltav .mv01 12-12 3"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -77275,7 +77297,8 @@
               "mdeltav .mv01 15-15 4",
               "mdeltav .mv01 16-16 3",
               "mdeltav .mv01 23-23 1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -77342,8 +77365,7 @@
               "mdeltah .mh02 12-12 1",
               "mdeltav .mv01 13-13 1",
               "mdeltav .mh02 12-12 -1"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -77479,7 +77501,8 @@
               "mdeltav .mv01 15-15 3",
               "mdeltav .mv01 20-20 3",
               "mdeltav .mv01 16-16 2"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -77544,8 +77567,7 @@
             "tth":[
               "mdeltah .mh01 12-12 3",
               "mdeltav .mv01 13-13 2"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -77687,7 +77709,8 @@
           {
             "name":"Bold",
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -77719,8 +77742,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -77866,7 +77888,8 @@
                 }
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -77910,8 +77933,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -79074,7 +79096,8 @@
               "alignh .ah06 round",
               "alignv .av03 round",
               "alignb .ab03 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -79208,8 +79231,7 @@
               "alignh .ah06 round",
               "alignv .av03 round",
               "alignb .ab03 \"b: 0\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -85535,7 +85557,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -85609,8 +85632,7 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -85812,7 +85834,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -85886,8 +85909,7 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -86047,7 +86069,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -86129,8 +86152,7 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -86340,7 +86362,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -86422,8 +86445,7 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -86635,7 +86657,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -86719,8 +86742,7 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -86934,7 +86956,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -87025,8 +87048,7 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -87172,7 +87194,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -87250,8 +87273,7 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -87466,7 +87488,8 @@
               "alignv .av02 round",
               "alignv .av03 round",
               "alignv .av04 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -87576,8 +87599,7 @@
               "alignv .av02 round",
               "alignv .av03 round",
               "alignv .av04 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -87800,7 +87822,8 @@
               "alignv .av01 round",
               "alignv .av02 round",
               "alignv .av03 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -87890,8 +87913,7 @@
               "alignv .av01 round",
               "alignv .av02 round",
               "alignv .av03 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -88099,7 +88121,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -88178,8 +88201,7 @@
               "alignv .av02 round",
               "alignv .av03 round",
               "alignv .av04 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -88328,7 +88350,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -88393,8 +88416,7 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -88543,7 +88565,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -88608,8 +88631,7 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -88766,7 +88788,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -88839,8 +88862,7 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -88997,7 +89019,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -89070,8 +89093,7 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -89230,7 +89252,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -89305,8 +89328,7 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -89467,7 +89489,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -89549,8 +89572,7 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -89693,7 +89715,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -89762,8 +89785,7 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -89941,7 +89963,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -90042,8 +90065,7 @@
               "alignv .av02 round",
               "alignv .av03 round",
               "alignv .av04 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -90211,7 +90233,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -90290,8 +90313,7 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -90446,7 +90468,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -90512,8 +90535,7 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -90681,7 +90703,8 @@
               "doublev .hr01, .dv05 \"eq Y: 162\"",
               "singlev .av01, .sv01 \"eq Y: 162\"",
               "singlev .at01, .sv02 \"eq Y: 162\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -90728,8 +90751,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -90918,7 +90940,8 @@
                 "thickness":316
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -90970,8 +90993,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -91159,7 +91181,8 @@
                 "thickness":327
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -91201,8 +91224,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -91371,7 +91393,8 @@
                 "thickness":326
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -91439,8 +91462,7 @@
                 "thickness":190
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -92479,7 +92501,8 @@
                 "thickness":204
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -92539,8 +92562,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 \"eq Y: 171\"",
               "singlev .at01, .sv02 \"eq Y: 171\""
-            ],
-            "active":true
+            ]
           }
         ]
       },
@@ -102883,15 +102905,15 @@
           {
             "name":"Bold",
             "advanceWidth":0,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
             "flags":0,
             "advanceWidth":0,
             "advanceHeight":1600,
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -102928,7 +102950,8 @@
               "singlev .ab02, .sv01 \"eq Y: 171\"",
               "singlev .sv05, .sv06 .round",
               "singlev .at01, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Regular",
@@ -102962,8 +102985,7 @@
                 "elementData":"elementdata.63"
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":":wt=550",
@@ -103164,7 +103186,8 @@
                 "thickness":229
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -103209,31 +103232,41 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"parenleft",
         "unicode":"0028",
-        "lastModified":"2026-05-29 03:16:09",
+        "lastModified":"2026-05-26 02:03:56",
         "layers":[
           {
             "name":"Bold",
             "advanceWidth":1200,
-            "color":"#00cce5"
-          },
-          {
-            "name":"Regular",
-            "flags":0,
-            "advanceWidth":1200,
-            "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.64",
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "1043 -420 s",
+                        "530 -420  461 362  461 592 s",
+                        "461 823  534 1600  1043 1600 s",
+                        "1100 1600  1173 1591  1200 1575",
+                        "1131 1449",
+                        "1111 1451  1090 1454  1070 1454 s",
+                        "876 1451  782 961  782 594 s",
+                        "782 226  876 -274  1070 -274 s",
+                        "1091 -274  1110 -273  1131 -269",
+                        "1200 -395",
+                        "1173 -411  1100 -420 c"
+                      ]
+                    }
+                  ]
+                },
                 "transform":{
-                  "xOffset":-151,
+                  "xOffset":-230,
                   "yOffset":158
                 },
                 "active":true
@@ -103241,18 +103274,136 @@
             ],
             "color":"#00cce5",
             "active":true
+          },
+          {
+            "name":"Regular",
+            "advanceWidth":1200,
+            "advanceHeight":1600,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "993 -420 s {n:'.av02'}",
+                        "480 -420  411 362  411 592 s",
+                        "411 823  484 1600  993 1600 s {n:'.av01'}",
+                        "1050 1600  1123 1591  1150 1575",
+                        "1081 1449",
+                        "1061 1451  1040 1454  1020 1454 s",
+                        "721 1449  611 962  611 594 s",
+                        "611 226  721 -274  1020 -274 s",
+                        "1041 -274  1060 -273  1081 -269",
+                        "1150 -395",
+                        "1123 -412  1070 -420 c"
+                      ]
+                    }
+                  ]
+                },
+                "transform":{
+                  "xOffset":-151,
+                  "yOffset":158
+                },
+                "active":true
+              }
+            ],
+            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"parenright",
         "unicode":"0029",
-        "lastModified":"2026-05-29 03:16:58",
+        "lastModified":"2026-05-26 02:03:56",
         "layers":[
           {
             "name":"Bold",
             "advanceWidth":1200,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "-351 -262 s",
+                        "-408 -262  -481 -253  -508 -237",
+                        "-439 -111",
+                        "-418 -115  -399 -116  -378 -116 s",
+                        "-184 -116  -90 384  -90 752 s",
+                        "-90 1119  -184 1609  -378 1612 s",
+                        "-398 1612  -419 1609  -439 1607",
+                        "-508 1733",
+                        "-481 1749  -408 1758  -351 1758 s",
+                        "158 1758  231 981  231 750 s",
+                        "231 520  162 -262 c"
+                      ]
+                    }
+                  ]
+                },
+                "transform":{
+                  "xOffset":738
+                },
+                "active":true
+              }
+            ],
+            "color":"#00cce5",
+            "active":true
+          },
+          {
+            "name":"Regular",
+            "advanceWidth":1200,
+            "advanceHeight":1600,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "-445 -424 s {n:'.av02'}",
+                        "-522 -424  -575 -416  -602 -399",
+                        "-533 -273",
+                        "-512 -277  -493 -278  -472 -278 s",
+                        "-173 -278  -63 222  -63 590 s",
+                        "-63 958  -173 1445  -472 1450 s",
+                        "-492 1450  -513 1447  -533 1445",
+                        "-602 1571",
+                        "-575 1587  -502 1596  -445 1596 s {n:'.av01'}",
+                        "64 1596  137 819  137 588 s",
+                        "137 358  68 -424 c"
+                      ]
+                    }
+                  ]
+                },
+                "transform":{
+                  "xOffset":803,
+                  "yOffset":162
+                },
+                "active":true
+              }
+            ],
             "color":"#00cce5"
+          }
+        ]
+      },
+      {
+        "name":"bracketleft",
+        "unicode":"005b",
+        "lastModified":"2026-05-29 04:16:33",
+        "layers":[
+          {
+            "name":"Bold",
+            "advanceWidth":1200,
+            "elements":[
+              {
+                "elementData":"elementdata.64",
+                "transform":{
+                  "yOffset":189
+                },
+                "active":true
+              }
+            ],
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -103263,20 +103414,18 @@
               {
                 "elementData":"elementdata.65",
                 "transform":{
-                  "xOffset":803,
-                  "yOffset":162
+                  "yOffset":200
                 },
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
       {
-        "name":"bracketleft",
-        "unicode":"005b",
+        "name":"bracketright",
+        "unicode":"005d",
         "lastModified":"2026-05-29 04:16:33",
         "layers":[
           {
@@ -103291,7 +103440,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -103307,14 +103457,13 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
       {
-        "name":"bracketright",
-        "unicode":"005d",
+        "name":"braceleft",
+        "unicode":"007b",
         "lastModified":"2026-05-29 04:16:33",
         "layers":[
           {
@@ -103324,12 +103473,13 @@
               {
                 "elementData":"elementdata.68",
                 "transform":{
-                  "yOffset":189
+                  "yOffset":201
                 },
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -103345,14 +103495,13 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
       {
-        "name":"braceleft",
-        "unicode":"007b",
+        "name":"braceright",
+        "unicode":"007d",
         "lastModified":"2026-05-29 04:16:33",
         "layers":[
           {
@@ -103367,7 +103516,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Regular",
@@ -103383,46 +103533,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
-          }
-        ]
-      },
-      {
-        "name":"braceright",
-        "unicode":"007d",
-        "lastModified":"2026-05-29 04:16:33",
-        "layers":[
-          {
-            "name":"Bold",
-            "advanceWidth":1200,
-            "elements":[
-              {
-                "elementData":"elementdata.72",
-                "transform":{
-                  "yOffset":201
-                },
-                "active":true
-              }
-            ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Regular",
-            "flags":0,
-            "advanceWidth":1200,
-            "advanceHeight":1600,
-            "elements":[
-              {
-                "elementData":"elementdata.73",
-                "transform":{
-                  "yOffset":200
-                },
-                "active":true
-              }
-            ],
-            "color":"#00cce5",
-            "active":true
           }
         ]
       }
@@ -103486,7 +103597,7 @@
       }
     ],
     "defaultMaster":"Regular",
-    "currentMaster":"Regular",
+    "currentMaster":"Bold",
     "interpolationFlags":0,
     "openTypeFeatures":[
       {

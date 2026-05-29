@@ -6,7 +6,7 @@
     "glyphs":[
       {
         "name":".notdef",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"BoldItalic",
@@ -118,7 +118,7 @@
       {
         "name":"exclam",
         "unicode":"0021",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -365,7 +365,7 @@
       {
         "name":"quotedbl",
         "unicode":"0022",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -522,7 +522,7 @@
       {
         "name":"numbersign",
         "unicode":"0023",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -819,7 +819,7 @@
       {
         "name":"dollar",
         "unicode":"0024",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -1128,7 +1128,7 @@
       {
         "name":"percent",
         "unicode":"0025",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -1485,7 +1485,7 @@
       {
         "name":"ampersand",
         "unicode":"0026",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -1764,7 +1764,7 @@
       {
         "name":"quotesingle",
         "unicode":"0027",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -1868,50 +1868,50 @@
       {
         "name":"parenleft",
         "unicode":"0028",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
             "flags":12,
-            "advanceWidth":1298,
+            "advanceWidth":23296,
             "elements":[
               {
                 "elementData":{
                   "contours":[
                     {
                       "nodes":[
-                        "170 1180 s",
-                        "170 1418  199 1600  470 1600 s",
-                        "522 1600  584 1591  609 1575",
-                        "540 1449",
-                        "526 1451 s",
-                        "517 1452  505 1454  490 1454 s",
-                        "372 1454  370 1333  370 1194 s",
-                        "370 -14 s",
-                        "370 -153  372 -274  490 -274 s",
-                        "505 -274  517 -273  526 -272",
-                        "540 -269",
-                        "609 -395",
-                        "584 -411  522 -420  470 -420 s",
-                        "199 -420  170 -238  170 0 s"
+                        "-39 1180 s",
+                        "-39 1418  -10 1600  261 1600 s",
+                        "313 1600  375 1591  400 1575",
+                        "331 1449",
+                        "317 1451 s",
+                        "308 1452  296 1454  281 1454 s",
+                        "163 1454  161 1333  161 1194 s",
+                        "161 -14 s",
+                        "161 -153  163 -274  281 -274 s",
+                        "296 -274  308 -273  317 -272",
+                        "331 -269",
+                        "400 -395",
+                        "375 -411  313 -420  261 -420 s",
+                        "-10 -420  -39 -238  -39 0 s"
                       ]
                     },
                     {
                       "nodes":[
-                        "470 1180 s",
-                        "470 1418  499 1600  770 1600 s",
-                        "822 1600  884 1591  909 1575",
-                        "840 1449",
-                        "826 1451 s",
-                        "817 1452  805 1454  790 1454 s",
-                        "672 1454  670 1333  670 1194 s",
-                        "670 -14 s",
-                        "670 -153  672 -274  790 -274 s",
-                        "805 -274  817 -273  826 -272",
-                        "840 -269",
-                        "909 -395",
-                        "884 -411  822 -420  770 -420 s",
-                        "499 -420  470 -238  470 0 s"
+                        "261 1180 s",
+                        "261 1418  290 1600  561 1600 s",
+                        "613 1600  675 1591  700 1575",
+                        "631 1449",
+                        "617 1451 s",
+                        "608 1452  596 1454  581 1454 s",
+                        "463 1454  461 1333  461 1194 s",
+                        "461 -14 s",
+                        "461 -153  463 -274  581 -274 s",
+                        "596 -274  608 -273  617 -272",
+                        "631 -269",
+                        "700 -395",
+                        "675 -411  613 -420  561 -420 s",
+                        "290 -420  261 -238  261 0 s"
                       ]
                     }
                   ]
@@ -1923,43 +1923,27 @@
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1200,
+            "advanceWidth":23200,
             "elements":[
               {
                 "elementData":{
                   "contours":[
                     {
                       "nodes":[
-                        "961 1600 s",
-                        "999 1600  1044 1596  1076 1589",
-                        "1076 1589  1076 1589  1076 1589",
-                        "1092 1585  1106 1580  1114 1575",
+                        "605 -420 s",
+                        "92 -420  161 362  201 592 s",
+                        "242 823  452 1600  961 1600 s",
+                        "1018 1600  1090 1591  1114 1575",
                         "1023 1449",
-                        "1006 1451 s",
-                        "1000 1452  994 1452  986 1453 s",
-                        "979 1454  971 1454  963 1454 s",
-                        "768 1451  588 961  523 594",
-                        "523 594  523 594  523 594",
-                        "459 226  465 -274  659 -274 s",
-                        "667 -274  675 -274  683 -273",
-                        "690 -273  697 -273  703 -272",
-                        "703 -272  703 -272  703 -272",
-                        "721 -269",
-                        "768 -395",
-                        "758 -400  743 -405  725 -409 s",
-                        "708 -412  687 -415  667 -417 s",
-                        "646 -419  625 -420  606 -420",
-                        "606 -420  606 -420  606 -420",
-                        "93 -420  162 362  202 592 s",
-                        "241 813  434 1530  894 1595 s",
-                        "916 1598  938 1600 c"
+                        "1003 1451  982 1454  962 1454 s",
+                        "768 1451  588 961  523 594 s",
+                        "458 226  464 -274  658 -274 s",
+                        "679 -274  698 -273  720 -269",
+                        "766 -395",
+                        "737 -411  662 -420 c"
                       ]
                     }
                   ]
-                },
-                "transform":{
-                  "yxScale":0.17445884,
-                  "xOffset":-362
                 },
                 "active":true
               }
@@ -1977,7 +1961,7 @@
               },
               {
                 "vertical":true,
-                "position":171,
+                "position":-37,
                 "thickness":200
               }
             ],
@@ -2023,37 +2007,26 @@
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1200,
+            "advanceWidth":971,
             "advanceHeight":1600,
+            "metricsRight":"229a",
             "elements":[
               {
                 "elementData":{
                   "contours":[
                     {
                       "nodes":[
-                        "1005 1599 s",
-                        "1021 1598  1035 1596  1049 1594 s",
-                        "1063 1591  1075 1589  1087 1586 s",
-                        "1098 1583  1107 1579  1113 1575",
-                        "1022 1449",
-                        "1005 1451 s",
-                        "999 1452  993 1452  985 1453 s",
-                        "978 1454  970 1454  962 1454",
-                        "679 1449  490 1018  415 660",
-                        "411 638  406 616  403 594",
-                        "338 226  361 -274  660 -274 s",
-                        "669 -274  677 -274  684 -274",
-                        "688 -273  692 -273  695 -273 s",
-                        "698 -273  701 -272  705 -272",
-                        "722 -269",
-                        "769 -395",
-                        "762 -399  752 -403  739 -406 s",
-                        "727 -409  713 -411  699 -414",
-                        "684 -416  669 -418  653 -419 s",
-                        "637 -420  622 -420  608 -420 s",
+                        "608 -420 s",
                         "95 -420  162 362  202 592 s",
                         "243 823  451 1600  960 1600 s",
-                        "974 1600  989 1600 c"
+                        "997 1600  1082 1596  1113 1575",
+                        "1022 1449",
+                        "1002 1451  982 1454  962 1454",
+                        "632 1448  439 856  403 594",
+                        "338 226  361 -274  660 -274 s",
+                        "681 -274  702 -273  722 -269",
+                        "769 -395",
+                        "735 -415  652 -420 c"
                       ]
                     }
                   ]
@@ -2075,7 +2048,7 @@
       {
         "name":"parenright",
         "unicode":"0029",
-        "lastModified":"2026-05-23 16:02:35",
+        "lastModified":"2026-05-29 15:23:40",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -2134,31 +2107,23 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.59",
                   "contours":[
                     {
                       "nodes":[
-                        "1043 1600 s",
-                        "1100 1600  1173 1591  1200 1575",
-                        "1131 1449",
-                        "1114 1451 s",
-                        "1102 1452  1087 1454  1070 1454 s",
-                        "876 1451  782 961  782 594 s",
-                        "782 226  876 -274  1070 -274 s",
-                        "1087 -274  1102 -273  1114 -272",
-                        "1131 -269",
-                        "1200 -395",
-                        "1173 -411  1100 -420  1043 -420 s",
-                        "530 -420  461 362  461 592 s",
-                        "461 823  534 1600 c"
+                        "29 -395",
+                        "120 -269",
+                        "140 -273  159 -274  180 -274 s",
+                        "374 -274  556 226  620 594 s",
+                        "685 961  677 1451  484 1454 s",
+                        "464 1454  442 1451  422 1449",
+                        "375 1575",
+                        "405 1591  479 1600  536 1600 s",
+                        "1045 1600  982 823  941 592 s",
+                        "901 362  694 -420  181 -420 s",
+                        "124 -420  53 -411 c"
                       ]
                     }
                   ]
-                },
-                "transform":{
-                  "xScale":-1,
-                  "yxScale":0.17578336,
-                  "xOffset":1298
                 },
                 "active":true
               }
@@ -2180,12 +2145,7 @@
                 "thickness":200
               }
             ],
-            "color":"#00cce5",
-            "tth":[
-              "alignh .ah01 round",
-              "alignv .av01 round",
-              "alignv .av02 round"
-            ]
+            "color":"#00cce5"
           },
           {
             "name":"mask",
@@ -2245,35 +2205,20 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.60",
                   "contours":[
                     {
                       "nodes":[
-                        "257 -421 s {n:'.av01'}",
-                        "236 -421 o",
-                        "188 -418 o",
-                        "146 -411 o",
-                        "110 -402 o",
                         "100 -396",
                         "169 -270",
-                        "186 -272 s",
-                        "195 -273 o",
-                        "217 -275 o",
-                        "230 -275 s",
+                        "230 -275",
                         "529 -270  639 218  639 586 s",
                         "639 954  529 1454  230 1454 s",
-                        "217 1454 o",
-                        "195 1453 o",
-                        "186 1452",
-                        "169 1449",
+                        "209 1454  190 1453  169 1449",
                         "100 1575",
-                        "110 1581 o",
-                        "146 1590 o",
-                        "188 1597 o",
-                        "236 1600 o",
-                        "257 1600 s {n:'.av02'}",
+                        "127 1591  200 1600  257 1600 s {n:'.av02'}",
                         "770 1600  839 818  839 588 s",
-                        "839 357  766 -421 c"
+                        "839 357  766 -421  257 -421 s {n:'.av01'}",
+                        "216 -421  132 -415 c"
                       ]
                     }
                   ]
@@ -2286,12 +2231,6 @@
               }
             ],
             "color":"#bac000",
-            "tth":[
-              "alignh .ah01 round",
-              "alignh .ah02 round",
-              "alignv .av01 round",
-              "alignv .av02 round"
-            ],
             "active":true
           }
         ]
@@ -2299,7 +2238,7 @@
       {
         "name":"asterisk",
         "unicode":"002a",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -2530,7 +2469,7 @@
       {
         "name":"plus",
         "unicode":"002b",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -2684,7 +2623,7 @@
       {
         "name":"comma",
         "unicode":"002c",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -2894,7 +2833,7 @@
       {
         "name":"hyphen",
         "unicode":"002d",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -3003,7 +2942,7 @@
       {
         "name":"period",
         "unicode":"002e",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -3109,7 +3048,7 @@
       {
         "name":"slash",
         "unicode":"002f",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -3225,7 +3164,7 @@
       },
       {
         "name":"zero.alt",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -3666,7 +3605,7 @@
       {
         "name":"one",
         "unicode":"0031",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -4417,7 +4356,7 @@
       {
         "name":"four",
         "unicode":"0034",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -4654,7 +4593,7 @@
       {
         "name":"five",
         "unicode":"0035",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -6300,7 +6239,7 @@
       {
         "name":"colon",
         "unicode":"003a",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -7079,7 +7018,7 @@
       {
         "name":"equal",
         "unicode":"003d",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -8214,7 +8153,7 @@
       {
         "name":"A",
         "unicode":"0041",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -8795,7 +8734,7 @@
       {
         "name":"C",
         "unicode":"0043",
-        "lastModified":"2026-05-28 02:51:06",
+        "lastModified":"2026-05-29 15:19:03",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -9380,7 +9319,7 @@
       {
         "name":"E",
         "unicode":"0045",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -9604,7 +9543,7 @@
       {
         "name":"F",
         "unicode":"0046",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -9806,7 +9745,7 @@
       {
         "name":"G",
         "unicode":"0047",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -10099,7 +10038,7 @@
       {
         "name":"H",
         "unicode":"0048",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -10319,7 +10258,7 @@
       {
         "name":"I",
         "unicode":"0049",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -10717,7 +10656,7 @@
       {
         "name":"K",
         "unicode":"004b",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -10892,7 +10831,7 @@
       {
         "name":"L",
         "unicode":"004c",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -11079,7 +11018,7 @@
       {
         "name":"M",
         "unicode":"004d",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -11645,7 +11584,7 @@
       {
         "name":"O",
         "unicode":"004f",
-        "lastModified":"2026-05-28 02:51:06",
+        "lastModified":"2026-05-29 15:19:03",
         "layers":[
           {
             "name":"BoldItalic",
@@ -13263,7 +13202,7 @@
       {
         "name":"U",
         "unicode":"0055",
-        "lastModified":"2026-05-28 02:51:06",
+        "lastModified":"2026-05-29 15:19:03",
         "layers":[
           {
             "name":"BoldItalic",
@@ -13465,7 +13404,7 @@
       {
         "name":"V",
         "unicode":"0056",
-        "lastModified":"2026-05-28 02:51:06",
+        "lastModified":"2026-05-29 15:19:03",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -15211,7 +15150,7 @@
       {
         "name":"a",
         "unicode":"0061",
-        "lastModified":"2026-05-28 02:51:06",
+        "lastModified":"2026-05-29 15:19:03",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -15906,7 +15845,7 @@
       {
         "name":"c",
         "unicode":"0063",
-        "lastModified":"2026-05-28 02:51:06",
+        "lastModified":"2026-05-29 15:19:03",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -16479,7 +16418,7 @@
       {
         "name":"e",
         "unicode":"0065",
-        "lastModified":"2026-05-28 02:51:06",
+        "lastModified":"2026-05-29 15:19:03",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -17160,7 +17099,7 @@
       {
         "name":"g",
         "unicode":"0067",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -19377,7 +19316,7 @@
       {
         "name":"o",
         "unicode":"006f",
-        "lastModified":"2026-05-28 02:51:06",
+        "lastModified":"2026-05-29 15:19:03",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -19652,7 +19591,7 @@
       {
         "name":"p",
         "unicode":"0070",
-        "lastModified":"2026-05-28 02:51:06",
+        "lastModified":"2026-05-29 15:19:03",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -19964,7 +19903,7 @@
       {
         "name":"q",
         "unicode":"0071",
-        "lastModified":"2026-05-28 02:51:06",
+        "lastModified":"2026-05-29 15:19:03",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -21348,7 +21287,7 @@
       {
         "name":"v",
         "unicode":"0076",
-        "lastModified":"2026-05-28 03:11:13",
+        "lastModified":"2026-05-29 15:19:03",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -21519,7 +21458,7 @@
       {
         "name":"w",
         "unicode":"0077",
-        "lastModified":"2026-05-28 02:51:06",
+        "lastModified":"2026-05-29 15:19:03",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -21796,7 +21735,7 @@
       {
         "name":"x",
         "unicode":"0078",
-        "lastModified":"2026-05-28 03:11:17",
+        "lastModified":"2026-05-29 15:19:03",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -22006,7 +21945,7 @@
       {
         "name":"y",
         "unicode":"0079",
-        "lastModified":"2026-05-28 02:51:06",
+        "lastModified":"2026-05-29 15:19:03",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -22248,7 +22187,7 @@
       {
         "name":"z",
         "unicode":"007a",
-        "lastModified":"2026-05-29 14:13:51",
+        "lastModified":"2026-05-29 15:23:11",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -42635,7 +42574,7 @@
       {
         "name":"Epsilon",
         "unicode":"0395",
-        "lastModified":"2026-05-28 02:51:06",
+        "lastModified":"2026-05-29 15:19:03",
         "layers":[
           {
             "name":"BoldItalic",
@@ -42967,7 +42906,7 @@
       {
         "name":"Theta",
         "unicode":"0398",
-        "lastModified":"2026-05-28 02:51:06",
+        "lastModified":"2026-05-29 15:19:03",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -47570,7 +47509,7 @@
       {
         "name":"eta",
         "unicode":"03b7",
-        "lastModified":"2026-05-28 02:51:06",
+        "lastModified":"2026-05-29 15:19:03",
         "layers":[
           {
             "name":"mask.BoldItalic",
@@ -60045,7 +59984,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.61",
+                  "id":"elementdata.59",
                   "contours":[
                     {
                       "nodes":[
@@ -60124,7 +60063,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.62",
+                  "id":"elementdata.60",
                   "contours":[
                     {
                       "nodes":[
@@ -60175,7 +60114,7 @@
       {
         "name":"superscriptrightparenthesis",
         "unicode":"207e",
-        "lastModified":"2026-05-13 02:31:59",
+        "lastModified":"2026-05-29 15:22:20",
         "layers":[
           {
             "name":"BoldItalic",
@@ -60183,7 +60122,26 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.59",
+                "elementData":{
+                  "id":"elementdata.61",
+                  "contours":[
+                    {
+                      "nodes":[
+                        "1200 -395",
+                        "1131 -269",
+                        "1110 -273  1091 -274  1070 -274 s",
+                        "876 -274  782 226  782 594 s",
+                        "782 961  876 1451  1070 1454 s",
+                        "1090 1454  1111 1451  1131 1449",
+                        "1200 1575",
+                        "1173 1591  1100 1600  1043 1600 s",
+                        "534 1600  461 823  461 592 s",
+                        "461 362  530 -420  1043 -420 s",
+                        "1100 -420  1173 -411 c"
+                      ]
+                    }
+                  ]
+                },
                 "transform":{
                   "xScale":-0.5,
                   "yxScale":-0.08816349,
@@ -60240,7 +60198,26 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.60",
+                "elementData":{
+                  "id":"elementdata.62",
+                  "contours":[
+                    {
+                      "nodes":[
+                        "100 -396",
+                        "169 -270",
+                        "230 -275",
+                        "529 -270  639 218  639 586 s",
+                        "639 954  529 1454  230 1454 s",
+                        "209 1454  190 1453  169 1449",
+                        "100 1575",
+                        "127 1591  200 1600  257 1600 s {n:'.av02'}",
+                        "770 1600  839 818  839 588 s",
+                        "839 357  766 -421  257 -421 s {n:'.av01'}",
+                        "216 -421  132 -415 c"
+                      ]
+                    }
+                  ]
+                },
                 "transform":{
                   "xScale":0.5,
                   "yxScale":0.08816349,
@@ -62574,7 +62551,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.61",
+                "elementData":"elementdata.59",
                 "transform":{
                   "xScale":0.5,
                   "yxScale":0.08816349,
@@ -62631,7 +62608,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.62",
+                "elementData":"elementdata.60",
                 "transform":{
                   "xScale":0.5,
                   "yxScale":0.08816349,
@@ -62649,7 +62626,7 @@
       {
         "name":"subscriptrightparenthesis",
         "unicode":"208e",
-        "lastModified":"2026-05-13 02:31:51",
+        "lastModified":"2026-05-29 15:22:20",
         "layers":[
           {
             "name":"BoldItalic",
@@ -62657,7 +62634,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.59",
+                "elementData":"elementdata.61",
                 "transform":{
                   "xScale":-0.5,
                   "yxScale":-0.08816349,
@@ -62714,7 +62691,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.60",
+                "elementData":"elementdata.62",
                 "transform":{
                   "xScale":0.5,
                   "yxScale":0.08816349,
