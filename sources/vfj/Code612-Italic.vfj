@@ -46,8 +46,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 \"Y: 171\"",
               "singlev .at01, .sv02 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -88,7 +87,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 \"Y: 144\"",
               "singlev .at01, .sv02 \"Y: 144\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -100,14 +100,14 @@
           {
             "name":"BoldItalic",
             "advanceWidth":1200,
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
             "advanceWidth":1200,
             "advanceHeight":1600,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -155,8 +155,7 @@
             "tth":[
               "alignv .av02 round",
               "alignt .at01 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -204,7 +203,8 @@
             "color":"#00cce5",
             "tth":[
               "alignt .at01 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -271,8 +271,7 @@
               "alignt .at01 \"t: 1\"",
               "singlev .at01, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -315,7 +314,8 @@
               "alignt .at01 \"t: 1\"",
               "singlev .at01, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -386,8 +386,7 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "alignb .ab03 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -459,7 +458,8 @@
               "singlev .at01, .sv04 .none",
               "singlev .av01, .sv05 .none",
               "singlev .sv05, .sv06 \"Y: 162\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -550,8 +550,7 @@
             "tth":[
               "mdeltah .mh01 13-13 2",
               "mdeltah .mh02 13-13 -1"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -609,7 +608,8 @@
               "alignv .av01 round",
               "alignv .av02 round",
               "singlev .av01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -682,8 +682,7 @@
               "alignv .av02 round",
               "alignv .av03 round",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -750,7 +749,8 @@
               "alignv .av02 round",
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -811,8 +811,7 @@
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -868,7 +867,8 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "singlev .ab02, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -913,8 +913,7 @@
               "alignt .at01 \"t: 1\"",
               "singlev .at01, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -929,7 +928,8 @@
             "color":"#00cce5",
             "tth":[
               "alignv .av01 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -987,8 +987,7 @@
               "alignh .ah01 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -1024,7 +1023,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -1077,8 +1077,7 @@
                 "thickness":200
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -1112,7 +1111,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -1171,8 +1171,7 @@
             "color":"#00cce5",
             "tth":[
               "mdeltah .mh01 14-14 2"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -1226,7 +1225,8 @@
             "tth":[
               "mdeltah .mh01 13-13 2",
               "mdeltav .mh01 13-13 1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -1290,8 +1290,7 @@
               "singlev .av01, .sv02 .none",
               "singlev .sv02, .sv03 \"Y: 171\"",
               "singlev .av02, .sv04 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -1326,7 +1325,8 @@
             "tth":[
               "alignv .av04 round",
               "singlev .av04, .sv02 \"Y: 153\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -1399,8 +1399,7 @@
             "color":"#00cce5",
             "tth":[
               "alignv .av01 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -1448,7 +1447,8 @@
             "color":"#00cce5",
             "tth":[
               "alignv .av01 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -1488,8 +1488,7 @@
             "tth":[
               "alignv .av01 round",
               "singlev .av01, .sv01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -1519,7 +1518,8 @@
             "color":"#00cce5",
             "tth":[
               "alignv .av01 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -1561,8 +1561,7 @@
                 "thickness":242
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -1574,7 +1573,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -1623,8 +1623,7 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 .none",
               "singlev .av02, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -1653,7 +1652,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 .none",
               "singlev .av02, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -1717,8 +1717,7 @@
               "alignh .ah04 round",
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -1764,7 +1763,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .av02 \"Y: 171\"",
               "singlev .at01, .av01 \"Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -1819,8 +1819,7 @@
                 "thickness":210
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -1857,7 +1856,8 @@
               "alignt .sv01 \"t: 1\"",
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -1915,8 +1915,7 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -1955,7 +1954,8 @@
               "alignb .ab02 \"b: 0\"",
               "singlev .ab01, .sv01 \"Y: 171\"",
               "singlev .ab02, .sv02 \"Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -2017,8 +2017,7 @@
                 "thickness":210
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -2058,7 +2057,8 @@
               "alignt .at01 \"t: 1\"",
               "alignt .sv01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -2122,8 +2122,7 @@
                 "thickness":210
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -2164,7 +2163,8 @@
               "alignt .at02 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -2229,8 +2229,7 @@
                 "thickness":205
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -2268,7 +2267,8 @@
               "alignt .at01 \"t: 1\"",
               "alignt .at02 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -2346,8 +2346,7 @@
               "alignv .av01 round",
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -2395,7 +2394,8 @@
               "singlev .at01, .sv03 \"Y: 171\"",
               "singlev .ab01, .sv01 \"Y: 171\"",
               "singlev .av01, .sv02 \"Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -2453,8 +2453,7 @@
                 "thickness":205
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -2490,7 +2489,8 @@
               "alignt .at02 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -2584,8 +2584,7 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -2642,7 +2641,8 @@
               "singleh .sh04, .sh05 \"X: 190\"",
               "singleh .ah04, .sh03 \"X: dia Fat\"",
               "singleh .sh01, .sh02 \"X: 190\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -2717,8 +2717,7 @@
               "alignv .av01 round",
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -2762,7 +2761,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 \"Y: 171\"",
               "singlev .av01, .sv02 \"Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -2854,8 +2854,7 @@
               "alignv .av02 round",
               "alignv .av03 round",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -2924,7 +2923,8 @@
               "alignv .av02 round",
               "alignv .av03 round",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -2990,8 +2990,7 @@
               "alignv .av02 round",
               "alignv .av03 round",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -3033,7 +3032,8 @@
               "alignv .av02 round",
               "alignv .av03 round",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -3078,8 +3078,7 @@
               "singlev .av01, .sv01 \"Y: 171\"",
               "interpolatev .iv01 .av01, .av02",
               "singlev .av02, .sv02 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -3120,7 +3119,8 @@
               "singlev .av01, .sv01 \"Y: 153\"",
               "interpolatev .iv01 .av01, .av02",
               "singlev .av02, .sv02 \"Y: 153\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -3179,8 +3179,7 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 .none",
               "singlev .av02, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -3223,7 +3222,8 @@
               "singlev .sv01, .sv02 \"Y: 153\"",
               "singlev .av02, .sv03 .none",
               "singlev .sv03, .sv04 \"Y: 153\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -3268,8 +3268,7 @@
               "singlev .av02, .sv01 \"Y: 171\"",
               "interpolatev .iv01 .av01, .av02",
               "singlev .av01, .sv02 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -3304,7 +3303,8 @@
               "singlev .av02, .sv01 \"Y: 153\"",
               "interpolatev .iv01 .av01, .av02",
               "singlev .av01, .sv02 \"Y: 153\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -3357,8 +3357,7 @@
               "alignb .ab01 \"b: 0\"",
               "mdeltav .av01 16-16 5",
               "mdeltav .mh01 16-16 7"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -3400,7 +3399,8 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -3463,8 +3463,7 @@
               "alignv .av03 round",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -3521,7 +3520,8 @@
               "alignv .av03 round",
               "alignv .av04 round",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -3597,8 +3597,7 @@
               "mdeltav .mh02 13-13 7",
               "mdeltah .mh01 20-20 -1",
               "mdeltah .mh02 13-13 1"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -3643,7 +3642,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -3737,8 +3737,7 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -3791,7 +3790,8 @@
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -3854,8 +3854,7 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -3895,7 +3894,8 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -3976,8 +3976,7 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -4032,7 +4031,8 @@
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -4102,8 +4102,7 @@
               "alignb .ab01 \"b: 0\"",
               "mdeltav .sv02 12-12 -1",
               "mdeltav .mv01 12-12 -1"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -4147,7 +4146,8 @@
               "singlev .ab01, .sv01 .none",
               "singlev .at01, .sv02 .none",
               "singlev .av01, .sv03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -4218,8 +4218,7 @@
               "mdeltav .mv01 15-15 -2",
               "mdeltav .sv03 16-16 -2",
               "mdeltav .sv03 12-12 -2"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -4258,7 +4257,8 @@
               "singlev .ab01, .sv01 .none",
               "singlev .at01, .sv02 .none",
               "singlev .av01, .sv03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -4328,8 +4328,7 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -4368,7 +4367,8 @@
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .av01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -4442,8 +4442,7 @@
               "alignt .at03 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -4486,7 +4485,8 @@
               "singlev .av01, .sv04 \"Y: 162\"",
               "singlev .at01, .sv02 .none",
               "singlev .ab01, .sv03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -4547,8 +4547,7 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -4586,7 +4585,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -4645,8 +4645,7 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -4682,7 +4681,8 @@
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -4739,8 +4739,7 @@
               "alignt .at01 \"t: 1\"",
               "alignt .at02 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -4786,7 +4785,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -4841,8 +4841,7 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -4875,7 +4874,8 @@
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -4961,8 +4961,7 @@
               "mdeltav .mv01 13-13 4",
               "mdeltah .mh01 13-14 2",
               "mdeltah .mh02 13-13 -1"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -5017,7 +5016,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -5090,8 +5090,7 @@
               "alignt .at02 \"t: 1\"",
               "alignt .at03 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -5136,7 +5135,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -5208,8 +5208,7 @@
               "singlev .at01, .sv01 \"Y: 171\"",
               "singlev .sv03, .sv04 .round",
               "singlev .ab01, .sv02 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -5249,7 +5248,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 \"Y: 171\"",
               "singlev .ab01, .sv02 \"Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -5328,8 +5328,7 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -5375,7 +5374,8 @@
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -5455,8 +5455,7 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -5503,7 +5502,8 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -5583,8 +5583,7 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -5633,7 +5632,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -5699,8 +5699,7 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -5738,7 +5737,8 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -5793,8 +5793,7 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -5827,7 +5826,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -5894,8 +5894,7 @@
               "alignt .at03 \"t: 1\"",
               "alignt .sv01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -5932,7 +5931,8 @@
               "alignt .at02 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -5991,8 +5991,7 @@
               "mdeltav .mh01 16-16 -6",
               "mdeltav .mv01 16-16 8",
               "mdeltah .mh01 16-16 -2"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -6027,7 +6026,8 @@
               "alignt .at02 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -6101,8 +6101,7 @@
               "alignb .ab02 \"b: 0\"",
               "alignb .sv02 \"b: 0\"",
               "alignb .ab03 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -6158,7 +6157,8 @@
               "mdeltah .mh01 14-14 1",
               "mdeltah .mh02 14-14 -2",
               "mdeltah .mh02 13-13 -3"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -6219,8 +6219,7 @@
               "alignt .at02 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -6262,7 +6261,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -6323,8 +6323,7 @@
               "alignt .at01 \"t: 1\"",
               "alignt .at02 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -6362,7 +6361,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -6422,8 +6422,7 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -6462,7 +6461,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none",
               "singlev .at01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -6522,8 +6522,7 @@
               "alignt .at01 \"t: 1\"",
               "singlev .at01, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -6560,7 +6559,8 @@
               "alignt .at01 \"t: 1\"",
               "singlev .at01, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -6595,8 +6595,7 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 .none",
               "singlev .av02, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -6625,7 +6624,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 .none",
               "singlev .av02, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -6685,8 +6685,7 @@
               "alignt .at01 \"t: 1\"",
               "singlev .av01, .sv01 .none",
               "singlev .at01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -6723,7 +6722,8 @@
               "alignt .at01 \"t: 1\"",
               "singlev .av01, .sv01 .none",
               "singlev .at01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -6762,8 +6762,7 @@
               "alignt .at01 \"t: 1\"",
               "alignt .at02 \"t: 1\"",
               "singlev .at01, .sv02 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -6798,7 +6797,8 @@
               "alignt .at02 \"t: 1\"",
               "singlev .av01, .sv01 .none",
               "singlev .at01, .sv02 \"Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -6831,8 +6831,7 @@
             "tth":[
               "alignv .av01 round",
               "singlev .av01, .sv01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -6859,7 +6858,8 @@
             "tth":[
               "alignb .ab01 \"b: -500\"",
               "singlev .ab01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -6908,8 +6908,7 @@
               "singleh .ah01, .sh01 \"X: 190\"",
               "alignv .ah01 round",
               "alignt .at01 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -6938,7 +6937,8 @@
               "singleh .ah01, .sh01 \"X: ecart du B\"",
               "alignv .ah01 round",
               "alignt .at01 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -7015,8 +7015,7 @@
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -7061,7 +7060,8 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "singlev .ab02, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -7137,8 +7137,7 @@
               "alignv .av01 round",
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -7180,7 +7179,8 @@
               "alignv .av02 round",
               "alignt .av01 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -7237,8 +7237,7 @@
             "tth":[
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -7272,7 +7271,8 @@
             "tth":[
               "alignt .av01 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -7353,8 +7353,7 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "singlev .at01, .sv01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -7402,14 +7401,15 @@
               "alignb .ab02 \"b: 0\"",
               "singlev .av02, .sv01 .none",
               "singlev .ab02, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"e",
         "unicode":"0065",
-        "lastModified":"2026-06-04 03:24:49",
+        "lastModified":"2026-06-09 03:01:10",
         "layers":[
           {
             "name":"BoldItalic",
@@ -7478,8 +7478,7 @@
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "interpolatev .iv01 .at01, .ab01"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -7524,7 +7523,8 @@
               "alignt .av01 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .av02, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -7603,8 +7603,7 @@
               "alignv .av01 round",
               "alignv .av02 round",
               "alignt .at01 \"t: x\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -7655,7 +7654,8 @@
               "alignv .av02 round",
               "alignv .av03 round",
               "singlev .av01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -7737,8 +7737,7 @@
               "alignt .at02 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: -500\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -7787,7 +7786,8 @@
               "alignt .av03 \"t: x\"",
               "alignt .av01 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -7860,8 +7860,7 @@
               "alignv .av01 round",
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -7900,7 +7899,8 @@
               "alignt .av02 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -7971,8 +7971,7 @@
               "alignb .ab01 \"b: 0\"",
               "interpolatev .mv01 .sv02, .at01",
               "mdeltav .mv01 12-12 2"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -8019,7 +8018,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -8088,8 +8088,7 @@
               "alignb .ab01 \"b: -500\"",
               "mdeltav .mv01 12-12 2",
               "interpolatev .iv01 .at01, .at02"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -8135,7 +8134,8 @@
               "alignt .at01 \"t: 1\"",
               "singlev .at01, .sv01 .none",
               "singlev .av02, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -8203,8 +8203,7 @@
               "alignv .av01 round",
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -8244,7 +8243,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .av01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -8304,8 +8304,7 @@
             "tth":[
               "alignv .av01 round",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -8342,7 +8341,8 @@
               "alignv .av01 round",
               "alignb .ab01 \"b: 0\"",
               "singlev .av01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -8409,8 +8409,7 @@
               "mdeltah .mh04 12-12 2",
               "mdeltah .mh05 12-12 -2",
               "mdeltah .mh06 12-12 3"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -8461,7 +8460,8 @@
               "singlev .sv02, .sv03 .none",
               "singlev .sv03, .sv04 .none",
               "singlev .sv04, .sv05 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -8528,8 +8528,7 @@
               "alignt .at01 \"t: x\"",
               "alignt .at02 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -8568,14 +8567,15 @@
               "alignt .av01 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"o",
         "unicode":"006f",
-        "lastModified":"2026-06-06 01:11:28",
+        "lastModified":"2026-06-09 03:01:10",
         "layers":[
           {
             "name":"BoldItalic",
@@ -8634,8 +8634,7 @@
             "tth":[
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -8648,20 +8647,20 @@
                   "contours":[
                     {
                       "nodes":[
-                        "517 -17 s {n:'.ab01'}",
-                        "253 -17  74 177  74 473 s",
-                        "74 854  322 1117  676 1117 s {n:'.av01'}",
-                        "948 1117  1126 936  1126 631 s",
-                        "1126 234  892 -17 c"
+                        "497 -17 s {n:'.ab01'}",
+                        "243 -17  74 177  74 473 s",
+                        "74 854  312 1117  656 1117 s {n:'.av01'}",
+                        "918 1117  1086 936  1086 631 s",
+                        "1086 234  862 -17 c"
                       ]
                     },
                     {
                       "nodes":[
-                        "943 622 s",
-                        "943 822  847 963  656 963 s {n:'.sv01'}",
-                        "396 963  257 715  257 480 s",
-                        "257 279  347 138  536 138 s {n:'.sv02'}",
-                        "791 138  943 389 c"
+                        "903 622 s",
+                        "903 822  817 963  636 963 s {n:'.sv01'}",
+                        "386 963  257 715  257 480 s",
+                        "257 279  337 138  516 138 s {n:'.sv02'}",
+                        "761 138  903 389 c"
                       ]
                     }
                   ]
@@ -8675,7 +8674,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .av01, .sv01 \"Y: 153\"",
               "singlev .ab01, .sv02 \"Y: 153\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -8752,8 +8752,7 @@
               "alignt .at02 \"t: x\"",
               "alignb .ab01 \"b: -500\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -8801,7 +8800,8 @@
               "singlev .ab01, .sv03 \"Y: 162\"",
               "singlev .av03, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -8876,8 +8876,7 @@
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: -500\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -8921,7 +8920,8 @@
               "singlev .av02, .sv02 \"Y: 153\"",
               "singlev .ab01, .sv03 \"Y: 153\"",
               "singlev .av01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -8982,8 +8982,7 @@
               "alignt .at01 \"t: x\"",
               "alignt .at02 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -9022,7 +9021,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .av01, .sv02 \"Y: 153\"",
               "singlev .ab01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -9088,8 +9088,7 @@
             "tth":[
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -9127,7 +9126,8 @@
             "tth":[
               "alignt .av01 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -9196,8 +9196,7 @@
               "alignv .av01 round",
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -9238,7 +9237,8 @@
               "alignt .av01 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .av01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -9307,8 +9307,7 @@
               "alignt .at03 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -9348,7 +9347,8 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "singlev .ab02, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -9408,8 +9408,7 @@
               "alignt .at02 \"t: x\"",
               "alignt .at03 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -9450,7 +9449,8 @@
               "alignt .av02 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .av01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -9541,8 +9541,7 @@
               "alignt .at03 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -9616,7 +9615,8 @@
               "singlev .av03, .sv01 .none",
               "singlev .ab01, .sv02 .none",
               "singlev .av04, .sv03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -9677,8 +9677,7 @@
               "alignt .at03 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -9743,7 +9742,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .av01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -9809,8 +9809,7 @@
               "alignt .at01 \"t: x\"",
               "alignt .at02 \"t: x\"",
               "alignt .at03 \"t: x\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -9858,7 +9857,8 @@
               "alignt .av02 \"t: x\"",
               "alignt .av01 \"t: x\"",
               "singlev .av04, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -9912,8 +9912,7 @@
             "tth":[
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -9952,7 +9951,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -10039,8 +10039,7 @@
               "alignv .av01 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .at01, .av01"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -10096,7 +10095,8 @@
               "alignv .av01 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .at01, .av01"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -10149,8 +10149,7 @@
               "alignv .av01 round",
               "alignt .at01 \"t: 1\"",
               "singlev .av01, .sv01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -10178,7 +10177,8 @@
               "alignv .av01 round",
               "alignt .at01 \"t: 1\"",
               "singlev .av01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -10254,8 +10254,7 @@
               "alignv .av01 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .at01, .av01"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -10301,7 +10300,8 @@
               "alignv .av01 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .at01, .av01"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -10334,8 +10334,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -10362,7 +10361,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -10374,14 +10374,14 @@
           {
             "name":"BoldItalic",
             "advanceWidth":1200,
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
             "advanceWidth":1200,
             "advanceHeight":1600,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -10434,8 +10434,7 @@
               "alignv .av03 round",
               "alignt .at01 \"t: x\"",
               "singlev .av01, .sv01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -10477,7 +10476,8 @@
                 "position":600
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -10570,8 +10570,7 @@
               "alignv .av01 round",
               "alignv .av02 round",
               "singlev .av02, .sv01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -10621,7 +10620,8 @@
               "mdeltav .mv01 14-14 -1",
               "mdeltav .mv01 13-13 -2",
               "singlev .av02, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -10695,8 +10695,7 @@
               "singlev .sv01, .sv02 \"Y: 171\"",
               "singlev .av01, .sv03 .none",
               "singlev .sv03, .sv04 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -10745,7 +10744,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .av01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -10807,8 +10807,7 @@
               "singlev .av03, .sv01 .none",
               "singlev .sv01, .sv02 .none",
               "singlev .sv02, .sv03 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -10862,7 +10861,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"Y: 162\"",
               "singlev .av02, .sv02 \"Y: 153\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -10967,8 +10967,7 @@
               "singlev .ab01, .sv05 .none",
               "singlev .sv04, .sv06 .none",
               "mdeltav .sv06 12-12 -2"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -11027,7 +11026,8 @@
               "singlev .av01, .sv02 .none",
               "singlev .av02, .sv03 .none",
               "singlev .ab01, .sv04 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -11073,8 +11073,7 @@
               "singlev .av01, .sv01 .none",
               "singlev .av02, .sv02 .none",
               "singlev .av03, .sv03 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -11114,7 +11113,8 @@
               "singlev .av03, .sv01 .none",
               "singlev .av02, .sv02 .none",
               "singlev .av01, .sv03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -11213,8 +11213,7 @@
               "interpolatev .iv04 .iv02, .iv05",
               "interpolatev .iv06 .iv05, .iv07",
               "interpolatev .iv08 .iv03, .iv07"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -11277,7 +11276,8 @@
               "singlev .av03, .sv02 .none",
               "interpolatev .iv01 .at01, .iv02",
               "interpolatev .iv02 .iv03, .iv01"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -11327,8 +11327,7 @@
               "singlev .mh01, .sv01 \"Y: 171\"",
               "singlev .av02, .mh02 .none",
               "singlev .mh02, .sv02 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -11360,7 +11359,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -11430,8 +11430,7 @@
                 "thickness":165
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -11478,7 +11477,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -11558,8 +11558,7 @@
                 "thickness":163
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -11606,7 +11605,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -11661,8 +11661,7 @@
               "alignt .at02 \"t: x\"",
               "alignb .ab02 \"b: 0\"",
               "interpolatev .iv02 .at02, .ab02"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -11711,7 +11710,8 @@
               "alignv .av02 round",
               "alignt .at02 \"t: x\"",
               "interpolatev .iv02 .at02, .av02"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -11752,8 +11752,7 @@
               "singlev .av02, .sv02 .none",
               "singlev .av01, .sv03 \"Y: 171\"",
               "singlev .sv03, .sv04 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -11787,7 +11786,8 @@
               "singlev .av01, .sv01 .none",
               "singlev .av02, .sv02 .none",
               "singlev .av01, .sv03 \"Y: 153\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -11799,14 +11799,14 @@
           {
             "name":"BoldItalic",
             "advanceWidth":0,
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
             "advanceWidth":0,
             "advanceHeight":1600,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -11900,8 +11900,7 @@
                 "thickness":66
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -11962,7 +11961,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -11996,8 +11996,7 @@
               "alignt .at01 \"t: 1\"",
               "singlev .at01, .sv01 .none",
               "singlev .sv01, .sv02 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -12025,7 +12024,8 @@
               "alignt .at01 \"t: 1\"",
               "singlev .at01, .sv01 .none",
               "singlev .sv01, .sv02 \"Y: 162\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -12070,8 +12070,7 @@
               "alignv .av02 round",
               "alignv .av03 round",
               "alignt .at01 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -12104,7 +12103,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -12193,8 +12193,7 @@
               "singlev .av03, .sv04 .none",
               "singlev .hr01, .sv05 .none",
               "singlev .sv05, .sv06 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -12261,7 +12260,8 @@
                 "thickness":155
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -12407,8 +12407,7 @@
             "tth":[
               "alignv .av01 round",
               "alignt .at01 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -12436,7 +12435,8 @@
             "tth":[
               "alignv .av01 round",
               "alignt .at01 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -12492,8 +12492,7 @@
               "singlev .ab01, .sv01 .none",
               "singlev .at01, .sv02 .none",
               "singlev .av01, .sv03 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -12541,7 +12540,8 @@
               "alignb .ab02 \"b: 0\"",
               "singlev .av04, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -12605,8 +12605,7 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignt .at01 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -12641,7 +12640,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignt .at01 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -12696,8 +12696,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -12740,7 +12739,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -12800,8 +12800,7 @@
               "alignv .av01 round",
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -12857,7 +12856,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none",
               "singlev .av01, .sv02 \"Y: 144\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -12971,8 +12971,7 @@
                 "thickness":163
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -13013,7 +13012,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -13068,8 +13068,7 @@
               "alignt .at02 \"t: x\"",
               "alignb .ab02 \"b: 0\"",
               "interpolatev .iv02 .at02, .ab02"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -13118,7 +13117,8 @@
               "alignv .av02 round",
               "alignt .at02 \"t: x\"",
               "interpolatev .iv02 .av02, .at02"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -13428,8 +13428,7 @@
                 "position":591
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -13473,7 +13472,8 @@
                 "position":1122
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -13506,8 +13506,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -13536,7 +13535,8 @@
               "singleh .ah01, .sh01 \"X: ecart du B\"",
               "alignv .ah01 round",
               "alignt .at01 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -13611,8 +13611,7 @@
               "singleh .hr01, .sh01 \"X: 190\"",
               "alignv .hr01 round",
               "alignt .at02 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -13642,7 +13641,8 @@
               "singleh .ah01, .sh01 \"X: ecart du B\"",
               "alignv .ah01 round",
               "alignt .at02 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -13715,8 +13715,7 @@
               "mdeltav .mh02 13-13 7",
               "alignv .av02 round",
               "alignt .hr01 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -13744,7 +13743,8 @@
               "singlev .av01, .sv02 .none",
               "alignv .av02 round",
               "alignt .at02 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -13797,8 +13797,7 @@
             "tth":[
               "alignv .av01 round",
               "singlev .av01, .sv01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -13831,7 +13830,8 @@
             "tth":[
               "alignv .av01 round",
               "singlev .av01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -13904,8 +13904,7 @@
               "mdeltav .mh02 13-13 7",
               "alignv .av02 round",
               "singlev .av02, .hr01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -13933,7 +13932,8 @@
               "singlev .av01, .sv02 .none",
               "alignv .av02 round",
               "singlev .av02, .sv03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -13970,8 +13970,7 @@
             "color":"#00cce5",
             "tth":[
               "mdeltav .mv01 21-21 2"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -13999,7 +13998,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -14059,8 +14059,7 @@
               "mdeltav .mh02 20-20 8",
               "mdeltav .mh02 13-13 7",
               "mdeltav .mv02 21-21 2"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -14086,7 +14085,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -14155,8 +14155,7 @@
               "singlev .mh03, .sv03 \"Y: 171\"",
               "singlev .av03, .mh04 .none",
               "singlev .mh04, .sv04 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -14182,7 +14181,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -14230,8 +14230,7 @@
               "alignt .at01 \"t: x\"",
               "singlev .av02, .sv01 .none",
               "singlev .av03, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -14269,7 +14268,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -14334,8 +14334,7 @@
               "alignt .at02 \"t: x\"",
               "singlev .av03, .sv03 .none",
               "singlev .av04, .sv04 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -14363,7 +14362,8 @@
               "singlev .av01, .sv02 .none",
               "alignv .av02 round",
               "alignv .av03 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -14427,8 +14427,7 @@
               "singlev .at01, .sv02 .none",
               "singlev .av02, .sv03 .none",
               "singlev .av01, .sv04 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -14492,7 +14491,8 @@
               "singlev .at01, .sv02 .none",
               "singlev .av02, .sv03 .none",
               "singlev .av01, .sv04 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -14557,8 +14557,7 @@
               "alignv .av01 round",
               "alignb .ab02 \"b: 0\"",
               "singlev .ab02, .sv01 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -14584,7 +14583,8 @@
               "alignb .ab02 \"b: 0\"",
               "singlev .ab02, .sv01 .none",
               "singlev .av01, .sv02 \"Y: 144\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -14656,8 +14656,7 @@
               "singleh .hr01, .sh01 \"X: 190\"",
               "alignv .hr01 round",
               "alignt .at02 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -14688,7 +14687,8 @@
               "singleh .ah01, .sh01 \"X: ecart du B\"",
               "alignv .ah01 round",
               "alignt .at02 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -14758,8 +14758,7 @@
               "mdeltav .mv01 12-12 -1",
               "alignv .av02 round",
               "alignt .hr01 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -14788,7 +14787,8 @@
               "singlev .av01, .sv03 .none",
               "alignv .av02 round",
               "alignt .at02 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -14858,8 +14858,7 @@
               "mdeltav .mv01 12-12 -1",
               "alignv .av02 round",
               "singlev .av02, .hr01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -14888,7 +14887,8 @@
               "singlev .av01, .sv03 .none",
               "alignv .av02 round",
               "singlev .av02, .sv04 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -14954,8 +14954,7 @@
               "singlev .mh01, .sv04 \"Y: 171\"",
               "singlev .av03, .mh02 .none",
               "singlev .mh02, .sv05 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -14982,7 +14981,8 @@
               "singlev .ab01, .sv01 .none",
               "singlev .at01, .sv02 .none",
               "singlev .av01, .sv03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -15051,8 +15051,7 @@
               "singleh .hr01, .sh01 \"X: 190\"",
               "alignv .hr01 round",
               "alignt .at02 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -15084,7 +15083,8 @@
               "singleh .ah01, .sh01 \"X: ecart du B\"",
               "alignv .ah01 round",
               "alignt .at02 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -15151,8 +15151,7 @@
               "singlev .ab01, .sv02 .none",
               "alignv .av01 round",
               "alignt .hr01 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -15182,7 +15181,8 @@
               "singlev .ab01, .sv02 .none",
               "alignv .av01 round",
               "alignt .at02 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -15249,8 +15249,7 @@
               "singlev .ab01, .sv02 .none",
               "alignv .av01 round",
               "singlev .av01, .hr01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -15280,7 +15279,8 @@
               "singlev .ab01, .sv02 .none",
               "alignv .av01 round",
               "singlev .av01, .sv03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -15343,8 +15343,7 @@
               "singlev .mh01, .sv03 \"Y: 171\"",
               "singlev .av02, .mh02 .none",
               "singlev .mh02, .sv04 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -15372,7 +15371,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -15448,8 +15448,7 @@
                 "thickness":351
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -15493,7 +15492,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -15551,8 +15551,7 @@
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none",
               "mdeltav .mv01 21-21 2"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -15579,7 +15578,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -15649,8 +15649,7 @@
               "singleh .ah01, .sh01 \"X: 190\"",
               "alignv .ah01 round",
               "alignt .at02 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -15680,7 +15679,8 @@
               "singleh .ah01, .sh01 \"X: ecart du B\"",
               "alignv .ah01 round",
               "alignt .at02 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -15748,8 +15748,7 @@
               "alignb .ab01 \"b: 0\"",
               "alignv .av01 round",
               "alignt .at02 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -15777,7 +15776,8 @@
               "alignb .ab01 \"b: 0\"",
               "alignv .av01 round",
               "alignt .at02 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -15845,8 +15845,7 @@
               "alignb .ab01 \"b: 0\"",
               "alignv .av01 round",
               "singlev .av01, .sv01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -15874,7 +15873,8 @@
               "alignb .ab01 \"b: 0\"",
               "alignv .av01 round",
               "singlev .av01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -15926,8 +15926,7 @@
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "mdeltav .mv01 21-21 2"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -15953,7 +15952,8 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -16017,8 +16017,7 @@
               "singlev .mh01, .sv01 \"Y: 171\"",
               "singlev .av02, .mh02 .none",
               "singlev .mh02, .sv02 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -16044,7 +16043,8 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -16096,8 +16096,7 @@
               "singlev .ih02, .ih03 .none",
               "singlev .ih05, .ih06 .none",
               "interpolatev .iv02 .ih03, .ih06"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -16137,7 +16136,8 @@
             "tth":[
               "interpolateh .ih01 .ih02, .ih03",
               "interpolateh .ih04 .ih05, .ih06"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -16206,8 +16206,7 @@
                 "thickness":349
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -16248,7 +16247,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -16318,8 +16318,7 @@
               "singleh .ah01, .sh01 \"X: 190\"",
               "alignv .ah01 round",
               "alignt .at03 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -16348,7 +16347,8 @@
               "singleh .ah01, .sh01 \"X: ecart du B\"",
               "alignv .ah01 round",
               "alignt .at03 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -16416,8 +16416,7 @@
               "singlev .at01, .sv01 .none",
               "alignv .av01 round",
               "alignt .at03 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -16444,7 +16443,8 @@
               "singlev .at01, .sv01 .none",
               "alignv .av01 round",
               "alignt .at03 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -16512,8 +16512,7 @@
               "singlev .at01, .sv01 .none",
               "alignv .av01 round",
               "singlev .av01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -16540,7 +16539,8 @@
               "singlev .at01, .sv01 .none",
               "alignv .av01 round",
               "singlev .av01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -16604,8 +16604,7 @@
               "singlev .mh01, .sv02 \"Y: 171\"",
               "singlev .av02, .mh02 .none",
               "singlev .mh02, .sv03 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -16630,7 +16629,8 @@
               "alignt .at02 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -16698,8 +16698,7 @@
               "singlev .ab01, .sv02 .none",
               "alignv .av01 round",
               "alignt .hr01 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -16730,7 +16729,8 @@
               "singlev .ab01, .sv02 .none",
               "alignv .av01 round",
               "alignt .at03 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -16820,8 +16820,7 @@
               "singlev .av03, .sv03 .none",
               "singlev .av01, .sv04 .none",
               "singlev .ab01, .sv05 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -16872,7 +16871,8 @@
               "singlev .av03, .sv03 .none",
               "singlev .ab01, .sv04 .none",
               "singlev .av02, .sv05 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -16923,8 +16923,7 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "interpolatev .iv01 .av01, .ab02"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -16969,7 +16968,8 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "interpolatev .iv01 .iv02, .iv03"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -17042,8 +17042,7 @@
               "singleh .ah01, .sh01 \"X: 190\"",
               "alignv .ah01 round",
               "alignt .at02 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -17070,7 +17069,8 @@
               "singleh .ah01, .sh01 \"X: ecart du B\"",
               "alignv .ah01 round",
               "alignt .at01 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -17140,8 +17140,7 @@
               "singlev .ab02, .sv01 .none",
               "alignv .av01 round",
               "alignt .at02 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -17166,7 +17165,8 @@
               "singlev .ab02, .sv01 .none",
               "alignv .av02 round",
               "alignt .at01 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -17236,8 +17236,7 @@
               "singlev .ab02, .sv01 .none",
               "alignv .av01 round",
               "singlev .av01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -17262,7 +17261,8 @@
               "singlev .ab02, .sv01 .none",
               "alignv .av02 round",
               "singlev .av02, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -17320,8 +17320,7 @@
               "alignb .ab02 \"b: 0\"",
               "singlev .ab02, .sv01 .none",
               "mdeltav .mv01 21-21 2"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -17345,7 +17344,8 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "singlev .ab02, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -17412,8 +17412,7 @@
               "singlev .mh01, .sv02 \"Y: 171\"",
               "singlev .av02, .mh02 .none",
               "singlev .mh02, .sv03 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -17436,7 +17435,8 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "singlev .ab02, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -17498,8 +17498,7 @@
               "alignt .at02 \"t: x\"",
               "singlev .av02, .sv02 .none",
               "singlev .av03, .sv03 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -17524,7 +17523,8 @@
               "singlev .ab02, .sv01 .none",
               "alignv .av02 round",
               "alignv .av03 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -17600,8 +17600,7 @@
               "mdeltav .mh02 13-13 -8",
               "mdeltav .mv02 13-13 -1",
               "mdeltav .mh03 31-31 1"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -17659,7 +17658,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -17711,8 +17711,7 @@
               "singlev .ab02, .sv01 .round",
               "mdeltah .mh01 20-20 -4",
               "mdeltah .mh02 20-20 3"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -17752,7 +17751,8 @@
               "mdeltav .mh02 13-13 -2",
               "mdeltav .mh05 16-16 5",
               "mdeltav .mh06 16-16 -1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -17851,8 +17851,7 @@
               "singleh .ah01, .sh01 \"X: 208\"",
               "alignv .ah01 round",
               "alignt .at02 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -17880,7 +17879,8 @@
               "singleh .ah01, .sh01 \"X: 176\"",
               "alignv .ah01 round",
               "alignt .at01 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -17977,8 +17977,7 @@
               "singlev .av01, .sv01 .none",
               "alignv .av02 round",
               "alignt .at02 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -18004,7 +18003,8 @@
               "singlev .av02, .sv01 .none",
               "alignv .av03 round",
               "alignt .at01 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -18101,8 +18101,7 @@
               "singlev .av01, .sv01 .none",
               "alignv .av02 round",
               "singlev .av02, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -18128,7 +18127,8 @@
               "singlev .av02, .sv01 .none",
               "alignv .av03 round",
               "singlev .av03, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -18221,8 +18221,7 @@
               "singlev .mh01, .sv02 \"Y: 171\"",
               "singlev .av03, .mh02 .none",
               "singlev .mh02, .sv03 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -18246,7 +18245,8 @@
               "alignv .av02 round",
               "alignb .ab01 \"b: 0\"",
               "singlev .av02, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -18306,8 +18306,7 @@
               "alignb .ab01 \"b: 0\"",
               "interpolatev .mv01 .sv02, .at01",
               "mdeltav .mv01 12-12 2"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -18348,7 +18347,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -18401,8 +18401,7 @@
                 "thickness":190
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -18420,7 +18419,8 @@
                 }
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -18473,8 +18473,7 @@
                 "thickness":190
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -18492,7 +18491,8 @@
                 }
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -18545,8 +18545,7 @@
                 "thickness":190
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -18564,7 +18563,8 @@
                 }
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -18602,8 +18602,7 @@
                 "thickness":190
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -18621,7 +18620,8 @@
                 }
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -18710,8 +18710,7 @@
               "alignb .ab01 \"b: 0\"",
               "doublev .dv01, .dv02 .none",
               "singlev .av01, .sv01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -18769,7 +18768,8 @@
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .av02, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -18827,8 +18827,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none",
               "mdeltav .mv01 21-21 2"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -18853,14 +18852,15 @@
               "alignv .av02 round",
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"ograve",
         "unicode":"00f2",
-        "lastModified":"2026-05-31 01:56:54",
+        "lastModified":"2026-06-09 03:01:09",
         "layers":[
           {
             "name":"BoldItalic",
@@ -18919,8 +18919,7 @@
               "singleh .ah01, .sh01 \"X: 190\"",
               "alignv .ah01 round",
               "alignt .at02 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -18946,14 +18945,15 @@
               "singleh .ah01, .sh01 \"X: ecart du B\"",
               "alignv .ah01 round",
               "alignt .at01 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"oacute",
         "unicode":"00f3",
-        "lastModified":"2026-05-31 01:56:54",
+        "lastModified":"2026-06-09 03:01:09",
         "layers":[
           {
             "name":"BoldItalic",
@@ -19010,8 +19010,7 @@
               "alignb .ab01 \"b: 0\"",
               "alignv .av01 round",
               "alignt .at02 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -19035,14 +19034,15 @@
               "alignb .ab01 \"b: 0\"",
               "alignv .av02 round",
               "alignt .at01 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"ocircumflex",
         "unicode":"00f4",
-        "lastModified":"2026-05-31 01:56:54",
+        "lastModified":"2026-06-09 03:01:09",
         "layers":[
           {
             "name":"BoldItalic",
@@ -19099,8 +19099,7 @@
               "alignb .ab01 \"b: 0\"",
               "alignv .av01 round",
               "singlev .av01, .sv01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -19121,14 +19120,15 @@
               "alignb .ab01 \"b: 0\"",
               "alignv .av02 round",
               "singlev .av02, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"otilde",
         "unicode":"00f5",
-        "lastModified":"2026-05-31 01:56:54",
+        "lastModified":"2026-06-09 03:01:09",
         "layers":[
           {
             "name":"BoldItalic",
@@ -19173,8 +19173,7 @@
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "mdeltav .mv01 21-21 2"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -19197,14 +19196,15 @@
             "tth":[
               "alignv .av01 round",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"odieresis",
         "unicode":"00f6",
-        "lastModified":"2026-05-31 01:56:54",
+        "lastModified":"2026-06-09 03:01:09",
         "layers":[
           {
             "name":"BoldItalic",
@@ -19257,8 +19257,7 @@
               "singlev .mh01, .sv01 \"Y: 171\"",
               "singlev .av02, .mh02 .none",
               "singlev .mh02, .sv02 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -19280,7 +19279,8 @@
             "tth":[
               "alignv .av01 round",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -19344,8 +19344,7 @@
                 "thickness":216
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -19416,7 +19415,8 @@
                 "thickness":155
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -19485,8 +19485,7 @@
                 "thickness":326
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -19527,7 +19526,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -19602,8 +19602,7 @@
               "singleh .ah01, .sh01 \"X: 190\"",
               "alignv .ah01 round",
               "alignt .at04 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -19632,7 +19631,8 @@
               "singleh .ah01, .sh01 \"X: ecart du B\"",
               "alignv .ah01 round",
               "alignt .at01 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -19705,8 +19705,7 @@
               "singlev .ab01, .sv02 .none",
               "alignv .av01 round",
               "alignt .at04 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -19733,7 +19732,8 @@
               "singlev .ab02, .sv01 .none",
               "alignv .av03 round",
               "alignt .at01 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -19806,8 +19806,7 @@
               "singlev .ab01, .sv02 .none",
               "alignv .av01 round",
               "singlev .av01, .sv03 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -19834,7 +19833,8 @@
               "singlev .ab02, .sv01 .none",
               "alignv .av03 round",
               "singlev .av03, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -19903,8 +19903,7 @@
               "singlev .mh01, .sv03 \"Y: 171\"",
               "singlev .av02, .mh02 .none",
               "singlev .mh02, .sv04 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -19929,7 +19928,8 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "singlev .ab02, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -19990,8 +19990,7 @@
               "singlev .at01, .sv01 .none",
               "alignv .av02 round",
               "alignt .at04 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -20018,7 +20017,8 @@
               "singlev .av04, .sv01 .none",
               "alignv .av05 round",
               "alignt .at01 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -20074,8 +20074,7 @@
               "alignt .at02 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .av01, .sv01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -20123,7 +20122,8 @@
               "alignv .av02 round",
               "alignt .at01 \"t: 1\"",
               "singlev .av02, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -20180,8 +20180,7 @@
               "singlev .mh01, .sv02 \"Y: 171\"",
               "singlev .av03, .mh02 .none",
               "singlev .mh02, .sv03 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -20206,7 +20205,8 @@
               "alignv .av03 round",
               "alignv .av04 round",
               "singlev .av04, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -20296,8 +20296,7 @@
               "singlev .at01, .sv01 .none",
               "singlev .av01, .sv02 .none",
               "singlev .ab01, .sv03 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -20355,7 +20354,8 @@
               "singlev .at01, .sv01 .none",
               "singlev .av01, .sv02 .none",
               "singlev .ab01, .sv03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -20418,8 +20418,7 @@
             "tth":[
               "mdeltav .mv01 19-19 2",
               "mdeltav .mv02 38-38 -2"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -20485,7 +20484,8 @@
             "color":"#00cce5",
             "tth":[
               "mdeltav .mv01 38-38 -1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -20538,8 +20538,7 @@
               "alignt .ih02 \"t: 1\"",
               "singlev .ih02, .sv01 .none",
               "singlev .sv01, .ih03 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -20574,7 +20573,8 @@
               "alignv .av01 round",
               "alignt .ih02 \"t: 1\"",
               "singlev .ih02, .ih03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -20642,8 +20642,7 @@
               "alignt .ih02 \"t: 1\"",
               "singlev .ih02, .sv01 .none",
               "singlev .sv01, .ih03 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -20673,7 +20672,8 @@
               "alignv .av01 round",
               "alignt .ih02 \"t: 1\"",
               "singlev .ih02, .ih03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -20740,8 +20740,7 @@
               "alignt .ih02 \"t: 1\"",
               "singlev .ih02, .sv01 .none",
               "singlev .sv01, .ih03 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -20767,7 +20766,8 @@
               "alignv .av02 round",
               "alignt .ih02 \"t: 1\"",
               "singlev .ih02, .ih03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -20831,8 +20831,7 @@
               "singlev .mh01, .sv03 \"Y: 171\"",
               "singlev .av02, .mh02 .none",
               "singlev .mh02, .sv04 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -20861,7 +20860,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -20917,8 +20917,7 @@
               "singlev .av03, .sv01 .none",
               "singlev .sv01, .sv02 \"Y: 171\"",
               "singlev .sv02, .sv03 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -20971,7 +20970,8 @@
               "mdeltav .mh01 20-20 6",
               "mdeltav .mh01 14-14 4",
               "mdeltav .mh01 15-15 3"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -21010,8 +21010,7 @@
               "alignt .ih02 \"t: 1\"",
               "singlev .ih02, .sv01 .none",
               "singlev .sv01, .ih03 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -21043,7 +21042,8 @@
               "alignv .av01 round",
               "alignt .ih02 \"t: 1\"",
               "singlev .ih02, .ih03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -21077,8 +21077,7 @@
               "alignt .at01 \"t: 1\"",
               "singlev .at01, .sv01 .none",
               "singlev .sv01, .sv02 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -21106,7 +21105,8 @@
               "alignt .at01 \"t: 1\"",
               "singlev .at01, .sv01 .none",
               "singlev .sv01, .sv02 \"Y: 153\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -21165,8 +21165,7 @@
               "alignv .av01 round",
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -21225,7 +21224,8 @@
               "mdeltav .mh01 19-19 1",
               "singlev .av01, .sv01 \"Y: 144\"",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -21272,8 +21272,7 @@
               "singlev .at01, .sv01 .none",
               "singlev .at05, .sv02 .none",
               "singlev .at02, .sv03 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -21312,7 +21311,8 @@
               "alignt .at02 \"t: 1\"",
               "singlev .av01, .sv01 .none",
               "singlev .av02, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -21389,8 +21389,7 @@
               "mdeltav .mh01 13-13 3",
               "mdeltav .mh02 20-20 8",
               "mdeltav .mh02 13-13 7"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -21409,7 +21408,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -21504,8 +21504,7 @@
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -21558,7 +21557,8 @@
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -21614,8 +21614,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none",
               "singlev .at01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -21649,7 +21648,8 @@
               "singlev .ab01, .sv01 .none",
               "singlev .at01, .sv02 .none",
               "singlev .sv02, .sv03 \"Y: 162\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -21711,8 +21711,7 @@
               "alignt .at01 \"t: 1\"",
               "alignb .ih02 \"b: 0\"",
               "singlev .ih02, .ih03 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -21754,7 +21753,8 @@
               "alignt .at01 \"t: 1\"",
               "alignb .ih02 \"b: 0\"",
               "singlev .ih02, .ih03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -21826,8 +21826,7 @@
               "mdeltav .sv02 12-12 -1",
               "singlev .av01, .sv03 .none",
               "mdeltav .mv01 12-12 -1"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -21870,7 +21869,8 @@
               "singlev .ab01, .sv01 .none",
               "singlev .at01, .sv02 .none",
               "singlev .av01, .sv03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -21926,8 +21926,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none",
               "singlev .at01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -21966,7 +21965,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none",
               "singlev .at01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -22043,8 +22043,7 @@
               "singlev .av01, .sv01 .none",
               "singlev .at01, .sv02 .none",
               "singlev .ab01, .sv03 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -22086,7 +22085,8 @@
               "singlev .av01, .sv01 .none",
               "singlev .at01, .sv02 .none",
               "singlev .ab01, .sv03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -22160,8 +22160,7 @@
                 "thickness":349
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -22202,7 +22201,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -22264,8 +22264,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -22302,7 +22301,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -22361,8 +22361,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -22402,7 +22401,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -22460,8 +22460,7 @@
               "singlev .ab02, .ih03 .none",
               "singlev .av01, .sv01 .none",
               "singlev .ab01, .ih02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -22496,7 +22495,8 @@
               "alignt .at01 \"t: 1\"",
               "alignb .ih02 \"b: 0\"",
               "singlev .ih02, .ih03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -22578,8 +22578,7 @@
               "mdeltav .mv01 13-13 4",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -22628,7 +22627,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -22702,8 +22702,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -22747,7 +22746,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -22803,8 +22803,7 @@
               "singlev .sv03, .sv04 \"Y: 171\"",
               "singlev .at01, .sv05 .none",
               "singlev .sv05, .sv06 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -22866,7 +22865,8 @@
               "mdeltav .mh02 15-15 6",
               "mdeltav .mh02 27-27 4",
               "mdeltav .mh02 33-33 3"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -22931,8 +22931,7 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -22948,7 +22947,8 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -23022,8 +23022,7 @@
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -23063,7 +23062,8 @@
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -23125,8 +23125,7 @@
               "singlev .ab01, .sv01 .none",
               "interpolatev .iv01 .at01, .ab01",
               "singlev .at01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -23171,7 +23170,8 @@
               "singlev .ab01, .sv01 .none",
               "interpolatev .iv01 .at01, .ab01",
               "singlev .at01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -23227,8 +23227,7 @@
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -23261,7 +23260,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -23323,8 +23323,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -23361,7 +23360,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -23456,8 +23456,7 @@
               "singlev .sv03, .sv04 .none",
               "singlev .av02, .sv05 .none",
               "singlev .ab01, .sv06 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -23520,7 +23519,8 @@
               "singlev .sv01, .sv02 .none",
               "singlev .sv02, .sv03 .none",
               "singlev .ab01, .sv04 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -23582,8 +23582,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -23625,7 +23624,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -23686,8 +23686,7 @@
               "singlev .sh02, .sh05 .none",
               "singlev .av01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -23760,7 +23759,8 @@
               "singlev .at01, .sv01 .none",
               "singlev .sv01, .sv02 .none",
               "singlev .ih02, .ih03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -23835,8 +23835,7 @@
               "singlev .ab01, .sv02 .none",
               "singlev .sv02, .sv03 \"Y: 171\"",
               "singlev .av01, .sv04 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -23881,7 +23880,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none",
               "singlev .at01, .sv02 \"Y: 153\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -23942,8 +23942,7 @@
               "alignt .at02 \"t: x\"",
               "alignb .ih05 \"b: 0\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -23996,7 +23995,8 @@
               "alignv .av02 round",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -24051,8 +24051,7 @@
               "alignb .ab01 \"b: -500\"",
               "alignb .ab02 \"b: 0\"",
               "interpolatev .iv01 .at01, .ab02"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -24101,7 +24100,8 @@
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "interpolatev .iv01 .iv02, .iv03"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -24154,8 +24154,7 @@
               "alignt .ih02 \"t: x\"",
               "alignb .ab01 \"b: -500\"",
               "singlev .ab01, .sv01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -24202,7 +24201,8 @@
               "alignv .ih03 round",
               "alignv .ih02 round",
               "singlev .av01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -24258,8 +24258,7 @@
               "singlev .at01, .sv02 .none",
               "singlev .sv02, .sv03 \"Y: 171\"",
               "singlev .av01, .sv04 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -24308,7 +24307,8 @@
               "singlev .at01, .sv01 .none",
               "singlev .sv01, .sv02 \"Y: 153\"",
               "singlev .av01, .sv03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -24358,8 +24358,7 @@
               "singlev .av01, .sv01 .none",
               "singlev .sv01, .sv02 \"Y: 171\"",
               "singlev .sv02, .sv03 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -24402,7 +24401,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .av02, .sv01 .none",
               "singlev .sv01, .sv02 \"Y: 144\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -24448,8 +24448,7 @@
               "singlev .at01, .sv01 .none",
               "interpolatev .iv01 .iv02, .iv03",
               "singlev .at01, .sv02 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -24488,7 +24487,8 @@
               "alignt .at01 \"t: 1\"",
               "singlev .at01, .sv01 .none",
               "singlev .at01, .sv02 \"Y: 153\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -24562,8 +24562,7 @@
               "alignb .ab02 \"b: -500\"",
               "singlev .ab01, .sv01 .none",
               "singlev .ab02, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -24603,7 +24602,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none",
               "singlev .av03, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -24678,8 +24678,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .av01, .sv01 .none",
               "singlev .sv01, .sv02 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -24729,7 +24728,8 @@
               "singlev .ab01, .sv03 \"Y: 153\"",
               "singlev .sv02, .sv04 \"Y: 162\"",
               "singlev .sv04, .sv05 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -24785,8 +24785,7 @@
             "tth":[
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -24818,7 +24817,8 @@
             "tth":[
               "alignv .av01 round",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -24886,8 +24886,7 @@
               "interpolatev .iv01 .sv01, .ab02",
               "singlev .ab02, .sv02 .none",
               "singlev .ab01, .sv03 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -24929,7 +24928,8 @@
               "singlev .av01, .sv01 .none",
               "singlev .ab01, .sv02 .none",
               "interpolatev .iv01 .av03, .sv02"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -24989,8 +24989,7 @@
               "singlev .av02, .sv01 .none",
               "singlev .ab01, .ih02 .none",
               "singlev .ab02, .ih03 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -25030,7 +25029,8 @@
               "singlev .ih02, .sv01 .none",
               "singlev .sv01, .sv02 .none",
               "singlev .sv02, .ih03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -25111,8 +25111,7 @@
               "singlev .ab03, .sv01 .none",
               "singlev .ih02, .sv02 .none",
               "singlev .ab02, .sv03 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -25159,7 +25158,8 @@
               "singlev .av01, .sv01 .none",
               "singlev .mh01, .sv02 .none",
               "singlev .av02, .sv03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -25202,8 +25202,7 @@
               "singlev .at01, .ih03 .none",
               "singlev .ab01, .sv01 .none",
               "singlev .ih02, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -25240,7 +25239,8 @@
               "singlev .ih02, .sv01 .none",
               "singlev .av01, .ih03 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -25305,8 +25305,7 @@
               "singlev .sv04, .sv05 \"Y: 171\"",
               "singlev .sv05, .sv06 .none",
               "singlev .sv02, .sv07 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -25362,7 +25361,8 @@
               "singlev .av02, .sv03 .none",
               "singlev .av01, .sv04 .none",
               "singlev .sv04, .sv05 \"Y: 144\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -25427,8 +25427,7 @@
             "tth":[
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -25465,7 +25464,8 @@
             "tth":[
               "alignv .av01 round",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -25538,8 +25538,7 @@
               "alignb .ab02 \"b: 0\"",
               "singlev .ab01, .sv01 .none",
               "singlev .at01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -25585,7 +25584,8 @@
               "alignb .ab02 \"b: 0\"",
               "singlev .ab01, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -25627,8 +25627,7 @@
               "alignb .ab01 \"b: -500\"",
               "singlev .av01, .sv01 .none",
               "interpolatev .iv01 .av01, .ab01"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -25664,7 +25663,8 @@
               "singlev .av01, .sv01 .none",
               "interpolatev .iv01 .sv01, .iv02",
               "interpolatev .iv03 .iv04, .iv05"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -25740,8 +25740,7 @@
               "singlev .av01, .sv03 .none",
               "singlev .sv03, .sv04 .none",
               "singlev .sv04, .sv05 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -25784,7 +25783,8 @@
               "alignv .av01 round",
               "alignb .ab01 \"b: 0\"",
               "singlev .av01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -25828,8 +25828,7 @@
               "singlev .sv02, .sv03 .none",
               "singlev .ab01, .sv04 .none",
               "singlev .sv03, .sv05 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -25866,7 +25865,8 @@
               "singlev .av01, .sv02 .none",
               "singlev .sv02, .sv03 \"Y: 153\"",
               "singlev .sv03, .sv04 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -25922,8 +25922,7 @@
               "alignt .at02 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .av01, .sv01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -25972,7 +25971,8 @@
               "singlev .av04, .sv05 .none",
               "singlev .av01, .sv06 \"Y: 144\"",
               "singlev .av02, .sv07 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -26037,8 +26037,7 @@
               "singlev .ab01, .sv04 .none",
               "singlev .av02, .sv05 .none",
               "singlev .av03, .sv06 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -26097,7 +26096,8 @@
               "singlev .sv03, .sv04 .none",
               "singlev .ab01, .sv05 .none",
               "singlev .av01, .sv06 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -26162,8 +26162,7 @@
               "singlev .at01, .ih03 .none",
               "singlev .av01, .sv01 .round",
               "singlev .ih05, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -26212,7 +26211,8 @@
               "alignv .ih03 round",
               "singlev .ih02, .sv01 .none",
               "singlev .av01, .ih06 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -26315,8 +26315,7 @@
               "singlev .sv01, .sv02 \"Y: 171\"",
               "singlev .ab01, .sv03 .none",
               "singlev .sv02, .sv04 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -26372,7 +26371,8 @@
               "singlev .av05, .sv03 .none",
               "singlev .av07, .sv04 \"Y: 144\"",
               "singlev .av04, .sv05 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -26437,8 +26437,7 @@
               "mdeltav .ih01 15-15 4",
               "mdeltav .ih01 16-16 3",
               "singlev .at01, .sv05 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -26486,7 +26485,8 @@
               "singlev .ih03, .sv01 \"Y: 144\"",
               "singlev .ab01, .sv02 .none",
               "singlev .ih02, .sv03 \"Y: 144\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -26542,8 +26542,7 @@
               "singlev .sv02, .sv03 \"Y: 171\"",
               "singlev .sv03, .sv04 .none",
               "singlev .at01, .sv05 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -26592,7 +26591,8 @@
               "singlev .av01, .sv01 .none",
               "singlev .sv01, .sv02 \"Y: 162\"",
               "singlev .sv02, .sv03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -26667,8 +26667,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -26719,7 +26718,8 @@
               "singlev .ih03, .sv01 \"Y: 144\"",
               "singlev .ab01, .sv02 .none",
               "singlev .ih02, .sv03 \"Y: 144\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -26775,8 +26775,7 @@
               "singlev .sv01, .sv02 \"Y: 171\"",
               "singlev .ab01, .sv03 .none",
               "singlev .sv02, .sv04 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -26830,7 +26829,8 @@
               "singlev .av03, .sv04 .none",
               "singlev .av04, .sv05 .none",
               "singlev .av02, .sv06 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -26894,8 +26894,7 @@
               "singlev .ih02, .ih03 .none",
               "singlev .ih03, .sv01 \"Y: 171\"",
               "singlev .sv01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -26959,7 +26958,8 @@
               "mdeltav .mv02 14-14 2",
               "mdeltav .mv02 18-18 1",
               "singlev .av03, .sv06 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -26993,8 +26993,7 @@
               "alignv .av01 round",
               "singlev .av01, .sv01 .none",
               "singlev .sv01, .sv02 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -27021,7 +27020,8 @@
             "tth":[
               "alignv .av01 round",
               "singlev .av01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -27065,8 +27065,7 @@
               "alignv .av01 round",
               "singlev .av01, .sv01 .none",
               "singlev .av01, .sv02 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -27098,7 +27097,8 @@
               "alignv .av01 round",
               "singlev .av01, .sv01 .none",
               "singlev .av01, .sv02 \"Y: 162\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -27142,8 +27142,7 @@
               "alignv .av01 round",
               "singlev .av01, .sv01 .none",
               "singlev .av01, .sv02 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -27171,7 +27170,8 @@
               "alignv .av01 round",
               "singlev .av01, .sv01 .none",
               "singlev .av01, .sv02 \"Y: 162\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -27205,8 +27205,7 @@
               "alignv .av01 round",
               "singlev .av01, .sv01 .none",
               "singlev .sv01, .sv02 \"Y: 171\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -27233,7 +27232,8 @@
             "tth":[
               "alignv .av01 round",
               "singlev .av01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -27278,8 +27278,7 @@
               "singlev .ab01, .sv02 .none",
               "singlev .sv01, .sv03 .none",
               "singlev .sv02, .sv04 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -27316,7 +27315,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .none",
               "singlev .ab01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -27370,8 +27370,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -27412,7 +27411,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -27472,8 +27472,7 @@
               "alignv .av01 round",
               "alignt .at01 \"t: 1\"",
               "singlev .av01, .sv01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -27524,7 +27523,8 @@
               "alignv .av01 round",
               "alignt .at01 \"t: 1\"",
               "singlev .av01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -27547,8 +27547,7 @@
               "alignv .av02 round",
               "alignb .ab01 \"b: 0\"",
               "singlev .av02, .sv01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -27568,7 +27567,8 @@
               "mdeltah .mh03 13-13 2",
               "alignv .av01 round",
               "alignb .mh03 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -27654,8 +27654,7 @@
               "alignv .av02 round",
               "alignv .av03 round",
               "alignv .av04 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -27722,7 +27721,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -27802,8 +27802,7 @@
                 }
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -27880,7 +27879,8 @@
               "mdeltah .mh05 12-12 2",
               "mdeltah .mh06 12-12 6",
               "mdeltah .mh06 13-13 2"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -27978,8 +27978,7 @@
               "alignb .ab02 \"b: 0\"",
               "singlev .av02, .sv01 .none",
               "singlev .av04, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -28064,7 +28063,8 @@
               "alignv .av02 round",
               "alignb .mh03 \"b: 0\"",
               "alignb .mh06 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -28132,8 +28132,7 @@
               "alignt .at02 \"t: x\"",
               "singlev .at02, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -28171,7 +28170,8 @@
               "alignt .at02 \"t: x\"",
               "singlev .at02, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -28254,8 +28254,7 @@
               "singlev .at01, .sv01 .none",
               "singlev .av01, .sv02 .none",
               "singlev .av02, .sv03 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -28303,7 +28302,8 @@
               "singlev .at01, .sv01 .none",
               "singlev .av01, .sv02 .none",
               "singlev .av02, .sv03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -28333,8 +28333,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -28358,7 +28357,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -28526,8 +28526,7 @@
               "singlev .av04, .sv01 .none",
               "singlev .av05, .sv02 .none",
               "singlev .av06, .sv03 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -28622,7 +28621,8 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "alignb .ab03 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -28809,8 +28809,7 @@
               "alignv .av04 round",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -28991,7 +28990,8 @@
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -29230,8 +29230,7 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "alignb .ab03 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -29464,7 +29463,8 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "alignb .ab03 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -29502,8 +29502,7 @@
               "alignt .at01 \"t: 1\"",
               "singlev .av02, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -29535,7 +29534,8 @@
               "alignt .at01 \"t: 1\"",
               "singlev .av02, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -29598,8 +29598,7 @@
               "singlev .av01, .sv02 .none",
               "singlev .av04, .sv03 .none",
               "singlev .av03, .sv04 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -29656,7 +29655,8 @@
               "singlev .av01, .sv02 .none",
               "singlev .av04, .sv03 .none",
               "singlev .av03, .sv04 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -29739,8 +29739,7 @@
               "singlev .av03, .sv04 .none",
               "singlev .av06, .sv05 .none",
               "singlev .av05, .sv06 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -29817,7 +29816,8 @@
               "singlev .av03, .sv04 .none",
               "singlev .av06, .sv05 .none",
               "singlev .av05, .sv06 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -29855,8 +29855,7 @@
               "alignt .at01 \"t: 1\"",
               "singlev .av02, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -29888,7 +29887,8 @@
               "alignt .at01 \"t: 1\"",
               "singlev .av02, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -29927,8 +29927,7 @@
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "interpolatev .iv01 .at01, .ab01"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -29961,7 +29960,8 @@
               "alignv .av01 round",
               "alignt .at01 \"t: x\"",
               "interpolatev .iv01 .at01, .av01"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -30000,8 +30000,7 @@
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "interpolatev .iv01 .at01, .ab01"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -30034,7 +30033,8 @@
               "alignv .av01 round",
               "alignt .at01 \"t: x\"",
               "interpolatev .iv01 .av01, .at01"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -30142,8 +30142,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -30245,7 +30244,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -30324,8 +30324,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -30398,7 +30397,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -30515,8 +30515,7 @@
                 "thickness":95
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -30586,7 +30585,8 @@
                 }
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -31675,8 +31675,7 @@
                 "thickness":100
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -31695,7 +31694,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -31792,8 +31792,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .av02, .sv01 .none",
               "singlev .av01, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -31847,7 +31846,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .av01, .sv01 .none",
               "singlev .av02, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -31909,8 +31909,7 @@
               "mdeltav .mh03 24-24 3",
               "mdeltav .mv01 13-13 -1",
               "mdeltav .mv02 25-25 2"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -31974,7 +31973,8 @@
               "mdeltav .mv02 13-13 -1",
               "mdeltav .mh05 21-21 -1",
               "mdeltav .mh07 19-19 -1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -32053,8 +32053,7 @@
               "alignv .av02 round",
               "alignv .av03 round",
               "alignt .at02 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -32106,7 +32105,8 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -32200,8 +32200,7 @@
               "alignv .av03 round",
               "alignv .av04 round",
               "alignt .at02 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -32258,7 +32257,8 @@
               "singlev .ab01, .sv01 .none",
               "singlev .at01, .sv02 .none",
               "singlev .av01, .sv03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -32540,8 +32540,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -32589,7 +32588,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -32665,8 +32665,7 @@
               "singlev .ab01, .sv02 .none",
               "singlev .sv02, .sv03 \"Y: 171\"",
               "singlev .av01, .sv04 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -32706,7 +32705,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -32771,8 +32771,7 @@
               "alignt .at02 \"t: x\"",
               "singlev .av03, .sv03 .none",
               "singlev .av04, .sv04 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -32803,7 +32802,8 @@
               "singlev .av01, .sv02 .none",
               "alignv .av02 round",
               "alignv .av03 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -37817,8 +37817,7 @@
             "tth":[
               "alignv .av01 round",
               "singlev .av01, .sv01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -37871,7 +37870,8 @@
                 "thickness":155
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -37958,8 +37958,7 @@
               "singlev .av01, .sv02 .none",
               "singlev .av03, .sv03 .none",
               "singlev .hr01, .sv04 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -38019,7 +38018,8 @@
                 "thickness":-18
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -38064,8 +38064,7 @@
               "alignv .av02 round",
               "alignv .av03 round",
               "alignt .at01 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -38098,7 +38097,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -38797,8 +38797,7 @@
                 "thickness":242
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -38885,7 +38884,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -39010,8 +39010,7 @@
                 "thickness":242
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -39098,7 +39097,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -39132,8 +39132,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -39161,7 +39160,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -39207,8 +39207,7 @@
             "tth":[
               "alignv .av01 round",
               "singlev .av01, .sv01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -39249,7 +39248,8 @@
               "alignv .av01 round",
               "singlev .av01, .sv01 \"Y: 144\"",
               "singlev .sv01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -39310,8 +39310,7 @@
               "singlev .av01, .sv02 .none",
               "mdeltav .mv02 18-18 4",
               "mdeltav .mv02 17-17 2"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -39363,7 +39362,8 @@
               "singlev .sv01, .sv02 .none",
               "singlev .av02, .sv03 \"Y: 144\"",
               "singlev .sv03, .sv04 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -39410,8 +39410,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -39460,7 +39459,8 @@
               "mdeltav .mv04 16-16 -3",
               "mdeltav .mv05 16-16 -3",
               "mdeltav .mv06 17-17 -3"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -39525,8 +39525,7 @@
               "mdeltav .mv02 17-17 3",
               "mdeltav .mv02 18-18 2",
               "singlev .av02, .sv02 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -39578,7 +39577,8 @@
               "singlev .sv01, .sv02 .none",
               "singlev .av02, .sv03 \"Y: 144\"",
               "singlev .sv03, .sv04 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -39651,8 +39651,7 @@
               "mdeltav .mh06 13-13 4",
               "mdeltav .mh06 15-15 3",
               "mdeltav .mh06 14-14 2"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -39703,7 +39702,8 @@
                 "thickness":140
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -39758,8 +39758,7 @@
               "mdeltav .sv01 17-17 -4",
               "singlev .av02, .sv02 .none",
               "singlev .av01, .sv03 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -39801,7 +39800,8 @@
             "color":"#00cce5",
             "tth":[
               "mdeltav .mv01 12-12 3"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -39867,8 +39867,7 @@
                 "thickness":155
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -39934,7 +39933,8 @@
               "mdeltah .mh02 12-12 1",
               "mdeltav .mv01 13-13 1",
               "mdeltav .mh02 12-12 -1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -40000,8 +40000,7 @@
                 "thickness":155
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -40065,7 +40064,8 @@
             "tth":[
               "mdeltah .mh01 12-12 3",
               "mdeltav .mv01 13-13 2"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -40102,8 +40102,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -40134,7 +40133,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -40171,8 +40171,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -40203,7 +40202,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -40252,8 +40252,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -40296,7 +40295,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -40345,8 +40345,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -40389,7 +40388,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -40477,8 +40477,7 @@
                 }
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -40533,7 +40532,8 @@
                 }
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -40901,8 +40901,7 @@
                 "thickness":242
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -40989,7 +40988,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -43294,8 +43294,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -43349,7 +43348,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -43426,8 +43426,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -43481,7 +43480,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -43567,8 +43567,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -43626,7 +43625,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -43711,8 +43711,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -43769,7 +43768,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -43856,8 +43856,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -43911,7 +43910,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -44006,8 +44006,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -44069,7 +44068,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -44149,8 +44149,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -44202,7 +44201,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -44313,8 +44313,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -44382,7 +44381,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -44474,8 +44474,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -44534,7 +44533,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -44612,8 +44612,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -44668,7 +44667,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -44736,8 +44736,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -44782,7 +44781,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -44850,8 +44850,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -44896,7 +44895,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -44972,8 +44972,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -45021,7 +45020,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -45097,8 +45097,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -45146,7 +45145,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -45224,8 +45224,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -45270,7 +45269,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -45356,8 +45356,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -45410,7 +45409,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -45482,8 +45482,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -45527,7 +45526,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -45629,8 +45629,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -45689,7 +45688,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -45771,8 +45771,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -45821,7 +45820,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -45890,8 +45890,7 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -45937,7 +45936,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -46112,8 +46112,7 @@
               "mdeltah .mh02 13-13 -1",
               "mdeltah .mh02 14-14 -2",
               "mdeltav .mv01 15-15 -1"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -46178,7 +46177,8 @@
             "color":"#00cce5",
             "tth":[
               "mdeltah .mh01 16-16 -1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -46245,8 +46245,7 @@
               "singlev .at01, .sv03 .none",
               "singlev .ab01, .sv04 .none",
               "singlev .sv04, .sv05 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -46312,7 +46311,8 @@
               "singlev .sv03, .sv04 \"Y: 153\"",
               "singlev .sv04, .sv05 .none",
               "singlev .av05, .sv06 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -46377,8 +46377,7 @@
               "singlev .sv03, .sv04 \"Y: 171\"",
               "singlev .ab02, .sv05 .none",
               "singlev .sv04, .sv06 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -46433,7 +46432,8 @@
               "singlev .av01, .sv01 .none",
               "singlev .sv01, .sv02 \"Y: 153\"",
               "singlev .sv02, .sv03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -46558,8 +46558,7 @@
                 "thickness":326
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -46608,7 +46607,8 @@
             "color":"#00cce5",
             "tth":[
               "mdeltav .mv01 15-15 -1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -47078,8 +47078,7 @@
               "singleh .ah02, .sh04 \"X: dia Lite\"",
               "singleh .ah01, .sh05 \"X: dia Lite\"",
               "singleh .sh02, rsb .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -47136,7 +47135,8 @@
               "singleh .sh02, rsb .none",
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -51477,14 +51477,14 @@
           {
             "name":"BoldItalic",
             "advanceWidth":0,
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
             "advanceWidth":0,
             "advanceHeight":1600,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -51517,8 +51517,7 @@
                 }
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Italic",
@@ -51545,7 +51544,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .av02 \"Y: 171\"",
               "singlev .at01, .av01 \"Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -51597,8 +51597,7 @@
             "color":"#00cce5",
             "tth":[
               "mdeltah .mh01 14-14 2"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Italic",
@@ -51646,7 +51645,8 @@
             "tth":[
               "mdeltah .mh01 13-13 2",
               "mdeltav .mh01 13-13 1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -51755,7 +51755,7 @@
       }
     ],
     "defaultMaster":"Italic",
-    "currentMaster":"BoldItalic",
+    "currentMaster":"Italic",
     "interpolationFlags":0,
     "openTypeFeatures":[
       {
