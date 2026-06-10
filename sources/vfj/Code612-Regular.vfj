@@ -152,7 +152,7 @@
       {
         "name":"exclam",
         "unicode":"0021",
-        "lastModified":"2026-06-04 02:18:58",
+        "lastModified":"2026-06-09 03:26:57",
         "layers":[
           {
             "name":"Thin",
@@ -171,7 +171,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               },
               {
                 "elementData":{
@@ -186,8 +187,7 @@
                       ]
                     }
                   ]
-                },
-                "active":true
+                }
               }
             ],
             "color":"#1f964d"
@@ -1552,7 +1552,7 @@
       },
       {
         "name":"parenleft.lc",
-        "lastModified":"2026-06-04 02:30:21",
+        "lastModified":"2026-06-10 02:57:51",
         "layers":[
           {
             "name":"Thin",
@@ -1571,9 +1571,9 @@
                         "367 963  487 1506  856 1512",
                         "904 1512  956 1507  976 1499",
                         "980 1506  1015 1568  1018 1575",
-                        "991 1591  918 1600  861 1600 s",
+                        "991 1591  918 1600  861 1600 s {n:'.av01'}",
                         "324 1600  279 747  279 592 s",
-                        "279 362  348 -420  861 -420 s",
+                        "279 362  348 -420  861 -420 s {n:'.av02'}",
                         "951 -420  991 -412 c"
                       ]
                     }
@@ -1589,7 +1589,11 @@
                 "thickness":146
               }
             ],
-            "color":"#1f964d"
+            "color":"#1f964d",
+            "tth":[
+              "alignv .av01 round",
+              "alignv .av02 round"
+            ]
           },
           {
             "name":"Bold",
@@ -1600,9 +1604,9 @@
                   "contours":[
                     {
                       "nodes":[
-                        "1043 -420 s",
+                        "1043 -420 s {n:'.av02'}",
                         "530 -420  461 362  461 592 s",
-                        "461 823  534 1600  1043 1600 s",
+                        "461 823  534 1600  1043 1600 s {n:'.av01'}",
                         "1100 1600  1173 1591  1200 1575",
                         "1131 1449",
                         "1111 1451  1090 1454  1070 1454 s",
@@ -1640,7 +1644,11 @@
                 "thickness":321
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "tth":[
+              "alignv .av01 round",
+              "alignv .av02 round"
+            ]
           },
           {
             "name":"Regular",
@@ -1697,7 +1705,7 @@
       },
       {
         "name":"parenright.lc",
-        "lastModified":"2026-06-09 02:55:29",
+        "lastModified":"2026-06-10 02:57:38",
         "layers":[
           {
             "name":"Thin",
@@ -1716,9 +1724,9 @@
                         "-573 959  -693 1502  -1062 1508",
                         "-1110 1508  -1162 1503  -1182 1495",
                         "-1186 1502  -1221 1564  -1224 1571",
-                        "-1197 1587  -1124 1596  -1067 1596 s",
+                        "-1197 1587  -1124 1596  -1067 1596 s {n:'.av01'}",
                         "-530 1596  -485 743  -485 588 s",
-                        "-485 358  -554 -424  -1067 -424 s",
+                        "-485 358  -554 -424  -1067 -424 s {n:'.av02'}",
                         "-1157 -424  -1197 -416 c"
                       ]
                     }
@@ -1730,7 +1738,11 @@
                 "active":true
               }
             ],
-            "color":"#1f964d"
+            "color":"#1f964d",
+            "tth":[
+              "alignv .av01 round",
+              "alignv .av02 round"
+            ]
           },
           {
             "name":"Bold",
@@ -1748,9 +1760,9 @@
                         "749 961  655 1451  461 1454 s",
                         "442 1454  419 1452  400 1449",
                         "377 1491  355 1534  331 1575",
-                        "358 1591  431 1600  488 1600 s",
+                        "358 1591  431 1600  488 1600 s {n:'.av01'}",
                         "955 1600  1070 937  1070 592 s",
-                        "1070 362  1001 -420  488 -420 s",
+                        "1070 362  1001 -420  488 -420 s {n:'.av02'}",
                         "431 -420  358 -411 c"
                       ]
                     }
@@ -1783,8 +1795,6 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "alignh .ah01 round",
-              "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
             ]
@@ -5859,7 +5869,7 @@
       {
         "name":"A",
         "unicode":"0041",
-        "lastModified":"2026-06-05 03:00:21",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -6295,7 +6305,7 @@
       {
         "name":"C",
         "unicode":"0043",
-        "lastModified":"2026-06-04 02:37:50",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -6727,7 +6737,7 @@
       {
         "name":"E",
         "unicode":"0045",
-        "lastModified":"2026-06-04 02:31:09",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -7115,7 +7125,7 @@
       {
         "name":"G",
         "unicode":"0047",
-        "lastModified":"2026-06-04 00:13:43",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -7333,7 +7343,7 @@
       {
         "name":"H",
         "unicode":"0048",
-        "lastModified":"2026-06-04 00:13:43",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -7541,7 +7551,7 @@
       {
         "name":"I",
         "unicode":"0049",
-        "lastModified":"2026-06-04 00:13:43",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -7898,7 +7908,7 @@
       {
         "name":"K",
         "unicode":"004b",
-        "lastModified":"2026-06-03 14:54:38",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -8130,7 +8140,7 @@
       {
         "name":"L",
         "unicode":"004c",
-        "lastModified":"2026-06-04 02:21:15",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -9102,7 +9112,7 @@
       {
         "name":"O",
         "unicode":"004f",
-        "lastModified":"2026-06-04 02:31:09",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -10418,7 +10428,7 @@
       {
         "name":"U",
         "unicode":"0055",
-        "lastModified":"2026-06-04 02:37:44",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -10603,7 +10613,7 @@
       {
         "name":"V",
         "unicode":"0056",
-        "lastModified":"2026-06-04 02:37:44",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -11573,7 +11583,7 @@
       },
       {
         "name":"bracketleft.lc",
-        "lastModified":"2026-06-04 02:37:44",
+        "lastModified":"2026-06-10 02:59:44",
         "layers":[
           {
             "name":"Thin",
@@ -11587,7 +11597,7 @@
                     {
                       "nodes":[
                         "376 1341",
-                        "357 1520",
+                        "357 1520 {n:'.av01'}",
                         "843 1520",
                         "843 1432",
                         "447 1432",
@@ -11596,7 +11606,7 @@
                         "447 -332",
                         "843 -332",
                         "843 -420",
-                        "357 -420",
+                        "357 -420 {n:'.av02'}",
                         "376 -241"
                       ]
                     }
@@ -11617,7 +11627,11 @@
                 "thickness":105
               }
             ],
-            "color":"#1f964d"
+            "color":"#1f964d",
+            "tth":[
+              "alignv .av02 round",
+              "alignt .av01 \"t: 1\""
+            ]
           },
           {
             "name":"Bold",
@@ -11630,7 +11644,7 @@
                     {
                       "nodes":[
                         "276 1288",
-                        "250 1520",
+                        "250 1520 {n:'.av01'}",
                         "950 1520",
                         "950 1302",
                         "600 1302",
@@ -11639,7 +11653,7 @@
                         "600 -179",
                         "950 -179",
                         "950 -398",
-                        "250 -398",
+                        "250 -398 {n:'.av02'}",
                         "276 -166"
                       ]
                     }
@@ -11665,7 +11679,11 @@
                 "thickness":339
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "tth":[
+              "alignv .av02 round",
+              "alignt .av01 \"t: 1\""
+            ]
           },
           {
             "name":"Regular",
@@ -11688,7 +11706,7 @@
                         "514 -270",
                         "886 -270 {n:'.dv02'}",
                         "886 -420 {n:'.dv01'}",
-                        "314 -420",
+                        "314 -420 {n:'.av01'}",
                         "336 -220"
                       ]
                     }
@@ -11717,10 +11735,11 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "doubleh .dh01, .dh02 \"X: 208\"",
+              "alignv .av01 round",
               "alignt .at01 \"t: 1\"",
               "doublev .dv01, .dv02 \"Y: 153\"",
-              "singlev .at01, .sv01 \"Y: 153\""
+              "singlev .at01, .sv01 \"Y: 153\"",
+              "doubleh .dh01, .dh02 \"X: 208\""
             ],
             "active":true
           }
@@ -11818,7 +11837,7 @@
       },
       {
         "name":"bracketright.lc",
-        "lastModified":"2026-06-04 02:37:44",
+        "lastModified":"2026-06-10 02:59:59",
         "layers":[
           {
             "name":"Thin",
@@ -11832,16 +11851,16 @@
                     {
                       "nodes":[
                         "824 -241",
-                        "843 -420",
-                        "357 -420",
+                        "843 -420 {n:'.av02'}",
+                        "357 -420 {n:'.av03'}",
                         "357 -332",
                         "753 -332",
                         "736 -204",
                         "736 1304",
                         "753 1432",
                         "357 1432",
-                        "357 1520",
-                        "843 1520",
+                        "357 1520 {n:'.at01'}",
+                        "843 1520 {n:'.av01'}",
                         "824 1341"
                       ]
                     }
@@ -11862,7 +11881,11 @@
                 "thickness":105
               }
             ],
-            "color":"#1f964d"
+            "color":"#1f964d",
+            "tth":[
+              "alignv .av03 round",
+              "alignt .at01 \"t: 1\""
+            ]
           },
           {
             "name":"Bold",
@@ -11875,16 +11898,16 @@
                     {
                       "nodes":[
                         "924 -166",
-                        "950 -398",
-                        "250 -398",
+                        "950 -398 {n:'.av02'}",
+                        "250 -398 {n:'.av03'}",
                         "250 -179",
                         "599 -179",
                         "584 -31",
                         "584 1154",
                         "599 1302",
                         "250 1302",
-                        "250 1520",
-                        "950 1520",
+                        "250 1520 {n:'.at01'}",
+                        "950 1520 {n:'.av01'}",
                         "924 1288"
                       ]
                     }
@@ -11910,7 +11933,11 @@
                 "thickness":340
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "tth":[
+              "alignv .av03 round",
+              "alignt .at01 \"t: 1\""
+            ]
           },
           {
             "name":"Regular",
@@ -11925,7 +11952,7 @@
                       "nodes":[
                         "864 -220 {n:'.dh02'}",
                         "886 -420 {n:'.dv01'}",
-                        "314 -420",
+                        "314 -420 {n:'.av02'}",
                         "314 -270",
                         "686 -270 {n:'.dv02'}",
                         "666 -70 {n:'.dh01'}",
@@ -11933,7 +11960,7 @@
                         "686 1370 {n:'.sv01'}",
                         "314 1370",
                         "314 1520 {n:'.at01'}",
-                        "886 1520",
+                        "886 1520 {n:'.av01'}",
                         "864 1320"
                       ]
                     }
@@ -11961,10 +11988,11 @@
             ],
             "color":"#00cce5",
             "tth":[
-              "doubleh .dh01, .dh02 \"X: 208\"",
+              "alignv .av02 round",
               "alignt .at01 \"t: 1\"",
               "doublev .dv01, .dv02 \"Y: 153\"",
-              "singlev .at01, .sv01 \"Y: 153\""
+              "singlev .at01, .sv01 \"Y: 153\"",
+              "doubleh .dh01, .dh02 \"X: 208\""
             ],
             "active":true
           }
@@ -12318,7 +12346,7 @@
       {
         "name":"a",
         "unicode":"0061",
-        "lastModified":"2026-06-04 02:37:44",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -12782,7 +12810,7 @@
       {
         "name":"c",
         "unicode":"0063",
-        "lastModified":"2026-06-04 02:37:44",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -13182,7 +13210,7 @@
       {
         "name":"e",
         "unicode":"0065",
-        "lastModified":"2026-06-04 02:37:44",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -13624,7 +13652,7 @@
       {
         "name":"g",
         "unicode":"0067",
-        "lastModified":"2026-06-04 02:18:03",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -15357,7 +15385,7 @@
       {
         "name":"o",
         "unicode":"006f",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -15549,7 +15577,7 @@
       {
         "name":"p",
         "unicode":"0070",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -15782,7 +15810,7 @@
       {
         "name":"q",
         "unicode":"0071",
-        "lastModified":"2026-06-04 02:37:29",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -16908,7 +16936,7 @@
       {
         "name":"v",
         "unicode":"0076",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -17079,7 +17107,7 @@
       {
         "name":"w",
         "unicode":"0077",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -17326,7 +17354,7 @@
       {
         "name":"x",
         "unicode":"0078",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -17548,7 +17576,7 @@
       {
         "name":"y",
         "unicode":"0079",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -17888,7 +17916,7 @@
       },
       {
         "name":"braceleft.lc",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-10 03:00:17",
         "layers":[
           {
             "name":"Thin",
@@ -17901,7 +17929,7 @@
                   "contours":[
                     {
                       "nodes":[
-                        "887 -420 s",
+                        "887 -420 s {n:'.av02'}",
                         "661 -420  597 -252  597 -32 s",
                         "597 208 s",
                         "597 375  576 474  398 497",
@@ -17910,7 +17938,7 @@
                         "398 602",
                         "576 624  597 722  597 891 s",
                         "597 1133 s",
-                        "597 1353  661 1517  887 1517 s",
+                        "597 1353  661 1517  887 1517 s {n:'.av01'}",
                         "997 1517  1027 1507  1064 1490",
                         "1023 1409",
                         "1011 1416  969 1424  945 1424",
@@ -17953,7 +17981,11 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d"
+            "color":"#1f964d",
+            "tth":[
+              "alignv .av02 round",
+              "alignt .av01 \"t: 1\""
+            ]
           },
           {
             "name":"Bold",
@@ -18023,6 +18055,10 @@
             ],
             "color":"#00cce5",
             "tth":[
+              "alignv .av01 round",
+              "alignt .at01 \"t: 1\"",
+              "interpolatev .ah03 .ah02, .sh01",
+              "interpolatev .iv01 .ah01, .sh02",
               "alignh .ah01 round",
               "alignh .ah02 round",
               "alignh .ah03 round",
@@ -18030,11 +18066,7 @@
               "alignh .ah05 round",
               "alignh .ah06 round",
               "singleh .ah01, .sh01 \"eq X: dia Lite\"",
-              "singleh .ah02, .sh02 \"eq X: dia Lite\"",
-              "alignv .av01 round",
-              "alignt .at01 \"t: 1\"",
-              "interpolatev .ah03 .ah02, .sh01",
-              "interpolatev .iv01 .ah01, .sh02"
+              "singleh .ah02, .sh02 \"eq X: dia Lite\""
             ]
           },
           {
@@ -18113,18 +18145,16 @@
             ],
             "color":"#00cce5",
             "tth":[
+              "alignv .av01 round",
+              "alignt .at01 \"t: 1\"",
+              "interpolatev .ah02 .ah04, .sh01",
+              "interpolatev .iv01 .ah03, .sh02",
               "alignh .ah01 round",
               "alignh .ah02 round",
               "alignh .ah03 round",
               "alignh .ah04 round",
-              "alignh .ah05 round",
-              "alignh .ah06 round",
               "singleh .ah03, .sh01 \"X: dia Lite\"",
-              "singleh .ah04, .sh02 \"X: dia Lite\"",
-              "alignv .av01 round",
-              "alignt .at01 \"t: 1\"",
-              "interpolatev .iv01 .ah03, .sh02",
-              "interpolatev .ah02 .ah04, .sh01"
+              "singleh .ah04, .sh02 \"X: dia Lite\""
             ],
             "active":true
           }
@@ -18260,7 +18290,7 @@
       },
       {
         "name":"braceright.lc",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-10 03:00:18",
         "layers":[
           {
             "name":"Thin",
@@ -18273,7 +18303,7 @@
                   "contours":[
                     {
                       "nodes":[
-                        "388 -420 s",
+                        "388 -420 s {n:'.av02'}",
                         "278 -420  246 -408  211 -390",
                         "252 -308",
                         "264 -315  306 -323  330 -323 s",
@@ -18285,7 +18315,7 @@
                         "573 1272  555 1427  330 1423",
                         "306 1423  264 1415  252 1408",
                         "211 1490",
-                        "248 1507  277 1517  388 1517 s",
+                        "248 1507  277 1517  388 1517 s {n:'.av01'}",
                         "614 1517  678 1353  678 1132 s",
                         "678 891 s",
                         "678 722  699 623  877 602",
@@ -18315,7 +18345,11 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d"
+            "color":"#1f964d",
+            "tth":[
+              "alignv .av02 round",
+              "alignt .av01 \"t: 1\""
+            ]
           },
           {
             "name":"Bold",
@@ -18375,6 +18409,10 @@
             ],
             "color":"#00cce5",
             "tth":[
+              "alignv .av01 round",
+              "alignt .at01 \"t: 1\"",
+              "interpolatev .iv01 .ah05, .sh01",
+              "interpolatev .ah02 .sh02, .ah03",
               "alignh .ah01 round",
               "alignh .ah02 round",
               "alignh .ah03 round",
@@ -18382,11 +18420,7 @@
               "alignh .ah05 round",
               "alignh .ah06 round",
               "singleh .ah03, .sh01 \"eq X: dia Lite\"",
-              "singleh .ah05, .sh02 \"eq X: dia Lite\"",
-              "alignv .av01 round",
-              "alignt .at01 \"t: 1\"",
-              "interpolatev .iv01 .ah05, .sh01",
-              "interpolatev .ah02 .sh02, .ah03"
+              "singleh .ah05, .sh02 \"eq X: dia Lite\""
             ]
           },
           {
@@ -18455,18 +18489,16 @@
             ],
             "color":"#00cce5",
             "tth":[
+              "alignv .av01 round",
+              "alignt .at01 \"t: 1\"",
+              "interpolatev .iv01 .ah01, .sh01",
+              "interpolatev .ah05 .sh02, .ah04",
               "alignh .ah01 round",
-              "alignh .ah02 round",
-              "alignh .ah03 round",
               "alignh .ah04 round",
               "alignh .ah05 round",
               "alignh .ah06 round",
               "singleh .ah04, .sh01 \"X: dia Lite\"",
-              "singleh .ah01, .sh02 \"X: dia Lite\"",
-              "alignv .av01 round",
-              "alignt .at01 \"t: 1\"",
-              "interpolatev .iv01 .ah01, .sh01",
-              "interpolatev .ah05 .sh02, .ah04"
+              "singleh .ah01, .sh02 \"X: dia Lite\""
             ],
             "active":true
           }
@@ -40320,7 +40352,7 @@
       {
         "name":"Epsilon",
         "unicode":"0395",
-        "lastModified":"2026-06-03 14:54:38",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -40888,7 +40920,7 @@
       {
         "name":"Theta",
         "unicode":"0398",
-        "lastModified":"2026-06-03 14:54:38",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -45296,7 +45328,7 @@
       {
         "name":"eta",
         "unicode":"03b7",
-        "lastModified":"2026-06-03 14:54:38",
+        "lastModified":"2026-06-09 03:14:38",
         "layers":[
           {
             "name":"Thin",
@@ -74757,8 +74789,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -74835,7 +74866,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -90380,7 +90412,7 @@
       {
         "name":"parenleft",
         "unicode":"0028",
-        "lastModified":"2026-06-03 14:46:37",
+        "lastModified":"2026-06-10 02:58:00",
         "layers":[
           {
             "name":"Thin",
@@ -90399,9 +90431,9 @@
                         "367 1121  487 1664  856 1670",
                         "904 1670  956 1665  976 1657",
                         "980 1664  1015 1726  1018 1733",
-                        "991 1749  918 1758  861 1758 s",
+                        "991 1749  918 1758  861 1758 s {n:'.av01'}",
                         "324 1758  279 905  279 750 s",
-                        "279 520  348 -262  861 -262 s",
+                        "279 520  348 -262  861 -262 s {n:'.av02'}",
                         "951 -262  991 -254 c"
                       ]
                     }
@@ -90410,7 +90442,11 @@
                 "active":true
               }
             ],
-            "color":"#1f964d"
+            "color":"#1f964d",
+            "tth":[
+              "alignv .av01 round",
+              "alignv .av02 round"
+            ]
           },
           {
             "name":"Bold",
@@ -90421,9 +90457,9 @@
                   "contours":[
                     {
                       "nodes":[
-                        "1043 -420 s",
+                        "1043 -420 s {n:'.av02'}",
                         "530 -420  461 362  461 592 s",
-                        "461 823  534 1600  1043 1600 s",
+                        "461 823  534 1600  1043 1600 s {n:'.av01'}",
                         "1100 1600  1173 1591  1200 1575",
                         "1131 1449",
                         "1111 1451  1090 1454  1070 1454 s",
@@ -90443,7 +90479,11 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "tth":[
+              "alignv .av01 round",
+              "alignv .av02 round"
+            ]
           },
           {
             "name":"Regular",
@@ -90478,6 +90518,10 @@
               }
             ],
             "color":"#00cce5",
+            "tth":[
+              "alignv .av01 round",
+              "alignv .av02 round"
+            ],
             "active":true
           }
         ]
@@ -90589,7 +90633,7 @@
       {
         "name":"bracketleft",
         "unicode":"005b",
-        "lastModified":"2026-06-03 14:54:38",
+        "lastModified":"2026-06-10 02:59:29",
         "layers":[
           {
             "name":"Thin",
@@ -90604,7 +90648,11 @@
                 "active":true
               }
             ],
-            "color":"#1f964d"
+            "color":"#1f964d",
+            "tth":[
+              "alignv .av01 round",
+              "alignv .av02 round"
+            ]
           },
           {
             "name":"Bold",
@@ -90618,7 +90666,11 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "tth":[
+              "alignv .av01 round",
+              "alignv .av02 round"
+            ]
           },
           {
             "name":"Regular",
@@ -90634,6 +90686,10 @@
               }
             ],
             "color":"#00cce5",
+            "tth":[
+              "alignv .at01 round",
+              "alignv .av01 round"
+            ],
             "active":true
           }
         ]
@@ -90641,7 +90697,7 @@
       {
         "name":"bracketright",
         "unicode":"005d",
-        "lastModified":"2026-06-03 14:54:38",
+        "lastModified":"2026-06-10 02:58:54",
         "layers":[
           {
             "name":"Thin",
@@ -90656,7 +90712,11 @@
                 "active":true
               }
             ],
-            "color":"#1f964d"
+            "color":"#1f964d",
+            "tth":[
+              "alignv .av01 round",
+              "alignv .av02 round"
+            ]
           },
           {
             "name":"Bold",
@@ -90670,7 +90730,11 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "tth":[
+              "alignv .av01 round",
+              "alignv .av02 round"
+            ]
           },
           {
             "name":"Regular",
@@ -90686,6 +90750,10 @@
               }
             ],
             "color":"#00cce5",
+            "tth":[
+              "alignv .dv01 round",
+              "alignv .av01 round"
+            ],
             "active":true
           }
         ]
@@ -90693,7 +90761,7 @@
       {
         "name":"braceleft",
         "unicode":"007b",
-        "lastModified":"2026-06-03 14:54:24",
+        "lastModified":"2026-06-10 02:59:06",
         "layers":[
           {
             "name":"Thin",
@@ -90708,7 +90776,11 @@
                 "active":true
               }
             ],
-            "color":"#1f964d"
+            "color":"#1f964d",
+            "tth":[
+              "alignv .av01 round",
+              "alignv .av02 round"
+            ]
           },
           {
             "name":"Bold",
@@ -90722,7 +90794,11 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "tth":[
+              "alignv .at01 round",
+              "alignv .av01 round"
+            ]
           },
           {
             "name":"Regular",
@@ -90738,6 +90814,10 @@
               }
             ],
             "color":"#00cce5",
+            "tth":[
+              "alignv .at01 round",
+              "alignv .av01 round"
+            ],
             "active":true
           }
         ]
@@ -90745,7 +90825,7 @@
       {
         "name":"braceright",
         "unicode":"007d",
-        "lastModified":"2026-05-31 04:19:10",
+        "lastModified":"2026-06-10 02:59:19",
         "layers":[
           {
             "name":"Thin",
@@ -90760,7 +90840,11 @@
                 "active":true
               }
             ],
-            "color":"#1f964d"
+            "color":"#1f964d",
+            "tth":[
+              "alignv .av01 round",
+              "alignv .av02 round"
+            ]
           },
           {
             "name":"Bold",
@@ -90774,7 +90858,11 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "tth":[
+              "alignv .at01 round",
+              "alignv .av01 round"
+            ]
           },
           {
             "name":"Regular",
@@ -90790,6 +90878,10 @@
               }
             ],
             "color":"#00cce5",
+            "tth":[
+              "alignv .at01 round",
+              "alignv .av01 round"
+            ],
             "active":true
           }
         ]
@@ -91027,7 +91119,7 @@
       "versionMinor":1,
       "version":"Version 0.001",
       "codepageRange":"81d4000020000011",
-      "unicodeRange":"00000000000000005000e0fb800000af",
+      "unicodeRange":"00000000000000001000a07980000083",
       "useTypoMetrics":false,
       "embedding":"0000",
       "year":2012
@@ -91083,6 +91175,12 @@
               "position":12700
             },
             {
+              "name":"f5",
+              "style":"custom",
+              "horizontal":true,
+              "position":12700
+            },
+            {
               "name":"f7",
               "style":"custom",
               "horizontal":true,
@@ -91096,12 +91194,6 @@
             },
             {
               "name":"f4",
-              "style":"custom",
-              "horizontal":true,
-              "position":12700
-            },
-            {
-              "name":"f5",
               "style":"custom",
               "horizontal":true,
               "position":12700
