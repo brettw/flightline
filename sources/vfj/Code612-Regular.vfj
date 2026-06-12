@@ -5975,7 +5975,7 @@
       {
         "name":"A",
         "unicode":"0041",
-        "lastModified":"2026-06-10 03:23:38",
+        "lastModified":"2026-06-12 16:01:50",
         "layers":[
           {
             "name":"Thin",
@@ -6186,7 +6186,7 @@
       {
         "name":"B",
         "unicode":"0042",
-        "lastModified":"2026-06-10 03:24:38",
+        "lastModified":"2026-06-12 15:26:46",
         "layers":[
           {
             "name":"Thin",
@@ -6419,7 +6419,7 @@
       {
         "name":"C",
         "unicode":"0043",
-        "lastModified":"2026-06-10 03:24:54",
+        "lastModified":"2026-06-12 15:26:46",
         "layers":[
           {
             "name":"Thin",
@@ -6621,7 +6621,7 @@
       {
         "name":"D",
         "unicode":"0044",
-        "lastModified":"2026-06-10 03:25:39",
+        "lastModified":"2026-06-12 15:40:51",
         "layers":[
           {
             "name":"Thin",
@@ -6860,7 +6860,7 @@
       {
         "name":"E",
         "unicode":"0045",
-        "lastModified":"2026-06-10 03:26:44",
+        "lastModified":"2026-06-12 15:26:46",
         "layers":[
           {
             "name":"Thin",
@@ -7264,7 +7264,7 @@
       {
         "name":"G",
         "unicode":"0047",
-        "lastModified":"2026-06-12 04:06:23",
+        "lastModified":"2026-06-12 14:21:50",
         "layers":[
           {
             "name":"Thin",
@@ -7489,7 +7489,7 @@
       {
         "name":"H",
         "unicode":"0048",
-        "lastModified":"2026-06-12 04:23:44",
+        "lastModified":"2026-06-12 14:21:50",
         "layers":[
           {
             "name":"Thin",
@@ -7703,7 +7703,7 @@
       {
         "name":"I",
         "unicode":"0049",
-        "lastModified":"2026-06-12 04:23:44",
+        "lastModified":"2026-06-12 14:21:50",
         "layers":[
           {
             "name":"Thin",
@@ -8077,7 +8077,7 @@
       {
         "name":"K",
         "unicode":"004b",
-        "lastModified":"2026-06-12 04:23:44",
+        "lastModified":"2026-06-12 14:21:50",
         "layers":[
           {
             "name":"Thin",
@@ -8311,7 +8311,7 @@
       {
         "name":"L",
         "unicode":"004c",
-        "lastModified":"2026-06-12 04:23:44",
+        "lastModified":"2026-06-12 14:21:50",
         "layers":[
           {
             "name":"Thin",
@@ -9288,7 +9288,7 @@
       {
         "name":"O",
         "unicode":"004f",
-        "lastModified":"2026-06-12 04:23:44",
+        "lastModified":"2026-06-12 14:21:50",
         "layers":[
           {
             "name":"Thin",
@@ -10637,7 +10637,7 @@
       {
         "name":"U",
         "unicode":"0055",
-        "lastModified":"2026-06-12 04:23:44",
+        "lastModified":"2026-06-12 14:21:50",
         "layers":[
           {
             "name":"Thin",
@@ -10828,7 +10828,7 @@
       {
         "name":"V",
         "unicode":"0056",
-        "lastModified":"2026-06-12 04:23:44",
+        "lastModified":"2026-06-12 14:21:50",
         "layers":[
           {
             "name":"Thin",
@@ -12583,7 +12583,7 @@
       {
         "name":"a",
         "unicode":"0061",
-        "lastModified":"2026-06-12 04:23:44",
+        "lastModified":"2026-06-12 14:21:50",
         "layers":[
           {
             "name":"Thin",
@@ -13059,7 +13059,7 @@
       {
         "name":"c",
         "unicode":"0063",
-        "lastModified":"2026-06-12 04:23:44",
+        "lastModified":"2026-06-12 14:21:50",
         "layers":[
           {
             "name":"Thin",
@@ -13468,7 +13468,7 @@
       {
         "name":"e",
         "unicode":"0065",
-        "lastModified":"2026-06-12 04:23:44",
+        "lastModified":"2026-06-12 14:21:50",
         "layers":[
           {
             "name":"Thin",
@@ -13920,7 +13920,7 @@
       {
         "name":"g",
         "unicode":"0067",
-        "lastModified":"2026-06-12 04:23:44",
+        "lastModified":"2026-06-12 14:21:50",
         "layers":[
           {
             "name":"Thin",
@@ -15707,7 +15707,7 @@
       {
         "name":"o",
         "unicode":"006f",
-        "lastModified":"2026-06-10 03:11:33",
+        "lastModified":"2026-06-12 14:21:50",
         "layers":[
           {
             "name":"Thin",
@@ -15903,7 +15903,7 @@
       {
         "name":"p",
         "unicode":"0070",
-        "lastModified":"2026-06-11 02:52:40",
+        "lastModified":"2026-06-12 14:21:50",
         "layers":[
           {
             "name":"Thin",
@@ -16143,7 +16143,7 @@
       {
         "name":"q",
         "unicode":"0071",
-        "lastModified":"2026-06-11 02:52:40",
+        "lastModified":"2026-06-12 14:21:50",
         "layers":[
           {
             "name":"Thin",
@@ -16561,26 +16561,26 @@
                   "contours":[
                     {
                       "nodes":[
-                        "576 1117.26 s",
-                        "413.502 1117.26  177.644 1036.83  177.644 841 s",
-                        "177.644 478.564  931.986 602.552  931.986 334 s",
-                        "931.986 107.696  745.184 62.0995  557 62.0995 s",
-                        "466.723 62.0995  377.548 82.1204  292.427 111.073 s",
-                        "269.385 118.911  246.52 127.432  224.053 136.796 s",
-                        "209.093 143.031  191.57 153.82  175 153.82 s",
-                        "150.996 153.82  131.18 134.004  131.18 110 s",
-                        "131.18 98.8105  136.504 84.8845  145.395 77.6922 s",
-                        "160.185 65.729  182.411 59.2426  200.092 52.6727 s",
-                        "314.436 10.1838  434.457 -18.0995  557 -18.0995 s",
-                        "792.412 -18.0995  1020.01 58.5651  1020.01 334 s",
-                        "1020.01 697.092  266.356 571.816  266.356 841 s",
-                        "266.356 978.33  467.531 1028.74  576 1028.74 s",
-                        "656.881 1028.74  737.094 1014.21  815.062 993.572 s",
-                        "834.047 988.547  909.258 962.923  919 962.923 s",
-                        "943.144 962.923  963.077 982.856  963.077 1007 s",
-                        "963.077 1027.34  953.818 1034.78  939.352 1046.1 s",
-                        "932.232 1051.67  889.562 1064.01  879.176 1067.1 s",
-                        "780.798 1096.43  679.043 1117.26 c"
+                        "576 1117 s",
+                        "414 1117  178 1037  178 841 s",
+                        "178 479  932 603  932 334 s",
+                        "932 108  745 62  557 62 s",
+                        "467 62  376.963 81.8923  292 111 s",
+                        "268.963 118.892  246.028 128.07  224 137 s",
+                        "209.028 143.07  192 154  175 154 s",
+                        "151 154  131 134  131 110 s",
+                        "131 99  136.06 85.0771  145 78 s",
+                        "160.061 66.0767  181.894 59.7212  200 53 s",
+                        "313.897 10.7202  434 -18  557 -18 s",
+                        "792 -18  1020 59  1020 334 s",
+                        "1020 697  266 572  266 841 s",
+                        "266 978  468 1029  576 1029 s",
+                        "657 1029  736.977 1014.91  815 994 s",
+                        "833.977 988.913  909 963  919 963 s",
+                        "943 963  963 983  963 1007 s",
+                        "963 1027  952.838 1034.8  939 1046 s",
+                        "931.834 1051.8  889.01 1064.03  879 1067 s",
+                        "781.01 1096.03  679 1117 c"
                       ]
                     }
                   ],
@@ -17301,7 +17301,7 @@
       {
         "name":"v",
         "unicode":"0076",
-        "lastModified":"2026-06-10 03:17:11",
+        "lastModified":"2026-06-12 14:21:50",
         "layers":[
           {
             "name":"Thin",
@@ -17476,7 +17476,7 @@
       {
         "name":"w",
         "unicode":"0077",
-        "lastModified":"2026-06-10 03:17:46",
+        "lastModified":"2026-06-12 14:21:50",
         "layers":[
           {
             "name":"Thin",
@@ -17730,7 +17730,7 @@
       {
         "name":"x",
         "unicode":"0078",
-        "lastModified":"2026-06-10 03:18:21",
+        "lastModified":"2026-06-12 14:21:50",
         "layers":[
           {
             "name":"Thin",
@@ -17955,7 +17955,7 @@
       {
         "name":"y",
         "unicode":"0079",
-        "lastModified":"2026-06-10 03:22:16",
+        "lastModified":"2026-06-12 14:21:50",
         "layers":[
           {
             "name":"Thin",
@@ -40742,7 +40742,7 @@
       {
         "name":"Epsilon",
         "unicode":"0395",
-        "lastModified":"2026-06-09 03:14:38",
+        "lastModified":"2026-06-12 14:21:50",
         "layers":[
           {
             "name":"Thin",
@@ -41310,7 +41310,7 @@
       {
         "name":"Theta",
         "unicode":"0398",
-        "lastModified":"2026-06-09 03:14:38",
+        "lastModified":"2026-06-12 14:21:50",
         "layers":[
           {
             "name":"Thin",
@@ -45718,7 +45718,7 @@
       {
         "name":"eta",
         "unicode":"03b7",
-        "lastModified":"2026-06-09 03:14:38",
+        "lastModified":"2026-06-12 14:21:50",
         "layers":[
           {
             "name":"Thin",
@@ -90820,7 +90820,7 @@
       {
         "name":"parenleft",
         "unicode":"0028",
-        "lastModified":"2026-06-11 02:57:27",
+        "lastModified":"2026-06-12 16:02:03",
         "layers":[
           {
             "name":"Thin",
@@ -90835,12 +90835,12 @@
                         "1018 -237",
                         "1015 -229  983 -166  979 -159",
                         "951 -171  917 -174  861 -174 s {n:'.sv02'}",
-                        "492 -174  367 384  367 752 s",
+                        "492 -174  367 384  367 752 s {n:'.sv03'}",
                         "367 1121  487 1664  856 1670 {n:'.sv01'}",
                         "904 1670  956 1665  976 1657",
                         "980 1664  1015 1726  1018 1733",
                         "991 1749  918 1758  861 1758 s {n:'.av01'}",
-                        "324 1758  279 905  279 750 s",
+                        "324 1758  279 905  279 750 s {n:'.av03'}",
                         "279 520  348 -262  861 -262 s {n:'.av02'}",
                         "951 -262  991 -254 c"
                       ]
@@ -90855,7 +90855,8 @@
               "alignv .av01 round",
               "alignv .av02 round",
               "singlev .av02, .sv02 .round",
-              "singlev .av01, .sv01 .round"
+              "singlev .av01, .sv01 .round",
+              "doubleh .av03, .sv03 .round"
             ],
             "active":true
           },
@@ -90943,7 +90944,7 @@
       {
         "name":"parenright",
         "unicode":"0029",
-        "lastModified":"2026-06-11 02:57:27",
+        "lastModified":"2026-06-12 16:02:08",
         "layers":[
           {
             "name":"Thin",
@@ -90958,12 +90959,12 @@
                         "182 -237",
                         "185 -229  217 -166  221 -159",
                         "249 -171  283 -174  339 -174 s {n:'.sv03'}",
-                        "708 -174  833 384  833 752 s",
+                        "708 -174  833 384  833 752 s {n:'.sv04'}",
                         "833 1121  713 1664  344 1670 {n:'.sv01'}",
                         "296 1670  244 1665  224 1657",
                         "220 1664  185 1726  182 1733",
                         "209 1749  282 1758  339 1758 s {n:'.av01'}",
-                        "876 1758  921 905  921 750 s",
+                        "876 1758  921 905  921 750 s {n:'.av02'}",
                         "921 520  852 -262  339 -262 s {n:'.sv02'}",
                         "249 -262  209 -254 c"
                       ]
@@ -90978,7 +90979,8 @@
               "alignv .av01 round",
               "alignv .sv02 round",
               "singlev .sv02, .sv03 .round",
-              "singlev .av01, .sv01 .round"
+              "singlev .av01, .sv01 .round",
+              "doubleh .sv04, .av02 .round"
             ],
             "active":true
           },
@@ -91605,28 +91607,23 @@
           },
           "guidelines":[
             {
+              "name":"Hyphen midline",
+              "style":"custom",
+              "horizontal":true,
+              "auto":true,
+              "position":622
+            },
+            {
               "name":"f1",
               "style":"custom",
               "horizontal":true,
               "position":13850
             },
             {
-              "name":"f6",
+              "name":"f2",
               "style":"custom",
               "horizontal":true,
-              "position":12700
-            },
-            {
-              "name":"f5",
-              "style":"custom",
-              "horizontal":true,
-              "position":12700
-            },
-            {
-              "name":"f7",
-              "style":"custom",
-              "horizontal":true,
-              "position":12700
+              "position":1900
             },
             {
               "name":"f3",
@@ -91641,23 +91638,28 @@
               "position":12700
             },
             {
-              "name":"f2",
+              "name":"f5",
               "style":"custom",
               "horizontal":true,
-              "position":1900
+              "position":12700
             },
             {
-              "name":"roundCAPS",
+              "name":"f6",
               "style":"custom",
               "horizontal":true,
-              "position":1517
+              "position":12700
             },
             {
-              "name":"Hyphen midline",
+              "name":"f7",
               "style":"custom",
               "horizontal":true,
-              "auto":true,
-              "position":622
+              "position":12700
+            },
+            {
+              "name":"medianeCAPS",
+              "style":"custom",
+              "horizontal":true,
+              "position":-41
             },
             {
               "name":"roundBDCDottom",
@@ -91667,10 +91669,10 @@
               "position":-17
             },
             {
-              "name":"medianeCAPS",
+              "name":"roundCAPS",
               "style":"custom",
               "horizontal":true,
-              "position":-41
+              "position":1517
             },
             {
               "name":"roundDescender",
@@ -92481,17 +92483,17 @@
           ],
           "fontStemsH":[
             {
-              "value":133,
+              "value":88,
               "name":"Hstem"
             }
           ],
           "fontStemsV":[
             {
-              "value":261,
+              "value":88,
               "name":"V1"
             },
             {
-              "value":250,
+              "value":88,
               "name":"Vstem"
             }
           ],
@@ -92500,11 +92502,11 @@
             "STEM_H_Y":"160",
             "STEM_O_Y":"175",
             "STEM_O_H_Y":"9.4",
-            "stem_h_X":"190",
-            "stem_o_X":"190",
+            "stem_h_X":"88",
+            "stem_o_X":"88",
             "stem_o_h_X":"0",
-            "stem_h_Y":"160",
-            "stem_o_Y":"155",
+            "stem_h_Y":"88",
+            "stem_o_Y":"88",
             "stem_o_h_Y":"-3.1",
             "COUNTER":"568",
             "counter":"420",
