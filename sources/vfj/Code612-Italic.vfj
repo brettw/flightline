@@ -4723,7 +4723,7 @@
       {
         "name":"A",
         "unicode":"0041",
-        "lastModified":"2026-06-14 03:07:44",
+        "lastModified":"2026-06-14 18:13:29",
         "layers":[
           {
             "name":"Italic",
@@ -4882,7 +4882,7 @@
       {
         "name":"B",
         "unicode":"0042",
-        "lastModified":"2026-06-14 03:10:16",
+        "lastModified":"2026-06-14 18:06:34",
         "layers":[
           {
             "name":"Italic",
@@ -4891,6 +4891,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.78",
                   "contours":[
                     {
                       "nodes":[
@@ -4943,6 +4944,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.79",
                   "contours":[
                     {
                       "nodes":[
@@ -5031,6 +5033,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.80",
                   "contours":[
                     {
                       "nodes":[
@@ -5077,7 +5080,7 @@
       {
         "name":"C",
         "unicode":"0043",
-        "lastModified":"2026-06-14 03:11:44",
+        "lastModified":"2026-06-14 18:17:55",
         "layers":[
           {
             "name":"testing",
@@ -5430,7 +5433,7 @@
       {
         "name":"E",
         "unicode":"0045",
-        "lastModified":"2026-06-14 03:10:16",
+        "lastModified":"2026-06-14 18:06:57",
         "layers":[
           {
             "name":"Italic",
@@ -5863,7 +5866,7 @@
       {
         "name":"H",
         "unicode":"0048",
-        "lastModified":"2026-06-14 03:10:16",
+        "lastModified":"2026-06-14 18:09:04",
         "layers":[
           {
             "name":"Italic",
@@ -5872,6 +5875,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.84",
                   "contours":[
                     {
                       "nodes":[
@@ -5914,6 +5918,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.85",
                   "contours":[
                     {
                       "nodes":[
@@ -5982,6 +5987,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.86",
                   "contours":[
                     {
                       "nodes":[
@@ -6012,7 +6018,7 @@
       {
         "name":"I",
         "unicode":"0049",
-        "lastModified":"2026-06-14 03:10:16",
+        "lastModified":"2026-06-14 18:09:04",
         "layers":[
           {
             "name":"Italic",
@@ -6269,7 +6275,7 @@
       {
         "name":"K",
         "unicode":"004b",
-        "lastModified":"2026-06-14 03:10:16",
+        "lastModified":"2026-06-14 18:10:47",
         "layers":[
           {
             "name":"Italic",
@@ -6278,6 +6284,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.87",
                   "contours":[
                     {
                       "nodes":[
@@ -6323,6 +6330,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.88",
                   "contours":[
                     {
                       "nodes":[
@@ -6374,6 +6382,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.89",
                   "contours":[
                     {
                       "nodes":[
@@ -6527,7 +6536,7 @@
       {
         "name":"M",
         "unicode":"004d",
-        "lastModified":"2026-06-14 03:10:16",
+        "lastModified":"2026-06-14 18:12:59",
         "layers":[
           {
             "name":"Italic",
@@ -6536,6 +6545,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.90",
                   "contours":[
                     {
                       "nodes":[
@@ -6590,6 +6600,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.91",
                   "contours":[
                     {
                       "nodes":[
@@ -6670,6 +6681,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.92",
                   "contours":[
                     {
                       "nodes":[
@@ -6715,7 +6727,7 @@
       {
         "name":"N",
         "unicode":"004e",
-        "lastModified":"2026-06-14 03:10:16",
+        "lastModified":"2026-06-14 18:12:59",
         "layers":[
           {
             "name":"Italic",
@@ -6870,7 +6882,7 @@
       {
         "name":"O",
         "unicode":"004f",
-        "lastModified":"2026-06-14 03:10:16",
+        "lastModified":"2026-06-14 18:13:25",
         "layers":[
           {
             "name":"Italic",
@@ -7016,7 +7028,7 @@
       {
         "name":"P",
         "unicode":"0050",
-        "lastModified":"2026-06-14 03:10:16",
+        "lastModified":"2026-06-14 18:14:41",
         "layers":[
           {
             "name":"Italic",
@@ -7025,6 +7037,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.93",
                   "contours":[
                     {
                       "nodes":[
@@ -7070,6 +7083,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.94",
                   "contours":[
                     {
                       "nodes":[
@@ -7143,6 +7157,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.95",
                   "contours":[
                     {
                       "nodes":[
@@ -7188,7 +7203,7 @@
       {
         "name":"Q",
         "unicode":"0051",
-        "lastModified":"2026-06-14 03:11:44",
+        "lastModified":"2026-06-14 18:17:55",
         "layers":[
           {
             "name":"Italic",
@@ -7667,7 +7682,7 @@
       {
         "name":"T",
         "unicode":"0054",
-        "lastModified":"2026-06-13 04:25:04",
+        "lastModified":"2026-06-14 18:15:20",
         "layers":[
           {
             "name":"Italic",
@@ -7676,6 +7691,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.96",
                   "contours":[
                     {
                       "nodes":[
@@ -7708,6 +7724,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.97",
                   "contours":[
                     {
                       "nodes":[
@@ -7757,6 +7774,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.98",
                   "contours":[
                     {
                       "nodes":[
@@ -8213,7 +8231,7 @@
       {
         "name":"X",
         "unicode":"0058",
-        "lastModified":"2026-06-14 03:09:13",
+        "lastModified":"2026-06-14 18:17:19",
         "layers":[
           {
             "name":"Italic",
@@ -8222,6 +8240,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.100",
                   "contours":[
                     {
                       "nodes":[
@@ -8263,6 +8282,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.101",
                   "contours":[
                     {
                       "nodes":[
@@ -8319,6 +8339,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.102",
                   "contours":[
                     {
                       "nodes":[
@@ -8359,7 +8380,7 @@
       {
         "name":"Y",
         "unicode":"0059",
-        "lastModified":"2026-06-14 03:09:13",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -8460,6 +8481,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.99",
                   "contours":[
                     {
                       "nodes":[
@@ -8494,7 +8516,7 @@
       {
         "name":"Z",
         "unicode":"005a",
-        "lastModified":"2026-06-14 03:09:14",
+        "lastModified":"2026-06-14 18:07:26",
         "layers":[
           {
             "name":"Italic",
@@ -8503,6 +8525,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.81",
                   "contours":[
                     {
                       "nodes":[
@@ -8541,6 +8564,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.82",
                   "contours":[
                     {
                       "nodes":[
@@ -8595,6 +8619,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.83",
                   "contours":[
                     {
                       "nodes":[
@@ -9253,7 +9278,7 @@
       {
         "name":"a",
         "unicode":"0061",
-        "lastModified":"2026-06-14 03:09:13",
+        "lastModified":"2026-06-14 18:15:20",
         "layers":[
           {
             "name":"Italic",
@@ -9569,7 +9594,7 @@
       {
         "name":"c",
         "unicode":"0063",
-        "lastModified":"2026-06-14 03:09:13",
+        "lastModified":"2026-06-14 18:15:20",
         "layers":[
           {
             "name":"Italic",
@@ -9690,7 +9715,7 @@
       {
         "name":"d",
         "unicode":"0064",
-        "lastModified":"2026-06-14 03:11:44",
+        "lastModified":"2026-06-14 18:17:55",
         "layers":[
           {
             "name":"Italic",
@@ -9859,7 +9884,7 @@
       {
         "name":"e",
         "unicode":"0065",
-        "lastModified":"2026-06-14 03:06:52",
+        "lastModified":"2026-06-14 18:15:20",
         "layers":[
           {
             "name":"Italic",
@@ -10193,7 +10218,7 @@
       {
         "name":"g",
         "unicode":"0067",
-        "lastModified":"2026-06-14 03:13:02",
+        "lastModified":"2026-06-14 18:17:55",
         "layers":[
           {
             "name":"Italic",
@@ -13100,7 +13125,7 @@
       {
         "name":"z",
         "unicode":"007a",
-        "lastModified":"2026-06-14 03:11:44",
+        "lastModified":"2026-06-14 18:17:55",
         "layers":[
           {
             "name":"Italic",
@@ -18280,7 +18305,7 @@
       {
         "name":"Agrave",
         "unicode":"00c0",
-        "lastModified":"2026-06-09 03:40:04",
+        "lastModified":"2026-06-14 18:09:43",
         "layers":[
           {
             "name":"Italic",
@@ -18404,7 +18429,7 @@
       {
         "name":"Aacute",
         "unicode":"00c1",
-        "lastModified":"2026-06-09 03:40:04",
+        "lastModified":"2026-06-14 18:09:43",
         "layers":[
           {
             "name":"Italic",
@@ -18639,7 +18664,7 @@
       {
         "name":"Acircumflex",
         "unicode":"00c2",
-        "lastModified":"2026-06-09 03:40:04",
+        "lastModified":"2026-06-14 18:09:43",
         "layers":[
           {
             "name":"Italic",
@@ -18852,7 +18877,7 @@
       {
         "name":"Atilde",
         "unicode":"00c3",
-        "lastModified":"2026-06-09 03:40:04",
+        "lastModified":"2026-06-14 18:09:43",
         "layers":[
           {
             "name":"Italic",
@@ -18957,7 +18982,7 @@
       {
         "name":"Adieresis",
         "unicode":"00c4",
-        "lastModified":"2026-06-09 03:40:04",
+        "lastModified":"2026-06-14 18:09:43",
         "layers":[
           {
             "name":"Italic",
@@ -19191,7 +19216,7 @@
       {
         "name":"Aring",
         "unicode":"00c5",
-        "lastModified":"2026-06-09 03:40:04",
+        "lastModified":"2026-06-14 18:09:43",
         "layers":[
           {
             "name":"Italic",
@@ -19590,7 +19615,7 @@
       {
         "name":"Egrave",
         "unicode":"00c8",
-        "lastModified":"2026-06-11 14:57:42",
+        "lastModified":"2026-06-14 18:06:57",
         "layers":[
           {
             "name":"Italic",
@@ -19712,7 +19737,7 @@
       {
         "name":"Eacute",
         "unicode":"00c9",
-        "lastModified":"2026-06-11 14:57:42",
+        "lastModified":"2026-06-14 18:06:57",
         "layers":[
           {
             "name":"Italic",
@@ -19830,7 +19855,7 @@
       {
         "name":"Ecircumflex",
         "unicode":"00ca",
-        "lastModified":"2026-06-11 14:57:42",
+        "lastModified":"2026-06-14 18:06:57",
         "layers":[
           {
             "name":"Italic",
@@ -19948,7 +19973,7 @@
       {
         "name":"Edieresis",
         "unicode":"00cb",
-        "lastModified":"2026-06-11 14:57:42",
+        "lastModified":"2026-06-14 18:06:57",
         "layers":[
           {
             "name":"Italic",
@@ -20060,7 +20085,7 @@
       {
         "name":"Igrave",
         "unicode":"00cc",
-        "lastModified":"2026-06-12 04:12:58",
+        "lastModified":"2026-06-14 18:09:04",
         "layers":[
           {
             "name":"Italic",
@@ -20183,7 +20208,7 @@
       {
         "name":"Iacute",
         "unicode":"00cd",
-        "lastModified":"2026-06-12 04:12:58",
+        "lastModified":"2026-06-14 18:09:04",
         "layers":[
           {
             "name":"Italic",
@@ -20302,7 +20327,7 @@
       {
         "name":"Icircumflex",
         "unicode":"00ce",
-        "lastModified":"2026-06-12 04:12:58",
+        "lastModified":"2026-06-14 18:09:04",
         "layers":[
           {
             "name":"Italic",
@@ -20421,7 +20446,7 @@
       {
         "name":"Idieresis",
         "unicode":"00cf",
-        "lastModified":"2026-06-12 04:12:58",
+        "lastModified":"2026-06-14 18:09:04",
         "layers":[
           {
             "name":"Italic",
@@ -20534,7 +20559,7 @@
       {
         "name":"Eth",
         "unicode":"00d0",
-        "lastModified":"2026-05-31 00:43:50",
+        "lastModified":"2026-06-14 18:06:57",
         "layers":[
           {
             "name":"Italic",
@@ -20698,7 +20723,7 @@
       {
         "name":"Ntilde",
         "unicode":"00d1",
-        "lastModified":"2026-06-12 04:27:07",
+        "lastModified":"2026-06-14 18:11:33",
         "layers":[
           {
             "name":"Italic",
@@ -20802,7 +20827,7 @@
       {
         "name":"Ograve",
         "unicode":"00d2",
-        "lastModified":"2026-06-13 00:45:58",
+        "lastModified":"2026-06-14 18:13:14",
         "layers":[
           {
             "name":"Italic",
@@ -20924,7 +20949,7 @@
       {
         "name":"Oacute",
         "unicode":"00d3",
-        "lastModified":"2026-06-13 00:45:58",
+        "lastModified":"2026-06-14 18:13:14",
         "layers":[
           {
             "name":"Italic",
@@ -21042,7 +21067,7 @@
       {
         "name":"Ocircumflex",
         "unicode":"00d4",
-        "lastModified":"2026-06-13 00:45:58",
+        "lastModified":"2026-06-14 18:13:14",
         "layers":[
           {
             "name":"Italic",
@@ -21160,7 +21185,7 @@
       {
         "name":"Otilde",
         "unicode":"00d5",
-        "lastModified":"2026-06-13 00:45:58",
+        "lastModified":"2026-06-14 18:13:14",
         "layers":[
           {
             "name":"Italic",
@@ -21260,7 +21285,7 @@
       {
         "name":"Odieresis",
         "unicode":"00d6",
-        "lastModified":"2026-06-13 00:45:58",
+        "lastModified":"2026-06-14 18:13:14",
         "layers":[
           {
             "name":"Italic",
@@ -26626,7 +26651,7 @@
       {
         "name":"OE",
         "unicode":"0152",
-        "lastModified":"2026-05-31 02:01:32",
+        "lastModified":"2026-06-14 18:13:25",
         "layers":[
           {
             "name":"Italic",
@@ -27806,7 +27831,7 @@
       {
         "name":"ogonek",
         "unicode":"02db",
-        "lastModified":"2026-05-31 02:08:16",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -27973,7 +27998,7 @@
       {
         "name":"hungarumlaut",
         "unicode":"02dd",
-        "lastModified":"2026-05-31 02:08:16",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -28090,7 +28115,7 @@
       {
         "name":"Alpha",
         "unicode":"0391",
-        "lastModified":"2026-06-09 03:40:04",
+        "lastModified":"2026-06-14 18:16:55",
         "layers":[
           {
             "name":"Italic",
@@ -28198,7 +28223,7 @@
       {
         "name":"Beta",
         "unicode":"0392",
-        "lastModified":"2026-05-31 02:25:54",
+        "lastModified":"2026-06-14 18:16:55",
         "layers":[
           {
             "name":"Italic",
@@ -28206,43 +28231,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "452 1147",
-                        "406 885",
-                        "479 885 s",
-                        "672 885  903 932  903 1176 s",
-                        "903 1329  769 1375  624 1375 s",
-                        "572 1375  520 1369  469 1359"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "50 0 {n:'.ab01'}",
-                        "277 1290",
-                        "284 1490",
-                        "364 1501  497 1510  583 1510 s {n:'.at01'}",
-                        "865 1510  1092 1445  1092 1206 s",
-                        "1092 1048  1001 910  847 860",
-                        "793 845  739 831  685 816",
-                        "733 811  782 807  830 802",
-                        "970 757  1068 674  1068 510",
-                        "1068 139  756 0  446 0 s {n:'.sv01'}"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "278 160",
-                        "348 160 s",
-                        "596 160  874 163  874 493 s",
-                        "874 664  738 730  558 730 s",
-                        "378 730"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.78",
                 "active":true
               }
             ],
@@ -28258,43 +28247,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "562 1130",
-                        "521 900",
-                        "550 900 s",
-                        "692 900  830 979  857 1128 s",
-                        "883 1274  754 1305  642 1305 s",
-                        "623 1305  597 1304  576 1301"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "13 0 {n:'.ab01'}",
-                        "234 1262",
-                        "234 1489 {n:'.hr01'}",
-                        "351 1505  530 1517  618 1517 s {n:'.at01'}",
-                        "865 1517  1217 1467  1164 1138 s",
-                        "1144 1022  1084 930  985 868 s",
-                        "960 852  933 838  904 826",
-                        "931 816  957 805  980 791",
-                        "1113 717  1165 600  1142 455",
-                        "1078 103  838 0  477 0 s {n:'.sv01'}"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "403 228",
-                        "460 228 s",
-                        "633 228  783 267  818 465 s",
-                        "849 636  739 693  580 693 s",
-                        "485 693"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.79",
                 "active":true
               }
             ],
@@ -28347,43 +28300,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "379 1158",
-                        "329 875",
-                        "432 875 s",
-                        "659 875  952 901  934 1208",
-                        "916 1366  779 1422  612 1422 s",
-                        "538 1422  469 1412  398 1398"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "75 0",
-                        "306 1309",
-                        "317 1491",
-                        "373 1498  475 1505  560 1505 s",
-                        "865 1505  1009 1430  1044 1251",
-                        "1057 1065  946 897  755 855",
-                        "682 840  610 826  539 809",
-                        "601 808  665 808  730 809",
-                        "875 784  1003 723  1019 547",
-                        "1061 163  701 0  425 0 s"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "195 115",
-                        "273 115 s",
-                        "571 115  935 94  911 512",
-                        "891 683  737 755  543 755 s",
-                        "307 755"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.80",
                 "active":true
               }
             ],
@@ -28394,7 +28311,7 @@
       {
         "name":"Gamma",
         "unicode":"0393",
-        "lastModified":"2026-05-31 02:25:54",
+        "lastModified":"2026-06-14 18:16:55",
         "layers":[
           {
             "name":"Italic",
@@ -28489,14 +28406,14 @@
                   "contours":[
                     {
                       "nodes":[
-                        "395 1163",
+                        "414 1270",
                         "191 0",
-                        "86 0",
-                        "318 1321",
-                        "334 1500",
+                        "101 0",
+                        "333 1321",
+                        "349 1500",
                         "1096 1500",
-                        "1079 1395",
-                        "420 1395"
+                        "1079 1412",
+                        "424 1412"
                       ]
                     }
                   ]
@@ -28511,7 +28428,7 @@
       {
         "name":"Deltagreek",
         "unicode":"0394",
-        "lastModified":"2026-05-31 02:25:54",
+        "lastModified":"2026-06-14 18:16:55",
         "layers":[
           {
             "name":"Italic",
@@ -28628,15 +28545,15 @@
                     },
                     {
                       "nodes":[
-                        "-15 28",
-                        "39 115",
-                        "1039 115",
-                        "1070 28",
-                        "970 33",
-                        "792 1500",
-                        "807 1630",
-                        "774 1500",
-                        "81 33"
+                        "44 44",
+                        "170 88",
+                        "913 88",
+                        "1024 33",
+                        "952 160",
+                        "786 1349",
+                        "779 1469",
+                        "731 1348",
+                        "150 160"
                       ]
                     }
                   ]
@@ -28651,7 +28568,7 @@
       {
         "name":"Epsilon",
         "unicode":"0395",
-        "lastModified":"2026-06-13 03:01:01",
+        "lastModified":"2026-06-14 18:16:55",
         "layers":[
           {
             "name":"Italic",
@@ -28659,30 +28576,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "990 160",
-                        "942 0 {n:'.sv01'}",
-                        "22 0 {n:'.ab01'}",
-                        "73 200",
-                        "265 1290",
-                        "272 1500 {n:'.at01'}",
-                        "1192 1500 {n:'.sv02'}",
-                        "1164 1340",
-                        "439 1340",
-                        "425 1150",
-                        "378 885",
-                        "1013 885",
-                        "988 740 {n:'.sv03'}",
-                        "353 740 {n:'.av01'}",
-                        "282 340",
-                        "240 160"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.30",
                 "active":true
               }
             ],
@@ -28701,30 +28595,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "1016 228",
-                        "949 0 {n:'.sv01'}",
-                        "-11 0 {n:'.ab01'}",
-                        "47 231",
-                        "229 1263",
-                        "229 1500 {n:'.at01'}",
-                        "1204 1500 {n:'.sv02'}",
-                        "1164 1272",
-                        "567 1272",
-                        "557 1134",
-                        "519 916 {n:'.av01'}",
-                        "1035 916 {n:'.sv03'}",
-                        "997 703",
-                        "481 703",
-                        "421 360",
-                        "389 228 {n:'.mv01'}"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.31",
                 "active":true
               }
             ],
@@ -28767,30 +28638,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "973 115",
-                        "937 0",
-                        "44 0",
-                        "90 179",
-                        "289 1308",
-                        "301 1500",
-                        "1184 1500",
-                        "1164 1385",
-                        "354 1385",
-                        "337 1161",
-                        "284 864",
-                        "998 864",
-                        "982 765",
-                        "268 765",
-                        "189 327",
-                        "141 115"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.32",
                 "active":true
               }
             ],
@@ -28801,7 +28649,7 @@
       {
         "name":"Zeta",
         "unicode":"0396",
-        "lastModified":"2026-05-31 02:25:54",
+        "lastModified":"2026-06-14 18:16:55",
         "layers":[
           {
             "name":"Italic",
@@ -28809,28 +28657,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "1008 160",
-                        "1000 0 {n:'.sv01'}",
-                        "-29 0 {n:'.ab01'}",
-                        "-41 50",
-                        "817 1200",
-                        "1033 1380",
-                        "761 1340",
-                        "276 1340",
-                        "284 1500 {n:'.at01'}",
-                        "1230 1500 {n:'.sv02'}",
-                        "1241 1478",
-                        "372 300",
-                        "163 120",
-                        "435 160"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.81",
                 "active":true
               }
             ],
@@ -28847,28 +28674,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "1010 228",
-                        "997 0 {n:'.sv01'}",
-                        "-42 0 {n:'.ab01'}",
-                        "-60 86",
-                        "675 1187",
-                        "832 1300",
-                        "697 1272",
-                        "239 1272",
-                        "252 1500 {n:'.at01'}",
-                        "1166 1500 {n:'.sv02'}",
-                        "1197 1442",
-                        "451 314",
-                        "297 200",
-                        "434 228"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.82",
                 "active":true
               }
             ],
@@ -28897,28 +28703,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "1007 115",
-                        "1002 0",
-                        "-20 0",
-                        "-28 26",
-                        "912 1209",
-                        "1167 1433",
-                        "804 1385",
-                        "301 1385",
-                        "305 1500",
-                        "1273 1500",
-                        "1270 1502",
-                        "319 291",
-                        "74 67",
-                        "436 115"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.83",
                 "active":true
               }
             ],
@@ -28929,7 +28714,7 @@
       {
         "name":"Eta",
         "unicode":"0397",
-        "lastModified":"2026-05-31 02:25:54",
+        "lastModified":"2026-06-14 18:16:55",
         "layers":[
           {
             "name":"Italic",
@@ -28937,27 +28722,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "736 0",
-                        "863 725 {n:'.sv01'}",
-                        "321 725 {n:'.av01'}",
-                        "194 0",
-                        "-1 0 {n:'.ab01'}",
-                        "226 1290",
-                        "234 1500 {n:'.at01'}",
-                        "462 1520 {n:'.at02'}",
-                        "350 885",
-                        "892 885",
-                        "1000 1500 {n:'.sv02'}",
-                        "1199 1520 {n:'.at03'}",
-                        "931 0 {n:'.sv03'}"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.84",
                 "active":true
               }
             ],
@@ -28978,27 +28743,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "551 0",
-                        "673 688 {n:'.sv01'}",
-                        "357 688 {n:'.av01'}",
-                        "235 0",
-                        "-111 0 {n:'.ab01'}",
-                        "111 1263",
-                        "111 1500 {n:'.at01'}",
-                        "504 1520 {n:'.at02'}",
-                        "397 916",
-                        "713 916",
-                        "816 1500 {n:'.sv02'}",
-                        "1166 1520 {n:'.at03'}",
-                        "897 0 {n:'.sv03'}"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.85",
                 "active":true
               }
             ],
@@ -29049,27 +28794,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "859 0",
-                        "990 750",
-                        "297 750",
-                        "167 0",
-                        "72 0",
-                        "303 1308",
-                        "316 1500",
-                        "434 1520",
-                        "319 864",
-                        "1011 864",
-                        "1123 1500",
-                        "1221 1520",
-                        "954 0"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.86",
                 "active":true
               }
             ],
@@ -29080,7 +28805,7 @@
       {
         "name":"Theta",
         "unicode":"0398",
-        "lastModified":"2026-06-13 03:01:01",
+        "lastModified":"2026-06-14 18:16:55",
         "layers":[
           {
             "name":"Italic",
@@ -29200,28 +28925,28 @@
                   "contours":[
                     {
                       "nodes":[
-                        "207 792",
-                        "897 792",
-                        "854 667",
-                        "164 667"
+                        "218 795",
+                        "891 795",
+                        "856 707",
+                        "183 707"
                       ]
                     },
                     {
                       "nodes":[
-                        "405 -17 s",
-                        "66 -17  -53 330  23 750",
-                        "95 1170  328 1517  676 1517 s",
-                        "1017 1517  1129 1170  1059 750",
-                        "983 330  754 -17 c"
+                        "406 -17 s {n:'.hr01'}",
+                        "67 -17  -50 330  24 750 s",
+                        "98 1170  328 1517  676 1517 s",
+                        "1015 1517  1133 1170  1059 750 s",
+                        "985 330  755 -17 c"
                       ]
                     },
                     {
                       "nodes":[
-                        "939 718",
-                        "990 1017  1006 1387  647 1387 s",
-                        "302 1387  193 1051  143 786 s",
-                        "86 482  78 113  434 113 s",
-                        "763 113  886 425 c"
+                        "965 718 s",
+                        "1020 1027  994 1429  655 1429 s",
+                        "334 1429  164 1041  119 786 s",
+                        "63 472  89 71  429 71 s",
+                        "746 71  919 456 c"
                       ]
                     }
                   ]
@@ -29236,7 +28961,7 @@
       {
         "name":"Iota",
         "unicode":"0399",
-        "lastModified":"2026-05-31 02:25:54",
+        "lastModified":"2026-06-14 18:16:55",
         "layers":[
           {
             "name":"Italic",
@@ -29244,26 +28969,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "288 1500 {n:'.at01'}",
-                        "1188 1500 {n:'.sv01'}",
-                        "1160 1340",
-                        "802 1340",
-                        "593 160",
-                        "971 160",
-                        "923 0 {n:'.sv02'}",
-                        "23 0 {n:'.ab01'}",
-                        "51 160",
-                        "407 160",
-                        "616 1340",
-                        "240 1340"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.33",
                 "active":true
               }
             ],
@@ -29280,26 +28986,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "303 1500 {n:'.at01'}",
-                        "1181 1500 {n:'.sv01'}",
-                        "1141 1272",
-                        "868 1272",
-                        "683 228",
-                        "984 228",
-                        "909 0 {n:'.sv02'}",
-                        "31 0 {n:'.ab01'}",
-                        "71 228",
-                        "349 228",
-                        "534 1272",
-                        "228 1272"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.34",
                 "active":true
               }
             ],
@@ -29336,26 +29023,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "278 1500",
-                        "1193 1500",
-                        "1173 1385",
-                        "758 1385",
-                        "533 115",
-                        "962 115",
-                        "932 0",
-                        "18 0",
-                        "38 115",
-                        "446 115",
-                        "671 1385",
-                        "248 1385"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.35",
                 "active":true
               }
             ],
@@ -29366,7 +29034,7 @@
       {
         "name":"Kappa",
         "unicode":"039a",
-        "lastModified":"2026-05-31 02:25:54",
+        "lastModified":"2026-06-14 18:16:55",
         "layers":[
           {
             "name":"Italic",
@@ -29374,28 +29042,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "0 0 {n:'.ab01'}",
-                        "227 1290",
-                        "234 1500 {n:'.at01'}",
-                        "468 1520 {n:'.at02'}",
-                        "350 856",
-                        "1005 1500",
-                        "1227 1500 {n:'.sv01'}",
-                        "584 865",
-                        "404 802",
-                        "568 744",
-                        "990 0 {n:'.sv02'}",
-                        "753 0",
-                        "331 746",
-                        "200 0"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.87",
                 "active":true
               }
             ],
@@ -29413,28 +29060,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "-43 0 {n:'.ab01'}",
-                        "179 1263",
-                        "179 1500 {n:'.at01'}",
-                        "576 1520 {n:'.at02'}",
-                        "490 1035",
-                        "873 1500 {n:'.sv01'}",
-                        "1241 1500",
-                        "726 900",
-                        "476 800",
-                        "684 716",
-                        "1087 0 {n:'.sv02'}",
-                        "707 0",
-                        "403 540",
-                        "307 0"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.88",
                 "active":true
               }
             ],
@@ -29466,28 +29092,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "29 0",
-                        "259 1308",
-                        "271 1500",
-                        "396 1520",
-                        "257 737",
-                        "1093 1500",
-                        "1218 1500",
-                        "489 842",
-                        "356 803",
-                        "491 763",
-                        "925 0",
-                        "784 0",
-                        "283 883",
-                        "129 0"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.89",
                 "active":true
               }
             ],
@@ -29498,7 +29103,7 @@
       {
         "name":"Lambda",
         "unicode":"039b",
-        "lastModified":"2026-05-31 02:25:54",
+        "lastModified":"2026-06-14 18:16:55",
         "layers":[
           {
             "name":"Italic",
@@ -29596,16 +29201,16 @@
                   "contours":[
                     {
                       "nodes":[
-                        "11 -1",
-                        "741 1322",
-                        "804 1500",
-                        "852 1520",
-                        "1142 0",
-                        "1028 0",
-                        "820 1266",
-                        "850 1506",
-                        "779 1266",
-                        "110 -1"
+                        "15 0",
+                        "711 1311",
+                        "785 1500",
+                        "862 1520",
+                        "1149 0",
+                        "1063 0",
+                        "831 1240",
+                        "825 1466",
+                        "767 1240",
+                        "112 0"
                       ]
                     }
                   ]
@@ -29620,7 +29225,7 @@
       {
         "name":"Mu",
         "unicode":"039c",
-        "lastModified":"2026-05-31 02:25:54",
+        "lastModified":"2026-06-14 18:16:55",
         "layers":[
           {
             "name":"Italic",
@@ -29628,36 +29233,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "787 0",
-                        "946 901",
-                        "1103 1399",
-                        "1098 1400",
-                        "850 921",
-                        "603 500",
-                        "503 500",
-                        "405 920",
-                        "320 1400",
-                        "314 1399",
-                        "301 901",
-                        "142 0",
-                        "-38 0 {n:'.ab01'}",
-                        "190 1290",
-                        "199 1500 {n:'.at01'}",
-                        "417 1520 {n:'.at02'}",
-                        "549 950",
-                        "581 700",
-                        "699 950",
-                        "1025 1500 {n:'.sv01'}",
-                        "1236 1520 {n:'.at03'}",
-                        "967 0 {n:'.sv02'}"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.90",
                 "active":true
               }
             ],
@@ -29676,36 +29252,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "667 0",
-                        "747 449",
-                        "986 1200",
-                        "976 1200",
-                        "751 700",
-                        "643 475",
-                        "452 475",
-                        "427 700 {n:'.mh01'}",
-                        "376 1200 {n:'.mv01'}",
-                        "366 1200",
-                        "346 449 {n:'.mh02'}",
-                        "266 0",
-                        "-45 0 {n:'.ab01'}",
-                        "177 1263",
-                        "177 1500 {n:'.at01'}",
-                        "502 1520 {n:'.at02'}",
-                        "595 1079",
-                        "592 800",
-                        "675 1082",
-                        "919 1500 {n:'.sv01'}",
-                        "1249 1520 {n:'.at03'}",
-                        "980 0 {n:'.sv02'}"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.91",
                 "active":true
               }
             ],
@@ -29752,36 +29299,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "867 0",
-                        "1079 1202",
-                        "1181 1532",
-                        "1179 1533",
-                        "916 1068",
-                        "576 517",
-                        "537 517",
-                        "390 1067",
-                        "283 1533",
-                        "279 1532",
-                        "271 1202",
-                        "59 0",
-                        "-33 0",
-                        "199 1308",
-                        "214 1500",
-                        "360 1520",
-                        "518 864",
-                        "574 633",
-                        "715 862",
-                        "1096 1500",
-                        "1227 1520",
-                        "958 0"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.92",
                 "active":true
               }
             ],
@@ -29792,7 +29310,7 @@
       {
         "name":"Nu",
         "unicode":"039d",
-        "lastModified":"2026-05-31 02:25:54",
+        "lastModified":"2026-06-14 18:16:55",
         "layers":[
           {
             "name":"Italic",
@@ -29800,31 +29318,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "767 0",
-                        "440 948",
-                        "353 1361",
-                        "347 1360",
-                        "335 920",
-                        "172 0",
-                        "-8 0 {n:'.ab01'}",
-                        "220 1290",
-                        "227 1500 {n:'.at01'}",
-                        "432 1520 {n:'.at02'}",
-                        "758 557",
-                        "850 140",
-                        "856 141",
-                        "855 580",
-                        "1017 1500 {n:'.sv01'}",
-                        "1201 1520 {n:'.at03'}",
-                        "932 0 {n:'.sv02'}"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.36",
                 "active":true
               }
             ],
@@ -29843,31 +29337,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "689 0",
-                        "442 792",
-                        "393 950",
-                        "383 950",
-                        "392 649",
-                        "277 0",
-                        "-45 0 {n:'.ab01'}",
-                        "177 1263",
-                        "177 1500 {n:'.at01'}",
-                        "516 1520 {n:'.at02'}",
-                        "762 753",
-                        "811 600",
-                        "821 600",
-                        "807 852",
-                        "921 1500 {n:'.sv01'}",
-                        "1247 1520 {n:'.at03'}",
-                        "978 0 {n:'.sv02'}"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.37",
                 "active":true
               }
             ],
@@ -29911,31 +29381,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "819 0",
-                        "439 1052",
-                        "326 1635",
-                        "323 1633",
-                        "297 1101",
-                        "102 0",
-                        "17 0",
-                        "249 1308",
-                        "260 1500",
-                        "376 1520",
-                        "755 426",
-                        "876 -167",
-                        "879 -165",
-                        "887 399",
-                        "1081 1500",
-                        "1170 1520",
-                        "901 0"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.38",
                 "active":true
               }
             ],
@@ -29946,7 +29392,7 @@
       {
         "name":"Xi",
         "unicode":"039e",
-        "lastModified":"2026-05-31 02:25:54",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -30069,16 +29515,16 @@
                   "contours":[
                     {
                       "nodes":[
-                        "367 864",
-                        "896 864",
-                        "873 735",
-                        "344 735"
+                        "363 844",
+                        "892 844",
+                        "877 756",
+                        "348 756"
                       ]
                     },
                     {
                       "nodes":[
-                        "133 129",
-                        "869 129",
+                        "127 88",
+                        "863 88",
                         "848 0",
                         "111 0"
                       ]
@@ -30087,8 +29533,8 @@
                       "nodes":[
                         "375 1500",
                         "1111 1500",
-                        "1088 1371",
-                        "352 1371"
+                        "1097 1410",
+                        "361 1410"
                       ]
                     }
                   ]
@@ -30103,7 +29549,7 @@
       {
         "name":"Omicron",
         "unicode":"039f",
-        "lastModified":"2026-06-13 00:45:58",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -30126,28 +29572,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "464 -17 s {n:'.ab01'}",
-                        "74 -17  -75 330  1 750",
-                        "73 1170  334 1517  735 1517 s {n:'.at01'}",
-                        "1126 1517  1273 1170  1198 750 s",
-                        "1122 330  867 -17 c"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "842 721 s",
-                        "886 969  909 1274  686 1274 s",
-                        "480 1274  392 999  356 783",
-                        "312 532  292 226  512 226 s",
-                        "734 226  812 552 c"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.40",
                 "active":true
               }
             ],
@@ -30196,7 +29621,7 @@
       {
         "name":"Rho",
         "unicode":"03a1",
-        "lastModified":"2026-05-31 02:25:54",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -30204,30 +29629,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "239 0 {n:'.sv01'}",
-                        "49 0 {n:'.ab01'}",
-                        "277 1290",
-                        "277 1490",
-                        "357 1503  509 1512  613 1512 s {n:'.at01'}",
-                        "1041 1512  1237 1342  1194 1099",
-                        "1136 782  854 624  349 624"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "441 1147",
-                        "374 765",
-                        "778 765  976 885  1016 1100",
-                        "1051 1279  873 1370  633 1370 s",
-                        "588 1370  500 1367  459 1359"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.93",
                 "active":true
               }
             ],
@@ -30243,30 +29645,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "310 0 {n:'.sv01'}",
-                        "-22 0 {n:'.ab01'}",
-                        "200 1262",
-                        "200 1484",
-                        "323 1503  501 1517  603 1517 s {n:'.at01'}",
-                        "1021 1517  1250 1326  1213 1061 s",
-                        "1165 710  895 594  413 583"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "507 1121",
-                        "453 813",
-                        "733 824  855 888  890 1078",
-                        "914 1223  752 1292  607 1292 s",
-                        "570 1292  557 1292  521 1289"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.94",
                 "active":true
               }
             ],
@@ -30311,30 +29690,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "192 0",
-                        "96 0",
-                        "328 1309",
-                        "328 1494",
-                        "380 1503  514 1509  620 1509 s",
-                        "1054 1509  1228 1353  1181 1124",
-                        "1117 830  827 644  306 651"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "397 1164",
-                        "321 733",
-                        "808 726  1057 883  1100 1115",
-                        "1142 1316  954 1422  650 1422 s",
-                        "600 1422  462 1417  418 1406"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.95",
                 "active":true
               }
             ],
@@ -30345,7 +29701,7 @@
       {
         "name":"Sigma",
         "unicode":"03a3",
-        "lastModified":"2026-05-31 02:25:54",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -30457,25 +29813,25 @@
                   "contours":[
                     {
                       "nodes":[
-                        "942 701",
-                        "501 328",
-                        "165 75",
-                        "483 139",
-                        "1123 139",
-                        "1100 0",
-                        "81 0",
-                        "128 161",
-                        "786 707",
-                        "922 750",
-                        "802 793",
-                        "335 1339",
-                        "345 1500",
-                        "1305 1500",
-                        "1281 1361",
-                        "700 1361",
-                        "403 1425",
-                        "650 1172",
-                        "961 799"
+                        "849 701",
+                        "239 160",
+                        "97 61",
+                        "237 88",
+                        "1001 88",
+                        "985 0",
+                        "33 0",
+                        "66 113",
+                        "712 688",
+                        "828 750",
+                        "734 810",
+                        "293 1387",
+                        "297 1500",
+                        "1249 1500",
+                        "1234 1412",
+                        "489 1412",
+                        "341 1448",
+                        "428 1368",
+                        "866 799"
                       ]
                     }
                   ]
@@ -30490,7 +29846,7 @@
       {
         "name":"Tau",
         "unicode":"03a4",
-        "lastModified":"2026-05-31 02:25:54",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -30498,22 +29854,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "344 0 {n:'.ab01'}",
-                        "580 1340",
-                        "95 1340",
-                        "108 1500 {n:'.at01'}",
-                        "1248 1500 {n:'.sv01'}",
-                        "1220 1340",
-                        "780 1340",
-                        "544 0 {n:'.sv02'}"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.96",
                 "active":true
               }
             ],
@@ -30530,22 +29871,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "196 0",
-                        "421 1272",
-                        "18 1272",
-                        "58 1500 {n:'.at01'}",
-                        "1192 1500 {n:'.sv01'}",
-                        "1152 1272",
-                        "754 1272",
-                        "529 0 {n:'.ab01'}"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.97",
                 "active":true
               }
             ],
@@ -30580,22 +29906,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "443 0",
-                        "686 1385",
-                        "146 1385",
-                        "141 1500",
-                        "1285 1500",
-                        "1265 1385",
-                        "797 1385",
-                        "554 0"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.98",
                 "active":true
               }
             ],
@@ -30606,7 +29917,7 @@
       {
         "name":"Upsilon",
         "unicode":"03a5",
-        "lastModified":"2026-05-31 02:25:54",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -30614,25 +29925,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "219 0 {n:'.ab01'}",
-                        "332 645",
-                        "47 1500 {n:'.at01'}",
-                        "255 1520 {n:'.at02'}",
-                        "433 954",
-                        "468 705",
-                        "538 935",
-                        "926 1500",
-                        "1118 1500 {n:'.sv01'}",
-                        "532 646",
-                        "419 0 {n:'.sv02'}"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.45",
                 "active":true
               }
             ],
@@ -30650,25 +29943,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "193 0 {n:'.ab01'}",
-                        "308 650",
-                        "29 1500 {n:'.at01'}",
-                        "372 1520 {n:'.at02'}",
-                        "497 1143",
-                        "539 773",
-                        "662 1143",
-                        "907 1500",
-                        "1242 1500 {n:'.sv01'}",
-                        "659 650",
-                        "544 0 {n:'.sv02'}"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.46",
                 "active":true
               }
             ],
@@ -30706,25 +29981,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "236 0",
-                        "348 642",
-                        "59 1500",
-                        "177 1520",
-                        "390 828",
-                        "421 660",
-                        "455 796",
-                        "939 1500",
-                        "1035 1500",
-                        "447 643",
-                        "336 0"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.99",
                 "active":true
               }
             ],
@@ -30735,7 +29992,7 @@
       {
         "name":"Phi",
         "unicode":"03a6",
-        "lastModified":"2026-05-31 02:25:54",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -30898,35 +30155,36 @@
                   "contours":[
                     {
                       "nodes":[
-                        "448 204",
-                        "391 209  333 223  277 239",
-                        "144 290  -55 438  -34 750",
-                        "-7 1087  237 1198  456 1259",
-                        "520 1279  582 1291  641 1294",
-                        "677 1500",
-                        "785 1520",
-                        "745 1294",
-                        "805 1291  863 1279  919 1259",
-                        "1035 1213  1261 1062  1231 750 s",
-                        "1205 475  1027 300  739 239",
-                        "676 228  614 216  552 204",
-                        "513 -23",
-                        "408 -23"
+                        "421 0",
+                        "457 204",
+                        "438 205  419 207  401 209 s",
+                        "117 245  -6 435  50 750 s",
+                        "104 1055  299 1263  592 1291 s",
+                        "611 1293  630 1294  649 1294",
+                        "685 1500",
+                        "777 1520",
+                        "737 1294",
+                        "755 1294  773 1293  790 1291 s",
+                        "1076 1264  1202 1057  1148 750 s",
+                        "1093 439  902 247  612 210 s",
+                        "590 207  568 205  545 204",
+                        "509 0"
                       ]
                     },
                     {
                       "nodes":[
-                        "570 306",
-                        "847 292  1132 474  1133 750",
-                        "1134 971  1061 1120  726 1195"
+                        "560 292",
+                        "834 303  1010 467  1060 750 s",
+                        "1111 1037  994 1191  722 1206"
                       ]
                     },
                     {
                       "nodes":[
-                        "622 1195",
-                        "364 1218  70 1052  62 750",
-                        "63 597  160 332  388 312",
-                        "413 312  440 306  466 305"
+                        "472 291",
+                        "634 1206",
+                        "362 1192  188 1033  138 750 s",
+                        "92 490  189 335  411 298 s",
+                        "430 295  451 293 c"
                       ]
                     }
                   ]
@@ -30947,7 +30205,7 @@
       {
         "name":"Chi",
         "unicode":"03a7",
-        "lastModified":"2026-05-31 02:25:54",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -30955,31 +30213,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "796 0",
-                        "638 519",
-                        "597 700",
-                        "517 540",
-                        "147 0",
-                        "-51 0 {n:'.ab01'}",
-                        "519 799",
-                        "270 1500 {n:'.at01'}",
-                        "486 1520 {n:'.at02'}",
-                        "632 1056",
-                        "667 860",
-                        "726 1020",
-                        "1056 1500",
-                        "1249 1500 {n:'.sv01'}",
-                        "736 776",
-                        "1016 0 {n:'.sv02'}"
-                      ]
-                    }
-                  ]
-                },
-                "active":true
+                "elementData":"elementdata.100"
               }
             ],
             "color":"#00cce5",
@@ -30996,31 +30230,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "807 0",
-                        "647 460",
-                        "593 613",
-                        "553 427",
-                        "303 0",
-                        "-19 0 {n:'.ab01'}",
-                        "503 824",
-                        "234 1500 {n:'.at01'}",
-                        "566 1520 {n:'.at02'}",
-                        "702 1168",
-                        "747 1050",
-                        "799 1231",
-                        "964 1500",
-                        "1251 1500 {n:'.sv01'}",
-                        "830 855",
-                        "1147 0 {n:'.sv02'}"
-                      ]
-                    }
-                  ]
-                },
-                "active":true
+                "elementData":"elementdata.101"
               }
             ],
             "hints":[
@@ -31052,30 +30262,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "789 0",
-                        "632 558",
-                        "600 758",
-                        "493 615",
-                        "43 0",
-                        "-72 0",
-                        "530 782",
-                        "294 1500",
-                        "433 1520",
-                        "585 981",
-                        "614 733",
-                        "677 879",
-                        "1117 1500",
-                        "1248 1500",
-                        "673 723",
-                        "929 0"
-                      ]
-                    }
-                  ]
-                },
+                "elementData":"elementdata.102",
                 "active":true
               }
             ],
@@ -31086,7 +30273,7 @@
       {
         "name":"Psi",
         "unicode":"03a8",
-        "lastModified":"2026-05-31 02:25:54",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -31225,23 +30412,23 @@
                   "contours":[
                     {
                       "nodes":[
-                        "441 1",
-                        "520 450",
-                        "254 468  -51 571  11 929",
-                        "78 1308",
-                        "90 1500",
-                        "231 1520",
-                        "123 909 s",
-                        "80 666  304 574  539 558",
-                        "705 1500",
-                        "798 1520",
-                        "628 556",
-                        "871 545  1104 568  1159 857",
-                        "1272 1500",
-                        "1386 1500",
-                        "1276 877",
-                        "1211 505  882 429  607 439",
-                        "530 1"
+                        "789 1519",
+                        "615 533",
+                        "852 534  986 627  1026 856 s",
+                        "1139 1499",
+                        "1228 1499",
+                        "1118 876 s",
+                        "1060 546  876 454  599 444",
+                        "521 0",
+                        "433 0",
+                        "511 444",
+                        "212 454  95 592  154 928 s",
+                        "220 1307",
+                        "226 1499",
+                        "346 1519",
+                        "238 908 s",
+                        "190 634  301 539  527 533",
+                        "697 1499"
                       ]
                     }
                   ]
@@ -31256,7 +30443,7 @@
       {
         "name":"Omegagreek",
         "unicode":"03a9",
-        "lastModified":"2026-05-31 02:25:54",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -31381,26 +30568,26 @@
                   "contours":[
                     {
                       "nodes":[
-                        "43 115",
-                        "208 115",
-                        "401 15",
-                        "208 240 s",
-                        "146 312  135 525  180 776",
-                        "257 1216  402 1517  804 1517 s",
-                        "1197 1517  1243 1216  1166 776",
-                        "1121 526  1035 309  956 243",
-                        "676 15",
-                        "905 115",
-                        "1072 115",
-                        "1052 0",
-                        "663 0",
-                        "694 176",
-                        "910 309  1001 476  1047 744 s",
-                        "1107 1087  1090 1392  776 1392 s",
-                        "479 1392  356 1118  301 812 s",
-                        "258 569  241 351  441 177",
-                        "410 0",
-                        "23 0"
+                        "26 88",
+                        "227 88",
+                        "362 49",
+                        "261 166",
+                        "142 298  126 527  170 776 s",
+                        "247 1216  439 1517  793 1517 s",
+                        "1147 1517  1233 1216  1156 776 s",
+                        "1112 525  1031 298  833 151",
+                        "705 48",
+                        "854 88",
+                        "1057 88",
+                        "1041 0",
+                        "652 0",
+                        "671 106",
+                        "881 267  1004 423  1061 744 s",
+                        "1121 1087  1126 1429  772 1429 s",
+                        "465 1429  318 1120  264 812 s",
+                        "199 441  270 267  417 107",
+                        "398 0",
+                        "10 0"
                       ]
                     }
                   ]
@@ -31415,7 +30602,7 @@
       {
         "name":"alpha",
         "unicode":"03b1",
-        "lastModified":"2026-06-04 03:10:22",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -31576,7 +30763,7 @@
       {
         "name":"beta",
         "unicode":"03b2",
-        "lastModified":"2026-06-04 03:15:51",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -31723,7 +30910,7 @@
       {
         "name":"gamma",
         "unicode":"03b3",
-        "lastModified":"2026-06-04 03:15:51",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -31863,7 +31050,7 @@
       {
         "name":"delta",
         "unicode":"03b4",
-        "lastModified":"2026-06-04 03:15:51",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -32009,7 +31196,7 @@
       {
         "name":"epsilon",
         "unicode":"03b5",
-        "lastModified":"2026-06-04 03:15:51",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -32138,7 +31325,7 @@
       {
         "name":"zeta",
         "unicode":"03b6",
-        "lastModified":"2026-06-04 03:15:51",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -32257,7 +31444,7 @@
       {
         "name":"eta",
         "unicode":"03b7",
-        "lastModified":"2026-06-13 03:01:01",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -32403,7 +31590,7 @@
       {
         "name":"theta",
         "unicode":"03b8",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -32568,7 +31755,7 @@
       {
         "name":"iota",
         "unicode":"03b9",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -32684,7 +31871,7 @@
       {
         "name":"kappa",
         "unicode":"03ba",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -32827,7 +32014,7 @@
       {
         "name":"lambda",
         "unicode":"03bb",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -32959,7 +32146,7 @@
       {
         "name":"uni03BC",
         "unicode":"03bc",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -33121,7 +32308,7 @@
       {
         "name":"nu",
         "unicode":"03bd",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -33229,7 +32416,7 @@
       {
         "name":"xi",
         "unicode":"03be",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -33395,7 +32582,7 @@
       {
         "name":"omicron",
         "unicode":"03bf",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -33530,7 +32717,7 @@
       {
         "name":"pi",
         "unicode":"03c0",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -33687,7 +32874,7 @@
       {
         "name":"sigma1",
         "unicode":"03c2",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-14 18:18:09",
         "layers":[
           {
             "name":"Italic",
@@ -33795,7 +32982,7 @@
       {
         "name":"sigma",
         "unicode":"03c3",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-14 18:17:20",
         "layers":[
           {
             "name":"Italic",
@@ -33952,7 +33139,7 @@
       {
         "name":"tau",
         "unicode":"03c4",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-14 18:17:20",
         "layers":[
           {
             "name":"Italic",
@@ -34062,7 +33249,7 @@
       {
         "name":"upsilon",
         "unicode":"03c5",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-14 18:17:20",
         "layers":[
           {
             "name":"Italic",
@@ -34202,7 +33389,7 @@
       {
         "name":"phi",
         "unicode":"03c6",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-14 18:17:20",
         "layers":[
           {
             "name":"Italic",
@@ -34372,7 +33559,7 @@
       {
         "name":"chi",
         "unicode":"03c7",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-14 18:17:20",
         "layers":[
           {
             "name":"Italic",
@@ -34525,7 +33712,7 @@
       {
         "name":"psi",
         "unicode":"03c8",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-14 18:17:20",
         "layers":[
           {
             "name":"MediumItalic",
@@ -34726,7 +33913,7 @@
       {
         "name":"omega",
         "unicode":"03c9",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-14 18:17:20",
         "layers":[
           {
             "name":"Italic",
@@ -34877,7 +34064,7 @@
       {
         "name":"theta1",
         "unicode":"03d1",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-14 18:17:20",
         "layers":[
           {
             "name":"Italic",
@@ -35022,7 +34209,7 @@
       {
         "name":"Upsilon1",
         "unicode":"03d2",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-14 18:17:20",
         "layers":[
           {
             "name":"Italic",
@@ -35190,7 +34377,7 @@
       {
         "name":"phi1",
         "unicode":"03d5",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-14 18:17:13",
         "layers":[
           {
             "name":"Italic",
@@ -35340,7 +34527,7 @@
       {
         "name":"omega1",
         "unicode":"03d6",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-14 18:16:38",
         "layers":[
           {
             "name":"Italic",
@@ -36149,7 +35336,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.78",
+                  "id":"elementdata.103",
                   "contours":[
                     {
                       "nodes":[
@@ -36199,7 +35386,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.79",
+                  "id":"elementdata.104",
                   "contours":[
                     {
                       "nodes":[
@@ -36309,7 +35496,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.78",
+                "elementData":"elementdata.103",
                 "active":true
               }
             ],
@@ -36328,7 +35515,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.79"
+                "elementData":"elementdata.104"
               }
             ],
             "color":"#00cce5",
@@ -41412,7 +40599,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.80",
+                  "id":"elementdata.105",
                   "contours":[
                     {
                       "nodes":[
@@ -42638,7 +41825,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.80",
+                "elementData":"elementdata.105",
                 "transform":{
                   "xScale":0.5,
                   "yxScale":0.08816349,
@@ -42767,7 +41954,7 @@
       {
         "name":"Euro",
         "unicode":"20ac",
-        "lastModified":"2026-06-08 03:43:48",
+        "lastModified":"2026-06-14 18:06:57",
         "layers":[
           {
             "name":"Italic",
@@ -43478,7 +42665,7 @@
       {
         "name":"Ifraktur",
         "unicode":"2111",
-        "lastModified":"2026-06-05 02:21:56",
+        "lastModified":"2026-06-14 18:09:04",
         "layers":[
           {
             "name":"Italic",
@@ -44056,7 +43243,7 @@
       {
         "name":"Ohm",
         "unicode":"2126",
-        "lastModified":"2026-06-05 02:47:57",
+        "lastModified":"2026-06-14 18:13:25",
         "layers":[
           {
             "name":"Italic",
@@ -44212,7 +43399,7 @@
       {
         "name":"angstrom",
         "unicode":"212b",
-        "lastModified":"2026-06-09 03:40:04",
+        "lastModified":"2026-06-14 18:09:43",
         "layers":[
           {
             "name":"Italic",
@@ -74669,7 +73856,7 @@
       {
         "name":"NULL",
         "unicode":"0000",
-        "lastModified":"2026-04-19 21:42:07",
+        "lastModified":"2026-06-14 18:11:33",
         "layers":[
           {
             "name":"Italic",
@@ -75052,7 +74239,7 @@
       {
         "name":"parenleft",
         "unicode":"0028",
-        "lastModified":"2026-06-14 03:09:13",
+        "lastModified":"2026-06-14 18:15:20",
         "layers":[
           {
             "name":"Italic",
@@ -75293,7 +74480,7 @@
       {
         "name":"bracketleft",
         "unicode":"005b",
-        "lastModified":"2026-06-14 03:09:13",
+        "lastModified":"2026-06-14 18:15:20",
         "layers":[
           {
             "name":"Italic",
@@ -75549,7 +74736,7 @@
       {
         "name":"braceleft",
         "unicode":"007b",
-        "lastModified":"2026-06-14 03:12:43",
+        "lastModified":"2026-06-14 18:15:20",
         "layers":[
           {
             "name":"Italic",
@@ -76750,7 +75937,7 @@
               "name":"roundCAPS",
               "style":"custom",
               "horizontal":true,
-              "position":1517
+              "position":160
             },
             {
               "name":"roundDescender",
