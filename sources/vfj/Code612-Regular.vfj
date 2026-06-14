@@ -37,8 +37,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -133,8 +132,7 @@
             "name":"Thin",
             "advanceWidth":1200,
             "advanceHeight":1600,
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -194,8 +192,7 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -298,7 +295,7 @@
       {
         "name":"quotedbl",
         "unicode":"0022",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 00:31:39",
         "layers":[
           {
             "name":"Thin",
@@ -355,8 +352,7 @@
                 "thickness":128
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -483,7 +479,7 @@
       {
         "name":"numbersign",
         "unicode":"0023",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 00:31:39",
         "layers":[
           {
             "name":"Thin",
@@ -539,8 +535,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -760,8 +755,7 @@
               "alignt .at02 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -1010,8 +1004,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -1308,8 +1301,7 @@
               "alignb .sv03 \"b: 0\"",
               "singlev .sv01, .sv02 .round",
               "singlev .sv03, .sv04 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -1503,8 +1495,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -1579,7 +1570,7 @@
       },
       {
         "name":"parenleft.lc",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -1622,8 +1613,7 @@
               "alignv .av02 round",
               "singlev .av02, .sv02 .round",
               "singlev .av01, .sv01 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -1777,8 +1767,7 @@
               "alignv .av02 round",
               "singlev .av02, .sv02 .round",
               "singlev .av01, .sv01 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -1949,8 +1938,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -2123,8 +2111,7 @@
                 }
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -2265,8 +2252,7 @@
             "color":"#1f964d",
             "tth":[
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -2377,7 +2363,7 @@
       {
         "name":"hyphen",
         "unicode":"002d",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:46:23",
         "layers":[
           {
             "name":"Thin",
@@ -2405,8 +2391,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -2496,7 +2481,7 @@
       {
         "name":"period",
         "unicode":"002e",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -2528,8 +2513,7 @@
             "tth":[
               "alignv .av01 round",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -2620,7 +2604,7 @@
       {
         "name":"slash",
         "unicode":"002f",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -2657,8 +2641,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -2741,7 +2724,7 @@
       },
       {
         "name":"zero.alt",
-        "lastModified":"2026-06-11 03:12:00",
+        "lastModified":"2026-06-14 02:50:15",
         "layers":[
           {
             "name":"Thin",
@@ -2753,20 +2736,20 @@
                   "contours":[
                     {
                       "nodes":[
-                        "616 -18 s {n:'.sv01'}",
-                        "270 -18  140 390  140 750 s",
+                        "140 750 s",
                         "140 1110  270 1517  616 1517 s {n:'.sv03'}",
                         "962 1517  1093 1110  1093 750 s",
-                        "1093 390  962 -18 c"
+                        "1093 390  962 -18  616 -18 s {n:'.sv01'}",
+                        "270 -18  140 390 c"
                       ]
                     },
                     {
                       "nodes":[
-                        "616 70 s {n:'.sv02'}",
+                        "228 750 s",
+                        "228 478  317 70  616 70 s {n:'.sv02'}",
                         "915 70  1005 478  1005 750 s",
                         "1005 1022  915 1429  616 1429 s {n:'.sv04'}",
-                        "317 1429  228 1022  228 750 s",
-                        "228 478  317 70 c"
+                        "317 1429  228 1022 c"
                       ]
                     }
                   ]
@@ -2787,8 +2770,7 @@
               "alignb .sv01 \"b: 0\"",
               "singlev .sv01, .sv02 .round",
               "singlev .sv03, .sv04 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -2796,7 +2778,6 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.84",
                   "contours":[
                     {
                       "nodes":[
@@ -2814,15 +2795,6 @@
                         "753 226  810 491  810 709 s {n:'.sv06'}",
                         "810 914  762 1273  570 1273 s {n:'.sv02'}",
                         "401 1273  346 1008 c"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "465 748 s {n:'.ah01'}",
-                        "465 831  516 898  577 898 s {n:'.av01'}",
-                        "640 898  690 831  690 748 s {n:'.ah02'}",
-                        "690 665  639 596  577 596 s {n:'.ab01'}",
-                        "515 596  465 665 c"
                       ]
                     }
                   ]
@@ -2867,7 +2839,6 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.85",
                   "contours":[
                     {
                       "nodes":[
@@ -2885,15 +2856,6 @@
                         "853 158  904 459  904 707 s {n:'.ah01'}",
                         "904 938  865 1341  593 1341 s {n:'.sv02'}",
                         "349 1341  298 1041 c"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "450 750 s {n:'.ah01'}",
-                        "450 833  517 900  599 900 s {n:'.av01'}",
-                        "682 900  749 833  749 750 s {n:'.ah02'}",
-                        "749 668  683 599  601 599 s {n:'.ab01'}",
-                        "517 599  450 668 c"
                       ]
                     }
                   ]
@@ -2937,7 +2899,7 @@
       {
         "name":"one",
         "unicode":"0031",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -2989,8 +2951,7 @@
               "alignb .ab02 \"b: 0\"",
               "singlev .ab02, .sv02 .round",
               "singlev .ab01, .sv03 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -3131,7 +3092,7 @@
       {
         "name":"two",
         "unicode":"0032",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -3181,8 +3142,7 @@
               "alignb .sv03 \"b: 0\"",
               "singlev .sv03, .sv04 .round",
               "singlev .sv01, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -3301,7 +3261,7 @@
       {
         "name":"three",
         "unicode":"0033",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -3358,8 +3318,7 @@
               "alignb .sv04 \"b: 0\"",
               "singlev .sv01, .sv02 .round",
               "singlev .sv04, .sv05 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -3492,7 +3451,7 @@
       {
         "name":"four",
         "unicode":"0034",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -3558,8 +3517,7 @@
               "alignb .ab02 \"b: 0\"",
               "doublev .dv01, .dv02 .round",
               "doublev .dv03, .dv04 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -3703,7 +3661,7 @@
       {
         "name":"five",
         "unicode":"0035",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -3759,8 +3717,7 @@
               "doublev .dv01, .dv02 .round",
               "singlev .sv03, .sv04 .round",
               "singlev .sv01, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -3904,7 +3861,7 @@
       {
         "name":"six",
         "unicode":"0036",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -3968,8 +3925,7 @@
               "doublev .dv01, .dv02 .round",
               "singlev .sv03, .sv04 .round",
               "singlev .sv01, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -4127,7 +4083,7 @@
       {
         "name":"seven",
         "unicode":"0037",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -4187,8 +4143,7 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "singlev .sv01, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -4319,7 +4274,7 @@
       {
         "name":"eight",
         "unicode":"0038",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -4389,8 +4344,7 @@
               "alignb .sv03 \"b: 0\"",
               "singlev .sv03, .sv04 .round",
               "singlev .sv01, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -4593,7 +4547,7 @@
       {
         "name":"nine",
         "unicode":"0039",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -4653,8 +4607,7 @@
               "doublev .dv03, .dv04 .round",
               "singlev .sv01, .sv02 .round",
               "singlev .dv01, .dv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -4818,7 +4771,7 @@
       {
         "name":"colon",
         "unicode":"003a",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -4857,8 +4810,7 @@
               "alignv .av02 round",
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -4984,7 +4936,7 @@
       {
         "name":"semicolon",
         "unicode":"003b",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -5035,8 +4987,7 @@
               "alignv .av02 round",
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -5173,7 +5124,7 @@
       {
         "name":"less",
         "unicode":"003c",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -5205,8 +5156,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -5286,7 +5236,7 @@
       {
         "name":"equal",
         "unicode":"003d",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -5333,8 +5283,7 @@
                 "thickness":87
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -5451,7 +5400,7 @@
       {
         "name":"greater",
         "unicode":"003e",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -5483,8 +5432,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -5564,7 +5512,7 @@
       {
         "name":"question",
         "unicode":"003f",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -5608,8 +5556,7 @@
                 "position":546
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -5721,7 +5668,7 @@
       {
         "name":"at",
         "unicode":"0040",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -5787,8 +5734,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -6037,8 +5983,7 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "doublev .dv01, .dv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -6186,7 +6131,7 @@
       {
         "name":"B",
         "unicode":"0042",
-        "lastModified":"2026-06-12 23:51:06",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -6246,8 +6191,7 @@
               "doublev .dv01, .dv02 .round",
               "singlev .sv01, .sv02 .round",
               "singlev .sv03, .sv04 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -6419,7 +6363,7 @@
       {
         "name":"C",
         "unicode":"0043",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -6474,8 +6418,7 @@
               "alignb .sv03 \"b: 0\"",
               "singlev .sv03, .sv04 .round",
               "singlev .sv01, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -6621,7 +6564,7 @@
       {
         "name":"D",
         "unicode":"0044",
-        "lastModified":"2026-06-12 23:51:06",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -6684,8 +6627,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv03 .round",
               "singlev .sv01, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -6930,8 +6872,7 @@
               "alignb .ab01 \"b: 0\"",
               "doublev .dv01, .dv02 .round",
               "singlev .ah01, .sv01 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -7077,7 +7018,7 @@
       {
         "name":"F",
         "unicode":"0046",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -7133,8 +7074,7 @@
               "doublev .dv01, .dv02 .round",
               "singlev .dv03, .sv01 .round",
               "singlev .sv02, .dv04 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -7264,7 +7204,7 @@
       {
         "name":"G",
         "unicode":"0047",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -7319,8 +7259,7 @@
               "singlev .sv01, .sv02 .round",
               "singlev .sv05, .sv06 .round",
               "singlev .sv03, .sv04 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -7489,7 +7428,7 @@
       {
         "name":"H",
         "unicode":"0048",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -7546,8 +7485,7 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "doublev .dv01, .dv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -7703,7 +7641,7 @@
       {
         "name":"I",
         "unicode":"0049",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -7756,8 +7694,7 @@
               "singlev .sv01, .sv02 .round",
               "singlev .sv03, .sv04 .round",
               "singlev .sv05, .sv06 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -7908,7 +7845,7 @@
       {
         "name":"J",
         "unicode":"004a",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -7946,8 +7883,7 @@
               "doublev .dv01, .dv02 .round",
               "singlev .sv01, .sv02 .round",
               "singlev .sv03, .sv04 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -8077,7 +8013,7 @@
       {
         "name":"K",
         "unicode":"004b",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -8126,8 +8062,7 @@
               "alignt .at03 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -8311,7 +8246,7 @@
       {
         "name":"L",
         "unicode":"004c",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -8356,8 +8291,7 @@
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -8466,7 +8400,7 @@
       {
         "name":"M",
         "unicode":"004d",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -8532,8 +8466,7 @@
               "alignt .at02 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -9040,7 +8973,7 @@
       {
         "name":"N",
         "unicode":"004e",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -9094,8 +9027,7 @@
               "alignt .at02 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -9288,7 +9220,7 @@
       {
         "name":"O",
         "unicode":"004f",
-        "lastModified":"2026-06-12 23:51:24",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -9328,8 +9260,7 @@
               "alignb .sv03 \"b: 0\"",
               "singlev .sv03, .sv04 .round",
               "singlev .sv01, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -9469,7 +9400,7 @@
       {
         "name":"P",
         "unicode":"0050",
-        "lastModified":"2026-06-12 04:23:44",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"Thin",
@@ -9529,8 +9460,7 @@
               "alignb .sv01 \"b: 0\"",
               "doublev .dv01, .dv02 .round",
               "singlev .sv02, .sv03 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -9699,7 +9629,7 @@
       {
         "name":"Q",
         "unicode":"0051",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:50:14",
         "layers":[
           {
             "name":"light guides",
@@ -9828,8 +9758,7 @@
               "doublev .dv03, .dv04 .round",
               "singlev .at01, .sv03 .round",
               "singlev .sv01, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -10107,8 +10036,7 @@
               "alignb .ab02 \"b: 0\"",
               "doublev .dv01, .dv02 .round",
               "singlev .sv01, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -10284,7 +10212,7 @@
       {
         "name":"S",
         "unicode":"0053",
-        "lastModified":"2026-06-12 04:23:44",
+        "lastModified":"2026-06-14 02:47:45",
         "layers":[
           {
             "name":"Thin",
@@ -10334,8 +10262,7 @@
               "alignb .sv02 \"b: 0\"",
               "singlev .at01, .sv01 .round",
               "singlev .sv02, .sv03 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -10480,7 +10407,7 @@
       {
         "name":"T",
         "unicode":"0054",
-        "lastModified":"2026-06-12 04:23:44",
+        "lastModified":"2026-06-14 02:47:45",
         "layers":[
           {
             "name":"Thin",
@@ -10526,8 +10453,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .sv03, .sv04 .round",
               "singlev .sv01, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -10637,7 +10563,7 @@
       {
         "name":"U",
         "unicode":"0055",
-        "lastModified":"2026-06-12 14:21:50",
+        "lastModified":"2026-06-14 02:47:06",
         "layers":[
           {
             "name":"Thin",
@@ -10688,8 +10614,7 @@
               "alignt .at01 \"t: 1\"",
               "alignt .at02 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -10828,7 +10753,7 @@
       {
         "name":"V",
         "unicode":"0056",
-        "lastModified":"2026-06-13 04:23:46",
+        "lastModified":"2026-06-14 02:47:06",
         "layers":[
           {
             "name":"Thin",
@@ -10877,8 +10802,7 @@
               "alignt .at02 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -10989,7 +10913,7 @@
       {
         "name":"W",
         "unicode":"0057",
-        "lastModified":"2026-06-13 04:18:01",
+        "lastModified":"2026-06-14 02:47:06",
         "layers":[
           {
             "name":"Thin",
@@ -11048,8 +10972,7 @@
               "alignt .at03 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -11201,7 +11124,7 @@
       {
         "name":"X",
         "unicode":"0058",
-        "lastModified":"2026-06-13 04:23:46",
+        "lastModified":"2026-06-14 02:47:06",
         "layers":[
           {
             "name":"Thin",
@@ -11255,8 +11178,7 @@
               "alignt .at02 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -11444,7 +11366,7 @@
       {
         "name":"Y",
         "unicode":"0059",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:47:06",
         "layers":[
           {
             "name":"Thin",
@@ -11493,8 +11415,7 @@
               "alignt .at01 \"t: 1\"",
               "alignt .at02 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -11656,7 +11577,7 @@
       {
         "name":"Z",
         "unicode":"005a",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:47:06",
         "layers":[
           {
             "name":"Thin",
@@ -11706,8 +11627,7 @@
               "alignb .sv03 \"b: 0\"",
               "singlev .sv03, .sv04 .round",
               "singlev .sv01, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -11821,7 +11741,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.86",
+                  "id":"elementdata.84",
                   "contours":[
                     {
                       "nodes":[
@@ -11862,8 +11782,7 @@
               "alignt .av01 \"t: 1\"",
               "singlev .av01, .sv01 .round",
               "singlev .av02, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -11871,7 +11790,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.87",
+                  "id":"elementdata.85",
                   "contours":[
                     {
                       "nodes":[
@@ -11926,7 +11845,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.88",
+                  "id":"elementdata.86",
                   "contours":[
                     {
                       "nodes":[
@@ -11981,7 +11900,7 @@
       {
         "name":"backslash",
         "unicode":"005c",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:47:06",
         "layers":[
           {
             "name":"Thin",
@@ -12004,8 +11923,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -12070,7 +11988,7 @@
       },
       {
         "name":"bracketright.lc",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:47:06",
         "layers":[
           {
             "name":"Thin",
@@ -12079,7 +11997,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.89",
+                  "id":"elementdata.87",
                   "contours":[
                     {
                       "nodes":[
@@ -12120,8 +12038,7 @@
               "alignt .av01 \"t: 1\"",
               "singlev .av02, .sv02 .round",
               "singlev .av01, .sv01 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -12129,7 +12046,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.90",
+                  "id":"elementdata.88",
                   "contours":[
                     {
                       "nodes":[
@@ -12184,7 +12101,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.91",
+                  "id":"elementdata.89",
                   "contours":[
                     {
                       "nodes":[
@@ -12266,8 +12183,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -12361,7 +12277,7 @@
       {
         "name":"underscore",
         "unicode":"005f",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:47:06",
         "layers":[
           {
             "name":"Thin",
@@ -12384,8 +12300,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -12481,8 +12396,7 @@
                 "position":1040
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -12583,7 +12497,7 @@
       {
         "name":"a",
         "unicode":"0061",
-        "lastModified":"2026-06-14 00:12:30",
+        "lastModified":"2026-06-14 02:46:23",
         "layers":[
           {
             "name":"Thin",
@@ -12647,8 +12561,7 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "interpolatev .iv02 .iv01, .iv03"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -12898,8 +12811,7 @@
               "alignv .av01 round",
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -13059,7 +12971,7 @@
       {
         "name":"c",
         "unicode":"0063",
-        "lastModified":"2026-06-14 00:12:30",
+        "lastModified":"2026-06-14 02:46:23",
         "layers":[
           {
             "name":"Thin",
@@ -13105,8 +13017,7 @@
             "tth":[
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -13290,8 +13201,7 @@
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -13468,7 +13378,7 @@
       {
         "name":"e",
         "unicode":"0065",
-        "lastModified":"2026-06-14 00:12:30",
+        "lastModified":"2026-06-14 02:46:23",
         "layers":[
           {
             "name":"Thin",
@@ -13533,8 +13443,7 @@
             "tth":[
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -13767,8 +13676,7 @@
               "alignb .dv02 \"b: 0\"",
               "doublev .dv03, .dv04 .round",
               "doublev .dv05, .dv06 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -13920,7 +13828,7 @@
       {
         "name":"g",
         "unicode":"0067",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:50:11",
         "layers":[
           {
             "name":"Thin",
@@ -13992,8 +13900,7 @@
               "alignt .at01 \"t: x\"",
               "alignt .at02 \"t: x\"",
               "alignb .ab01 \"b: -500\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -14195,7 +14102,7 @@
       {
         "name":"h",
         "unicode":"0068",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -14257,8 +14164,7 @@
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -14474,8 +14380,7 @@
               "alignt .at01 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -14628,7 +14533,7 @@
       {
         "name":"j",
         "unicode":"006a",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -14684,8 +14589,7 @@
               "alignb .ab01 \"b: -500\"",
               "singlev .av01, .sv03 .round",
               "singlev .sv01, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -14898,8 +14802,7 @@
               "alignv .av01 round",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -15094,7 +14997,7 @@
       {
         "name":"l",
         "unicode":"006c",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -15145,8 +15048,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .round",
               "singlev .av01, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -15334,8 +15236,7 @@
               "alignb .ab03 \"b: 0\"",
               "singlev .at02, .sv01 .round",
               "singlev .at03, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -15551,8 +15452,7 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "singlev .sv01, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -15765,8 +15665,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .round",
               "singlev .at01, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -15977,8 +15876,7 @@
               "alignb .ab02 \"b: -500\"",
               "singlev .sv01, .sv02 .round",
               "singlev .ab01, .sv03 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -16211,8 +16109,7 @@
               "alignb .ab01 \"b: -500\"",
               "singlev .sv03, .sv04 .round",
               "singlev .sv01, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -16375,7 +16272,7 @@
       {
         "name":"r",
         "unicode":"0072",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -16420,8 +16317,7 @@
               "alignt .at02 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "singlev .at02, .sv01 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -16555,7 +16451,7 @@
       {
         "name":"s",
         "unicode":"0073",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Light curve",
@@ -16727,8 +16623,7 @@
               "doublev .dv01, .dv02 .round",
               "singlev .sv03, .sv04 .round",
               "singlev .sv01, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -16880,7 +16775,7 @@
       {
         "name":"t",
         "unicode":"0074",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -16942,8 +16837,7 @@
               "singlev .sv01, .sv03 .none",
               "singlev .sv03, .sv04 .round",
               "singlev .sv01, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -17106,7 +17000,7 @@
       {
         "name":"u",
         "unicode":"0075",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -17158,8 +17052,7 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "singlev .ab02, .sv01 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -17363,8 +17256,7 @@
               "alignt .at01 \"t: x\"",
               "alignt .at02 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -17570,8 +17462,7 @@
               "alignt .at02 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -17787,8 +17678,7 @@
               "alignt .at02 \"t: x\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -18011,8 +17901,7 @@
               "alignt .at01 \"t: x\"",
               "alignt .at02 \"t: x\"",
               "singlev .sv01, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -18201,8 +18090,7 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv02 .round",
               "singlev .ab01, .sv01 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -18315,7 +18203,7 @@
       },
       {
         "name":"braceleft.lc",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:50:11",
         "layers":[
           {
             "name":"Thin",
@@ -18324,7 +18212,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.92",
+                  "id":"elementdata.90",
                   "contours":[
                     {
                       "nodes":[
@@ -18396,8 +18284,7 @@
             "tth":[
               "alignv .av02 round",
               "alignt .av01 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -18405,7 +18292,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.93",
+                  "id":"elementdata.91",
                   "contours":[
                     {
                       "nodes":[
@@ -18488,7 +18375,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.94",
+                  "id":"elementdata.92",
                   "contours":[
                     {
                       "nodes":[
@@ -18574,7 +18461,7 @@
       {
         "name":"bar",
         "unicode":"007c",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -18605,8 +18492,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -18701,7 +18587,7 @@
       },
       {
         "name":"braceright.lc",
-        "lastModified":"2026-06-14 00:13:51",
+        "lastModified":"2026-06-14 02:50:11",
         "layers":[
           {
             "name":"Thin",
@@ -18710,7 +18596,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.95",
+                  "id":"elementdata.93",
                   "contours":[
                     {
                       "nodes":[
@@ -18760,8 +18646,7 @@
             "tth":[
               "alignv .av02 round",
               "alignt .av01 \"t: 1\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -18769,7 +18654,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.96",
+                  "id":"elementdata.94",
                   "contours":[
                     {
                       "nodes":[
@@ -18842,7 +18727,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.97",
+                  "id":"elementdata.95",
                   "contours":[
                     {
                       "nodes":[
@@ -18945,8 +18830,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -19063,8 +18947,7 @@
             "name":"Thin",
             "advanceWidth":1200,
             "advanceHeight":1600,
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -19114,8 +18997,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -19203,7 +19085,7 @@
       {
         "name":"cent",
         "unicode":"00a2",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -19245,8 +19127,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -19479,8 +19360,7 @@
                 "thickness":105
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -19604,7 +19484,7 @@
       {
         "name":"currency",
         "unicode":"00a4",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -19652,8 +19532,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -19789,7 +19668,7 @@
       {
         "name":"yen",
         "unicode":"00a5",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -19852,8 +19731,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -20051,7 +19929,7 @@
       {
         "name":"brokenbar",
         "unicode":"00a6",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -20082,8 +19960,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -20170,7 +20047,7 @@
       {
         "name":"section",
         "unicode":"00a7",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -20228,8 +20105,7 @@
                 "thickness":78
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -20421,7 +20297,7 @@
       {
         "name":"dieresis",
         "unicode":"00a8",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -20453,8 +20329,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -20549,7 +20424,7 @@
       {
         "name":"copyright",
         "unicode":"00a9",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -20609,8 +20484,7 @@
                 "thickness":55
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -20766,7 +20640,7 @@
       {
         "name":"ordfeminine",
         "unicode":"00aa",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -20829,8 +20703,7 @@
                 "thickness":61
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -21002,7 +20875,7 @@
       {
         "name":"guillemotleft",
         "unicode":"00ab",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -21043,8 +20916,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -21186,7 +21058,7 @@
       {
         "name":"logicalnot",
         "unicode":"00ac",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -21213,8 +21085,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -21298,8 +21169,7 @@
             "name":"Thin",
             "advanceWidth":0,
             "advanceHeight":1600,
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -21317,7 +21187,7 @@
       {
         "name":"registered",
         "unicode":"00ae",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -21384,8 +21254,7 @@
                 "thickness":40
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -21580,7 +21449,7 @@
       {
         "name":"macron",
         "unicode":"00af",
-        "lastModified":"2026-06-14 00:13:50",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -21603,8 +21472,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -21673,7 +21541,7 @@
       {
         "name":"degree",
         "unicode":"00b0",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -21736,8 +21604,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -21911,7 +21778,7 @@
       {
         "name":"plusminus",
         "unicode":"00b1",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -21950,8 +21817,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -22126,7 +21992,7 @@
       {
         "name":"twosuperior",
         "unicode":"00b2",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -22175,8 +22041,7 @@
                 "thickness":97
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -22232,7 +22097,7 @@
       {
         "name":"threesuperior",
         "unicode":"00b3",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -22290,8 +22155,7 @@
                 "thickness":105
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -22356,7 +22220,7 @@
       {
         "name":"acute",
         "unicode":"00b4",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -22394,8 +22258,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -22493,7 +22356,7 @@
       {
         "name":"mu",
         "unicode":"00b5",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -22531,8 +22394,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -22740,8 +22602,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -22876,7 +22737,7 @@
       {
         "name":"periodcentered",
         "unicode":"00b7",
-        "lastModified":"2026-06-03 04:19:33",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -22907,8 +22768,7 @@
                 "thickness":288
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -23013,7 +22873,7 @@
       {
         "name":"cedilla",
         "unicode":"00b8",
-        "lastModified":"2026-06-03 04:19:32",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -23063,8 +22923,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -23200,7 +23059,7 @@
       {
         "name":"onesuperior",
         "unicode":"00b9",
-        "lastModified":"2026-06-04 02:38:59",
+        "lastModified":"2026-06-14 02:46:59",
         "layers":[
           {
             "name":"Thin",
@@ -23249,8 +23108,7 @@
                 "thickness":105
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -23399,8 +23257,7 @@
                 "thickness":95
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -23541,8 +23398,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -23790,8 +23646,7 @@
                 "thickness":105
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -23995,8 +23850,7 @@
                 "thickness":97
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -24196,8 +24050,7 @@
                 "thickness":105
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -24347,8 +24200,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -24489,8 +24341,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -24611,8 +24462,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -24808,8 +24658,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -25006,8 +24855,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -25171,8 +25019,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -25385,8 +25232,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -25580,8 +25426,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -25768,8 +25613,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -25961,8 +25805,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -26175,8 +26018,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -26369,8 +26211,7 @@
                 }
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -26543,8 +26384,7 @@
                 "thickness":117
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -26780,8 +26620,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -26996,8 +26835,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -27219,8 +27057,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -27437,8 +27274,7 @@
                 }
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -27630,8 +27466,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -27851,8 +27686,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -28079,8 +27913,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -28302,8 +28135,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -28510,8 +28342,7 @@
                 "thickness":103
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -28689,8 +28520,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -28939,8 +28769,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -29120,8 +28949,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -29307,8 +29135,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -29488,8 +29315,7 @@
                 }
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -29670,8 +29496,7 @@
                 }
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -29859,8 +29684,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -30019,8 +29843,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -30208,8 +30031,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -30400,8 +30222,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -30599,8 +30420,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -30793,8 +30613,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -30979,8 +30798,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -31219,8 +31037,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -31442,8 +31259,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -31646,8 +31462,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -31875,8 +31690,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -32111,8 +31925,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -32343,8 +32156,7 @@
                 "thickness":122
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -32575,8 +32387,7 @@
                 "thickness":122
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -32784,8 +32595,7 @@
                 "thickness":122
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -33037,8 +32847,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -33232,8 +33041,7 @@
                 "thickness":109
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -33415,8 +33223,7 @@
                 "thickness":117
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -33632,8 +33439,7 @@
                 "thickness":117
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -33856,8 +33662,7 @@
                 "thickness":117
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -34075,8 +33880,7 @@
                 "thickness":117
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -34273,8 +34077,7 @@
                 "thickness":99
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -34430,8 +34233,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -34577,8 +34379,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -34709,8 +34510,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -34831,8 +34631,7 @@
                 "thickness":156
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -34967,8 +34766,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -35163,8 +34961,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -35372,8 +35169,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -35547,8 +35343,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -35729,8 +35524,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -35905,8 +35699,7 @@
                 }
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -36082,8 +35875,7 @@
                 }
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -36288,8 +36080,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -36607,8 +36398,7 @@
                 "thickness":112
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -36853,8 +36643,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -37059,8 +36848,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -37272,8 +37060,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -37480,8 +37267,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -37672,8 +37458,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -37882,8 +37667,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -38081,8 +37865,7 @@
                 }
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -38275,8 +38058,7 @@
                 "thickness":115
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -38504,8 +38286,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -38693,8 +38474,7 @@
                 "thickness":14
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -38831,8 +38611,7 @@
                 "thickness":14
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -39034,8 +38813,7 @@
                 "thickness":14
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -39241,8 +39019,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -39460,8 +39237,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -39617,8 +39393,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -39720,8 +39495,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -39848,8 +39622,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -40000,8 +39773,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -40121,8 +39893,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -40288,8 +40059,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -40493,8 +40263,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -40649,8 +40418,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -40824,8 +40592,7 @@
                 }
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -41012,8 +40779,7 @@
                 "thickness":115
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -41173,8 +40939,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -41372,8 +41137,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -41553,8 +41317,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -41744,8 +41507,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -41978,8 +41740,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -42129,8 +41890,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -42676,8 +42436,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -42921,8 +42680,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -43055,8 +42813,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -43220,8 +42977,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -43427,8 +43183,7 @@
                 "thickness":139
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -43586,8 +43341,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -43740,8 +43494,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -43967,8 +43720,7 @@
                 "thickness":96
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -44186,8 +43938,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -44408,8 +44159,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -44592,8 +44342,7 @@
                 "thickness":115
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -44788,8 +44537,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -44974,8 +44722,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -45162,8 +44909,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -45314,8 +45060,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -45489,8 +45234,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -45639,8 +45383,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -45778,8 +45521,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -45966,8 +45708,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -46148,8 +45889,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -46287,8 +46027,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -46446,8 +46185,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -46582,8 +46320,7 @@
                 "thickness":103
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -46768,8 +46505,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -46889,8 +46625,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -47075,8 +46810,7 @@
                 "thickness":112
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -47264,8 +46998,7 @@
                 "thickness":117
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -47426,8 +47159,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -47566,8 +47298,7 @@
                 "thickness":100
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -47727,8 +47458,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -47845,8 +47575,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -47995,8 +47724,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -48159,8 +47887,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -48358,8 +48085,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -48516,8 +48242,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -48667,8 +48392,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -48825,8 +48549,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -48987,8 +48710,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -49150,8 +48872,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -49307,8 +49028,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -49390,8 +49110,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -49483,8 +49202,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -49576,8 +49294,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -49667,8 +49384,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -49810,8 +49526,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -49958,8 +49673,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -50089,8 +49803,7 @@
                 "position":2289
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -50222,8 +49935,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -50401,8 +50113,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -50597,8 +50308,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -50781,8 +50491,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -50985,8 +50694,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -51186,8 +50894,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -51263,8 +50970,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -51401,8 +51107,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -51859,8 +51564,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -52423,8 +52127,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -52781,8 +52484,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -52892,8 +52594,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -53050,8 +52751,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -53225,8 +52925,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -53329,8 +53028,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -53450,8 +53148,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -53645,8 +53342,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -53976,8 +53672,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -54211,8 +53906,7 @@
                 "thickness":104
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -54327,8 +54021,7 @@
                 "thickness":95
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -54450,8 +54143,7 @@
                 "thickness":105
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -54575,8 +54267,7 @@
                 "thickness":102
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -54710,8 +54401,7 @@
                 "thickness":103
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -54838,8 +54528,7 @@
                 "thickness":102
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -54982,8 +54671,7 @@
                 "thickness":99
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -55142,8 +54830,7 @@
                 "thickness":103
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -55257,8 +54944,7 @@
                 "thickness":78
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -55353,8 +55039,7 @@
                 "thickness":77
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -55449,8 +55134,7 @@
                 "thickness":70
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -55553,8 +55237,7 @@
                 "thickness":100
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -55667,8 +55350,7 @@
                 "thickness":100
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -55782,8 +55464,7 @@
                 "thickness":95
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -55894,8 +55575,7 @@
                 "thickness":104
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -56001,8 +55681,7 @@
                 "thickness":105
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -56107,8 +55786,7 @@
                 "thickness":97
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -56223,8 +55901,7 @@
                 "thickness":105
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -56347,8 +56024,7 @@
                 "thickness":105
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -56472,8 +56148,7 @@
                 "thickness":102
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -56607,8 +56282,7 @@
                 "thickness":103
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -56735,8 +56409,7 @@
                 "thickness":102
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -56879,8 +56552,7 @@
                 "thickness":99
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -57034,8 +56706,7 @@
                 "thickness":103
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -57154,8 +56825,7 @@
                 "thickness":78
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -57250,8 +56920,7 @@
                 "thickness":77
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -57346,8 +57015,7 @@
                 "thickness":70
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -57450,8 +57118,7 @@
                 "thickness":100
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -57517,8 +57184,7 @@
           {
             "name":"Thin",
             "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -57648,8 +57314,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -57847,8 +57512,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -58108,8 +57772,7 @@
                 "thickness":112
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -58539,8 +58202,7 @@
                 "thickness":21
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -58842,8 +58504,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -58937,8 +58598,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -59047,8 +58707,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -59227,8 +58886,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -59400,8 +59058,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -59576,8 +59233,7 @@
                 "thickness":115
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -59763,8 +59419,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -59940,8 +59595,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -60029,8 +59683,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -60090,8 +59743,7 @@
           {
             "name":"Thin",
             "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -60252,8 +59904,7 @@
           {
             "name":"Thin",
             "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -60413,8 +60064,7 @@
           {
             "name":"Thin",
             "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -60581,8 +60231,7 @@
           {
             "name":"Thin",
             "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -60749,8 +60398,7 @@
           {
             "name":"Thin",
             "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -60929,8 +60577,7 @@
           {
             "name":"Thin",
             "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -61110,8 +60757,7 @@
           {
             "name":"Thin",
             "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -61282,8 +60928,7 @@
           {
             "name":"Thin",
             "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -61474,8 +61119,7 @@
           {
             "name":"Thin",
             "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -61673,8 +61317,7 @@
           {
             "name":"Thin",
             "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -61884,8 +61527,7 @@
           {
             "name":"Thin",
             "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -62103,8 +61745,7 @@
           {
             "name":"Thin",
             "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -62300,8 +61941,7 @@
           {
             "name":"Thin",
             "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -62430,8 +62070,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -62502,8 +62141,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -62574,8 +62212,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -62646,8 +62283,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -62727,8 +62363,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -62817,8 +62452,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -62898,8 +62532,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -62970,8 +62603,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -63042,8 +62674,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -63114,8 +62745,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -63190,8 +62820,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -63270,8 +62899,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -63348,8 +62976,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -63424,8 +63051,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -63501,8 +63127,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -63579,8 +63204,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -63661,8 +63285,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -63747,8 +63370,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -63833,8 +63455,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -63919,8 +63540,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -64021,8 +63641,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -64139,8 +63758,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -64241,8 +63859,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -64327,8 +63944,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -64413,8 +64029,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -64499,8 +64114,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -64594,8 +64208,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -64698,8 +64311,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -64802,8 +64414,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -64906,8 +64517,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -65010,8 +64620,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -65114,8 +64723,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -65215,8 +64823,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -65331,8 +64938,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -65453,8 +65059,7 @@
                 "position":1000
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -65542,8 +65147,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -65618,8 +65222,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -65705,8 +65308,7 @@
                 "position":900
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -65797,8 +65399,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -65889,8 +65490,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -65974,8 +65574,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -66065,8 +65664,7 @@
                 "position":1300
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -66155,8 +65753,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -66239,8 +65836,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -66323,8 +65919,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -66389,8 +65984,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -66508,8 +66102,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -66740,8 +66333,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -66947,8 +66539,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -67031,8 +66622,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -67189,8 +66779,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -67358,8 +66947,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -67434,8 +67022,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -67507,8 +67094,7 @@
                 "position":1302
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -67577,8 +67163,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -67649,8 +67234,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -67717,8 +67301,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -67790,8 +67373,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -67899,8 +67481,7 @@
                 "position":-1009
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -68060,8 +67641,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -68420,8 +68000,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -68721,8 +68300,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -68837,8 +68415,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -68992,8 +68569,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -69171,8 +68747,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -69344,8 +68919,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -69531,8 +69105,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -69694,8 +69267,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -69844,8 +69416,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -70010,8 +69581,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -70169,8 +69739,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -70213,8 +69782,7 @@
           {
             "name":"Thin",
             "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -70303,8 +69871,7 @@
                 }
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -70452,8 +70019,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -70559,8 +70125,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -70663,8 +70228,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -70771,8 +70335,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -70881,8 +70444,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -70958,8 +70520,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -71032,8 +70593,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -71158,8 +70718,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -71505,8 +71064,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -71612,8 +71170,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -71670,8 +71227,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -71728,8 +71284,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -71786,8 +71341,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -71844,8 +71398,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -71902,8 +71455,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -71960,8 +71512,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -72018,8 +71569,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -72074,8 +71624,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -72136,8 +71685,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -72198,8 +71746,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -72261,8 +71808,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -72323,8 +71869,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -72382,8 +71927,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -72441,8 +71985,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -72500,8 +72043,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -72579,8 +72121,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -72680,8 +72221,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -72763,8 +72303,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -72827,8 +72366,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -72899,8 +72437,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -72971,8 +72508,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -73043,8 +72579,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -73164,8 +72699,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -73301,8 +72835,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -73388,8 +72921,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -73518,8 +73050,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -73648,8 +73179,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -73721,8 +73251,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -73794,8 +73323,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -73874,8 +73402,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -73972,8 +73499,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -74093,8 +73619,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -74229,8 +73754,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -74391,8 +73915,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -74519,8 +74042,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -74589,8 +74111,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -74685,8 +74206,7 @@
                 "position":1300
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -74802,8 +74322,7 @@
                 "position":1364
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -74899,8 +74418,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -74991,8 +74509,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -75081,8 +74598,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -75200,8 +74716,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -75316,8 +74831,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -75399,8 +74913,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -75514,8 +75027,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -75612,8 +75124,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -75709,8 +75220,7 @@
                 "thickness":12
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -75944,8 +75454,7 @@
                 "thickness":82
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -76187,8 +75696,7 @@
                 "thickness":80
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -76441,8 +75949,7 @@
                 "thickness":12
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -76697,8 +76204,7 @@
                 "thickness":80
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -76964,8 +76470,7 @@
                 "thickness":83
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -77222,8 +76727,7 @@
                 "thickness":69
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -77469,8 +76973,7 @@
                 "thickness":78
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -77781,8 +77284,7 @@
                 "thickness":83
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -78049,8 +77551,7 @@
                 "thickness":78
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -78286,8 +77787,7 @@
                 "thickness":12
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -78486,8 +77986,7 @@
                 "thickness":82
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -78694,8 +78193,7 @@
                 "thickness":80
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -78913,8 +78411,7 @@
                 "thickness":12
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -79134,8 +78631,7 @@
                 "thickness":80
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -79366,8 +78862,7 @@
                 "thickness":83
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -79589,8 +79084,7 @@
                 "thickness":69
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -79801,8 +79295,7 @@
                 "thickness":78
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -80075,8 +79568,7 @@
                 "thickness":83
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -80304,8 +79796,7 @@
                 "thickness":78
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -80492,8 +79983,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -80580,8 +80070,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -80782,8 +80271,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -80964,8 +80452,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -81147,8 +80634,7 @@
                 "thickness":-20
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -81354,8 +80840,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -81457,8 +80942,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -81531,8 +81015,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -81604,8 +81087,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -81705,8 +81187,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -81843,8 +81324,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -81991,8 +81471,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -82113,8 +81592,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -82349,8 +81827,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -82569,8 +82046,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -82725,8 +82201,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -82838,8 +82313,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -82988,8 +82462,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -83161,8 +82634,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -83317,8 +82789,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -83462,8 +82933,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -83603,8 +83073,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -83700,8 +83169,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -83794,8 +83262,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -83918,8 +83385,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -84049,8 +83515,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -84177,8 +83642,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -84245,7 +83709,7 @@
       {
         "name":"phonein",
         "unicode":"e060",
-        "lastModified":"2026-06-03 03:31:44",
+        "lastModified":"2026-06-14 02:47:44",
         "layers":[
           {
             "name":"Thin",
@@ -84294,8 +83758,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -84351,7 +83814,7 @@
       {
         "name":"phoneout",
         "unicode":"e061",
-        "lastModified":"2026-06-03 03:31:44",
+        "lastModified":"2026-06-14 02:47:44",
         "layers":[
           {
             "name":"Thin",
@@ -84400,8 +83863,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -84457,7 +83919,7 @@
       {
         "name":"slashedphone",
         "unicode":"e062",
-        "lastModified":"2026-06-03 03:31:44",
+        "lastModified":"2026-06-14 02:47:44",
         "layers":[
           {
             "name":"Thin",
@@ -84506,8 +83968,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -84563,7 +84024,7 @@
       {
         "name":"mailin",
         "unicode":"e063",
-        "lastModified":"2026-06-03 14:46:37",
+        "lastModified":"2026-06-14 02:47:44",
         "layers":[
           {
             "name":"Thin",
@@ -84641,8 +84102,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -84727,7 +84187,7 @@
       {
         "name":"mailout",
         "unicode":"e064",
-        "lastModified":"2026-06-03 14:54:38",
+        "lastModified":"2026-06-14 02:47:44",
         "layers":[
           {
             "name":"Thin",
@@ -84805,8 +84265,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -84951,8 +84410,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -85089,8 +84547,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -85237,8 +84694,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -85395,8 +84851,7 @@
                 "position":2917
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -85569,8 +85024,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -85749,8 +85203,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -85915,8 +85368,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -86112,8 +85564,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -86354,8 +85805,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -86567,8 +86017,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -86703,8 +86152,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -86800,8 +86248,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -86926,8 +86373,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -87049,8 +86495,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -87144,8 +86589,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -87234,8 +86678,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -87332,8 +86775,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -87430,8 +86872,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -87529,8 +86970,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -87637,8 +87077,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -87740,8 +87179,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -87838,8 +87276,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -87937,8 +87374,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -88037,8 +87473,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -88147,8 +87582,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -88270,8 +87704,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -88388,8 +87821,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -88491,8 +87923,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -88599,8 +88030,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -88746,8 +88176,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -88916,8 +88345,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -89049,8 +88477,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -89149,8 +88576,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -89259,8 +88685,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -89379,8 +88804,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -89500,8 +88924,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -89610,8 +89033,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -89703,8 +89125,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -89783,8 +89204,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -89863,8 +89283,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -89961,8 +89380,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -90068,8 +89486,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -90188,8 +89605,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -90310,8 +89726,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -90401,8 +89816,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -90473,8 +89887,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -90519,8 +89932,7 @@
             "name":"Thin",
             "advanceWidth":0,
             "advanceHeight":1600,
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -90538,7 +89950,7 @@
       {
         "name":"zero",
         "unicode":"0030",
-        "lastModified":"2026-06-11 03:11:11",
+        "lastModified":"2026-06-14 02:50:11",
         "layers":[
           {
             "name":":wt=550",
@@ -90641,25 +90053,48 @@
               "alignb .sv01 \"b: 0\"",
               "singlev .sv01, .sv02 .round",
               "singlev .sv03, .sv04 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.84",
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "18 750 s {n:'.sv03'}",
+                        "18 1110  171 1516  578 1516 s {n:'.at01'}",
+                        "951 1516  1138 1099  1138 750 s {n:'.sv05'}",
+                        "1138 390  984 -16  578 -16 s {n:'.ab02'}",
+                        "205 -16  18 401 c"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "346 791 s {n:'.sv04'}",
+                        "346 586  394 226  585 226 s {n:'.sv01'}",
+                        "753 226  810 491  810 709 s {n:'.sv06'}",
+                        "810 914  762 1273  570 1273 s {n:'.sv02'}",
+                        "401 1273  346 1008 c"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "465 748 s {n:'.ah01'}",
+                        "465 831  516 898  577 898 s {n:'.av01'}",
+                        "640 898  690 831  690 748 s {n:'.ah02'}",
+                        "690 665  639 596  577 596 s {n:'.ab01'}",
+                        "515 596  465 665 c"
+                      ]
+                    }
+                  ]
+                },
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "tth":[
-              "alignt .at01 \"t: 1\"",
-              "alignb .ab02 \"b: 0\"",
-              "singlev .ab02, .sv01 .round",
-              "singlev .at01, .sv02 .round"
-            ]
+            "color":"#00cce5"
           },
           {
             "name":"Regular",
@@ -90667,17 +90102,41 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.85",
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "91 750 s {n:'.sh01'}",
+                        "91 1110  231 1517  601 1517 s {n:'.at01'}",
+                        "941 1517  1111 1100  1111 750 s {n:'.sh02'}",
+                        "1111 390  971 -17  601 -17 s {n:'.ab01'}",
+                        "261 -17  91 400 c"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "298 793 s {n:'.sh03'}",
+                        "298 562  337 158  609 158 s {n:'.sv01'}",
+                        "853 158  904 459  904 707 s {n:'.ah01'}",
+                        "904 938  865 1341  593 1341 s {n:'.sv02'}",
+                        "349 1341  298 1041 c"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "450 750 s {n:'.ah01.1'}",
+                        "450 833  517 900  599 900 s {n:'.av01'}",
+                        "682 900  749 833  749 750 s {n:'.ah02'}",
+                        "749 668  683 599  601 599 s {n:'.ab01.1'}",
+                        "517 599  450 668 c"
+                      ]
+                    }
+                  ]
+                },
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "tth":[
-              "alignt .at01 \"t: 1\"",
-              "alignb .ab01 \"b: 0\"",
-              "singlev .ab01, .sv01 \"Y: 171\"",
-              "singlev .at01, .sv02 \"Y: 171\""
-            ]
+            "color":"#00cce5"
           }
         ]
       },
@@ -90727,8 +90186,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Bold",
@@ -90841,7 +90299,7 @@
       {
         "name":"parenleft",
         "unicode":"0028",
-        "lastModified":"2026-06-14 00:12:30",
+        "lastModified":"2026-06-14 02:46:23",
         "layers":[
           {
             "name":"Thin",
@@ -90878,8 +90336,7 @@
               "singlev .av02, .sv02 .round",
               "singlev .av01, .sv01 .round",
               "doubleh .av03, .sv03 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -91002,8 +90459,7 @@
               "singlev .sv02, .sv03 .round",
               "singlev .av01, .sv01 .round",
               "doubleh .sv04, .av02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -91088,7 +90544,7 @@
       {
         "name":"bracketleft",
         "unicode":"005b",
-        "lastModified":"2026-06-14 00:12:30",
+        "lastModified":"2026-06-14 02:46:23",
         "layers":[
           {
             "name":"Thin",
@@ -91096,7 +90552,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.86",
+                "elementData":"elementdata.84",
                 "transform":{
                   "yOffset":200
                 },
@@ -91109,15 +90565,14 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 .round",
               "singlev .av02, .sv02 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.87",
+                "elementData":"elementdata.85",
                 "transform":{
                   "yOffset":189
                 },
@@ -91138,7 +90593,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.88",
+                "elementData":"elementdata.86",
                 "transform":{
                   "yOffset":200
                 },
@@ -91166,7 +90621,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.89",
+                "elementData":"elementdata.87",
                 "transform":{
                   "yOffset":200
                 },
@@ -91179,15 +90634,14 @@
               "alignv .av02 round",
               "singlev .av02, .sv02 .round",
               "singlev .av01, .sv01 .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.90",
+                "elementData":"elementdata.88",
                 "transform":{
                   "yOffset":189
                 },
@@ -91208,7 +90662,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.91",
+                "elementData":"elementdata.89",
                 "transform":{
                   "yOffset":200
                 },
@@ -91226,7 +90680,7 @@
       {
         "name":"braceleft",
         "unicode":"007b",
-        "lastModified":"2026-06-14 00:12:34",
+        "lastModified":"2026-06-14 02:50:11",
         "layers":[
           {
             "name":"Thin",
@@ -91234,28 +90688,29 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.92",
+                "elementData":"elementdata.90",
                 "transform":{
                   "yOffset":199
-                }
+                },
+                "active":true
               }
             ],
             "color":"#1f964d",
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.93",
+                "elementData":"elementdata.91",
                 "transform":{
                   "yOffset":201
-                }
+                },
+                "active":true
               }
             ],
             "color":"#00cce5",
@@ -91270,10 +90725,11 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.94",
+                "elementData":"elementdata.92",
                 "transform":{
                   "yOffset":200
-                }
+                },
+                "active":true
               }
             ],
             "color":"#00cce5",
@@ -91287,7 +90743,7 @@
       {
         "name":"braceright",
         "unicode":"007d",
-        "lastModified":"2026-06-14 00:13:51",
+        "lastModified":"2026-06-14 02:50:11",
         "layers":[
           {
             "name":"Thin",
@@ -91295,7 +90751,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.95",
+                "elementData":"elementdata.93",
                 "transform":{
                   "yOffset":199
                 },
@@ -91306,15 +90762,14 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.96",
+                "elementData":"elementdata.94",
                 "transform":{
                   "yOffset":201
                 },
@@ -91333,7 +90788,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.97",
+                "elementData":"elementdata.95",
                 "transform":{
                   "yOffset":200
                 },
@@ -91389,8 +90844,7 @@
                 "active":true
               }
             ],
-            "color":"#1f964d",
-            "active":true
+            "color":"#1f964d"
           },
           {
             "name":"Regular",
@@ -91525,7 +90979,7 @@
       }
     ],
     "defaultMaster":"Regular",
-    "currentMaster":"Thin",
+    "currentMaster":"#instance",
     "interpolationFlags":0,
     "openTypeFeatures":[
       {
