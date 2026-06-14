@@ -6419,7 +6419,7 @@
       {
         "name":"C",
         "unicode":"0043",
-        "lastModified":"2026-06-12 23:51:06",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -9699,7 +9699,7 @@
       {
         "name":"Q",
         "unicode":"0051",
-        "lastModified":"2026-06-13 02:43:44",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"light guides",
@@ -11444,7 +11444,7 @@
       {
         "name":"Y",
         "unicode":"0059",
-        "lastModified":"2026-06-12 04:23:44",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -11656,7 +11656,7 @@
       {
         "name":"Z",
         "unicode":"005a",
-        "lastModified":"2026-06-13 04:32:36",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -11812,7 +11812,7 @@
       },
       {
         "name":"bracketleft.lc",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -11981,7 +11981,7 @@
       {
         "name":"backslash",
         "unicode":"005c",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -12070,7 +12070,7 @@
       },
       {
         "name":"bracketright.lc",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -12238,7 +12238,7 @@
       {
         "name":"asciicircum",
         "unicode":"005e",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -12361,7 +12361,7 @@
       {
         "name":"underscore",
         "unicode":"005f",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -12452,7 +12452,7 @@
       {
         "name":"grave",
         "unicode":"0060",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -12583,7 +12583,7 @@
       {
         "name":"a",
         "unicode":"0061",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -12838,7 +12838,7 @@
       {
         "name":"b",
         "unicode":"0062",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -13059,7 +13059,7 @@
       {
         "name":"c",
         "unicode":"0063",
-        "lastModified":"2026-06-13 15:16:20",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -13225,7 +13225,7 @@
       {
         "name":"d",
         "unicode":"0064",
-        "lastModified":"2026-06-13 15:16:20",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -13468,7 +13468,7 @@
       {
         "name":"e",
         "unicode":"0065",
-        "lastModified":"2026-06-13 16:12:13",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -13703,7 +13703,7 @@
       {
         "name":"f",
         "unicode":"0066",
-        "lastModified":"2026-06-13 16:12:20",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -13920,7 +13920,7 @@
       {
         "name":"g",
         "unicode":"0067",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -14195,7 +14195,7 @@
       {
         "name":"h",
         "unicode":"0068",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -14413,7 +14413,7 @@
       {
         "name":"i",
         "unicode":"0069",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -14434,9 +14434,9 @@
                     {
                       "nodes":[
                         "730 -17 s {n:'.ab01'}",
-                        "903 -17  1063 33  1066 28",
-                        "1044 113",
-                        "990 99  840 71  735 71 s",
+                        "885 -17  992 13  1064 37",
+                        "1041 122",
+                        "952 90  870 71  735 71 s",
                         "619 71  605 190  605 354 s",
                         "605 492",
                         "605 1100",
@@ -14628,7 +14628,7 @@
       {
         "name":"j",
         "unicode":"006a",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -14840,7 +14840,7 @@
       {
         "name":"k",
         "unicode":"006b",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -15094,7 +15094,7 @@
       {
         "name":"l",
         "unicode":"006c",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -15270,7 +15270,7 @@
       {
         "name":"m",
         "unicode":"006d",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -15496,7 +15496,7 @@
       {
         "name":"n",
         "unicode":"006e",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -15713,7 +15713,7 @@
       {
         "name":"o",
         "unicode":"006f",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -15909,7 +15909,7 @@
       {
         "name":"p",
         "unicode":"0070",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -16149,7 +16149,7 @@
       {
         "name":"q",
         "unicode":"0071",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -16375,7 +16375,7 @@
       {
         "name":"r",
         "unicode":"0072",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -16555,7 +16555,7 @@
       {
         "name":"s",
         "unicode":"0073",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Light curve",
@@ -16880,7 +16880,7 @@
       {
         "name":"t",
         "unicode":"0074",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -17106,7 +17106,7 @@
       {
         "name":"u",
         "unicode":"0075",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -17310,7 +17310,7 @@
       {
         "name":"v",
         "unicode":"0076",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -17485,7 +17485,7 @@
       {
         "name":"w",
         "unicode":"0077",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -17739,7 +17739,7 @@
       {
         "name":"x",
         "unicode":"0078",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -17964,7 +17964,7 @@
       {
         "name":"y",
         "unicode":"0079",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -18151,7 +18151,7 @@
       {
         "name":"z",
         "unicode":"007a",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -18315,7 +18315,7 @@
       },
       {
         "name":"braceleft.lc",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -18329,27 +18329,27 @@
                     {
                       "nodes":[
                         "887 -420 s {n:'.av02'}",
-                        "661 -420  597 -252  597 -32 s",
-                        "597 208 s",
-                        "597 375  576 474  398 497",
-                        "287 484",
-                        "287 615",
+                        "661 -420  614 -252  614 -32 s",
+                        "614 208 s",
+                        "614 375  576 474  398 497",
+                        "287 506",
+                        "287 594",
                         "398 602",
-                        "576 624  597 722  597 891 s",
-                        "597 1133 s",
-                        "597 1353  661 1517  887 1517 s {n:'.av01'}",
-                        "997 1517  1027 1507  1064 1490",
-                        "1023 1409",
-                        "1011 1416  969 1424  945 1424",
-                        "720 1427  702 1272  702 1133 s",
+                        "576 624  614 724  614 891 s",
+                        "614 1133 s",
+                        "614 1353  661 1517  887 1517 s {n:'.av01'}",
+                        "977 1517  1023 1494  1056 1473",
+                        "1015 1393",
+                        "986 1408  963 1429  887 1429 s",
+                        "734 1429  702 1329  702 1133 s",
                         "702 891 s",
-                        "702 759  717 635  633 550",
-                        "717 467  702 336  702 208 s",
+                        "702 641  618 607  529 555",
+                        "613 506  702 458  702 208 s",
                         "702 -32 s",
-                        "702 -172  720 -323  945 -323 s",
-                        "969 -323  1011 -315  1023 -308",
-                        "1064 -390",
-                        "1029 -408  998 -420 c"
+                        "702 -228  734 -332  887 -332 s",
+                        "963 -332  986 -311  1015 -296",
+                        "1056 -374",
+                        "1023 -395  977 -420 c"
                       ]
                     }
                   ]
@@ -18365,6 +18365,18 @@
               {
                 "horizontal":true,
                 "position":475
+              },
+              {
+                "vertical":true,
+                "position":887
+              },
+              {
+                "vertical":true,
+                "position":1056
+              },
+              {
+                "vertical":true,
+                "position":1015
               }
             ],
             "hints":[
@@ -18562,7 +18574,7 @@
       {
         "name":"bar",
         "unicode":"007c",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -18689,7 +18701,7 @@
       },
       {
         "name":"braceright.lc",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:13:51",
         "layers":[
           {
             "name":"Thin",
@@ -18702,28 +18714,28 @@
                   "contours":[
                     {
                       "nodes":[
-                        "388 -420 s {n:'.av02'}",
-                        "278 -420  246 -408  211 -390",
-                        "252 -308",
-                        "264 -315  306 -323  330 -323 s",
-                        "555 -323  573 -172  573 -32 s",
-                        "573 208 s",
-                        "573 336  558 467  642 550",
-                        "558 635  573 759  573 891 s",
-                        "573 1132 s",
-                        "573 1272  555 1427  330 1423",
-                        "306 1423  264 1415  252 1408",
-                        "211 1490",
-                        "248 1507  277 1517  388 1517 s {n:'.av01'}",
-                        "614 1517  678 1353  678 1132 s",
-                        "678 891 s",
-                        "678 722  699 623  877 602",
-                        "988 615",
-                        "988 484",
-                        "877 497",
-                        "699 474  678 376  678 208 s",
-                        "678 -32 s",
-                        "678 -252  614 -420 c"
+                        "313 -420 s {n:'.av01'}",
+                        "223 -420  177 -397  144 -376",
+                        "185 -296",
+                        "214 -311  237 -332  313 -332 s",
+                        "466 -332  498 -232  498 -36 s",
+                        "498 206 s",
+                        "498 456  582 490  671 542",
+                        "587 591  498 639  498 889 s",
+                        "498 1129 s",
+                        "498 1325  466 1429  313 1429 s",
+                        "237 1429  214 1408  185 1393",
+                        "144 1471",
+                        "177 1492  223 1517  313 1517 s {n:'.av02'}",
+                        "539 1517  586 1349  586 1129 s",
+                        "586 889 s",
+                        "586 722  624 623  802 600",
+                        "913 591",
+                        "913 503",
+                        "802 495",
+                        "624 473  586 373  586 206 s",
+                        "586 -36 s",
+                        "586 -256  539 -420 c"
                       ]
                     }
                   ]
@@ -18906,7 +18918,7 @@
       {
         "name":"asciitilde",
         "unicode":"007e",
-        "lastModified":"2026-06-13 00:04:18",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -19191,7 +19203,7 @@
       {
         "name":"cent",
         "unicode":"00a2",
-        "lastModified":"2026-06-13 00:01:19",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -19413,7 +19425,7 @@
       {
         "name":"sterling",
         "unicode":"00a3",
-        "lastModified":"2026-06-13 00:01:19",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -19592,7 +19604,7 @@
       {
         "name":"currency",
         "unicode":"00a4",
-        "lastModified":"2026-06-13 00:01:19",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -19777,7 +19789,7 @@
       {
         "name":"yen",
         "unicode":"00a5",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -20039,7 +20051,7 @@
       {
         "name":"brokenbar",
         "unicode":"00a6",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -20158,7 +20170,7 @@
       {
         "name":"section",
         "unicode":"00a7",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -20409,7 +20421,7 @@
       {
         "name":"dieresis",
         "unicode":"00a8",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -20537,7 +20549,7 @@
       {
         "name":"copyright",
         "unicode":"00a9",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -20754,7 +20766,7 @@
       {
         "name":"ordfeminine",
         "unicode":"00aa",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -20990,7 +21002,7 @@
       {
         "name":"guillemotleft",
         "unicode":"00ab",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -21174,7 +21186,7 @@
       {
         "name":"logicalnot",
         "unicode":"00ac",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -21305,7 +21317,7 @@
       {
         "name":"registered",
         "unicode":"00ae",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -21568,7 +21580,7 @@
       {
         "name":"macron",
         "unicode":"00af",
-        "lastModified":"2026-06-04 02:38:15",
+        "lastModified":"2026-06-14 00:13:50",
         "layers":[
           {
             "name":"Thin",
@@ -35117,7 +35129,7 @@
       {
         "name":"ntilde",
         "unicode":"00f1",
-        "lastModified":"2026-06-13 00:02:43",
+        "lastModified":"2026-06-13 20:59:27",
         "layers":[
           {
             "name":"Thin",
@@ -37625,7 +37637,7 @@
       {
         "name":"yacute",
         "unicode":"00fd",
-        "lastModified":"2026-06-10 03:22:16",
+        "lastModified":"2026-06-13 23:11:35",
         "layers":[
           {
             "name":"Thin",
@@ -38048,7 +38060,7 @@
       {
         "name":"ydieresis",
         "unicode":"00ff",
-        "lastModified":"2026-06-10 03:22:16",
+        "lastModified":"2026-06-13 23:11:35",
         "layers":[
           {
             "name":"Thin",
@@ -90829,7 +90841,7 @@
       {
         "name":"parenleft",
         "unicode":"0028",
-        "lastModified":"2026-06-12 23:51:26",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -91076,7 +91088,7 @@
       {
         "name":"bracketleft",
         "unicode":"005b",
-        "lastModified":"2026-06-11 02:57:16",
+        "lastModified":"2026-06-14 00:12:30",
         "layers":[
           {
             "name":"Thin",
@@ -91214,7 +91226,7 @@
       {
         "name":"braceleft",
         "unicode":"007b",
-        "lastModified":"2026-06-10 02:59:06",
+        "lastModified":"2026-06-14 00:12:34",
         "layers":[
           {
             "name":"Thin",
@@ -91225,8 +91237,7 @@
                 "elementData":"elementdata.92",
                 "transform":{
                   "yOffset":199
-                },
-                "active":true
+                }
               }
             ],
             "color":"#1f964d",
@@ -91244,8 +91255,7 @@
                 "elementData":"elementdata.93",
                 "transform":{
                   "yOffset":201
-                },
-                "active":true
+                }
               }
             ],
             "color":"#00cce5",
@@ -91263,8 +91273,7 @@
                 "elementData":"elementdata.94",
                 "transform":{
                   "yOffset":200
-                },
-                "active":true
+                }
               }
             ],
             "color":"#00cce5",
@@ -91278,7 +91287,7 @@
       {
         "name":"braceright",
         "unicode":"007d",
-        "lastModified":"2026-06-10 02:59:19",
+        "lastModified":"2026-06-14 00:13:51",
         "layers":[
           {
             "name":"Thin",
