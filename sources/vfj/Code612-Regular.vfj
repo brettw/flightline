@@ -1899,7 +1899,7 @@
       {
         "name":"asterisk",
         "unicode":"002a",
-        "lastModified":"2026-06-14 20:24:20",
+        "lastModified":"2026-06-14 21:00:46",
         "layers":[
           {
             "name":"Thin",
@@ -2377,7 +2377,7 @@
       {
         "name":"hyphen",
         "unicode":"002d",
-        "lastModified":"2026-06-14 20:52:26",
+        "lastModified":"2026-06-14 21:00:46",
         "layers":[
           {
             "name":"Thin",
@@ -2752,7 +2752,7 @@
       },
       {
         "name":"zero.alt",
-        "lastModified":"2026-06-14 20:41:30",
+        "lastModified":"2026-06-14 21:00:46",
         "layers":[
           {
             "name":"Thin",
@@ -2928,7 +2928,7 @@
       {
         "name":"one",
         "unicode":"0031",
-        "lastModified":"2026-06-14 20:41:30",
+        "lastModified":"2026-06-14 21:01:53",
         "layers":[
           {
             "name":"Thin",
@@ -3122,7 +3122,7 @@
       {
         "name":"two",
         "unicode":"0032",
-        "lastModified":"2026-06-14 20:41:30",
+        "lastModified":"2026-06-14 21:03:31",
         "layers":[
           {
             "name":"Thin",
@@ -3292,7 +3292,7 @@
       {
         "name":"three",
         "unicode":"0033",
-        "lastModified":"2026-06-14 20:20:22",
+        "lastModified":"2026-06-14 21:06:32",
         "layers":[
           {
             "name":"Thin",
@@ -3483,7 +3483,7 @@
       {
         "name":"four",
         "unicode":"0034",
-        "lastModified":"2026-06-14 20:41:30",
+        "lastModified":"2026-06-14 21:07:08",
         "layers":[
           {
             "name":"Thin",
@@ -3694,7 +3694,7 @@
       {
         "name":"five",
         "unicode":"0035",
-        "lastModified":"2026-06-14 20:41:30",
+        "lastModified":"2026-06-14 21:08:16",
         "layers":[
           {
             "name":"Thin",
@@ -3895,7 +3895,7 @@
       {
         "name":"six",
         "unicode":"0036",
-        "lastModified":"2026-06-14 20:41:30",
+        "lastModified":"2026-06-14 21:09:32",
         "layers":[
           {
             "name":"Thin",
@@ -4118,7 +4118,7 @@
       {
         "name":"seven",
         "unicode":"0037",
-        "lastModified":"2026-06-14 20:41:30",
+        "lastModified":"2026-06-14 21:11:12",
         "layers":[
           {
             "name":"Thin",
@@ -4310,7 +4310,7 @@
       {
         "name":"eight",
         "unicode":"0038",
-        "lastModified":"2026-06-14 20:37:17",
+        "lastModified":"2026-06-14 21:15:51",
         "layers":[
           {
             "name":"Thin",
@@ -4584,7 +4584,7 @@
       {
         "name":"nine",
         "unicode":"0039",
-        "lastModified":"2026-06-14 20:41:30",
+        "lastModified":"2026-06-14 21:15:51",
         "layers":[
           {
             "name":"Thin",
@@ -5164,7 +5164,7 @@
       {
         "name":"less",
         "unicode":"003c",
-        "lastModified":"2026-06-14 20:54:54",
+        "lastModified":"2026-06-14 21:00:46",
         "layers":[
           {
             "name":"Thin",
@@ -5442,7 +5442,7 @@
       {
         "name":"greater",
         "unicode":"003e",
-        "lastModified":"2026-06-14 20:54:54",
+        "lastModified":"2026-06-14 21:00:46",
         "layers":[
           {
             "name":"Thin",
@@ -12574,7 +12574,7 @@
       {
         "name":"a",
         "unicode":"0061",
-        "lastModified":"2026-06-14 20:16:31",
+        "lastModified":"2026-06-14 21:00:46",
         "layers":[
           {
             "name":"Thin",
@@ -12829,7 +12829,7 @@
       {
         "name":"b",
         "unicode":"0062",
-        "lastModified":"2026-06-14 17:46:57",
+        "lastModified":"2026-06-14 21:00:46",
         "layers":[
           {
             "name":"Thin",
