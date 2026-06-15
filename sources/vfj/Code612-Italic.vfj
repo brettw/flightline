@@ -1967,7 +1967,7 @@
       {
         "name":"hyphen",
         "unicode":"002d",
-        "lastModified":"2026-06-14 21:40:25",
+        "lastModified":"2026-06-15 03:53:22",
         "layers":[
           {
             "name":"Italic",
@@ -2269,7 +2269,7 @@
       },
       {
         "name":"zero.alt",
-        "lastModified":"2026-06-14 21:41:11",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -2278,6 +2278,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.42",
                   "contours":[
                     {
                       "nodes":[
@@ -2322,6 +2323,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.43",
                   "contours":[
                     {
                       "nodes":[
@@ -2380,6 +2382,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.44",
                   "contours":[
                     {
                       "nodes":[
@@ -4345,7 +4348,7 @@
       {
         "name":"greater",
         "unicode":"003e",
-        "lastModified":"2026-06-14 21:40:47",
+        "lastModified":"2026-06-15 03:53:22",
         "layers":[
           {
             "name":"Italic",
@@ -4718,7 +4721,7 @@
       {
         "name":"A",
         "unicode":"0041",
-        "lastModified":"2026-06-14 21:40:47",
+        "lastModified":"2026-06-14 21:45:38",
         "layers":[
           {
             "name":"Italic",
@@ -4886,7 +4889,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.78",
+                  "id":"elementdata.81",
                   "contours":[
                     {
                       "nodes":[
@@ -4939,7 +4942,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.79",
+                  "id":"elementdata.82",
                   "contours":[
                     {
                       "nodes":[
@@ -5028,7 +5031,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.80",
+                  "id":"elementdata.83",
                   "contours":[
                     {
                       "nodes":[
@@ -5075,7 +5078,7 @@
       {
         "name":"C",
         "unicode":"0043",
-        "lastModified":"2026-06-14 21:41:11",
+        "lastModified":"2026-06-15 03:53:04",
         "layers":[
           {
             "name":"testing",
@@ -5242,7 +5245,7 @@
       {
         "name":"D",
         "unicode":"0044",
-        "lastModified":"2026-06-14 21:41:11",
+        "lastModified":"2026-06-15 02:59:31",
         "layers":[
           {
             "name":"Italic",
@@ -5870,7 +5873,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.84",
+                  "id":"elementdata.87",
                   "contours":[
                     {
                       "nodes":[
@@ -5913,7 +5916,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.85",
+                  "id":"elementdata.88",
                   "contours":[
                     {
                       "nodes":[
@@ -5982,7 +5985,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.86",
+                  "id":"elementdata.89",
                   "contours":[
                     {
                       "nodes":[
@@ -6279,7 +6282,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.87",
+                  "id":"elementdata.90",
                   "contours":[
                     {
                       "nodes":[
@@ -6325,7 +6328,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.88",
+                  "id":"elementdata.91",
                   "contours":[
                     {
                       "nodes":[
@@ -6377,7 +6380,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.89",
+                  "id":"elementdata.92",
                   "contours":[
                     {
                       "nodes":[
@@ -6540,7 +6543,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.90",
+                  "id":"elementdata.93",
                   "contours":[
                     {
                       "nodes":[
@@ -6595,7 +6598,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.91",
+                  "id":"elementdata.94",
                   "contours":[
                     {
                       "nodes":[
@@ -6676,7 +6679,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.92",
+                  "id":"elementdata.95",
                   "contours":[
                     {
                       "nodes":[
@@ -7039,7 +7042,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.93",
+                  "id":"elementdata.96",
                   "contours":[
                     {
                       "nodes":[
@@ -7085,7 +7088,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.94",
+                  "id":"elementdata.97",
                   "contours":[
                     {
                       "nodes":[
@@ -7159,7 +7162,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.95",
+                  "id":"elementdata.98",
                   "contours":[
                     {
                       "nodes":[
@@ -7205,7 +7208,7 @@
       {
         "name":"Q",
         "unicode":"0051",
-        "lastModified":"2026-06-14 21:41:11",
+        "lastModified":"2026-06-15 03:52:53",
         "layers":[
           {
             "name":"Italic",
@@ -7555,7 +7558,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.69",
+                  "id":"elementdata.72",
                   "contours":[
                     {
                       "nodes":[
@@ -7592,7 +7595,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.71",
+                  "id":"elementdata.74",
                   "contours":[
                     {
                       "nodes":[
@@ -7652,7 +7655,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.73",
+                  "id":"elementdata.76",
                   "contours":[
                     {
                       "nodes":[
@@ -7693,7 +7696,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.96",
+                  "id":"elementdata.99",
                   "contours":[
                     {
                       "nodes":[
@@ -7726,7 +7729,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.97",
+                  "id":"elementdata.100",
                   "contours":[
                     {
                       "nodes":[
@@ -7776,7 +7779,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.98",
+                  "id":"elementdata.101",
                   "contours":[
                     {
                       "nodes":[
@@ -7811,7 +7814,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.42",
+                  "id":"elementdata.45",
                   "contours":[
                     {
                       "nodes":[
@@ -7847,7 +7850,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.43",
+                  "id":"elementdata.46",
                   "contours":[
                     {
                       "nodes":[
@@ -7908,7 +7911,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.44",
+                  "id":"elementdata.47",
                   "contours":[
                     {
                       "nodes":[
@@ -8242,7 +8245,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.100",
+                  "id":"elementdata.103",
                   "contours":[
                     {
                       "nodes":[
@@ -8284,7 +8287,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.101",
+                  "id":"elementdata.104",
                   "contours":[
                     {
                       "nodes":[
@@ -8341,7 +8344,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.102",
+                  "id":"elementdata.105",
                   "contours":[
                     {
                       "nodes":[
@@ -8391,7 +8394,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.45",
+                  "id":"elementdata.48",
                   "contours":[
                     {
                       "nodes":[
@@ -8427,7 +8430,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.46",
+                  "id":"elementdata.49",
                   "contours":[
                     {
                       "nodes":[
@@ -8483,7 +8486,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.99",
+                  "id":"elementdata.102",
                   "contours":[
                     {
                       "nodes":[
@@ -8527,7 +8530,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.81",
+                  "id":"elementdata.84",
                   "contours":[
                     {
                       "nodes":[
@@ -8566,7 +8569,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.82",
+                  "id":"elementdata.85",
                   "contours":[
                     {
                       "nodes":[
@@ -8621,7 +8624,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.83",
+                  "id":"elementdata.86",
                   "contours":[
                     {
                       "nodes":[
@@ -9280,7 +9283,7 @@
       {
         "name":"a",
         "unicode":"0061",
-        "lastModified":"2026-06-14 21:40:25",
+        "lastModified":"2026-06-15 03:53:22",
         "layers":[
           {
             "name":"Italic",
@@ -9289,7 +9292,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.47",
+                  "id":"elementdata.50",
                   "contours":[
                     {
                       "nodes":[
@@ -9333,7 +9336,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.48",
+                  "id":"elementdata.51",
                   "contours":[
                     {
                       "nodes":[
@@ -9404,7 +9407,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.49",
+                  "id":"elementdata.52",
                   "contours":[
                     {
                       "nodes":[
@@ -9441,7 +9444,7 @@
       {
         "name":"b",
         "unicode":"0062",
-        "lastModified":"2026-06-14 21:40:25",
+        "lastModified":"2026-06-15 03:53:22",
         "layers":[
           {
             "name":"Italic",
@@ -9605,7 +9608,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.50",
+                  "id":"elementdata.53",
                   "contours":[
                     {
                       "nodes":[
@@ -9638,7 +9641,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.51",
+                  "id":"elementdata.54",
                   "contours":[
                     {
                       "nodes":[
@@ -9689,7 +9692,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.52",
+                  "id":"elementdata.55",
                   "contours":[
                     {
                       "nodes":[
@@ -9717,7 +9720,7 @@
       {
         "name":"d",
         "unicode":"0064",
-        "lastModified":"2026-06-14 21:41:11",
+        "lastModified":"2026-06-15 03:53:04",
         "layers":[
           {
             "name":"Italic",
@@ -9895,7 +9898,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.53",
+                  "id":"elementdata.56",
                   "contours":[
                     {
                       "nodes":[
@@ -10220,7 +10223,7 @@
       {
         "name":"g",
         "unicode":"0067",
-        "lastModified":"2026-06-14 21:41:09",
+        "lastModified":"2026-06-15 03:53:04",
         "layers":[
           {
             "name":"Italic",
@@ -11288,7 +11291,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.57",
+                  "id":"elementdata.60",
                   "contours":[
                     {
                       "nodes":[
@@ -11326,7 +11329,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.58",
+                  "id":"elementdata.61",
                   "contours":[
                     {
                       "nodes":[
@@ -11387,7 +11390,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.59",
+                  "id":"elementdata.62",
                   "contours":[
                     {
                       "nodes":[
@@ -11427,7 +11430,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.60",
+                  "id":"elementdata.63",
                   "contours":[
                     {
                       "nodes":[
@@ -11466,7 +11469,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.61",
+                  "id":"elementdata.64",
                   "contours":[
                     {
                       "nodes":[
@@ -11526,7 +11529,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.62",
+                  "id":"elementdata.65",
                   "contours":[
                     {
                       "nodes":[
@@ -12017,7 +12020,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.75",
+                  "id":"elementdata.78",
                   "contours":[
                     {
                       "nodes":[
@@ -12054,7 +12057,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.76",
+                  "id":"elementdata.79",
                   "contours":[
                     {
                       "nodes":[
@@ -12114,7 +12117,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.77",
+                  "id":"elementdata.80",
                   "contours":[
                     {
                       "nodes":[
@@ -12291,7 +12294,7 @@
       {
         "name":"u",
         "unicode":"0075",
-        "lastModified":"2026-06-14 21:15:55",
+        "lastModified":"2026-06-14 21:45:40",
         "layers":[
           {
             "name":"Italic",
@@ -12300,7 +12303,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.63",
+                  "id":"elementdata.66",
                   "contours":[
                     {
                       "nodes":[
@@ -12339,7 +12342,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.64",
+                  "id":"elementdata.67",
                   "contours":[
                     {
                       "nodes":[
@@ -12402,7 +12405,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.65",
+                  "id":"elementdata.68",
                   "contours":[
                     {
                       "nodes":[
@@ -12433,7 +12436,7 @@
       {
         "name":"v",
         "unicode":"0076",
-        "lastModified":"2026-06-14 20:31:40",
+        "lastModified":"2026-06-14 21:45:40",
         "layers":[
           {
             "name":"Italic",
@@ -12442,7 +12445,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.103",
+                  "id":"elementdata.106",
                   "contours":[
                     {
                       "nodes":[
@@ -12483,7 +12486,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.104",
+                  "id":"elementdata.107",
                   "contours":[
                     {
                       "nodes":[
@@ -12538,7 +12541,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.105",
+                  "id":"elementdata.108",
                   "contours":[
                     {
                       "nodes":[
@@ -12571,7 +12574,7 @@
       {
         "name":"w",
         "unicode":"0077",
-        "lastModified":"2026-06-14 20:31:40",
+        "lastModified":"2026-06-14 21:45:41",
         "layers":[
           {
             "name":"Italic",
@@ -12592,9 +12595,7 @@
                         "763 0 {n:'.sv02'}",
                         "616 0",
                         "545 348",
-                        "549 449",
                         "560 750",
-                        "466 450",
                         "435 350",
                         "243 0",
                         "96 0 {n:'.ab01'}",
@@ -12664,10 +12665,8 @@
                         "1223 1120 {n:'.at03'}",
                         "807 0 {n:'.sv02'}",
                         "541 0 {n:'.ab02'}",
-                        "519 300",
                         "512 400",
                         "532 600",
-                        "480 400",
                         "480 400",
                         "314 0",
                         "29 0 {n:'.ab01'}",
@@ -12741,25 +12740,27 @@
                   "contours":[
                     {
                       "nodes":[
-                        "129 0",
-                        "258 0 {n:'.ab01'}",
-                        "526 632",
-                        "596 860",
-                        "588 632",
-                        "640 0",
-                        "756 0 {n:'.ab02'}",
-                        "1182 1120 {n:'.at02'}",
-                        "1087 1100",
-                        "768 245",
-                        "721 50",
                         "669 682",
-                        "653 885 {n:'.av02'}",
-                        "547 885 {n:'.av01'}",
-                        "460 677",
-                        "194 50",
-                        "207 245",
+                        "721 50",
+                        "721 50",
+                        "768 245",
+                        "1087 1100",
+                        "1182 1120 {n:'.at02'}",
+                        "756 0 {n:'.ab02'}",
+                        "640 0",
+                        "588 632",
+                        "596 860",
+                        "526 632",
+                        "258 0 {n:'.ab01'}",
+                        "129 0",
+                        "100 1100",
                         "183 1120 {n:'.at01'}",
-                        "100 1100"
+                        "207 245",
+                        "194 50",
+                        "194 50",
+                        "460 677",
+                        "547 885 {n:'.av01'}",
+                        "653 885 {n:'.av02'}"
                       ]
                     }
                   ]
@@ -12796,7 +12797,7 @@
       {
         "name":"x",
         "unicode":"0078",
-        "lastModified":"2026-06-14 21:15:55",
+        "lastModified":"2026-06-14 21:45:40",
         "layers":[
           {
             "name":"Italic",
@@ -12979,7 +12980,7 @@
       {
         "name":"y",
         "unicode":"0079",
-        "lastModified":"2026-06-14 20:31:40",
+        "lastModified":"2026-06-14 21:45:40",
         "layers":[
           {
             "name":"Italic",
@@ -12988,7 +12989,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.66",
+                  "id":"elementdata.69",
                   "contours":[
                     {
                       "nodes":[
@@ -13034,7 +13035,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.67",
+                  "id":"elementdata.70",
                   "contours":[
                     {
                       "nodes":[
@@ -13093,7 +13094,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.68",
+                  "id":"elementdata.71",
                   "contours":[
                     {
                       "nodes":[
@@ -13130,7 +13131,7 @@
       {
         "name":"z",
         "unicode":"007a",
-        "lastModified":"2026-06-14 21:41:09",
+        "lastModified":"2026-06-15 03:53:04",
         "layers":[
           {
             "name":"Italic",
@@ -13255,7 +13256,7 @@
       },
       {
         "name":"braceleft.lc",
-        "lastModified":"2026-06-14 03:12:08",
+        "lastModified":"2026-06-14 21:45:40",
         "layers":[
           {
             "name":"Italic",
@@ -13449,7 +13450,7 @@
       {
         "name":"bar",
         "unicode":"007c",
-        "lastModified":"2026-06-14 03:09:39",
+        "lastModified":"2026-06-14 21:45:40",
         "layers":[
           {
             "name":"Italic",
@@ -13552,7 +13553,7 @@
       },
       {
         "name":"braceright.lc",
-        "lastModified":"2026-06-14 03:13:09",
+        "lastModified":"2026-06-14 21:45:40",
         "layers":[
           {
             "name":"Italic",
@@ -13715,7 +13716,7 @@
       {
         "name":"asciitilde",
         "unicode":"007e",
-        "lastModified":"2026-06-14 03:09:39",
+        "lastModified":"2026-06-14 21:45:40",
         "layers":[
           {
             "name":"Italic",
@@ -13826,7 +13827,7 @@
       {
         "name":"exclamdown",
         "unicode":"00a1",
-        "lastModified":"2026-06-14 03:09:39",
+        "lastModified":"2026-06-14 21:45:40",
         "layers":[
           {
             "name":"Italic",
@@ -13963,7 +13964,7 @@
       {
         "name":"cent",
         "unicode":"00a2",
-        "lastModified":"2026-06-14 03:09:39",
+        "lastModified":"2026-06-14 21:45:40",
         "layers":[
           {
             "name":"Italic",
@@ -14148,7 +14149,7 @@
       {
         "name":"sterling",
         "unicode":"00a3",
-        "lastModified":"2026-06-14 03:09:39",
+        "lastModified":"2026-06-14 21:45:40",
         "layers":[
           {
             "name":"Italic",
@@ -14313,7 +14314,7 @@
       {
         "name":"currency",
         "unicode":"00a4",
-        "lastModified":"2026-06-14 03:09:39",
+        "lastModified":"2026-06-14 21:45:40",
         "layers":[
           {
             "name":"Italic",
@@ -14477,7 +14478,7 @@
       {
         "name":"yen",
         "unicode":"00a5",
-        "lastModified":"2026-06-14 19:46:40",
+        "lastModified":"2026-06-14 21:45:40",
         "layers":[
           {
             "name":"Italic",
@@ -14687,7 +14688,7 @@
       {
         "name":"brokenbar",
         "unicode":"00a6",
-        "lastModified":"2026-06-14 19:46:40",
+        "lastModified":"2026-06-14 21:45:40",
         "layers":[
           {
             "name":"Italic",
@@ -14804,7 +14805,7 @@
       {
         "name":"section",
         "unicode":"00a7",
-        "lastModified":"2026-06-14 19:46:40",
+        "lastModified":"2026-06-14 21:45:40",
         "layers":[
           {
             "name":"Italic",
@@ -15019,7 +15020,7 @@
       {
         "name":"dieresis",
         "unicode":"00a8",
-        "lastModified":"2026-06-14 19:46:40",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -15133,7 +15134,7 @@
       {
         "name":"copyright",
         "unicode":"00a9",
-        "lastModified":"2026-06-14 19:46:40",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -15297,7 +15298,7 @@
       {
         "name":"ordfeminine",
         "unicode":"00aa",
-        "lastModified":"2026-06-14 19:46:40",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -15471,7 +15472,7 @@
       {
         "name":"guillemotleft",
         "unicode":"00ab",
-        "lastModified":"2026-06-14 19:46:40",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -15616,7 +15617,7 @@
       {
         "name":"logicalnot",
         "unicode":"00ac",
-        "lastModified":"2026-06-14 19:46:40",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -15742,7 +15743,7 @@
       {
         "name":"registered",
         "unicode":"00ae",
-        "lastModified":"2026-06-14 19:46:40",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -15958,7 +15959,7 @@
       {
         "name":"macron",
         "unicode":"00af",
-        "lastModified":"2026-06-14 19:46:40",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -16043,7 +16044,7 @@
       {
         "name":"degree",
         "unicode":"00b0",
-        "lastModified":"2026-06-14 19:46:40",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -16154,7 +16155,7 @@
       {
         "name":"plusminus",
         "unicode":"00b1",
-        "lastModified":"2026-06-14 19:46:40",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -16355,7 +16356,7 @@
       {
         "name":"twosuperior",
         "unicode":"00b2",
-        "lastModified":"2026-06-14 19:46:40",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -16460,7 +16461,7 @@
       {
         "name":"threesuperior",
         "unicode":"00b3",
-        "lastModified":"2026-06-14 19:46:40",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -16537,7 +16538,7 @@
       {
         "name":"acute",
         "unicode":"00b4",
-        "lastModified":"2026-06-14 19:46:40",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -16637,7 +16638,7 @@
       {
         "name":"mu",
         "unicode":"00b5",
-        "lastModified":"2026-06-14 19:46:40",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -16779,7 +16780,7 @@
       {
         "name":"paragraph",
         "unicode":"00b6",
-        "lastModified":"2026-06-14 19:46:40",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -17040,7 +17041,7 @@
       {
         "name":"cedilla",
         "unicode":"00b8",
-        "lastModified":"2026-06-14 19:46:40",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -17206,7 +17207,7 @@
       {
         "name":"onesuperior",
         "unicode":"00b9",
-        "lastModified":"2026-06-14 19:46:40",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -17289,7 +17290,7 @@
       {
         "name":"ordmasculine",
         "unicode":"00ba",
-        "lastModified":"2026-06-14 19:46:40",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -17440,7 +17441,7 @@
       {
         "name":"guillemotright",
         "unicode":"00bb",
-        "lastModified":"2026-06-14 19:46:40",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -17585,7 +17586,7 @@
       {
         "name":"onequarter",
         "unicode":"00bc",
-        "lastModified":"2026-06-14 19:46:40",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -17712,7 +17713,7 @@
       {
         "name":"onehalf",
         "unicode":"00bd",
-        "lastModified":"2026-06-14 18:25:57",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -17893,7 +17894,7 @@
       {
         "name":"threequarters",
         "unicode":"00be",
-        "lastModified":"2026-06-14 18:25:57",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -18084,7 +18085,7 @@
       {
         "name":"questiondown",
         "unicode":"00bf",
-        "lastModified":"2026-06-14 18:25:57",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -18222,7 +18223,7 @@
       {
         "name":"gravecomb",
         "unicode":"0300",
-        "lastModified":"2026-06-14 18:25:57",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -18310,7 +18311,7 @@
       {
         "name":"Agrave",
         "unicode":"00c0",
-        "lastModified":"2026-06-14 18:25:57",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -18434,7 +18435,7 @@
       {
         "name":"Aacute",
         "unicode":"00c1",
-        "lastModified":"2026-06-14 18:25:57",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -18554,7 +18555,7 @@
       {
         "name":"circumflex",
         "unicode":"02c6",
-        "lastModified":"2026-06-14 18:25:57",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -18669,7 +18670,7 @@
       {
         "name":"Acircumflex",
         "unicode":"00c2",
-        "lastModified":"2026-06-14 18:25:57",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -18789,7 +18790,7 @@
       {
         "name":"tilde",
         "unicode":"02dc",
-        "lastModified":"2026-06-14 18:25:57",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -18882,7 +18883,7 @@
       {
         "name":"Atilde",
         "unicode":"00c3",
-        "lastModified":"2026-06-14 18:25:57",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -18987,7 +18988,7 @@
       {
         "name":"Adieresis",
         "unicode":"00c4",
-        "lastModified":"2026-06-14 18:25:57",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -19101,7 +19102,7 @@
       {
         "name":"ring",
         "unicode":"02da",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -19221,7 +19222,7 @@
       {
         "name":"Aring",
         "unicode":"00c5",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -19333,7 +19334,7 @@
       {
         "name":"AE",
         "unicode":"00c6",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -19620,7 +19621,7 @@
       {
         "name":"Egrave",
         "unicode":"00c8",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -19742,7 +19743,7 @@
       {
         "name":"Eacute",
         "unicode":"00c9",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -19860,7 +19861,7 @@
       {
         "name":"Ecircumflex",
         "unicode":"00ca",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -19978,7 +19979,7 @@
       {
         "name":"Edieresis",
         "unicode":"00cb",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -20090,7 +20091,7 @@
       {
         "name":"Igrave",
         "unicode":"00cc",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -20213,7 +20214,7 @@
       {
         "name":"Iacute",
         "unicode":"00cd",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -20332,7 +20333,7 @@
       {
         "name":"Icircumflex",
         "unicode":"00ce",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -20451,7 +20452,7 @@
       {
         "name":"Idieresis",
         "unicode":"00cf",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -20564,7 +20565,7 @@
       {
         "name":"Eth",
         "unicode":"00d0",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -20689,31 +20690,31 @@
                   "contours":[
                     {
                       "nodes":[
-                        "32 835",
-                        "194 835",
-                        "276 1308",
-                        "288 1500",
-                        "338 1505  459 1507  546 1507 s",
-                        "1024 1507  1148 1239  1129 810",
-                        "1112 271  715 0  271 0 s",
-                        "46 0",
-                        "173 725",
-                        "12 725"
+                        "24 825",
+                        "192 823",
+                        "278 1309",
+                        "290 1500",
+                        "339 1505  461 1508  548 1507 s",
+                        "1039 1500  1166 1194  1132 762 s",
+                        "1088 203  618 0  273 0 s",
+                        "47 0",
+                        "177 734",
+                        "8 734"
                       ]
                     },
                     {
                       "nodes":[
-                        "527 1404 s",
-                        "471 1404  418 1396  363 1391",
-                        "350 1165",
-                        "329 1055  310 945  291 835",
-                        "570 835",
-                        "551 725",
-                        "271 725",
-                        "235 522  200 317  165 113",
-                        "155 112  145 109  137 106",
-                        "736 63  1000 395  1046 811",
-                        "1080 1188  950 1404 c"
+                        "153 89",
+                        "273 88 s",
+                        "618 88  1008 307  1044 762 s",
+                        "1077 1174  943 1415  538 1419 s",
+                        "480 1420  423 1420  365 1415",
+                        "363 1268",
+                        "338 1132  311 979  283 823",
+                        "563 820",
+                        "548 734",
+                        "267 734",
+                        "227 510  186 283 c"
                       ]
                     }
                   ]
@@ -20728,7 +20729,7 @@
       {
         "name":"Ntilde",
         "unicode":"00d1",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -20832,7 +20833,7 @@
       {
         "name":"Ograve",
         "unicode":"00d2",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -20954,7 +20955,7 @@
       {
         "name":"Oacute",
         "unicode":"00d3",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -21072,7 +21073,7 @@
       {
         "name":"Ocircumflex",
         "unicode":"00d4",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -21190,7 +21191,7 @@
       {
         "name":"Otilde",
         "unicode":"00d5",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -21290,7 +21291,7 @@
       {
         "name":"Odieresis",
         "unicode":"00d6",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -21402,7 +21403,7 @@
       {
         "name":"multiply",
         "unicode":"00d7",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -21530,7 +21531,7 @@
       {
         "name":"Oslash",
         "unicode":"00d8",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -21547,28 +21548,13 @@
                         "1050 1600",
                         "1250 1600"
                       ]
-                    },
-                    {
-                      "nodes":[
-                        "438 -17 s",
-                        "79 -17  -52 330  24 750",
-                        "96 1170  340 1517  709 1517 s",
-                        "1070 1517  1196 1170  1124 750",
-                        "1048 330  809 -17 c"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "910 719",
-                        "958 998  977 1342  672 1342 s",
-                        "383 1342  282 1030  238 785 s",
-                        "186 502  173 158  475 158 s",
-                        "761 158  866 476 c"
-                      ]
                     }
                   ]
                 },
                 "active":true
+              },
+              {
+                "elementData":"elementdata.42"
               }
             ],
             "color":"#00cce5"
@@ -21587,28 +21573,13 @@
                         "930 1600",
                         "1130 1600"
                       ]
-                    },
-                    {
-                      "nodes":[
-                        "464 -17 s",
-                        "74 -17  -75 330  1 750",
-                        "73 1170  334 1517  735 1517 s",
-                        "1126 1517  1273 1170  1198 750 s",
-                        "1122 330  867 -17 c"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "842 721 s",
-                        "886 969  909 1274  686 1274 s",
-                        "480 1274  392 999  356 783",
-                        "312 532  292 226  512 226 s",
-                        "734 226  812 552 c"
-                      ]
                     }
                   ]
                 },
                 "active":true
+              },
+              {
+                "elementData":"elementdata.43"
               }
             ],
             "hints":[
@@ -21646,32 +21617,17 @@
                     {
                       "nodes":[
                         "-16 -100",
-                        "-226 -100",
+                        "-125 -100",
                         "1130 1600",
-                        "1330 1600"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "421 -17 s",
-                        "82 -17  -37 330  39 750",
-                        "111 1170  344 1517  692 1517 s",
-                        "1033 1517  1145 1170  1075 750",
-                        "999 330  770 -17 c"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "955 718",
-                        "1006 1017  1022 1387  663 1387 s",
-                        "318 1387  209 1051  159 786 s",
-                        "102 482  94 113  450 113 s",
-                        "779 113  902 425 c"
+                        "1239 1600"
                       ]
                     }
                   ]
                 },
                 "active":true
+              },
+              {
+                "elementData":"elementdata.44"
               }
             ],
             "color":"#fe4a46"
@@ -21681,7 +21637,7 @@
       {
         "name":"Ugrave",
         "unicode":"00d9",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -21689,7 +21645,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.42",
+                "elementData":"elementdata.45",
                 "active":true
               },
               {
@@ -21717,7 +21673,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.43",
+                "elementData":"elementdata.46",
                 "active":true
               },
               {
@@ -21781,7 +21737,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.44",
+                "elementData":"elementdata.47",
                 "active":true
               },
               {
@@ -21799,7 +21755,7 @@
       {
         "name":"Uacute",
         "unicode":"00da",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -21807,7 +21763,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.42",
+                "elementData":"elementdata.45",
                 "active":true
               },
               {
@@ -21833,7 +21789,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.43",
+                "elementData":"elementdata.46",
                 "active":true
               },
               {
@@ -21895,7 +21851,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.44",
+                "elementData":"elementdata.47",
                 "active":true
               },
               {
@@ -21913,7 +21869,7 @@
       {
         "name":"Ucircumflex",
         "unicode":"00db",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -21921,7 +21877,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.42",
+                "elementData":"elementdata.45",
                 "active":true
               },
               {
@@ -21947,7 +21903,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.43",
+                "elementData":"elementdata.46",
                 "active":true
               },
               {
@@ -22009,7 +21965,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.44",
+                "elementData":"elementdata.47",
                 "active":true
               },
               {
@@ -22027,7 +21983,7 @@
       {
         "name":"Udieresis",
         "unicode":"00dc",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -22035,7 +21991,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.42",
+                "elementData":"elementdata.45",
                 "active":true
               },
               {
@@ -22059,7 +22015,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.43",
+                "elementData":"elementdata.46",
                 "active":true
               },
               {
@@ -22117,7 +22073,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.44",
+                "elementData":"elementdata.47",
                 "active":true
               },
               {
@@ -22143,7 +22099,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.45",
+                "elementData":"elementdata.48",
                 "transform":{
                   "xOffset":-31
                 },
@@ -22173,7 +22129,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.46",
+                "elementData":"elementdata.49",
                 "transform":{
                   "xOffset":-31
                 },
@@ -22249,7 +22205,7 @@
       {
         "name":"Thorn",
         "unicode":"00de",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:22",
         "layers":[
           {
             "name":"Italic",
@@ -22429,7 +22385,7 @@
       {
         "name":"germandbls",
         "unicode":"00df",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -22564,7 +22520,7 @@
       {
         "name":"agrave",
         "unicode":"00e0",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -22572,7 +22528,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.47"
+                "elementData":"elementdata.50"
               },
               {
                 "elementData":"elementdata.5",
@@ -22598,7 +22554,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.48"
+                "elementData":"elementdata.51"
               },
               {
                 "elementData":"elementdata.7",
@@ -22665,7 +22621,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.49",
+                "elementData":"elementdata.52",
                 "active":true
               },
               {
@@ -22682,7 +22638,7 @@
       {
         "name":"aacute",
         "unicode":"00e1",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 03:53:26",
         "layers":[
           {
             "name":"Italic",
@@ -22690,7 +22646,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.47"
+                "elementData":"elementdata.50"
               },
               {
                 "elementData":"elementdata.10",
@@ -22714,7 +22670,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.48"
+                "elementData":"elementdata.51"
               },
               {
                 "elementData":"elementdata.11",
@@ -22778,7 +22734,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.49",
+                "elementData":"elementdata.52",
                 "active":true
               },
               {
@@ -22795,7 +22751,7 @@
       {
         "name":"acircumflex",
         "unicode":"00e2",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -22803,7 +22759,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.47"
+                "elementData":"elementdata.50"
               },
               {
                 "elementData":"elementdata.13",
@@ -22827,7 +22783,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.48"
+                "elementData":"elementdata.51"
               },
               {
                 "elementData":"elementdata.14",
@@ -22891,7 +22847,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.49",
+                "elementData":"elementdata.52",
                 "active":true
               },
               {
@@ -22908,7 +22864,7 @@
       {
         "name":"atilde",
         "unicode":"00e3",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -22916,7 +22872,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.47"
+                "elementData":"elementdata.50"
               },
               {
                 "elementData":"elementdata.16",
@@ -22939,7 +22895,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.48"
+                "elementData":"elementdata.51"
               },
               {
                 "elementData":"elementdata.17",
@@ -22991,7 +22947,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.49",
+                "elementData":"elementdata.52",
                 "active":true
               },
               {
@@ -23009,7 +22965,7 @@
       {
         "name":"adieresis",
         "unicode":"00e4",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -23017,7 +22973,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.47"
+                "elementData":"elementdata.50"
               },
               {
                 "elementData":"elementdata.19",
@@ -23039,7 +22995,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.48",
+                "elementData":"elementdata.51",
                 "active":true
               },
               {
@@ -23100,7 +23056,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.49",
+                "elementData":"elementdata.52",
                 "active":true
               },
               {
@@ -23117,7 +23073,7 @@
       {
         "name":"aring",
         "unicode":"00e5",
-        "lastModified":"2026-06-14 20:39:16",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -23125,7 +23081,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.47"
+                "elementData":"elementdata.50"
               },
               {
                 "elementData":"elementdata.22",
@@ -23149,7 +23105,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.48"
+                "elementData":"elementdata.51"
               },
               {
                 "elementData":"elementdata.23",
@@ -23205,7 +23161,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.49",
+                "elementData":"elementdata.52",
                 "active":true
               },
               {
@@ -23222,7 +23178,7 @@
       {
         "name":"ae",
         "unicode":"00e6",
-        "lastModified":"2026-06-14 19:51:07",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -23415,7 +23371,7 @@
       {
         "name":"ccedilla",
         "unicode":"00e7",
-        "lastModified":"2026-06-14 19:45:24",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -23423,7 +23379,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.50",
+                "elementData":"elementdata.53",
                 "transform":{
                   "xOffset":-1
                 },
@@ -23462,7 +23418,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.51",
+                "elementData":"elementdata.54",
                 "transform":{
                   "xOffset":-1
                 }
@@ -23508,7 +23464,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.52",
+                "elementData":"elementdata.55",
                 "transform":{
                   "xOffset":-1
                 },
@@ -23528,7 +23484,7 @@
       {
         "name":"egrave",
         "unicode":"00e8",
-        "lastModified":"2026-06-14 19:45:24",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -23536,7 +23492,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.53",
+                "elementData":"elementdata.56",
                 "active":true
               },
               {
@@ -23699,7 +23655,7 @@
       {
         "name":"eacute",
         "unicode":"00e9",
-        "lastModified":"2026-06-14 19:45:24",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -23707,7 +23663,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.53",
+                "elementData":"elementdata.56",
                 "active":true
               },
               {
@@ -23866,7 +23822,7 @@
       {
         "name":"ecircumflex",
         "unicode":"00ea",
-        "lastModified":"2026-06-14 19:45:24",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -23874,7 +23830,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.53",
+                "elementData":"elementdata.56",
                 "active":true
               },
               {
@@ -24033,7 +23989,7 @@
       {
         "name":"edieresis",
         "unicode":"00eb",
-        "lastModified":"2026-06-14 19:45:24",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -24041,7 +23997,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.53",
+                "elementData":"elementdata.56",
                 "active":true
               },
               {
@@ -24194,7 +24150,7 @@
       {
         "name":"dotlessi",
         "unicode":"0131",
-        "lastModified":"2026-06-14 19:45:24",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -24203,7 +24159,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.54",
+                  "id":"elementdata.57",
                   "contours":[
                     {
                       "nodes":[
@@ -24243,7 +24199,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.55",
+                  "id":"elementdata.58",
                   "contours":[
                     {
                       "nodes":[
@@ -24297,7 +24253,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.56",
+                  "id":"elementdata.59",
                   "contours":[
                     {
                       "nodes":[
@@ -24329,7 +24285,7 @@
       {
         "name":"igrave",
         "unicode":"00ec",
-        "lastModified":"2026-06-14 19:45:24",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -24337,7 +24293,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.54",
+                "elementData":"elementdata.57",
                 "active":true
               },
               {
@@ -24354,7 +24310,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.55",
+                "elementData":"elementdata.58",
                 "active":true
               },
               {
@@ -24401,7 +24357,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.56",
+                "elementData":"elementdata.59",
                 "active":true
               },
               {
@@ -24418,7 +24374,7 @@
       {
         "name":"iacute",
         "unicode":"00ed",
-        "lastModified":"2026-06-14 19:45:24",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -24426,7 +24382,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.54",
+                "elementData":"elementdata.57",
                 "active":true
               },
               {
@@ -24443,7 +24399,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.55",
+                "elementData":"elementdata.58",
                 "active":true
               },
               {
@@ -24490,7 +24446,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.56",
+                "elementData":"elementdata.59",
                 "active":true
               },
               {
@@ -24507,7 +24463,7 @@
       {
         "name":"icircumflex",
         "unicode":"00ee",
-        "lastModified":"2026-06-14 19:45:24",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -24515,7 +24471,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.54",
+                "elementData":"elementdata.57",
                 "active":true
               },
               {
@@ -24532,7 +24488,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.55",
+                "elementData":"elementdata.58",
                 "active":true
               },
               {
@@ -24579,7 +24535,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.56",
+                "elementData":"elementdata.59",
                 "active":true
               },
               {
@@ -24596,7 +24552,7 @@
       {
         "name":"idieresis",
         "unicode":"00ef",
-        "lastModified":"2026-06-14 19:45:24",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -24604,7 +24560,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.54",
+                "elementData":"elementdata.57",
                 "active":true
               },
               {
@@ -24621,7 +24577,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.55",
+                "elementData":"elementdata.58",
                 "active":true
               },
               {
@@ -24653,7 +24609,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.56",
+                "elementData":"elementdata.59",
                 "active":true
               },
               {
@@ -24670,7 +24626,7 @@
       {
         "name":"eth",
         "unicode":"00f0",
-        "lastModified":"2026-06-14 19:45:24",
+        "lastModified":"2026-06-15 03:53:27",
         "layers":[
           {
             "name":"Italic",
@@ -24682,36 +24638,34 @@
                   "contours":[
                     {
                       "nodes":[
-                        "495 1168",
-                        "739 1347",
-                        "616 1326 {n:'.ih01'}",
-                        "556 1361  493 1378  424 1378 s",
-                        "407 1378  393 1376  389 1375",
-                        "389 1518",
-                        "412 1521  431 1520  451 1520",
-                        "598 1520  719 1478  818 1405",
-                        "977 1522",
-                        "1054 1407",
-                        "842 1252 {n:'.av02'}",
-                        "960 1255 {n:'.sv01'}",
-                        "1057 1080  1085 863  1069 620 s",
-                        "1045 329  790 -56  456 -20 s {n:'.ab01'}",
-                        "168 12  75 163  78 469",
-                        "78 771  353 955  600 927 s {n:'.av01'}",
-                        "689 916  769 898  852 847",
-                        "873 808  893 769  914 730",
-                        "917 927  871 1101  764 1194",
-                        "572 1053"
+                        "515 1050",
+                        "707 1191",
+                        "806 1066  863 893  857 727",
+                        "836 766  816 805  795 844",
+                        "727 905  673 924  583 924 s",
+                        "322 924  153 762  101 466 s",
+                        "51 179  152 -17  440 -17 s",
+                        "832 -17  974 401  1012 617 s",
+                        "1054 855  1013 1085  902 1249",
+                        "785 1249",
+                        "997 1404",
+                        "920 1519",
+                        "761 1402",
+                        "646 1488  490 1529  332 1515",
+                        "332 1372",
+                        "404 1389  505 1355  559 1323",
+                        "682 1344",
+                        "438 1165"
                       ]
                     },
                     {
                       "nodes":[
-                        "871 607 {n:'.ih03'}",
-                        "821 668  709 751  587 767 s {n:'.ih04'}",
-                        "394 794  263 631  255 451 s {n:'.ih02'}",
-                        "248 268  330 167  483 140 s",
-                        "644 113  767 251  821 412 s",
-                        "845 487  859 542 c"
+                        "834 604",
+                        "823 540  808 468  781 400 s",
+                        "728 263  634 143  467 143 s",
+                        "306 143  247 272  278 448 s",
+                        "309 626  385 764  570 764 s",
+                        "693 764  799 673 c"
                       ]
                     }
                   ]
@@ -24739,36 +24693,34 @@
                   "contours":[
                     {
                       "nodes":[
-                        "446 1154",
-                        "677 1320",
-                        "529 1296",
-                        "501 1305  475 1310  452 1310 s",
-                        "418 1310  384 1308  351 1300",
-                        "351 1508",
-                        "397 1512  444 1517  490 1517 s",
-                        "623 1517  734 1486  826 1433",
-                        "998 1561",
-                        "1108 1395",
-                        "896 1239 {n:'.av01'}",
-                        "1024 1239 {n:'.sv01'}",
-                        "1125 1087  1155 873  1127 664 s",
-                        "1088 328  849 -17  477 -17 s {n:'.ab01'}",
-                        "163 -17  21 181  74 472 s",
-                        "128 772  336 936  623 936 s {n:'.dv01'}",
-                        "687 936  752 929  811 904 s",
-                        "811 904  811 904  811 904",
-                        "814 971  790 1067  742 1126",
-                        "560 993 {n:'.dv02'}"
+                        "528 993",
+                        "710 1126",
+                        "758 1067  782 971  778 904",
+                        "763 910  748 915  733 919 s",
+                        "687 932  639 936  591 936 s",
+                        "304 936  94 772  41 472 s",
+                        "-10 181  130 -17  445 -17 s",
+                        "869 -17  1049 398  1087 612 s",
+                        "1127 837  1101 1073  991 1239",
+                        "863 1239",
+                        "1076 1395",
+                        "965 1561",
+                        "794 1433",
+                        "650 1517  494 1527  319 1508",
+                        "318 1300",
+                        "381 1314  441 1314  497 1296",
+                        "645 1320",
+                        "413 1154"
                       ]
                     },
                     {
                       "nodes":[
-                        "794 596",
-                        "756 650  705 712  598 712 s",
-                        "476 712  395 599  371 455 s",
-                        "345 312  409 208  516 208 s",
-                        "621 208  706 307  751 426",
-                        "774 483  783 536 c"
+                        "762 596",
+                        "752 536  741 483  719 426 s",
+                        "674 307  589 208  484 208 s",
+                        "377 208  313 312  338 455 s",
+                        "364 599  444 712  566 712 s",
+                        "673 712  723 650 c"
                       ]
                     }
                   ]
@@ -24822,36 +24774,34 @@
                   "contours":[
                     {
                       "nodes":[
-                        "528 1177",
-                        "780 1365",
-                        "674 1346",
-                        "593 1398  505 1423  405 1423 s",
-                        "400 1423  399 1421  414 1425",
-                        "414 1525",
-                        "422 1527  422 1522  425 1522 s",
-                        "581 1522  709 1473  813 1386",
-                        "963 1496",
-                        "1018 1415",
-                        "806 1261",
-                        "917 1266",
-                        "1012 1075  1038 856  1030 591",
-                        "1016 330  751 -82  442 -22 s",
-                        "171 31  111 151  81 467",
-                        "45 770  364 968  585 921",
-                        "690 903  780 877  879 809",
-                        "914 744  948 679  983 614",
-                        "986 898  925 1124  779 1239",
-                        "580 1093"
+                        "511 1106",
+                        "731 1271",
+                        "848 1086  904 914  886 680",
+                        "870 720  867 763  851 803",
+                        "768 896  699 933  581 933 s",
+                        "338 933  196 772  144 479 s",
+                        "94 195  170 0  440 0 s",
+                        "811 0  927 420  965 637 s",
+                        "1009 885  940 1115  837 1282",
+                        "762 1295",
+                        "947 1427",
+                        "893 1508",
+                        "743 1398",
+                        "630 1503  511 1542  343 1532",
+                        "345 1446",
+                        "413 1446  513 1452  619 1376",
+                        "710 1377",
+                        "459 1189"
                       ]
                     },
                     {
                       "nodes":[
-                        "922 614",
-                        "864 680  712 777  580 804",
-                        "339 849  175 652  178 448",
-                        "183 239  277 140  461 95",
-                        "659 50  808 214  868 403",
-                        "892 490  910 546 c"
+                        "877 626",
+                        "866 560  846 482  817 407",
+                        "758 258  663 88  455 88 s",
+                        "238 88  193 261  232 479 s",
+                        "270 695  367 845  565 845 s",
+                        "699 845  804 753 c"
                       ]
                     }
                   ]
@@ -24866,7 +24816,7 @@
       {
         "name":"ntilde",
         "unicode":"00f1",
-        "lastModified":"2026-06-14 19:45:24",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -24874,7 +24824,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.57",
+                "elementData":"elementdata.60",
                 "active":true
               },
               {
@@ -24898,7 +24848,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.58",
+                "elementData":"elementdata.61",
                 "transform":{
                   "xOffset":-1
                 },
@@ -24950,7 +24900,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.59",
+                "elementData":"elementdata.62",
                 "transform":{
                   "xOffset":1
                 },
@@ -24971,7 +24921,7 @@
       {
         "name":"ograve",
         "unicode":"00f2",
-        "lastModified":"2026-06-14 19:45:52",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -24979,7 +24929,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.60",
+                "elementData":"elementdata.63",
                 "active":true
               },
               {
@@ -25004,7 +24954,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.61",
+                "elementData":"elementdata.64",
                 "active":true
               },
               {
@@ -25064,7 +25014,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.62",
+                "elementData":"elementdata.65",
                 "active":true
               },
               {
@@ -25081,7 +25031,7 @@
       {
         "name":"oacute",
         "unicode":"00f3",
-        "lastModified":"2026-06-14 19:45:52",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -25089,7 +25039,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.60",
+                "elementData":"elementdata.63",
                 "active":true
               },
               {
@@ -25112,7 +25062,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.61",
+                "elementData":"elementdata.64",
                 "active":true
               },
               {
@@ -25170,7 +25120,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.62",
+                "elementData":"elementdata.65",
                 "active":true
               },
               {
@@ -25187,7 +25137,7 @@
       {
         "name":"ocircumflex",
         "unicode":"00f4",
-        "lastModified":"2026-06-14 19:45:52",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -25195,7 +25145,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.60",
+                "elementData":"elementdata.63",
                 "active":true
               },
               {
@@ -25215,7 +25165,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.61",
+                "elementData":"elementdata.64",
                 "active":true
               },
               {
@@ -25273,7 +25223,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.62",
+                "elementData":"elementdata.65",
                 "active":true
               },
               {
@@ -25290,7 +25240,7 @@
       {
         "name":"otilde",
         "unicode":"00f5",
-        "lastModified":"2026-06-14 19:45:52",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -25298,7 +25248,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.60",
+                "elementData":"elementdata.63",
                 "active":true
               },
               {
@@ -25320,7 +25270,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.61",
+                "elementData":"elementdata.64",
                 "active":true
               },
               {
@@ -25366,7 +25316,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.62",
+                "elementData":"elementdata.65",
                 "active":true
               },
               {
@@ -25384,7 +25334,7 @@
       {
         "name":"odieresis",
         "unicode":"00f6",
-        "lastModified":"2026-06-14 19:45:52",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -25392,7 +25342,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.60",
+                "elementData":"elementdata.63",
                 "active":true
               },
               {
@@ -25413,7 +25363,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.61",
+                "elementData":"elementdata.64",
                 "active":true
               },
               {
@@ -25467,7 +25417,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.62",
+                "elementData":"elementdata.65",
                 "active":true
               },
               {
@@ -25484,7 +25434,7 @@
       {
         "name":"divide",
         "unicode":"00f7",
-        "lastModified":"2026-06-14 20:53:08",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -25666,7 +25616,7 @@
       {
         "name":"oslash",
         "unicode":"00f8",
-        "lastModified":"2026-06-14 19:45:52",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -25689,7 +25639,7 @@
                 "active":true
               },
               {
-                "elementData":"elementdata.60"
+                "elementData":"elementdata.63"
               }
             ],
             "color":"#00cce5"
@@ -25714,7 +25664,7 @@
                 "active":true
               },
               {
-                "elementData":"elementdata.61"
+                "elementData":"elementdata.64"
               }
             ],
             "hints":[
@@ -25762,7 +25712,7 @@
                 "active":true
               },
               {
-                "elementData":"elementdata.62"
+                "elementData":"elementdata.65"
               }
             ],
             "color":"#fe4a46"
@@ -25772,7 +25722,7 @@
       {
         "name":"ugrave",
         "unicode":"00f9",
-        "lastModified":"2026-06-14 19:45:24",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -25780,7 +25730,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.63",
+                "elementData":"elementdata.66",
                 "active":true
               },
               {
@@ -25808,7 +25758,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.64",
+                "elementData":"elementdata.67",
                 "transform":{
                   "xOffset":-1
                 },
@@ -25877,7 +25827,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.65",
+                "elementData":"elementdata.68",
                 "transform":{
                   "xOffset":1
                 },
@@ -25897,7 +25847,7 @@
       {
         "name":"uacute",
         "unicode":"00fa",
-        "lastModified":"2026-06-14 19:45:24",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -25905,7 +25855,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.63",
+                "elementData":"elementdata.66",
                 "active":true
               },
               {
@@ -25931,7 +25881,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.64",
+                "elementData":"elementdata.67",
                 "transform":{
                   "xOffset":-1
                 },
@@ -25998,7 +25948,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.65",
+                "elementData":"elementdata.68",
                 "transform":{
                   "xOffset":1
                 },
@@ -26018,7 +25968,7 @@
       {
         "name":"ucircumflex",
         "unicode":"00fb",
-        "lastModified":"2026-06-14 19:45:24",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -26026,7 +25976,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.63",
+                "elementData":"elementdata.66",
                 "active":true
               },
               {
@@ -26052,7 +26002,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.64",
+                "elementData":"elementdata.67",
                 "transform":{
                   "xOffset":-1
                 },
@@ -26119,7 +26069,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.65",
+                "elementData":"elementdata.68",
                 "transform":{
                   "xOffset":1
                 },
@@ -26139,7 +26089,7 @@
       {
         "name":"udieresis",
         "unicode":"00fc",
-        "lastModified":"2026-06-14 19:45:24",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -26147,7 +26097,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.63",
+                "elementData":"elementdata.66",
                 "active":true
               },
               {
@@ -26171,7 +26121,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.64",
+                "elementData":"elementdata.67",
                 "transform":{
                   "xOffset":-1
                 },
@@ -26234,7 +26184,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.65",
+                "elementData":"elementdata.68",
                 "transform":{
                   "xOffset":1
                 },
@@ -26254,7 +26204,7 @@
       {
         "name":"yacute",
         "unicode":"00fd",
-        "lastModified":"2026-06-14 19:45:24",
+        "lastModified":"2026-06-15 02:53:02",
         "layers":[
           {
             "name":"Italic",
@@ -26262,7 +26212,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.66",
+                "elementData":"elementdata.69",
                 "active":true
               },
               {
@@ -26288,7 +26238,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.67",
+                "elementData":"elementdata.70",
                 "transform":{
                   "xOffset":9
                 },
@@ -26343,7 +26293,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.68",
+                "elementData":"elementdata.71",
                 "transform":{
                   "xOffset":-6
                 },
@@ -26363,7 +26313,7 @@
       {
         "name":"thorn",
         "unicode":"00fe",
-        "lastModified":"2026-06-14 19:45:24",
+        "lastModified":"2026-06-15 02:52:50",
         "layers":[
           {
             "name":"Italic",
@@ -26508,7 +26458,7 @@
       {
         "name":"ydieresis",
         "unicode":"00ff",
-        "lastModified":"2026-06-14 19:45:24",
+        "lastModified":"2026-06-15 02:52:50",
         "layers":[
           {
             "name":"Italic",
@@ -26516,7 +26466,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.66",
+                "elementData":"elementdata.69",
                 "active":true
               },
               {
@@ -26540,7 +26490,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.67",
+                "elementData":"elementdata.70",
                 "transform":{
                   "xOffset":9
                 },
@@ -26591,7 +26541,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.68",
+                "elementData":"elementdata.71",
                 "transform":{
                   "xOffset":-6
                 },
@@ -26611,7 +26561,7 @@
       {
         "name":"OE",
         "unicode":"0152",
-        "lastModified":"2026-06-14 19:42:48",
+        "lastModified":"2026-06-15 02:52:33",
         "layers":[
           {
             "name":"Italic",
@@ -26807,7 +26757,7 @@
       {
         "name":"oe",
         "unicode":"0153",
-        "lastModified":"2026-06-14 19:42:48",
+        "lastModified":"2026-06-15 02:52:33",
         "layers":[
           {
             "name":"Italic",
@@ -26999,7 +26949,7 @@
       {
         "name":"caron",
         "unicode":"02c7",
-        "lastModified":"2026-06-14 19:42:48",
+        "lastModified":"2026-06-15 02:52:33",
         "layers":[
           {
             "name":"Italic",
@@ -27008,7 +26958,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.70",
+                  "id":"elementdata.73",
                   "contours":[
                     {
                       "nodes":[
@@ -27042,7 +26992,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.72",
+                  "id":"elementdata.75",
                   "contours":[
                     {
                       "nodes":[
@@ -27089,7 +27039,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.74",
+                  "id":"elementdata.77",
                   "contours":[
                     {
                       "nodes":[
@@ -27116,7 +27066,7 @@
       {
         "name":"Scaron",
         "unicode":"0160",
-        "lastModified":"2026-06-14 19:42:48",
+        "lastModified":"2026-06-15 02:52:33",
         "layers":[
           {
             "name":"Italic",
@@ -27124,14 +27074,14 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.69",
+                "elementData":"elementdata.72",
                 "transform":{
                   "xOffset":-1
                 },
                 "active":true
               },
               {
-                "elementData":"elementdata.70",
+                "elementData":"elementdata.73",
                 "transform":{
                   "xOffset":98,
                   "yOffset":380
@@ -27153,14 +27103,14 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.71",
+                "elementData":"elementdata.74",
                 "transform":{
                   "xOffset":2
                 },
                 "active":true
               },
               {
-                "elementData":"elementdata.72",
+                "elementData":"elementdata.75",
                 "transform":{
                   "xOffset":151,
                   "yOffset":380
@@ -27215,14 +27165,14 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.73",
+                "elementData":"elementdata.76",
                 "transform":{
                   "xOffset":-3
                 },
                 "active":true
               },
               {
-                "elementData":"elementdata.74",
+                "elementData":"elementdata.77",
                 "transform":{
                   "xOffset":63,
                   "yOffset":380
@@ -27244,11 +27194,11 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.75",
+                "elementData":"elementdata.78",
                 "active":true
               },
               {
-                "elementData":"elementdata.70",
+                "elementData":"elementdata.73",
                 "transform":{
                   "xOffset":-16
                 }
@@ -27269,14 +27219,14 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.76",
+                "elementData":"elementdata.79",
                 "transform":{
                   "xOffset":18
                 },
                 "active":true
               },
               {
-                "elementData":"elementdata.72",
+                "elementData":"elementdata.75",
                 "transform":{
                   "xOffset":61
                 }
@@ -27330,14 +27280,14 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.77",
+                "elementData":"elementdata.80",
                 "transform":{
                   "xOffset":-12
                 },
                 "active":true
               },
               {
-                "elementData":"elementdata.74",
+                "elementData":"elementdata.77",
                 "transform":{
                   "xOffset":-67
                 }
@@ -27358,7 +27308,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.45",
+                "elementData":"elementdata.48",
                 "transform":{
                   "xOffset":-11
                 },
@@ -27386,7 +27336,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.46",
+                "elementData":"elementdata.49",
                 "transform":{
                   "xOffset":3
                 },
@@ -28188,7 +28138,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.78",
+                "elementData":"elementdata.81",
                 "active":true
               }
             ],
@@ -28204,7 +28154,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.79",
+                "elementData":"elementdata.82",
                 "active":true
               }
             ],
@@ -28257,7 +28207,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.80",
+                "elementData":"elementdata.83",
                 "active":true
               }
             ],
@@ -28385,7 +28335,7 @@
       {
         "name":"Deltagreek",
         "unicode":"0394",
-        "lastModified":"2026-06-14 18:45:44",
+        "lastModified":"2026-06-15 02:59:31",
         "layers":[
           {
             "name":"Italic",
@@ -28614,7 +28564,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.81",
+                "elementData":"elementdata.84",
                 "active":true
               }
             ],
@@ -28631,7 +28581,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.82",
+                "elementData":"elementdata.85",
                 "active":true
               }
             ],
@@ -28660,7 +28610,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.83",
+                "elementData":"elementdata.86",
                 "active":true
               }
             ],
@@ -28679,7 +28629,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.84",
+                "elementData":"elementdata.87",
                 "active":true
               }
             ],
@@ -28700,7 +28650,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.85",
+                "elementData":"elementdata.88",
                 "active":true
               }
             ],
@@ -28751,7 +28701,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.86",
+                "elementData":"elementdata.89",
                 "active":true
               }
             ],
@@ -28999,7 +28949,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.87",
+                "elementData":"elementdata.90",
                 "active":true
               }
             ],
@@ -29017,7 +28967,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.88",
+                "elementData":"elementdata.91",
                 "active":true
               }
             ],
@@ -29049,7 +28999,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.89",
+                "elementData":"elementdata.92",
                 "active":true
               }
             ],
@@ -29190,7 +29140,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.90",
+                "elementData":"elementdata.93",
                 "active":true
               }
             ],
@@ -29209,7 +29159,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.91",
+                "elementData":"elementdata.94",
                 "active":true
               }
             ],
@@ -29256,7 +29206,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.92",
+                "elementData":"elementdata.95",
                 "active":true
               }
             ],
@@ -29586,7 +29536,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.93",
+                "elementData":"elementdata.96",
                 "active":true
               }
             ],
@@ -29602,7 +29552,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.94",
+                "elementData":"elementdata.97",
                 "active":true
               }
             ],
@@ -29647,7 +29597,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.95",
+                "elementData":"elementdata.98",
                 "active":true
               }
             ],
@@ -29811,7 +29761,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.96",
+                "elementData":"elementdata.99",
                 "active":true
               }
             ],
@@ -29828,7 +29778,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.97",
+                "elementData":"elementdata.100",
                 "active":true
               }
             ],
@@ -29863,7 +29813,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.98",
+                "elementData":"elementdata.101",
                 "active":true
               }
             ],
@@ -29882,7 +29832,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.45",
+                "elementData":"elementdata.48",
                 "active":true
               }
             ],
@@ -29900,7 +29850,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.46",
+                "elementData":"elementdata.49",
                 "active":true
               }
             ],
@@ -29938,7 +29888,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.99",
+                "elementData":"elementdata.102",
                 "active":true
               }
             ],
@@ -30170,7 +30120,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.100",
+                "elementData":"elementdata.103",
                 "active":true
               }
             ],
@@ -30188,7 +30138,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.101",
+                "elementData":"elementdata.104",
                 "active":true
               }
             ],
@@ -30221,7 +30171,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.102",
+                "elementData":"elementdata.105",
                 "active":true
               }
             ],
@@ -31257,7 +31207,7 @@
       {
         "name":"zeta",
         "unicode":"03b6",
-        "lastModified":"2026-06-14 18:45:44",
+        "lastModified":"2026-06-15 02:54:19",
         "layers":[
           {
             "name":"Italic",
@@ -32250,7 +32200,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.103",
+                "elementData":"elementdata.106",
                 "active":true
               }
             ],
@@ -32270,7 +32220,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.104",
+                "elementData":"elementdata.107",
                 "active":true
               }
             ],
@@ -32291,7 +32241,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.105",
+                "elementData":"elementdata.108",
                 "active":true
               }
             ],
@@ -32476,7 +32426,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.60",
+                "elementData":"elementdata.63",
                 "active":true
               }
             ],
@@ -32491,7 +32441,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.61",
+                "elementData":"elementdata.64",
                 "active":true
               }
             ],
@@ -32529,7 +32479,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.62",
+                "elementData":"elementdata.65",
                 "active":true
               }
             ],
@@ -34034,7 +33984,7 @@
       {
         "name":"Upsilon1",
         "unicode":"03d2",
-        "lastModified":"2026-06-14 18:43:58",
+        "lastModified":"2026-06-15 02:52:33",
         "layers":[
           {
             "name":"Italic",
@@ -34196,7 +34146,7 @@
       {
         "name":"phi1",
         "unicode":"03d5",
-        "lastModified":"2026-06-14 18:43:58",
+        "lastModified":"2026-06-15 02:52:33",
         "layers":[
           {
             "name":"Italic",
@@ -34344,7 +34294,7 @@
       {
         "name":"omega1",
         "unicode":"03d6",
-        "lastModified":"2026-06-14 19:44:05",
+        "lastModified":"2026-06-15 02:52:33",
         "layers":[
           {
             "name":"Italic",
@@ -35155,7 +35105,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.106",
+                  "id":"elementdata.109",
                   "contours":[
                     {
                       "nodes":[
@@ -35205,7 +35155,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.107",
+                  "id":"elementdata.110",
                   "contours":[
                     {
                       "nodes":[
@@ -35315,7 +35265,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.106",
+                "elementData":"elementdata.109",
                 "active":true
               }
             ],
@@ -35334,7 +35284,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.107"
+                "elementData":"elementdata.110"
               }
             ],
             "color":"#00cce5",
@@ -39403,7 +39353,7 @@
       {
         "name":"zerosuperior",
         "unicode":"2070",
-        "lastModified":"2026-06-04 03:09:20",
+        "lastModified":"2026-06-15 02:54:19",
         "layers":[
           {
             "name":"Italic",
@@ -40418,7 +40368,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.108",
+                  "id":"elementdata.111",
                   "contours":[
                     {
                       "nodes":[
@@ -41644,7 +41594,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.108",
+                "elementData":"elementdata.111",
                 "transform":{
                   "xScale":0.5,
                   "yxScale":0.08816349,
@@ -43512,7 +43462,7 @@
       {
         "name":"onethirds",
         "unicode":"2153",
-        "lastModified":"2026-06-05 02:47:57",
+        "lastModified":"2026-06-15 03:00:03",
         "layers":[
           {
             "name":"mask.Italic",
@@ -43783,7 +43733,7 @@
       {
         "name":"twothirds",
         "unicode":"2154",
-        "lastModified":"2026-06-05 02:47:57",
+        "lastModified":"2026-06-15 03:00:03",
         "layers":[
           {
             "name":"mask.Italic",
@@ -44038,7 +43988,7 @@
       {
         "name":"onefifth",
         "unicode":"2155",
-        "lastModified":"2026-06-05 02:47:57",
+        "lastModified":"2026-06-15 03:00:03",
         "layers":[
           {
             "name":"mask.Italic",
@@ -44296,7 +44246,7 @@
       {
         "name":"twofifths",
         "unicode":"2156",
-        "lastModified":"2026-06-05 02:47:57",
+        "lastModified":"2026-06-15 03:00:03",
         "layers":[
           {
             "name":"mask.Italic",
@@ -44544,7 +44494,7 @@
       {
         "name":"threefifths",
         "unicode":"2157",
-        "lastModified":"2026-06-05 02:47:57",
+        "lastModified":"2026-06-15 03:00:03",
         "layers":[
           {
             "name":"mask.Italic",
@@ -44818,7 +44768,7 @@
       {
         "name":"fourfifths",
         "unicode":"2158",
-        "lastModified":"2026-06-05 02:47:57",
+        "lastModified":"2026-06-15 03:00:03",
         "layers":[
           {
             "name":"mask.Italic",
@@ -45087,7 +45037,7 @@
       {
         "name":"onesixth",
         "unicode":"2159",
-        "lastModified":"2026-06-05 02:47:57",
+        "lastModified":"2026-06-15 03:00:03",
         "layers":[
           {
             "name":"mask.Italic",
@@ -45373,7 +45323,7 @@
       {
         "name":"fivesixths",
         "unicode":"215a",
-        "lastModified":"2026-06-05 02:47:57",
+        "lastModified":"2026-06-15 03:00:03",
         "layers":[
           {
             "name":"mask.Italic",
@@ -45659,7 +45609,7 @@
       {
         "name":"oneeighth",
         "unicode":"215b",
-        "lastModified":"2026-06-05 02:47:57",
+        "lastModified":"2026-06-15 03:00:03",
         "layers":[
           {
             "name":"mask.Italic",
@@ -45967,7 +45917,7 @@
       {
         "name":"threeeighths",
         "unicode":"215c",
-        "lastModified":"2026-06-05 02:47:57",
+        "lastModified":"2026-06-15 03:00:03",
         "layers":[
           {
             "name":"mask.Italic",
@@ -46285,7 +46235,7 @@
       {
         "name":"fiveeighths",
         "unicode":"215d",
-        "lastModified":"2026-06-05 02:47:57",
+        "lastModified":"2026-06-15 03:00:03",
         "layers":[
           {
             "name":"mask.Italic",
@@ -46599,7 +46549,7 @@
       {
         "name":"seveneighths",
         "unicode":"215e",
-        "lastModified":"2026-06-05 02:47:57",
+        "lastModified":"2026-06-15 03:00:03",
         "layers":[
           {
             "name":"mask.Italic",
@@ -46899,7 +46849,7 @@
       {
         "name":"fractionnumeratorone",
         "unicode":"215f",
-        "lastModified":"2026-06-05 02:47:57",
+        "lastModified":"2026-06-15 03:00:03",
         "layers":[
           {
             "name":"mask.Italic",
@@ -71394,7 +71344,7 @@
       {
         "name":"zoomin",
         "unicode":"e0a0",
-        "lastModified":"2026-06-14 03:13:09",
+        "lastModified":"2026-06-15 02:54:19",
         "layers":[
           {
             "name":"Italic",
@@ -71519,7 +71469,7 @@
       {
         "name":"zoomout",
         "unicode":"e0a1",
-        "lastModified":"2026-06-14 03:13:09",
+        "lastModified":"2026-06-15 02:54:19",
         "layers":[
           {
             "name":"Italic",
@@ -73699,7 +73649,7 @@
       {
         "name":"zero",
         "unicode":"0030",
-        "lastModified":"2026-06-14 03:10:23",
+        "lastModified":"2026-06-15 03:02:47",
         "layers":[
           {
             "name":"Italic",
@@ -75045,7 +74995,7 @@
     },
     "info":{
       "tfn":"Code612",
-      "sgn":"Code612",
+      "sgn":"Code612 ExtLt",
       "creationDate":"2017/11/27 07:03:00",
       "copyright":"Copyright (c) 2012, AIRBUS (airbus-group.com)\nCopyright (c) 2026 Brett Wilson",
       "trademark":"PolarSys, PolarSys B612 and B612 are trademarks of The Eclipse Foundation",
@@ -75104,13 +75054,6 @@
           "location":{
             "wt":200
           },
-          "guidelines":[
-            {
-              "style":"custom",
-              "horizontal":true,
-              "position":750
-            }
-          ],
           "otherData":{
             "DistanceX":100,
             "DistanceY":100,
@@ -75752,7 +75695,7 @@
             {
               "style":"custom",
               "horizontal":true,
-              "position":885
+              "position":694
             },
             {
               "name":"minus",
