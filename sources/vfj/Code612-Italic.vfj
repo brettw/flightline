@@ -4749,7 +4749,7 @@
       {
         "name":"A",
         "unicode":"0041",
-        "lastModified":"2026-06-14 21:45:38",
+        "lastModified":"2026-06-18 03:37:16",
         "layers":[
           {
             "name":"Italic",
@@ -5106,7 +5106,7 @@
       {
         "name":"C",
         "unicode":"0043",
-        "lastModified":"2026-06-17 04:28:17",
+        "lastModified":"2026-06-18 03:38:00",
         "layers":[
           {
             "name":"testing",
@@ -7236,7 +7236,7 @@
       {
         "name":"Q",
         "unicode":"0051",
-        "lastModified":"2026-06-17 04:28:42",
+        "lastModified":"2026-06-18 03:38:00",
         "layers":[
           {
             "name":"Italic",
@@ -9748,7 +9748,7 @@
       {
         "name":"d",
         "unicode":"0064",
-        "lastModified":"2026-06-17 04:28:42",
+        "lastModified":"2026-06-18 03:38:00",
         "layers":[
           {
             "name":"Italic",
@@ -10251,7 +10251,7 @@
       {
         "name":"g",
         "unicode":"0067",
-        "lastModified":"2026-06-17 04:28:42",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -13159,7 +13159,7 @@
       {
         "name":"z",
         "unicode":"007a",
-        "lastModified":"2026-06-17 04:28:42",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -13793,7 +13793,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "color":"#00cce5"
@@ -13819,7 +13820,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "color":"#fe4a46"
@@ -18337,7 +18339,7 @@
       {
         "name":"Agrave",
         "unicode":"00c0",
-        "lastModified":"2026-06-17 04:24:02",
+        "lastModified":"2026-06-18 03:37:16",
         "layers":[
           {
             "name":"Italic",
@@ -18461,7 +18463,7 @@
       {
         "name":"Aacute",
         "unicode":"00c1",
-        "lastModified":"2026-06-17 04:24:02",
+        "lastModified":"2026-06-18 03:37:16",
         "layers":[
           {
             "name":"Italic",
@@ -18696,7 +18698,7 @@
       {
         "name":"Acircumflex",
         "unicode":"00c2",
-        "lastModified":"2026-06-17 04:24:02",
+        "lastModified":"2026-06-18 03:37:16",
         "layers":[
           {
             "name":"Italic",
@@ -18909,7 +18911,7 @@
       {
         "name":"Atilde",
         "unicode":"00c3",
-        "lastModified":"2026-06-15 03:53:26",
+        "lastModified":"2026-06-18 03:37:16",
         "layers":[
           {
             "name":"Italic",
@@ -19014,7 +19016,7 @@
       {
         "name":"Adieresis",
         "unicode":"00c4",
-        "lastModified":"2026-06-15 03:53:26",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -19128,7 +19130,7 @@
       {
         "name":"ring",
         "unicode":"02da",
-        "lastModified":"2026-06-17 03:52:47",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -19141,20 +19143,50 @@
                   "contours":[
                     {
                       "nodes":[
-                        "738 1636 s {n:'.av01'}",
-                        "867 1615  938 1516  933 1399",
-                        "925 1247  792 1153  656 1158 {n:'.av02'}",
-                        "539 1161  450 1275  458 1399 s",
-                        "466 1533  600 1658 c"
+                        "699 1636 {n:'.av01'}",
+                        "748 1636 o",
+                        "834 1599 o",
+                        "899 1534 o",
+                        "936 1448 o",
+                        "936 1399 {n:'.ah02'}",
+                        "936 1350 o",
+                        "899 1262 o",
+                        "836 1196 o",
+                        "750 1158 o",
+                        "701 1158 {n:'.av02'}",
+                        "652 1158 o",
+                        "565 1196 o",
+                        "499 1262 o",
+                        "461 1350 o",
+                        "461 1399 {n:'.ah01'}",
+                        "461 1448 o",
+                        "499 1534 o",
+                        "563 1599 o",
+                        "650 1636 o"
                       ]
                     },
                     {
                       "nodes":[
-                        "675 1275 s",
-                        "738 1262  822 1315  817 1398 s",
-                        "813 1467  784 1506  717 1519 s",
-                        "649 1532  572 1467  575 1398 s",
-                        "577 1330  610 1289 c"
+                        "700 1275 {n:'.sv01'}",
+                        "725 1275 o",
+                        "769 1295 o",
+                        "801 1328 o",
+                        "820 1373 o",
+                        "820 1398 {n:'.sh01'}",
+                        "820 1423 o",
+                        "801 1467 o",
+                        "768 1500 o",
+                        "724 1519 o",
+                        "699 1519 {n:'.sv02'}",
+                        "674 1519 o",
+                        "630 1500 o",
+                        "597 1467 o",
+                        "578 1423 o",
+                        "578 1398 {n:'.sh02'}",
+                        "578 1373 o",
+                        "597 1328 o",
+                        "630 1295 o",
+                        "675 1275 o"
                       ]
                     }
                   ]
@@ -19178,20 +19210,50 @@
                   "contours":[
                     {
                       "nodes":[
-                        "880 1682 s {n:'.av01'}",
-                        "1038 1682  1141 1554  1114 1397 {n:'.sv01'}",
-                        "1085 1240  939 1108  781 1108 s {n:'.at01'}",
-                        "624 1108  515 1240  544 1397 {n:'.av02'}",
-                        "571 1554  724 1682 c"
+                        "779 1682 s {n:'.av01'}",
+                        "838 1682 o",
+                        "941 1637 o",
+                        "1018 1560 o",
+                        "1063 1456 o",
+                        "1063 1397 s {n:'.ah02'}",
+                        "1063 1338 o",
+                        "1019 1233 o",
+                        "943 1154 o",
+                        "840 1108 o",
+                        "781 1108 s {n:'.at01'}",
+                        "722 1108 o",
+                        "617 1154 o",
+                        "539 1233 o",
+                        "493 1338 o",
+                        "493 1397 s {n:'.ah01'}",
+                        "493 1456 o",
+                        "538 1560 o",
+                        "616 1637 o",
+                        "720 1682 o"
                       ]
                     },
                     {
                       "nodes":[
-                        "813 1297 s",
-                        "867 1297  916 1343  927 1396 {n:'.sv02'}",
-                        "935 1449  901 1493  847 1493 s",
-                        "795 1493  741 1449  733 1396 {n:'.av03'}",
-                        "722 1343  760 1297 c"
+                        "780 1297 s {n:'.sv01'}",
+                        "800 1297 o",
+                        "835 1313 o",
+                        "861 1340 o",
+                        "876 1376 o",
+                        "876 1396 s {n:'.sh01'}",
+                        "876 1416 o",
+                        "861 1451 o",
+                        "835 1478 o",
+                        "799 1493 o",
+                        "779 1493 s {n:'.sv02'}",
+                        "759 1493 o",
+                        "723 1478 o",
+                        "697 1451 o",
+                        "682 1416 o",
+                        "682 1396 s {n:'.sh02'}",
+                        "682 1376 o",
+                        "697 1340 o",
+                        "724 1313 o",
+                        "760 1297 o"
                       ]
                     }
                   ]
@@ -19220,20 +19282,50 @@
                   "contours":[
                     {
                       "nodes":[
-                        "643 1605",
-                        "753 1570  803 1491  812 1400",
-                        "818 1252  694 1183  573 1191",
-                        "482 1196  407 1298  401 1400",
-                        "396 1519  517 1642 c"
+                        "754 1602 s",
+                        "796 1602 o",
+                        "871 1570 o",
+                        "928 1513 o",
+                        "960 1439 o",
+                        "960 1397 s",
+                        "960 1355 o",
+                        "927 1278 o",
+                        "873 1221 o",
+                        "798 1188 o",
+                        "756 1188 s",
+                        "714 1188 o",
+                        "639 1221 o",
+                        "581 1278 o",
+                        "548 1355 o",
+                        "548 1397 s",
+                        "548 1439 o",
+                        "581 1513 o",
+                        "636 1570 o",
+                        "712 1602 o"
                       ]
                     },
                     {
                       "nodes":[
-                        "583 1260 s",
-                        "652 1239  759 1296  744 1399 s",
-                        "732 1479  706 1515  630 1536 s",
-                        "552 1558  459 1479  470 1399 s",
-                        "480 1321  510 1284 c"
+                        "755 1257 s",
+                        "783 1257 o",
+                        "833 1280 o",
+                        "869 1317 o",
+                        "891 1368 o",
+                        "891 1396 s",
+                        "891 1424 o",
+                        "869 1474 o",
+                        "832 1511 o",
+                        "782 1533 o",
+                        "754 1533 s",
+                        "726 1533 o",
+                        "676 1511 o",
+                        "639 1474 o",
+                        "617 1424 o",
+                        "617 1396 s",
+                        "617 1368 o",
+                        "639 1317 o",
+                        "676 1280 o",
+                        "727 1257 o"
                       ]
                     }
                   ]
@@ -19248,7 +19340,7 @@
       {
         "name":"Aring",
         "unicode":"00c5",
-        "lastModified":"2026-06-17 03:52:47",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -19256,15 +19348,15 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.6",
-                "active":true
+                "elementData":"elementdata.6"
               },
               {
                 "elementData":"elementdata.24",
                 "transform":{
-                  "xOffset":180,
+                  "xOffset":56,
                   "yOffset":245
-                }
+                },
+                "active":true
               }
             ],
             "color":"#00cce5",
@@ -19283,15 +19375,15 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.8",
-                "active":true
+                "elementData":"elementdata.8"
               },
               {
                 "elementData":"elementdata.25",
                 "transform":{
-                  "xOffset":44,
+                  "xOffset":-29,
                   "yOffset":245
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -19342,15 +19434,15 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.10",
-                "active":true
+                "elementData":"elementdata.10"
               },
               {
                 "elementData":"elementdata.26",
                 "transform":{
-                  "xOffset":271,
-                  "yOffset":245
-                }
+                  "xOffset":-26,
+                  "yOffset":278
+                },
+                "active":true
               }
             ],
             "color":"#fe4a46"
@@ -19360,7 +19452,7 @@
       {
         "name":"AE",
         "unicode":"00c6",
-        "lastModified":"2026-06-17 03:52:47",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -19647,7 +19739,7 @@
       {
         "name":"Egrave",
         "unicode":"00c8",
-        "lastModified":"2026-06-17 03:52:47",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -19769,7 +19861,7 @@
       {
         "name":"Eacute",
         "unicode":"00c9",
-        "lastModified":"2026-06-17 03:52:47",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -19887,7 +19979,7 @@
       {
         "name":"Ecircumflex",
         "unicode":"00ca",
-        "lastModified":"2026-06-17 03:52:47",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -20005,7 +20097,7 @@
       {
         "name":"Edieresis",
         "unicode":"00cb",
-        "lastModified":"2026-06-17 03:52:47",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -20117,7 +20209,7 @@
       {
         "name":"Igrave",
         "unicode":"00cc",
-        "lastModified":"2026-06-17 03:52:47",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -20240,7 +20332,7 @@
       {
         "name":"Iacute",
         "unicode":"00cd",
-        "lastModified":"2026-06-17 03:52:47",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -20359,7 +20451,7 @@
       {
         "name":"Icircumflex",
         "unicode":"00ce",
-        "lastModified":"2026-06-17 03:52:47",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -20478,7 +20570,7 @@
       {
         "name":"Idieresis",
         "unicode":"00cf",
-        "lastModified":"2026-06-17 03:52:47",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -20591,7 +20683,7 @@
       {
         "name":"Eth",
         "unicode":"00d0",
-        "lastModified":"2026-06-17 03:52:47",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -20755,7 +20847,7 @@
       {
         "name":"Ntilde",
         "unicode":"00d1",
-        "lastModified":"2026-06-17 03:52:47",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -20859,7 +20951,7 @@
       {
         "name":"Ograve",
         "unicode":"00d2",
-        "lastModified":"2026-06-17 03:52:47",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -20981,7 +21073,7 @@
       {
         "name":"Oacute",
         "unicode":"00d3",
-        "lastModified":"2026-06-17 03:52:47",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -21099,7 +21191,7 @@
       {
         "name":"Ocircumflex",
         "unicode":"00d4",
-        "lastModified":"2026-06-17 03:52:47",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -21217,7 +21309,7 @@
       {
         "name":"Otilde",
         "unicode":"00d5",
-        "lastModified":"2026-06-17 03:52:47",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -21317,7 +21409,7 @@
       {
         "name":"Odieresis",
         "unicode":"00d6",
-        "lastModified":"2026-06-17 03:52:47",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -21429,7 +21521,7 @@
       {
         "name":"multiply",
         "unicode":"00d7",
-        "lastModified":"2026-06-17 03:52:47",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -21557,7 +21649,7 @@
       {
         "name":"Oslash",
         "unicode":"00d8",
-        "lastModified":"2026-06-17 03:52:47",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -21663,7 +21755,7 @@
       {
         "name":"Ugrave",
         "unicode":"00d9",
-        "lastModified":"2026-06-17 03:52:47",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -21781,7 +21873,7 @@
       {
         "name":"Uacute",
         "unicode":"00da",
-        "lastModified":"2026-06-17 03:52:47",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -21895,7 +21987,7 @@
       {
         "name":"Ucircumflex",
         "unicode":"00db",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -22009,7 +22101,7 @@
       {
         "name":"Udieresis",
         "unicode":"00dc",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -22117,7 +22209,7 @@
       {
         "name":"Yacute",
         "unicode":"00dd",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -22235,7 +22327,7 @@
       {
         "name":"Thorn",
         "unicode":"00de",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -22415,7 +22507,7 @@
       {
         "name":"germandbls",
         "unicode":"00df",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -22550,7 +22642,7 @@
       {
         "name":"agrave",
         "unicode":"00e0",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -22668,7 +22760,7 @@
       {
         "name":"aacute",
         "unicode":"00e1",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -22781,7 +22873,7 @@
       {
         "name":"acircumflex",
         "unicode":"00e2",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:37:32",
         "layers":[
           {
             "name":"Italic",
@@ -22894,7 +22986,7 @@
       {
         "name":"atilde",
         "unicode":"00e3",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -22995,7 +23087,7 @@
       {
         "name":"adieresis",
         "unicode":"00e4",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -23103,7 +23195,7 @@
       {
         "name":"aring",
         "unicode":"00e5",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -23116,8 +23208,9 @@
               {
                 "elementData":"elementdata.24",
                 "transform":{
-                  "xOffset":156
-                }
+                  "xOffset":81
+                },
+                "active":true
               }
             ],
             "color":"#00cce5",
@@ -23191,14 +23284,14 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.55",
-                "active":true
+                "elementData":"elementdata.55"
               },
               {
                 "elementData":"elementdata.26",
                 "transform":{
-                  "xOffset":280
-                }
+                  "xOffset":31
+                },
+                "active":true
               }
             ],
             "color":"#fe4a46"
@@ -23208,7 +23301,7 @@
       {
         "name":"ae",
         "unicode":"00e6",
-        "lastModified":"2026-06-17 04:01:42",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -23401,7 +23494,7 @@
       {
         "name":"ccedilla",
         "unicode":"00e7",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -23514,7 +23607,7 @@
       {
         "name":"egrave",
         "unicode":"00e8",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -23685,7 +23778,7 @@
       {
         "name":"eacute",
         "unicode":"00e9",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -23852,7 +23945,7 @@
       {
         "name":"ecircumflex",
         "unicode":"00ea",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -24019,7 +24112,7 @@
       {
         "name":"edieresis",
         "unicode":"00eb",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -24180,7 +24273,7 @@
       {
         "name":"dotlessi",
         "unicode":"0131",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -24315,7 +24408,7 @@
       {
         "name":"igrave",
         "unicode":"00ec",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -24404,7 +24497,7 @@
       {
         "name":"iacute",
         "unicode":"00ed",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -24493,7 +24586,7 @@
       {
         "name":"icircumflex",
         "unicode":"00ee",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -24582,7 +24675,7 @@
       {
         "name":"idieresis",
         "unicode":"00ef",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -24656,7 +24749,7 @@
       {
         "name":"eth",
         "unicode":"00f0",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -24846,7 +24939,7 @@
       {
         "name":"ntilde",
         "unicode":"00f1",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -24951,7 +25044,7 @@
       {
         "name":"ograve",
         "unicode":"00f2",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -25061,7 +25154,7 @@
       {
         "name":"oacute",
         "unicode":"00f3",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -25167,7 +25260,7 @@
       {
         "name":"ocircumflex",
         "unicode":"00f4",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -25270,7 +25363,7 @@
       {
         "name":"otilde",
         "unicode":"00f5",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -25364,7 +25457,7 @@
       {
         "name":"odieresis",
         "unicode":"00f6",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -25464,7 +25557,7 @@
       {
         "name":"divide",
         "unicode":"00f7",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -25646,7 +25739,7 @@
       {
         "name":"oslash",
         "unicode":"00f8",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -25752,7 +25845,7 @@
       {
         "name":"ugrave",
         "unicode":"00f9",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -25877,7 +25970,7 @@
       {
         "name":"uacute",
         "unicode":"00fa",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -25998,7 +26091,7 @@
       {
         "name":"ucircumflex",
         "unicode":"00fb",
-        "lastModified":"2026-06-17 04:03:41",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -26119,7 +26212,7 @@
       {
         "name":"udieresis",
         "unicode":"00fc",
-        "lastModified":"2026-06-17 04:08:40",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -26234,7 +26327,7 @@
       {
         "name":"yacute",
         "unicode":"00fd",
-        "lastModified":"2026-06-17 04:08:40",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -26343,7 +26436,7 @@
       {
         "name":"thorn",
         "unicode":"00fe",
-        "lastModified":"2026-06-17 04:13:43",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -26488,7 +26581,7 @@
       {
         "name":"ydieresis",
         "unicode":"00ff",
-        "lastModified":"2026-06-17 04:19:37",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -26591,7 +26684,7 @@
       {
         "name":"OE",
         "unicode":"0152",
-        "lastModified":"2026-06-17 04:19:37",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -26787,7 +26880,7 @@
       {
         "name":"oe",
         "unicode":"0153",
-        "lastModified":"2026-06-17 04:19:37",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -26979,7 +27072,7 @@
       {
         "name":"caron",
         "unicode":"02c7",
-        "lastModified":"2026-06-17 04:19:37",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -27096,7 +27189,7 @@
       {
         "name":"Scaron",
         "unicode":"0160",
-        "lastModified":"2026-06-17 04:19:37",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -27216,7 +27309,7 @@
       {
         "name":"scaron",
         "unicode":"0161",
-        "lastModified":"2026-06-17 04:19:37",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -28052,7 +28145,7 @@
       {
         "name":"Alpha",
         "unicode":"0391",
-        "lastModified":"2026-06-17 04:19:37",
+        "lastModified":"2026-06-18 03:37:16",
         "layers":[
           {
             "name":"Italic",
@@ -36410,7 +36503,7 @@
       {
         "name":"bullet",
         "unicode":"2022",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-18 03:35:46",
         "layers":[
           {
             "name":"Italic",
@@ -36488,7 +36581,7 @@
       {
         "name":"triangularbullet",
         "unicode":"2023",
-        "lastModified":"2026-06-08 03:43:48",
+        "lastModified":"2026-06-18 03:35:46",
         "layers":[
           {
             "name":"Italic",
@@ -36539,7 +36632,7 @@
       {
         "name":"ellipsis",
         "unicode":"2026",
-        "lastModified":"2026-06-08 03:56:48",
+        "lastModified":"2026-06-18 03:35:46",
         "layers":[
           {
             "name":"Italic",
@@ -36860,7 +36953,7 @@
       {
         "name":"perthousand",
         "unicode":"2030",
-        "lastModified":"2026-06-17 03:41:29",
+        "lastModified":"2026-06-18 03:35:46",
         "layers":[
           {
             "name":"Italic",
@@ -37401,7 +37494,7 @@
       {
         "name":"pertenthousandsign",
         "unicode":"2031",
-        "lastModified":"2026-06-17 03:41:29",
+        "lastModified":"2026-06-18 03:35:46",
         "layers":[
           {
             "name":"Italic",
@@ -42892,7 +42985,7 @@
       {
         "name":"trademark",
         "unicode":"2122",
-        "lastModified":"2026-06-08 03:43:48",
+        "lastModified":"2026-06-17 04:33:16",
         "layers":[
           {
             "name":"Italic",
@@ -43042,7 +43135,7 @@
       {
         "name":"Ohm",
         "unicode":"2126",
-        "lastModified":"2026-06-14 18:13:25",
+        "lastModified":"2026-06-17 04:33:16",
         "layers":[
           {
             "name":"Italic",
@@ -43198,7 +43291,7 @@
       {
         "name":"angstrom",
         "unicode":"212b",
-        "lastModified":"2026-06-14 18:09:43",
+        "lastModified":"2026-06-18 03:38:18",
         "layers":[
           {
             "name":"Italic",
@@ -43209,15 +43302,15 @@
                 "elementData":"elementdata.6",
                 "transform":{
                   "xOffset":-30
-                },
-                "active":true
+                }
               },
               {
                 "elementData":"elementdata.24",
                 "transform":{
-                  "xOffset":180,
+                  "xOffset":31,
                   "yOffset":245
-                }
+                },
+                "active":true
               }
             ],
             "color":"#00cce5",
@@ -43236,15 +43329,15 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.8",
-                "active":true
+                "elementData":"elementdata.8"
               },
               {
                 "elementData":"elementdata.25",
                 "transform":{
-                  "xOffset":40,
+                  "xOffset":-60,
                   "yOffset":244
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -43295,18 +43388,23 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.10",
+                "component":{
+                  "glyphName":"A"
+                },
                 "transform":{
                   "xOffset":-50
-                },
-                "active":true
+                }
               },
               {
-                "elementData":"elementdata.26",
+                "component":{
+                  "glyphName":"ring"
+                },
                 "transform":{
-                  "xOffset":273,
-                  "yOffset":246
-                }
+                  "xOffset":-61,
+                  "yOffset":263
+                },
+                "nonSpacing":true,
+                "active":true
               }
             ],
             "color":"#fe4a46"
@@ -43316,7 +43414,7 @@
       {
         "name":"scriptsmallo",
         "unicode":"2134",
-        "lastModified":"2026-06-05 02:24:02",
+        "lastModified":"2026-06-18 03:27:36",
         "layers":[
           {
             "name":"Italic",
@@ -43389,7 +43487,7 @@
       {
         "name":"aleph",
         "unicode":"2135",
-        "lastModified":"2026-06-05 02:25:02",
+        "lastModified":"2026-06-18 03:27:36",
         "layers":[
           {
             "name":"Italic",
@@ -43492,7 +43590,7 @@
       {
         "name":"onethirds",
         "unicode":"2153",
-        "lastModified":"2026-06-15 03:00:03",
+        "lastModified":"2026-06-18 03:27:36",
         "layers":[
           {
             "name":"mask.Italic",
@@ -43763,7 +43861,7 @@
       {
         "name":"twothirds",
         "unicode":"2154",
-        "lastModified":"2026-06-15 03:00:03",
+        "lastModified":"2026-06-18 03:27:36",
         "layers":[
           {
             "name":"mask.Italic",
@@ -44018,7 +44116,7 @@
       {
         "name":"onefifth",
         "unicode":"2155",
-        "lastModified":"2026-06-15 03:00:03",
+        "lastModified":"2026-06-18 03:27:36",
         "layers":[
           {
             "name":"mask.Italic",
@@ -44276,7 +44374,7 @@
       {
         "name":"twofifths",
         "unicode":"2156",
-        "lastModified":"2026-06-15 03:00:03",
+        "lastModified":"2026-06-18 03:27:36",
         "layers":[
           {
             "name":"mask.Italic",
@@ -44524,7 +44622,7 @@
       {
         "name":"threefifths",
         "unicode":"2157",
-        "lastModified":"2026-06-15 03:00:03",
+        "lastModified":"2026-06-18 03:27:36",
         "layers":[
           {
             "name":"mask.Italic",
@@ -44798,7 +44896,7 @@
       {
         "name":"fourfifths",
         "unicode":"2158",
-        "lastModified":"2026-06-15 03:00:03",
+        "lastModified":"2026-06-18 03:27:36",
         "layers":[
           {
             "name":"mask.Italic",
@@ -45067,7 +45165,7 @@
       {
         "name":"onesixth",
         "unicode":"2159",
-        "lastModified":"2026-06-15 03:00:03",
+        "lastModified":"2026-06-18 03:27:36",
         "layers":[
           {
             "name":"mask.Italic",
@@ -45353,7 +45451,7 @@
       {
         "name":"fivesixths",
         "unicode":"215a",
-        "lastModified":"2026-06-15 03:00:03",
+        "lastModified":"2026-06-18 03:27:36",
         "layers":[
           {
             "name":"mask.Italic",
@@ -45639,7 +45737,7 @@
       {
         "name":"oneeighth",
         "unicode":"215b",
-        "lastModified":"2026-06-15 03:00:03",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"mask.Italic",
@@ -45947,7 +46045,7 @@
       {
         "name":"threeeighths",
         "unicode":"215c",
-        "lastModified":"2026-06-15 03:00:03",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"mask.Italic",
@@ -46265,7 +46363,7 @@
       {
         "name":"fiveeighths",
         "unicode":"215d",
-        "lastModified":"2026-06-15 03:00:03",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"mask.Italic",
@@ -46579,7 +46677,7 @@
       {
         "name":"seveneighths",
         "unicode":"215e",
-        "lastModified":"2026-06-15 03:00:03",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"mask.Italic",
@@ -46879,7 +46977,7 @@
       {
         "name":"fractionnumeratorone",
         "unicode":"215f",
-        "lastModified":"2026-06-15 03:00:03",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"mask.Italic",
@@ -47059,7 +47157,7 @@
       {
         "name":"arrowleft",
         "unicode":"2190",
-        "lastModified":"2026-06-05 02:51:13",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -47130,7 +47228,7 @@
       {
         "name":"arrowup",
         "unicode":"2191",
-        "lastModified":"2026-06-05 02:51:19",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -47201,7 +47299,7 @@
       {
         "name":"arrowright",
         "unicode":"2192",
-        "lastModified":"2026-06-05 02:51:30",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -47272,7 +47370,7 @@
       {
         "name":"arrowdown",
         "unicode":"2193",
-        "lastModified":"2026-06-05 02:51:35",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -47343,7 +47441,7 @@
       {
         "name":"arrowboth",
         "unicode":"2194",
-        "lastModified":"2026-06-05 02:51:49",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -47432,7 +47530,7 @@
       {
         "name":"arrowupdn",
         "unicode":"2195",
-        "lastModified":"2026-06-05 02:53:15",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -47521,7 +47619,7 @@
       {
         "name":"arrowupleft",
         "unicode":"2196",
-        "lastModified":"2026-06-05 02:53:21",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -47592,7 +47690,7 @@
       {
         "name":"arrowupright",
         "unicode":"2197",
-        "lastModified":"2026-06-05 02:53:26",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -47663,7 +47761,7 @@
       {
         "name":"arrowdownright",
         "unicode":"2198",
-        "lastModified":"2026-06-05 02:53:31",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -47734,7 +47832,7 @@
       {
         "name":"arrowdownleft",
         "unicode":"2199",
-        "lastModified":"2026-06-05 02:53:42",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -47805,7 +47903,7 @@
       {
         "name":"leftwardsarrowwithhook",
         "unicode":"21a9",
-        "lastModified":"2026-06-05 02:53:47",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -47884,7 +47982,7 @@
       {
         "name":"rightwardsarrowwithhook",
         "unicode":"21aa",
-        "lastModified":"2026-06-05 02:53:59",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -47963,7 +48061,7 @@
       {
         "name":"downwardsarrowwithtiprightwards",
         "unicode":"21b3",
-        "lastModified":"2026-06-05 02:54:04",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -48038,7 +48136,7 @@
       {
         "name":"carriagereturn",
         "unicode":"21b5",
-        "lastModified":"2026-06-05 02:54:04",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -48113,7 +48211,7 @@
       {
         "name":"undo",
         "unicode":"21b6",
-        "lastModified":"2026-06-05 02:54:33",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -48190,7 +48288,7 @@
       {
         "name":"redo",
         "unicode":"21b7",
-        "lastModified":"2026-06-05 02:54:38",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -48267,7 +48365,7 @@
       {
         "name":"arrowdblleft",
         "unicode":"21d0",
-        "lastModified":"2026-06-05 02:54:42",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -48352,7 +48450,7 @@
       {
         "name":"arrowdblup",
         "unicode":"21d1",
-        "lastModified":"2026-06-05 02:54:55",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -48437,7 +48535,7 @@
       {
         "name":"arrowdblright",
         "unicode":"21d2",
-        "lastModified":"2026-06-05 02:55:00",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -48522,7 +48620,7 @@
       {
         "name":"arrowdbldown",
         "unicode":"21d3",
-        "lastModified":"2026-06-05 02:55:29",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -48607,7 +48705,7 @@
       {
         "name":"arrowdblleftright",
         "unicode":"21d4",
-        "lastModified":"2026-06-05 02:55:35",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -48724,7 +48822,7 @@
       {
         "name":"arrowdblupdown",
         "unicode":"21d5",
-        "lastModified":"2026-06-05 02:55:40",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -48841,7 +48939,7 @@
       {
         "name":"arrowdblnorthwest",
         "unicode":"21d6",
-        "lastModified":"2026-06-05 02:50:31",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -48926,7 +49024,7 @@
       {
         "name":"arrowdblnortheast",
         "unicode":"21d7",
-        "lastModified":"2026-06-05 02:50:31",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -49011,7 +49109,7 @@
       {
         "name":"arrowdblsoutheast",
         "unicode":"21d8",
-        "lastModified":"2026-06-05 02:50:19",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -49096,7 +49194,7 @@
       {
         "name":"arrowdblsouthwest",
         "unicode":"21d9",
-        "lastModified":"2026-06-05 02:50:09",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -49181,7 +49279,7 @@
       {
         "name":"pageup",
         "unicode":"21de",
-        "lastModified":"2026-06-17 03:41:29",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -49284,7 +49382,7 @@
       {
         "name":"pagedown",
         "unicode":"21df",
-        "lastModified":"2026-06-17 03:41:29",
+        "lastModified":"2026-06-18 03:24:18",
         "layers":[
           {
             "name":"Italic",
@@ -51325,7 +51423,7 @@
       {
         "name":"ringoperator",
         "unicode":"2218",
-        "lastModified":"2026-06-05 15:20:59",
+        "lastModified":"2026-06-18 03:35:46",
         "layers":[
           {
             "name":"Italic",
@@ -51337,20 +51435,50 @@
                   "contours":[
                     {
                       "nodes":[
-                        "618 920 s",
-                        "766 900  848 802  839 650 s",
-                        "831 500  669 364  522 380 s",
-                        "375 397  298 499  301 650 s",
-                        "305 801  470 940 c"
+                        "550 917 {n:'.at01'}",
+                        "606 917 o",
+                        "704 875 o",
+                        "777 801 o",
+                        "819 703 o",
+                        "819 647 {n:'.ah02'}",
+                        "819 591 o",
+                        "777 493 o",
+                        "704 420 o",
+                        "606 377 o",
+                        "550 377 {n:'.av01'}",
+                        "494 377 o",
+                        "396 420 o",
+                        "323 493 o",
+                        "281 591 o",
+                        "281 647 {n:'.ah01'}",
+                        "281 703 o",
+                        "323 801 o",
+                        "396 875 o",
+                        "494 917 o"
                       ]
                     },
                     {
                       "nodes":[
-                        "542 491",
-                        "626 483  724 543  729 650 s",
-                        "733 739  686 793  598 809 s",
-                        "507 825  411 758  411 650",
-                        "412 562  461 500 c"
+                        "550 488 {n:'.sv01'}",
+                        "583 488 o",
+                        "641 513 o",
+                        "684 556 o",
+                        "709 614 o",
+                        "709 647 {n:'.sh01'}",
+                        "709 680 o",
+                        "684 738 o",
+                        "641 781 o",
+                        "583 806 o",
+                        "550 806 {n:'.sv02'}",
+                        "517 806 o",
+                        "459 781 o",
+                        "416 738 o",
+                        "391 680 o",
+                        "391 647 {n:'.sh02'}",
+                        "391 614 o",
+                        "416 556 o",
+                        "459 513 o",
+                        "517 488 o"
                       ]
                     }
                   ]
@@ -51369,20 +51497,50 @@
                   "contours":[
                     {
                       "nodes":[
-                        "597 917 s {n:'.at01'}",
-                        "760 917  873 796  846 647 s",
-                        "819 499  666 377  502 377 s {n:'.av01'}",
-                        "338 377  228 499  254 647 s",
-                        "281 796  432 917 c"
+                        "550 917 s {n:'.at01'}",
+                        "611 917 o",
+                        "719 875 o",
+                        "800 801 o",
+                        "846 703 o",
+                        "846 647 s {n:'.ah02'}",
+                        "846 591 o",
+                        "800 493 o",
+                        "719 420 o",
+                        "611 377 o",
+                        "550 377 s {n:'.av01'}",
+                        "488 377 o",
+                        "381 420 o",
+                        "300 493 o",
+                        "254 591 o",
+                        "254 647 s {n:'.ah01'}",
+                        "254 703 o",
+                        "300 801 o",
+                        "381 875 o",
+                        "488 917 o"
                       ]
                     },
                     {
                       "nodes":[
-                        "532 545 s {n:'.av02'}",
-                        "594 545  651 591  662 647",
-                        "670 703  629 749  567 749 s {n:'.av03'}",
-                        "506 749  446 703  438 647",
-                        "427 591  471 545 c"
+                        "550 545 s {n:'.sv01'}",
+                        "573 545 o",
+                        "614 561 o",
+                        "644 589 o",
+                        "662 626 o",
+                        "662 647 s {n:'.sh01'}",
+                        "662 668 o",
+                        "644 705 o",
+                        "614 733 o",
+                        "573 749 o",
+                        "550 749 s {n:'.sv02'}",
+                        "527 749 o",
+                        "486 733 o",
+                        "456 705 o",
+                        "438 668 o",
+                        "438 647 s {n:'.sh02'}",
+                        "438 626 o",
+                        "456 589 o",
+                        "486 561 o",
+                        "527 545 o"
                       ]
                     }
                   ]
@@ -51408,20 +51566,50 @@
                   "contours":[
                     {
                       "nodes":[
-                        "632 922 s",
-                        "770 889  831 806  834 652",
-                        "839 501  671 355  535 382",
-                        "400 410  345 499  332 652 s",
-                        "321 804  495 955 c"
+                        "550 917 s {n:'.at01'}",
+                        "603 917 o",
+                        "694 875 o",
+                        "762 801 o",
+                        "801 703 o",
+                        "801 647 s",
+                        "801 591 o",
+                        "762 493 o",
+                        "694 420 o",
+                        "603 377 o",
+                        "550 377 s {n:'.av01'}",
+                        "498 377 o",
+                        "406 420 o",
+                        "338 493 o",
+                        "299 591 o",
+                        "299 647 s",
+                        "299 703 o",
+                        "338 801 o",
+                        "406 875 o",
+                        "498 917 o"
                       ]
                     },
                     {
                       "nodes":[
-                        "549 455",
-                        "647 442  773 511  774 652 s",
-                        "775 763  724 822  619 849",
-                        "508 876  388 795  393 652",
-                        "402 543  454 470 c"
+                        "550 450 s",
+                        "590 450 o",
+                        "659 481 o",
+                        "711 534 o",
+                        "740 606 o",
+                        "740 647 s",
+                        "740 688 o",
+                        "711 760 o",
+                        "659 813 o",
+                        "590 844 o",
+                        "550 844 s",
+                        "510 844 o",
+                        "441 813 o",
+                        "389 760 o",
+                        "360 688 o",
+                        "360 647 s",
+                        "360 606 o",
+                        "389 534 o",
+                        "441 481 o",
+                        "510 450 o"
                       ]
                     }
                   ]
