@@ -238,6 +238,24 @@
       "expected": "plus equal space hyphen equal space less equal space greater equal space asciitilde equal space plus plus space hyphen hyphen space equal greater space asterisk equal space hyphen greater space less hyphen"
     },
     {
+      "name": "calt lowercases bracket pairs around lowercase runs",
+      "feature": "calt",
+      "inputText": "(a) [ab] {abc}",
+      "expected": "parenleft.lc a parenright.lc space bracketleft.lc a b bracketright.lc space braceleft.lc a b c braceright.lc"
+    },
+    {
+      "name": "calt lowercases parenthesis pairs through generated max length",
+      "feature": "calt",
+      "inputText": "(a) (ac) (abc) (abbc) (abbbc) (abbbbc) (abbbbbc)",
+      "expected": "parenleft.lc a parenright.lc space parenleft.lc a c parenright.lc space parenleft.lc a b c parenright.lc space parenleft.lc a b b c parenright.lc space parenleft.lc a b b b c parenright.lc space parenleft.lc a b b b b c parenright.lc space parenleft.lc a b b b b b c parenright.lc"
+    },
+    {
+      "name": "calt leaves bracket pairs without lowercase context unchanged",
+      "feature": "calt",
+      "inputText": "(A) [A] {A}",
+      "expected": "parenleft A parenright space bracketleft A bracketright space braceleft A braceright"
+    },
+    {
       "name": "calt prefers uppercase form when both contexts match",
       "feature": "calt",
       "inputText": "A+c",

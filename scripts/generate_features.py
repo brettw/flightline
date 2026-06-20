@@ -230,6 +230,12 @@ COMPACT_LC_OUTPUTS = {
     ("hyphen", "greater"): ("hyphen.lc.rightfull", "greater.lc.leftfull"),
     ("less", "hyphen"): ("less.lc.rightfull", "hyphen.lc.leftfull"),
 }
+BRACKET_PAIRS = (
+    ("parenleft", "parenright"),
+    ("bracketleft", "bracketright"),
+    ("braceleft", "braceright"),
+)
+MAX_BRACKET_CONTENT_LENGTH = 7
 
 
 def output_path() -> Path:
@@ -268,6 +274,30 @@ def append_lowercase_pair_rules(
     )
 
 
+def bracket_context(content_length: int, close_side: bool = False) -> str:
+    if content_length == 1:
+        return "@littleRight" if close_side else "@littleLeft"
+    middle = " ".join(["@letters"] * (content_length - 2))
+    parts = ["@littleLeft"]
+    if middle:
+        parts.append(middle)
+    parts.append("@littleRight")
+    return " ".join(parts)
+
+
+def append_bracket_pair_rules(lines: list[str], left: str, right: str) -> None:
+    for content_length in range(1, MAX_BRACKET_CONTENT_LENGTH + 1):
+        left_context = bracket_context(content_length)
+        right_context = bracket_context(content_length, close_side=True)
+        lines.extend(
+            [
+                f"  sub {left}' {left_context} {right} by {left}.lc;",
+                f"  sub {left}.lc {right_context} {right}' by {right}.lc;",
+            ]
+        )
+    lines.append("")
+
+
 def generate_calt() -> str:
     lines = [
         "",
@@ -297,6 +327,9 @@ def generate_calt() -> str:
                 "",
             ]
         )
+
+    for left, right in BRACKET_PAIRS:
+        append_bracket_pair_rules(lines, left, right)
 
     lines.append("} calt;")
     return "\n".join(lines)

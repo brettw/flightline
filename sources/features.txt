@@ -341,4 +341,49 @@ feature calt {
   sub asterisk' @littleLeft by asterisk.lc;
   sub asterisk' space @littleLeft by asterisk.lc;
 
+  sub parenleft' @littleLeft parenright by parenleft.lc;
+  sub parenleft.lc @littleRight parenright' by parenright.lc;
+  sub parenleft' @littleLeft @littleRight parenright by parenleft.lc;
+  sub parenleft.lc @littleLeft @littleRight parenright' by parenright.lc;
+  sub parenleft' @littleLeft @letters @littleRight parenright by parenleft.lc;
+  sub parenleft.lc @littleLeft @letters @littleRight parenright' by parenright.lc;
+  sub parenleft' @littleLeft @letters @letters @littleRight parenright by parenleft.lc;
+  sub parenleft.lc @littleLeft @letters @letters @littleRight parenright' by parenright.lc;
+  sub parenleft' @littleLeft @letters @letters @letters @littleRight parenright by parenleft.lc;
+  sub parenleft.lc @littleLeft @letters @letters @letters @littleRight parenright' by parenright.lc;
+  sub parenleft' @littleLeft @letters @letters @letters @letters @littleRight parenright by parenleft.lc;
+  sub parenleft.lc @littleLeft @letters @letters @letters @letters @littleRight parenright' by parenright.lc;
+  sub parenleft' @littleLeft @letters @letters @letters @letters @letters @littleRight parenright by parenleft.lc;
+  sub parenleft.lc @littleLeft @letters @letters @letters @letters @letters @littleRight parenright' by parenright.lc;
+
+  sub bracketleft' @littleLeft bracketright by bracketleft.lc;
+  sub bracketleft.lc @littleRight bracketright' by bracketright.lc;
+  sub bracketleft' @littleLeft @littleRight bracketright by bracketleft.lc;
+  sub bracketleft.lc @littleLeft @littleRight bracketright' by bracketright.lc;
+  sub bracketleft' @littleLeft @letters @littleRight bracketright by bracketleft.lc;
+  sub bracketleft.lc @littleLeft @letters @littleRight bracketright' by bracketright.lc;
+  sub bracketleft' @littleLeft @letters @letters @littleRight bracketright by bracketleft.lc;
+  sub bracketleft.lc @littleLeft @letters @letters @littleRight bracketright' by bracketright.lc;
+  sub bracketleft' @littleLeft @letters @letters @letters @littleRight bracketright by bracketleft.lc;
+  sub bracketleft.lc @littleLeft @letters @letters @letters @littleRight bracketright' by bracketright.lc;
+  sub bracketleft' @littleLeft @letters @letters @letters @letters @littleRight bracketright by bracketleft.lc;
+  sub bracketleft.lc @littleLeft @letters @letters @letters @letters @littleRight bracketright' by bracketright.lc;
+  sub bracketleft' @littleLeft @letters @letters @letters @letters @letters @littleRight bracketright by bracketleft.lc;
+  sub bracketleft.lc @littleLeft @letters @letters @letters @letters @letters @littleRight bracketright' by bracketright.lc;
+
+  sub braceleft' @littleLeft braceright by braceleft.lc;
+  sub braceleft.lc @littleRight braceright' by braceright.lc;
+  sub braceleft' @littleLeft @littleRight braceright by braceleft.lc;
+  sub braceleft.lc @littleLeft @littleRight braceright' by braceright.lc;
+  sub braceleft' @littleLeft @letters @littleRight braceright by braceleft.lc;
+  sub braceleft.lc @littleLeft @letters @littleRight braceright' by braceright.lc;
+  sub braceleft' @littleLeft @letters @letters @littleRight braceright by braceleft.lc;
+  sub braceleft.lc @littleLeft @letters @letters @littleRight braceright' by braceright.lc;
+  sub braceleft' @littleLeft @letters @letters @letters @littleRight braceright by braceleft.lc;
+  sub braceleft.lc @littleLeft @letters @letters @letters @littleRight braceright' by braceright.lc;
+  sub braceleft' @littleLeft @letters @letters @letters @letters @littleRight braceright by braceleft.lc;
+  sub braceleft.lc @littleLeft @letters @letters @letters @letters @littleRight braceright' by braceright.lc;
+  sub braceleft' @littleLeft @letters @letters @letters @letters @letters @littleRight braceright by braceleft.lc;
+  sub braceleft.lc @littleLeft @letters @letters @letters @letters @letters @littleRight braceright' by braceright.lc;
+
 } calt;

@@ -19,9 +19,9 @@ The generator resolves paths relative to its own location and writes
   classes, `ss01`, and `ss02`.
 - `generate_calt()` appends a generated `feature calt` block.
 
-The generated `calt` block has pair-operator rules first, followed by
-single-punctuation rules. Keep that order: pair rules need to see both base
-glyph names before a single-punctuation rule rewrites either side.
+The generated `calt` block has pair-operator rules first, single-punctuation
+rules second, and bracket-pair rules last. Keep that order: pair rules need to
+see both base glyph names before a single-punctuation rule rewrites either side.
 
 Pair-operator rules come from `OPERATOR_COMBINATIONS`. Each two-character
 operator gets eight lowercase contextual substitutions covering immediate and
@@ -41,6 +41,10 @@ The generator list intentionally includes `"equals"` as a readable name, but
 `GLYPH_ALIASES` maps it to the actual glyph name `equal`. Use `equal` in tests
 and generated feature output.
 
+Bracket-pair rules come from `BRACKET_PAIRS` and are generated for content
+lengths 1 through `MAX_BRACKET_CONTENT_LENGTH`. They lowercase matching
+parentheses, brackets, and braces when the enclosed run starts with
+`@littleLeft` and ends with `@littleRight`, with optional `@letters` between.
 
 ## Feature Tests
 
