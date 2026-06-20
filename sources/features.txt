@@ -192,6 +192,105 @@ feature ss02 {
 feature calt {
 # GSUB feature: Contextual Alternates
 # Lookups: 1
+  sub @littleRight plus' equal by plus.lc;
+  sub @littleRight plus.lc equal' by equal.lc;
+  sub @littleRight space plus' equal by plus.lc;
+  sub @littleRight space plus.lc equal' by equal.lc;
+  sub plus' equal @littleLeft by plus.lc;
+  sub plus.lc equal' @littleLeft by equal.lc;
+  sub plus' equal space @littleLeft by plus.lc;
+  sub plus.lc equal' space @littleLeft by equal.lc;
+
+  sub @littleRight hyphen' equal by hyphen.lc;
+  sub @littleRight hyphen.lc equal' by equal.lc;
+  sub @littleRight space hyphen' equal by hyphen.lc;
+  sub @littleRight space hyphen.lc equal' by equal.lc;
+  sub hyphen' equal @littleLeft by hyphen.lc;
+  sub hyphen.lc equal' @littleLeft by equal.lc;
+  sub hyphen' equal space @littleLeft by hyphen.lc;
+  sub hyphen.lc equal' space @littleLeft by equal.lc;
+
+  sub @littleRight less' equal by less.lc;
+  sub @littleRight less.lc equal' by equal.lc;
+  sub @littleRight space less' equal by less.lc;
+  sub @littleRight space less.lc equal' by equal.lc;
+  sub less' equal @littleLeft by less.lc;
+  sub less.lc equal' @littleLeft by equal.lc;
+  sub less' equal space @littleLeft by less.lc;
+  sub less.lc equal' space @littleLeft by equal.lc;
+
+  sub @littleRight greater' equal by greater.lc;
+  sub @littleRight greater.lc equal' by equal.lc;
+  sub @littleRight space greater' equal by greater.lc;
+  sub @littleRight space greater.lc equal' by equal.lc;
+  sub greater' equal @littleLeft by greater.lc;
+  sub greater.lc equal' @littleLeft by equal.lc;
+  sub greater' equal space @littleLeft by greater.lc;
+  sub greater.lc equal' space @littleLeft by equal.lc;
+
+  sub @littleRight asciitilde' equal by asciitilde.lc;
+  sub @littleRight asciitilde.lc equal' by equal.lc;
+  sub @littleRight space asciitilde' equal by asciitilde.lc;
+  sub @littleRight space asciitilde.lc equal' by equal.lc;
+  sub asciitilde' equal @littleLeft by asciitilde.lc;
+  sub asciitilde.lc equal' @littleLeft by equal.lc;
+  sub asciitilde' equal space @littleLeft by asciitilde.lc;
+  sub asciitilde.lc equal' space @littleLeft by equal.lc;
+
+  sub @littleRight plus' plus by plus.lc;
+  sub @littleRight plus.lc plus' by plus.lc;
+  sub @littleRight space plus' plus by plus.lc;
+  sub @littleRight space plus.lc plus' by plus.lc;
+  sub plus' plus @littleLeft by plus.lc;
+  sub plus.lc plus' @littleLeft by plus.lc;
+  sub plus' plus space @littleLeft by plus.lc;
+  sub plus.lc plus' space @littleLeft by plus.lc;
+
+  sub @littleRight hyphen' hyphen by hyphen.lc;
+  sub @littleRight hyphen.lc hyphen' by hyphen.lc;
+  sub @littleRight space hyphen' hyphen by hyphen.lc;
+  sub @littleRight space hyphen.lc hyphen' by hyphen.lc;
+  sub hyphen' hyphen @littleLeft by hyphen.lc;
+  sub hyphen.lc hyphen' @littleLeft by hyphen.lc;
+  sub hyphen' hyphen space @littleLeft by hyphen.lc;
+  sub hyphen.lc hyphen' space @littleLeft by hyphen.lc;
+
+  sub @littleRight equal' greater by equal.lc.rightfull;
+  sub @littleRight equal.lc.rightfull greater' by greater.lc.leftfull;
+  sub @littleRight space equal' greater by equal.lc.rightfull;
+  sub @littleRight space equal.lc.rightfull greater' by greater.lc.leftfull;
+  sub equal' greater @littleLeft by equal.lc.rightfull;
+  sub equal.lc.rightfull greater' @littleLeft by greater.lc.leftfull;
+  sub equal' greater space @littleLeft by equal.lc.rightfull;
+  sub equal.lc.rightfull greater' space @littleLeft by greater.lc.leftfull;
+
+  sub @littleRight asterisk' equal by asterisk.lc;
+  sub @littleRight asterisk.lc equal' by equal.lc;
+  sub @littleRight space asterisk' equal by asterisk.lc;
+  sub @littleRight space asterisk.lc equal' by equal.lc;
+  sub asterisk' equal @littleLeft by asterisk.lc;
+  sub asterisk.lc equal' @littleLeft by equal.lc;
+  sub asterisk' equal space @littleLeft by asterisk.lc;
+  sub asterisk.lc equal' space @littleLeft by equal.lc;
+
+  sub @littleRight hyphen' greater by hyphen.lc.rightfull;
+  sub @littleRight hyphen.lc.rightfull greater' by greater.lc.leftfull;
+  sub @littleRight space hyphen' greater by hyphen.lc.rightfull;
+  sub @littleRight space hyphen.lc.rightfull greater' by greater.lc.leftfull;
+  sub hyphen' greater @littleLeft by hyphen.lc.rightfull;
+  sub hyphen.lc.rightfull greater' @littleLeft by greater.lc.leftfull;
+  sub hyphen' greater space @littleLeft by hyphen.lc.rightfull;
+  sub hyphen.lc.rightfull greater' space @littleLeft by greater.lc.leftfull;
+
+  sub @littleRight less' hyphen by less.lc.rightfull;
+  sub @littleRight less.lc.rightfull hyphen' by hyphen.lc.leftfull;
+  sub @littleRight space less' hyphen by less.lc.rightfull;
+  sub @littleRight space less.lc.rightfull hyphen' by hyphen.lc.leftfull;
+  sub less' hyphen @littleLeft by less.lc.rightfull;
+  sub less.lc.rightfull hyphen' @littleLeft by hyphen.lc.leftfull;
+  sub less' hyphen space @littleLeft by less.lc.rightfull;
+  sub less.lc.rightfull hyphen' space @littleLeft by hyphen.lc.leftfull;
+
   sub @fullRight plus' by plus.uc;
   sub @fullRight space plus' by plus.uc;
   sub plus' @fullLeft by plus.uc;

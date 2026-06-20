@@ -208,6 +208,36 @@
       ]
     },
     {
+      "name": "calt lowercases operator combinations after lowercase glyphs",
+      "feature": "calt",
+      "inputText": "a+= a-= a<= a>= a~= a++ a-- a=> a*= a-> a<-",
+      "expected": "a plus.lc equal.lc space a hyphen.lc equal.lc space a less.lc equal.lc space a greater.lc equal.lc space a asciitilde.lc equal.lc space a plus.lc plus.lc space a hyphen.lc hyphen.lc space a equal.lc.rightfull greater.lc.leftfull space a asterisk.lc equal.lc space a hyphen.lc.rightfull greater.lc.leftfull space a less.lc.rightfull hyphen.lc.leftfull"
+    },
+    {
+      "name": "calt lowercases spaced operator combinations after lowercase glyphs",
+      "feature": "calt",
+      "inputText": "a += a -= a <= a >= a ~= a ++ a -- a => a *= a -> a <-",
+      "expected": "a space plus.lc equal.lc space a space hyphen.lc equal.lc space a space less.lc equal.lc space a space greater.lc equal.lc space a space asciitilde.lc equal.lc space a space plus.lc plus.lc space a space hyphen.lc hyphen.lc space a space equal.lc.rightfull greater.lc.leftfull space a space asterisk.lc equal.lc space a space hyphen.lc.rightfull greater.lc.leftfull space a space less.lc.rightfull hyphen.lc.leftfull"
+    },
+    {
+      "name": "calt lowercases operator combinations before lowercase glyphs",
+      "feature": "calt",
+      "inputText": "+=c -=c <=c >=c ~=c ++c --c =>c *=c ->c <-c",
+      "expected": "plus.lc equal.lc c space hyphen.lc equal.lc c space less.lc equal.lc c space greater.lc equal.lc c space asciitilde.lc equal.lc c space plus.lc plus.lc c space hyphen.lc hyphen.lc c space equal.lc.rightfull greater.lc.leftfull c space asterisk.lc equal.lc c space hyphen.lc.rightfull greater.lc.leftfull c space less.lc.rightfull hyphen.lc.leftfull c"
+    },
+    {
+      "name": "calt lowercases spaced operator combinations before lowercase glyphs",
+      "feature": "calt",
+      "inputText": "+= c -= c <= c >= c ~= c ++ c -- c => c *= c -> c <- c",
+      "expected": "plus.lc equal.lc space c space hyphen.lc equal.lc space c space less.lc equal.lc space c space greater.lc equal.lc space c space asciitilde.lc equal.lc space c space plus.lc plus.lc space c space hyphen.lc hyphen.lc space c space equal.lc.rightfull greater.lc.leftfull space c space asterisk.lc equal.lc space c space hyphen.lc.rightfull greater.lc.leftfull space c space less.lc.rightfull hyphen.lc.leftfull space c"
+    },
+    {
+      "name": "calt leaves operator combinations without lowercase context unchanged",
+      "feature": "calt",
+      "inputText": "+= -= <= >= ~= ++ -- => *= -> <-",
+      "expected": "plus equal space hyphen equal space less equal space greater equal space asciitilde equal space plus plus space hyphen hyphen space equal greater space asterisk equal space hyphen greater space less hyphen"
+    },
+    {
       "name": "calt prefers uppercase form when both contexts match",
       "feature": "calt",
       "inputText": "A+c",

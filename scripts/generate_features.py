@@ -203,6 +203,33 @@ PUNCTUATION_GLYPHS = ("plus", "hyphen", "equals", "asciitilde", "asterisk")
 GLYPH_ALIASES = {
     "equals": "equal",
 }
+OPERATOR_COMBINATIONS = (
+    "+=",
+    "-=",
+    "<=",
+    ">=",
+    "~=",
+    "++",
+    "--",
+    "=>",
+    "*=",
+    "->",
+    "<-",
+)
+OPERATOR_GLYPHS = {
+    "+": "plus",
+    "-": "hyphen",
+    "<": "less",
+    ">": "greater",
+    "=": "equal",
+    "~": "asciitilde",
+    "*": "asterisk",
+}
+COMPACT_LC_OUTPUTS = {
+    ("equal", "greater"): ("equal.lc.rightfull", "greater.lc.leftfull"),
+    ("hyphen", "greater"): ("hyphen.lc.rightfull", "greater.lc.leftfull"),
+    ("less", "hyphen"): ("less.lc.rightfull", "hyphen.lc.leftfull"),
+}
 
 
 def output_path() -> Path:
@@ -213,6 +240,34 @@ def glyph_name(name: str) -> str:
     return GLYPH_ALIASES.get(name, name)
 
 
+def operator_glyphs(operator: str) -> tuple[str, str]:
+    if len(operator) != 2:
+        raise ValueError(f"expected a two-character operator, got {operator!r}")
+    return (OPERATOR_GLYPHS[operator[0]], OPERATOR_GLYPHS[operator[1]])
+
+
+def lowercase_pair_outputs(left: str, right: str) -> tuple[str, str]:
+    return COMPACT_LC_OUTPUTS.get((left, right), (f"{left}.lc", f"{right}.lc"))
+
+
+def append_lowercase_pair_rules(
+    lines: list[str], left: str, right: str, left_output: str, right_output: str
+) -> None:
+    lines.extend(
+        [
+            f"  sub @littleRight {left}' {right} by {left_output};",
+            f"  sub @littleRight {left_output} {right}' by {right_output};",
+            f"  sub @littleRight space {left}' {right} by {left_output};",
+            f"  sub @littleRight space {left_output} {right}' by {right_output};",
+            f"  sub {left}' {right} @littleLeft by {left_output};",
+            f"  sub {left_output} {right}' @littleLeft by {right_output};",
+            f"  sub {left}' {right} space @littleLeft by {left_output};",
+            f"  sub {left_output} {right}' space @littleLeft by {right_output};",
+            "",
+        ]
+    )
+
+
 def generate_calt() -> str:
     lines = [
         "",
@@ -220,6 +275,11 @@ def generate_calt() -> str:
         "# GSUB feature: Contextual Alternates",
         "# Lookups: 1",
     ]
+
+    for operator in OPERATOR_COMBINATIONS:
+        left, right = operator_glyphs(operator)
+        left_output, right_output = lowercase_pair_outputs(left, right)
+        append_lowercase_pair_rules(lines, left, right, left_output, right_output)
 
     for punctuation in PUNCTUATION_GLYPHS:
         glyph = glyph_name(punctuation)
