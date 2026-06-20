@@ -1,0 +1,229 @@
+{
+  "tests": [
+    {
+      "name": "ss01 lowercases bracket glyphs",
+      "feature": "ss01",
+      "inputText": "()[]{}",
+      "expected": [
+        "parenleft.lc",
+        "parenright.lc",
+        "bracketleft.lc",
+        "bracketright.lc",
+        "braceleft.lc",
+        "braceright.lc"
+      ]
+    },
+    {
+      "name": "ss02 swaps zero",
+      "feature": "ss02",
+      "inputText": "010",
+      "expected": ["zero.alt", "one", "zero.alt"]
+    },
+    {
+      "name": "calt uppercases punctuation after full-height glyphs",
+      "feature": "calt",
+      "inputText": "A+ A- A= A~ A*",
+      "expected": [
+        "A",
+        "plus.uc",
+        "space",
+        "A",
+        "hyphen.uc",
+        "space",
+        "A",
+        "equal.uc",
+        "space",
+        "A",
+        "asciitilde.uc",
+        "space",
+        "A",
+        "asterisk.uc"
+      ]
+    },
+    {
+      "name": "calt uppercases spaced punctuation after full-height glyphs",
+      "feature": "calt",
+      "inputText": "A + A - A = A ~ A *",
+      "expected": [
+        "A",
+        "space",
+        "plus.uc",
+        "space",
+        "A",
+        "space",
+        "hyphen.uc",
+        "space",
+        "A",
+        "space",
+        "equal.uc",
+        "space",
+        "A",
+        "space",
+        "asciitilde.uc",
+        "space",
+        "A",
+        "space",
+        "asterisk.uc"
+      ]
+    },
+    {
+      "name": "calt uppercases punctuation before full-height glyphs",
+      "feature": "calt",
+      "inputText": "+A -A =A ~A *A",
+      "expected": [
+        "plus.uc",
+        "A",
+        "space",
+        "hyphen.uc",
+        "A",
+        "space",
+        "equal.uc",
+        "A",
+        "space",
+        "asciitilde.uc",
+        "A",
+        "space",
+        "asterisk.uc",
+        "A"
+      ]
+    },
+    {
+      "name": "calt uppercases spaced punctuation before full-height glyphs",
+      "feature": "calt",
+      "inputText": "+ A - A = A ~ A * A",
+      "expected": [
+        "plus.uc",
+        "space",
+        "A",
+        "space",
+        "hyphen.uc",
+        "space",
+        "A",
+        "space",
+        "equal.uc",
+        "space",
+        "A",
+        "space",
+        "asciitilde.uc",
+        "space",
+        "A",
+        "space",
+        "asterisk.uc",
+        "space",
+        "A"
+      ]
+    },
+    {
+      "name": "calt lowercases punctuation after lowercase glyphs",
+      "feature": "calt",
+      "inputText": "a+ a- a= a~ a*",
+      "expected": [
+        "a",
+        "plus.lc",
+        "space",
+        "a",
+        "hyphen.lc",
+        "space",
+        "a",
+        "equal.lc",
+        "space",
+        "a",
+        "asciitilde.lc",
+        "space",
+        "a",
+        "asterisk.lc"
+      ]
+    },
+    {
+      "name": "calt lowercases spaced punctuation after lowercase glyphs",
+      "feature": "calt",
+      "inputText": "a + a - a = a ~ a *",
+      "expected": [
+        "a",
+        "space",
+        "plus.lc",
+        "space",
+        "a",
+        "space",
+        "hyphen.lc",
+        "space",
+        "a",
+        "space",
+        "equal.lc",
+        "space",
+        "a",
+        "space",
+        "asciitilde.lc",
+        "space",
+        "a",
+        "space",
+        "asterisk.lc"
+      ]
+    },
+    {
+      "name": "calt lowercases punctuation before lowercase glyphs",
+      "feature": "calt",
+      "inputText": "+c -c =c ~c *c",
+      "expected": [
+        "plus.lc",
+        "c",
+        "space",
+        "hyphen.lc",
+        "c",
+        "space",
+        "equal.lc",
+        "c",
+        "space",
+        "asciitilde.lc",
+        "c",
+        "space",
+        "asterisk.lc",
+        "c"
+      ]
+    },
+    {
+      "name": "calt lowercases spaced punctuation before lowercase glyphs",
+      "feature": "calt",
+      "inputText": "+ c - c = c ~ c * c",
+      "expected": [
+        "plus.lc",
+        "space",
+        "c",
+        "space",
+        "hyphen.lc",
+        "space",
+        "c",
+        "space",
+        "equal.lc",
+        "space",
+        "c",
+        "space",
+        "asciitilde.lc",
+        "space",
+        "c",
+        "space",
+        "asterisk.lc",
+        "space",
+        "c"
+      ]
+    },
+    {
+      "name": "calt prefers uppercase form when both contexts match",
+      "feature": "calt",
+      "inputText": "A+c",
+      "expected": ["A", "plus.uc", "c"]
+    },
+    {
+      "name": "calt treats b as a full-height left context",
+      "feature": "calt",
+      "inputText": "+b",
+      "expected": ["plus.uc", "b"]
+    },
+    {
+      "name": "calt leaves punctuation without context unchanged",
+      "feature": "calt",
+      "inputText": "+-=~*",
+      "expected": ["plus", "hyphen", "equal", "asciitilde", "asterisk"]
+    }
+  ]
+}
