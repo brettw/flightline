@@ -238,6 +238,30 @@
       "expected": "plus equal space hyphen equal space less equal space greater equal space asciitilde equal space plus plus space hyphen hyphen space equal greater space asterisk equal space hyphen greater space less hyphen"
     },
     {
+      "name": "calt fixes lowercased operator combinations before full-height glyphs",
+      "feature": "calt",
+      "inputText": "a+=A a-=A a<=A a>=A a~=A a++A a--A a=>A a*=A a->A a<-A",
+      "expected": "a plus.uc equal.uc A space a hyphen.uc equal.uc A space a less equal.uc A space a greater equal.uc A space a asciitilde.uc equal.uc A space a plus.uc plus.uc A space a hyphen.uc hyphen.uc A space a equal.rightfull greater.leftfull A space a asterisk.uc equal.uc A space a hyphen.rightfull greater.leftfull A space a less.rightfull hyphen.leftfull A"
+    },
+    {
+      "name": "calt fixes plus equals before N",
+      "feature": "calt",
+      "inputText": "a+=N",
+      "expected": "a plus.uc equal.uc N"
+    },
+    {
+      "name": "calt fixes spaced lowercased operator combinations before full-height glyphs",
+      "feature": "calt",
+      "inputText": "a += A a -= A a <= A a >= A a ~= A a ++ A a -- A a => A a *= A a -> A a <- A",
+      "expected": "a space plus.uc equal.uc space A space a space hyphen.uc equal.uc space A space a space less equal.uc space A space a space greater equal.uc space A space a space asciitilde.uc equal.uc space A space a space plus.uc plus.uc space A space a space hyphen.uc hyphen.uc space A space a space equal.rightfull greater.leftfull space A space a space asterisk.uc equal.uc space A space a space hyphen.rightfull greater.leftfull space A space a space less.rightfull hyphen.leftfull space A"
+    },
+    {
+      "name": "calt uppercases operator combinations before full-height glyphs",
+      "feature": "calt",
+      "inputText": "+=A -=A <=A >=A ~=A ++A --A =>A *=A ->A <-A",
+      "expected": "plus.uc equal.uc A space hyphen.uc equal.uc A space less equal.uc A space greater equal.uc A space asciitilde.uc equal.uc A space plus.uc plus.uc A space hyphen.uc hyphen.uc A space equal.rightfull greater.leftfull A space asterisk.uc equal.uc A space hyphen.rightfull greater.leftfull A space less.rightfull hyphen.leftfull A"
+    },
+    {
       "name": "calt lowercases bracket pairs around lowercase runs",
       "feature": "calt",
       "inputText": "(a) [ab] {abc}",

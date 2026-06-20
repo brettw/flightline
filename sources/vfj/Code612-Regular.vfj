@@ -1,7 +1,7 @@
 {
   "version":8,
   "font":{
-    "glyphsCount":638,
+    "glyphsCount":642,
     "upm":2000,
     "glyphs":[
       {
@@ -1931,6 +1931,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.143",
                   "contours":[
                     {
                       "nodes":[
@@ -1981,6 +1982,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.144",
                   "contours":[
                     {
                       "nodes":[
@@ -2032,6 +2034,7 @@
             "elements":[
               {
                 "elementData":{
+                  "id":"elementdata.145",
                   "contours":[
                     {
                       "nodes":[
@@ -98192,6 +98195,553 @@
             ]
           }
         ]
+      },
+      {
+        "name":"plus.uc",
+        "lastModified":"2026-06-19 21:07:07",
+        "layers":[
+          {
+            "name":"Thin",
+            "flags":0,
+            "advanceWidth":1200,
+            "advanceHeight":1600,
+            "elements":[
+              {
+                "id":"element.10",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.6",
+                      "nodes":[
+                        "130 806 {n:'.sv02'}",
+                        "556 806",
+                        "556 1230",
+                        "644 1230",
+                        "644 806",
+                        "1070 806 {n:'.sv01'}",
+                        "1070 718",
+                        "644 718",
+                        "644 270",
+                        "556 270",
+                        "556 718",
+                        "130 718"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "horizontal":true,
+                "position":591,
+                "thickness":215,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"1070 806",
+                    "contour":"contour.6",
+                    "index":5,
+                    "element":"element.10"
+                  }
+                }
+              }
+            ],
+            "color":"#1f964d"
+          },
+          {
+            "name":"Regular",
+            "advanceWidth":1200,
+            "advanceHeight":1600,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "130 828",
+                        "523 828",
+                        "523 1249",
+                        "678 1249",
+                        "678 828",
+                        "1070 828",
+                        "1070 673",
+                        "678 673",
+                        "678 250",
+                        "523 250",
+                        "523 673",
+                        "130 673"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "horizontal":true,
+                "position":545,
+                "thickness":155
+              },
+              {
+                "vertical":true,
+                "position":473,
+                "thickness":155
+              }
+            ],
+            "color":"#00cce5",
+            "active":true
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1200,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "130 862 {n:'.sv02'}",
+                        "488 862 {n:'.sv03'}",
+                        "488 1279 {n:'.ah01'}",
+                        "712 1279 {n:'.at01'}",
+                        "712 862 {n:'.sv05'}",
+                        "1070 862 {n:'.sv01'}",
+                        "1070 638 {n:'.av03'}",
+                        "712 638 {n:'.sv04'}",
+                        "712 221 {n:'.av02'}",
+                        "488 221 {n:'.av01'}",
+                        "488 638 {n:'.iv01'}",
+                        "130 638 {n:'.av04'}"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "horizontal":true,
+                "position":500,
+                "thickness":200
+              },
+              {
+                "horizontal":true,
+                "position":100,
+                "flags":6,
+                "thickness":21
+              },
+              {
+                "horizontal":true,
+                "position":1117,
+                "flags":6,
+                "thickness":-20
+              },
+              {
+                "vertical":true,
+                "position":540,
+                "thickness":220
+              }
+            ],
+            "color":"#00cce5",
+            "tth":[
+              "alignh .ah01 round",
+              "alignh .av01 round",
+              "singleh .ah01, .at01 \"eq X: 208\"",
+              "singleh .av01, .av02 \"eq X: 208\""
+            ]
+          }
+        ]
+      },
+      {
+        "name":"equal.uc",
+        "lastModified":"2026-06-19 21:07:07",
+        "layers":[
+          {
+            "name":"Thin",
+            "flags":0,
+            "advanceWidth":1200,
+            "advanceHeight":1600,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "117 1098",
+                        "1017 1098",
+                        "1017 1010",
+                        "117 1010"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "117 619",
+                        "1017 619",
+                        "1017 531",
+                        "117 531"
+                      ]
+                    }
+                  ]
+                },
+                "transform":{
+                  "xOffset":33,
+                  "yOffset":-65
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "horizontal":true,
+                "position":339,
+                "thickness":87
+              },
+              {
+                "horizontal":true,
+                "position":818,
+                "thickness":87
+              }
+            ],
+            "color":"#1f964d"
+          },
+          {
+            "name":"Regular",
+            "advanceWidth":1200,
+            "advanceHeight":1600,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "150 1060",
+                        "1050 1060 {n:'.sv01'}",
+                        "1050 920",
+                        "150 920 {n:'.av01'}"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "150 580",
+                        "1050 580 {n:'.sv02'}",
+                        "1050 440",
+                        "150 440 {n:'.av02'}"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "horizontal":true,
+                "position":313,
+                "thickness":140
+              },
+              {
+                "horizontal":true,
+                "position":793,
+                "thickness":140
+              }
+            ],
+            "color":"#00cce5",
+            "tth":[
+              "alignv .av01 round",
+              "alignv .av02 round",
+              "singlev .av01, .sv01 \"Y: 144\"",
+              "singlev .av02, .sv02 \"Y: 144\""
+            ],
+            "active":true
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1200,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "200 1003",
+                        "1100 1003 {n:'.sv01'}",
+                        "1100 784",
+                        "200 784 {n:'.av01'}"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "200 522",
+                        "1100 522 {n:'.sv02'}",
+                        "1100 303",
+                        "200 303 {n:'.av02'}"
+                      ]
+                    }
+                  ]
+                },
+                "transform":{
+                  "xOffset":-50,
+                  "yOffset":97
+                },
+                "active":true
+              }
+            ],
+            "guidelines":[
+              {
+                "horizontal":true,
+                "auto":true,
+                "position":-71,
+                "thickness":-130
+              }
+            ],
+            "hints":[
+              {
+                "horizontal":true,
+                "position":754,
+                "thickness":219
+              },
+              {
+                "horizontal":true,
+                "auto":true,
+                "position":273,
+                "thickness":219
+              }
+            ],
+            "color":"#00cce5",
+            "tth":[
+              "alignv .av01 round",
+              "alignv .av02 round",
+              "singlev .av01, .sv01 \"eq Y: 171\"",
+              "singlev .av02, .sv02 \"eq Y: 171\""
+            ]
+          }
+        ]
+      },
+      {
+        "name":"asciitilde.uc",
+        "lastModified":"2026-06-19 22:32:38",
+        "layers":[
+          {
+            "name":"Thin",
+            "flags":0,
+            "advanceWidth":1200,
+            "advanceHeight":1600,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "114 580",
+                        "154 716  264 964  417 964 s",
+                        "583 964  684 624  783 624 s",
+                        "865 624  947 800  998 968",
+                        "1085 958",
+                        "1046 813  947 541  783 536 s",
+                        "632 531  516 876  417 876 s",
+                        "337 876  253 701  202 571"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "color":"#1f964d"
+          },
+          {
+            "name":"Regular",
+            "advanceWidth":1200,
+            "advanceHeight":1600,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "83 580 {n:'.ah01'}",
+                        "114 730  256 981  421 981 s {n:'.sh01'}",
+                        "603 981  653 722  797 722 s {n:'.ih03'}",
+                        "894 722  949 889  970 968 {n:'.sh02'}",
+                        "1116 952 {n:'.ah02'}",
+                        "1088 787  954 518  772 518 s {n:'.sh03'}",
+                        "627 518  542 777  397 777 s {n:'.ih01'}",
+                        "313 777  256 633  232 564 {n:'.sh04'}"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "color":"#00cce5",
+            "tth":[
+              "alignh .ah01 round",
+              "alignh .ah02 round",
+              "interpolateh .ih01 .ah02, .ih02",
+              "singleh .ih01, .sh01 .round",
+              "interpolateh .ih03 .ah01, .ih04",
+              "singleh .ah02, .sh02 \"X: 176\"",
+              "singleh .ih03, .sh03 .round",
+              "singleh .ah01, .sh04 \"X: 176\"",
+              "alignv .sh01 round",
+              "alignv .ih01 round",
+              "alignv .ih03 round",
+              "alignv .sh03 round"
+            ],
+            "active":true
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1200,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "12 533 {n:'.ah01'}",
+                        "28 712  139 1007  404 1007 s {n:'.sh01'}",
+                        "610 1007  639 795  768 795 s {n:'.ih03'}",
+                        "855 795  912 931  924 1010 {n:'.sh02'}",
+                        "1185 974 {n:'.ah02'}",
+                        "1173 779  1080 492  801 492 s {n:'.sh03'}",
+                        "611 492  587 704  439 704 s {n:'.ih01'}",
+                        "367 704  312 568  297 502 {n:'.sh04'}"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "horizontal":true,
+                "position":400,
+                "thickness":303
+              },
+              {
+                "horizontal":true,
+                "position":532,
+                "thickness":171
+              },
+              {
+                "horizontal":true,
+                "position":532,
+                "thickness":303
+              },
+              {
+                "horizontal":true,
+                "position":838,
+                "flags":6,
+                "thickness":-20
+              }
+            ],
+            "color":"#00cce5",
+            "tth":[
+              "alignh .ah01 round",
+              "alignh .ah02 round",
+              "interpolateh .ih01 .ih02, .ah02",
+              "singleh .ih01, .sh01 .round",
+              "interpolateh .ih03 .ih04, .ah01",
+              "singleh .ah02, .sh02 \"eq X: dia Fat\"",
+              "singleh .ih03, .sh03 .round",
+              "singleh .ah01, .sh04 \"eq X: dia Fat\"",
+              "alignv .sh01 round",
+              "alignv .ih01 round",
+              "alignv .ih03 round",
+              "alignv .sh03 round"
+            ]
+          }
+        ]
+      },
+      {
+        "name":"asterisk.uc",
+        "lastModified":"2026-06-19 21:07:07",
+        "layers":[
+          {
+            "name":"Thin",
+            "flags":0,
+            "advanceWidth":1200,
+            "advanceHeight":1600,
+            "elements":[
+              {
+                "elementData":"elementdata.143",
+                "transform":{
+                  "xScale":1.33000004,
+                  "yScale":1.33000004,
+                  "xOffset":-300,
+                  "yOffset":-779
+                },
+                "active":true
+              }
+            ],
+            "color":"#1f964d"
+          },
+          {
+            "name":"Regular",
+            "advanceWidth":1200,
+            "advanceHeight":1600,
+            "elements":[
+              {
+                "elementData":"elementdata.144",
+                "transform":{
+                  "xScale":1.25,
+                  "yScale":1.25,
+                  "xOffset":-223,
+                  "yOffset":-710
+                },
+                "active":true
+              }
+            ],
+            "color":"#00cce5",
+            "active":true
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1200,
+            "elements":[
+              {
+                "elementData":"elementdata.145",
+                "transform":{
+                  "xScale":1.13,
+                  "yScale":1.13,
+                  "xOffset":-108,
+                  "yOffset":-606
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "horizontal":true,
+                "position":1470,
+                "flags":6,
+                "thickness":-20
+              },
+              {
+                "horizontal":true,
+                "position":654,
+                "flags":6,
+                "thickness":21
+              },
+              {
+                "vertical":true,
+                "position":460,
+                "thickness":229
+              }
+            ],
+            "color":"#00cce5"
+          }
+        ]
       }
     ],
     "axes":[
@@ -98302,7 +98852,7 @@
       },
       {
         "name":"calt",
-        "feature":"feature calt {\n# GSUB feature: Contextual Alternates\n# Lookups: 1\n  sub @littleRight plus' equal by plus.lc;\n  sub @littleRight plus.lc equal' by equal.lc;\n  sub @littleRight space plus' equal by plus.lc;\n  sub @littleRight space plus.lc equal' by equal.lc;\n  sub plus' equal @littleLeft by plus.lc;\n  sub plus.lc equal' @littleLeft by equal.lc;\n  sub plus' equal space @littleLeft by plus.lc;\n  sub plus.lc equal' space @littleLeft by equal.lc;\n\n  sub @littleRight hyphen' equal by hyphen.lc;\n  sub @littleRight hyphen.lc equal' by equal.lc;\n  sub @littleRight space hyphen' equal by hyphen.lc;\n  sub @littleRight space hyphen.lc equal' by equal.lc;\n  sub hyphen' equal @littleLeft by hyphen.lc;\n  sub hyphen.lc equal' @littleLeft by equal.lc;\n  sub hyphen' equal space @littleLeft by hyphen.lc;\n  sub hyphen.lc equal' space @littleLeft by equal.lc;\n\n  sub @littleRight less' equal by less.lc;\n  sub @littleRight less.lc equal' by equal.lc;\n  sub @littleRight space less' equal by less.lc;\n  sub @littleRight space less.lc equal' by equal.lc;\n  sub less' equal @littleLeft by less.lc;\n  sub less.lc equal' @littleLeft by equal.lc;\n  sub less' equal space @littleLeft by less.lc;\n  sub less.lc equal' space @littleLeft by equal.lc;\n\n  sub @littleRight greater' equal by greater.lc;\n  sub @littleRight greater.lc equal' by equal.lc;\n  sub @littleRight space greater' equal by greater.lc;\n  sub @littleRight space greater.lc equal' by equal.lc;\n  sub greater' equal @littleLeft by greater.lc;\n  sub greater.lc equal' @littleLeft by equal.lc;\n  sub greater' equal space @littleLeft by greater.lc;\n  sub greater.lc equal' space @littleLeft by equal.lc;\n\n  sub @littleRight asciitilde' equal by asciitilde.lc;\n  sub @littleRight asciitilde.lc equal' by equal.lc;\n  sub @littleRight space asciitilde' equal by asciitilde.lc;\n  sub @littleRight space asciitilde.lc equal' by equal.lc;\n  sub asciitilde' equal @littleLeft by asciitilde.lc;\n  sub asciitilde.lc equal' @littleLeft by equal.lc;\n  sub asciitilde' equal space @littleLeft by asciitilde.lc;\n  sub asciitilde.lc equal' space @littleLeft by equal.lc;\n\n  sub @littleRight plus' plus by plus.lc;\n  sub @littleRight plus.lc plus' by plus.lc;\n  sub @littleRight space plus' plus by plus.lc;\n  sub @littleRight space plus.lc plus' by plus.lc;\n  sub plus' plus @littleLeft by plus.lc;\n  sub plus.lc plus' @littleLeft by plus.lc;\n  sub plus' plus space @littleLeft by plus.lc;\n  sub plus.lc plus' space @littleLeft by plus.lc;\n\n  sub @littleRight hyphen' hyphen by hyphen.lc;\n  sub @littleRight hyphen.lc hyphen' by hyphen.lc;\n  sub @littleRight space hyphen' hyphen by hyphen.lc;\n  sub @littleRight space hyphen.lc hyphen' by hyphen.lc;\n  sub hyphen' hyphen @littleLeft by hyphen.lc;\n  sub hyphen.lc hyphen' @littleLeft by hyphen.lc;\n  sub hyphen' hyphen space @littleLeft by hyphen.lc;\n  sub hyphen.lc hyphen' space @littleLeft by hyphen.lc;\n\n  sub @littleRight equal' greater by equal.lc.rightfull;\n  sub @littleRight equal.lc.rightfull greater' by greater.lc.leftfull;\n  sub @littleRight space equal' greater by equal.lc.rightfull;\n  sub @littleRight space equal.lc.rightfull greater' by greater.lc.leftfull;\n  sub equal' greater @littleLeft by equal.lc.rightfull;\n  sub equal.lc.rightfull greater' @littleLeft by greater.lc.leftfull;\n  sub equal' greater space @littleLeft by equal.lc.rightfull;\n  sub equal.lc.rightfull greater' space @littleLeft by greater.lc.leftfull;\n\n  sub @littleRight asterisk' equal by asterisk.lc;\n  sub @littleRight asterisk.lc equal' by equal.lc;\n  sub @littleRight space asterisk' equal by asterisk.lc;\n  sub @littleRight space asterisk.lc equal' by equal.lc;\n  sub asterisk' equal @littleLeft by asterisk.lc;\n  sub asterisk.lc equal' @littleLeft by equal.lc;\n  sub asterisk' equal space @littleLeft by asterisk.lc;\n  sub asterisk.lc equal' space @littleLeft by equal.lc;\n\n  sub @littleRight hyphen' greater by hyphen.lc.rightfull;\n  sub @littleRight hyphen.lc.rightfull greater' by greater.lc.leftfull;\n  sub @littleRight space hyphen' greater by hyphen.lc.rightfull;\n  sub @littleRight space hyphen.lc.rightfull greater' by greater.lc.leftfull;\n  sub hyphen' greater @littleLeft by hyphen.lc.rightfull;\n  sub hyphen.lc.rightfull greater' @littleLeft by greater.lc.leftfull;\n  sub hyphen' greater space @littleLeft by hyphen.lc.rightfull;\n  sub hyphen.lc.rightfull greater' space @littleLeft by greater.lc.leftfull;\n\n  sub @littleRight less' hyphen by less.lc.rightfull;\n  sub @littleRight less.lc.rightfull hyphen' by hyphen.lc.leftfull;\n  sub @littleRight space less' hyphen by less.lc.rightfull;\n  sub @littleRight space less.lc.rightfull hyphen' by hyphen.lc.leftfull;\n  sub less' hyphen @littleLeft by less.lc.rightfull;\n  sub less.lc.rightfull hyphen' @littleLeft by hyphen.lc.leftfull;\n  sub less' hyphen space @littleLeft by less.lc.rightfull;\n  sub less.lc.rightfull hyphen' space @littleLeft by hyphen.lc.leftfull;\n\n  sub @fullRight plus' by plus.uc;\n  sub @fullRight space plus' by plus.uc;\n  sub plus' @fullLeft by plus.uc;\n  sub plus' space @fullLeft by plus.uc;\n\n  sub @littleRight plus' by plus.lc;\n  sub @littleRight space plus' by plus.lc;\n  sub plus' @littleLeft by plus.lc;\n  sub plus' space @littleLeft by plus.lc;\n\n  sub @fullRight hyphen' by hyphen.uc;\n  sub @fullRight space hyphen' by hyphen.uc;\n  sub hyphen' @fullLeft by hyphen.uc;\n  sub hyphen' space @fullLeft by hyphen.uc;\n\n  sub @littleRight hyphen' by hyphen.lc;\n  sub @littleRight space hyphen' by hyphen.lc;\n  sub hyphen' @littleLeft by hyphen.lc;\n  sub hyphen' space @littleLeft by hyphen.lc;\n\n  sub @fullRight equal' by equal.uc;\n  sub @fullRight space equal' by equal.uc;\n  sub equal' @fullLeft by equal.uc;\n  sub equal' space @fullLeft by equal.uc;\n\n  sub @littleRight equal' by equal.lc;\n  sub @littleRight space equal' by equal.lc;\n  sub equal' @littleLeft by equal.lc;\n  sub equal' space @littleLeft by equal.lc;\n\n  sub @fullRight asciitilde' by asciitilde.uc;\n  sub @fullRight space asciitilde' by asciitilde.uc;\n  sub asciitilde' @fullLeft by asciitilde.uc;\n  sub asciitilde' space @fullLeft by asciitilde.uc;\n\n  sub @littleRight asciitilde' by asciitilde.lc;\n  sub @littleRight space asciitilde' by asciitilde.lc;\n  sub asciitilde' @littleLeft by asciitilde.lc;\n  sub asciitilde' space @littleLeft by asciitilde.lc;\n\n  sub @fullRight asterisk' by asterisk.uc;\n  sub @fullRight space asterisk' by asterisk.uc;\n  sub asterisk' @fullLeft by asterisk.uc;\n  sub asterisk' space @fullLeft by asterisk.uc;\n\n  sub @littleRight asterisk' by asterisk.lc;\n  sub @littleRight space asterisk' by asterisk.lc;\n  sub asterisk' @littleLeft by asterisk.lc;\n  sub asterisk' space @littleLeft by asterisk.lc;\n\n  sub parenleft' @littleLeft parenright by parenleft.lc;\n  sub parenleft.lc @littleRight parenright' by parenright.lc;\n  sub parenleft' @littleLeft @littleRight parenright by parenleft.lc;\n  sub parenleft.lc @littleLeft @littleRight parenright' by parenright.lc;\n  sub parenleft' @littleLeft @letters @littleRight parenright by parenleft.lc;\n  sub parenleft.lc @littleLeft @letters @littleRight parenright' by parenright.lc;\n  sub parenleft' @littleLeft @letters @letters @littleRight parenright by parenleft.lc;\n  sub parenleft.lc @littleLeft @letters @letters @littleRight parenright' by parenright.lc;\n  sub parenleft' @littleLeft @letters @letters @letters @littleRight parenright by parenleft.lc;\n  sub parenleft.lc @littleLeft @letters @letters @letters @littleRight parenright' by parenright.lc;\n  sub parenleft' @littleLeft @letters @letters @letters @letters @littleRight parenright by parenleft.lc;\n  sub parenleft.lc @littleLeft @letters @letters @letters @letters @littleRight parenright' by parenright.lc;\n  sub parenleft' @littleLeft @letters @letters @letters @letters @letters @littleRight parenright by parenleft.lc;\n  sub parenleft.lc @littleLeft @letters @letters @letters @letters @letters @littleRight parenright' by parenright.lc;\n\n  sub bracketleft' @littleLeft bracketright by bracketleft.lc;\n  sub bracketleft.lc @littleRight bracketright' by bracketright.lc;\n  sub bracketleft' @littleLeft @littleRight bracketright by bracketleft.lc;\n  sub bracketleft.lc @littleLeft @littleRight bracketright' by bracketright.lc;\n  sub bracketleft' @littleLeft @letters @littleRight bracketright by bracketleft.lc;\n  sub bracketleft.lc @littleLeft @letters @littleRight bracketright' by bracketright.lc;\n  sub bracketleft' @littleLeft @letters @letters @littleRight bracketright by bracketleft.lc;\n  sub bracketleft.lc @littleLeft @letters @letters @littleRight bracketright' by bracketright.lc;\n  sub bracketleft' @littleLeft @letters @letters @letters @littleRight bracketright by bracketleft.lc;\n  sub bracketleft.lc @littleLeft @letters @letters @letters @littleRight bracketright' by bracketright.lc;\n  sub bracketleft' @littleLeft @letters @letters @letters @letters @littleRight bracketright by bracketleft.lc;\n  sub bracketleft.lc @littleLeft @letters @letters @letters @letters @littleRight bracketright' by bracketright.lc;\n  sub bracketleft' @littleLeft @letters @letters @letters @letters @letters @littleRight bracketright by bracketleft.lc;\n  sub bracketleft.lc @littleLeft @letters @letters @letters @letters @letters @littleRight bracketright' by bracketright.lc;\n\n  sub braceleft' @littleLeft braceright by braceleft.lc;\n  sub braceleft.lc @littleRight braceright' by braceright.lc;\n  sub braceleft' @littleLeft @littleRight braceright by braceleft.lc;\n  sub braceleft.lc @littleLeft @littleRight braceright' by braceright.lc;\n  sub braceleft' @littleLeft @letters @littleRight braceright by braceleft.lc;\n  sub braceleft.lc @littleLeft @letters @littleRight braceright' by braceright.lc;\n  sub braceleft' @littleLeft @letters @letters @littleRight braceright by braceleft.lc;\n  sub braceleft.lc @littleLeft @letters @letters @littleRight braceright' by braceright.lc;\n  sub braceleft' @littleLeft @letters @letters @letters @littleRight braceright by braceleft.lc;\n  sub braceleft.lc @littleLeft @letters @letters @letters @littleRight braceright' by braceright.lc;\n  sub braceleft' @littleLeft @letters @letters @letters @letters @littleRight braceright by braceleft.lc;\n  sub braceleft.lc @littleLeft @letters @letters @letters @letters @littleRight braceright' by braceright.lc;\n  sub braceleft' @littleLeft @letters @letters @letters @letters @letters @littleRight braceright by braceleft.lc;\n  sub braceleft.lc @littleLeft @letters @letters @letters @letters @letters @littleRight braceright' by braceright.lc;\n\n} calt;\n"
+        "feature":"feature calt {\n# GSUB feature: Contextual Alternates\n# Lookups: 1\n  sub @littleRight plus' equal by plus.lc;\n  sub @littleRight plus.lc equal' by equal.lc;\n  sub @littleRight space plus' equal by plus.lc;\n  sub @littleRight space plus.lc equal' by equal.lc;\n  sub plus' equal @littleLeft by plus.lc;\n  sub plus.lc equal' @littleLeft by equal.lc;\n  sub plus' equal space @littleLeft by plus.lc;\n  sub plus.lc equal' space @littleLeft by equal.lc;\n\n  sub @littleRight hyphen' equal by hyphen.lc;\n  sub @littleRight hyphen.lc equal' by equal.lc;\n  sub @littleRight space hyphen' equal by hyphen.lc;\n  sub @littleRight space hyphen.lc equal' by equal.lc;\n  sub hyphen' equal @littleLeft by hyphen.lc;\n  sub hyphen.lc equal' @littleLeft by equal.lc;\n  sub hyphen' equal space @littleLeft by hyphen.lc;\n  sub hyphen.lc equal' space @littleLeft by equal.lc;\n\n  sub @littleRight less' equal by less.lc;\n  sub @littleRight less.lc equal' by equal.lc;\n  sub @littleRight space less' equal by less.lc;\n  sub @littleRight space less.lc equal' by equal.lc;\n  sub less' equal @littleLeft by less.lc;\n  sub less.lc equal' @littleLeft by equal.lc;\n  sub less' equal space @littleLeft by less.lc;\n  sub less.lc equal' space @littleLeft by equal.lc;\n\n  sub @littleRight greater' equal by greater.lc;\n  sub @littleRight greater.lc equal' by equal.lc;\n  sub @littleRight space greater' equal by greater.lc;\n  sub @littleRight space greater.lc equal' by equal.lc;\n  sub greater' equal @littleLeft by greater.lc;\n  sub greater.lc equal' @littleLeft by equal.lc;\n  sub greater' equal space @littleLeft by greater.lc;\n  sub greater.lc equal' space @littleLeft by equal.lc;\n\n  sub @littleRight asciitilde' equal by asciitilde.lc;\n  sub @littleRight asciitilde.lc equal' by equal.lc;\n  sub @littleRight space asciitilde' equal by asciitilde.lc;\n  sub @littleRight space asciitilde.lc equal' by equal.lc;\n  sub asciitilde' equal @littleLeft by asciitilde.lc;\n  sub asciitilde.lc equal' @littleLeft by equal.lc;\n  sub asciitilde' equal space @littleLeft by asciitilde.lc;\n  sub asciitilde.lc equal' space @littleLeft by equal.lc;\n\n  sub @littleRight plus' plus by plus.lc;\n  sub @littleRight plus.lc plus' by plus.lc;\n  sub @littleRight space plus' plus by plus.lc;\n  sub @littleRight space plus.lc plus' by plus.lc;\n  sub plus' plus @littleLeft by plus.lc;\n  sub plus.lc plus' @littleLeft by plus.lc;\n  sub plus' plus space @littleLeft by plus.lc;\n  sub plus.lc plus' space @littleLeft by plus.lc;\n\n  sub @littleRight hyphen' hyphen by hyphen.lc;\n  sub @littleRight hyphen.lc hyphen' by hyphen.lc;\n  sub @littleRight space hyphen' hyphen by hyphen.lc;\n  sub @littleRight space hyphen.lc hyphen' by hyphen.lc;\n  sub hyphen' hyphen @littleLeft by hyphen.lc;\n  sub hyphen.lc hyphen' @littleLeft by hyphen.lc;\n  sub hyphen' hyphen space @littleLeft by hyphen.lc;\n  sub hyphen.lc hyphen' space @littleLeft by hyphen.lc;\n\n  sub @littleRight equal' greater by equal.lc.rightfull;\n  sub @littleRight equal.lc.rightfull greater' by greater.lc.leftfull;\n  sub @littleRight space equal' greater by equal.lc.rightfull;\n  sub @littleRight space equal.lc.rightfull greater' by greater.lc.leftfull;\n  sub equal' greater @littleLeft by equal.lc.rightfull;\n  sub equal.lc.rightfull greater' @littleLeft by greater.lc.leftfull;\n  sub equal' greater space @littleLeft by equal.lc.rightfull;\n  sub equal.lc.rightfull greater' space @littleLeft by greater.lc.leftfull;\n\n  sub @littleRight asterisk' equal by asterisk.lc;\n  sub @littleRight asterisk.lc equal' by equal.lc;\n  sub @littleRight space asterisk' equal by asterisk.lc;\n  sub @littleRight space asterisk.lc equal' by equal.lc;\n  sub asterisk' equal @littleLeft by asterisk.lc;\n  sub asterisk.lc equal' @littleLeft by equal.lc;\n  sub asterisk' equal space @littleLeft by asterisk.lc;\n  sub asterisk.lc equal' space @littleLeft by equal.lc;\n\n  sub @littleRight hyphen' greater by hyphen.lc.rightfull;\n  sub @littleRight hyphen.lc.rightfull greater' by greater.lc.leftfull;\n  sub @littleRight space hyphen' greater by hyphen.lc.rightfull;\n  sub @littleRight space hyphen.lc.rightfull greater' by greater.lc.leftfull;\n  sub hyphen' greater @littleLeft by hyphen.lc.rightfull;\n  sub hyphen.lc.rightfull greater' @littleLeft by greater.lc.leftfull;\n  sub hyphen' greater space @littleLeft by hyphen.lc.rightfull;\n  sub hyphen.lc.rightfull greater' space @littleLeft by greater.lc.leftfull;\n\n  sub @littleRight less' hyphen by less.lc.rightfull;\n  sub @littleRight less.lc.rightfull hyphen' by hyphen.lc.leftfull;\n  sub @littleRight space less' hyphen by less.lc.rightfull;\n  sub @littleRight space less.lc.rightfull hyphen' by hyphen.lc.leftfull;\n  sub less' hyphen @littleLeft by less.lc.rightfull;\n  sub less.lc.rightfull hyphen' @littleLeft by hyphen.lc.leftfull;\n  sub less' hyphen space @littleLeft by less.lc.rightfull;\n  sub less.lc.rightfull hyphen' space @littleLeft by hyphen.lc.leftfull;\n\n  sub plus' equal @fullLeft by plus.uc;\n  sub plus.uc equal' @fullLeft by equal.uc;\n  sub plus' equal space @fullLeft by plus.uc;\n  sub plus.uc equal' space @fullLeft by equal.uc;\n\n  sub plus.lc' equal.lc @fullLeft by plus.uc;\n  sub plus.uc equal.lc' @fullLeft by equal.uc;\n  sub plus.lc' equal.lc space @fullLeft by plus.uc;\n  sub plus.uc equal.lc' space @fullLeft by equal.uc;\n\n  sub hyphen' equal @fullLeft by hyphen.uc;\n  sub hyphen.uc equal' @fullLeft by equal.uc;\n  sub hyphen' equal space @fullLeft by hyphen.uc;\n  sub hyphen.uc equal' space @fullLeft by equal.uc;\n\n  sub hyphen.lc' equal.lc @fullLeft by hyphen.uc;\n  sub hyphen.uc equal.lc' @fullLeft by equal.uc;\n  sub hyphen.lc' equal.lc space @fullLeft by hyphen.uc;\n  sub hyphen.uc equal.lc' space @fullLeft by equal.uc;\n\n  sub less equal' @fullLeft by equal.uc;\n  sub less equal' space @fullLeft by equal.uc;\n\n  sub less.lc' equal.lc @fullLeft by less;\n  sub less equal.lc' @fullLeft by equal.uc;\n  sub less.lc' equal.lc space @fullLeft by less;\n  sub less equal.lc' space @fullLeft by equal.uc;\n\n  sub greater equal' @fullLeft by equal.uc;\n  sub greater equal' space @fullLeft by equal.uc;\n\n  sub greater.lc' equal.lc @fullLeft by greater;\n  sub greater equal.lc' @fullLeft by equal.uc;\n  sub greater.lc' equal.lc space @fullLeft by greater;\n  sub greater equal.lc' space @fullLeft by equal.uc;\n\n  sub asciitilde' equal @fullLeft by asciitilde.uc;\n  sub asciitilde.uc equal' @fullLeft by equal.uc;\n  sub asciitilde' equal space @fullLeft by asciitilde.uc;\n  sub asciitilde.uc equal' space @fullLeft by equal.uc;\n\n  sub asciitilde.lc' equal.lc @fullLeft by asciitilde.uc;\n  sub asciitilde.uc equal.lc' @fullLeft by equal.uc;\n  sub asciitilde.lc' equal.lc space @fullLeft by asciitilde.uc;\n  sub asciitilde.uc equal.lc' space @fullLeft by equal.uc;\n\n  sub plus' plus @fullLeft by plus.uc;\n  sub plus.uc plus' @fullLeft by plus.uc;\n  sub plus' plus space @fullLeft by plus.uc;\n  sub plus.uc plus' space @fullLeft by plus.uc;\n\n  sub plus.lc' plus.lc @fullLeft by plus.uc;\n  sub plus.uc plus.lc' @fullLeft by plus.uc;\n  sub plus.lc' plus.lc space @fullLeft by plus.uc;\n  sub plus.uc plus.lc' space @fullLeft by plus.uc;\n\n  sub hyphen' hyphen @fullLeft by hyphen.uc;\n  sub hyphen.uc hyphen' @fullLeft by hyphen.uc;\n  sub hyphen' hyphen space @fullLeft by hyphen.uc;\n  sub hyphen.uc hyphen' space @fullLeft by hyphen.uc;\n\n  sub hyphen.lc' hyphen.lc @fullLeft by hyphen.uc;\n  sub hyphen.uc hyphen.lc' @fullLeft by hyphen.uc;\n  sub hyphen.lc' hyphen.lc space @fullLeft by hyphen.uc;\n  sub hyphen.uc hyphen.lc' space @fullLeft by hyphen.uc;\n\n  sub equal' greater @fullLeft by equal.rightfull;\n  sub equal.rightfull greater' @fullLeft by greater.leftfull;\n  sub equal' greater space @fullLeft by equal.rightfull;\n  sub equal.rightfull greater' space @fullLeft by greater.leftfull;\n\n  sub equal.lc.rightfull' greater.lc.leftfull @fullLeft by equal.rightfull;\n  sub equal.rightfull greater.lc.leftfull' @fullLeft by greater.leftfull;\n  sub equal.lc.rightfull' greater.lc.leftfull space @fullLeft by equal.rightfull;\n  sub equal.rightfull greater.lc.leftfull' space @fullLeft by greater.leftfull;\n\n  sub asterisk' equal @fullLeft by asterisk.uc;\n  sub asterisk.uc equal' @fullLeft by equal.uc;\n  sub asterisk' equal space @fullLeft by asterisk.uc;\n  sub asterisk.uc equal' space @fullLeft by equal.uc;\n\n  sub asterisk.lc' equal.lc @fullLeft by asterisk.uc;\n  sub asterisk.uc equal.lc' @fullLeft by equal.uc;\n  sub asterisk.lc' equal.lc space @fullLeft by asterisk.uc;\n  sub asterisk.uc equal.lc' space @fullLeft by equal.uc;\n\n  sub hyphen' greater @fullLeft by hyphen.rightfull;\n  sub hyphen.rightfull greater' @fullLeft by greater.leftfull;\n  sub hyphen' greater space @fullLeft by hyphen.rightfull;\n  sub hyphen.rightfull greater' space @fullLeft by greater.leftfull;\n\n  sub hyphen.lc.rightfull' greater.lc.leftfull @fullLeft by hyphen.rightfull;\n  sub hyphen.rightfull greater.lc.leftfull' @fullLeft by greater.leftfull;\n  sub hyphen.lc.rightfull' greater.lc.leftfull space @fullLeft by hyphen.rightfull;\n  sub hyphen.rightfull greater.lc.leftfull' space @fullLeft by greater.leftfull;\n\n  sub less' hyphen @fullLeft by less.rightfull;\n  sub less.rightfull hyphen' @fullLeft by hyphen.leftfull;\n  sub less' hyphen space @fullLeft by less.rightfull;\n  sub less.rightfull hyphen' space @fullLeft by hyphen.leftfull;\n\n  sub less.lc.rightfull' hyphen.lc.leftfull @fullLeft by less.rightfull;\n  sub less.rightfull hyphen.lc.leftfull' @fullLeft by hyphen.leftfull;\n  sub less.lc.rightfull' hyphen.lc.leftfull space @fullLeft by less.rightfull;\n  sub less.rightfull hyphen.lc.leftfull' space @fullLeft by hyphen.leftfull;\n\n  sub @fullRight plus' by plus.uc;\n  sub @fullRight space plus' by plus.uc;\n  sub plus' @fullLeft by plus.uc;\n  sub plus' space @fullLeft by plus.uc;\n\n  sub @littleRight plus' by plus.lc;\n  sub @littleRight space plus' by plus.lc;\n  sub plus' @littleLeft by plus.lc;\n  sub plus' space @littleLeft by plus.lc;\n\n  sub @fullRight hyphen' by hyphen.uc;\n  sub @fullRight space hyphen' by hyphen.uc;\n  sub hyphen' @fullLeft by hyphen.uc;\n  sub hyphen' space @fullLeft by hyphen.uc;\n\n  sub @littleRight hyphen' by hyphen.lc;\n  sub @littleRight space hyphen' by hyphen.lc;\n  sub hyphen' @littleLeft by hyphen.lc;\n  sub hyphen' space @littleLeft by hyphen.lc;\n\n  sub @fullRight equal' by equal.uc;\n  sub @fullRight space equal' by equal.uc;\n  sub equal' @fullLeft by equal.uc;\n  sub equal' space @fullLeft by equal.uc;\n\n  sub @littleRight equal' by equal.lc;\n  sub @littleRight space equal' by equal.lc;\n  sub equal' @littleLeft by equal.lc;\n  sub equal' space @littleLeft by equal.lc;\n\n  sub @fullRight asciitilde' by asciitilde.uc;\n  sub @fullRight space asciitilde' by asciitilde.uc;\n  sub asciitilde' @fullLeft by asciitilde.uc;\n  sub asciitilde' space @fullLeft by asciitilde.uc;\n\n  sub @littleRight asciitilde' by asciitilde.lc;\n  sub @littleRight space asciitilde' by asciitilde.lc;\n  sub asciitilde' @littleLeft by asciitilde.lc;\n  sub asciitilde' space @littleLeft by asciitilde.lc;\n\n  sub @fullRight asterisk' by asterisk.uc;\n  sub @fullRight space asterisk' by asterisk.uc;\n  sub asterisk' @fullLeft by asterisk.uc;\n  sub asterisk' space @fullLeft by asterisk.uc;\n\n  sub @littleRight asterisk' by asterisk.lc;\n  sub @littleRight space asterisk' by asterisk.lc;\n  sub asterisk' @littleLeft by asterisk.lc;\n  sub asterisk' space @littleLeft by asterisk.lc;\n\n  sub parenleft' @littleLeft parenright by parenleft.lc;\n  sub parenleft.lc @littleRight parenright' by parenright.lc;\n  sub parenleft' @littleLeft @littleRight parenright by parenleft.lc;\n  sub parenleft.lc @littleLeft @littleRight parenright' by parenright.lc;\n  sub parenleft' @littleLeft @letters @littleRight parenright by parenleft.lc;\n  sub parenleft.lc @littleLeft @letters @littleRight parenright' by parenright.lc;\n  sub parenleft' @littleLeft @letters @letters @littleRight parenright by parenleft.lc;\n  sub parenleft.lc @littleLeft @letters @letters @littleRight parenright' by parenright.lc;\n  sub parenleft' @littleLeft @letters @letters @letters @littleRight parenright by parenleft.lc;\n  sub parenleft.lc @littleLeft @letters @letters @letters @littleRight parenright' by parenright.lc;\n  sub parenleft' @littleLeft @letters @letters @letters @letters @littleRight parenright by parenleft.lc;\n  sub parenleft.lc @littleLeft @letters @letters @letters @letters @littleRight parenright' by parenright.lc;\n  sub parenleft' @littleLeft @letters @letters @letters @letters @letters @littleRight parenright by parenleft.lc;\n  sub parenleft.lc @littleLeft @letters @letters @letters @letters @letters @littleRight parenright' by parenright.lc;\n\n  sub bracketleft' @littleLeft bracketright by bracketleft.lc;\n  sub bracketleft.lc @littleRight bracketright' by bracketright.lc;\n  sub bracketleft' @littleLeft @littleRight bracketright by bracketleft.lc;\n  sub bracketleft.lc @littleLeft @littleRight bracketright' by bracketright.lc;\n  sub bracketleft' @littleLeft @letters @littleRight bracketright by bracketleft.lc;\n  sub bracketleft.lc @littleLeft @letters @littleRight bracketright' by bracketright.lc;\n  sub bracketleft' @littleLeft @letters @letters @littleRight bracketright by bracketleft.lc;\n  sub bracketleft.lc @littleLeft @letters @letters @littleRight bracketright' by bracketright.lc;\n  sub bracketleft' @littleLeft @letters @letters @letters @littleRight bracketright by bracketleft.lc;\n  sub bracketleft.lc @littleLeft @letters @letters @letters @littleRight bracketright' by bracketright.lc;\n  sub bracketleft' @littleLeft @letters @letters @letters @letters @littleRight bracketright by bracketleft.lc;\n  sub bracketleft.lc @littleLeft @letters @letters @letters @letters @littleRight bracketright' by bracketright.lc;\n  sub bracketleft' @littleLeft @letters @letters @letters @letters @letters @littleRight bracketright by bracketleft.lc;\n  sub bracketleft.lc @littleLeft @letters @letters @letters @letters @letters @littleRight bracketright' by bracketright.lc;\n\n  sub braceleft' @littleLeft braceright by braceleft.lc;\n  sub braceleft.lc @littleRight braceright' by braceright.lc;\n  sub braceleft' @littleLeft @littleRight braceright by braceleft.lc;\n  sub braceleft.lc @littleLeft @littleRight braceright' by braceright.lc;\n  sub braceleft' @littleLeft @letters @littleRight braceright by braceleft.lc;\n  sub braceleft.lc @littleLeft @letters @littleRight braceright' by braceright.lc;\n  sub braceleft' @littleLeft @letters @letters @littleRight braceright by braceleft.lc;\n  sub braceleft.lc @littleLeft @letters @letters @littleRight braceright' by braceright.lc;\n  sub braceleft' @littleLeft @letters @letters @letters @littleRight braceright by braceleft.lc;\n  sub braceleft.lc @littleLeft @letters @letters @letters @littleRight braceright' by braceright.lc;\n  sub braceleft' @littleLeft @letters @letters @letters @letters @littleRight braceright by braceleft.lc;\n  sub braceleft.lc @littleLeft @letters @letters @letters @letters @littleRight braceright' by braceright.lc;\n  sub braceleft' @littleLeft @letters @letters @letters @letters @letters @littleRight braceright by braceleft.lc;\n  sub braceleft.lc @littleLeft @letters @letters @letters @letters @letters @littleRight braceright' by braceright.lc;\n\n} calt;\n"
       }
     ],
     "hinting":{
@@ -98867,7 +99417,8 @@
                 "2nd":true,
                 "names":[
                   "asterisk",
-                  "asterisk.lc"
+                  "asterisk.lc",
+                  "asterisk.uc"
                 ]
               },
               {
@@ -99237,7 +99788,8 @@
                 "2nd":true,
                 "names":[
                   "asterisk",
-                  "asterisk.lc"
+                  "asterisk.lc",
+                  "asterisk.uc"
                 ]
               },
               {

@@ -192,6 +192,57 @@ feature ss02 {
 feature calt {
 # GSUB feature: Contextual Alternates
 # Lookups: 1
+  sub plus' equal @fullLeft by plus.uc;
+  sub plus.uc equal' @fullLeft by equal.uc;
+  sub plus' equal space @fullLeft by plus.uc;
+  sub plus.uc equal' space @fullLeft by equal.uc;
+
+  sub hyphen' equal @fullLeft by hyphen.uc;
+  sub hyphen.uc equal' @fullLeft by equal.uc;
+  sub hyphen' equal space @fullLeft by hyphen.uc;
+  sub hyphen.uc equal' space @fullLeft by equal.uc;
+
+  sub less equal' @fullLeft by equal.uc;
+  sub less equal' space @fullLeft by equal.uc;
+
+  sub greater equal' @fullLeft by equal.uc;
+  sub greater equal' space @fullLeft by equal.uc;
+
+  sub asciitilde' equal @fullLeft by asciitilde.uc;
+  sub asciitilde.uc equal' @fullLeft by equal.uc;
+  sub asciitilde' equal space @fullLeft by asciitilde.uc;
+  sub asciitilde.uc equal' space @fullLeft by equal.uc;
+
+  sub plus' plus @fullLeft by plus.uc;
+  sub plus.uc plus' @fullLeft by plus.uc;
+  sub plus' plus space @fullLeft by plus.uc;
+  sub plus.uc plus' space @fullLeft by plus.uc;
+
+  sub hyphen' hyphen @fullLeft by hyphen.uc;
+  sub hyphen.uc hyphen' @fullLeft by hyphen.uc;
+  sub hyphen' hyphen space @fullLeft by hyphen.uc;
+  sub hyphen.uc hyphen' space @fullLeft by hyphen.uc;
+
+  sub equal' greater @fullLeft by equal.rightfull;
+  sub equal.rightfull greater' @fullLeft by greater.leftfull;
+  sub equal' greater space @fullLeft by equal.rightfull;
+  sub equal.rightfull greater' space @fullLeft by greater.leftfull;
+
+  sub asterisk' equal @fullLeft by asterisk.uc;
+  sub asterisk.uc equal' @fullLeft by equal.uc;
+  sub asterisk' equal space @fullLeft by asterisk.uc;
+  sub asterisk.uc equal' space @fullLeft by equal.uc;
+
+  sub hyphen' greater @fullLeft by hyphen.rightfull;
+  sub hyphen.rightfull greater' @fullLeft by greater.leftfull;
+  sub hyphen' greater space @fullLeft by hyphen.rightfull;
+  sub hyphen.rightfull greater' space @fullLeft by greater.leftfull;
+
+  sub less' hyphen @fullLeft by less.rightfull;
+  sub less.rightfull hyphen' @fullLeft by hyphen.leftfull;
+  sub less' hyphen space @fullLeft by less.rightfull;
+  sub less.rightfull hyphen' space @fullLeft by hyphen.leftfull;
+
   sub @littleRight plus' equal by plus.lc;
   sub @littleRight plus.lc equal' by equal.lc;
   sub @littleRight space plus' equal by plus.lc;

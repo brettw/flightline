@@ -19,15 +19,23 @@ The generator resolves paths relative to its own location and writes
   classes, `ss01`, and `ss02`.
 - `generate_calt()` appends a generated `feature calt` block.
 
-The generated `calt` block has pair-operator rules first, single-punctuation
-rules second, and bracket-pair rules last. Keep that order: pair rules need to
-see both base glyph names before a single-punctuation rule rewrites either side.
+The generated `calt` block has pair right-side uppercase rules first, lowercase
+pair-operator rules second, single-punctuation rules third, and bracket-pair
+rules last. Keep that order: uppercase-right pair rules must run before
+lowercase pair rules, and pair rules need to see both base glyph names before a
+single-punctuation rule rewrites either side.
 
 Pair-operator rules come from `OPERATOR_COMBINATIONS`. Each two-character
 operator gets eight lowercase contextual substitutions covering immediate and
 space-separated contexts on either side of the operator. Compact arrow-like
 operators use `COMPACT_LC_OUTPUTS`; for example, `->` generates
 `hyphen.lc.rightfull` plus `greater.lc.leftfull`.
+
+Pair right-side uppercase rules convert base operator pairs to their
+uppercase/full-height outputs when the pair is followed by `@fullLeft` or
+`space @fullLeft`. Compact outputs come from `COMPACT_UC_OUTPUTS`; non-compact
+outputs use `UPPERCASE_OUTPUTS` where a `.uc` glyph exists and otherwise keep
+the base glyph name, such as `less`.
 
 The single-punctuation rules come from `PUNCTUATION_GLYPHS`. Each punctuation
 glyph gets eight contextual substitutions:

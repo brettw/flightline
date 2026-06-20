@@ -230,6 +230,18 @@ COMPACT_LC_OUTPUTS = {
     ("hyphen", "greater"): ("hyphen.lc.rightfull", "greater.lc.leftfull"),
     ("less", "hyphen"): ("less.lc.rightfull", "hyphen.lc.leftfull"),
 }
+COMPACT_UC_OUTPUTS = {
+    ("equal", "greater"): ("equal.rightfull", "greater.leftfull"),
+    ("hyphen", "greater"): ("hyphen.rightfull", "greater.leftfull"),
+    ("less", "hyphen"): ("less.rightfull", "hyphen.leftfull"),
+}
+UPPERCASE_OUTPUTS = {
+    "plus": "plus.uc",
+    "hyphen": "hyphen.uc",
+    "equal": "equal.uc",
+    "asciitilde": "asciitilde.uc",
+    "asterisk": "asterisk.uc",
+}
 BRACKET_PAIRS = (
     ("parenleft", "parenright"),
     ("bracketleft", "bracketright"),
@@ -256,6 +268,13 @@ def lowercase_pair_outputs(left: str, right: str) -> tuple[str, str]:
     return COMPACT_LC_OUTPUTS.get((left, right), (f"{left}.lc", f"{right}.lc"))
 
 
+def uppercase_pair_outputs(left: str, right: str) -> tuple[str, str]:
+    return COMPACT_UC_OUTPUTS.get(
+        (left, right),
+        (UPPERCASE_OUTPUTS.get(left, left), UPPERCASE_OUTPUTS.get(right, right)),
+    )
+
+
 def append_lowercase_pair_rules(
     lines: list[str], left: str, right: str, left_output: str, right_output: str
 ) -> None:
@@ -272,6 +291,24 @@ def append_lowercase_pair_rules(
             "",
         ]
     )
+
+
+def append_pair_right_full_rules(
+    lines: list[str],
+    left_input: str,
+    right_input: str,
+    left_output: str,
+    right_output: str,
+) -> None:
+    for right_context in ("@fullLeft", "space @fullLeft"):
+        if left_input != left_output:
+            lines.append(
+                f"  sub {left_input}' {right_input} {right_context} by {left_output};"
+            )
+        lines.append(
+            f"  sub {left_output} {right_input}' {right_context} by {right_output};"
+        )
+    lines.append("")
 
 
 def bracket_context(content_length: int, close_side: bool = False) -> str:
@@ -305,6 +342,11 @@ def generate_calt() -> str:
         "# GSUB feature: Contextual Alternates",
         "# Lookups: 1",
     ]
+
+    for operator in OPERATOR_COMBINATIONS:
+        left, right = operator_glyphs(operator)
+        left_output, right_output = uppercase_pair_outputs(left, right)
+        append_pair_right_full_rules(lines, left, right, left_output, right_output)
 
     for operator in OPERATOR_COMBINATIONS:
         left, right = operator_glyphs(operator)
