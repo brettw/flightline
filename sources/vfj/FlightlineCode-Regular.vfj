@@ -122,7 +122,8 @@
                 "thickness":200
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -149,7 +150,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -297,7 +299,8 @@
               "mdeltah .mh03 20-20 1",
               "mdeltah .ah01 20-20 5",
               "mdeltah .ah02 20-20 3"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -484,7 +487,8 @@
               "alignt .sh02 \"t: 1\"",
               "alignh .ah01 round",
               "singleh .ah01, .sh02 \"eq X: ecart du B\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -697,7 +701,8 @@
               "alignt .at02 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -952,7 +957,8 @@
               "alignv .av02 round",
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -1214,7 +1220,8 @@
               "alignh .ah04 round",
               "mdeltah .mh01 16-16 -2",
               "mdeltah .mh02 13-13 -1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -1465,7 +1472,8 @@
               "alignb rsb \"b: 0\"",
               "singlev .at01, .sv01 \"eq Y: 171\"",
               "singlev .ab01, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -1591,7 +1599,8 @@
                 "thickness":640
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -1752,7 +1761,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"eq Y: 144\"",
               "singlev .av02, .sv02 \"eq Y: 144\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -1914,7 +1924,8 @@
               "alignv .av02 round",
               "singlev .av02, .sv02 \"eq Y: 144\"",
               "singlev .av01, .sv01 \"eq Y: 144\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -2095,7 +2106,8 @@
                 "thickness":229
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -2256,7 +2268,8 @@
               "alignh .av01 round",
               "singleh .ah01, .at01 \"eq X: 208\"",
               "singleh .av01, .av02 \"eq X: 208\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -2401,7 +2414,8 @@
               "alignb .ab01 \"b: 0\"",
               "alignh .ah01 round",
               "alignh .ah02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -2533,7 +2547,8 @@
             "tth":[
               "alignv .av01 round",
               "singlev .av01, .sv01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -2659,7 +2674,8 @@
               "alignb .ab01 \"b: 0\"",
               "alignh .ah01 round",
               "alignh .ah02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -2783,7 +2799,8 @@
                 "thickness":21
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -2963,7 +2980,8 @@
               "alignb .ab02 \"b: 0\"",
               "singlev .ab02, .sv01 \"eq Y: 171\"",
               "singlev .at01, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -3160,7 +3178,8 @@
               "alignb .ab02 \"b: 0\"",
               "singlev .ab02, .sv02 \"eq Y: 171\"",
               "singlev .ab01, .sv01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -3333,14 +3352,15 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 .round",
               "singlev .at01, .sv04 .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"three",
         "unicode":"0033",
-        "lastModified":"2026-06-20 19:06:28",
+        "lastModified":"2026-06-21 16:10:05",
         "layers":[
           {
             "name":"Thin",
@@ -3527,14 +3547,15 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv02 \"eq Y: 171\"",
               "singlev .ab01, .sv01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"four",
         "unicode":"0034",
-        "lastModified":"2026-06-20 19:03:15",
+        "lastModified":"2026-06-21 16:10:05",
         "layers":[
           {
             "name":"Thin",
@@ -3741,14 +3762,15 @@
               "alignb .ab02 \"b: 0\"",
               "doublev .dv01, .dv02 \"eq Y: 171\"",
               "doublev .dv03, .dv04 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"five",
         "unicode":"0035",
-        "lastModified":"2026-06-19 21:07:07",
+        "lastModified":"2026-06-21 16:10:05",
         "layers":[
           {
             "name":"Thin",
@@ -3944,14 +3966,15 @@
               "doublev .sv03, .sv04 \"eq Y: 171\"",
               "singlev .at01, .sv02 \"eq Y: 171\"",
               "singlev .ab01, .sv01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"six",
         "unicode":"0036",
-        "lastModified":"2026-06-19 21:07:07",
+        "lastModified":"2026-06-21 16:10:05",
         "layers":[
           {
             "name":"Thin",
@@ -4169,14 +4192,15 @@
               "doublev .av01, .sv03 \"eq Y: 171\"",
               "singlev .sv07, .sv02 \"eq Y: 171\"",
               "singlev .ab01, .sv01 .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"seven",
         "unicode":"0037",
-        "lastModified":"2026-06-19 21:07:07",
+        "lastModified":"2026-06-21 16:10:05",
         "layers":[
           {
             "name":"Thin",
@@ -4363,14 +4387,15 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "singlev .at02, .sv01 .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"eight",
         "unicode":"0038",
-        "lastModified":"2026-06-19 21:07:07",
+        "lastModified":"2026-06-21 16:10:05",
         "layers":[
           {
             "name":"Thin",
@@ -4639,14 +4664,15 @@
               "doublev .dv01, .dv02 \"eq Y: 171\"",
               "singlev .ab01, .hr03 .round",
               "singlev .at01, .sv01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"nine",
         "unicode":"0039",
-        "lastModified":"2026-06-19 21:07:07",
+        "lastModified":"2026-06-21 16:10:05",
         "layers":[
           {
             "name":"Thin",
@@ -4866,14 +4892,15 @@
               "doublev .hr01, .sv02 \"eq Y: 171\"",
               "singlev .ab01, .sv01 \"eq Y: 171\"",
               "singlev .at01, .sv03 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"colon",
         "unicode":"003a",
-        "lastModified":"2026-06-19 21:07:07",
+        "lastModified":"2026-06-21 16:10:05",
         "layers":[
           {
             "name":"Thin",
@@ -5034,14 +5061,15 @@
               "alignh .ah02 round",
               "alignh .ah03 round",
               "alignh .ah04 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"semicolon",
         "unicode":"003b",
-        "lastModified":"2026-06-19 21:07:07",
+        "lastModified":"2026-06-21 16:10:05",
         "layers":[
           {
             "name":"Thin",
@@ -5225,14 +5253,15 @@
               "alignb .ab01 \"b: 0\"",
               "alignh .ah01 round",
               "alignh .ah02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"less",
         "unicode":"003c",
-        "lastModified":"2026-06-19 21:07:07",
+        "lastModified":"2026-06-21 16:10:05",
         "layers":[
           {
             "name":"Thin",
@@ -5340,14 +5369,15 @@
                 "thickness":-20
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
       {
         "name":"equal",
         "unicode":"003d",
-        "lastModified":"2026-06-19 21:07:07",
+        "lastModified":"2026-06-21 16:10:05",
         "layers":[
           {
             "name":"Thin",
@@ -5507,14 +5537,15 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"eq Y: 171\"",
               "singlev .av02, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"greater",
         "unicode":"003e",
-        "lastModified":"2026-06-19 23:03:38",
+        "lastModified":"2026-06-21 16:10:05",
         "layers":[
           {
             "name":"Thin",
@@ -5618,14 +5649,15 @@
                 "thickness":21
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
       {
         "name":"question",
         "unicode":"003f",
-        "lastModified":"2026-06-19 21:33:49",
+        "lastModified":"2026-06-21 16:10:05",
         "layers":[
           {
             "name":"Thin",
@@ -5780,14 +5812,15 @@
               "alignb .ab01 \"b: 0\"",
               "alignh .ah01 round",
               "alignh .ah02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"at",
         "unicode":"0040",
-        "lastModified":"2026-06-19 21:33:49",
+        "lastModified":"2026-06-21 16:10:05",
         "layers":[
           {
             "name":"B612 Mono Bold",
@@ -6122,14 +6155,15 @@
               "singlev .ab01, .sv02 \"eq Y: 171\"",
               "singlev .dv01, .dv02 \"eq Y: 171\"",
               "mdeltah .mh02 12-12 -1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"A",
         "unicode":"0041",
-        "lastModified":"2026-06-21 14:34:17",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -6335,14 +6369,15 @@
               "singleh .sh03, .sh04 \"eq X: 208\"",
               "interpolateh .ih01 .ah01, .sh01",
               "interpolateh .ih02 .ah01, .sh03"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"B",
         "unicode":"0042",
-        "lastModified":"2026-06-21 04:22:27",
+        "lastModified":"2026-06-21 16:10:05",
         "layers":[
           {
             "name":"Thin",
@@ -6573,14 +6608,15 @@
               "interpolateh .ih01 .ih02, .ih03",
               "singleh .dh01, lsb .round",
               "singleh .dh04, rsb .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"C",
         "unicode":"0043",
-        "lastModified":"2026-06-21 14:33:36",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -6777,14 +6813,15 @@
               "mdeltah .dh02 17-17 3",
               "mdeltah .ah01 6-6 2",
               "mdeltah .dh01 7-7 2"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"D",
         "unicode":"0044",
-        "lastModified":"2026-06-20 19:08:10",
+        "lastModified":"2026-06-21 16:10:05",
         "layers":[
           {
             "name":"Thin",
@@ -7019,14 +7056,15 @@
               "singleh .sh02, .sh03 \"eq X: 208\"",
               "singleh .sh03, .sh04 .none",
               "singleh .sh01, rsb .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"E",
         "unicode":"0045",
-        "lastModified":"2026-06-21 04:22:27",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -7238,14 +7276,15 @@
               "doubleh .dh01, .dh02 \"eq X: ecart du B\"",
               "doubleh .dh03, .dh04 \"eq X: 208\"",
               "singleh .dh04, .sh01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"F",
         "unicode":"0046",
-        "lastModified":"2026-06-20 19:25:30",
+        "lastModified":"2026-06-21 16:10:05",
         "layers":[
           {
             "name":"Thin",
@@ -7428,14 +7467,15 @@
               "doubleh .dh01, .dh02 \"eq X: 208\"",
               "doubleh .dh03, .dh04 \"eq X: ecart du B\"",
               "singleh .dh02, .sh01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"G",
         "unicode":"0047",
-        "lastModified":"2026-06-20 19:21:52",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -7656,14 +7696,15 @@
               "mdeltah .ah02 27-27 -7",
               "mdeltah .ah02 28-28 -8",
               "singleh .sh01, rsb .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"H",
         "unicode":"0048",
-        "lastModified":"2026-06-20 19:40:55",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -7875,14 +7916,15 @@
               "singleh .ah01, .sh04 .none",
               "singleh .sh02, .sh03 .none",
               "singleh .sh05, rsb .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"I",
         "unicode":"0049",
-        "lastModified":"2026-06-20 19:37:02",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -8083,14 +8125,15 @@
               "mdeltah .mh03 24-24 -7",
               "singleh .ah01, lsb .round",
               "singleh .ah03, rsb .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"J",
         "unicode":"004a",
-        "lastModified":"2026-06-19 21:33:49",
+        "lastModified":"2026-06-21 16:10:05",
         "layers":[
           {
             "name":"Thin",
@@ -8254,14 +8297,15 @@
               "doubleh .dh01, .dh02 \"eq X: 208\"",
               "singleh .ah01, .sh01 .round",
               "singleh .dh02, rsb .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"K",
         "unicode":"004b",
-        "lastModified":"2026-06-20 19:58:35",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -8493,14 +8537,15 @@
               "singleh .ah02, .sh02 .round",
               "singleh .sh02, .sh03 \"eq X: dia Lite\"",
               "mdeltah .sh03 16-16 4"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"L",
         "unicode":"004c",
-        "lastModified":"2026-06-20 20:00:32",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -8651,14 +8696,15 @@
               "singlev .ab01, .sv01 \"eq Y: 162\"",
               "alignh .ah01 round",
               "doubleh .dh01, .dh02 \"eq X: 208\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"M",
         "unicode":"004d",
-        "lastModified":"2026-06-20 19:11:07",
+        "lastModified":"2026-06-21 16:10:05",
         "layers":[
           {
             "name":"Thin",
@@ -9230,14 +9276,15 @@
               "mdeltah .mh02 24-25 -8",
               "mdeltah .mh02 29-29 -8",
               "mdeltah .mh02 33-33 -8"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"N",
         "unicode":"004e",
-        "lastModified":"2026-06-21 14:08:06",
+        "lastModified":"2026-06-21 16:10:05",
         "layers":[
           {
             "name":"Thin",
@@ -9487,14 +9534,15 @@
               "mdeltah .mh08 22-22 -1",
               "mdeltah .mh06 24-24 -4",
               "mdeltah .mh05 10-10 -3"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"O",
         "unicode":"004f",
-        "lastModified":"2026-06-21 14:37:50",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -9670,14 +9718,15 @@
               "alignh .ah02 round",
               "singleh .ah02, .sh01 \"eq X: 208\"",
               "singleh .ah01, .sh02 \"eq X: 208\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"P",
         "unicode":"0050",
-        "lastModified":"2026-06-21 14:35:35",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -9905,14 +9954,15 @@
               "singleh .sh02, .sh03 .none",
               "singleh .ah02, .sh05 \"eq X: 208\"",
               "singleh .ah01, .sh04 \"eq X: 208\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"Q",
         "unicode":"0051",
-        "lastModified":"2026-06-21 14:35:35",
+        "lastModified":"2026-06-21 15:54:06",
         "layers":[
           {
             "name":"light guides",
@@ -10211,14 +10261,15 @@
               "doubleh .dh03, .dh04 .round",
               "mdeltah .mh01 23-23 3",
               "singleh .dh04, rsb .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"R",
         "unicode":"0052",
-        "lastModified":"2026-06-21 14:35:35",
+        "lastModified":"2026-06-21 16:01:03",
         "layers":[
           {
             "name":"light p",
@@ -10496,7 +10547,8 @@
               "singleh .ah01, .sh03 \"eq X: 208\"",
               "interpolateh .ih01 .sh01, .sh03",
               "singleh .sh02, .sh04 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -10694,7 +10746,8 @@
               "mdeltah .mh04 25-25 -6",
               "singleh lsb, .sh01 .round",
               "singleh .sh04, rsb .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -10856,14 +10909,15 @@
               "singlev .sv04, .sv02 \"eq Y: 171\"",
               "singlev .at01, .sv01 \"eq Y: 171\"",
               "doubleh .dh01, .dh02 \"eq X: 208\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"U",
         "unicode":"0055",
-        "lastModified":"2026-06-21 14:35:35",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -11049,14 +11103,15 @@
               "alignh lsb round",
               "singleh lsb, .sh02 .round",
               "singleh .sh01, rsb .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"V",
         "unicode":"0056",
-        "lastModified":"2026-06-21 14:35:35",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -11213,7 +11268,8 @@
               "alignb .ab02 \"b: 0\"",
               "mdeltav .mh01 17-17 -1",
               "mdeltah .mh01 17-17 -5"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -11427,7 +11483,8 @@
               "mdeltah .sh05 20-20 5",
               "mdeltah .mh02 18-18 1",
               "mdeltah .mh01 18-18 1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -11675,7 +11732,8 @@
               "alignt .at03 \"t: 1\"",
               "alignb rsb \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -11889,7 +11947,8 @@
               "mdeltah .ih01 34-34 -1",
               "fdeltav .ih01 19-19 3",
               "fdeltav .ih01 17-17 6"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -12051,7 +12110,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .iv03 \"eq Y: 171\"",
               "singlev .at01, .iv06 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -12221,7 +12281,8 @@
               "alignt .av01 \"t: 1\"",
               "singlev .av01, .sv01 \"eq Y: 171\"",
               "singlev .av02, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -12313,7 +12374,8 @@
                 "thickness":-20
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -12482,7 +12544,8 @@
               "alignt .av01 \"t: 1\"",
               "singlev .av02, .sv02 \"eq Y: 171\"",
               "singlev .av01, .sv01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -12607,7 +12670,8 @@
               "alignt .ih03 \"t: 1\"",
               "alignt .ih02 \"t: 1\"",
               "singlev .ih03, .ih01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -12700,7 +12764,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -12833,14 +12898,15 @@
               "alignv .hr02 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .hr02, .at01"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"a",
         "unicode":"0061",
-        "lastModified":"2026-06-21 14:35:35",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -13090,7 +13156,8 @@
               "mdeltav .sv01 9-12 1",
               "singlev .ab01, .sv02 \"eq Y: 171\"",
               "mdeltav .sv02 9-12 -1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -13314,14 +13381,15 @@
               "singleh lsb, .sh01 .round",
               "singleh .sh01, .sh02 \"eq X: 208\"",
               "singleh .sh04, rsb .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"c",
         "unicode":"0063",
-        "lastModified":"2026-06-21 14:35:35",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -13482,14 +13550,15 @@
               "alignh lsb round",
               "singleh lsb, .sh01 .round",
               "singleh .sh01, .sh02 \"eq X: 199\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"d",
         "unicode":"0064",
-        "lastModified":"2026-06-21 14:35:35",
+        "lastModified":"2026-06-21 15:54:06",
         "layers":[
           {
             "name":"Thin",
@@ -13727,14 +13796,15 @@
               "singleh .sh01, .sh02 \"eq X: 190\"",
               "singleh .ah01, .sh05 \"eq X: 190\"",
               "singleh .sh05, rsb .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"e",
         "unicode":"0065",
-        "lastModified":"2026-06-21 14:35:35",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -13964,7 +14034,8 @@
               "singleh .sh01, .sh02 \"X: 208\"",
               "mdeltah .ih05 29-29 1",
               "singleh .dh02, rsb .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -14183,14 +14254,15 @@
               "singlev .av01, .sv01 \"eq Y: 162\"",
               "singlev .dv03, .dv04 \"eq Y: 171\"",
               "singlev .dv01, .dv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"g",
         "unicode":"0067",
-        "lastModified":"2026-06-21 14:35:35",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -14460,7 +14532,8 @@
               "singleh lsb, .sh01 .round",
               "singleh .sh01, .sh04 \"eq X: 208\"",
               "singleh .sh03, rsb .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -14680,14 +14753,15 @@
               "singleh .ah01, .sh04 \"eq X: 199\"",
               "singleh .sh01, .sh02 \"eq X: 190\"",
               "singleh .sh04, rsb .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"i",
         "unicode":"0069",
-        "lastModified":"2026-06-21 14:37:50",
+        "lastModified":"2026-06-21 15:54:06",
         "layers":[
           {
             "name":"Square dot transition:wt=450",
@@ -14784,7 +14858,6 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "id":"element.4",
                 "elementData":{
                   "contours":[
                     {
@@ -14829,17 +14902,7 @@
               {
                 "horizontal":true,
                 "position":1290,
-                "thickness":210,
-                "nodeThickness":{
-                  "nodeNode":{
-                    "point":"456 1500",
-                    "contour":{
-                      "open":true
-                    },
-                    "index":9,
-                    "element":"element.4"
-                  }
-                }
+                "thickness":210
               },
               {
                 "vertical":true,
@@ -14912,69 +14975,6 @@
               }
             ],
             "color":"#de4d8a",
-            "tth":[
-              "alignv .av01 round",
-              "alignv .av02 round",
-              "alignv .av03 round",
-              "alignt .at01 \"t: x\"",
-              "alignb .ab01 \"b: 0\"",
-              "singlev .at01, .sv01 .round"
-            ]
-          },
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "advanceHeight":1600,
-            "elements":[
-              {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "730 -17 s {n:'.ab01'}",
-                        "885 -17  992 13  1064 37",
-                        "1041 122",
-                        "952 90  870 71  735 71 s",
-                        "619 71  605 190  605 354 s",
-                        "605 492",
-                        "605 1100",
-                        "184 1100 {n:'.at01'}",
-                        "199 1012 {n:'.sv01'}",
-                        "420 1012",
-                        "529 1052 {n:'.av03'}",
-                        "517 1012",
-                        "517 492 s",
-                        "517 267  490 -17 c"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "463 1420 s",
-                        "463 1366  507 1322  561 1322 s",
-                        "614 1322  658 1366  658 1420 s",
-                        "658 1473  614 1517  561 1517 s",
-                        "507 1517  463 1473 c"
-                      ]
-                    }
-                  ]
-                },
-                "active":true
-              }
-            ],
-            "hints":[
-              {
-                "horizontal":true,
-                "position":1340,
-                "thickness":159
-              },
-              {
-                "vertical":true,
-                "position":509,
-                "thickness":99
-              }
-            ],
-            "color":"#1f964d",
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round",
@@ -15060,6 +15060,142 @@
             ]
           },
           {
+            "name":"Bold original",
+            "flags":4,
+            "advanceWidth":1200,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "405 1240",
+                        "742 1240 {n:'.sv01'}",
+                        "742 1501 {n:'.sh02'}",
+                        "405 1501 {n:'.sh01'}"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "858 -17 s {n:'.ab01'}",
+                        "1047 -17  1118 70  1154 98 {n:'.ah03'}",
+                        "1095 330 {n:'.av02'}",
+                        "1026 263  965 236  877 236 s {n:'.av01'}",
+                        "797 236  741 314  741 423 s {n:'.dh02'}",
+                        "741 491",
+                        "741 1100 {n:'.at01'}",
+                        "111 1100 {n:'.ah01'}",
+                        "139 876 {n:'.sv02'}",
+                        "314 876",
+                        "484 916 {n:'.ah02'}",
+                        "414 826",
+                        "414 432 s {n:'.dh01'}",
+                        "414 161  577 -17 c"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "horizontal":true,
+                "position":-17,
+                "thickness":253
+              },
+              {
+                "horizontal":true,
+                "position":876,
+                "thickness":224
+              },
+              {
+                "horizontal":true,
+                "position":1240,
+                "thickness":261
+              },
+              {
+                "vertical":true,
+                "position":464,
+                "thickness":327
+              }
+            ],
+            "color":"#3989c2",
+            "tth":[
+              "alignt .sh01 \"t: 1\"",
+              "alignt .ah01 \"t: x\"",
+              "alignt .at01 \"t: x\"",
+              "alignb .ab01 \"b: 0\"",
+              "interpolatev .sv01 .at01, .sh01",
+              "singlev .ab01, .av01 \"eq Y: 171\"",
+              "singlev .ah01, .sv02 \"eq Y: 171\"",
+              "doubleh .dh01, .dh02 \"eq X: 208\""
+            ]
+          },
+          {
+            "name":"Thin",
+            "flags":0,
+            "advanceWidth":1200,
+            "advanceHeight":1600,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "730 -17 s {n:'.ab01'}",
+                        "885 -17  992 13  1064 37",
+                        "1041 122",
+                        "952 90  870 71  735 71 s",
+                        "619 71  605 190  605 354 s",
+                        "605 492",
+                        "605 1100",
+                        "184 1100 {n:'.at01'}",
+                        "199 1012 {n:'.sv01'}",
+                        "420 1012",
+                        "529 1052 {n:'.av03'}",
+                        "517 1012",
+                        "517 492 s",
+                        "517 267  490 -17 c"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "463 1420 s",
+                        "463 1366  507 1322  561 1322 s",
+                        "614 1322  658 1366  658 1420 s",
+                        "658 1473  614 1517  561 1517 s",
+                        "507 1517  463 1473 c"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "horizontal":true,
+                "position":1340,
+                "thickness":159
+              },
+              {
+                "vertical":true,
+                "position":509,
+                "thickness":99
+              }
+            ],
+            "color":"#1f964d",
+            "tth":[
+              "alignv .av01 round",
+              "alignv .av02 round",
+              "alignv .av03 round",
+              "alignt .at01 \"t: x\"",
+              "alignb .ab01 \"b: 0\"",
+              "singlev .at01, .sv01 .round"
+            ]
+          },
+          {
             "name":"Regular",
             "advanceWidth":1200,
             "advanceHeight":1600,
@@ -15135,79 +15271,6 @@
             ]
           },
           {
-            "name":"Bold original",
-            "flags":4,
-            "advanceWidth":1200,
-            "elements":[
-              {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "405 1240",
-                        "742 1240 {n:'.sv01'}",
-                        "742 1501 {n:'.sh02'}",
-                        "405 1501 {n:'.sh01'}"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "858 -17 s {n:'.ab01'}",
-                        "1047 -17  1118 70  1154 98 {n:'.ah03'}",
-                        "1095 330 {n:'.av02'}",
-                        "1026 263  965 236  877 236 s {n:'.av01'}",
-                        "797 236  741 314  741 423 s {n:'.dh02'}",
-                        "741 491",
-                        "741 1100 {n:'.at01'}",
-                        "111 1100 {n:'.ah01'}",
-                        "139 876 {n:'.sv02'}",
-                        "314 876",
-                        "484 916 {n:'.ah02'}",
-                        "414 826",
-                        "414 432 s {n:'.dh01'}",
-                        "414 161  577 -17 c"
-                      ]
-                    }
-                  ]
-                },
-                "active":true
-              }
-            ],
-            "hints":[
-              {
-                "horizontal":true,
-                "position":-17,
-                "thickness":253
-              },
-              {
-                "horizontal":true,
-                "position":876,
-                "thickness":224
-              },
-              {
-                "horizontal":true,
-                "position":1240,
-                "thickness":261
-              },
-              {
-                "vertical":true,
-                "position":464,
-                "thickness":327
-              }
-            ],
-            "color":"#3989c2",
-            "tth":[
-              "alignt .sh01 \"t: 1\"",
-              "alignt .ah01 \"t: x\"",
-              "alignt .at01 \"t: x\"",
-              "alignb .ab01 \"b: 0\"",
-              "interpolatev .sv01 .at01, .sh01",
-              "singlev .ab01, .av01 \"eq Y: 171\"",
-              "singlev .ah01, .sv02 \"eq Y: 171\"",
-              "doubleh .dh01, .dh02 \"eq X: 208\""
-            ]
-          },
-          {
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
@@ -15278,7 +15341,8 @@
               "singlev .ab01, .av01 \"eq Y: 171\"",
               "singlev .ah01, .sv02 \"eq Y: 171\"",
               "doubleh .dh01, .dh02 \"eq X: 208\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -15294,7 +15358,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "id":"element.5",
+                "id":"element.4",
                 "elementData":{
                   "contours":[
                     {
@@ -15338,7 +15402,7 @@
                     "point":"628 1500",
                     "contour":"contour.4",
                     "index":3,
-                    "element":"element.5"
+                    "element":"element.4"
                   }
                 }
               }
@@ -15368,7 +15432,6 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "id":"element.6",
                 "elementData":{
                   "contours":[
                     {
@@ -15406,17 +15469,7 @@
               {
                 "horizontal":true,
                 "position":1292,
-                "thickness":208,
-                "nodeThickness":{
-                  "nodeNode":{
-                    "point":"631 1500",
-                    "contour":{
-                      "open":true
-                    },
-                    "index":3,
-                    "element":"element.6"
-                  }
-                }
+                "thickness":208
               }
             ],
             "color":"#9061ff",
@@ -15644,7 +15697,8 @@
               "doubleh .dh01, .dh02 \"eq X: 190\"",
               "singleh .dh02, .sh02 .none",
               "singleh .dh01, .sh01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -15900,7 +15954,8 @@
               "singleh .ah02, .sh05 \"eq X: dia Fat\"",
               "singleh .ah01, .sh04 \"eq X: dia Lite\"",
               "singleh .sh02, .sh03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -16078,7 +16133,8 @@
               "doubleh .dh01, .dh02 \"eq X: 208\"",
               "singleh .dh02, .sh01 .none",
               "singleh .dh01, .sh02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -16306,7 +16362,8 @@
               "singleh .dh02, .sh01 .round",
               "singleh .sh02, .sh03 .round",
               "singleh .sh04, rsb .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -16525,14 +16582,15 @@
               "singleh .sh01, .sh02 \"eq X: 199\"",
               "singleh .ah01, .sh03 \"eq X: 199\"",
               "singleh .sh03, rsb .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"o",
         "unicode":"006f",
-        "lastModified":"2026-06-21 14:35:35",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -16723,14 +16781,15 @@
               "singleh lsb, .sh01 .round",
               "singleh .sh01, .sh03 \"eq X: 199\"",
               "singleh .sh02, rsb .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"p",
         "unicode":"0070",
-        "lastModified":"2026-06-21 14:35:35",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -16965,14 +17024,15 @@
               "singleh lsb, .sh01 .round",
               "singleh .sh01, .sh02 \"eq X: 190\"",
               "singleh .ah01, .sh05 \"eq X: 190\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"q",
         "unicode":"0071",
-        "lastModified":"2026-06-21 14:35:35",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -17193,7 +17253,8 @@
               "singleh lsb, .sh01 .round",
               "singleh .sh01, .sh02 \"eq X: 190\"",
               "singleh .ah01, .sh04 \"eq X: 190\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -17375,7 +17436,8 @@
               "singlev .at01, .sv01 \"eq Y: 162\"",
               "doubleh .dh01, .dh02 \"eq X: 190\"",
               "doubleh .dh03, .hr01 \"eq X: 190\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -17702,7 +17764,8 @@
               "mdeltah .sh02 36-36 8",
               "singleh .ah01, .sh03 \"eq X: 190\"",
               "singleh .ah02, rsb .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -17930,7 +17993,8 @@
               "singlev .sv02, .sv04 \"eq Y: 171\"",
               "singlev .sh01, .sv01 \"eq Y: 162\"",
               "doubleh .dh01, .dh02 \"eq X: 190\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -18136,14 +18200,15 @@
               "singlev .ih01, .ih03 \"eq Y: 162\"",
               "alignh lsb round",
               "singleh lsb, .sh04 .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"v",
         "unicode":"0076",
-        "lastModified":"2026-06-21 14:35:35",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -18316,14 +18381,15 @@
               "alignb .ab01 \"b: 0\"",
               "singleh .sh01, .sh02 \"eq X: dia Lite\"",
               "singleh .sh03, .sh04 \"eq X: dia Fat\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"w",
         "unicode":"0077",
-        "lastModified":"2026-06-21 14:35:35",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -18572,14 +18638,15 @@
               "alignt .sh02 \"t: x\"",
               "alignb .ih04 \"b: 0\"",
               "alignb .ih01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"x",
         "unicode":"0078",
-        "lastModified":"2026-06-21 14:34:39",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -18799,14 +18866,15 @@
               "alignt .sh06 \"t: x\"",
               "alignb .sh01 \"b: 0\"",
               "alignb .sh08 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"y",
         "unicode":"0079",
-        "lastModified":"2026-06-21 14:32:59",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -18988,14 +19056,15 @@
               "singleh lsb, .sh03 \"eq X: 208\"",
               "singleh .sh04, .sh05 \"eq X: dia Fat\"",
               "singleh .sh01, .sh02 \"eq X: dia Lite\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"z",
         "unicode":"007a",
-        "lastModified":"2026-06-21 14:35:35",
+        "lastModified":"2026-06-21 15:54:06",
         "layers":[
           {
             "name":"Thin",
@@ -19155,7 +19224,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .sv02, .sv03 \"eq Y: 162\"",
               "singlev .ab01, .sv01 \"eq Y: 162\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -19415,7 +19485,8 @@
               "alignh .ah06 round",
               "singleh .ah01, .sh01 \"eq X: dia Lite\"",
               "singleh .ah02, .sh02 \"eq X: dia Lite\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -19545,7 +19616,8 @@
                 "thickness":332
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -19763,7 +19835,8 @@
               "alignh .ah06 round",
               "singleh .ah03, .sh01 \"eq X: dia Lite\"",
               "singleh .ah05, .sh02 \"eq X: dia Lite\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -19904,7 +19977,8 @@
               "alignv .ih01 round",
               "alignv .ih03 round",
               "alignv .sh03 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -19931,7 +20005,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -20054,7 +20129,8 @@
             "tth":[
               "alignv .sv01 round",
               "singlev .sv01, .sv02 .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -20278,7 +20354,8 @@
               "mdeltah .mh02 12-12 5",
               "mdeltah .mh02 13-13 3",
               "mdeltav .mv01 12-12 3"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -20459,7 +20536,8 @@
                 "thickness":214
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -20646,7 +20724,8 @@
                 "thickness":258
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -20910,7 +20989,8 @@
               "singlev .sv02, .sv04 .none",
               "singlev .sv02, .sh07 \"eq Y: 171\"",
               "singlev .sh07, .sh06 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -21031,7 +21111,8 @@
                 "thickness":342
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -21284,7 +21365,8 @@
               "interpolatev .iv03 .sv02, .iv04",
               "interpolatev .iv05 .iv04, .sv02",
               "interpolatev .iv06 .sv01, .iv02"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -21414,7 +21496,8 @@
               "alignv .ah02 round",
               "singlev .ah01, .sv01 .none",
               "singlev .ah02, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -21633,7 +21716,8 @@
                 "thickness":124
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -21871,7 +21955,8 @@
                 "thickness":159
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -22057,7 +22142,8 @@
               "singlev .hr01, .sv03 \"eq Y: 135\"",
               "interpolatev .iv02 .hr01, .ab02",
               "singlev .ab02, .sv04 \"eq Y: 135\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -22165,7 +22251,8 @@
                 "thickness":342
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -22192,7 +22279,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":0,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -22457,7 +22545,8 @@
                 "thickness":124
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -22552,7 +22641,8 @@
               "alignt .at01 \"t: 1\"",
               "singlev .at01, .sv01 \"eq Y: 153\"",
               "singlev .sv01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -22792,7 +22882,8 @@
               "alignt .at01 \"t: 1\"",
               "singlev .av01, .sv01 .round",
               "singlev .at01, .sv02 .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -23009,7 +23100,8 @@
               "mdeltav .ih02 22-22 1",
               "mdeltav .ih05 28-28 1",
               "mdeltav .mh04 27-27 1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -23116,7 +23208,8 @@
                 "thickness":97
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -23241,7 +23334,8 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -23380,7 +23474,8 @@
               "alignv .mh01 round",
               "alignt .hr01 \"t: 1\"",
               "alignt .hr02 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -23567,7 +23662,8 @@
               "alignb .ab03 \"b: -500\"",
               "interpolatev .ih01 .ab01, .sh01",
               "singlev .ab01, .sv01 \"eq Y: 162\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -23583,7 +23679,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "id":"element.7",
+                "id":"element.5",
                 "elementData":{
                   "contours":[
                     {
@@ -23630,7 +23726,7 @@
                     "point":"749 -400",
                     "contour":"contour.5",
                     "index":2,
-                    "element":"element.7"
+                    "element":"element.5"
                   }
                 },
                 "flags":6,
@@ -23767,7 +23863,8 @@
               "mdeltah .mh01 18-18 -7",
               "mdeltah .mh02 18-18 2",
               "mdeltah .mh03 18-18 -7"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -23815,7 +23912,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "id":"element.8",
+                "id":"element.6",
                 "elementData":{
                   "contours":[
                     {
@@ -23841,7 +23938,7 @@
                     "point":"600 483",
                     "contour":"contour.6",
                     "index":0,
-                    "element":"element.8"
+                    "element":"element.6"
                   }
                 },
                 "thickness":332,
@@ -23850,7 +23947,7 @@
                     "point":"600 815",
                     "contour":"contour.6",
                     "index":6,
-                    "element":"element.8"
+                    "element":"element.6"
                   }
                 }
               },
@@ -23906,7 +24003,8 @@
               "alignh .ah02 round",
               "alignh .ah01 round",
               "alignh .ah02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -24095,7 +24193,8 @@
                 "thickness":267
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -24202,7 +24301,8 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -24397,7 +24497,8 @@
                 "thickness":95
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -24583,7 +24684,8 @@
               "singlev .ab02, .sv03 \"eq Y: 135\"",
               "interpolatev .iv02 .at02, .ab02",
               "singlev .at02, .sv04 \"eq Y: 135\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -24863,7 +24965,8 @@
                 "active":true
               }
             ],
-            "color":"#fe4a46"
+            "color":"#fe4a46",
+            "active":true
           }
         ]
       },
@@ -25106,7 +25209,8 @@
                 "active":true
               }
             ],
-            "color":"#fe4a46"
+            "color":"#fe4a46",
+            "active":true
           }
         ]
       },
@@ -25386,7 +25490,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -25531,7 +25636,8 @@
                 "thickness":-341
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -25643,7 +25749,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -25842,7 +25949,8 @@
               "mdeltav .hr02 14-14 6",
               "mdeltav .hr02 22-22 5",
               "mdeltav .iv01 12-12 4"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -26048,7 +26156,8 @@
               "mdeltav .mh01 12-12 8",
               "mdeltav .mh01 22-22 8",
               "mdeltav .mh01 14-14 5"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -26209,7 +26318,8 @@
               "alignt .ih02 \"t: 1\"",
               "mdeltav .mv01 18-18 2",
               "mdeltav .sh02 18-18 -1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -26422,7 +26532,8 @@
               "mdeltav .sh06 22-22 6",
               "mdeltav .sh06 20-20 5",
               "mdeltav .hr02 22-22 8"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -26634,7 +26745,8 @@
               "mdeltav .av02 21-21 7",
               "mdeltav .av02 12-12 5",
               "mdeltav .sh02 12-12 4"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -26824,7 +26936,8 @@
               "mdeltav .av02 21-21 7",
               "mdeltav .av02 12-12 5",
               "mdeltav .sh05 12-12 4"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -26992,7 +27105,8 @@
               "alignv .ah02 round",
               "singlev .hr01, .sv01 .none",
               "singlev .ah02, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -27235,7 +27349,8 @@
               "alignt .at01 \"t: x\"",
               "singlev .at01, .sv01 .round",
               "singlev .av01, .sv02 .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -27418,7 +27533,8 @@
               "alignt .at02 \"t: x\"",
               "singlev .at02, .sv01 .round",
               "singlev .hr01, .sv02 .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -27607,7 +27723,8 @@
                 "thickness":286
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -27803,7 +27920,8 @@
               "mdeltav .mh03 12-12 3",
               "singlev .ab01, .sv02 \"eq Y: 171\"",
               "mdeltav .sv02 12-12 5"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -27819,7 +27937,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "id":"element.9",
+                "id":"element.7",
                 "elementData":"elementdata.31",
                 "active":true
               },
@@ -27869,7 +27987,7 @@
                       ]
                     },
                     "index":10,
-                    "element":"element.9"
+                    "element":"element.7"
                   }
                 }
               },
@@ -28021,7 +28139,8 @@
               "alignv .hr01 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv01 .hr01, .at02"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -28037,7 +28156,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "id":"element.10",
+                "id":"element.8",
                 "elementData":"elementdata.31",
                 "active":true
               },
@@ -28087,7 +28206,7 @@
                       ]
                     },
                     "index":10,
-                    "element":"element.10"
+                    "element":"element.8"
                   }
                 }
               },
@@ -28246,7 +28365,8 @@
               "alignv .mh01 round",
               "alignt .hr02 \"t: 1\"",
               "alignt .hr01 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -28262,7 +28382,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "id":"element.11",
+                "id":"element.9",
                 "elementData":"elementdata.31",
                 "active":true
               },
@@ -28312,7 +28432,7 @@
                       ]
                     },
                     "index":10,
-                    "element":"element.11"
+                    "element":"element.9"
                   }
                 }
               },
@@ -28478,7 +28598,8 @@
               "alignt .ih02 \"t: 1\"",
               "mdeltav .mv01 18-18 2",
               "mdeltav .sh03 18-18 -1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -28494,7 +28615,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "id":"element.12",
+                "id":"element.10",
                 "elementData":"elementdata.31",
                 "active":true
               },
@@ -28544,7 +28665,7 @@
                       ]
                     },
                     "index":10,
-                    "element":"element.12"
+                    "element":"element.10"
                   }
                 }
               }
@@ -28676,7 +28797,8 @@
               "alignv .ah02 round",
               "singlev .hr01, .sv02 .none",
               "singlev .ah02, .sv03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -28899,7 +29021,8 @@
               "alignv .hr01 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .hr01, .at01"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -29129,7 +29252,8 @@
               "alignv .mh04 round",
               "alignt .hr02 \"t: 1\"",
               "alignt .hr01 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -29366,7 +29490,8 @@
               "alignt .ih02 \"t: 1\"",
               "mdeltav .mv01 18-18 2",
               "mdeltav .sh03 18-18 -1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -29569,7 +29694,8 @@
               "alignv .ah04 round",
               "singlev .hr01, .sv01 .none",
               "singlev .ah04, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -29791,7 +29917,8 @@
                 "thickness":351
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -30039,7 +30166,8 @@
               "mdeltav .av02 21-21 7",
               "mdeltav .av02 12-12 5",
               "mdeltav .sh01 12-12 4"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -30220,7 +30348,8 @@
               "alignv .av01 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv01 .av01, .at02"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -30405,7 +30534,8 @@
               "alignv .mh01 round",
               "alignt .sh03 \"t: 1\"",
               "alignt .ah03 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -30599,7 +30729,8 @@
               "alignt .ih02 \"t: 1\"",
               "mdeltav .mv01 18-18 2",
               "mdeltav .sh04 18-18 -1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -30780,7 +30911,8 @@
               "mdeltav .av02 21-21 7",
               "mdeltav .av02 12-12 5",
               "mdeltav .sh04 12-12 4"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -30955,7 +31087,8 @@
               "mdeltav .mv01 21-21 5",
               "mdeltav .mv01 12-12 4",
               "mdeltav .mv01 13-13 3"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -31111,7 +31244,8 @@
               "singlev .av01, .ih02 \"eq Y: 135\"",
               "interpolatev .iv02 .av02, .sh02",
               "singlev .av02, .ih04 \"eq Y: 135\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -31254,7 +31388,8 @@
                 "thickness":350
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -31448,7 +31583,8 @@
               "alignv .av01 round",
               "alignt .at03 \"t: 1\"",
               "interpolatev .iv01 .av01, .at03"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -31649,7 +31785,8 @@
               "alignv .mh01 round",
               "alignt .sh04 \"t: 1\"",
               "alignt .ah02 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -31857,7 +31994,8 @@
               "alignt .ih04 \"t: 1\"",
               "mdeltav .mv01 18-18 2",
               "mdeltav .sh05 18-18 -1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -32031,7 +32169,8 @@
               "alignv .ah03 round",
               "singlev .ah02, .sv01 .none",
               "singlev .ah03, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -32267,7 +32406,8 @@
               "alignv .mh01 round",
               "alignt .hr02 \"t: 1\"",
               "alignt .hr01 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -32505,7 +32645,8 @@
               "alignb .sh03 \"b: 0\"",
               "interpolatev .ah03 .sh04, .sh05",
               "singlev .ah03, .sh02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -32708,7 +32849,8 @@
               "interpolatev .sh03 .av01, .ab01",
               "singlev .ab01, .sv01 \"eq Y: 171\"",
               "singlev .av01, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -32939,7 +33081,8 @@
               "alignv .av01 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .av01, .at01"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -33177,7 +33320,8 @@
               "alignv .mh04 round",
               "alignt .sh07 \"t: 1\"",
               "alignt .ah03 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -33422,7 +33566,8 @@
               "alignt .ih03 \"t: 1\"",
               "mdeltav .mv06 18-18 2",
               "mdeltav .sh08 18-18 -1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -33657,7 +33802,8 @@
               "mdeltav .av02 21-21 7",
               "mdeltav .av02 12-12 5",
               "mdeltav .sh08 12-12 4"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -33868,7 +34014,8 @@
               "alignv .ah04 round",
               "singlev .ah03, .sv03 .none",
               "singlev .ah04, .sv04 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -34094,7 +34241,8 @@
               "alignt .at01 \"t: x\"",
               "singlev .at01, .sv03 .round",
               "singlev .av01, .sv04 .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -34317,7 +34465,8 @@
                 "thickness":265
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -34483,7 +34632,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 \"eq Y: 162\"",
               "singlev .ab01, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -34702,7 +34852,8 @@
               "alignv .av01 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .av01, .at01"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -34928,7 +35079,8 @@
               "alignv .mh01 round",
               "alignt .sh03 \"t: 1\"",
               "alignt .ah01 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -35161,7 +35313,8 @@
               "alignt .ih07 \"t: 1\"",
               "mdeltav .mv02 18-18 2",
               "mdeltav .sh04 18-18 -1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -35360,7 +35513,8 @@
               "alignv .ah02 round",
               "singlev .ah01, .sv02 .none",
               "singlev .ah02, .sv03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -35528,7 +35682,8 @@
               "singlev .ah01, .sv02 \"eq Y: 171\"",
               "singlev .ab01, .av01 \"eq Y: 171\"",
               "doubleh .dh01, .dh02 \"eq X: 208\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -35677,7 +35832,8 @@
                 "thickness":327
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -35811,7 +35967,8 @@
                 "thickness":327
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -35945,7 +36102,8 @@
                 "thickness":327
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -36055,7 +36213,8 @@
                 "thickness":276
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -36281,7 +36440,8 @@
                 "thickness":300
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -36494,7 +36654,8 @@
               "mdeltav .av02 21-21 7",
               "mdeltav .av02 12-12 5",
               "mdeltav .sh05 12-12 4"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -36671,7 +36832,8 @@
               "alignv .av01 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv01 .av01, .at02"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -36855,7 +37017,8 @@
               "alignv .mh03 round",
               "alignt .sh04 \"t: 1\"",
               "alignt .ah02 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -37046,7 +37209,8 @@
               "alignt .ih02 \"t: 1\"",
               "mdeltav .mv02 18-18 2",
               "mdeltav .sh05 18-18 -1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -37226,7 +37390,8 @@
               "mdeltav .av02 21-21 7",
               "mdeltav .av02 12-12 5",
               "mdeltav .sh05 12-12 4"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -37381,7 +37546,8 @@
               "alignv .ah03 round",
               "singlev .ah02, .sv03 .none",
               "singlev .ah03, .sv04 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -37600,7 +37766,8 @@
               "mdeltav .av02 18-18 3",
               "singlev .av01, .sv01 .none",
               "singlev .av01, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -37800,7 +37967,8 @@
                 "thickness":326
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -38008,7 +38176,8 @@
               "alignv .av01 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv02 .av01, .at02"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -38223,7 +38392,8 @@
               "alignv .mh01 round",
               "alignt .sh06 \"t: 1\"",
               "alignt .ah02 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -38445,7 +38615,8 @@
               "alignt .ih05 \"t: 1\"",
               "mdeltav .mv01 18-18 2",
               "mdeltav .sh07 18-18 -1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -38633,7 +38804,8 @@
               "alignv .ah03 round",
               "singlev .ah02, .sv01 .none",
               "singlev .ah03, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -38815,7 +38987,8 @@
               "alignv .mh01 round",
               "alignt .sh06 \"t: 1\"",
               "alignt .ah03 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -39060,7 +39233,8 @@
                 "thickness":326
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -39213,7 +39387,8 @@
               "alignv .ah04 round",
               "singlev .ah03, .sv01 .none",
               "singlev .ah04, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -39456,7 +39631,8 @@
                 "thickness":287
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -39663,7 +39839,8 @@
                 "thickness":279
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -39800,7 +39977,8 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignt .at02 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -40011,7 +40189,8 @@
               "interpolatev .iv01 .sv03, .sv01",
               "alignt .at02 \"t: 1\"",
               "alignt .at03 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -40218,7 +40397,8 @@
               "singlev .mh01, .sv04 \"eq Y: 171\"",
               "alignt .at02 \"t: 1\"",
               "alignt .at03 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -40430,7 +40610,8 @@
               "alignv .ah04 round",
               "singlev .hr01, .sv01 .none",
               "singlev .ah04, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -40606,7 +40787,8 @@
               "mdeltah .mh01 16-16 2",
               "mdeltah .mh01 23-23 -2",
               "mdeltav .mh01 30-30 -1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -40715,7 +40897,8 @@
             "tth":[
               "doubleh .dh01, .dh02 \"eq X: 208\"",
               "mdeltav .mv01 15-15 3"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -40819,7 +41002,8 @@
               "alignv .av01 round",
               "alignt .ah01 \"t: 1\"",
               "singlev .ah01, .ah02 .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -40991,7 +41175,8 @@
                 "thickness":-267
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -41115,7 +41300,8 @@
               "singleh .sh01, .sh02 \"eq X: dia Lite\"",
               "mdeltah .sh02 19-20 5",
               "singleh .sh02, .sh03 \"eq X: 208\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -41266,7 +41452,8 @@
               "alignb .sh04 \"b: 0\"",
               "doublev .dv01, .ih02 \"eq Y: 144\"",
               "interpolatev .ah01 .at01, .sh02"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -41374,7 +41561,8 @@
               "singlev .at01, .sv01 \"eq Y: 144\"",
               "interpolatev .ih01 .ih03, .ih02",
               "singlev .dh01, .dh02 \"eq Y: 162\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -41528,7 +41716,8 @@
               "singlev .sh01, .sh02 .round",
               "singlev .at01, .sv01 .none",
               "singlev .sv01, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -41687,14 +41876,15 @@
               "singlev .sv01, .sv02 .none",
               "singlev .sv02, .ih03 \"eq Y: 171\"",
               "singlev .dh02, .ih01 .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"Epsilon",
         "unicode":"0395",
-        "lastModified":"2026-06-21 14:24:12",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -41815,7 +42005,8 @@
               "doublev .dv01, .dh01 \"eq Y: 144\"",
               "singlev .ab01, .dh02 \"eq Y: 171\"",
               "singlev .ah01, .sv01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -41909,7 +42100,8 @@
               "singlev .at01, .sv01 \"eq Y: 171\"",
               "interpolatev .iv04 .iv05, .iv06",
               "singlev .ab01, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -42059,14 +42251,15 @@
               "alignb .ah01 \"b: 0\"",
               "doublev .dv01, .dv02 \"eq Y: 171\"",
               "doublev .dv03, .dv04 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
       {
         "name":"Theta",
         "unicode":"0398",
-        "lastModified":"2026-06-20 14:56:45",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -42245,7 +42438,8 @@
                 "thickness":350
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -42378,7 +42572,8 @@
               "singlev .ah01, .mh03 \"eq Y: 171\"",
               "singlev .mh01, .sh02 \"eq Y: 171\"",
               "mdeltav .sh02 22-22 1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -42549,7 +42744,8 @@
               "interpolatev .ah02 .sh01, .hr01",
               "interpolatev .sh03 .sh01, .hr01",
               "interpolatev .ah03 .sh01, .hr01"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -42691,7 +42887,8 @@
                 "thickness":21
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -43158,7 +43355,8 @@
               "mdeltav .mh07 13-13 6",
               "interpolatev .ah02 .dh02, .sh02",
               "mdeltav .sh03 13-13 -3"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -43343,7 +43541,8 @@
               "mdeltav .mh08 48-48 4",
               "mdeltav .mh08 22-22 1",
               "mdeltav .mh08 10-10 -2"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -43485,7 +43684,8 @@
                 "thickness":241
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -43599,7 +43799,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 \"eq Y: 171\"",
               "singlev .ab01, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -43736,7 +43937,8 @@
               "alignb .sh02 \"b: 0\"",
               "doublev .dv01, .dv02 \"eq Y: 144\"",
               "singlev .at01, .sv01 \"eq Y: 144\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -43907,7 +44109,8 @@
               "interpolatev .ih01 .at01, .ab01",
               "singlev .at01, .sv03 .none",
               "singlev .sv03, .sv04 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -44014,7 +44217,8 @@
               "singlev .at01, .sv01 \"eq Y: 162\"",
               "singlev .sv01, .sv02 .none",
               "singlev .sv02, .sv03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -44175,7 +44379,8 @@
               "mdeltav .ih01 48-48 8",
               "fdeltav .ih01 19-19 3",
               "fdeltav .ih01 17-17 6"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -44405,7 +44610,8 @@
               "interpolatev .ah03 .iv03, .iv04",
               "interpolatev .sh08 .sh02, .sh03",
               "interpolatev .sh09 .sh05, .sh06"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -44572,7 +44778,8 @@
                 "thickness":-20
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -44749,7 +44956,8 @@
               "singlev .sv03, .sh05 .round",
               "singlev .sh01, .sv04 .round",
               "singlev .hr01, .sv05 .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -44946,7 +45154,8 @@
               "singlev .ih01, .ih02 \"Y: 171\"",
               "singlev .ab01, .dh01 .none",
               "singlev .dh01, .ah01 \"Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -45138,7 +45347,8 @@
               "singlev .ab01, .sv01 \"eq Y: 171\"",
               "singlev .sh02, .ih02 \"eq Y: 171\"",
               "singlev .sh01, .ih01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -45337,7 +45547,8 @@
               "interpolatev .iv01 .at01, .ih01",
               "singlev .ih01, .sv01 \"eq Y: 171\"",
               "singlev .at01, .ih02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -45483,7 +45694,8 @@
               "alignb .ah03 \"b: -500\"",
               "interpolatev .ih01 .ah01, .ah03",
               "singlev .ah01, .sv01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -45665,7 +45877,8 @@
               "singlev .hr03, .sv01 \"eq Y: 171\"",
               "singlev .ih01, .hr02 \"eq Y: 171\"",
               "singlev .hr01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -45818,7 +46031,8 @@
               "alignb .ab01 \"b: 0\"",
               "doublev .dv01, .dv02 \"eq Y: 171\"",
               "interpolatev .iv01 .at01, .ab01"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -45955,14 +46169,15 @@
                 "thickness":331
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
       {
         "name":"eta",
         "unicode":"03b7",
-        "lastModified":"2026-06-19 17:31:00",
+        "lastModified":"2026-06-21 19:16:44",
         "layers":[
           {
             "name":"Thin",
@@ -46144,7 +46359,8 @@
               "singlev .ab01, .sh02 .none",
               "singlev .sh04, .ah02 .none",
               "singlev .at01, .sv01 \"Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -46332,7 +46548,8 @@
               "singlev .sh04, .sh05 \"eq Y: 171\"",
               "singlev .sh01, .ih01 \"eq Y: 171\"",
               "singlev .sh03, .sh06 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -46469,7 +46686,8 @@
                 "thickness":327
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -46631,7 +46849,8 @@
                 "thickness":297
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -46767,7 +46986,8 @@
                 "thickness":21
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -46969,7 +47189,8 @@
               "singlev .sh02, .ih01 \"eq Y: 171\"",
               "singlev .ah01, .hr02 .none",
               "singlev .hr01, .sv01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -47027,7 +47248,8 @@
                 "thickness":21
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -47215,7 +47437,8 @@
                 "thickness":292
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -47343,7 +47566,8 @@
               "mdeltav .mv01 18-18 3",
               "singlev .at01, .sv01 \"eq Y: 162\"",
               "singlev .mh01, .sv02 \"eq Y: 153\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -47522,7 +47746,8 @@
                 "thickness":317
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -47649,7 +47874,8 @@
                 "thickness":332
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -47828,7 +48054,8 @@
                 "thickness":401
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -47941,7 +48168,8 @@
                 "thickness":309
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -48085,7 +48313,8 @@
                 "thickness":326
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -48255,7 +48484,8 @@
                 "thickness":288
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -48443,7 +48673,8 @@
                 "thickness":-20
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -48650,7 +48881,8 @@
                 "thickness":326
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -48800,7 +49032,8 @@
                 "thickness":326
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -48954,7 +49187,8 @@
                 "thickness":278
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -49126,7 +49360,8 @@
                 "thickness":334
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -49280,7 +49515,8 @@
                 "thickness":278
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -49466,7 +49702,8 @@
                 "thickness":326
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -49551,7 +49788,8 @@
                 "thickness":224
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -49646,7 +49884,8 @@
               "alignv .av01 round",
               "singlev .av01, .sv01 \"eq Y: 171\"",
               "singlev .sv01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -49741,7 +49980,8 @@
               "alignv .av01 round",
               "singlev .av01, .sv01 \"eq Y: 171\"",
               "singlev .sv01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -49826,7 +50066,8 @@
                 "thickness":224
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -49972,7 +50213,8 @@
               "singleh .sh04, .sh05 .none",
               "singleh .sh02, .sh06 \"eq X: dia Lite\"",
               "mdeltah .sh06 12-12 7"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -50122,7 +50364,8 @@
               "alignv .av01 round",
               "alignv .av02 round",
               "alignv .av03 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -50249,7 +50492,8 @@
               "singleh .ah01, .sh01 .round",
               "alignv .sh01 round",
               "alignt .ah02 \"t: 1\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -50375,7 +50619,8 @@
               "alignv .av01 round",
               "alignv .av02 round",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -50556,7 +50801,8 @@
                 "thickness":-395
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -50752,7 +50998,8 @@
               "mdeltah .ah03 12-12 7",
               "mdeltah .mh01 12-12 -4",
               "mdeltah .mh02 12-12 5"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -50935,7 +51182,8 @@
                 "thickness":322
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -51128,7 +51376,8 @@
               "singlev .dh02, .sv01 \"eq Y: 153\"",
               "singlev .sv01, .sv02 .none",
               "singlev .sv02, .sv03 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -51370,7 +51619,8 @@
               "singlev .dh02, .sv03 \"eq Y: 153\"",
               "singlev .sv03, .sv04 .none",
               "singlev .sv04, .sv05 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -51451,7 +51701,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -51526,7 +51777,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -51900,7 +52152,8 @@
               "alignh .ah06 round",
               "alignv .av03 round",
               "alignb .ab03 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -52526,7 +52779,8 @@
               "alignv .av10 round",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -52974,7 +53228,8 @@
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\"",
               "alignb .ab03 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -53077,7 +53332,8 @@
                 "thickness":250
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -53227,7 +53483,8 @@
                 "thickness":250
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -53424,7 +53681,8 @@
                 "thickness":250
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -53527,7 +53785,8 @@
                 "thickness":-250
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -53650,7 +53909,8 @@
               "singlev .at01, .sv01 \"eq Y: 135\"",
               "interpolatev .iv01 .at01, .ab01",
               "singlev .ab01, .sv02 \"eq Y: 135\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -53773,7 +54033,8 @@
               "singlev .ab01, .sv01 \"eq Y: 135\"",
               "interpolatev .iv01 .at01, .ab01",
               "singlev .at01, .sv02 \"eq Y: 135\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -54135,7 +54396,8 @@
                 "thickness":114
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -54395,7 +54657,8 @@
                 "thickness":114
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -54504,7 +54767,8 @@
                 "thickness":104
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -54629,7 +54893,8 @@
                 "thickness":95
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -54752,7 +55017,8 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -54881,7 +55147,8 @@
                 "thickness":102
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -55024,7 +55291,8 @@
                 "thickness":103
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -55139,7 +55407,8 @@
                 "thickness":102
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -55319,7 +55588,8 @@
                 "thickness":99
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -55456,7 +55726,8 @@
                 "thickness":103
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -55551,7 +55822,8 @@
                 "thickness":78
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -55650,7 +55922,8 @@
                 "thickness":77
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -55745,7 +56018,8 @@
                 "thickness":70
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -55860,7 +56134,8 @@
                 "thickness":100
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -55975,7 +56250,8 @@
                 "thickness":100
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -56092,7 +56368,8 @@
                 "thickness":95
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -56201,7 +56478,8 @@
                 "thickness":104
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -56308,7 +56586,8 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -56415,7 +56694,8 @@
                 "thickness":97
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -56542,7 +56822,8 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -56665,7 +56946,8 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -56794,7 +57076,8 @@
                 "thickness":102
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -56937,7 +57220,8 @@
                 "thickness":103
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -57052,7 +57336,8 @@
                 "thickness":102
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -57227,7 +57512,8 @@
                 "thickness":99
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -57369,7 +57655,8 @@
                 "thickness":103
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -57464,7 +57751,8 @@
                 "thickness":78
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -57563,7 +57851,8 @@
                 "thickness":77
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -57658,7 +57947,8 @@
                 "thickness":70
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -57774,7 +58064,8 @@
                 "thickness":100
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -57865,7 +58156,8 @@
                 "thickness":161
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -58063,7 +58355,8 @@
               "singlev .dv02, .sv04 .none",
               "singlev .dv03, .sv05 .none",
               "singlev .at01, .sv06 \"Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -58256,7 +58549,8 @@
               "mdeltav .mv01 13-13 4",
               "mdeltav .mv02 13-13 -2",
               "mdeltav .mh01 13-13 1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -58526,7 +58820,8 @@
               "alignt .at02 \"t: 1\"",
               "singlev .av01, .sv03 .round",
               "singlev .at02, .sv04 .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -58887,7 +59182,8 @@
               "alignt .hr01 \"t: 1\"",
               "singlev .av01, .sv02 .round",
               "singlev .hr01, .sv03 .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -58976,7 +59272,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -59079,7 +59376,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -59198,7 +59496,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -59441,7 +59740,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -59622,7 +59922,8 @@
                 "thickness":180
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -59819,7 +60120,8 @@
               "singlev .ih01, .ih02 \"Y: 171\"",
               "singlev .ab01, .dh01 .none",
               "singlev .dh01, .ah01 \"Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -60002,7 +60304,8 @@
               "alignt .at02 \"t: x\"",
               "singlev .at02, .sv01 .round",
               "singlev .hr01, .sv02 .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -60077,7 +60380,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -60182,7 +60486,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -60453,7 +60758,8 @@
                 "thickness":166
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -60724,7 +61030,8 @@
                 "thickness":171
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -60996,7 +61303,8 @@
                 "thickness":166
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -61268,7 +61576,8 @@
                 "thickness":164
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -61559,7 +61868,8 @@
                 "thickness":171
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -61850,7 +62160,8 @@
                 "thickness":160
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -62143,7 +62454,8 @@
                 "thickness":166
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -62456,7 +62768,8 @@
                 "thickness":164
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -62787,7 +63100,8 @@
                 "thickness":166
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -63137,7 +63451,8 @@
                 "thickness":162
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -63488,7 +63803,8 @@
                 "thickness":164
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -63816,7 +64132,8 @@
                 "thickness":162
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -63989,7 +64306,8 @@
                 "thickness":166
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64062,7 +64380,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64135,7 +64454,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64208,7 +64528,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64281,7 +64602,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64372,7 +64694,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64463,7 +64786,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64536,7 +64860,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64609,7 +64934,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64682,7 +65008,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64755,7 +65082,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64836,7 +65164,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64917,7 +65246,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64994,7 +65324,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -65071,7 +65402,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -65150,7 +65482,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -65229,7 +65562,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -65316,7 +65650,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -65403,7 +65738,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -65490,7 +65826,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -65577,7 +65914,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -65696,7 +66034,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -65815,7 +66154,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -65902,7 +66242,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -65989,7 +66330,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -66076,7 +66418,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -66163,7 +66506,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -66268,7 +66612,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -66373,7 +66718,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -66478,7 +66824,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -66583,7 +66930,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -66688,7 +67036,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -66793,7 +67142,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -66892,7 +67242,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -67027,7 +67378,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -67138,7 +67490,8 @@
                 "position":1000
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -67207,7 +67560,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -67292,7 +67646,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -67383,7 +67738,8 @@
                 "position":900
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -67478,7 +67834,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -67569,7 +67926,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -67657,7 +68015,8 @@
               "interpolatev .iv01 .ab01, .at01",
               "interpolatev .iv02 .ab01, .at01",
               "interpolatev .iv03 .ab01, .at01"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -67746,7 +68105,8 @@
                 "position":1300
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -67839,7 +68199,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -67916,7 +68277,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -68009,7 +68371,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -68107,7 +68470,8 @@
                 "thickness":224
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -68317,7 +68681,8 @@
               "mdeltah .mh05 20-20 6",
               "mdeltav .mh02 33-33 -1",
               "mdeltav .ih03 33-33 -1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -68557,7 +68922,8 @@
               "alignt .at01 \"t: 1\"",
               "singlev .av01, .sv01 .round",
               "singlev .at01, .sv02 .round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -68634,7 +69000,8 @@
             "tth":[
               "alignb .ab01 \"b: 0\"",
               "doublev .dv01, .dv02 \"Y: 153\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -68723,7 +69090,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -68966,7 +69334,8 @@
               "interpolatev .ah01 .dv03, .dv06",
               "interpolatev .ah02 .dv01, .dv08",
               "interpolatev .iv02 .dv01, .dv08"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -69049,7 +69418,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -69120,7 +69490,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -69197,7 +69568,8 @@
                 "position":1302
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -69268,7 +69640,8 @@
               "alignv .av02 round",
               "alignb .ab01 \"b: 0\"",
               "interpolatev .iv01 .ab01, .av01"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -69337,7 +69710,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -69406,7 +69780,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -69485,7 +69860,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -69626,7 +70002,8 @@
                 "position":-1009
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -69988,7 +70365,8 @@
               "alignh .ah06 round",
               "alignv .av03 round",
               "alignb .ab03 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -70350,7 +70728,8 @@
               "alignh .ah06 round",
               "alignv .av03 round",
               "alignb .ab03 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -70460,7 +70839,8 @@
                 "thickness":210
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -70609,7 +70989,8 @@
               "alignv .av01 round",
               "singlev .av01, .sv01 \"eq Y: 144\"",
               "singlev .sv01, .sv02 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -70793,7 +71174,8 @@
               "singlev .sv01, .sv02 .none",
               "singlev .av01, .sv03 \"eq Y: 144\"",
               "singlev .sv03, .sv04 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -70965,7 +71347,8 @@
                 "thickness":210
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -71159,7 +71542,8 @@
               "mdeltav .mv01 12-12 6",
               "mdeltav .mv02 12-12 6",
               "mdeltav .mh01 12-12 5"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -71324,7 +71708,8 @@
             "tth":[
               "mdeltav .mv01 13-13 4",
               "mdeltav .mv02 13-13 7"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -71479,7 +71864,8 @@
               "mdeltav .av03 12-12 6",
               "mdeltav .av03 18-18 5",
               "mdeltav .mv01 18-18 2"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -71647,7 +72033,8 @@
               "mdeltav .mv01 15-15 4",
               "mdeltav .mv01 16-16 3",
               "mdeltav .mv01 23-23 1"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -71813,7 +72200,8 @@
               "mdeltav .mv01 15-15 3",
               "mdeltav .mv01 20-20 3",
               "mdeltav .mv01 16-16 2"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -71884,7 +72272,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -71935,7 +72324,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -72089,7 +72479,8 @@
                 }
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -72184,7 +72575,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -72305,7 +72697,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -72394,7 +72787,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -72523,7 +72917,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -72616,7 +73011,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -72687,7 +73083,8 @@
               "singlev .ab01, .dh02 \"Y: 153\"",
               "singlev .dh02, .sv01 .none",
               "singlev .sv01, .dh01 .none"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -72758,7 +73155,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -73120,7 +73518,8 @@
               "alignh .ah06 round",
               "alignv .av03 round",
               "alignb .ab03 \"b: 0\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -73277,7 +73676,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -73336,7 +73736,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -73395,7 +73796,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -73454,7 +73856,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -73513,7 +73916,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -73572,7 +73976,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -73631,7 +74036,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -73690,7 +74096,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -73749,7 +74156,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -73804,7 +74212,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -73875,7 +74284,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -73930,7 +74340,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -74003,7 +74414,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -74056,7 +74468,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -74123,7 +74536,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -74176,7 +74590,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -74243,7 +74658,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -74336,7 +74752,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -74447,7 +74864,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -74504,7 +74922,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -74577,7 +74996,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -74650,7 +75070,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -74723,7 +75144,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -74796,7 +75218,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -74967,7 +75390,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -75072,7 +75496,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -75143,7 +75568,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -75334,7 +75760,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -75405,7 +75832,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -75482,7 +75910,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -75553,7 +75982,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -75644,7 +76074,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -75751,7 +76182,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -75888,7 +76320,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -76025,7 +76458,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -76214,7 +76648,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -76283,7 +76718,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -76356,7 +76792,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -76477,7 +76914,8 @@
                 "position":1300
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -76592,7 +77030,8 @@
                 "position":1364
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -76673,7 +77112,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -76778,7 +77218,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -76855,7 +77296,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -77018,7 +77460,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -77089,7 +77532,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -77186,7 +77630,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -77321,7 +77766,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -77384,7 +77830,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -77621,7 +78068,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -77858,7 +78306,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -78119,7 +78568,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -78375,7 +78825,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -78637,7 +79088,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -78915,7 +79367,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -79144,7 +79597,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -79462,7 +79916,8 @@
               "alignv .av02 round",
               "alignv .av03 round",
               "alignv .av04 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -79746,7 +80201,8 @@
               "alignv .av01 round",
               "alignv .av02 round",
               "alignv .av03 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -79990,7 +80446,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -80192,7 +80649,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -80394,7 +80852,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -80620,7 +81079,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -80841,7 +81301,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -81068,7 +81529,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -81311,7 +81773,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -81505,7 +81968,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -81786,7 +82250,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -82030,7 +82495,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -82235,7 +82701,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -82312,7 +82779,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -82511,7 +82979,8 @@
               "doublev .hr01, .dv05 \"eq Y: 162\"",
               "singlev .av01, .sv01 \"eq Y: 162\"",
               "singlev .at01, .sv02 \"eq Y: 162\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -82705,7 +83174,8 @@
                 "thickness":316
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -82869,7 +83339,8 @@
                 "thickness":327
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -83079,7 +83550,8 @@
                 "thickness":326
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -83210,7 +83682,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -83287,7 +83760,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -83360,7 +83834,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -83435,7 +83910,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -83564,7 +84040,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -83713,7 +84190,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -83862,7 +84340,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -84040,7 +84519,8 @@
                 "thickness":204
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -84257,7 +84737,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -84482,7 +84963,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -84571,7 +85053,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -84710,7 +85193,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -84873,7 +85357,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -85058,7 +85543,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -85187,7 +85673,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -85350,7 +85837,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -85471,7 +85959,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -85546,7 +86035,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -85661,7 +86151,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -85796,7 +86287,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -85925,7 +86417,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -86054,7 +86547,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -86161,7 +86655,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -86268,7 +86763,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -86375,7 +86871,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -86540,7 +87037,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -86705,7 +87203,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -86834,7 +87333,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -86983,7 +87483,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -87132,7 +87633,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -87301,7 +87803,8 @@
                 "position":2917
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -87482,7 +87985,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -87663,7 +88167,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -87816,7 +88321,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -88059,7 +88565,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -88302,7 +88809,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -88487,7 +88995,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -88576,7 +89085,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -88683,7 +89193,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -88830,7 +89341,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -88931,7 +89443,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -89022,7 +89535,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -89113,7 +89627,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -89220,7 +89735,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -89311,7 +89827,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -89420,7 +89937,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -89529,7 +90047,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -89628,7 +90147,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -89727,7 +90247,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -89828,7 +90349,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -89929,7 +90451,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -90050,7 +90573,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -90177,7 +90701,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -90288,7 +90813,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -90385,7 +90911,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -90506,7 +91033,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -90681,7 +91209,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -90848,7 +91377,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -90949,7 +91479,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -91050,7 +91581,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -91171,7 +91703,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -91292,7 +91825,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -91415,7 +91949,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -91514,7 +92049,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -91603,7 +92139,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -91676,7 +92213,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -91765,7 +92303,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -91874,7 +92413,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -91981,7 +92521,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -92116,7 +92657,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -92227,7 +92769,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -92300,7 +92843,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -92373,7 +92917,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -92400,7 +92945,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":0,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -92596,7 +93142,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -92755,7 +93302,8 @@
                 "thickness":229
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -92881,7 +93429,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"eq Y: 144\"",
               "singlev .av02, .sv02 \"eq Y: 144\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -93006,7 +93555,8 @@
               "alignv .sv03 round",
               "singlev .sv03, .sv04 \"eq Y: 144\"",
               "singlev .sv01, .sv02 \"eq Y: 144\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -93078,7 +93628,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"eq Y: 171\"",
               "singlev .av02, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -93148,7 +93699,8 @@
               "alignv .av02 round",
               "singlev .av02, .sv02 \"eq Y: 171\"",
               "singlev .av01, .sv01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -93214,7 +93766,8 @@
             "tth":[
               "alignv .at01 round",
               "alignv .av01 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -93280,7 +93833,8 @@
             "tth":[
               "alignv .at01 round",
               "alignv .av01 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -93365,7 +93919,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -93494,7 +94049,8 @@
             "tth":[
               "alignv .av01 round",
               "singlev .av01, .sv01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -93623,7 +94179,8 @@
             "tth":[
               "alignv .av01 round",
               "singlev .av01, .sv01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -93789,7 +94346,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"eq Y: 171\"",
               "singlev .av02, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -93955,7 +94513,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"eq Y: 171\"",
               "singlev .av02, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -94069,7 +94628,8 @@
                 "thickness":-20
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -94179,7 +94739,8 @@
                 "thickness":21
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -94308,7 +94869,8 @@
             "tth":[
               "alignv .av01 round",
               "singlev .av01, .sv01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -94474,7 +95036,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"eq Y: 171\"",
               "singlev .av02, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -94604,7 +95167,8 @@
             "tth":[
               "alignv .av01 round",
               "singlev .av01, .sv01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -94734,7 +95298,8 @@
             "tth":[
               "alignv .av01 round",
               "singlev .av01, .sv01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -94864,7 +95429,8 @@
             "tth":[
               "alignv .av01 round",
               "singlev .av01, .sv01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -94978,7 +95544,8 @@
                 "thickness":-20
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -95088,7 +95655,8 @@
                 "thickness":21
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -95254,7 +95822,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"eq Y: 171\"",
               "singlev .av02, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -95420,7 +95989,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"eq Y: 171\"",
               "singlev .av02, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -95586,7 +96156,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"eq Y: 171\"",
               "singlev .av02, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -95752,7 +96323,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"eq Y: 171\"",
               "singlev .av02, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -95866,7 +96438,8 @@
                 "thickness":-20
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -95976,7 +96549,8 @@
                 "thickness":21
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -95991,7 +96565,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "id":"element.13",
+                "id":"element.11",
                 "elementData":{
                   "contours":[
                     {
@@ -96026,7 +96600,7 @@
                     "point":"1070 606",
                     "contour":"contour.7",
                     "index":5,
-                    "element":"element.13"
+                    "element":"element.11"
                   }
                 }
               }
@@ -96136,7 +96710,8 @@
               "alignh .av01 round",
               "singleh .ah01, .at01 \"eq X: 208\"",
               "singleh .av01, .av02 \"eq X: 208\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -96331,7 +96906,8 @@
                 "thickness":229
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -96471,7 +97047,8 @@
               "alignv .ih01 round",
               "alignv .ih03 round",
               "alignv .sh03 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -96573,7 +97150,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -96619,7 +97197,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -96664,7 +97243,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -96710,7 +97290,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -96755,7 +97336,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -96801,7 +97383,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -96846,7 +97429,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -96891,7 +97475,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -96976,7 +97561,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -97021,7 +97607,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -97067,7 +97654,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -97128,7 +97716,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -97196,7 +97785,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -97264,7 +97854,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -97309,7 +97900,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -97374,7 +97966,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -97420,7 +98013,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -97481,7 +98075,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -97550,7 +98145,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -97614,7 +98210,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -97675,7 +98272,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -97753,7 +98351,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -97799,7 +98398,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -97845,7 +98445,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -97890,7 +98491,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -97936,7 +98538,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -97982,7 +98585,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -98028,7 +98632,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -98073,7 +98678,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -98146,7 +98752,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -98208,7 +98815,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1634,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -98283,7 +98891,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -98366,7 +98975,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -98411,7 +99021,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -98456,7 +99067,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -98501,7 +99113,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1200,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -98553,7 +99166,8 @@
             "name":"Bold",
             "flags":0,
             "advanceWidth":1324,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -98608,7 +99222,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -98737,7 +99352,8 @@
             "tth":[
               "alignv .av01 round",
               "singlev .av01, .sv01 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -98752,7 +99368,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "id":"element.14",
+                "id":"element.12",
                 "elementData":{
                   "contours":[
                     {
@@ -98787,7 +99403,7 @@
                     "point":"1070 806",
                     "contour":"contour.8",
                     "index":5,
-                    "element":"element.14"
+                    "element":"element.12"
                   }
                 }
               }
@@ -98897,7 +99513,8 @@
               "alignh .av01 round",
               "singleh .ah01, .at01 \"eq X: 208\"",
               "singleh .av01, .av02 \"eq X: 208\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -99063,7 +99680,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"eq Y: 171\"",
               "singlev .av02, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -99203,7 +99821,8 @@
               "alignv .ih01 round",
               "alignv .ih03 round",
               "alignv .sh03 round"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -99284,7 +99903,8 @@
                 "thickness":229
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       }
@@ -99316,7 +99936,7 @@
       {
         "name":"Regular",
         "tsn":"Regular",
-        "sgn":"Code612",
+        "sgn":"Flightline Code",
         "weight_name":"Regular",
         "width_name":"Normal",
         "weight":400,
@@ -99327,10 +99947,11 @@
       {
         "name":"Bold",
         "tsn":"Bold",
-        "sgn":"Code612",
-        "weight_name":"Regular",
+        "sgn":"Flightline Code",
+        "weight_name":"Bold",
         "width_name":"Normal",
-        "weight":400,
+        "weight":700,
+        "bold":true,
         "location":{
           "wt":700
         }
@@ -99338,10 +99959,10 @@
       {
         "name":"Medium",
         "tsn":"Medium",
-        "sgn":"Code612",
-        "weight_name":"Regular",
+        "sgn":"Flightline Code Medium",
+        "weight_name":"Medium",
         "width_name":"Normal",
-        "weight":600,
+        "weight":500,
         "location":{
           "wt":550
         }
@@ -99349,8 +99970,8 @@
       {
         "name":"Thin",
         "tsn":"Thin",
-        "sgn":"Code612",
-        "weight_name":"Regular",
+        "sgn":"Flightline Code Thin",
+        "weight_name":"Thin",
         "width_name":"Normal",
         "weight":100,
         "location":{
@@ -99360,8 +99981,8 @@
       {
         "name":"Light",
         "tsn":"Light",
-        "sgn":"Code612",
-        "weight_name":"Regular",
+        "sgn":"Flightline Code Light",
+        "weight_name":"Light",
         "width_name":"Normal",
         "weight":300,
         "location":{
@@ -99371,8 +99992,8 @@
       {
         "name":"ExtraLight",
         "tsn":"ExtraLight",
-        "sgn":"Code612",
-        "weight_name":"Regular",
+        "sgn":"Flightline Code ExtraLight",
+        "weight_name":"Extra Light",
         "width_name":"Normal",
         "weight":200,
         "location":{
@@ -99381,7 +100002,7 @@
       }
     ],
     "defaultMaster":"Regular",
-    "currentMaster":"#instance",
+    "currentMaster":"Bold",
     "interpolationFlags":0,
     "openTypeFeatures":[
       {
@@ -99435,12 +100056,12 @@
       ]
     },
     "info":{
-      "tfn":"Code612",
-      "sgn":"Code612",
+      "tfn":"Flightline Code",
+      "sgn":"Flightline Code",
       "creationDate":"2017/11/27 06:58:00",
       "copyright":"Copyright (c) 2012, AIRBUS (airbus-group.com)\nCopyright (c) 2026 Brett Wilson",
       "trademark":"PolarSys, PolarSys B612 and B612 are trademarks of The Eclipse Foundation",
-      "designer":"Nicolas Chauveau, Thomas Paillot, Jonathan Favre-Lamarine, Jean-Luc Vinot",
+      "designer":"Nicolas Chauveau, Thomas Paillot, Jonathan Favre-Lamarine, Jean-Luc Vinot, Brett Wilson",
       "designerURL":"http://intactile.com",
       "license":"This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
       "licenseURL":"http://scripts.sil.org/OFL",
@@ -99467,9 +100088,9 @@
         "fontMaster":{
           "name":"Bold",
           "tsn":"Bold",
-          "sgn":"Code612",
-          "ffn":"Code612 Bold",
-          "psn":"Code612-Bold",
+          "sgn":"Flightline Code",
+          "ffn":"Flightline Code Bold",
+          "psn":"FlightlineCode-Bold",
           "weight_name":"Bold",
           "width_name":"Normal",
           "slope_name":"Plain",
@@ -99528,6 +100149,7 @@
             "hhea_descender":-500,
             "hhea_line_gap":0,
             "hhea_use_custom":true,
+            "hinting.forceBold":0,
             "strikeout_position":500,
             "strikeout_size":100,
             "subscript_x_offset":0,
@@ -99796,10 +100418,10 @@
       {
         "fontMaster":{
           "name":"Regular",
-          "tsn":"Regular",
-          "sgn":"Code612",
-          "ffn":"Code612 Regular",
-          "psn":"Code612-Regular",
+          "tsn":"Normal",
+          "sgn":"Flightline Code",
+          "ffn":"Flightline Code Normal",
+          "psn":"FlightlineCode-Normal",
           "weight_name":"Normal",
           "width_name":"Normal",
           "slope_name":"Plain",
@@ -99823,44 +100445,13 @@
           },
           "guidelines":[
             {
-              "name":"Caps midline",
-              "style":"custom",
-              "horizontal":true,
-              "auto":true,
-              "position":750
-            },
-            {
               "name":"f1",
               "style":"custom",
               "horizontal":true,
               "position":13850
             },
             {
-              "name":"f2",
-              "style":"custom",
-              "horizontal":true,
-              "position":1900
-            },
-            {
               "name":"f3",
-              "style":"custom",
-              "horizontal":true,
-              "position":12700
-            },
-            {
-              "name":"f4",
-              "style":"custom",
-              "horizontal":true,
-              "position":12700
-            },
-            {
-              "name":"f5",
-              "style":"custom",
-              "horizontal":true,
-              "position":12700
-            },
-            {
-              "name":"f6",
               "style":"custom",
               "horizontal":true,
               "position":12700
@@ -99872,10 +100463,41 @@
               "position":12700
             },
             {
-              "name":"medianeCAPS",
+              "name":"f4",
               "style":"custom",
               "horizontal":true,
-              "position":-41
+              "position":12700
+            },
+            {
+              "name":"f6",
+              "style":"custom",
+              "horizontal":true,
+              "position":12700
+            },
+            {
+              "name":"f5",
+              "style":"custom",
+              "horizontal":true,
+              "position":12700
+            },
+            {
+              "name":"f2",
+              "style":"custom",
+              "horizontal":true,
+              "position":1900
+            },
+            {
+              "name":"roundCAPS",
+              "style":"custom",
+              "horizontal":true,
+              "position":1517
+            },
+            {
+              "name":"Caps midline",
+              "style":"custom",
+              "horizontal":true,
+              "auto":true,
+              "position":750
             },
             {
               "name":"roundBDCDottom",
@@ -99885,10 +100507,10 @@
               "position":-17
             },
             {
-              "name":"roundCAPS",
+              "name":"medianeCAPS",
               "style":"custom",
               "horizontal":true,
-              "position":1517
+              "position":-41
             },
             {
               "name":"roundDescender",
@@ -99925,6 +100547,7 @@
             "hhea_descender":-500,
             "hhea_line_gap":0,
             "hhea_use_custom":true,
+            "hinting.forceBold":0,
             "strikeout_position":500,
             "strikeout_size":100,
             "subscript_x_offset":0,
@@ -100236,11 +100859,11 @@
       {
         "fontMaster":{
           "name":"Thin",
-          "tsn":"ExtraLight SemiCondensed",
-          "sgn":"Code612",
-          "ffn":"Code612 ExtLt SemCond",
-          "psn":"Code612-ExtLtSemCond",
-          "weight_name":"ExtraLight",
+          "tsn":"Thin",
+          "sgn":"Flightline Code Thin",
+          "ffn":"Flightline Code Thin",
+          "psn":"FlightlineCode-Thin",
+          "weight_name":"Thin",
           "width_name":"Normal",
           "slope_name":"Plain",
           "ascender":1600,
@@ -100248,7 +100871,7 @@
           "xHeight":1100,
           "capsHeight":1500,
           "measurement":0,
-          "weight":200,
+          "weight":100,
           "width":5,
           "safeTop":1966,
           "safeBottom":712,
@@ -100296,6 +100919,7 @@
             "hhea_descender":-500,
             "hhea_line_gap":0,
             "hhea_use_custom":true,
+            "hinting.forceBold":0,
             "strikeout_position":500,
             "strikeout_size":100,
             "subscript_x_offset":0,
