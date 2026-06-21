@@ -7,6 +7,8 @@
 B612 Mono has only Regular and Bold weights. Flightline Code adds Thin, Extra Light, Light, and
 Medium variants. The lighter versions in particular are more appropriate for terminal use.
 
+![Weight comparison](B612_weight_comparison.png)
+
 ## Stylistic differences
 
 Flightline Code has less space between the characters, with a width of 1.2× the height, while B612
@@ -53,4 +55,4 @@ some of the lower-case letters, like the top of the bowl of the “d” are not 
 
 ![Windows hinting illustration](windows_hinting.png)
 
-See [trademarks](../trademarks.md)
+See [trademarks](../TRADEMARKS.md)

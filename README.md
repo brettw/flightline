@@ -6,15 +6,29 @@ Flightline Code is a clean, readable font designed for coding, terminal, and oth
 use. While being extremely legible, it maintains a hint of old-fashined quirkiness combined with
 modern humanist design.
 
-14pt Flightline Code on Mac in Visual Studio Code:
+It is designed for use a small screen sizes.
+
+ * Large and easy-to-differentiate punctuation.
+ * Large dots and tails for things like periods, commas, and the dots on “i” and “!”. These are
+   ideal for legibility at small sizes though they may look odd at very large sizes.
+ * Commonly confused pairs like zero/“oh”, one/“ell”, and single-quote/backtick are
+   clearly differentiated.
+ * Punctuation like “-” and “>” are vertically aligned to produce pleasing combinations even without
+   special combining rules.
+
+14pt Flightline Code Light on Mac in Visual Studio Code:
 
 ![Code example](docs/vscode_cpp.png)
 
 It is based on the excellent [B612 Mono](https://github.com/polarsys/b612) font from Airbus with
-significant modifications to make it more appropriate for computer and programming use. Please see
-the [comparison with B612 Mono](docs/B612-Mono-comparison.md) for details.
+significant modifications to make it more appropriate for computer terminal and programming use.
+Please see the [comparison with B612 Mono](docs/B612-Mono-comparison.md) for details.
 
 ## Weights
+
+Flightline Code has a full set of six weights. The lighter variants in particular are very close
+so you can choose dial in the style that looks best to you. I recommend either the Light or Extra
+Light variants for coding.
 
 ![Alphabet with weights](docs/alphabet_weights.png)
 
@@ -23,6 +37,8 @@ the [comparison with B612 Mono](docs/B612-Mono-comparison.md) for details.
 Copyright (c) 2012, AIRBUS (airbus-group.com). All rights reserved.
 
 Copyright (c) 2026 Brett Wilson
+
+See [trademarks](TRADEMARKS.md)
 
 ## License
 
