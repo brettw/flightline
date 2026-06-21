@@ -1,12 +1,22 @@
-# Code612 font
+![Flightline Code](docs/name_weights.png)
 
-Code612 is a clean, readable font designed for coding, terminal, and other general screen use. While
-being extremely legible, it maintains a hint of old-fashined quirkiness combined with modern
-humanist design.
+# Flightline Code Font
+
+Flightline Code is a clean, readable font designed for coding, terminal, and other general screen
+use. While being extremely legible, it maintains a hint of old-fashined quirkiness combined with
+modern humanist design.
+
+14pt Flightline Code on Mac in Visual Studio Code:
+
+![Code example](docs/vscode_cpp.png)
 
 It is based on the excellent [B612 Mono](https://github.com/polarsys/b612) font from Airbus with
 significant modifications to make it more appropriate for computer and programming use. Please see
 the [comparison with B612 Mono](docs/B612-Mono-comparison.md) for details.
+
+## Weights
+
+![Alphabet with weights](docs/alphabet_weights.png)
 
 ## Copyright
 
