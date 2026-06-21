@@ -166,9 +166,11 @@ languagesystem grek dflt; # Greek default
     bar
     braceright
     asciitilde
-
 ];
+"""
 
+
+HARDCODED_FEATURES = """
 feature ss01 {
 # GSUB feature: Stylistic Set 1
 # Lookups: 1
@@ -398,6 +400,29 @@ def append_sequence_substitution_chain(
         current[index] = output
 
 
+def append_sequence_seed_substitution(
+    lines: list[str],
+    glyphs: tuple[str, ...],
+    outputs: tuple[str, ...],
+    prefix: str = "",
+    suffix: str = "",
+) -> None:
+    for index, output in enumerate(outputs):
+        if glyphs[index] == output:
+            continue
+
+        pattern = list(glyphs)
+        pattern[index] = f"{pattern[index]}'"
+        parts = []
+        if prefix:
+            parts.append(prefix)
+        parts.extend(pattern)
+        if suffix:
+            parts.append(suffix)
+        lines.append(f"  sub {' '.join(parts)} by {output};")
+        return
+
+
 def append_long_operator_right_full_rules(
     lines: list[str], glyphs: tuple[str, ...], outputs: tuple[str, ...]
 ) -> None:
@@ -425,9 +450,14 @@ def append_repeated_sequence_rules(
 ) -> None:
     glyphs = tuple([glyph] * length)
     if right_full:
-        append_long_operator_right_full_rules(lines, glyphs, outputs)
+        for suffix in ("@fullLeft", "space @fullLeft"):
+            append_sequence_seed_substitution(lines, glyphs, outputs, suffix=suffix)
     else:
-        append_long_operator_lowercase_rules(lines, glyphs, outputs)
+        for prefix in ("@littleRight", "@littleRight space"):
+            append_sequence_seed_substitution(lines, glyphs, outputs, prefix=prefix)
+        for suffix in ("@littleLeft", "space @littleLeft"):
+            append_sequence_seed_substitution(lines, glyphs, outputs, suffix=suffix)
+    lines.append("")
 
 
 def repeated_sequence_lengths() -> range:
@@ -592,7 +622,7 @@ def generate_calt() -> str:
 
 
 def generate_features() -> str:
-    return f"{HEADER}{generate_annotated_classes()}{generate_calt()}\n"
+    return f"{HEADER}{generate_annotated_classes()}{HARDCODED_FEATURES}{generate_calt()}\n"
 
 
 def main() -> int:

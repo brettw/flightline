@@ -268,6 +268,12 @@
       "expected": "a equal.lc equal.lc space a equal.lc equal.lc equal.lc equal.lc space a hyphen.lc hyphen.lc hyphen.lc space a hyphen.lc hyphen.lc hyphen.lc hyphen.lc"
     },
     {
+      "name": "calt propagates lowercase across minimum and maximum repeated equals",
+      "feature": "calt",
+      "inputText": "a== a========",
+      "expected": "a equal.lc equal.lc space a equal.lc equal.lc equal.lc equal.lc equal.lc equal.lc equal.lc equal.lc"
+    },
+    {
       "name": "calt propagates lowercase across repeated equals and hyphens before lowercase glyphs",
       "feature": "calt",
       "inputText": "==c ====c ---c ----c",

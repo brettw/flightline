@@ -157,8 +157,23 @@ languagesystem grek dflt; # Greek default
     bar
     braceright
     asciitilde
-
 ];
+
+
+@lcAnnotated = [
+    plus.lc hyphen.lc less.lc greater.lc
+    equal.lc asciitilde.lc asterisk.lc equal.lc.rightfull
+    greater.lc.leftfull hyphen.lc.rightfull less.lc.rightfull hyphen.lc.leftfull
+    parenleft.lc parenright.lc bracketleft.lc bracketright.lc
+    braceleft.lc braceright.lc
+];
+
+@ucAnnotated = [
+    plus.uc hyphen.uc equal.uc asciitilde.uc
+    asterisk.uc equal.rightfull greater.leftfull hyphen.rightfull
+    less.rightfull hyphen.leftfull
+];
+
 
 feature ss01 {
 # GSUB feature: Stylistic Set 1
@@ -189,178 +204,50 @@ feature ss02 {
 
 } ss02;
 
-
-@lcAnnotated = [
-    plus.lc hyphen.lc less.lc greater.lc
-    equal.lc asciitilde.lc asterisk.lc equal.lc.rightfull
-    greater.lc.leftfull hyphen.lc.rightfull less.lc.rightfull hyphen.lc.leftfull
-    parenleft.lc parenright.lc bracketleft.lc bracketright.lc
-    braceleft.lc braceright.lc
-];
-
-@ucAnnotated = [
-    plus.uc hyphen.uc equal.uc asciitilde.uc
-    asterisk.uc equal.rightfull greater.leftfull hyphen.rightfull
-    less.rightfull hyphen.leftfull
-];
-
-
 feature calt {
 # GSUB feature: Contextual Alternates
 # Lookups: 1
   sub equal' equal equal equal equal equal equal equal @fullLeft by equal.uc;
-  sub equal.uc equal' equal equal equal equal equal equal @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal' equal equal equal equal equal @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal' equal equal equal equal @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal.uc equal' equal equal equal @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal.uc equal.uc equal' equal equal @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal.uc equal.uc equal.uc equal' equal @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal.uc equal.uc equal.uc equal.uc equal' @fullLeft by equal.uc;
   sub equal' equal equal equal equal equal equal equal space @fullLeft by equal.uc;
-  sub equal.uc equal' equal equal equal equal equal equal space @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal' equal equal equal equal equal space @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal' equal equal equal equal space @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal.uc equal' equal equal equal space @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal.uc equal.uc equal' equal equal space @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal.uc equal.uc equal.uc equal' equal space @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal.uc equal.uc equal.uc equal.uc equal' space @fullLeft by equal.uc;
 
   sub equal' equal equal equal equal equal equal @fullLeft by equal.uc;
-  sub equal.uc equal' equal equal equal equal equal @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal' equal equal equal equal @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal' equal equal equal @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal.uc equal' equal equal @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal.uc equal.uc equal' equal @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal.uc equal.uc equal.uc equal' @fullLeft by equal.uc;
   sub equal' equal equal equal equal equal equal space @fullLeft by equal.uc;
-  sub equal.uc equal' equal equal equal equal equal space @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal' equal equal equal equal space @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal' equal equal equal space @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal.uc equal' equal equal space @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal.uc equal.uc equal' equal space @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal.uc equal.uc equal.uc equal' space @fullLeft by equal.uc;
 
   sub equal' equal equal equal equal equal @fullLeft by equal.uc;
-  sub equal.uc equal' equal equal equal equal @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal' equal equal equal @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal' equal equal @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal.uc equal' equal @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal.uc equal.uc equal' @fullLeft by equal.uc;
   sub equal' equal equal equal equal equal space @fullLeft by equal.uc;
-  sub equal.uc equal' equal equal equal equal space @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal' equal equal equal space @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal' equal equal space @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal.uc equal' equal space @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal.uc equal.uc equal' space @fullLeft by equal.uc;
 
   sub equal' equal equal equal equal @fullLeft by equal.uc;
-  sub equal.uc equal' equal equal equal @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal' equal equal @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal' equal @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal.uc equal' @fullLeft by equal.uc;
   sub equal' equal equal equal equal space @fullLeft by equal.uc;
-  sub equal.uc equal' equal equal equal space @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal' equal equal space @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal' equal space @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal.uc equal' space @fullLeft by equal.uc;
 
   sub equal' equal equal equal @fullLeft by equal.uc;
-  sub equal.uc equal' equal equal @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal' equal @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal' @fullLeft by equal.uc;
   sub equal' equal equal equal space @fullLeft by equal.uc;
-  sub equal.uc equal' equal equal space @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal' equal space @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal.uc equal' space @fullLeft by equal.uc;
 
   sub equal' equal equal @fullLeft by equal.uc;
-  sub equal.uc equal' equal @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal' @fullLeft by equal.uc;
   sub equal' equal equal space @fullLeft by equal.uc;
-  sub equal.uc equal' equal space @fullLeft by equal.uc;
-  sub equal.uc equal.uc equal' space @fullLeft by equal.uc;
 
   sub equal' equal @fullLeft by equal.uc;
-  sub equal.uc equal' @fullLeft by equal.uc;
   sub equal' equal space @fullLeft by equal.uc;
-  sub equal.uc equal' space @fullLeft by equal.uc;
 
   sub hyphen' hyphen hyphen hyphen hyphen hyphen hyphen hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen' hyphen hyphen hyphen hyphen hyphen hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen' hyphen hyphen hyphen hyphen hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen' hyphen hyphen hyphen hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen' hyphen hyphen hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen' hyphen hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen' hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen' @fullLeft by hyphen.uc;
   sub hyphen' hyphen hyphen hyphen hyphen hyphen hyphen hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen' hyphen hyphen hyphen hyphen hyphen hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen' hyphen hyphen hyphen hyphen hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen' hyphen hyphen hyphen hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen' hyphen hyphen hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen' hyphen hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen' hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen' space @fullLeft by hyphen.uc;
 
   sub hyphen' hyphen hyphen hyphen hyphen hyphen hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen' hyphen hyphen hyphen hyphen hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen' hyphen hyphen hyphen hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen' hyphen hyphen hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen' hyphen hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen' hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen' @fullLeft by hyphen.uc;
   sub hyphen' hyphen hyphen hyphen hyphen hyphen hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen' hyphen hyphen hyphen hyphen hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen' hyphen hyphen hyphen hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen' hyphen hyphen hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen' hyphen hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen' hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen' space @fullLeft by hyphen.uc;
 
   sub hyphen' hyphen hyphen hyphen hyphen hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen' hyphen hyphen hyphen hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen' hyphen hyphen hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen' hyphen hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen' hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen' @fullLeft by hyphen.uc;
   sub hyphen' hyphen hyphen hyphen hyphen hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen' hyphen hyphen hyphen hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen' hyphen hyphen hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen' hyphen hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen' hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen' space @fullLeft by hyphen.uc;
 
   sub hyphen' hyphen hyphen hyphen hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen' hyphen hyphen hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen' hyphen hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen' hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen' @fullLeft by hyphen.uc;
   sub hyphen' hyphen hyphen hyphen hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen' hyphen hyphen hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen' hyphen hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen' hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen.uc hyphen' space @fullLeft by hyphen.uc;
 
   sub hyphen' hyphen hyphen hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen' hyphen hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen' hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen' @fullLeft by hyphen.uc;
   sub hyphen' hyphen hyphen hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen' hyphen hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen' hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen.uc hyphen' space @fullLeft by hyphen.uc;
 
   sub hyphen' hyphen hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen' hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen' @fullLeft by hyphen.uc;
   sub hyphen' hyphen hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen' hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen.uc hyphen' space @fullLeft by hyphen.uc;
 
   sub hyphen' hyphen @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen' @fullLeft by hyphen.uc;
   sub hyphen' hyphen space @fullLeft by hyphen.uc;
-  sub hyphen.uc hyphen' space @fullLeft by hyphen.uc;
 
   sub equal' equal equal @fullLeft by equal.uc;
   sub equal.uc equal' equal @fullLeft by equal.uc;
@@ -433,298 +320,74 @@ feature calt {
   sub less.rightfull hyphen' space @fullLeft by hyphen.leftfull;
 
   sub @littleRight equal' equal equal equal equal equal equal equal by equal.lc;
-  sub @littleRight equal.lc equal' equal equal equal equal equal equal by equal.lc;
-  sub @littleRight equal.lc equal.lc equal' equal equal equal equal equal by equal.lc;
-  sub @littleRight equal.lc equal.lc equal.lc equal' equal equal equal equal by equal.lc;
-  sub @littleRight equal.lc equal.lc equal.lc equal.lc equal' equal equal equal by equal.lc;
-  sub @littleRight equal.lc equal.lc equal.lc equal.lc equal.lc equal' equal equal by equal.lc;
-  sub @littleRight equal.lc equal.lc equal.lc equal.lc equal.lc equal.lc equal' equal by equal.lc;
-  sub @littleRight equal.lc equal.lc equal.lc equal.lc equal.lc equal.lc equal.lc equal' by equal.lc;
   sub @littleRight space equal' equal equal equal equal equal equal equal by equal.lc;
-  sub @littleRight space equal.lc equal' equal equal equal equal equal equal by equal.lc;
-  sub @littleRight space equal.lc equal.lc equal' equal equal equal equal equal by equal.lc;
-  sub @littleRight space equal.lc equal.lc equal.lc equal' equal equal equal equal by equal.lc;
-  sub @littleRight space equal.lc equal.lc equal.lc equal.lc equal' equal equal equal by equal.lc;
-  sub @littleRight space equal.lc equal.lc equal.lc equal.lc equal.lc equal' equal equal by equal.lc;
-  sub @littleRight space equal.lc equal.lc equal.lc equal.lc equal.lc equal.lc equal' equal by equal.lc;
-  sub @littleRight space equal.lc equal.lc equal.lc equal.lc equal.lc equal.lc equal.lc equal' by equal.lc;
   sub equal' equal equal equal equal equal equal equal @littleLeft by equal.lc;
-  sub equal.lc equal' equal equal equal equal equal equal @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal' equal equal equal equal equal @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal' equal equal equal equal @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal.lc equal' equal equal equal @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal.lc equal.lc equal' equal equal @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal.lc equal.lc equal.lc equal' equal @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal.lc equal.lc equal.lc equal.lc equal' @littleLeft by equal.lc;
   sub equal' equal equal equal equal equal equal equal space @littleLeft by equal.lc;
-  sub equal.lc equal' equal equal equal equal equal equal space @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal' equal equal equal equal equal space @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal' equal equal equal equal space @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal.lc equal' equal equal equal space @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal.lc equal.lc equal' equal equal space @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal.lc equal.lc equal.lc equal' equal space @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal.lc equal.lc equal.lc equal.lc equal' space @littleLeft by equal.lc;
 
   sub @littleRight equal' equal equal equal equal equal equal by equal.lc;
-  sub @littleRight equal.lc equal' equal equal equal equal equal by equal.lc;
-  sub @littleRight equal.lc equal.lc equal' equal equal equal equal by equal.lc;
-  sub @littleRight equal.lc equal.lc equal.lc equal' equal equal equal by equal.lc;
-  sub @littleRight equal.lc equal.lc equal.lc equal.lc equal' equal equal by equal.lc;
-  sub @littleRight equal.lc equal.lc equal.lc equal.lc equal.lc equal' equal by equal.lc;
-  sub @littleRight equal.lc equal.lc equal.lc equal.lc equal.lc equal.lc equal' by equal.lc;
   sub @littleRight space equal' equal equal equal equal equal equal by equal.lc;
-  sub @littleRight space equal.lc equal' equal equal equal equal equal by equal.lc;
-  sub @littleRight space equal.lc equal.lc equal' equal equal equal equal by equal.lc;
-  sub @littleRight space equal.lc equal.lc equal.lc equal' equal equal equal by equal.lc;
-  sub @littleRight space equal.lc equal.lc equal.lc equal.lc equal' equal equal by equal.lc;
-  sub @littleRight space equal.lc equal.lc equal.lc equal.lc equal.lc equal' equal by equal.lc;
-  sub @littleRight space equal.lc equal.lc equal.lc equal.lc equal.lc equal.lc equal' by equal.lc;
   sub equal' equal equal equal equal equal equal @littleLeft by equal.lc;
-  sub equal.lc equal' equal equal equal equal equal @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal' equal equal equal equal @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal' equal equal equal @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal.lc equal' equal equal @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal.lc equal.lc equal' equal @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal.lc equal.lc equal.lc equal' @littleLeft by equal.lc;
   sub equal' equal equal equal equal equal equal space @littleLeft by equal.lc;
-  sub equal.lc equal' equal equal equal equal equal space @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal' equal equal equal equal space @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal' equal equal equal space @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal.lc equal' equal equal space @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal.lc equal.lc equal' equal space @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal.lc equal.lc equal.lc equal' space @littleLeft by equal.lc;
 
   sub @littleRight equal' equal equal equal equal equal by equal.lc;
-  sub @littleRight equal.lc equal' equal equal equal equal by equal.lc;
-  sub @littleRight equal.lc equal.lc equal' equal equal equal by equal.lc;
-  sub @littleRight equal.lc equal.lc equal.lc equal' equal equal by equal.lc;
-  sub @littleRight equal.lc equal.lc equal.lc equal.lc equal' equal by equal.lc;
-  sub @littleRight equal.lc equal.lc equal.lc equal.lc equal.lc equal' by equal.lc;
   sub @littleRight space equal' equal equal equal equal equal by equal.lc;
-  sub @littleRight space equal.lc equal' equal equal equal equal by equal.lc;
-  sub @littleRight space equal.lc equal.lc equal' equal equal equal by equal.lc;
-  sub @littleRight space equal.lc equal.lc equal.lc equal' equal equal by equal.lc;
-  sub @littleRight space equal.lc equal.lc equal.lc equal.lc equal' equal by equal.lc;
-  sub @littleRight space equal.lc equal.lc equal.lc equal.lc equal.lc equal' by equal.lc;
   sub equal' equal equal equal equal equal @littleLeft by equal.lc;
-  sub equal.lc equal' equal equal equal equal @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal' equal equal equal @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal' equal equal @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal.lc equal' equal @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal.lc equal.lc equal' @littleLeft by equal.lc;
   sub equal' equal equal equal equal equal space @littleLeft by equal.lc;
-  sub equal.lc equal' equal equal equal equal space @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal' equal equal equal space @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal' equal equal space @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal.lc equal' equal space @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal.lc equal.lc equal' space @littleLeft by equal.lc;
 
   sub @littleRight equal' equal equal equal equal by equal.lc;
-  sub @littleRight equal.lc equal' equal equal equal by equal.lc;
-  sub @littleRight equal.lc equal.lc equal' equal equal by equal.lc;
-  sub @littleRight equal.lc equal.lc equal.lc equal' equal by equal.lc;
-  sub @littleRight equal.lc equal.lc equal.lc equal.lc equal' by equal.lc;
   sub @littleRight space equal' equal equal equal equal by equal.lc;
-  sub @littleRight space equal.lc equal' equal equal equal by equal.lc;
-  sub @littleRight space equal.lc equal.lc equal' equal equal by equal.lc;
-  sub @littleRight space equal.lc equal.lc equal.lc equal' equal by equal.lc;
-  sub @littleRight space equal.lc equal.lc equal.lc equal.lc equal' by equal.lc;
   sub equal' equal equal equal equal @littleLeft by equal.lc;
-  sub equal.lc equal' equal equal equal @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal' equal equal @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal' equal @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal.lc equal' @littleLeft by equal.lc;
   sub equal' equal equal equal equal space @littleLeft by equal.lc;
-  sub equal.lc equal' equal equal equal space @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal' equal equal space @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal' equal space @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal.lc equal' space @littleLeft by equal.lc;
 
   sub @littleRight equal' equal equal equal by equal.lc;
-  sub @littleRight equal.lc equal' equal equal by equal.lc;
-  sub @littleRight equal.lc equal.lc equal' equal by equal.lc;
-  sub @littleRight equal.lc equal.lc equal.lc equal' by equal.lc;
   sub @littleRight space equal' equal equal equal by equal.lc;
-  sub @littleRight space equal.lc equal' equal equal by equal.lc;
-  sub @littleRight space equal.lc equal.lc equal' equal by equal.lc;
-  sub @littleRight space equal.lc equal.lc equal.lc equal' by equal.lc;
   sub equal' equal equal equal @littleLeft by equal.lc;
-  sub equal.lc equal' equal equal @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal' equal @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal' @littleLeft by equal.lc;
   sub equal' equal equal equal space @littleLeft by equal.lc;
-  sub equal.lc equal' equal equal space @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal' equal space @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal.lc equal' space @littleLeft by equal.lc;
 
   sub @littleRight equal' equal equal by equal.lc;
-  sub @littleRight equal.lc equal' equal by equal.lc;
-  sub @littleRight equal.lc equal.lc equal' by equal.lc;
   sub @littleRight space equal' equal equal by equal.lc;
-  sub @littleRight space equal.lc equal' equal by equal.lc;
-  sub @littleRight space equal.lc equal.lc equal' by equal.lc;
   sub equal' equal equal @littleLeft by equal.lc;
-  sub equal.lc equal' equal @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal' @littleLeft by equal.lc;
   sub equal' equal equal space @littleLeft by equal.lc;
-  sub equal.lc equal' equal space @littleLeft by equal.lc;
-  sub equal.lc equal.lc equal' space @littleLeft by equal.lc;
 
   sub @littleRight equal' equal by equal.lc;
-  sub @littleRight equal.lc equal' by equal.lc;
   sub @littleRight space equal' equal by equal.lc;
-  sub @littleRight space equal.lc equal' by equal.lc;
   sub equal' equal @littleLeft by equal.lc;
-  sub equal.lc equal' @littleLeft by equal.lc;
   sub equal' equal space @littleLeft by equal.lc;
-  sub equal.lc equal' space @littleLeft by equal.lc;
 
   sub @littleRight hyphen' hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen' hyphen hyphen hyphen hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' by hyphen.lc;
   sub @littleRight space hyphen' hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen' hyphen hyphen hyphen hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' by hyphen.lc;
   sub hyphen' hyphen hyphen hyphen hyphen hyphen hyphen hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen' hyphen hyphen hyphen hyphen hyphen hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen hyphen hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' @littleLeft by hyphen.lc;
   sub hyphen' hyphen hyphen hyphen hyphen hyphen hyphen hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen' hyphen hyphen hyphen hyphen hyphen hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen hyphen hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' space @littleLeft by hyphen.lc;
 
   sub @littleRight hyphen' hyphen hyphen hyphen hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen' hyphen hyphen hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' by hyphen.lc;
   sub @littleRight space hyphen' hyphen hyphen hyphen hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen' hyphen hyphen hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' by hyphen.lc;
   sub hyphen' hyphen hyphen hyphen hyphen hyphen hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen' hyphen hyphen hyphen hyphen hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' @littleLeft by hyphen.lc;
   sub hyphen' hyphen hyphen hyphen hyphen hyphen hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen' hyphen hyphen hyphen hyphen hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' space @littleLeft by hyphen.lc;
 
   sub @littleRight hyphen' hyphen hyphen hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen' hyphen hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' by hyphen.lc;
   sub @littleRight space hyphen' hyphen hyphen hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen' hyphen hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' by hyphen.lc;
   sub hyphen' hyphen hyphen hyphen hyphen hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen' hyphen hyphen hyphen hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' @littleLeft by hyphen.lc;
   sub hyphen' hyphen hyphen hyphen hyphen hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen' hyphen hyphen hyphen hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen' hyphen hyphen hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' space @littleLeft by hyphen.lc;
 
   sub @littleRight hyphen' hyphen hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen' hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen.lc hyphen' hyphen hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' by hyphen.lc;
   sub @littleRight space hyphen' hyphen hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen' hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen.lc hyphen' hyphen hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' by hyphen.lc;
   sub hyphen' hyphen hyphen hyphen hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen' hyphen hyphen hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen' hyphen hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' @littleLeft by hyphen.lc;
   sub hyphen' hyphen hyphen hyphen hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen' hyphen hyphen hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen' hyphen hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen' hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen.lc hyphen' space @littleLeft by hyphen.lc;
 
   sub @littleRight hyphen' hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen' hyphen hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen.lc hyphen' hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen.lc hyphen.lc hyphen' by hyphen.lc;
   sub @littleRight space hyphen' hyphen hyphen hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen' hyphen hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen.lc hyphen' hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen.lc hyphen.lc hyphen' by hyphen.lc;
   sub hyphen' hyphen hyphen hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen' hyphen hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen' hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen' @littleLeft by hyphen.lc;
   sub hyphen' hyphen hyphen hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen' hyphen hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen' hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen.lc hyphen' space @littleLeft by hyphen.lc;
 
   sub @littleRight hyphen' hyphen hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen' hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen.lc hyphen' by hyphen.lc;
   sub @littleRight space hyphen' hyphen hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen' hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen.lc hyphen' by hyphen.lc;
   sub hyphen' hyphen hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen' hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen' @littleLeft by hyphen.lc;
   sub hyphen' hyphen hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen' hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen.lc hyphen' space @littleLeft by hyphen.lc;
 
   sub @littleRight hyphen' hyphen by hyphen.lc;
-  sub @littleRight hyphen.lc hyphen' by hyphen.lc;
   sub @littleRight space hyphen' hyphen by hyphen.lc;
-  sub @littleRight space hyphen.lc hyphen' by hyphen.lc;
   sub hyphen' hyphen @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen' @littleLeft by hyphen.lc;
   sub hyphen' hyphen space @littleLeft by hyphen.lc;
-  sub hyphen.lc hyphen' space @littleLeft by hyphen.lc;
 
   sub @littleRight equal' equal equal by equal.lc;
   sub @littleRight equal.lc equal' equal by equal.lc;

@@ -13,11 +13,15 @@ python3 scripts/generate_features.py
 The generator resolves paths relative to its own location and writes
 `../sources/features.txt`, so it works from any current working directory.
 
-`scripts/generate_features.py` has two main parts:
+`scripts/generate_features.py` has three main parts:
 
 - `HEADER` is a literal block containing the FontLab-style preamble, glyph
-  classes, `ss01`, and `ss02`.
+  classes, and no `feature` blocks.
+- `HARDCODED_FEATURES` is a literal block containing `ss01` and `ss02`.
 - `generate_calt()` appends a generated `feature calt` block.
+
+All glyph class definitions, including generated classes such as
+`@lcAnnotated` and `@ucAnnotated`, must be emitted before any `feature` block.
 
 The generated `calt` block has pair right-side uppercase rules first, lowercase
 pair-operator rules second, single-punctuation rules third, and bracket-pair
@@ -39,17 +43,19 @@ or `exclam.uc`.
 
 Repeated `equal` and `hyphen` runs come from `REPEATED_SEQUENCE_GLYPHS` and are
 generated longest-first for lengths 2 through `MAX_REPEATED_SEQUENCE_LENGTH`.
-These rules make later glyphs in runs such as `==`, `====`, `---`, and `----`
-match the `.lc` or `.uc` form chosen by the surrounding context. Keep repeated
-run rules before explicit long operators, otherwise a shorter rule such as
-`===` can rewrite the tail of a longer run before the full run can match.
+These explicit rules seed the first glyph in runs such as `==`, `====`, `---`,
+and `----` with the `.lc` or `.uc` form chosen by the surrounding context. Keep
+repeated run rules longest-first and before the annotated follow rules so a
+shorter tail match cannot steal precedence from the full run.
 
 `@lcAnnotated` and `@ucAnnotated` are generated classes containing the glyphs
 that have already been rewritten to lowercase or uppercase/full-height forms.
 The annotated follow rules make adjacent glyphs with known `.lc` or `.uc`
 variants inherit that same state. These follow rules are generated for
 `MAX_ANNOTATED_FOLLOW_LENGTH` rounds so a run like `a+~*c` can propagate from
-`plus.lc` through the following punctuation.
+`plus.lc` through the following punctuation. Keep the annotated follow rules
+below the explicit sequence, pair, and single-punctuation rules so those
+position-specific outputs take precedence.
 
 Pair right-side uppercase rules convert base operator pairs to their
 uppercase/full-height outputs when the pair is followed by `@fullLeft` or
