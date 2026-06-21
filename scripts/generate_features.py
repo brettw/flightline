@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 from pathlib import Path
+from typing import Iterable
 
 
 HEADER = """###
@@ -216,6 +217,13 @@ OPERATOR_COMBINATIONS = (
     "->",
     "<-",
 )
+LONG_OPERATOR_COMBINATIONS = (
+    "===",
+    "!==",
+    "!===",
+)
+REPEATED_SEQUENCE_GLYPHS = ("equal", "hyphen")
+MAX_REPEATED_SEQUENCE_LENGTH = 8
 OPERATOR_GLYPHS = {
     "+": "plus",
     "-": "hyphen",
@@ -224,6 +232,17 @@ OPERATOR_GLYPHS = {
     "=": "equal",
     "~": "asciitilde",
     "*": "asterisk",
+    "!": "exclam",
+}
+LOWERCASE_OUTPUTS = {
+    "plus": "plus.lc",
+    "hyphen": "hyphen.lc",
+    "less": "less.lc",
+    "greater": "greater.lc",
+    "equal": "equal.lc",
+    "asciitilde": "asciitilde.lc",
+    "asterisk": "asterisk.lc",
+    "exclam": "exclam",
 }
 COMPACT_LC_OUTPUTS = {
     ("equal", "greater"): ("equal.lc.rightfull", "greater.lc.leftfull"),
@@ -241,6 +260,7 @@ UPPERCASE_OUTPUTS = {
     "equal": "equal.uc",
     "asciitilde": "asciitilde.uc",
     "asterisk": "asterisk.uc",
+    "exclam": "exclam",
 }
 BRACKET_PAIRS = (
     ("parenleft", "parenright"),
@@ -248,6 +268,29 @@ BRACKET_PAIRS = (
     ("braceleft", "braceright"),
 )
 MAX_BRACKET_CONTENT_LENGTH = 7
+LC_FOLLOW_GLYPHS = (
+    "plus",
+    "hyphen",
+    "less",
+    "greater",
+    "equal",
+    "asciitilde",
+    "asterisk",
+    "parenleft",
+    "parenright",
+    "bracketleft",
+    "bracketright",
+    "braceleft",
+    "braceright",
+)
+UC_FOLLOW_GLYPHS = (
+    "plus",
+    "hyphen",
+    "equal",
+    "asciitilde",
+    "asterisk",
+)
+MAX_ANNOTATED_FOLLOW_LENGTH = 8
 
 
 def output_path() -> Path:
@@ -262,6 +305,26 @@ def operator_glyphs(operator: str) -> tuple[str, str]:
     if len(operator) != 2:
         raise ValueError(f"expected a two-character operator, got {operator!r}")
     return (OPERATOR_GLYPHS[operator[0]], OPERATOR_GLYPHS[operator[1]])
+
+
+def operator_glyph_sequence(operator: str) -> tuple[str, ...]:
+    return tuple(OPERATOR_GLYPHS[character] for character in operator)
+
+
+def lowercase_outputs(glyphs: tuple[str, ...]) -> tuple[str, ...]:
+    return tuple(LOWERCASE_OUTPUTS.get(glyph, f"{glyph}.lc") for glyph in glyphs)
+
+
+def uppercase_outputs(glyphs: tuple[str, ...]) -> tuple[str, ...]:
+    return tuple(UPPERCASE_OUTPUTS.get(glyph, glyph) for glyph in glyphs)
+
+
+def lowercase_output(glyph: str) -> str:
+    return LOWERCASE_OUTPUTS.get(glyph, f"{glyph}.lc")
+
+
+def uppercase_output(glyph: str) -> str:
+    return UPPERCASE_OUTPUTS.get(glyph, glyph)
 
 
 def lowercase_pair_outputs(left: str, right: str) -> tuple[str, str]:
@@ -311,6 +374,133 @@ def append_pair_right_full_rules(
     lines.append("")
 
 
+def append_sequence_substitution_chain(
+    lines: list[str],
+    glyphs: tuple[str, ...],
+    outputs: tuple[str, ...],
+    prefix: str = "",
+    suffix: str = "",
+) -> None:
+    current = list(glyphs)
+    for index, output in enumerate(outputs):
+        if current[index] == output:
+            continue
+
+        pattern = list(current)
+        pattern[index] = f"{pattern[index]}'"
+        parts = []
+        if prefix:
+            parts.append(prefix)
+        parts.extend(pattern)
+        if suffix:
+            parts.append(suffix)
+        lines.append(f"  sub {' '.join(parts)} by {output};")
+        current[index] = output
+
+
+def append_long_operator_right_full_rules(
+    lines: list[str], glyphs: tuple[str, ...], outputs: tuple[str, ...]
+) -> None:
+    for suffix in ("@fullLeft", "space @fullLeft"):
+        append_sequence_substitution_chain(lines, glyphs, outputs, suffix=suffix)
+    lines.append("")
+
+
+def append_long_operator_lowercase_rules(
+    lines: list[str], glyphs: tuple[str, ...], outputs: tuple[str, ...]
+) -> None:
+    for prefix in ("@littleRight", "@littleRight space"):
+        append_sequence_substitution_chain(lines, glyphs, outputs, prefix=prefix)
+    for suffix in ("@littleLeft", "space @littleLeft"):
+        append_sequence_substitution_chain(lines, glyphs, outputs, suffix=suffix)
+    lines.append("")
+
+
+def append_repeated_sequence_rules(
+    lines: list[str],
+    glyph: str,
+    length: int,
+    outputs: tuple[str, ...],
+    right_full: bool,
+) -> None:
+    glyphs = tuple([glyph] * length)
+    if right_full:
+        append_long_operator_right_full_rules(lines, glyphs, outputs)
+    else:
+        append_long_operator_lowercase_rules(lines, glyphs, outputs)
+
+
+def repeated_sequence_lengths() -> range:
+    return range(MAX_REPEATED_SEQUENCE_LENGTH, 1, -1)
+
+
+def unique_glyphs(glyphs: Iterable[str]) -> tuple[str, ...]:
+    seen: set[str] = set()
+    ordered: list[str] = []
+    for glyph in glyphs:
+        if glyph in seen:
+            continue
+        seen.add(glyph)
+        ordered.append(glyph)
+    return tuple(ordered)
+
+
+def annotated_lc_glyphs() -> tuple[str, ...]:
+    glyphs: list[str] = []
+    glyphs.extend(
+        output for glyph, output in LOWERCASE_OUTPUTS.items() if output != glyph
+    )
+    for left, right in COMPACT_LC_OUTPUTS.values():
+        glyphs.extend((left, right))
+    for left, right in BRACKET_PAIRS:
+        glyphs.extend((f"{left}.lc", f"{right}.lc"))
+    return unique_glyphs(glyphs)
+
+
+def annotated_uc_glyphs() -> tuple[str, ...]:
+    glyphs: list[str] = []
+    glyphs.extend(
+        output for glyph, output in UPPERCASE_OUTPUTS.items() if output != glyph
+    )
+    for left, right in COMPACT_UC_OUTPUTS.values():
+        glyphs.extend((left, right))
+    return unique_glyphs(glyphs)
+
+
+def format_class_definition(name: str, glyphs: tuple[str, ...]) -> str:
+    lines = [f"@{name} = ["]
+    for index in range(0, len(glyphs), 4):
+        lines.append(f"    {' '.join(glyphs[index:index + 4])}")
+    lines.append("];")
+    return "\n".join(lines)
+
+
+def generate_annotated_classes() -> str:
+    return "\n\n".join(
+        (
+            "",
+            format_class_definition("lcAnnotated", annotated_lc_glyphs()),
+            format_class_definition("ucAnnotated", annotated_uc_glyphs()),
+            "",
+        )
+    )
+
+
+def append_annotated_follow_rules(lines: list[str]) -> None:
+    for _round in range(MAX_ANNOTATED_FOLLOW_LENGTH):
+        for glyph in LC_FOLLOW_GLYPHS:
+            output = lowercase_output(glyph)
+            if output != glyph:
+                lines.append(f"  sub @lcAnnotated {glyph}' by {output};")
+        lines.append("")
+
+        for glyph in UC_FOLLOW_GLYPHS:
+            output = uppercase_output(glyph)
+            if output != glyph:
+                lines.append(f"  sub @ucAnnotated {glyph}' by {output};")
+        lines.append("")
+
+
 def bracket_context(content_length: int, close_side: bool = False) -> str:
     if content_length == 1:
         return "@littleRight" if close_side else "@littleLeft"
@@ -343,10 +533,32 @@ def generate_calt() -> str:
         "# Lookups: 1",
     ]
 
+    for glyph in REPEATED_SEQUENCE_GLYPHS:
+        for length in repeated_sequence_lengths():
+            glyphs = tuple([glyph] * length)
+            append_repeated_sequence_rules(
+                lines, glyph, length, uppercase_outputs(glyphs), right_full=True
+            )
+
+    for operator in LONG_OPERATOR_COMBINATIONS:
+        glyphs = operator_glyph_sequence(operator)
+        append_long_operator_right_full_rules(lines, glyphs, uppercase_outputs(glyphs))
+
     for operator in OPERATOR_COMBINATIONS:
         left, right = operator_glyphs(operator)
         left_output, right_output = uppercase_pair_outputs(left, right)
         append_pair_right_full_rules(lines, left, right, left_output, right_output)
+
+    for glyph in REPEATED_SEQUENCE_GLYPHS:
+        for length in repeated_sequence_lengths():
+            glyphs = tuple([glyph] * length)
+            append_repeated_sequence_rules(
+                lines, glyph, length, lowercase_outputs(glyphs), right_full=False
+            )
+
+    for operator in LONG_OPERATOR_COMBINATIONS:
+        glyphs = operator_glyph_sequence(operator)
+        append_long_operator_lowercase_rules(lines, glyphs, lowercase_outputs(glyphs))
 
     for operator in OPERATOR_COMBINATIONS:
         left, right = operator_glyphs(operator)
@@ -370,6 +582,8 @@ def generate_calt() -> str:
             ]
         )
 
+    append_annotated_follow_rules(lines)
+
     for left, right in BRACKET_PAIRS:
         append_bracket_pair_rules(lines, left, right)
 
@@ -378,7 +592,7 @@ def generate_calt() -> str:
 
 
 def generate_features() -> str:
-    return f"{HEADER}{generate_calt()}\n"
+    return f"{HEADER}{generate_annotated_classes()}{generate_calt()}\n"
 
 
 def main() -> int:

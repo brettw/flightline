@@ -31,6 +31,26 @@ space-separated contexts on either side of the operator. Compact arrow-like
 operators use `COMPACT_LC_OUTPUTS`; for example, `->` generates
 `hyphen.lc.rightfull` plus `greater.lc.leftfull`.
 
+Long equality operators come from `LONG_OPERATOR_COMBINATIONS`; currently this
+is `===`, `!==`, and the four-character `!===` form. These use the same
+lowercase and right-side uppercase contexts as two-character operators.
+`exclam` remains unchanged because the font source does not define `exclam.lc`
+or `exclam.uc`.
+
+Repeated `equal` and `hyphen` runs come from `REPEATED_SEQUENCE_GLYPHS` and are
+generated longest-first for lengths 2 through `MAX_REPEATED_SEQUENCE_LENGTH`.
+These rules make later glyphs in runs such as `==`, `====`, `---`, and `----`
+match the `.lc` or `.uc` form chosen by the surrounding context. Keep repeated
+run rules before explicit long operators, otherwise a shorter rule such as
+`===` can rewrite the tail of a longer run before the full run can match.
+
+`@lcAnnotated` and `@ucAnnotated` are generated classes containing the glyphs
+that have already been rewritten to lowercase or uppercase/full-height forms.
+The annotated follow rules make adjacent glyphs with known `.lc` or `.uc`
+variants inherit that same state. These follow rules are generated for
+`MAX_ANNOTATED_FOLLOW_LENGTH` rounds so a run like `a+~*c` can propagate from
+`plus.lc` through the following punctuation.
+
 Pair right-side uppercase rules convert base operator pairs to their
 uppercase/full-height outputs when the pair is followed by `@fullLeft` or
 `space @fullLeft`. Compact outputs come from `COMPACT_UC_OUTPUTS`; non-compact

@@ -238,6 +238,72 @@
       "expected": "plus equal space hyphen equal space less equal space greater equal space asciitilde equal space plus plus space hyphen hyphen space equal greater space asterisk equal space hyphen greater space less hyphen"
     },
     {
+      "name": "calt lowercases long equality operators after lowercase glyphs",
+      "feature": "calt",
+      "inputText": "a=== a!== a!===",
+      "expected": "a equal.lc equal.lc equal.lc space a exclam equal.lc equal.lc space a exclam equal.lc equal.lc equal.lc"
+    },
+    {
+      "name": "calt lowercases long equality operators before lowercase glyphs",
+      "feature": "calt",
+      "inputText": "===c !==c !===c",
+      "expected": "equal.lc equal.lc equal.lc c space exclam equal.lc equal.lc c space exclam equal.lc equal.lc equal.lc c"
+    },
+    {
+      "name": "calt uppercases long equality operators before full-height glyphs",
+      "feature": "calt",
+      "inputText": "a===N a!==N a!===N ===N !==N !===N",
+      "expected": "a equal.uc equal.uc equal.uc N space a exclam equal.uc equal.uc N space a exclam equal.uc equal.uc equal.uc N space equal.uc equal.uc equal.uc N space exclam equal.uc equal.uc N space exclam equal.uc equal.uc equal.uc N"
+    },
+    {
+      "name": "calt leaves long equality operators without context unchanged",
+      "feature": "calt",
+      "inputText": "=== !== !===",
+      "expected": "equal equal equal space exclam equal equal space exclam equal equal equal"
+    },
+    {
+      "name": "calt propagates lowercase across repeated equals and hyphens after lowercase glyphs",
+      "feature": "calt",
+      "inputText": "a== a==== a--- a----",
+      "expected": "a equal.lc equal.lc space a equal.lc equal.lc equal.lc equal.lc space a hyphen.lc hyphen.lc hyphen.lc space a hyphen.lc hyphen.lc hyphen.lc hyphen.lc"
+    },
+    {
+      "name": "calt propagates lowercase across repeated equals and hyphens before lowercase glyphs",
+      "feature": "calt",
+      "inputText": "==c ====c ---c ----c",
+      "expected": "equal.lc equal.lc c space equal.lc equal.lc equal.lc equal.lc c space hyphen.lc hyphen.lc hyphen.lc c space hyphen.lc hyphen.lc hyphen.lc hyphen.lc c"
+    },
+    {
+      "name": "calt propagates uppercase across repeated equals and hyphens before full-height glyphs",
+      "feature": "calt",
+      "inputText": "a==N a====N a---N a----N ==N ====N --N ----N",
+      "expected": "a equal.uc equal.uc N space a equal.uc equal.uc equal.uc equal.uc N space a hyphen.uc hyphen.uc hyphen.uc N space a hyphen.uc hyphen.uc hyphen.uc hyphen.uc N space equal.uc equal.uc N space equal.uc equal.uc equal.uc equal.uc N space hyphen.uc hyphen.uc N space hyphen.uc hyphen.uc hyphen.uc hyphen.uc N"
+    },
+    {
+      "name": "calt leaves repeated equals and hyphens without context unchanged",
+      "feature": "calt",
+      "inputText": "== ==== -- ----",
+      "expected": "equal equal space equal equal equal equal space hyphen hyphen space hyphen hyphen hyphen hyphen"
+    },
+    {
+      "name": "calt propagates lowercase annotation across adjacent punctuation",
+      "feature": "calt",
+      "inputText": "a+~*c",
+      "expected": "a plus.lc asciitilde.lc asterisk.lc c"
+    },
+    {
+      "name": "calt propagates lowercase annotation from class input",
+      "feature": "calt",
+      "input": "plus.lc equal hyphen asciitilde asterisk parenleft c parenright",
+      "expected": "plus.lc equal.lc hyphen.lc asciitilde.lc asterisk.lc parenleft.lc c parenright.lc"
+    },
+    {
+      "name": "calt propagates uppercase annotation from class input",
+      "feature": "calt",
+      "input": "equal.uc equal plus hyphen asciitilde asterisk",
+      "expected": "equal.uc equal.uc plus.uc hyphen.uc asciitilde.uc asterisk.uc"
+    },
+    {
       "name": "calt fixes lowercased operator combinations before full-height glyphs",
       "feature": "calt",
       "inputText": "a+=A a-=A a<=A a>=A a~=A a++A a--A a=>A a*=A a->A a<-A",
