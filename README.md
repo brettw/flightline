@@ -32,6 +32,10 @@ Light variants for coding.
 
 ![Alphabet with weights](docs/alphabet_weights.png)
 
+## Glyphs
+
+![Glyphs](docs/glyphs.png)
+
 ## Copyright
 
 Copyright (c) 2012, AIRBUS (airbus-group.com). All rights reserved.
