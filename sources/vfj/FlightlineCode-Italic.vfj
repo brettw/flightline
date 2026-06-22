@@ -5522,7 +5522,7 @@
       {
         "name":"E",
         "unicode":"0045",
-        "lastModified":"2026-06-21 19:31:56",
+        "lastModified":"2026-06-22 02:47:46",
         "layers":[
           {
             "name":"Italic",
@@ -5673,7 +5673,7 @@
       {
         "name":"F",
         "unicode":"0046",
-        "lastModified":"2026-06-19 20:13:52",
+        "lastModified":"2026-06-22 02:48:57",
         "layers":[
           {
             "name":"Italic",
@@ -5788,18 +5788,18 @@
                   "contours":[
                     {
                       "nodes":[
-                        "195 0",
-                        "95 0",
-                        "325 1308",
-                        "337 1500",
-                        "1122 1500",
-                        "1087 1385",
-                        "415 1385",
-                        "398 1161",
-                        "347 864",
-                        "905 864",
-                        "887 765",
-                        "329 765"
+                        "193 0",
+                        "103 0",
+                        "333 1308",
+                        "345 1500",
+                        "1120 1500",
+                        "1094 1412",
+                        "423 1412",
+                        "415 1266",
+                        "344 859",
+                        "903 859",
+                        "889 771",
+                        "328 770"
                       ]
                     }
                   ]
@@ -5815,7 +5815,7 @@
       {
         "name":"G",
         "unicode":"0047",
-        "lastModified":"2026-06-21 19:31:56",
+        "lastModified":"2026-06-22 02:47:46",
         "layers":[
           {
             "name":"Italic",
@@ -79432,7 +79432,6 @@
             "hhea_descender":-500,
             "hhea_line_gap":0,
             "hhea_use_custom":true,
-            "hinting.forceBold":0,
             "strikeout_position":500,
             "strikeout_size":100,
             "subscript_x_offset":0,
@@ -79722,7 +79721,6 @@
             "hhea_descender":-500,
             "hhea_line_gap":0,
             "hhea_use_custom":true,
-            "hinting.forceBold":0,
             "strikeout_position":500,
             "strikeout_size":100,
             "subscript_x_offset":0,
@@ -80107,7 +80105,6 @@
             "hhea_descender":-500,
             "hhea_line_gap":0,
             "hhea_use_custom":true,
-            "hinting.forceBold":0,
             "strikeout_position":500,
             "strikeout_size":100,
             "subscript_x_offset":0,
