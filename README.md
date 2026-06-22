@@ -29,8 +29,8 @@ Please see the [comparison with B612 Mono](docs/B612-Mono-comparison.md) for det
 ## Weights
 
 Flightline Code has a full set of six weights. The lighter variants in particular are very close
-so you can choose dial in the style that looks best to you. I recommend either the Light or Extra
-Light variants for coding.
+so you can dial in the style that looks best to you. I recommend either the Light or Extra Light
+variants for coding.
 
 ![Alphabet with weights](docs/alphabet_weights.png)
 
