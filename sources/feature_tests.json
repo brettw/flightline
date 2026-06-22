@@ -364,6 +364,18 @@
       "expected": ["plus.uc", "b"]
     },
     {
+      "name": "calt treats digits as full-height contexts",
+      "feature": "calt",
+      "inputText": "0+ 1 + +2 + 3 a+=4",
+      "expected": "zero plus.uc space one space plus.uc space plus.uc two space plus.uc space three space a plus.uc equal.uc four"
+    },
+    {
+      "name": "calt treats i and j as full-height contexts",
+      "feature": "calt",
+      "inputText": "i+ j + +i + j a+=j",
+      "expected": "i plus.uc space j space plus.uc space plus.uc i space plus.uc space j space a plus.uc equal.uc j"
+    },
+    {
       "name": "calt leaves punctuation without context unchanged",
       "feature": "calt",
       "inputText": "+-=~*",

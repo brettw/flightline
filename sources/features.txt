@@ -74,31 +74,36 @@ languagesystem grek dflt; # Greek default
     U Uacute Ugrave Ucircumflex Udieresis
 ];
 
-@littleLeft = [
+@littleBoth = [
     @aLike @eLike @oLike @uLike
-    c d g j m n p q r s v w x y z
+    c g m n p q r s v w x y z
+];
+
+@littleLeft = [
+    @littleBoth
+    d
 ];
 
 @littleRight = [
-    @aLike @eLike @oLike @uLike
-    b c g h j k m n p q r s v w x y z
+    @littleBoth
+    b h k
 ];
 
-@littleBoth = [
-    @aLike @eLike @oLike @uLike
-    c g j m n p q r s v w x y z
+@fullBoth = [
+    @ALike @ELike @ILike @OLike @ULike
+    B C D F G H J K L M N P Q R S T V W X Y Z
+    f i j l
+    zero one two three four five six seven eight nine
 ];
 
 @fullLeft = [
-    @ALike @ELike @ILike @OLike @ULike
-    B C D F G H J K L M N P Q R S T V W X Y Z
-    b f h k l
+    @fullBoth
+    b h k
 ];
 
 @fullRight = [
-    @ALike @ELike @ILike @OLike @ULike
-    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-    d f l
+    @fullBoth
+    d
 ];
 
 @letters = [
