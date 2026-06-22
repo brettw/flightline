@@ -2,7 +2,7 @@
 
 # Flightline Code Font
 
-[Download zip file of the fonts](flightline_code.zip)
+[Download the latest release](https://github.com/brettw/flightline/releases/latest/download/flightline_code.zip)
 
 Flightline Code is a clean, readable font designed for coding, terminal, and other general screen
 use. While being extremely legible, it maintains a hint of old-fashined quirkiness combined with

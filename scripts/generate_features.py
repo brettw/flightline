@@ -278,12 +278,13 @@ LC_FOLLOW_GLYPHS = (
     "equal",
     "asciitilde",
     "asterisk",
-    "parenleft",
-    "parenright",
-    "bracketleft",
-    "bracketright",
-    "braceleft",
-    "braceright",
+    # Bracket/brace/paren follow rules are disabled for now.
+    # "parenleft",
+    # "parenright",
+    # "bracketleft",
+    # "bracketright",
+    # "braceleft",
+    # "braceright",
 )
 UC_FOLLOW_GLYPHS = (
     "plus",
@@ -482,8 +483,9 @@ def annotated_lc_glyphs() -> tuple[str, ...]:
     )
     for left, right in COMPACT_LC_OUTPUTS.values():
         glyphs.extend((left, right))
-    for left, right in BRACKET_PAIRS:
-        glyphs.extend((f"{left}.lc", f"{right}.lc"))
+    # Bracket/brace/paren annotated classes are disabled for now.
+    # for left, right in BRACKET_PAIRS:
+    #     glyphs.extend((f"{left}.lc", f"{right}.lc"))
     return unique_glyphs(glyphs)
 
 
@@ -614,8 +616,9 @@ def generate_calt() -> str:
 
     append_annotated_follow_rules(lines)
 
-    for left, right in BRACKET_PAIRS:
-        append_bracket_pair_rules(lines, left, right)
+    # Bracket/brace/paren pair rules are disabled for now.
+    # for left, right in BRACKET_PAIRS:
+    #     append_bracket_pair_rules(lines, left, right)
 
     lines.append("} calt;")
     return "\n".join(lines)

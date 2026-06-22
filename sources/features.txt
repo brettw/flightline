@@ -164,8 +164,6 @@ languagesystem grek dflt; # Greek default
     plus.lc hyphen.lc less.lc greater.lc
     equal.lc asciitilde.lc asterisk.lc equal.lc.rightfull
     greater.lc.leftfull hyphen.lc.rightfull less.lc.rightfull hyphen.lc.leftfull
-    parenleft.lc parenright.lc bracketleft.lc bracketright.lc
-    braceleft.lc braceright.lc
 ];
 
 @ucAnnotated = [
@@ -580,12 +578,6 @@ feature calt {
   sub @lcAnnotated equal' by equal.lc;
   sub @lcAnnotated asciitilde' by asciitilde.lc;
   sub @lcAnnotated asterisk' by asterisk.lc;
-  sub @lcAnnotated parenleft' by parenleft.lc;
-  sub @lcAnnotated parenright' by parenright.lc;
-  sub @lcAnnotated bracketleft' by bracketleft.lc;
-  sub @lcAnnotated bracketright' by bracketright.lc;
-  sub @lcAnnotated braceleft' by braceleft.lc;
-  sub @lcAnnotated braceright' by braceright.lc;
 
   sub @ucAnnotated plus' by plus.uc;
   sub @ucAnnotated hyphen' by hyphen.uc;
@@ -600,12 +592,6 @@ feature calt {
   sub @lcAnnotated equal' by equal.lc;
   sub @lcAnnotated asciitilde' by asciitilde.lc;
   sub @lcAnnotated asterisk' by asterisk.lc;
-  sub @lcAnnotated parenleft' by parenleft.lc;
-  sub @lcAnnotated parenright' by parenright.lc;
-  sub @lcAnnotated bracketleft' by bracketleft.lc;
-  sub @lcAnnotated bracketright' by bracketright.lc;
-  sub @lcAnnotated braceleft' by braceleft.lc;
-  sub @lcAnnotated braceright' by braceright.lc;
 
   sub @ucAnnotated plus' by plus.uc;
   sub @ucAnnotated hyphen' by hyphen.uc;
@@ -620,12 +606,6 @@ feature calt {
   sub @lcAnnotated equal' by equal.lc;
   sub @lcAnnotated asciitilde' by asciitilde.lc;
   sub @lcAnnotated asterisk' by asterisk.lc;
-  sub @lcAnnotated parenleft' by parenleft.lc;
-  sub @lcAnnotated parenright' by parenright.lc;
-  sub @lcAnnotated bracketleft' by bracketleft.lc;
-  sub @lcAnnotated bracketright' by bracketright.lc;
-  sub @lcAnnotated braceleft' by braceleft.lc;
-  sub @lcAnnotated braceright' by braceright.lc;
 
   sub @ucAnnotated plus' by plus.uc;
   sub @ucAnnotated hyphen' by hyphen.uc;
@@ -640,12 +620,6 @@ feature calt {
   sub @lcAnnotated equal' by equal.lc;
   sub @lcAnnotated asciitilde' by asciitilde.lc;
   sub @lcAnnotated asterisk' by asterisk.lc;
-  sub @lcAnnotated parenleft' by parenleft.lc;
-  sub @lcAnnotated parenright' by parenright.lc;
-  sub @lcAnnotated bracketleft' by bracketleft.lc;
-  sub @lcAnnotated bracketright' by bracketright.lc;
-  sub @lcAnnotated braceleft' by braceleft.lc;
-  sub @lcAnnotated braceright' by braceright.lc;
 
   sub @ucAnnotated plus' by plus.uc;
   sub @ucAnnotated hyphen' by hyphen.uc;
@@ -660,12 +634,6 @@ feature calt {
   sub @lcAnnotated equal' by equal.lc;
   sub @lcAnnotated asciitilde' by asciitilde.lc;
   sub @lcAnnotated asterisk' by asterisk.lc;
-  sub @lcAnnotated parenleft' by parenleft.lc;
-  sub @lcAnnotated parenright' by parenright.lc;
-  sub @lcAnnotated bracketleft' by bracketleft.lc;
-  sub @lcAnnotated bracketright' by bracketright.lc;
-  sub @lcAnnotated braceleft' by braceleft.lc;
-  sub @lcAnnotated braceright' by braceright.lc;
 
   sub @ucAnnotated plus' by plus.uc;
   sub @ucAnnotated hyphen' by hyphen.uc;
@@ -680,12 +648,6 @@ feature calt {
   sub @lcAnnotated equal' by equal.lc;
   sub @lcAnnotated asciitilde' by asciitilde.lc;
   sub @lcAnnotated asterisk' by asterisk.lc;
-  sub @lcAnnotated parenleft' by parenleft.lc;
-  sub @lcAnnotated parenright' by parenright.lc;
-  sub @lcAnnotated bracketleft' by bracketleft.lc;
-  sub @lcAnnotated bracketright' by bracketright.lc;
-  sub @lcAnnotated braceleft' by braceleft.lc;
-  sub @lcAnnotated braceright' by braceright.lc;
 
   sub @ucAnnotated plus' by plus.uc;
   sub @ucAnnotated hyphen' by hyphen.uc;
@@ -700,12 +662,6 @@ feature calt {
   sub @lcAnnotated equal' by equal.lc;
   sub @lcAnnotated asciitilde' by asciitilde.lc;
   sub @lcAnnotated asterisk' by asterisk.lc;
-  sub @lcAnnotated parenleft' by parenleft.lc;
-  sub @lcAnnotated parenright' by parenright.lc;
-  sub @lcAnnotated bracketleft' by bracketleft.lc;
-  sub @lcAnnotated bracketright' by bracketright.lc;
-  sub @lcAnnotated braceleft' by braceleft.lc;
-  sub @lcAnnotated braceright' by braceright.lc;
 
   sub @ucAnnotated plus' by plus.uc;
   sub @ucAnnotated hyphen' by hyphen.uc;
@@ -720,62 +676,11 @@ feature calt {
   sub @lcAnnotated equal' by equal.lc;
   sub @lcAnnotated asciitilde' by asciitilde.lc;
   sub @lcAnnotated asterisk' by asterisk.lc;
-  sub @lcAnnotated parenleft' by parenleft.lc;
-  sub @lcAnnotated parenright' by parenright.lc;
-  sub @lcAnnotated bracketleft' by bracketleft.lc;
-  sub @lcAnnotated bracketright' by bracketright.lc;
-  sub @lcAnnotated braceleft' by braceleft.lc;
-  sub @lcAnnotated braceright' by braceright.lc;
 
   sub @ucAnnotated plus' by plus.uc;
   sub @ucAnnotated hyphen' by hyphen.uc;
   sub @ucAnnotated equal' by equal.uc;
   sub @ucAnnotated asciitilde' by asciitilde.uc;
   sub @ucAnnotated asterisk' by asterisk.uc;
-
-  sub parenleft' @littleLeft parenright by parenleft.lc;
-  sub parenleft.lc @littleRight parenright' by parenright.lc;
-  sub parenleft' @littleLeft @littleRight parenright by parenleft.lc;
-  sub parenleft.lc @littleLeft @littleRight parenright' by parenright.lc;
-  sub parenleft' @littleLeft @letters @littleRight parenright by parenleft.lc;
-  sub parenleft.lc @littleLeft @letters @littleRight parenright' by parenright.lc;
-  sub parenleft' @littleLeft @letters @letters @littleRight parenright by parenleft.lc;
-  sub parenleft.lc @littleLeft @letters @letters @littleRight parenright' by parenright.lc;
-  sub parenleft' @littleLeft @letters @letters @letters @littleRight parenright by parenleft.lc;
-  sub parenleft.lc @littleLeft @letters @letters @letters @littleRight parenright' by parenright.lc;
-  sub parenleft' @littleLeft @letters @letters @letters @letters @littleRight parenright by parenleft.lc;
-  sub parenleft.lc @littleLeft @letters @letters @letters @letters @littleRight parenright' by parenright.lc;
-  sub parenleft' @littleLeft @letters @letters @letters @letters @letters @littleRight parenright by parenleft.lc;
-  sub parenleft.lc @littleLeft @letters @letters @letters @letters @letters @littleRight parenright' by parenright.lc;
-
-  sub bracketleft' @littleLeft bracketright by bracketleft.lc;
-  sub bracketleft.lc @littleRight bracketright' by bracketright.lc;
-  sub bracketleft' @littleLeft @littleRight bracketright by bracketleft.lc;
-  sub bracketleft.lc @littleLeft @littleRight bracketright' by bracketright.lc;
-  sub bracketleft' @littleLeft @letters @littleRight bracketright by bracketleft.lc;
-  sub bracketleft.lc @littleLeft @letters @littleRight bracketright' by bracketright.lc;
-  sub bracketleft' @littleLeft @letters @letters @littleRight bracketright by bracketleft.lc;
-  sub bracketleft.lc @littleLeft @letters @letters @littleRight bracketright' by bracketright.lc;
-  sub bracketleft' @littleLeft @letters @letters @letters @littleRight bracketright by bracketleft.lc;
-  sub bracketleft.lc @littleLeft @letters @letters @letters @littleRight bracketright' by bracketright.lc;
-  sub bracketleft' @littleLeft @letters @letters @letters @letters @littleRight bracketright by bracketleft.lc;
-  sub bracketleft.lc @littleLeft @letters @letters @letters @letters @littleRight bracketright' by bracketright.lc;
-  sub bracketleft' @littleLeft @letters @letters @letters @letters @letters @littleRight bracketright by bracketleft.lc;
-  sub bracketleft.lc @littleLeft @letters @letters @letters @letters @letters @littleRight bracketright' by bracketright.lc;
-
-  sub braceleft' @littleLeft braceright by braceleft.lc;
-  sub braceleft.lc @littleRight braceright' by braceright.lc;
-  sub braceleft' @littleLeft @littleRight braceright by braceleft.lc;
-  sub braceleft.lc @littleLeft @littleRight braceright' by braceright.lc;
-  sub braceleft' @littleLeft @letters @littleRight braceright by braceleft.lc;
-  sub braceleft.lc @littleLeft @letters @littleRight braceright' by braceright.lc;
-  sub braceleft' @littleLeft @letters @letters @littleRight braceright by braceleft.lc;
-  sub braceleft.lc @littleLeft @letters @letters @littleRight braceright' by braceright.lc;
-  sub braceleft' @littleLeft @letters @letters @letters @littleRight braceright by braceleft.lc;
-  sub braceleft.lc @littleLeft @letters @letters @letters @littleRight braceright' by braceright.lc;
-  sub braceleft' @littleLeft @letters @letters @letters @letters @littleRight braceright by braceleft.lc;
-  sub braceleft.lc @littleLeft @letters @letters @letters @letters @littleRight braceright' by braceright.lc;
-  sub braceleft' @littleLeft @letters @letters @letters @letters @letters @littleRight braceright by braceleft.lc;
-  sub braceleft.lc @littleLeft @letters @letters @letters @letters @letters @littleRight braceright' by braceright.lc;
 
 } calt;

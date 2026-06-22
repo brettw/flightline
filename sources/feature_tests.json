@@ -301,7 +301,7 @@
       "name": "calt propagates lowercase annotation from class input",
       "feature": "calt",
       "input": "plus.lc equal hyphen asciitilde asterisk parenleft c parenright",
-      "expected": "plus.lc equal.lc hyphen.lc asciitilde.lc asterisk.lc parenleft.lc c parenright.lc"
+      "expected": "plus.lc equal.lc hyphen.lc asciitilde.lc asterisk.lc parenleft c parenright"
     },
     {
       "name": "calt propagates uppercase annotation from class input",
@@ -334,16 +334,16 @@
       "expected": "plus.uc equal.uc A space hyphen.uc equal.uc A space less equal.uc A space greater equal.uc A space asciitilde.uc equal.uc A space plus.uc plus.uc A space hyphen.uc hyphen.uc A space equal.rightfull greater.leftfull A space asterisk.uc equal.uc A space hyphen.rightfull greater.leftfull A space less.rightfull hyphen.leftfull A"
     },
     {
-      "name": "calt lowercases bracket pairs around lowercase runs",
+      "name": "calt leaves bracket pairs around lowercase runs unchanged",
       "feature": "calt",
       "inputText": "(a) [ab] {abc}",
-      "expected": "parenleft.lc a parenright.lc space bracketleft.lc a b bracketright.lc space braceleft.lc a b c braceright.lc"
+      "expected": "parenleft a parenright space bracketleft a b bracketright space braceleft a b c braceright"
     },
     {
-      "name": "calt lowercases parenthesis pairs through generated max length",
+      "name": "calt leaves parenthesis pairs through former generated max length unchanged",
       "feature": "calt",
       "inputText": "(a) (ac) (abc) (abbc) (abbbc) (abbbbc) (abbbbbc)",
-      "expected": "parenleft.lc a parenright.lc space parenleft.lc a c parenright.lc space parenleft.lc a b c parenright.lc space parenleft.lc a b b c parenright.lc space parenleft.lc a b b b c parenright.lc space parenleft.lc a b b b b c parenright.lc space parenleft.lc a b b b b b c parenright.lc"
+      "expected": "parenleft a parenright space parenleft a c parenright space parenleft a b c parenright space parenleft a b b c parenright space parenleft a b b b c parenright space parenleft a b b b b c parenright space parenleft a b b b b b c parenright"
     },
     {
       "name": "calt leaves bracket pairs without lowercase context unchanged",
