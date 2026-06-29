@@ -7,6 +7,8 @@ import argparse
 
 
 DEFAULT_PER_LINE = 8
+DEMO_HEADING = "Unicode large type pieces"
+DEMO_TITLE = "Flightline Code"
 ASCII_UPPERCASE = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 ASCII_LOWERCASE = "abcdefghijklmnopqrstuvwxyz"
 ASCII_DIGITS = "0123456789"
@@ -190,8 +192,11 @@ def print_large_text(text: str, per_line: int, include_labels: bool) -> None:
 
 def print_demo(per_line: int, include_labels: bool) -> None:
     if include_labels:
-        print("Flightline Unicode large type pieces demo")
-        print(f"{per_line} characters per rendered line")
+        print(DEMO_HEADING)
+
+    for row in render_text(DEMO_TITLE):
+        print(row)
+    print()
 
     for title, text in DEMO_SECTIONS:
         if include_labels:
