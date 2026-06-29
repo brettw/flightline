@@ -17,6 +17,8 @@ It is designed for use a small screen sizes.
    clearly differentiated.
  * Punctuation like “-” and “>” are vertically aligned to produce pleasing combinations even without
    special combining rules.
+ * Full complement of Powerline, box drawing, geometric, braille, and [large type
+   pieces](https://github.com/microsoft/cascadia-code/issues/709) from [Cascadia Code](https://github.com/microsoft/cascadia-code)
 
 14pt Flightline Code Light on Mac in Visual Studio Code:
 
@@ -40,9 +42,11 @@ variants for coding.
 
 ## Copyright
 
-Copyright (c) 2012, AIRBUS (airbus-group.com). All rights reserved.
+Copyright © 2012, AIRBUS (airbus-group.com). All rights reserved.
 
-Copyright (c) 2026 Brett Wilson
+Copyright © 2026 Brett Wilson
+
+Copyright © 2026–2026, Microsoft Corporation
 
 See [trademarks](TRADEMARKS.md)
 
