@@ -38,7 +38,16 @@ variants for coding.
 
 ## Glyphs
 
-![Glyphs](docs/glyphs.png)
+Powerline glyphs
+
+![Powerline demo](docs/powerline.png)
+
+Unicode large type pieces
+
+![Unicode large type demo](docs/large_type.png)
+
+![Glyphs](docs/glyphs1.png)
+![Glyphs](docs/glyphs2.png)
 
 ## Copyright
 
