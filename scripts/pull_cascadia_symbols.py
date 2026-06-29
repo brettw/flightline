@@ -15,6 +15,10 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 CASCADIA_PATH = REPO_ROOT / "sources" / "CascadiaCode-Regular.vfj"
 FLIGHTLINE_DIR = REPO_ROOT / "sources" / "vfj"
 COPY_LIST_PATH = Path(__file__).resolve().with_name("glyphs_from_cascadia.txt")
+CASCADIA_TILE_ROW_BOTTOM = -480
+CASCADIA_TILE_ROW_TOP = 1773
+FLIGHTLINE_TILE_ROW_BOTTOM = -500
+FLIGHTLINE_TILE_ROW_TOP = 1930
 
 
 @dataclass(frozen=True)
@@ -52,6 +56,22 @@ class GlyphCopySpec:
     dest_name: str
 
 
+@dataclass(frozen=True)
+class VerticalTileTransformBlock:
+    label: str
+    ranges: tuple[CodepointRange, ...]
+    source_bottom: int
+    source_top: int
+    target_bottom: int
+    target_top: int
+    exclude: tuple[CodepointRange, ...] = ()
+
+    def contains(self, codepoint: int) -> bool:
+        return any(item.contains(codepoint) for item in self.ranges) and not any(
+            item.contains(codepoint) for item in self.exclude
+        )
+
+
 AUDIT_BLOCKS: tuple[AuditBlock, ...] = (
     AuditBlock(
         "Line and box drawing",
@@ -82,6 +102,54 @@ AUDIT_BLOCKS: tuple[AuditBlock, ...] = (
         "Large Type Pieces",
         (CodepointRange(0x1CE1A, 0x1CE50),),
         "Cascadia's encoded largeType-* run.",
+    ),
+)
+
+
+# Map Cascadia's terminal-row box into Flightline's terminal-row box for tiling
+# glyphs. Points outside Cascadia's row box keep proportional overshoot in
+# Flightline, preserving the intentional row-to-row overlap in .stypo glyphs.
+VERTICAL_TILE_TRANSFORM_BLOCKS: tuple[VerticalTileTransformBlock, ...] = (
+    VerticalTileTransformBlock(
+        "Box Drawing",
+        (CodepointRange(0x2500, 0x257F),),
+        CASCADIA_TILE_ROW_BOTTOM,
+        CASCADIA_TILE_ROW_TOP,
+        FLIGHTLINE_TILE_ROW_BOTTOM,
+        FLIGHTLINE_TILE_ROW_TOP,
+    ),
+    VerticalTileTransformBlock(
+        "Block Elements",
+        (CodepointRange(0x2580, 0x259F),),
+        CASCADIA_TILE_ROW_BOTTOM,
+        CASCADIA_TILE_ROW_TOP,
+        FLIGHTLINE_TILE_ROW_BOTTOM,
+        FLIGHTLINE_TILE_ROW_TOP,
+    ),
+    VerticalTileTransformBlock(
+        "Symbols for Legacy Computing",
+        (CodepointRange(0x1FB00, 0x1FBFF),),
+        CASCADIA_TILE_ROW_BOTTOM,
+        CASCADIA_TILE_ROW_TOP,
+        FLIGHTLINE_TILE_ROW_BOTTOM,
+        FLIGHTLINE_TILE_ROW_TOP,
+    ),
+    VerticalTileTransformBlock(
+        "Symbols for Legacy Computing Supplement",
+        (CodepointRange(0x1CC00, 0x1CEBF),),
+        CASCADIA_TILE_ROW_BOTTOM,
+        CASCADIA_TILE_ROW_TOP,
+        FLIGHTLINE_TILE_ROW_BOTTOM,
+        FLIGHTLINE_TILE_ROW_TOP,
+        exclude=(CodepointRange(0x1CE1A, 0x1CE50),),
+    ),
+    VerticalTileTransformBlock(
+        "Large Type Pieces",
+        (CodepointRange(0x1CE1A, 0x1CE50),),
+        CASCADIA_TILE_ROW_BOTTOM,
+        CASCADIA_TILE_ROW_TOP,
+        FLIGHTLINE_TILE_ROW_BOTTOM,
+        FLIGHTLINE_TILE_ROW_TOP,
     ),
 )
 
@@ -384,6 +452,95 @@ def rewrite_component_references(value: Any, source_to_dest: dict[str, str]) -> 
         rewrite_component_references(item, source_to_dest)
 
 
+def vertical_tile_transform_for_codepoint(
+    codepoint: int,
+) -> VerticalTileTransformBlock | None:
+    for block in VERTICAL_TILE_TRANSFORM_BLOCKS:
+        if block.contains(codepoint):
+            return block
+    return None
+
+
+def transform_y(value: float, block: VerticalTileTransformBlock) -> int:
+    source_height = block.source_top - block.source_bottom
+    target_height = block.target_top - block.target_bottom
+    return round(
+        block.target_bottom
+        + (value - block.source_bottom) * target_height / source_height
+    )
+
+
+def transform_node_string(
+    node: str, block: VerticalTileTransformBlock
+) -> tuple[str, bool]:
+    transformed_tokens: list[str] = []
+    numeric_index = 0
+    modified = False
+
+    for token in node.split():
+        try:
+            value = float(token)
+        except ValueError:
+            transformed_tokens.append(token)
+            continue
+
+        if numeric_index % 2 == 1:
+            transformed_value = transform_y(value, block)
+            transformed_tokens.append(str(transformed_value))
+            modified = modified or transformed_value != value
+        else:
+            transformed_tokens.append(token)
+        numeric_index += 1
+
+    return " ".join(transformed_tokens), modified
+
+
+def transform_layer_nodes(value: Any, block: VerticalTileTransformBlock) -> bool:
+    modified = False
+
+    if isinstance(value, list):
+        for item in value:
+            modified = transform_layer_nodes(item, block) or modified
+        return modified
+
+    if not isinstance(value, dict):
+        return False
+
+    nodes = value.get("nodes")
+    if isinstance(nodes, list):
+        transformed_nodes: list[Any] = []
+        for node in nodes:
+            if isinstance(node, str):
+                transformed_node, node_modified = transform_node_string(node, block)
+                transformed_nodes.append(transformed_node)
+                modified = node_modified or modified
+            else:
+                transformed_nodes.append(node)
+        value["nodes"] = transformed_nodes
+
+    for key, item in value.items():
+        if key == "nodes":
+            continue
+        modified = transform_layer_nodes(item, block) or modified
+
+    return modified
+
+
+def apply_vertical_tile_transform(
+    glyph: dict[str, Any], block: VerticalTileTransformBlock
+) -> bool:
+    layers = glyph.get("layers")
+    if not isinstance(layers, list):
+        return False
+
+    modified = False
+    for layer in layers:
+        if isinstance(layer, dict):
+            modified = transform_layer_nodes(layer.get("elements", []), block) or modified
+
+    return modified
+
+
 def cloned_glyph(
     source_glyph: dict[str, Any],
     spec: GlyphCopySpec,
@@ -440,7 +597,7 @@ def copy_to_flightline_file(
     specs: list[GlyphCopySpec],
     source_glyphs: dict[str, dict[str, Any]],
     source_to_dest: dict[str, str],
-) -> tuple[int, int]:
+) -> tuple[int, int, dict[str, list[GlyphCopySpec]]]:
     data = load_data(path)
     font = data["font"]
     glyphs = font.get("glyphs")
@@ -454,11 +611,18 @@ def copy_to_flightline_file(
 
     added = 0
     replaced = 0
+    transformed: dict[str, list[GlyphCopySpec]] = {}
     for spec in specs:
         source_glyph = source_glyphs[spec.source_name]
         glyph = cloned_glyph(
             source_glyph, spec, layer_names, active_layer_name, source_to_dest
         )
+        transform_block = vertical_tile_transform_for_codepoint(spec.codepoint)
+        if transform_block is not None and apply_vertical_tile_transform(
+            glyph, transform_block
+        ):
+            transformed.setdefault(transform_block.label, []).append(spec)
+
         result = replace_or_append_glyph(glyphs, glyph)
         if result == "added":
             added += 1
@@ -467,7 +631,40 @@ def copy_to_flightline_file(
 
     font["glyphsCount"] = len(glyphs)
     write_data(path, data)
-    return added, replaced
+    return added, replaced, transformed
+
+
+def transformed_count(transformed: dict[str, list[GlyphCopySpec]]) -> int:
+    return sum(len(specs) for specs in transformed.values())
+
+
+def format_spec_span(specs: list[GlyphCopySpec]) -> str:
+    sorted_specs = sorted(specs, key=lambda spec: spec.codepoint)
+    first = sorted_specs[0]
+    last = sorted_specs[-1]
+    if first == last:
+        return f"U+{first.codepoint:04X} {first.dest_name}"
+    return (
+        f"U+{first.codepoint:04X} {first.dest_name} through "
+        f"U+{last.codepoint:04X} {last.dest_name}"
+    )
+
+
+def print_transform_summary(transformed: dict[str, list[GlyphCopySpec]]) -> None:
+    if not transformed:
+        print("vertical tiling transform: no glyphs modified")
+        return
+
+    print("vertical tiling transform summary:")
+    for block in VERTICAL_TILE_TRANSFORM_BLOCKS:
+        specs = transformed.get(block.label)
+        if not specs:
+            continue
+        print(
+            f"  {block.label}: {len(specs)} glyphs, "
+            f"Y {block.source_bottom}..{block.source_top} -> "
+            f"{block.target_bottom}..{block.target_top}; {format_spec_span(specs)}"
+        )
 
 
 def copy_glyphs() -> int:
@@ -483,11 +680,18 @@ def copy_glyphs() -> int:
         )
 
     source_to_dest = {spec.source_name: spec.dest_name for spec in specs}
+    transform_summary: dict[str, list[GlyphCopySpec]] = {}
     for path in flightline_paths():
-        added, replaced = copy_to_flightline_file(
+        added, replaced, transformed = copy_to_flightline_file(
             path, specs, source_glyphs, source_to_dest
         )
-        print(f"{relative_path(path)}: added {added}, replaced {replaced}")
+        transform_summary = transformed
+        print(
+            f"{relative_path(path)}: added {added}, replaced {replaced}, "
+            f"vertical transforms {transformed_count(transformed)}"
+        )
+
+    print_transform_summary(transform_summary)
 
     return 0
 
