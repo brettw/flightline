@@ -14,6 +14,9 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parents[1]
 POWERLINE_PATH = REPO_ROOT / "sources" / "vfj" / "NerdfontsPL-Regular.vfj"
 FLIGHTLINE_DIR = REPO_ROOT / "sources" / "vfj"
+POWERLINE_ROW_BOTTOM = -500
+POWERLINE_ROW_TOP = 1930
+POWERLINE_VERTICAL_EXCLUDE_CODEPOINTS = {0xE0A1, 0xE0A2, 0xE0A3, 0xE0CE}
 
 
 @dataclass(frozen=True)
@@ -21,6 +24,12 @@ class GlyphCopySpec:
     source_name: str
     dest_name: str
     codepoint: str | None
+
+
+@dataclass(frozen=True)
+class VerticalBounds:
+    bottom: float
+    top: float
 
 
 def parse_args() -> argparse.Namespace:
@@ -84,6 +93,16 @@ def glyph_name(glyph: dict[str, Any]) -> str | None:
 def glyph_unicode(glyph: dict[str, Any]) -> str | None:
     value = glyph.get("unicode")
     return value.lower() if isinstance(value, str) and value else None
+
+
+def glyph_codepoint_value(spec: GlyphCopySpec) -> int | None:
+    if spec.codepoint is None:
+        return None
+
+    try:
+        return int(spec.codepoint, 16)
+    except ValueError:
+        return None
 
 
 def glyphs_by_name(glyphs: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
@@ -208,6 +227,142 @@ def rewrite_component_references(value: Any, source_to_dest: dict[str, str]) -> 
         rewrite_component_references(item, source_to_dest)
 
 
+def numeric_tokens(node: str) -> list[float]:
+    values: list[float] = []
+    for token in node.split():
+        try:
+            values.append(float(token))
+        except ValueError:
+            continue
+    return values
+
+
+def layer_vertical_bounds(layer: dict[str, Any]) -> VerticalBounds | None:
+    y_values: list[float] = []
+
+    def collect(value: Any) -> None:
+        if isinstance(value, list):
+            for item in value:
+                collect(item)
+            return
+
+        if not isinstance(value, dict):
+            return
+
+        nodes = value.get("nodes")
+        if isinstance(nodes, list):
+            for node in nodes:
+                if isinstance(node, str):
+                    values = numeric_tokens(node)
+                    y_values.extend(values[1::2])
+
+        for item in value.values():
+            collect(item)
+
+    collect(layer.get("elements", []))
+
+    if not y_values:
+        return None
+
+    return VerticalBounds(min(y_values), max(y_values))
+
+
+def transformed_y(value: float, source_bounds: VerticalBounds) -> int:
+    source_height = source_bounds.top - source_bounds.bottom
+    target_height = POWERLINE_ROW_TOP - POWERLINE_ROW_BOTTOM
+    return round(
+        POWERLINE_ROW_BOTTOM
+        + (value - source_bounds.bottom) * target_height / source_height
+    )
+
+
+def transform_node_string(
+    node: str, source_bounds: VerticalBounds
+) -> tuple[str, bool]:
+    transformed_tokens: list[str] = []
+    numeric_index = 0
+    modified = False
+
+    for token in node.split():
+        try:
+            value = float(token)
+        except ValueError:
+            transformed_tokens.append(token)
+            continue
+
+        if numeric_index % 2 == 1:
+            transformed_value = transformed_y(value, source_bounds)
+            transformed_tokens.append(str(transformed_value))
+            modified = modified or transformed_value != value
+        else:
+            transformed_tokens.append(token)
+        numeric_index += 1
+
+    return " ".join(transformed_tokens), modified
+
+
+def transform_layer_nodes(value: Any, source_bounds: VerticalBounds) -> bool:
+    modified = False
+
+    if isinstance(value, list):
+        for item in value:
+            modified = transform_layer_nodes(item, source_bounds) or modified
+        return modified
+
+    if not isinstance(value, dict):
+        return False
+
+    nodes = value.get("nodes")
+    if isinstance(nodes, list):
+        transformed_nodes: list[Any] = []
+        for node in nodes:
+            if isinstance(node, str):
+                transformed_node, node_modified = transform_node_string(
+                    node, source_bounds
+                )
+                transformed_nodes.append(transformed_node)
+                modified = node_modified or modified
+            else:
+                transformed_nodes.append(node)
+        value["nodes"] = transformed_nodes
+
+    for key, item in value.items():
+        if key == "nodes":
+            continue
+        modified = transform_layer_nodes(item, source_bounds) or modified
+
+    return modified
+
+
+def normalize_powerline_vertical_bounds(
+    glyph: dict[str, Any], spec: GlyphCopySpec
+) -> bool:
+    codepoint = glyph_codepoint_value(spec)
+    if codepoint is None or codepoint in POWERLINE_VERTICAL_EXCLUDE_CODEPOINTS:
+        return False
+
+    layers = glyph.get("layers")
+    if not isinstance(layers, list):
+        return False
+
+    modified = False
+    for layer in layers:
+        if not isinstance(layer, dict):
+            continue
+
+        bounds = layer_vertical_bounds(layer)
+        if bounds is None:
+            continue
+        if bounds.bottom == bounds.top:
+            continue
+        if bounds.bottom == POWERLINE_ROW_BOTTOM and bounds.top == POWERLINE_ROW_TOP:
+            continue
+
+        modified = transform_layer_nodes(layer.get("elements", []), bounds) or modified
+
+    return modified
+
+
 def cloned_glyph(
     source_glyph: dict[str, Any],
     spec: GlyphCopySpec,
@@ -274,7 +429,7 @@ def copy_to_flightline_file(
     source_glyphs: dict[str, dict[str, Any]],
     source_to_dest: dict[str, str],
     dry_run: bool,
-) -> tuple[int, int]:
+) -> tuple[int, int, int]:
     data = load_data(path)
     font = data["font"]
     glyphs = font["glyphs"]
@@ -286,11 +441,14 @@ def copy_to_flightline_file(
 
     added = 0
     replaced = 0
+    transformed = 0
     for spec in specs:
         source_glyph = source_glyphs[spec.source_name]
         glyph = cloned_glyph(
             source_glyph, spec, layer_names, active_layer_name, source_to_dest
         )
+        if normalize_powerline_vertical_bounds(glyph, spec):
+            transformed += 1
         result = replace_or_append_glyph(glyphs, glyph)
         if result == "added":
             added += 1
@@ -301,7 +459,7 @@ def copy_to_flightline_file(
     if not dry_run:
         write_data(path, data)
 
-    return added, replaced
+    return added, replaced, transformed
 
 
 def main() -> int:
@@ -322,13 +480,15 @@ def main() -> int:
     source_to_dest = {spec.source_name: spec.dest_name for spec in specs}
     mode = "would add" if args.dry_run else "added"
     replace_mode = "would replace" if args.dry_run else "replaced"
+    transform_mode = "would transform" if args.dry_run else "transformed"
 
     for path in flightline_paths():
-        added, replaced = copy_to_flightline_file(
+        added, replaced, transformed = copy_to_flightline_file(
             path, specs, source_glyphs, source_to_dest, args.dry_run
         )
         print(
-            f"{relative_path(path)}: {mode} {added}, {replace_mode} {replaced}"
+            f"{relative_path(path)}: {mode} {added}, {replace_mode} {replaced}, "
+            f"{transform_mode} {transformed}"
         )
 
     return 0
