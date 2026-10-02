@@ -78940,17 +78940,10 @@
       {
         "name":"nullControl",
         "unicode":"2400",
-        "lastModified":"2026-06-20 19:45:59",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -79028,29 +79021,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"startOfHeadingControl",
         "unicode":"2401",
-        "lastModified":"2026-06-20 20:03:25",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -79113,29 +79093,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"startOfTextControl",
         "unicode":"2402",
-        "lastModified":"2026-06-20 20:03:25",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -79201,29 +79168,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"endOfTextControl",
         "unicode":"2403",
-        "lastModified":"2026-06-20 20:00:11",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -79292,29 +79246,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"endOfTransmissionControl",
         "unicode":"2404",
-        "lastModified":"2026-06-20 20:00:11",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -79376,29 +79317,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"enquiryControl",
         "unicode":"2405",
-        "lastModified":"2026-06-20 19:17:35",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -79476,29 +79404,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"acknowledge-cntr",
         "unicode":"2406",
-        "lastModified":"2026-06-20 19:58:52",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -79594,29 +79509,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"bell-cntr",
         "unicode":"2407",
-        "lastModified":"2026-06-20 20:01:22",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -79728,29 +79630,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"backspace-cntr",
         "unicode":"2408",
-        "lastModified":"2026-06-20 20:03:25",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -79833,29 +79722,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"horizontalTabulationControl",
         "unicode":"2409",
-        "lastModified":"2026-06-20 19:40:55",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -79914,29 +79790,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"lineFeedControl",
         "unicode":"240a",
-        "lastModified":"2026-06-20 19:26:39",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -79983,29 +79846,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"verticaltab-cntr",
         "unicode":"240b",
-        "lastModified":"2026-06-20 20:02:45",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -80060,29 +79910,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"formFeedControl",
         "unicode":"240c",
-        "lastModified":"2026-06-20 19:25:30",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -80144,29 +79981,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"carriageReturnControl",
         "unicode":"240d",
-        "lastModified":"2026-06-20 19:35:32",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -80277,29 +80101,16 @@
               "fdeltah .fh02 19-19 -2",
               "fdeltah .fh02 20-22 1"
             ]
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"shiftOutControl",
         "unicode":"240e",
-        "lastModified":"2026-06-20 20:03:25",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -80362,29 +80173,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"shiftInControl",
         "unicode":"240f",
-        "lastModified":"2026-06-20 20:03:25",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -80446,29 +80244,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"dataLinkEscapeControl",
         "unicode":"2410",
-        "lastModified":"2026-06-20 20:00:32",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -80531,29 +80316,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"deviceControlOneControl",
         "unicode":"2411",
-        "lastModified":"2026-06-20 19:08:10",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -80621,29 +80393,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"deviceControlTwoControl",
         "unicode":"2412",
-        "lastModified":"2026-06-20 19:08:35",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -80710,29 +80469,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"deviceControlThreeControl",
         "unicode":"2413",
-        "lastModified":"2026-06-20 19:08:10",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -80802,29 +80548,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"deviceControlFourControl",
         "unicode":"2414",
-        "lastModified":"2026-06-20 19:08:10",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -80894,29 +80627,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"negativeAcknowledgeControl",
         "unicode":"2415",
-        "lastModified":"2026-06-20 19:45:59",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -80980,29 +80700,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"synchronousIdleControl",
         "unicode":"2416",
-        "lastModified":"2026-06-20 20:03:25",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -81094,29 +80801,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"endOfTransmissionBlockControl",
         "unicode":"2417",
-        "lastModified":"2026-06-20 20:01:22",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -81204,29 +80898,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"cancelControl",
         "unicode":"2418",
-        "lastModified":"2026-06-20 19:58:06",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -81290,29 +80971,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"endOfMediumControl",
         "unicode":"2419",
-        "lastModified":"2026-06-20 19:11:07",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -81375,29 +81043,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"substituteControl",
         "unicode":"241a",
-        "lastModified":"2026-06-20 20:03:25",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -81480,29 +81135,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"escapeControl",
         "unicode":"241b",
-        "lastModified":"2026-06-20 19:58:06",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -81566,29 +81208,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"fileSeparatorControl",
         "unicode":"241c",
-        "lastModified":"2026-06-20 20:03:25",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -81649,29 +81278,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"groupSeparatorControl",
         "unicode":"241d",
-        "lastModified":"2026-06-20 20:03:25",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -81736,29 +81352,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"recordSeparatorControl",
         "unicode":"241e",
-        "lastModified":"2026-06-20 20:03:25",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -81832,29 +81435,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"unitseparator-cntr",
         "unicode":"241f",
-        "lastModified":"2026-06-20 20:03:29",
+        "lastModified":"2026-10-02 01:40:41",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -81915,29 +81505,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"spaceControl",
         "unicode":"2420",
-        "lastModified":"2026-06-20 20:03:25",
+        "lastModified":"2026-10-02 01:40:44",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -82003,29 +81580,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"deleteControl",
         "unicode":"2421",
-        "lastModified":"2026-06-20 20:02:22",
+        "lastModified":"2026-10-02 01:40:58",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -82088,29 +81652,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"blank-cntr",
         "unicode":"2422",
-        "lastModified":"2026-06-20 20:05:33",
+        "lastModified":"2026-10-02 01:40:58",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1324,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1324,
             "elements":[
               {
@@ -82165,61 +81716,15 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1324,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"blank.1",
-        "lastModified":"2026-06-19 21:33:04",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "elements":[
-              {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "100 -386",
-                        "290 -386",
-                        "290 -17",
-                        "100 -17"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "910 -386",
-                        "1100 -386",
-                        "1100 -17",
-                        "910 -17"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "100 -386",
-                        "1100 -386",
-                        "1100 -226",
-                        "100 -226"
-                      ]
-                    }
-                  ]
-                },
-                "active":true
-              }
-            ],
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -82261,17 +81766,10 @@
       {
         "name":"newlineControl",
         "unicode":"2424",
-        "lastModified":"2026-06-20 19:45:59",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -82332,29 +81830,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"deleteFormTwoControl",
         "unicode":"2425",
-        "lastModified":"2026-06-20 19:53:03",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1634,
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -82394,64 +81879,16 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1634,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"substituteformtwo-cntr",
         "unicode":"2426",
-        "lastModified":"2026-06-20 20:06:09",
+        "lastModified":"2026-10-02 01:40:32",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":996,
-            "elements":[
-              {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "1009 1157 s",
-                        "1009 831  586 924  586 526",
-                        "499 514",
-                        "499 596  512 661  534 714 s",
-                        "639 973  920 943  921 1165 s",
-                        "922 1317  811 1434  604 1429 s",
-                        "473 1426  346 1383  259 1266",
-                        "190 1321",
-                        "307 1481  476 1517  604 1517 s",
-                        "812 1517  1009 1405 c"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "546 -17 s",
-                        "486 -17  439 33  439 92 s",
-                        "439 151  488 199  546 199 s",
-                        "606 199  653 151  653 92 s",
-                        "653 33  605 -17 c"
-                      ]
-                    }
-                  ]
-                },
-                "transform":{
-                  "xScale":-1,
-                  "xOffset":1199
-                }
-              }
-            ],
-            "color":"#1f964d",
-            "active":true
-          },
-          {
-            "name":"Regular",
+            "name":"Italic",
             "advanceWidth":1200,
             "elements":[
               {
@@ -82487,47 +81924,6 @@
                   "xOffset":1199
                 },
                 "active":true
-              }
-            ],
-            "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":996,
-            "elements":[
-              {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "1102 1124 s",
-                        "1102 812  707 861  707 549 {n:'.av03'}",
-                        "396 514 {n:'.av02'}",
-                        "396 589  405 652  423 701 s",
-                        "513 951  761 948  761 1132 s",
-                        "761 1239  677 1283  585 1283 s",
-                        "516 1283  371 1241  280 1117",
-                        "98 1268",
-                        "250 1471  451 1517  609 1517 s",
-                        "862 1517  1102 1393 c"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "546 -17 s {n:'.ab01'}",
-                        "436 -17  348 74  348 183 s {n:'.ah01'}",
-                        "348 292  438 381  546 381 s {n:'.av01'}",
-                        "655 381  743 292  743 183 s {n:'.ah02'}",
-                        "743 74  654 -17 c"
-                      ]
-                    }
-                  ]
-                },
-                "transform":{
-                  "xScale":-1,
-                  "xOffset":1200
-                }
               }
             ],
             "color":"#00cce5"
@@ -84465,7 +83861,7 @@
       {
         "name":"boxHeavyDownAndLeft",
         "unicode":"2513",
-        "lastModified":"2026-04-18 02:26:26",
+        "lastModified":"2026-10-02 01:40:21",
         "layers":[
           {
             "name":"Italic",
@@ -84486,7 +83882,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "color":"#00cce5",
