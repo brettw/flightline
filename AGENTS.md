@@ -13,27 +13,39 @@ python3 scripts/generate_features.py
 The generator resolves paths relative to its own location and writes
 `../sources/features.txt`, so it works from any current working directory.
 
-`scripts/generate_features.py` has three main parts:
+`scripts/generate_features.py` has four main parts:
 
 - `HEADER` is a literal block containing the FontLab-style preamble, glyph
   classes, and no `feature` blocks.
 - `HARDCODED_FEATURES` is a literal block containing `ss01` and `ss02`.
-- `generate_calt()` appends a generated `feature calt` block.
+- `generate_height_feature()` appends `ss03`, named "Contextual Punctuation
+  Heights". This optional stylistic set contains all contextual height rules.
+- `generate_calt()` appends `calt`, containing only horizontal shaping for
+  `->`, `<-`, and `=>`. It shapes arrows without requiring surrounding letters
+  and preserves each component's height.
+
+Emit `ss03` before `calt` so the compiled lookup order chooses heights before
+shaping arrows. `calt` accepts base, `.lc`, and available `.uc` inputs; its
+`COMPACT_LC_OUTPUTS` and `COMPACT_UC_OUTPUTS` select the corresponding
+`.leftfull`/`.rightfull` forms. The base and `.uc` forms have the same height.
+`ss03` must also work independently when `calt` is disabled, adjusting heights
+without compacting arrows.
 
 All glyph class definitions, including generated classes such as
 `@lcAnnotated` and `@ucAnnotated`, must be emitted before any `feature` block.
 
-The generated `calt` block has pair right-side uppercase rules first, lowercase
-pair-operator rules second, single-punctuation rules third, and bracket-pair
-rules last. Keep that order: uppercase-right pair rules must run before
-lowercase pair rules, and pair rules need to see both base glyph names before a
-single-punctuation rule rewrites either side.
+The generated `ss03` block has sequence and pair right-side uppercase rules
+first, lowercase sequence and pair-operator rules second, single-punctuation
+rules third, and annotated follow rules last. Keep that order: uppercase-right
+pair rules must run before lowercase pair rules, and pair rules need to see
+both base glyph names before a single-punctuation rule rewrites either side.
 
 Pair-operator rules come from `OPERATOR_COMBINATIONS`. Each two-character
 operator gets eight lowercase contextual substitutions covering immediate and
-space-separated contexts on either side of the operator. Compact arrow-like
-operators use `COMPACT_LC_OUTPUTS`; for example, `->` generates
-`hyphen.lc.rightfull` plus `greater.lc.leftfull`.
+space-separated contexts on either side of the operator. These height rules
+use ordinary `.lc`/`.uc` outputs, including for arrow-like operators. For
+example, `ss03` maps `a->c` to `a hyphen.lc greater.lc c`, and the later `calt`
+rules compact the arrow to `hyphen.lc.rightfull` plus `greater.lc.leftfull`.
 
 Long equality operators come from `LONG_OPERATOR_COMBINATIONS`; currently this
 is `===`, `!==`, and the four-character `!===` form. These use the same
@@ -50,6 +62,7 @@ shorter tail match cannot steal precedence from the full run.
 
 `@lcAnnotated` and `@ucAnnotated` are generated classes containing the glyphs
 that have already been rewritten to lowercase or uppercase/full-height forms.
+The classes exclude compact arrow forms, which are produced later by `calt`.
 The annotated follow rules make adjacent glyphs with known `.lc` or `.uc`
 variants inherit that same state. These follow rules are generated for
 `MAX_ANNOTATED_FOLLOW_LENGTH` rounds so a run like `a+~*c` can propagate from
@@ -59,9 +72,8 @@ position-specific outputs take precedence.
 
 Pair right-side uppercase rules convert base operator pairs to their
 uppercase/full-height outputs when the pair is followed by `@fullLeft` or
-`space @fullLeft`. Compact outputs come from `COMPACT_UC_OUTPUTS`; non-compact
-outputs use `UPPERCASE_OUTPUTS` where a `.uc` glyph exists and otherwise keep
-the base glyph name, such as `less`.
+`space @fullLeft`. Outputs use `UPPERCASE_OUTPUTS` where a `.uc` glyph exists
+and otherwise keep the base glyph name, such as `less`.
 
 The single-punctuation rules come from `PUNCTUATION_GLYPHS`. Each punctuation
 glyph gets eight contextual substitutions:
@@ -75,10 +87,10 @@ The generator list intentionally includes `"equals"` as a readable name, but
 `GLYPH_ALIASES` maps it to the actual glyph name `equal`. Use `equal` in tests
 and generated feature output.
 
-Bracket-pair rules come from `BRACKET_PAIRS` and are generated for content
-lengths 1 through `MAX_BRACKET_CONTENT_LENGTH`. They lowercase matching
-parentheses, brackets, and braces when the enclosed run starts with
-`@littleLeft` and ends with `@littleRight`, with optional `@letters` between.
+Bracket-pair and bracket-follow rules are currently disabled. Their helpers
+remain in the generator for possible use in `ss03`; keep them disabled unless
+explicitly changing bracket behavior. `ss01` still provides unconditional
+lowercase brackets.
 
 ## Feature Tests
 
@@ -99,14 +111,17 @@ the generated file is missing.
 The tester is a small simulator for the Adobe FEA subset used here. It supports
 glyph classes, single substitutions, and contextual single substitutions with
 one marked glyph. It is not a HarfBuzz or compiled-font test. For this project,
-that is enough to verify the generated `ss01`, `ss02`, and simple `calt` source
-rules.
+that is enough to verify the generated `ss01`, `ss02`, `ss03`, and simple `calt`
+source rules. For combined height and arrow tests, select `["ss03", "calt"]`:
+the simulator applies features in the requested order, so this must match the
+generated lookup order. It does not model application feature defaults.
 
 Useful tester commands:
 
 ```bash
 python3 scripts/test_features.py --list-features
 python3 scripts/test_features.py --features calt --dump-text 'A + b'
+python3 scripts/test_features.py --features ss03,calt --dump-text 'a->c A + b'
 python3 scripts/test_features.py sources/features.txt sources/feature_tests.json
 ```
 

@@ -13,7 +13,7 @@ from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parent
-TTF_DIR = REPO_ROOT / "ttf"
+TTF_DIR = REPO_ROOT / "ttf" / "variable"
 OUTPUT_ZIP = REPO_ROOT / "flightline_code.zip"
 
 

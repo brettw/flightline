@@ -20,8 +20,8 @@
       "expected": ["zero.alt", "one", "zero.alt"]
     },
     {
-      "name": "calt uppercases punctuation after full-height glyphs",
-      "feature": "calt",
+      "name": "ss03 uppercases punctuation after full-height glyphs",
+      "feature": "ss03",
       "inputText": "A+ A- A= A~ A*",
       "expected": [
         "A",
@@ -41,8 +41,8 @@
       ]
     },
     {
-      "name": "calt uppercases spaced punctuation after full-height glyphs",
-      "feature": "calt",
+      "name": "ss03 uppercases spaced punctuation after full-height glyphs",
+      "feature": "ss03",
       "inputText": "A + A - A = A ~ A *",
       "expected": [
         "A",
@@ -67,8 +67,8 @@
       ]
     },
     {
-      "name": "calt uppercases punctuation before full-height glyphs",
-      "feature": "calt",
+      "name": "ss03 uppercases punctuation before full-height glyphs",
+      "feature": "ss03",
       "inputText": "+A -A =A ~A *A",
       "expected": [
         "plus.uc",
@@ -88,8 +88,8 @@
       ]
     },
     {
-      "name": "calt uppercases spaced punctuation before full-height glyphs",
-      "feature": "calt",
+      "name": "ss03 uppercases spaced punctuation before full-height glyphs",
+      "feature": "ss03",
       "inputText": "+ A - A = A ~ A * A",
       "expected": [
         "plus.uc",
@@ -114,8 +114,8 @@
       ]
     },
     {
-      "name": "calt lowercases punctuation after lowercase glyphs",
-      "feature": "calt",
+      "name": "ss03 lowercases punctuation after lowercase glyphs",
+      "feature": "ss03",
       "inputText": "a+ a- a= a~ a*",
       "expected": [
         "a",
@@ -135,8 +135,8 @@
       ]
     },
     {
-      "name": "calt lowercases spaced punctuation after lowercase glyphs",
-      "feature": "calt",
+      "name": "ss03 lowercases spaced punctuation after lowercase glyphs",
+      "feature": "ss03",
       "inputText": "a + a - a = a ~ a *",
       "expected": [
         "a",
@@ -161,8 +161,8 @@
       ]
     },
     {
-      "name": "calt lowercases punctuation before lowercase glyphs",
-      "feature": "calt",
+      "name": "ss03 lowercases punctuation before lowercase glyphs",
+      "feature": "ss03",
       "inputText": "+c -c =c ~c *c",
       "expected": [
         "plus.lc",
@@ -182,8 +182,8 @@
       ]
     },
     {
-      "name": "calt lowercases spaced punctuation before lowercase glyphs",
-      "feature": "calt",
+      "name": "ss03 lowercases spaced punctuation before lowercase glyphs",
+      "feature": "ss03",
       "inputText": "+ c - c = c ~ c * c",
       "expected": [
         "plus.lc",
@@ -208,178 +208,292 @@
       ]
     },
     {
-      "name": "calt lowercases operator combinations after lowercase glyphs",
-      "feature": "calt",
+      "name": "ss03 lowercases operator combinations after lowercase glyphs",
+      "feature": "ss03",
       "inputText": "a+= a-= a<= a>= a~= a++ a-- a=> a*= a-> a<-",
-      "expected": "a plus.lc equal.lc space a hyphen.lc equal.lc space a less.lc equal.lc space a greater.lc equal.lc space a asciitilde.lc equal.lc space a plus.lc plus.lc space a hyphen.lc hyphen.lc space a equal.lc.rightfull greater.lc.leftfull space a asterisk.lc equal.lc space a hyphen.lc.rightfull greater.lc.leftfull space a less.lc.rightfull hyphen.lc.leftfull"
+      "expected": "a plus.lc equal.lc space a hyphen.lc equal.lc space a less.lc equal.lc space a greater.lc equal.lc space a asciitilde.lc equal.lc space a plus.lc plus.lc space a hyphen.lc hyphen.lc space a equal.lc greater.lc space a asterisk.lc equal.lc space a hyphen.lc greater.lc space a less.lc hyphen.lc"
     },
     {
-      "name": "calt lowercases spaced operator combinations after lowercase glyphs",
-      "feature": "calt",
+      "name": "ss03 lowercases spaced operator combinations after lowercase glyphs",
+      "feature": "ss03",
       "inputText": "a += a -= a <= a >= a ~= a ++ a -- a => a *= a -> a <-",
-      "expected": "a space plus.lc equal.lc space a space hyphen.lc equal.lc space a space less.lc equal.lc space a space greater.lc equal.lc space a space asciitilde.lc equal.lc space a space plus.lc plus.lc space a space hyphen.lc hyphen.lc space a space equal.lc.rightfull greater.lc.leftfull space a space asterisk.lc equal.lc space a space hyphen.lc.rightfull greater.lc.leftfull space a space less.lc.rightfull hyphen.lc.leftfull"
+      "expected": "a space plus.lc equal.lc space a space hyphen.lc equal.lc space a space less.lc equal.lc space a space greater.lc equal.lc space a space asciitilde.lc equal.lc space a space plus.lc plus.lc space a space hyphen.lc hyphen.lc space a space equal.lc greater.lc space a space asterisk.lc equal.lc space a space hyphen.lc greater.lc space a space less.lc hyphen.lc"
     },
     {
-      "name": "calt lowercases operator combinations before lowercase glyphs",
-      "feature": "calt",
+      "name": "ss03 lowercases operator combinations before lowercase glyphs",
+      "feature": "ss03",
       "inputText": "+=c -=c <=c >=c ~=c ++c --c =>c *=c ->c <-c",
-      "expected": "plus.lc equal.lc c space hyphen.lc equal.lc c space less.lc equal.lc c space greater.lc equal.lc c space asciitilde.lc equal.lc c space plus.lc plus.lc c space hyphen.lc hyphen.lc c space equal.lc.rightfull greater.lc.leftfull c space asterisk.lc equal.lc c space hyphen.lc.rightfull greater.lc.leftfull c space less.lc.rightfull hyphen.lc.leftfull c"
+      "expected": "plus.lc equal.lc c space hyphen.lc equal.lc c space less.lc equal.lc c space greater.lc equal.lc c space asciitilde.lc equal.lc c space plus.lc plus.lc c space hyphen.lc hyphen.lc c space equal.lc greater.lc c space asterisk.lc equal.lc c space hyphen.lc greater.lc c space less.lc hyphen.lc c"
     },
     {
-      "name": "calt lowercases spaced operator combinations before lowercase glyphs",
-      "feature": "calt",
+      "name": "ss03 lowercases spaced operator combinations before lowercase glyphs",
+      "feature": "ss03",
       "inputText": "+= c -= c <= c >= c ~= c ++ c -- c => c *= c -> c <- c",
-      "expected": "plus.lc equal.lc space c space hyphen.lc equal.lc space c space less.lc equal.lc space c space greater.lc equal.lc space c space asciitilde.lc equal.lc space c space plus.lc plus.lc space c space hyphen.lc hyphen.lc space c space equal.lc.rightfull greater.lc.leftfull space c space asterisk.lc equal.lc space c space hyphen.lc.rightfull greater.lc.leftfull space c space less.lc.rightfull hyphen.lc.leftfull space c"
+      "expected": "plus.lc equal.lc space c space hyphen.lc equal.lc space c space less.lc equal.lc space c space greater.lc equal.lc space c space asciitilde.lc equal.lc space c space plus.lc plus.lc space c space hyphen.lc hyphen.lc space c space equal.lc greater.lc space c space asterisk.lc equal.lc space c space hyphen.lc greater.lc space c space less.lc hyphen.lc space c"
     },
     {
-      "name": "calt leaves operator combinations without lowercase context unchanged",
-      "feature": "calt",
+      "name": "ss03 leaves operator combinations without lowercase context unchanged",
+      "feature": "ss03",
       "inputText": "+= -= <= >= ~= ++ -- => *= -> <-",
       "expected": "plus equal space hyphen equal space less equal space greater equal space asciitilde equal space plus plus space hyphen hyphen space equal greater space asterisk equal space hyphen greater space less hyphen"
     },
     {
-      "name": "calt lowercases long equality operators after lowercase glyphs",
-      "feature": "calt",
+      "name": "ss03 lowercases long equality operators after lowercase glyphs",
+      "feature": "ss03",
       "inputText": "a=== a!== a!===",
       "expected": "a equal.lc equal.lc equal.lc space a exclam equal.lc equal.lc space a exclam equal.lc equal.lc equal.lc"
     },
     {
-      "name": "calt lowercases long equality operators before lowercase glyphs",
-      "feature": "calt",
+      "name": "ss03 lowercases long equality operators before lowercase glyphs",
+      "feature": "ss03",
       "inputText": "===c !==c !===c",
       "expected": "equal.lc equal.lc equal.lc c space exclam equal.lc equal.lc c space exclam equal.lc equal.lc equal.lc c"
     },
     {
-      "name": "calt uppercases long equality operators before full-height glyphs",
-      "feature": "calt",
+      "name": "ss03 uppercases long equality operators before full-height glyphs",
+      "feature": "ss03",
       "inputText": "a===N a!==N a!===N ===N !==N !===N",
       "expected": "a equal.uc equal.uc equal.uc N space a exclam equal.uc equal.uc N space a exclam equal.uc equal.uc equal.uc N space equal.uc equal.uc equal.uc N space exclam equal.uc equal.uc N space exclam equal.uc equal.uc equal.uc N"
     },
     {
-      "name": "calt leaves long equality operators without context unchanged",
-      "feature": "calt",
+      "name": "ss03 leaves long equality operators without context unchanged",
+      "feature": "ss03",
       "inputText": "=== !== !===",
       "expected": "equal equal equal space exclam equal equal space exclam equal equal equal"
     },
     {
-      "name": "calt propagates lowercase across repeated equals and hyphens after lowercase glyphs",
-      "feature": "calt",
+      "name": "ss03 propagates lowercase across repeated equals and hyphens after lowercase glyphs",
+      "feature": "ss03",
       "inputText": "a== a==== a--- a----",
       "expected": "a equal.lc equal.lc space a equal.lc equal.lc equal.lc equal.lc space a hyphen.lc hyphen.lc hyphen.lc space a hyphen.lc hyphen.lc hyphen.lc hyphen.lc"
     },
     {
-      "name": "calt propagates lowercase across minimum and maximum repeated equals",
-      "feature": "calt",
+      "name": "ss03 propagates lowercase across minimum and maximum repeated equals",
+      "feature": "ss03",
       "inputText": "a== a========",
       "expected": "a equal.lc equal.lc space a equal.lc equal.lc equal.lc equal.lc equal.lc equal.lc equal.lc equal.lc"
     },
     {
-      "name": "calt propagates lowercase across repeated equals and hyphens before lowercase glyphs",
-      "feature": "calt",
+      "name": "ss03 propagates lowercase across repeated equals and hyphens before lowercase glyphs",
+      "feature": "ss03",
       "inputText": "==c ====c ---c ----c",
       "expected": "equal.lc equal.lc c space equal.lc equal.lc equal.lc equal.lc c space hyphen.lc hyphen.lc hyphen.lc c space hyphen.lc hyphen.lc hyphen.lc hyphen.lc c"
     },
     {
-      "name": "calt propagates uppercase across repeated equals and hyphens before full-height glyphs",
-      "feature": "calt",
+      "name": "ss03 propagates uppercase across repeated equals and hyphens before full-height glyphs",
+      "feature": "ss03",
       "inputText": "a==N a====N a---N a----N ==N ====N --N ----N",
       "expected": "a equal.uc equal.uc N space a equal.uc equal.uc equal.uc equal.uc N space a hyphen.uc hyphen.uc hyphen.uc N space a hyphen.uc hyphen.uc hyphen.uc hyphen.uc N space equal.uc equal.uc N space equal.uc equal.uc equal.uc equal.uc N space hyphen.uc hyphen.uc N space hyphen.uc hyphen.uc hyphen.uc hyphen.uc N"
     },
     {
-      "name": "calt leaves repeated equals and hyphens without context unchanged",
-      "feature": "calt",
+      "name": "ss03 leaves repeated equals and hyphens without context unchanged",
+      "feature": "ss03",
       "inputText": "== ==== -- ----",
       "expected": "equal equal space equal equal equal equal space hyphen hyphen space hyphen hyphen hyphen hyphen"
     },
     {
-      "name": "calt propagates lowercase annotation across adjacent punctuation",
-      "feature": "calt",
+      "name": "ss03 propagates lowercase annotation across adjacent punctuation",
+      "feature": "ss03",
       "inputText": "a+~*c",
       "expected": "a plus.lc asciitilde.lc asterisk.lc c"
     },
     {
-      "name": "calt propagates lowercase annotation from class input",
-      "feature": "calt",
+      "name": "ss03 propagates lowercase annotation from class input",
+      "feature": "ss03",
       "input": "plus.lc equal hyphen asciitilde asterisk parenleft c parenright",
       "expected": "plus.lc equal.lc hyphen.lc asciitilde.lc asterisk.lc parenleft c parenright"
     },
     {
-      "name": "calt propagates uppercase annotation from class input",
-      "feature": "calt",
+      "name": "ss03 propagates uppercase annotation from class input",
+      "feature": "ss03",
       "input": "equal.uc equal plus hyphen asciitilde asterisk",
       "expected": "equal.uc equal.uc plus.uc hyphen.uc asciitilde.uc asterisk.uc"
     },
     {
-      "name": "calt fixes lowercased operator combinations before full-height glyphs",
-      "feature": "calt",
+      "name": "ss03 fixes lowercased operator combinations before full-height glyphs",
+      "feature": "ss03",
       "inputText": "a+=A a-=A a<=A a>=A a~=A a++A a--A a=>A a*=A a->A a<-A",
-      "expected": "a plus.uc equal.uc A space a hyphen.uc equal.uc A space a less equal.uc A space a greater equal.uc A space a asciitilde.uc equal.uc A space a plus.uc plus.uc A space a hyphen.uc hyphen.uc A space a equal.rightfull greater.leftfull A space a asterisk.uc equal.uc A space a hyphen.rightfull greater.leftfull A space a less.rightfull hyphen.leftfull A"
+      "expected": "a plus.uc equal.uc A space a hyphen.uc equal.uc A space a less equal.uc A space a greater equal.uc A space a asciitilde.uc equal.uc A space a plus.uc plus.uc A space a hyphen.uc hyphen.uc A space a equal.uc greater A space a asterisk.uc equal.uc A space a hyphen.uc greater A space a less hyphen.uc A"
     },
     {
-      "name": "calt fixes plus equals before N",
-      "feature": "calt",
+      "name": "ss03 fixes plus equals before N",
+      "feature": "ss03",
       "inputText": "a+=N",
       "expected": "a plus.uc equal.uc N"
     },
     {
-      "name": "calt fixes spaced lowercased operator combinations before full-height glyphs",
-      "feature": "calt",
+      "name": "ss03 fixes spaced lowercased operator combinations before full-height glyphs",
+      "feature": "ss03",
       "inputText": "a += A a -= A a <= A a >= A a ~= A a ++ A a -- A a => A a *= A a -> A a <- A",
-      "expected": "a space plus.uc equal.uc space A space a space hyphen.uc equal.uc space A space a space less equal.uc space A space a space greater equal.uc space A space a space asciitilde.uc equal.uc space A space a space plus.uc plus.uc space A space a space hyphen.uc hyphen.uc space A space a space equal.rightfull greater.leftfull space A space a space asterisk.uc equal.uc space A space a space hyphen.rightfull greater.leftfull space A space a space less.rightfull hyphen.leftfull space A"
+      "expected": "a space plus.uc equal.uc space A space a space hyphen.uc equal.uc space A space a space less equal.uc space A space a space greater equal.uc space A space a space asciitilde.uc equal.uc space A space a space plus.uc plus.uc space A space a space hyphen.uc hyphen.uc space A space a space equal.uc greater space A space a space asterisk.uc equal.uc space A space a space hyphen.uc greater space A space a space less hyphen.uc space A"
     },
     {
-      "name": "calt uppercases operator combinations before full-height glyphs",
-      "feature": "calt",
+      "name": "ss03 uppercases operator combinations before full-height glyphs",
+      "feature": "ss03",
       "inputText": "+=A -=A <=A >=A ~=A ++A --A =>A *=A ->A <-A",
-      "expected": "plus.uc equal.uc A space hyphen.uc equal.uc A space less equal.uc A space greater equal.uc A space asciitilde.uc equal.uc A space plus.uc plus.uc A space hyphen.uc hyphen.uc A space equal.rightfull greater.leftfull A space asterisk.uc equal.uc A space hyphen.rightfull greater.leftfull A space less.rightfull hyphen.leftfull A"
+      "expected": "plus.uc equal.uc A space hyphen.uc equal.uc A space less equal.uc A space greater equal.uc A space asciitilde.uc equal.uc A space plus.uc plus.uc A space hyphen.uc hyphen.uc A space equal.uc greater A space asterisk.uc equal.uc A space hyphen.uc greater A space less hyphen.uc A"
     },
     {
-      "name": "calt leaves bracket pairs around lowercase runs unchanged",
-      "feature": "calt",
+      "name": "ss03 leaves bracket pairs around lowercase runs unchanged",
+      "feature": "ss03",
       "inputText": "(a) [ab] {abc}",
       "expected": "parenleft a parenright space bracketleft a b bracketright space braceleft a b c braceright"
     },
     {
-      "name": "calt leaves parenthesis pairs through former generated max length unchanged",
-      "feature": "calt",
+      "name": "ss03 leaves parenthesis pairs through former generated max length unchanged",
+      "feature": "ss03",
       "inputText": "(a) (ac) (abc) (abbc) (abbbc) (abbbbc) (abbbbbc)",
       "expected": "parenleft a parenright space parenleft a c parenright space parenleft a b c parenright space parenleft a b b c parenright space parenleft a b b b c parenright space parenleft a b b b b c parenright space parenleft a b b b b b c parenright"
     },
     {
-      "name": "calt leaves bracket pairs without lowercase context unchanged",
-      "feature": "calt",
+      "name": "ss03 leaves bracket pairs without lowercase context unchanged",
+      "feature": "ss03",
       "inputText": "(A) [A] {A}",
       "expected": "parenleft A parenright space bracketleft A bracketright space braceleft A braceright"
     },
     {
-      "name": "calt prefers uppercase form when both contexts match",
-      "feature": "calt",
+      "name": "ss03 prefers uppercase form when both contexts match",
+      "feature": "ss03",
       "inputText": "A+c",
       "expected": ["A", "plus.uc", "c"]
     },
     {
-      "name": "calt treats b as a full-height left context",
-      "feature": "calt",
+      "name": "ss03 treats b as a full-height left context",
+      "feature": "ss03",
       "inputText": "+b",
       "expected": ["plus.uc", "b"]
     },
     {
-      "name": "calt treats digits as full-height contexts",
-      "feature": "calt",
+      "name": "ss03 treats digits as full-height contexts",
+      "feature": "ss03",
       "inputText": "0+ 1 + +2 + 3 a+=4",
       "expected": "zero plus.uc space one space plus.uc space plus.uc two space plus.uc space three space a plus.uc equal.uc four"
     },
     {
-      "name": "calt treats i and j as full-height contexts",
-      "feature": "calt",
+      "name": "ss03 treats i and j as full-height contexts",
+      "feature": "ss03",
       "inputText": "i+ j + +i + j a+=j",
       "expected": "i plus.uc space j space plus.uc space plus.uc i space plus.uc space j space a plus.uc equal.uc j"
     },
     {
-      "name": "calt leaves punctuation without context unchanged",
-      "feature": "calt",
+      "name": "ss03 leaves punctuation without context unchanged",
+      "feature": "ss03",
       "inputText": "+-=~*",
       "expected": ["plus", "hyphen", "equal", "asciitilde", "asterisk"]
+    },
+    {
+      "name": "disabled features leave punctuation and arrows unchanged",
+      "features": [],
+      "inputText": "a+ A- a=>c A->B c<-d",
+      "expectedText": "a+ A- a=>c A->B c<-d"
+    },
+    {
+      "name": "calt shapes standalone arrows at their default height",
+      "feature": "calt",
+      "inputText": "-> <- =>",
+      "expected": "hyphen.rightfull greater.leftfull space less.rightfull hyphen.leftfull space equal.rightfull greater.leftfull"
+    },
+    {
+      "name": "calt shapes arrows without using surrounding character heights",
+      "feature": "calt",
+      "inputText": "a->c A->B a<-c A<-B a=>c A=>B",
+      "expected": "a hyphen.rightfull greater.leftfull c space A hyphen.rightfull greater.leftfull B space a less.rightfull hyphen.leftfull c space A less.rightfull hyphen.leftfull B space a equal.rightfull greater.leftfull c space A equal.rightfull greater.leftfull B"
+    },
+    {
+      "name": "calt shapes arrows beside spaces punctuation and digits",
+      "feature": "calt",
+      "inputText": "a -> c (=>) 1<-2",
+      "expected": "a space hyphen.rightfull greater.leftfull space c space parenleft equal.rightfull greater.leftfull parenright space one less.rightfull hyphen.leftfull two"
+    },
+    {
+      "name": "calt leaves height-sensitive punctuation and other operators unchanged",
+      "feature": "calt",
+      "inputText": "a+ A+ a- A- a= A= a~ A~ a* A* a+=N a<=c a>=c a!==c a!===N a==== a---- a+~*c (a) [ab] {abc}",
+      "expectedText": "a+ A+ a- A- a= A= a~ A~ a* A* a+=N a<=c a>=c a!==c a!===N a==== a---- a+~*c (a) [ab] {abc}"
+    },
+    {
+      "name": "calt does not shape arrows with spaces between their parts",
+      "feature": "calt",
+      "inputText": "a- >c a< -c a= >c",
+      "expectedText": "a- >c a< -c a= >c"
+    },
+    {
+      "name": "calt preserves each arrow component height",
+      "feature": "calt",
+      "input": "hyphen.lc greater.lc space equal.uc greater space less.lc hyphen.uc space hyphen.uc greater.lc",
+      "expected": "hyphen.lc.rightfull greater.lc.leftfull space equal.rightfull greater.leftfull space less.lc.rightfull hyphen.leftfull space hyphen.rightfull greater.lc.leftfull"
+    },
+    {
+      "name": "ss03 and calt leave standalone arrows at default height without propagating height",
+      "features": [
+        "ss03",
+        "calt"
+      ],
+      "inputText": "->+ <-* =>~",
+      "expected": "hyphen.rightfull greater.leftfull plus space less.rightfull hyphen.leftfull asterisk space equal.rightfull greater.leftfull asciitilde"
+    },
+    {
+      "name": "ss03 and calt lowercases operator combinations after lowercase glyphs",
+      "inputText": "a+= a-= a<= a>= a~= a++ a-- a=> a*= a-> a<-",
+      "expected": "a plus.lc equal.lc space a hyphen.lc equal.lc space a less.lc equal.lc space a greater.lc equal.lc space a asciitilde.lc equal.lc space a plus.lc plus.lc space a hyphen.lc hyphen.lc space a equal.lc.rightfull greater.lc.leftfull space a asterisk.lc equal.lc space a hyphen.lc.rightfull greater.lc.leftfull space a less.lc.rightfull hyphen.lc.leftfull",
+      "features": [
+        "ss03",
+        "calt"
+      ]
+    },
+    {
+      "name": "ss03 and calt lowercases spaced operator combinations after lowercase glyphs",
+      "inputText": "a += a -= a <= a >= a ~= a ++ a -- a => a *= a -> a <-",
+      "expected": "a space plus.lc equal.lc space a space hyphen.lc equal.lc space a space less.lc equal.lc space a space greater.lc equal.lc space a space asciitilde.lc equal.lc space a space plus.lc plus.lc space a space hyphen.lc hyphen.lc space a space equal.lc.rightfull greater.lc.leftfull space a space asterisk.lc equal.lc space a space hyphen.lc.rightfull greater.lc.leftfull space a space less.lc.rightfull hyphen.lc.leftfull",
+      "features": [
+        "ss03",
+        "calt"
+      ]
+    },
+    {
+      "name": "ss03 and calt lowercases operator combinations before lowercase glyphs",
+      "inputText": "+=c -=c <=c >=c ~=c ++c --c =>c *=c ->c <-c",
+      "expected": "plus.lc equal.lc c space hyphen.lc equal.lc c space less.lc equal.lc c space greater.lc equal.lc c space asciitilde.lc equal.lc c space plus.lc plus.lc c space hyphen.lc hyphen.lc c space equal.lc.rightfull greater.lc.leftfull c space asterisk.lc equal.lc c space hyphen.lc.rightfull greater.lc.leftfull c space less.lc.rightfull hyphen.lc.leftfull c",
+      "features": [
+        "ss03",
+        "calt"
+      ]
+    },
+    {
+      "name": "ss03 and calt lowercases spaced operator combinations before lowercase glyphs",
+      "inputText": "+= c -= c <= c >= c ~= c ++ c -- c => c *= c -> c <- c",
+      "expected": "plus.lc equal.lc space c space hyphen.lc equal.lc space c space less.lc equal.lc space c space greater.lc equal.lc space c space asciitilde.lc equal.lc space c space plus.lc plus.lc space c space hyphen.lc hyphen.lc space c space equal.lc.rightfull greater.lc.leftfull space c space asterisk.lc equal.lc space c space hyphen.lc.rightfull greater.lc.leftfull space c space less.lc.rightfull hyphen.lc.leftfull space c",
+      "features": [
+        "ss03",
+        "calt"
+      ]
+    },
+    {
+      "name": "ss03 and calt fixes lowercased operator combinations before full-height glyphs",
+      "inputText": "a+=A a-=A a<=A a>=A a~=A a++A a--A a=>A a*=A a->A a<-A",
+      "expected": "a plus.uc equal.uc A space a hyphen.uc equal.uc A space a less equal.uc A space a greater equal.uc A space a asciitilde.uc equal.uc A space a plus.uc plus.uc A space a hyphen.uc hyphen.uc A space a equal.rightfull greater.leftfull A space a asterisk.uc equal.uc A space a hyphen.rightfull greater.leftfull A space a less.rightfull hyphen.leftfull A",
+      "features": [
+        "ss03",
+        "calt"
+      ]
+    },
+    {
+      "name": "ss03 and calt fixes spaced lowercased operator combinations before full-height glyphs",
+      "inputText": "a += A a -= A a <= A a >= A a ~= A a ++ A a -- A a => A a *= A a -> A a <- A",
+      "expected": "a space plus.uc equal.uc space A space a space hyphen.uc equal.uc space A space a space less equal.uc space A space a space greater equal.uc space A space a space asciitilde.uc equal.uc space A space a space plus.uc plus.uc space A space a space hyphen.uc hyphen.uc space A space a space equal.rightfull greater.leftfull space A space a space asterisk.uc equal.uc space A space a space hyphen.rightfull greater.leftfull space A space a space less.rightfull hyphen.leftfull space A",
+      "features": [
+        "ss03",
+        "calt"
+      ]
+    },
+    {
+      "name": "ss03 and calt uppercases operator combinations before full-height glyphs",
+      "inputText": "+=A -=A <=A >=A ~=A ++A --A =>A *=A ->A <-A",
+      "expected": "plus.uc equal.uc A space hyphen.uc equal.uc A space less equal.uc A space greater equal.uc A space asciitilde.uc equal.uc A space plus.uc plus.uc A space hyphen.uc hyphen.uc A space equal.rightfull greater.leftfull A space asterisk.uc equal.uc A space hyphen.rightfull greater.leftfull A space less.rightfull hyphen.leftfull A",
+      "features": [
+        "ss03",
+        "calt"
+      ]
     }
   ]
 }

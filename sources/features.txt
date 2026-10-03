@@ -10,7 +10,7 @@
 # Totals:
 # Languagesystems: 3
 # GSUB lookups: 8
-# GSUB features: 3 (calt, ss01, ss02)
+# GSUB features: 4 (calt, ss01, ss02, ss03)
 # GPOS lookups: 0
 
 #
@@ -167,14 +167,12 @@ languagesystem grek dflt; # Greek default
 
 @lcAnnotated = [
     plus.lc hyphen.lc less.lc greater.lc
-    equal.lc asciitilde.lc asterisk.lc equal.lc.rightfull
-    greater.lc.leftfull hyphen.lc.rightfull less.lc.rightfull hyphen.lc.leftfull
+    equal.lc asciitilde.lc asterisk.lc
 ];
 
 @ucAnnotated = [
     plus.uc hyphen.uc equal.uc asciitilde.uc
-    asterisk.uc equal.rightfull greater.leftfull hyphen.rightfull
-    less.rightfull hyphen.leftfull
+    asterisk.uc
 ];
 
 
@@ -207,9 +205,14 @@ feature ss02 {
 
 } ss02;
 
-feature calt {
-# GSUB feature: Contextual Alternates
+feature ss03 {
+# GSUB feature: Contextual Punctuation Heights (opt-in)
 # Lookups: 1
+
+  featureNames {
+    name "Contextual Punctuation Heights";
+  };
+
   sub equal' equal equal equal equal equal equal equal @fullLeft by equal.uc;
   sub equal' equal equal equal equal equal equal equal space @fullLeft by equal.uc;
 
@@ -302,25 +305,23 @@ feature calt {
   sub hyphen' hyphen space @fullLeft by hyphen.uc;
   sub hyphen.uc hyphen' space @fullLeft by hyphen.uc;
 
-  sub equal' greater @fullLeft by equal.rightfull;
-  sub equal.rightfull greater' @fullLeft by greater.leftfull;
-  sub equal' greater space @fullLeft by equal.rightfull;
-  sub equal.rightfull greater' space @fullLeft by greater.leftfull;
+  sub equal' greater @fullLeft by equal.uc;
+  sub equal.uc greater' @fullLeft by greater;
+  sub equal' greater space @fullLeft by equal.uc;
+  sub equal.uc greater' space @fullLeft by greater;
 
   sub asterisk' equal @fullLeft by asterisk.uc;
   sub asterisk.uc equal' @fullLeft by equal.uc;
   sub asterisk' equal space @fullLeft by asterisk.uc;
   sub asterisk.uc equal' space @fullLeft by equal.uc;
 
-  sub hyphen' greater @fullLeft by hyphen.rightfull;
-  sub hyphen.rightfull greater' @fullLeft by greater.leftfull;
-  sub hyphen' greater space @fullLeft by hyphen.rightfull;
-  sub hyphen.rightfull greater' space @fullLeft by greater.leftfull;
+  sub hyphen' greater @fullLeft by hyphen.uc;
+  sub hyphen.uc greater' @fullLeft by greater;
+  sub hyphen' greater space @fullLeft by hyphen.uc;
+  sub hyphen.uc greater' space @fullLeft by greater;
 
-  sub less' hyphen @fullLeft by less.rightfull;
-  sub less.rightfull hyphen' @fullLeft by hyphen.leftfull;
-  sub less' hyphen space @fullLeft by less.rightfull;
-  sub less.rightfull hyphen' space @fullLeft by hyphen.leftfull;
+  sub less hyphen' @fullLeft by hyphen.uc;
+  sub less hyphen' space @fullLeft by hyphen.uc;
 
   sub @littleRight equal' equal equal equal equal equal equal equal by equal.lc;
   sub @littleRight space equal' equal equal equal equal equal equal equal by equal.lc;
@@ -490,14 +491,14 @@ feature calt {
   sub hyphen' hyphen space @littleLeft by hyphen.lc;
   sub hyphen.lc hyphen' space @littleLeft by hyphen.lc;
 
-  sub @littleRight equal' greater by equal.lc.rightfull;
-  sub @littleRight equal.lc.rightfull greater' by greater.lc.leftfull;
-  sub @littleRight space equal' greater by equal.lc.rightfull;
-  sub @littleRight space equal.lc.rightfull greater' by greater.lc.leftfull;
-  sub equal' greater @littleLeft by equal.lc.rightfull;
-  sub equal.lc.rightfull greater' @littleLeft by greater.lc.leftfull;
-  sub equal' greater space @littleLeft by equal.lc.rightfull;
-  sub equal.lc.rightfull greater' space @littleLeft by greater.lc.leftfull;
+  sub @littleRight equal' greater by equal.lc;
+  sub @littleRight equal.lc greater' by greater.lc;
+  sub @littleRight space equal' greater by equal.lc;
+  sub @littleRight space equal.lc greater' by greater.lc;
+  sub equal' greater @littleLeft by equal.lc;
+  sub equal.lc greater' @littleLeft by greater.lc;
+  sub equal' greater space @littleLeft by equal.lc;
+  sub equal.lc greater' space @littleLeft by greater.lc;
 
   sub @littleRight asterisk' equal by asterisk.lc;
   sub @littleRight asterisk.lc equal' by equal.lc;
@@ -508,23 +509,23 @@ feature calt {
   sub asterisk' equal space @littleLeft by asterisk.lc;
   sub asterisk.lc equal' space @littleLeft by equal.lc;
 
-  sub @littleRight hyphen' greater by hyphen.lc.rightfull;
-  sub @littleRight hyphen.lc.rightfull greater' by greater.lc.leftfull;
-  sub @littleRight space hyphen' greater by hyphen.lc.rightfull;
-  sub @littleRight space hyphen.lc.rightfull greater' by greater.lc.leftfull;
-  sub hyphen' greater @littleLeft by hyphen.lc.rightfull;
-  sub hyphen.lc.rightfull greater' @littleLeft by greater.lc.leftfull;
-  sub hyphen' greater space @littleLeft by hyphen.lc.rightfull;
-  sub hyphen.lc.rightfull greater' space @littleLeft by greater.lc.leftfull;
+  sub @littleRight hyphen' greater by hyphen.lc;
+  sub @littleRight hyphen.lc greater' by greater.lc;
+  sub @littleRight space hyphen' greater by hyphen.lc;
+  sub @littleRight space hyphen.lc greater' by greater.lc;
+  sub hyphen' greater @littleLeft by hyphen.lc;
+  sub hyphen.lc greater' @littleLeft by greater.lc;
+  sub hyphen' greater space @littleLeft by hyphen.lc;
+  sub hyphen.lc greater' space @littleLeft by greater.lc;
 
-  sub @littleRight less' hyphen by less.lc.rightfull;
-  sub @littleRight less.lc.rightfull hyphen' by hyphen.lc.leftfull;
-  sub @littleRight space less' hyphen by less.lc.rightfull;
-  sub @littleRight space less.lc.rightfull hyphen' by hyphen.lc.leftfull;
-  sub less' hyphen @littleLeft by less.lc.rightfull;
-  sub less.lc.rightfull hyphen' @littleLeft by hyphen.lc.leftfull;
-  sub less' hyphen space @littleLeft by less.lc.rightfull;
-  sub less.lc.rightfull hyphen' space @littleLeft by hyphen.lc.leftfull;
+  sub @littleRight less' hyphen by less.lc;
+  sub @littleRight less.lc hyphen' by hyphen.lc;
+  sub @littleRight space less' hyphen by less.lc;
+  sub @littleRight space less.lc hyphen' by hyphen.lc;
+  sub less' hyphen @littleLeft by less.lc;
+  sub less.lc hyphen' @littleLeft by hyphen.lc;
+  sub less' hyphen space @littleLeft by less.lc;
+  sub less.lc hyphen' space @littleLeft by hyphen.lc;
 
   sub @fullRight plus' by plus.uc;
   sub @fullRight space plus' by plus.uc;
@@ -687,5 +688,49 @@ feature calt {
   sub @ucAnnotated equal' by equal.uc;
   sub @ucAnnotated asciitilde' by asciitilde.uc;
   sub @ucAnnotated asterisk' by asterisk.uc;
+
+} ss03;
+feature calt {
+# GSUB feature: Contextual Alternates
+# Compact arrows without changing their height.
+
+  sub equal' greater by equal.rightfull;
+  sub equal.rightfull greater' by greater.leftfull;
+  sub equal' greater.lc by equal.rightfull;
+  sub equal.rightfull greater.lc' by greater.lc.leftfull;
+  sub equal.lc' greater by equal.lc.rightfull;
+  sub equal.lc.rightfull greater' by greater.leftfull;
+  sub equal.lc' greater.lc by equal.lc.rightfull;
+  sub equal.lc.rightfull greater.lc' by greater.lc.leftfull;
+  sub equal.uc' greater by equal.rightfull;
+  sub equal.rightfull greater' by greater.leftfull;
+  sub equal.uc' greater.lc by equal.rightfull;
+  sub equal.rightfull greater.lc' by greater.lc.leftfull;
+
+  sub hyphen' greater by hyphen.rightfull;
+  sub hyphen.rightfull greater' by greater.leftfull;
+  sub hyphen' greater.lc by hyphen.rightfull;
+  sub hyphen.rightfull greater.lc' by greater.lc.leftfull;
+  sub hyphen.lc' greater by hyphen.lc.rightfull;
+  sub hyphen.lc.rightfull greater' by greater.leftfull;
+  sub hyphen.lc' greater.lc by hyphen.lc.rightfull;
+  sub hyphen.lc.rightfull greater.lc' by greater.lc.leftfull;
+  sub hyphen.uc' greater by hyphen.rightfull;
+  sub hyphen.rightfull greater' by greater.leftfull;
+  sub hyphen.uc' greater.lc by hyphen.rightfull;
+  sub hyphen.rightfull greater.lc' by greater.lc.leftfull;
+
+  sub less' hyphen by less.rightfull;
+  sub less.rightfull hyphen' by hyphen.leftfull;
+  sub less' hyphen.lc by less.rightfull;
+  sub less.rightfull hyphen.lc' by hyphen.lc.leftfull;
+  sub less' hyphen.uc by less.rightfull;
+  sub less.rightfull hyphen.uc' by hyphen.leftfull;
+  sub less.lc' hyphen by less.lc.rightfull;
+  sub less.lc.rightfull hyphen' by hyphen.leftfull;
+  sub less.lc' hyphen.lc by less.lc.rightfull;
+  sub less.lc.rightfull hyphen.lc' by hyphen.lc.leftfull;
+  sub less.lc' hyphen.uc by less.lc.rightfull;
+  sub less.lc.rightfull hyphen.uc' by hyphen.leftfull;
 
 } calt;

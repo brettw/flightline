@@ -19,7 +19,7 @@ HEADER = """###
 # Totals:
 # Languagesystems: 3
 # GSUB lookups: 8
-# GSUB features: 3 (calt, ss01, ss02)
+# GSUB features: 4 (calt, ss01, ss02, ss03)
 # GPOS lookups: 0
 
 #
@@ -335,17 +335,6 @@ def uppercase_output(glyph: str) -> str:
     return UPPERCASE_OUTPUTS.get(glyph, glyph)
 
 
-def lowercase_pair_outputs(left: str, right: str) -> tuple[str, str]:
-    return COMPACT_LC_OUTPUTS.get((left, right), (f"{left}.lc", f"{right}.lc"))
-
-
-def uppercase_pair_outputs(left: str, right: str) -> tuple[str, str]:
-    return COMPACT_UC_OUTPUTS.get(
-        (left, right),
-        (UPPERCASE_OUTPUTS.get(left, left), UPPERCASE_OUTPUTS.get(right, right)),
-    )
-
-
 def append_lowercase_pair_rules(
     lines: list[str], left: str, right: str, left_output: str, right_output: str
 ) -> None:
@@ -486,8 +475,6 @@ def annotated_lc_glyphs() -> tuple[str, ...]:
     glyphs.extend(
         output for glyph, output in LOWERCASE_OUTPUTS.items() if output != glyph
     )
-    for left, right in COMPACT_LC_OUTPUTS.values():
-        glyphs.extend((left, right))
     # Bracket/brace/paren annotated classes are disabled for now.
     # for left, right in BRACKET_PAIRS:
     #     glyphs.extend((f"{left}.lc", f"{right}.lc"))
@@ -499,8 +486,6 @@ def annotated_uc_glyphs() -> tuple[str, ...]:
     glyphs.extend(
         output for glyph, output in UPPERCASE_OUTPUTS.items() if output != glyph
     )
-    for left, right in COMPACT_UC_OUTPUTS.values():
-        glyphs.extend((left, right))
     return unique_glyphs(glyphs)
 
 
@@ -562,12 +547,17 @@ def append_bracket_pair_rules(lines: list[str], left: str, right: str) -> None:
     lines.append("")
 
 
-def generate_calt() -> str:
+def generate_height_feature() -> str:
     lines = [
         "",
-        "feature calt {",
-        "# GSUB feature: Contextual Alternates",
+        "feature ss03 {",
+        "# GSUB feature: Contextual Punctuation Heights (opt-in)",
         "# Lookups: 1",
+        "",
+        "  featureNames {",
+        '    name "Contextual Punctuation Heights";',
+        "  };",
+        "",
     ]
 
     for glyph in REPEATED_SEQUENCE_GLYPHS:
@@ -583,7 +573,7 @@ def generate_calt() -> str:
 
     for operator in OPERATOR_COMBINATIONS:
         left, right = operator_glyphs(operator)
-        left_output, right_output = uppercase_pair_outputs(left, right)
+        left_output, right_output = uppercase_outputs((left, right))
         append_pair_right_full_rules(lines, left, right, left_output, right_output)
 
     for glyph in REPEATED_SEQUENCE_GLYPHS:
@@ -599,7 +589,7 @@ def generate_calt() -> str:
 
     for operator in OPERATOR_COMBINATIONS:
         left, right = operator_glyphs(operator)
-        left_output, right_output = lowercase_pair_outputs(left, right)
+        left_output, right_output = lowercase_outputs((left, right))
         append_lowercase_pair_rules(lines, left, right, left_output, right_output)
 
     for punctuation in PUNCTUATION_GLYPHS:
@@ -625,12 +615,52 @@ def generate_calt() -> str:
     # for left, right in BRACKET_PAIRS:
     #     append_bracket_pair_rules(lines, left, right)
 
+    lines.append("} ss03;")
+    return "\n".join(lines)
+
+
+def generate_calt() -> str:
+    lines = [
+        "",
+        "feature calt {",
+        "# GSUB feature: Contextual Alternates",
+        "# Compact arrows without changing their height.",
+        "",
+    ]
+    for glyphs, full_outputs in COMPACT_UC_OUTPUTS.items():
+        lc_outputs = COMPACT_LC_OUTPUTS[glyphs]
+        left, right = glyphs
+        # ss03 is emitted first. Accept both its height variants and the base
+        # glyphs so arrow shaping also works when ss03 is disabled. Each side
+        # retains its own height; .uc and base glyphs share full-height outlines.
+        left_inputs = unique_glyphs(
+            (left, lowercase_output(left), uppercase_output(left))
+        )
+        right_inputs = unique_glyphs(
+            (right, lowercase_output(right), uppercase_output(right))
+        )
+        for left_input in left_inputs:
+            for right_input in right_inputs:
+                inputs = (left_input, right_input)
+                outputs = tuple(
+                    lc if source == lowercase_output(base) else full
+                    for source, base, lc, full in zip(
+                        inputs, glyphs, lc_outputs, full_outputs
+                    )
+                )
+                append_sequence_substitution_chain(lines, inputs, outputs)
+        lines.append("")
     lines.append("} calt;")
     return "\n".join(lines)
 
 
 def generate_features() -> str:
-    return f"{HEADER}{generate_annotated_classes()}{HARDCODED_FEATURES}{generate_calt()}\n"
+    # Lookup order matters when both features are enabled: choose heights
+    # before compacting arrows, which preserves the chosen height variants.
+    return (
+        f"{HEADER}{generate_annotated_classes()}{HARDCODED_FEATURES}"
+        f"{generate_height_feature()}{generate_calt()}\n"
+    )
 
 
 def main() -> int:
