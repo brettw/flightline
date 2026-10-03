@@ -192,7 +192,8 @@ def commit_release(release_tag: str, previous_tag: str | None) -> None:
         default_commit_message(release_tag, previous_tag),
     )
     try:
-        run(["git", "commit", "--edit", "--file", str(message_path)])
+        # The release ZIP may already be committed; still record release notes.
+        run(["git", "commit", "--allow-empty", "--edit", "--file", str(message_path)])
     finally:
         if message_path.exists():
             message_path.unlink()
