@@ -69,7 +69,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -141,7 +142,8 @@
             "name":"Regular",
             "advanceWidth":1200,
             "advanceHeight":1600,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -227,7 +229,8 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -411,7 +414,8 @@
                 "thickness":175
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -600,7 +604,8 @@
               "alignt .at02 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -847,7 +852,8 @@
               "alignt .at02 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "alignb .ab02 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -1074,7 +1080,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -1368,7 +1375,8 @@
               "singlev .ab01, .sv01 \"Y: 171\"",
               "alignh .ah01 round",
               "alignh .ah02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -1548,7 +1556,8 @@
               "singleh .dh02, rsb .round",
               "alignv .av01 round",
               "alignt .dh01 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -1678,7 +1687,8 @@
               "singlev .av01, .sv01 \"Y: 144\"",
               "singlev .av02, .sv02 \"Y: 144\"",
               "alignh .ah01 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -1839,7 +1849,8 @@
               "singlev .av02, .sv02 \"Y: 144\"",
               "singlev .av01, .sv01 \"Y: 144\"",
               "alignh .ah01 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -2007,7 +2018,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -2176,7 +2188,8 @@
                 "thickness":155
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -2327,7 +2340,8 @@
             "color":"#00cce5",
             "tth":[
               "alignb .sv01 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -2458,7 +2472,8 @@
             "color":"#00cce5",
             "tth":[
               "doublev .dv01, .dv02 \"Y: 153\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -2594,7 +2609,8 @@
               "alignb .ab01 \"b: 0\"",
               "alignh .ah01 round",
               "alignh .ah02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -2722,7 +2738,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -2876,7 +2893,8 @@
               "singleh .ah01, .sh02 .round",
               "singleh .sh01, .sh03 .round",
               "singleh .sh02, rsb .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -3077,7 +3095,8 @@
               "fdeltah .fh01 31-31 -2",
               "fdeltah .fh01 29-29 -1",
               "fdeltah .fh01 32-32 -1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -3251,7 +3270,8 @@
               "doubleh .dh01, .dh02 \"X: 199\"",
               "singleh lsb, .sh01 .none",
               "singleh .dh02, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -3437,7 +3457,8 @@
               "singlev .ab01, .dh01 .round",
               "doubleh .dh01, .dh02 .round",
               "singleh .dh04, rsb .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -3646,7 +3667,8 @@
               "singleh .dh01, .sh02 .none",
               "interpolateh .ih01 .dh01, .dh02",
               "singleh lsb, .sh01 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -3847,7 +3869,8 @@
               "singleh lsb, .sh02 .round",
               "singleh .sh02, .sh03 .round",
               "singleh lsb, .sh01 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -4069,7 +4092,8 @@
               "singleh .sh03, .sh04 .none",
               "singleh .ah01, .sh01 .none",
               "singleh .sh05, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -4281,7 +4305,8 @@
               "singleh lsb, .sh02 .none",
               "singleh .sh02, .sh03 \"X: 208\"",
               "singleh .sh03, .sh04 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -4521,7 +4546,8 @@
               "mdeltah .sh02 16-16 2",
               "singleh .ih01, .sh01 \"X: 190\"",
               "singleh .ih01, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -4756,7 +4782,8 @@
               "mdeltah .dh01 16-17 -3",
               "singleh .dh01, .sh02 .none round",
               "singleh .sh01, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -4939,7 +4966,8 @@
               "alignh .ah02 round",
               "alignh .ah03 round",
               "alignh .ah04 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -5122,7 +5150,8 @@
               "alignb .ab02 \"b: 0\"",
               "alignh .ah01 round",
               "alignh .ah02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -5257,7 +5286,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -5383,7 +5413,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"Y: 144\"",
               "singlev .av02, .sv02 \"Y: 144\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -5496,7 +5527,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -5634,7 +5666,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -5942,7 +5975,8 @@
               "singlev .av01, .sv03 \"Y: 153\"",
               "singlev .ab01, .sv02 \"Y: 162\"",
               "singlev .dv02, .dv01 \"Y: 162\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -6009,7 +6043,7 @@
       {
         "name":"A",
         "unicode":"0041",
-        "lastModified":"2026-10-29 03:17:00",
+        "lastModified":"2026-10-29 13:49:30",
         "layers":[
           {
             "name":"Thin",
@@ -6145,7 +6179,8 @@
               "singleh .ah01, .sh03 .none",
               "singleh .sh03, .sh04 .round",
               "interpolateh .ih01 .sh03, .ah01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -6221,7 +6256,7 @@
       {
         "name":"B",
         "unicode":"0042",
-        "lastModified":"2026-10-29 03:17:00",
+        "lastModified":"2026-10-29 14:05:03",
         "layers":[
           {
             "name":"Thin",
@@ -6351,7 +6386,8 @@
               "singleh .sh02, .sh03 \"X: 199\"",
               "singleh .dh01, lsb .round",
               "singleh .dh04, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -6584,7 +6620,8 @@
               "fdeltah .fh02 18-18 -8",
               "fdeltah .fh02 19-19 -2",
               "fdeltah .fh02 20-22 1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -6810,7 +6847,8 @@
               "singleh .ah01, .sh01 .round",
               "singleh .sh02, .sh03 .round",
               "singleh .sh01, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -7043,7 +7081,8 @@
               "doubleh .dh01, .dh02 \"X: 208\"",
               "doubleh .dh03, .dh04 \"X: ecart du B\"",
               "singleh .dh02, .sh01 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -7240,7 +7279,8 @@
               "doubleh .dh01, .dh02 \"X: 208\"",
               "doubleh .dh03, .dh04 \"X: ecart du B\"",
               "singleh .dh02, .sh01 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -7443,7 +7483,8 @@
               "singleh .sh02, .sh03 .round",
               "singleh .sh01, rsb .round",
               "fdeltah .fh01 18-18 -8"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -7671,7 +7712,8 @@
               "singleh .ah01, .sh04 .none",
               "singleh .sh02, .sh03 .none",
               "singleh .sh05, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -7876,7 +7918,8 @@
               "singleh lsb, .sh01 .round",
               "singleh .sh01, .sh02 .round",
               "singleh .ah01, .sh03 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -8060,7 +8103,8 @@
               "doubleh .dh01, .dh02 \"X: 208\"",
               "singleh .ah01, .sh01 .round",
               "singleh .dh02, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -8279,7 +8323,8 @@
               "fdeltah .fh01 18-18 -2",
               "fdeltah .fh01 21-21 -2",
               "fdeltah .fh01 28-28 -2"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -8467,7 +8512,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 \"Y: 162\"",
               "doubleh .dh01, .dh02 \"X: 208\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -8832,7 +8878,8 @@
               "fdeltah .fh02 33-33 3",
               "fdeltah .fh02 31-32 4",
               "fdeltah .fh01 17-17 -8"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -9268,7 +9315,8 @@
               "fdeltah .at01 15-15 -1",
               "fdeltah .at01 41-41 -1",
               "fdeltah .at01 43-43 4"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -9469,7 +9517,8 @@
               "singleh .ah01, .sh02 .round",
               "singleh .sh01, .sh03 .round",
               "singleh .sh02, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -9686,7 +9735,8 @@
               "singleh .ah01, .sh03 \"X: 190\"",
               "singleh .sh02, .sh04 .none",
               "singleh .sh03, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -9989,7 +10039,8 @@
               "doubleh .dh01, .dh02 \"X: 199\"",
               "doubleh .dh03, .dh04 \"X: 199\"",
               "singleh .dh04, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -10278,7 +10329,8 @@
               "interpolateh .ih01 .sh03, .sh01",
               "singleh .sh02, .sh04 .none",
               "singleh .sh03, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -10482,7 +10534,8 @@
               "singleh lsb, .sh01 .none",
               "singleh .sh01, .sh02 \"X: 208\"",
               "singleh .sh03, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -10664,7 +10717,8 @@
               "singlev .sv04, .sv02 \"Y: 162\"",
               "singlev .at01, .sv01 \"Y: 162\"",
               "doubleh .dh01, .dh02 \"X: 208\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -10845,7 +10899,8 @@
               "singleh .sh02, .sh03 \"X: 208\"",
               "interpolateh .ih02 .sh03, .ah01",
               "singleh .sh01, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -11021,7 +11076,8 @@
               "singleh .ah01, .sh03 .round",
               "singleh .sh03, .sh04 \"X: dia Fat\"",
               "fdeltah .fh01 18-18 3"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -11206,7 +11262,8 @@
               "singleh .sh03, .sh04 .round",
               "singleh .ah02, .sh02 .none",
               "singleh .sh07, .sh08 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -11477,7 +11534,8 @@
               "fdeltah .fh04 21-21 2",
               "fdeltah .fh04 16-16 3",
               "fdeltah .fh04 12-12 4"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -11685,7 +11743,8 @@
               "fdeltah .fh02 14-14 2",
               "fdeltah .fh02 17-17 5",
               "fdeltah .fh02 19-19 6"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -11855,7 +11914,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 \"Y: 162\"",
               "singlev .at01, .iv02 \"Y: 162\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -12020,7 +12080,8 @@
               "singlev .at01, .sv03 \"Y: 153\"",
               "singlev .av01, .sv02 \"Y: 153\"",
               "doubleh .dh01, .dh02 \"X: 208\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -12129,7 +12190,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -12279,7 +12341,8 @@
               "doublev .dv01, .dv02 \"Y: 153\"",
               "singlev .at01, .sv01 \"Y: 153\"",
               "doubleh .dh01, .dh02 \"X: 208\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -12411,7 +12474,8 @@
               "alignv .sh01 round",
               "alignt .ih02 \"t: 1\"",
               "alignt .ih03 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -12516,7 +12580,8 @@
             "tth":[
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -12635,7 +12700,8 @@
               "alignv .av01 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .av01, .at01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -12849,7 +12915,8 @@
               "singleh .ah01, .sh06 .none",
               "singleh .sh01, .sh03 .round",
               "singleh .sh05, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -13085,7 +13152,8 @@
               "singleh .sh02, .sh03 .none",
               "singleh .ah01, .sh04 .round",
               "singleh .sh04, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -13272,7 +13340,8 @@
               "alignh lsb round",
               "singleh lsb, .sh01 .round",
               "singleh .sh01, .sh02 \"X: 199\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -13486,7 +13555,8 @@
               "singleh .ah01, .sh05 \"X: 190\"",
               "singleh .ah01, .sh04 .none",
               "singleh .sh05, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -13724,7 +13794,8 @@
               "mdeltav .sv01 9-17 1",
               "doubleh .sh01, .sh02 \"X: 190\"",
               "singleh .sh02, .sh03 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -13954,7 +14025,8 @@
               "doubleh .dh03, .dh04 \"X: 190\"",
               "singleh .dh03, .sh01 .none",
               "singleh .dh04, .sh02 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -14210,7 +14282,8 @@
               "singleh .ah01, .sh06 .none",
               "singleh .sh03, rsb .round",
               "fdeltav .av02 42-42 -3"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -14449,7 +14522,8 @@
               "singleh .ah01, .sh04 \"X: 190\"",
               "interpolateh .ih01 .sh02, .ah01",
               "singleh .sh04, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -15035,7 +15109,8 @@
               "singlev .ab01, .av01 .round",
               "singlev .ah01, .sv02 .round",
               "alignh .ah01 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -15386,7 +15461,8 @@
               "doubleh .dh01, .dh02 \"X: 190\"",
               "singleh .dh02, .sh02 .none",
               "singleh .dh01, .sh01 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -15642,7 +15718,8 @@
               "fdeltah .fh01 13-13 2",
               "fdeltah .fh01 30-31 2",
               "fdeltah .fh01 33-33 2"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -15832,7 +15909,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .av01 .round",
               "singlev .ah02, .sv01 \"Y: 162\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -16046,7 +16124,8 @@
               "interpolateh .ih01 .sh02, .sh03",
               "singleh .dh02, .sh01 .none",
               "singleh .sh05, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -16256,7 +16335,8 @@
               "interpolateh .ih01 .sh01, .sh04",
               "singleh .sh02, .sh03 .none",
               "singleh .sh04, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -16446,7 +16526,8 @@
               "singleh lsb, .sh01 .none round",
               "singleh .sh01, .sh03 \"X: 199\"",
               "singleh .sh02, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -16673,7 +16754,8 @@
               "singleh .ah01, .sh05 \"X: 190\"",
               "interpolateh .ih01 .sh01, .sh05",
               "singleh .sh02, .sh04 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -16907,7 +16989,8 @@
               "mdeltah .ah01 10-11 8",
               "singleh .ah01, .sh04 \"X: 190\"",
               "singleh .ah01, .sh03 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -17095,7 +17178,8 @@
               "doubleh .dh03, .dh04 \"X: 190\"",
               "interpolateh .ih01 .dh02, .dh04",
               "singleh .dh02, .sh01 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -17419,7 +17503,8 @@
               "singleh .ah01, .sh03 \"X: 190\"",
               "singleh .sh01, .sh04 .none",
               "singleh .ah02, rsb .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -17647,7 +17732,8 @@
               "fdelta .fh01 39-39 -1, 2",
               "fdeltav .fh01 40-40 4",
               "fdeltav .fh01 32-33 5"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -17851,7 +17937,8 @@
               "singleh .ah01, .sh02 .none",
               "singleh .sh03, .sh04 \"X: 190\"",
               "singleh .sh01, rsb .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -18045,7 +18132,8 @@
               "singleh .sh01, .sh02 \"X: dia Fat\"",
               "singleh .ah01, .sh03 .none",
               "singleh .sh03, .sh04 \"X: dia Fat\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -18288,7 +18376,8 @@
               "interpolateh .ih02 .sh02, .ih01",
               "interpolateh .ih07 .sh02, .sh03",
               "interpolateh .ih06 .sh04, .sh01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -18528,7 +18617,8 @@
               "fdeltah .sh02 22-22 3",
               "fdeltah .sh02 11-11 8",
               "fdeltah .sh02 18-18 8"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -18707,7 +18797,8 @@
               "singleh .ah02, .sh01 .none",
               "singleh .sh01, .sh02 \"X: dia Lite\"",
               "interpolateh .ih01 .sh03, .sh02"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -18886,7 +18977,8 @@
               "singlev .ab01, .sv01 \"Y: 162\"",
               "mdeltah .mh01 39-39 -1",
               "fdeltah .mh01 10-10 4"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -19112,7 +19204,8 @@
               "alignh .ah04 round",
               "singleh .ah03, .sh01 \"X: dia Lite\"",
               "singleh .ah04, .sh02 \"X: dia Lite\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -19282,7 +19375,8 @@
               "singleh .dh02, rsb .round",
               "alignv .dh02 round",
               "alignt .at01 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -19468,7 +19562,8 @@
               "alignh .ah06 round",
               "singleh .ah04, .sh01 \"X: dia Lite\"",
               "singleh .ah01, .sh02 \"X: dia Lite\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -19617,7 +19712,8 @@
               "alignv .ih01 round",
               "alignv .ih03 round",
               "alignv .sh03 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -19701,7 +19797,8 @@
             "name":"Regular",
             "advanceWidth":1200,
             "advanceHeight":1600,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -19779,7 +19876,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -19954,7 +20052,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 \"Y: 171\"",
               "singlev .at01, .mh01 \"Y: 162\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -20159,7 +20258,8 @@
                 "thickness":148
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -20322,7 +20422,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -20567,7 +20668,8 @@
               "singlev .ah03, .ah02 .none",
               "singlev .av01, .sv04 \"Y: 153\"",
               "singlev .sv04, .sv05 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -20737,7 +20839,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -20946,7 +21049,8 @@
               "interpolatev .iv03 .sv02, .iv04",
               "interpolatev .iv05 .sv02, .iv04",
               "interpolatev .iv06 .sv01, .iv02"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -21111,7 +21215,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -21301,7 +21406,8 @@
                 "thickness":98
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -21535,7 +21641,8 @@
                 "thickness":95
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -21727,7 +21834,8 @@
               "singlev .av03, .sv03 \"Y: 135\"",
               "interpolatev .iv02 .av03, .av04",
               "singlev .av04, .sv04 \"Y: 135\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -21870,7 +21978,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -21935,7 +22044,8 @@
             "name":"Regular",
             "advanceWidth":0,
             "advanceHeight":1600,
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -22103,7 +22213,8 @@
                 "thickness":66
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -22264,7 +22375,8 @@
               "alignt .at01 \"t: 1\"",
               "singlev .at01, .sv01 \"Y: 153\"",
               "singlev .sv01, .sv02 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -22443,7 +22555,8 @@
               "alignt .at01 \"t: 1\"",
               "singlev .av01, .sv01 \"Y: 135\"",
               "singlev .at01, .sv02 \"Y: 135\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -22656,7 +22769,8 @@
                 "thickness":155
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -22860,7 +22974,8 @@
                 "thickness":97
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -22984,7 +23099,8 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -23075,7 +23191,8 @@
               "alignv .av01 round",
               "alignt .sh01 \"t: 1\"",
               "alignt .ah01 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -23224,7 +23341,8 @@
               "alignb .ab03 \"b: 0\"",
               "interpolatev .ih01 .ab01, .sh02",
               "singlev .ab01, .sv01 \"Y: 162\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -23374,7 +23492,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -23500,7 +23619,8 @@
                 "thickness":329
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -23624,7 +23744,8 @@
               "alignb .sh01 \"b: 0\"",
               "singlev .av01, .ah03 \"Y: 135\"",
               "mdeltav .av02 23-23 -5"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -23765,7 +23886,8 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -23959,7 +24081,8 @@
                 "thickness":95
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -24063,7 +24186,8 @@
               "singlev .av04, .sv03 \"Y: 135\"",
               "interpolatev .iv02 .av03, .av04",
               "singlev .av03, .sv04 \"Y: 135\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -24364,7 +24488,8 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -24608,7 +24733,8 @@
                 "thickness":97
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -24882,7 +25008,8 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -25028,7 +25155,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -25175,7 +25303,8 @@
               "alignv .av01 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .av01, .at01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -25321,7 +25450,8 @@
               "alignv .hr01 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv01 .hr01, .at02"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -25521,7 +25651,8 @@
               "alignv .av01 round",
               "alignt .sh05 \"t: 1\"",
               "alignt .hr01 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -25702,7 +25833,8 @@
               "alignv .av02 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .av01, .at01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -25885,7 +26017,8 @@
               "alignv .av01 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv01 .hr01, .at02"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -26086,7 +26219,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -26280,7 +26414,8 @@
               "alignb .sh04 \"b: 0\"",
               "doublev .dv01, .ih01 \"Y: 144\"",
               "interpolatev .ah01 .sh02, .at01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -26469,7 +26604,8 @@
               "alignb .sh04 \"b: 0\"",
               "doublev .dv01, .ih01 \"eq Y: 153\"",
               "interpolatev .ah01 .sh02, .at01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -26687,7 +26823,8 @@
               "alignv .av02 round",
               "singlev .av02, .sv01 .round",
               "singlev .av01, .sv02 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -26886,7 +27023,8 @@
               "alignv .av02 round",
               "singlev .av02, .sv01 .round",
               "singlev .av01, .sv02 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -27079,7 +27217,8 @@
               "singlev .ab02, .sv01 \"Y: 162\"",
               "singlev .at01, .sv02 \"Y: 162\"",
               "interpolatev .iv01 .ab01, .at01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -27275,7 +27414,8 @@
               "alignb .sh01 \"b: 0\"",
               "singlev .av01, .ah03 \"Y: 135\"",
               "mdeltav .av02 23-23 -5"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -27500,7 +27640,8 @@
               "alignv .hr01 round",
               "alignt .at03 \"t: 1\"",
               "interpolatev .iv01 .hr01, .at03"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -27719,7 +27860,8 @@
               "alignv .av01 round",
               "alignt .sh02 \"t: 1\"",
               "alignt .hr01 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -27942,7 +28084,8 @@
               "alignv .av01 round",
               "alignt .at03 \"t: 1\"",
               "interpolatev .iv01 .hr01, .at03"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -28145,7 +28288,8 @@
               "doublev .dh03, .dv01 \"Y: 144\"",
               "singlev .ab02, .dh04 \"Y: 162\"",
               "singlev .at02, .sv01 \"Y: 162\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -28359,7 +28503,8 @@
               "alignv .hr01 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv01 .hr01, .at02"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -28583,7 +28728,8 @@
               "alignv .av01 round",
               "alignt .sh04 \"t: 1\"",
               "alignt .hr01 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -28811,7 +28957,8 @@
               "alignv .av01 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv01 .hr01, .at02"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -29019,7 +29166,8 @@
               "singlev .ab01, .sh02 \"Y: 171\"",
               "singlev .sh01, .sv02 \"Y: 171\"",
               "singlev .at01, .sh03 \"Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -29259,7 +29407,8 @@
                 "thickness":210
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -29455,7 +29604,8 @@
               "fdeltav .sh04 29-29 4",
               "fdeltav .sh04 26-26 8",
               "fdeltav .sh04 28-28 8"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -29691,7 +29841,8 @@
               "alignv .av01 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv01 .av01, .at02"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -29871,7 +30022,8 @@
               "alignv .av01 round",
               "alignt .sh04 \"t: 1\"",
               "alignt .ah02 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -30055,7 +30207,8 @@
               "alignv .av02 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv01 .av01, .at02"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -30219,7 +30372,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 \"Y: 171\"",
               "singlev .ab01, .sv02 \"Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -30398,7 +30552,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 \"Y: 171\"",
               "singlev .ab01, .sv02 \"Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -30579,7 +30734,8 @@
               "singlev .av02, .ih02 \"Y: 135\"",
               "interpolatev .iv02 .av01, .sh01",
               "singlev .av01, .ih04 \"Y: 135\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -30724,7 +30880,8 @@
                 "thickness":208
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -30907,7 +31064,8 @@
               "alignv .av01 round",
               "alignt .at03 \"t: 1\"",
               "interpolatev .iv01 .av01, .at03"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -31102,7 +31260,8 @@
               "alignv .av01 round",
               "alignt .sh04 \"t: 1\"",
               "alignt .ah02 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -31301,7 +31460,8 @@
               "alignv .av02 round",
               "alignt .at03 \"t: 1\"",
               "interpolatev .iv01 .av01, .at03"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -31480,7 +31640,8 @@
               "alignt .at02 \"t: 1\"",
               "alignb .ih01 \"b: 0\"",
               "singlev .ih01, .ih02 \"Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -31715,7 +31876,8 @@
               "alignv .av01 round",
               "alignt .sh03 \"t: 1\"",
               "alignt .hr01 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -31941,7 +32103,8 @@
               "singlev .av01, .sh03 \"Y: 153\"",
               "interpolatev .ah01 .sv01, .sh03",
               "singlev .ah01, .sh02 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -32131,7 +32294,8 @@
               "singlev .at01, .sv01 \"eq Y: 144\"",
               "interpolatev .iv01 .at01, .ab01",
               "singlev .ab01, .sv02 \"eq Y: 162\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -32361,7 +32525,8 @@
               "alignv .av01 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv01 .av01, .at02"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -32593,7 +32758,8 @@
               "alignv .av01 round",
               "alignt .sh07 \"t: 1\"",
               "alignt .ah03 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -32829,7 +32995,8 @@
               "alignv .av02 round",
               "alignt .at02 \"t: 1\"",
               "interpolatev .iv01 .av01, .at02"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -33046,7 +33213,8 @@
               "interpolatev .sh02 .dv02, .dv01",
               "singlev .at01, .sv01 \"Y: 162\"",
               "singlev .ab01, .sv02 \"Y: 162\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -33279,7 +33447,8 @@
               "interpolatev .sh02 .dv02, .dv01",
               "singlev .at01, .sv01 \"Y: 162\"",
               "singlev .ab01, .sv02 \"Y: 162\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -33497,7 +33666,8 @@
               "alignv .av02 round",
               "singlev .av02, .sv03 .round",
               "singlev .av01, .sv04 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -33737,7 +33907,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -33937,7 +34108,8 @@
               "mdeltav .mv01 10-10 -3",
               "mdeltav .mv01 12-12 -4",
               "mdeltav .mv02 13-13 3"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -34136,7 +34308,8 @@
               "alignv .av01 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .av01, .at01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -34356,7 +34529,8 @@
               "alignv .av01 round",
               "alignt .sh03 \"t: 1\"",
               "alignt .ah01 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -34580,7 +34754,8 @@
               "alignv .av02 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .av01, .at01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -34784,7 +34959,8 @@
               "singlev .ih01, .ih03 \"Y: 162\"",
               "singlev .ih02, .sv01 \"Y: 162\"",
               "interpolatev .ih05 .ih04, .dh01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -34978,7 +35154,8 @@
               "singlev .ah01, .sv02 \"eq Y: 162\"",
               "alignh .ah01 round",
               "doubleh .dh01, .dh02 \"eq X: 190\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -35141,7 +35318,8 @@
                 "thickness":190
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -35274,7 +35452,8 @@
                 "thickness":190
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -35407,7 +35586,8 @@
                 "thickness":190
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -35515,7 +35695,8 @@
                 "thickness":190
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -35712,7 +35893,8 @@
                 "thickness":206
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -35890,7 +36072,8 @@
               "mdeltav .sh03 42-42 -5",
               "interpolatev .ih01 .sh02, .sh03",
               "singlev .av01, .sv01 \"Y: 162\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -36106,7 +36289,8 @@
               "alignv .av02 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .av02, .at01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -36284,7 +36468,8 @@
               "alignv .av02 round",
               "alignt .sh04 \"t: 1\"",
               "alignt .ah02 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -36466,7 +36651,8 @@
               "alignv .av03 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .av02, .at01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -36628,7 +36814,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .av01, .sv01 \"Y: 153\"",
               "singlev .ab01, .sv02 \"Y: 153\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -36805,7 +36992,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .av01, .sv01 \"Y: 153\"",
               "singlev .ab01, .sv02 \"Y: 153\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -37010,7 +37198,8 @@
                 "thickness":155
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -37223,7 +37412,8 @@
                 "thickness":190
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -37424,7 +37614,8 @@
               "alignv .av02 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .av02, .at01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -37633,7 +37824,8 @@
               "alignv .av02 round",
               "alignt .sh05 \"t: 1\"",
               "alignt .ah02 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -37846,7 +38038,8 @@
               "alignv .av03 round",
               "alignt .at01 \"t: 1\"",
               "interpolatev .iv01 .av02, .at01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -38039,7 +38232,8 @@
               "interpolatev .ih01 .ab02, .sh01",
               "mdeltav .av01 42-42 -5",
               "singlev .ab02, .sv01 \"Y: 162\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -38238,7 +38432,8 @@
               "alignv .av03 round",
               "alignt .sh06 \"t: 1\"",
               "alignt .ah03 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -38477,7 +38672,8 @@
               "singleh .dh02, rsb .round",
               "alignv .dh02 round",
               "alignt .at01 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -38632,7 +38828,8 @@
               "alignt .sh04 \"t: x\"",
               "alignt .sh02 \"t: x\"",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -38860,7 +39057,8 @@
               "interpolatev .iv01 .ab01, .sv02",
               "singlev .sv01, .sv03 .none round",
               "singlev .sv02, .sv04 .none round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -39058,7 +39256,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -39241,7 +39440,8 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignt .at02 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -39405,7 +39605,8 @@
               "interpolatev .iv02 .sv01, .sv02",
               "alignt .at02 \"t: 1\"",
               "alignt .at03 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -39618,7 +39819,8 @@
               "singlev .av02, .sv04 \"Y: 171\"",
               "alignt .at02 \"t: 1\"",
               "alignt .at03 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -39835,7 +40037,8 @@
               "fdeltah .ah01 12-12 3",
               "fdeltah .ah01 22-22 6",
               "fdeltah .ah01 19-19 8"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -40023,7 +40226,8 @@
               "mdeltav .mv01 29-29 -3",
               "mdeltav .mv01 30-30 -4",
               "mdeltav .mv02 13-13 -3"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -40155,7 +40359,8 @@
             "color":"#00cce5",
             "tth":[
               "doubleh .dh01, .dh02 \"X: 208\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -40259,7 +40464,8 @@
               "alignv .av01 round",
               "alignt .ah01 \"t: 1\"",
               "singlev .ah01, .ah02 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -40363,7 +40569,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -40460,7 +40667,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -40594,7 +40802,8 @@
               "alignb .sh04 \"b: 0\"",
               "doublev .dv01, .ih01 \"Y: 144\"",
               "interpolatev .ah01 .sh02, .at01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -40670,7 +40879,7 @@
       {
         "name":"Beta",
         "unicode":"0392",
-        "lastModified":"2026-10-29 03:09:02",
+        "lastModified":"2026-10-29 14:05:03",
         "layers":[
           {
             "name":"Thin",
@@ -40711,7 +40920,8 @@
               "singlev .at01, .sv01 \"eq Y: 135\"",
               "interpolatev .ih01 .ih02, .dv01",
               "singlev .dh01, .dh02 \"eq Y: 162\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -40867,7 +41077,8 @@
               "alignt .at01 \"t: 1\"",
               "alignb .dh02 \"b: 0\"",
               "singlev .at01, .sv01 \"Y: 153\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -41023,7 +41234,8 @@
                 "thickness":21
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -41162,7 +41374,8 @@
               "doublev .dh03, .dv01 \"Y: 144\"",
               "singlev .ab02, .dh04 \"Y: 162\"",
               "singlev .at02, .sv01 \"Y: 162\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -41270,7 +41483,8 @@
               "interpolatev .iv01 .at01, .iv02",
               "singlev .at01, .sv02 \"Y: 162\"",
               "interpolatev .iv03 .ab01, .sv01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -41394,7 +41608,8 @@
               "alignb .ah01 \"b: 0\"",
               "alignb .sh02 \"b: 0\"",
               "doublev .dv01, .sh04 \"Y: 162\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -41567,7 +41782,8 @@
                 "thickness":208
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -41709,7 +41925,8 @@
               "singlev .ab01, .sh02 \"Y: 171\"",
               "singlev .sh01, .sv02 \"Y: 171\"",
               "singlev .at01, .sh03 \"Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -41873,7 +42090,8 @@
               "fdeltav .fh02 13-14 -2",
               "fdeltav .fh02 22-22 5",
               "fdeltav .ah02 18-22 -2"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -42030,7 +42248,8 @@
                 "thickness":-20
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -42314,7 +42533,8 @@
               "fdeltav .fh06 29-29 -3",
               "fdeltav .fh06 11-11 3",
               "fdeltav .fh07 29-29 -3"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -42657,7 +42877,8 @@
               "fdeltav .sh04 29-29 4",
               "fdeltav .sh04 26-26 8",
               "fdeltav .sh04 28-28 8"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -42814,7 +43035,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -42913,7 +43135,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .at01, .sv01 \"Y: 171\"",
               "singlev .ab01, .sv02 \"Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -43042,7 +43265,8 @@
               "alignb .sh02 \"b: 0\"",
               "doublev .dv01, .dv02 \"Y: 144\"",
               "singlev .at01, .sv01 \"Y: 135\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -43201,7 +43425,8 @@
                 "thickness":170
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -43334,7 +43559,8 @@
               "singlev .at01, .sv01 \"Y: 162\"",
               "singlev .sv01, .sv02 .none",
               "singlev .sv02, .sv03 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -43482,7 +43708,8 @@
               "fdeltah .ah01 12-12 3",
               "fdeltah .ah01 22-22 6",
               "fdeltah .ah01 19-19 8"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -43668,7 +43895,8 @@
                 "thickness":179
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -43901,7 +44129,8 @@
               "fdeltah .sh06 24-24 3",
               "fdeltah .sh06 25-25 4",
               "fdeltah .sh06 17-17 5"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -44006,7 +44235,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -44215,7 +44445,8 @@
                 "thickness":210
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -44398,7 +44629,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -44581,7 +44813,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -44761,7 +44994,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -44922,7 +45156,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -45093,7 +45328,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -45243,7 +45479,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -45408,7 +45645,8 @@
                 "thickness":180
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -45599,7 +45837,8 @@
                 "thickness":180
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -45766,7 +46005,8 @@
                 "thickness":180
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -45922,7 +46162,8 @@
               "interpolatev .iv01 .dh01, .av01",
               "interpolatev .iv02 .dh01, .av01",
               "interpolatev .iv03 .dh01, .av01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -46064,7 +46305,8 @@
                 "thickness":21
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -46221,7 +46463,8 @@
                 "thickness":190
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -46341,7 +46584,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -46464,7 +46708,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -46597,7 +46842,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .av01, .sv01 \"Y: 153\"",
               "singlev .ab01, .sv02 \"Y: 153\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -46737,7 +46983,8 @@
                 "thickness":180
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -46870,7 +47117,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -47041,7 +47289,8 @@
                 "thickness":170
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -47172,7 +47421,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -47298,7 +47548,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -47457,7 +47708,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -47624,7 +47876,8 @@
                 "thickness":-20
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -47818,7 +48071,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -47973,7 +48227,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -48128,7 +48383,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -48304,7 +48560,8 @@
                 "thickness":210
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -48448,7 +48705,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -48623,7 +48881,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -48754,7 +49013,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -48843,7 +49103,8 @@
               "alignv .av01 round",
               "singlev .av01, .sv01 \"Y: 153\"",
               "singlev .sv01, .sv02 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -48937,7 +49198,8 @@
               "alignv .av01 round",
               "singlev .av01, .sv01 \"Y: 153\"",
               "singlev .sv01, .sv02 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -49026,7 +49288,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -49136,7 +49399,8 @@
               "mdeltah .sh02 18-18 -3",
               "singleh .ah02, .sh03 \"X: 176\"",
               "singleh .sh03, .sh04 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -49295,7 +49559,8 @@
               "mdeltav .mh02 12-13 -1",
               "mdeltav .mh02 16-16 -4",
               "mdeltav .mh02 14-14 -5"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -49425,7 +49690,8 @@
               "singleh .ah01, .sh01 .round",
               "alignv .sh01 round",
               "alignt .ah02 \"t: 1\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -49559,7 +49825,8 @@
               "alignv .av01 round",
               "alignv .av02 round",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -49698,7 +49965,8 @@
             "color":"#00cce5",
             "tth":[
               "alignv .av01 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -49881,7 +50149,8 @@
               "alignh .ah02 round",
               "alignh .ah03 round",
               "alignh .ah04 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -50070,7 +50339,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -50279,7 +50549,8 @@
               "singlev .dh02, .sv01 \"Y: 153\"",
               "singlev .sv01, .sv02 .none",
               "singlev .sv02, .sv03 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -50502,7 +50773,8 @@
               "singlev .dv02, .sv03 .none",
               "singlev .sv01, .sv04 .none",
               "singlev .sv04, .sv05 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -50643,7 +50915,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -50719,7 +50992,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -50948,7 +51222,8 @@
               "alignh .ah04 round",
               "alignh .ah05 round",
               "alignh .ah06 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -51217,7 +51492,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -51540,7 +51816,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -51727,7 +52004,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -51849,7 +52127,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -52018,7 +52297,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -52174,7 +52454,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -52290,7 +52571,8 @@
               "singlev .av01, .sv01 \"Y: 135\"",
               "interpolatev .iv01 .av01, .av02",
               "singlev .av02, .sv02 \"Y: 135\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -52412,7 +52694,8 @@
               "singlev .av02, .sv01 \"Y: 135\"",
               "interpolatev .iv01 .av01, .av02",
               "singlev .av01, .sv02 \"Y: 135\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -52674,7 +52957,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -52977,7 +53261,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -53190,7 +53475,8 @@
                 "thickness":104
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -53314,7 +53600,8 @@
                 "thickness":95
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -53436,7 +53723,8 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -53564,7 +53852,8 @@
                 "thickness":102
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -53706,7 +53995,8 @@
                 "thickness":103
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -53820,7 +54110,8 @@
                 "thickness":102
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -53999,7 +54290,8 @@
                 "thickness":99
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -54135,7 +54427,8 @@
                 "thickness":103
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -54229,7 +54522,8 @@
                 "thickness":78
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -54327,7 +54621,8 @@
                 "thickness":77
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -54421,7 +54716,8 @@
                 "thickness":70
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -54535,7 +54831,8 @@
                 "thickness":100
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -54649,7 +54946,8 @@
                 "thickness":100
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -54765,7 +55063,8 @@
                 "thickness":95
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -54873,7 +55172,8 @@
                 "thickness":104
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -54979,7 +55279,8 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -55085,7 +55386,8 @@
                 "thickness":97
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -55211,7 +55513,8 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -55333,7 +55636,8 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -55461,7 +55765,8 @@
                 "thickness":102
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -55603,7 +55908,8 @@
                 "thickness":103
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -55717,7 +56023,8 @@
                 "thickness":102
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -55891,7 +56198,8 @@
                 "thickness":99
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -56032,7 +56340,8 @@
                 "thickness":103
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -56126,7 +56435,8 @@
                 "thickness":78
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -56224,7 +56534,8 @@
                 "thickness":77
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -56318,7 +56629,8 @@
                 "thickness":70
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -56415,7 +56727,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -56573,7 +56886,8 @@
               "singlev .dv03, .sv04 .none",
               "singlev .dv02, .sv05 .none",
               "singlev .at01, .sv06 \"Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -56774,7 +57088,8 @@
               "mdeltav .mv03 15-15 -1",
               "mdeltav .mv04 14-14 2",
               "mdeltav .mv04 16-16 -3"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -57002,7 +57317,8 @@
               "alignt .at02 \"t: 1\"",
               "singlev .av01, .sv03 \"Y: 135\"",
               "singlev .at02, .sv04 \"Y: 135\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -57338,7 +57654,8 @@
               "alignt .at02 \"t: 1\"",
               "singlev .av01, .sv02 \"Y: 135\"",
               "singlev .at02, .sv03 \"Y: 135\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -57564,7 +57881,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -57666,7 +57984,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -57784,7 +58103,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -58026,7 +58346,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -58130,7 +58451,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -58185,7 +58507,7 @@
       {
         "name":"Ohm",
         "unicode":"2126",
-        "lastModified":"2026-10-29 03:13:11",
+        "lastModified":"2026-10-29 14:03:16",
         "layers":[
           {
             "name":"Thin",
@@ -58198,25 +58520,25 @@
                   "contours":[
                     {
                       "nodes":[
-                        "93 0",
-                        "93 115",
-                        "259 115",
+                        "93 0 {n:'.ab02'}",
+                        "93 88 {n:'.sv02'}",
+                        "319 88",
                         "471 15",
-                        "238 241 s",
-                        "164 311  116 527  116 776 s",
-                        "116 1216  205 1517  609 1517 s",
-                        "1003 1517  1102 1216  1102 776 s",
-                        "1102 525  1051 311  986 243",
+                        "319 158 s",
+                        "190.549 278.845  116 527  116 776 s",
+                        "116 1216  301 1517  609 1517 s {n:'.at01'}",
+                        "917 1517  1102 1216  1102 776 s",
+                        "1102 525  1025.39 276  896 158",
                         "746 15",
-                        "956 115",
-                        "1124 115",
-                        "1124 0",
+                        "896 88",
+                        "1124 88 {n:'.sv01'}",
+                        "1124 0 {n:'.ab01'}",
                         "735 0",
-                        "735 176",
-                        "929 313  988 473  988 744 s",
-                        "988 1087  917 1393  603 1393 s",
-                        "306 1393  229 1120  229 812 s",
-                        "229 501  284 323  481 177",
+                        "735 133",
+                        "929 270  1014 465  1014 776 s",
+                        "1014 1084  906 1429  609 1429 s {n:'.sv03'}",
+                        "312 1429  204 1084  204 776 s",
+                        "204 465  288 270  481 133",
                         "481 0"
                       ]
                     }
@@ -58225,13 +58547,15 @@
                 "active":true
               }
             ],
-            "hints":[
-              {
-                "horizontal":true,
-                "thickness":115
-              }
-            ],
-            "color":"#1f964d"
+            "color":"#1f964d",
+            "tth":[
+              "alignt .at01 \"t: 1\"",
+              "alignb .ab01 \"b: 0\"",
+              "alignb .ab02 \"b: 0\"",
+              "singlev .ab02, .sv02 .round",
+              "singlev .ab01, .sv01 .round",
+              "singlev .at01, .sv03 .round"
+            ]
           },
           {
             "name":"Regular",
@@ -58243,26 +58567,26 @@
                   "contours":[
                     {
                       "nodes":[
-                        "50 0",
-                        "50 160",
-                        "198 160",
-                        "349 100",
-                        "205 239 s",
-                        "125 316  72 531  72 775 s",
-                        "72 1215  168 1517  598 1517 s",
-                        "1018 1517  1124 1215  1124 775 s",
-                        "1124 532  1068 317  997 242",
-                        "847 100",
-                        "997 160",
-                        "1145 160",
-                        "1145 0",
-                        "697 0",
-                        "697 200",
-                        "885 332  916 485  916 744 s",
-                        "916 1063  856 1347  592 1347 s",
-                        "344 1347  280 1095  280 810 s",
-                        "280 512  307 341  498 200",
-                        "498 0"
+                        "52 0 {n:'.ab02'}",
+                        "52 160 {n:'.sv02'}",
+                        "200 160",
+                        "351 100",
+                        "207 239 s",
+                        "127 316  74 531  74 775 s",
+                        "74 1215  170 1517  600 1517 s {n:'.at01'}",
+                        "1020 1517  1126 1215  1126 775 s",
+                        "1126 532  1070 317  999 242",
+                        "849 100",
+                        "999 160",
+                        "1147 160 {n:'.sv01'}",
+                        "1147 0 {n:'.ab01'}",
+                        "699 0",
+                        "699 200",
+                        "887 332  918 485  918 744 s",
+                        "918 1063  858 1347  594 1347 s {n:'.sv03'}",
+                        "346 1347  282 1095  282 810 s",
+                        "282 512  309 341  500 200",
+                        "500 0"
                       ]
                     }
                   ]
@@ -58287,11 +58611,20 @@
               },
               {
                 "vertical":true,
-                "position":-1147,
+                "position":-1145,
                 "thickness":210
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "tth":[
+              "alignt .at01 \"t: 1\"",
+              "alignb .ab01 \"b: 0\"",
+              "alignb .ab02 \"b: 0\"",
+              "singlev .ab02, .sv02 \"Y: 162\"",
+              "singlev .ab01, .sv01 \"Y: 162\"",
+              "singlev .at01, .sv03 \"Y: 171\""
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -58303,26 +58636,26 @@
                   "contours":[
                     {
                       "nodes":[
-                        "-15 0 {n:'.ab01'}",
-                        "-15 228 {n:'.ih03'}",
-                        "106 228",
-                        "166 228 {n:'.sh01'}",
-                        "156 237",
-                        "66 324  6 538  6 774 s {n:'.ah03'}",
-                        "6 1214  113 1517  582 1517 s {n:'.ih01'}",
-                        "1041 1517  1157 1214  1157 774 s {n:'.ah04'}",
-                        "1157 543  1094 327  1014 241",
-                        "999 228 {n:'.sh02'}",
-                        "1058 228",
-                        "1177 228 {n:'.ih04'}",
-                        "1177 0 {n:'.ab02'}",
-                        "640 0 {n:'.dh02'}",
-                        "640 236 {n:'.ah02'}",
-                        "819 361  808 504  808 744 s {n:'.sh03'}",
-                        "808 1027  765 1279  576 1279 s {n:'.ih02'}",
-                        "401 1279  356 1058  356 807 s {n:'.sh04'}",
-                        "356 529  341 369  523 235 {n:'.ah01'}",
-                        "523 0 {n:'.dh01'}"
+                        "4 0 {n:'.ab01'}",
+                        "4 228 {n:'.ih03'}",
+                        "125 228",
+                        "185 228 {n:'.sh01'}",
+                        "175 237",
+                        "85 324  25 538  25 774 s {n:'.ah03'}",
+                        "25 1214  132 1517  601 1517 s {n:'.ih01'}",
+                        "1060 1517  1176 1214  1176 774 s {n:'.ah04'}",
+                        "1176 543  1113 327  1033 241",
+                        "1018 228 {n:'.sh02'}",
+                        "1077 228",
+                        "1196 228 {n:'.ih04'}",
+                        "1196 0 {n:'.ab02'}",
+                        "659 0 {n:'.dh02'}",
+                        "659 236 {n:'.ah02'}",
+                        "838 361  827 504  827 744 s {n:'.sh03'}",
+                        "827 1027  784 1279  595 1279 s {n:'.ih02'}",
+                        "420 1279  375 1058  375 807 s {n:'.sh04'}",
+                        "375 529  360 369  542 235 {n:'.ah01'}",
+                        "542 0 {n:'.dh01'}"
                       ]
                     }
                   ]
@@ -58342,38 +58675,34 @@
               },
               {
                 "vertical":true,
-                "position":56,
+                "position":75,
                 "thickness":350
               },
               {
                 "vertical":true,
-                "position":858,
+                "position":877,
                 "thickness":349
               }
             ],
             "color":"#00cce5",
             "tth":[
+              "alignt .ih01 \"t: 1\"",
+              "alignb .ab01 \"b: 0\"",
+              "alignb .ab02 \"b: 0\"",
+              "singlev .ab01, .ih03 .round",
+              "singlev .ab02, .ih04 .round",
+              "singlev .ih01, .ih02 .round",
               "alignh .ah01 round",
               "alignh .ah02 round",
               "alignh .ah03 round",
               "alignh .ah04 round",
-              "doubleh .dh01, .dh02 \"X: dia Lite\"",
-              "singleh .ah01, .sh01 \"X: 208\"",
+              "doubleh .dh01, .dh02 .round",
+              "singleh .ah01, .sh01 .round",
               "interpolateh .ih01 .ah01, .ah02",
-              "singleh .ah02, .sh02 \"X: 208\"",
-              "singleh .ah04, .sh03 \"X: 208\"",
+              "singleh .ah02, .sh02 .round",
+              "singleh .ah04, .sh03 .round",
               "interpolateh .ih02 .ih03, .ih04",
-              "singleh .ah03, .sh04 \"X: 208\"",
-              "alignt .ih01 \"t: 1\"",
-              "alignb .ab01 \"b: 0\"",
-              "alignb .ab02 \"b: 0\"",
-              "singlev .ab01, .ih03 \"Y: 171\"",
-              "singlev .ab02, .ih04 \"Y: 171\"",
-              "singlev .ab02, .dh02 .none",
-              "singlev .dh02, .ah02 \"Y: 171\"",
-              "singlev .ih01, .ih02 \"Y: 171\"",
-              "singlev .ab01, .dh01 .none",
-              "singlev .dh01, .ah01 \"Y: 171\""
+              "singleh .ah03, .sh04 .round"
             ]
           }
         ]
@@ -58477,7 +58806,8 @@
               "alignv .av02 round",
               "singlev .av02, .sv01 .round",
               "singlev .av01, .sv02 .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -58630,7 +58960,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -58734,7 +59065,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -58897,7 +59229,8 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -59120,7 +59453,8 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -59342,7 +59676,8 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -59613,7 +59948,8 @@
                 "thickness":102
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -59895,7 +60231,8 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -60185,7 +60522,8 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -60481,7 +60819,8 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -60783,7 +61122,8 @@
                 "thickness":102
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -61107,7 +61447,8 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -61448,7 +61789,8 @@
                 "thickness":99
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -61796,7 +62138,8 @@
                 "thickness":102
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -62139,7 +62482,8 @@
                 "thickness":102
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -62366,7 +62710,8 @@
                 "thickness":105
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -62506,7 +62851,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -62578,7 +62924,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -62650,7 +62997,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -62722,7 +63070,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -62812,7 +63161,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -62902,7 +63252,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -62974,7 +63325,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -63046,7 +63398,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -63118,7 +63471,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -63190,7 +63544,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -63270,7 +63625,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -63350,7 +63706,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -63426,7 +63783,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -63502,7 +63860,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -63580,7 +63939,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -63658,7 +64018,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -63744,7 +64105,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -63830,7 +64192,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -63916,7 +64279,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64002,7 +64366,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64120,7 +64485,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64238,7 +64604,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64324,7 +64691,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64410,7 +64778,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64496,7 +64865,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64582,7 +64952,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64686,7 +65057,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64790,7 +65162,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64894,7 +65267,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -64998,7 +65372,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -65102,7 +65477,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -65206,7 +65582,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -65304,7 +65681,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -65438,7 +65816,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -65548,7 +65927,8 @@
                 "position":1000
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -65616,7 +65996,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -65700,7 +66081,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -65790,7 +66172,8 @@
                 "position":900
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -65884,7 +66267,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -65974,7 +66358,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -66061,7 +66446,8 @@
               "interpolatev .iv01 .ab01, .at01",
               "interpolatev .iv02 .ab01, .at01",
               "interpolatev .iv03 .ab01, .at01"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -66149,7 +66535,8 @@
                 "position":1300
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -66241,7 +66628,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -66317,7 +66705,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -66409,7 +66798,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -66469,7 +66859,8 @@
                 "thickness":260
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -66624,7 +67015,8 @@
                 "thickness":155
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -66859,7 +67251,8 @@
               "alignt .at01 \"t: 1\"",
               "singlev .av01, .sv01 \"Y: 135\"",
               "singlev .at01, .sv02 \"Y: 135\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -67030,7 +67423,8 @@
             "tth":[
               "alignb .ab01 \"b: 0\"",
               "doublev .dv01, .dv02 \"Y: 153\""
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -67118,7 +67512,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -67360,7 +67755,8 @@
               "interpolatev .ah01 .dv03, .dv06",
               "interpolatev .ah02 .dv01, .dv08",
               "interpolatev .iv02 .dv01, .dv08"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -67442,7 +67838,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -67512,7 +67909,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -67588,7 +67986,8 @@
                 "position":1302
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -67658,7 +68057,8 @@
               "alignv .av02 round",
               "alignb .ab01 \"b: 0\"",
               "interpolatev .iv01 .ab01, .av01"
-            ]
+            ],
+            "active":true
           }
         ]
       },
@@ -67726,7 +68126,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -67794,7 +68195,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -67872,7 +68274,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -68012,7 +68415,8 @@
                 "position":-1009
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -68208,7 +68612,8 @@
               "alignh .ah04 round",
               "alignh .ah05 round",
               "alignh .ah06 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -68499,7 +68904,8 @@
               "alignh .ah04 round",
               "alignh .ah05 round",
               "alignh .ah06 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -68659,7 +69065,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -68772,7 +69179,8 @@
               "alignv .av01 round",
               "singlev .av01, .sv01 \"Y: 144\"",
               "singlev .sv01, .sv02 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -68917,7 +69325,8 @@
               "singlev .sv01, .sv02 .none",
               "singlev .av02, .sv03 \"Y: 144\"",
               "singlev .sv03, .sv04 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -69067,7 +69476,8 @@
               "mdeltav .mv04 16-16 -3",
               "mdeltav .mv05 16-16 -3",
               "mdeltav .mv06 17-17 -3"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -69212,7 +69622,8 @@
               "singlev .sv01, .sv02 .none",
               "singlev .av02, .sv03 \"Y: 144\"",
               "singlev .sv03, .sv04 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -69365,7 +69776,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -69497,7 +69909,8 @@
             "color":"#00cce5",
             "tth":[
               "mdeltav .mv01 12-12 3"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -69631,7 +70044,8 @@
               "mdeltah .mh02 12-12 1",
               "mdeltav .mv01 13-13 1",
               "mdeltav .mh02 12-12 -1"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -69756,7 +70170,8 @@
             "tth":[
               "mdeltah .mh01 12-12 3",
               "mdeltav .mv01 13-13 2"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -70475,7 +70890,8 @@
               "alignh .ah06 round",
               "alignv .av03 round",
               "alignb .ab03 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -70715,7 +71131,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -70773,7 +71190,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -70831,7 +71249,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -70889,7 +71308,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -70947,7 +71367,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -71005,7 +71426,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -71063,7 +71485,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -71121,7 +71544,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -71175,7 +71599,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -71245,7 +71670,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -71299,7 +71725,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -71371,7 +71798,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -71423,7 +71851,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -71489,7 +71918,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -71541,7 +71971,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -71607,7 +72038,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -71699,7 +72131,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -71809,7 +72242,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -71865,7 +72299,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -71937,7 +72372,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -72009,7 +72445,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -72081,7 +72518,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -72153,7 +72591,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -72323,7 +72762,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -72427,7 +72867,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -72497,7 +72938,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -72687,7 +73129,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -72757,7 +73200,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -72833,7 +73277,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -72903,7 +73348,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -72993,7 +73439,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -73099,7 +73546,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -73235,7 +73683,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -73371,7 +73820,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -73559,7 +74009,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -73627,7 +74078,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -73699,7 +74151,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -73819,7 +74272,8 @@
                 "position":1300
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -73933,7 +74387,8 @@
                 "position":1364
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -74013,7 +74468,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -74117,7 +74573,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -74193,7 +74650,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -74411,7 +74869,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -74545,7 +75004,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -74722,7 +75182,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -74958,7 +75419,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -75210,7 +75672,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -75465,7 +75928,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -75724,7 +76188,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -75999,7 +76464,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -76245,7 +76711,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -76525,7 +76992,8 @@
               "alignv .av02 round",
               "alignv .av03 round",
               "alignv .av04 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -76818,7 +77286,8 @@
               "alignv .av01 round",
               "alignv .av02 round",
               "alignv .av03 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -77076,7 +77545,8 @@
               "alignv .av02 round",
               "alignv .av03 round",
               "alignv .av04 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -77300,7 +77770,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -77501,7 +77972,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -77718,7 +78190,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -77938,7 +78411,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -78162,7 +78636,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -78402,7 +78877,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -78613,7 +79089,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -78858,7 +79335,8 @@
               "alignv .av02 round",
               "alignv .av03 round",
               "alignv .av04 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -79111,7 +79589,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -79328,7 +79807,8 @@
               "alignh .ah02 round",
               "alignv .av01 round",
               "alignv .av02 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -79486,7 +79966,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -79586,7 +80067,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -79794,7 +80276,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -79967,7 +80450,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -80177,7 +80661,8 @@
                 "thickness":190
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -80768,7 +81253,8 @@
               "alignb .ab01 \"b: 0\"",
               "singlev .ab01, .sv01 \"eq Y: 171\"",
               "singlev .at01, .sv02 \"eq Y: 171\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -85663,7 +86149,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -85800,7 +86287,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -85948,7 +86436,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"Y: 144\"",
               "singlev .av02, .sv02 \"Y: 144\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -86073,7 +86562,8 @@
               "alignv .av02 round",
               "singlev .av02, .sv02 \"Y: 144\"",
               "singlev .av01, .sv01 \"Y: 144\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -86162,7 +86652,8 @@
               "alignv .av01 round",
               "singlev .at01, .sv03 \"Y: 153\"",
               "singlev .av01, .sv02 \"Y: 153\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -86231,7 +86722,8 @@
             "tth":[
               "alignv .dv01 round",
               "alignv .av01 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -86298,7 +86790,8 @@
             "tth":[
               "alignv .at01 round",
               "alignv .av01 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -86363,7 +86856,8 @@
             "tth":[
               "alignv .at01 round",
               "alignv .av01 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -86466,7 +86960,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -86540,7 +87035,8 @@
             "color":"#00cce5",
             "tth":[
               "doublev .dv01, .dv02 \"Y: 153\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -86668,7 +87164,8 @@
             "color":"#00cce5",
             "tth":[
               "doublev .dv01, .dv02 \"Y: 153\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -86825,7 +87322,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"Y: 144\"",
               "singlev .av02, .sv02 \"Y: 144\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -86990,7 +87488,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"Y: 144\"",
               "singlev .av02, .sv02 \"Y: 144\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -87119,7 +87618,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -87228,7 +87728,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -87348,7 +87849,8 @@
             "color":"#00cce5",
             "tth":[
               "doublev .dv01, .dv02 \"Y: 153\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -87505,7 +88007,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"Y: 144\"",
               "singlev .av02, .sv02 \"Y: 144\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -87641,7 +88144,8 @@
             "color":"#00cce5",
             "tth":[
               "doublev .dv01, .dv02 \"Y: 153\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -87770,7 +88274,8 @@
             "color":"#00cce5",
             "tth":[
               "doublev .dv01, .dv02 \"Y: 153\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -87899,7 +88404,8 @@
             "color":"#00cce5",
             "tth":[
               "doublev .dv01, .dv02 \"Y: 153\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -88021,7 +88527,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -88130,7 +88637,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -88279,7 +88787,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"Y: 144\"",
               "singlev .av02, .sv02 \"Y: 144\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -88444,7 +88953,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"Y: 144\"",
               "singlev .av02, .sv02 \"Y: 144\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -88609,7 +89119,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"Y: 144\"",
               "singlev .av02, .sv02 \"Y: 144\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -88774,7 +89285,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"Y: 144\"",
               "singlev .av02, .sv02 \"Y: 144\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -88903,7 +89415,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -89012,7 +89525,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -89156,7 +89670,8 @@
                 "thickness":155
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -89336,7 +89851,8 @@
                 "position":550
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -89486,7 +90002,8 @@
               "alignv .ih01 round",
               "alignv .ih03 round",
               "alignv .sh03 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -89557,14 +90074,8 @@
       {
         "name":"carriageReturnControl",
         "unicode":"240d",
-        "lastModified":"2026-06-20 19:35:32",
+        "lastModified":"2026-10-29 14:03:16",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -89646,12 +90157,6 @@
               "fdeltah .fh02 19-19 -2",
               "fdeltah .fh02 20-22 1"
             ]
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -89660,12 +90165,6 @@
         "unicode":"2418",
         "lastModified":"2026-06-20 19:58:06",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -89691,12 +90190,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -89705,12 +90198,6 @@
         "unicode":"2410",
         "lastModified":"2026-06-20 20:00:32",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -89735,12 +90222,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -89749,12 +90230,6 @@
         "unicode":"2421",
         "lastModified":"2026-06-20 20:02:22",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -89780,12 +90255,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -89794,12 +90263,6 @@
         "unicode":"2414",
         "lastModified":"2026-06-20 19:08:10",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -89824,12 +90287,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -89838,12 +90295,6 @@
         "unicode":"2411",
         "lastModified":"2026-06-20 19:08:10",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -89869,12 +90320,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -89883,12 +90328,6 @@
         "unicode":"2413",
         "lastModified":"2026-06-20 19:08:10",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -89913,12 +90352,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -89927,12 +90360,6 @@
         "unicode":"2412",
         "lastModified":"2026-06-20 19:08:35",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -89957,12 +90384,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -89971,12 +90392,6 @@
         "unicode":"2419",
         "lastModified":"2026-06-20 19:11:07",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -90041,12 +90456,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -90055,12 +90464,6 @@
         "unicode":"2403",
         "lastModified":"2026-06-21 04:22:27",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -90085,26 +90488,14 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"endOfTransmissionBlockControl",
         "unicode":"2417",
-        "lastModified":"2026-06-21 04:22:27",
+        "lastModified":"2026-10-29 14:05:03",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -90130,12 +90521,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -90144,12 +90529,6 @@
         "unicode":"2404",
         "lastModified":"2026-06-21 04:22:27",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -90190,12 +90569,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -90204,12 +90577,6 @@
         "unicode":"2405",
         "lastModified":"2026-06-20 19:17:35",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -90257,12 +90624,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -90271,12 +90632,6 @@
         "unicode":"241b",
         "lastModified":"2026-06-20 19:58:06",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -90324,12 +90679,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -90338,12 +90687,6 @@
         "unicode":"241c",
         "lastModified":"2026-06-20 20:03:25",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -90368,12 +90711,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -90382,12 +90719,6 @@
         "unicode":"240c",
         "lastModified":"2026-06-20 19:25:30",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -90432,12 +90763,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -90446,12 +90771,6 @@
         "unicode":"241d",
         "lastModified":"2026-06-20 20:03:25",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -90477,12 +90796,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -90491,12 +90804,6 @@
         "unicode":"2409",
         "lastModified":"2026-06-20 19:40:55",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -90537,12 +90844,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -90551,12 +90852,6 @@
         "unicode":"240a",
         "lastModified":"2026-06-20 19:26:39",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -90605,12 +90900,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -90619,12 +90908,6 @@
         "unicode":"2415",
         "lastModified":"2026-06-20 19:45:59",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -90668,12 +90951,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -90682,12 +90959,6 @@
         "unicode":"2424",
         "lastModified":"2026-06-20 19:45:59",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -90728,12 +90999,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -90742,12 +91007,6 @@
         "unicode":"2400",
         "lastModified":"2026-06-20 19:45:59",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -90805,12 +91064,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -90819,12 +91072,6 @@
         "unicode":"241e",
         "lastModified":"2026-06-20 20:03:25",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -90850,12 +91097,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -90864,12 +91105,6 @@
         "unicode":"240f",
         "lastModified":"2026-06-20 20:03:25",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -90895,12 +91130,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -90909,12 +91138,6 @@
         "unicode":"240e",
         "lastModified":"2026-10-29 03:11:25",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -90939,12 +91162,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -90953,12 +91170,6 @@
         "unicode":"2420",
         "lastModified":"2026-06-20 20:03:25",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -90984,12 +91195,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -90998,12 +91203,6 @@
         "unicode":"2401",
         "lastModified":"2026-06-20 20:03:25",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -91029,12 +91228,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -91043,12 +91236,6 @@
         "unicode":"2402",
         "lastModified":"2026-06-20 20:03:25",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -91074,26 +91261,14 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"substituteControl",
         "unicode":"241a",
-        "lastModified":"2026-06-21 04:22:27",
+        "lastModified":"2026-10-29 14:05:03",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -91118,12 +91293,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -91132,12 +91301,6 @@
         "unicode":"2416",
         "lastModified":"2026-06-20 20:03:25",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -91189,12 +91352,6 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
             "color":"#00cce5"
           }
         ]
@@ -91254,12 +91411,6 @@
         "lastModified":"2026-06-20 19:58:52",
         "layers":[
           {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
-          {
             "name":"Regular",
             "advanceWidth":1200,
             "elements":[
@@ -91313,26 +91464,14 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"bell-cntr",
         "unicode":"2407",
-        "lastModified":"2026-06-21 04:23:25",
+        "lastModified":"2026-10-29 14:05:46",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -91360,28 +91499,15 @@
                   "contours":[
                     {
                       "nodes":[
-                        "3 0",
-                        "908 0 {n:'.ab01.1'}",
-                        "928 160",
-                        "198 160 {n:'.sv01.1'}",
-                        "208 340 {n:'.dh02.1'}",
-                        "208 920 {n:'.at01.1'}",
-                        "-7 900",
-                        "23 840",
-                        "23 200 {n:'.dh01.1'}"
-                      ]
-                    },
-                    {
-                      "nodes":[
-                        "387 387",
-                        "1292 387 {n:'.ab01.1'}",
-                        "1312 547",
-                        "582 547 {n:'.sv01.1'}",
-                        "592 727 {n:'.dh02.1'}",
-                        "592 1052 {n:'.at01.1'}",
-                        "377 912",
-                        "407 852",
-                        "407 587 {n:'.dh01.1'}"
+                        "333.769 0",
+                        "1238.77 0 {n:'.ab01.1'}",
+                        "1258.77 160",
+                        "528.769 160 {n:'.sv01.1'}",
+                        "538.769 340 {n:'.dh02.1'}",
+                        "538.769 920 {n:'.at01.1'}",
+                        "323.769 900",
+                        "353.769 840",
+                        "353.769 200 {n:'.dh01.1'}"
                       ]
                     }
                   ]
@@ -91395,26 +91521,14 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"backspace-cntr",
         "unicode":"2408",
-        "lastModified":"2026-06-21 04:22:27",
+        "lastModified":"2026-10-29 14:05:03",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -91439,12 +91553,6 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
@@ -91453,12 +91561,6 @@
         "unicode":"240b",
         "lastModified":"2026-06-20 20:02:45",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -91483,26 +91585,14 @@
               }
             ],
             "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#00cce5"
           }
         ]
       },
       {
         "name":"unitseparator-cntr",
         "unicode":"241f",
-        "lastModified":"2026-06-20 20:03:29",
+        "lastModified":"2026-10-29 14:03:16",
         "layers":[
-          {
-            "name":"Thin",
-            "flags":0,
-            "advanceWidth":1200,
-            "color":"#1f964d"
-          },
           {
             "name":"Regular",
             "advanceWidth":1200,
@@ -91526,12 +91616,6 @@
                 }
               }
             ],
-            "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1200,
             "color":"#00cce5"
           }
         ]
@@ -91571,7 +91655,8 @@
                 }
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -91615,7 +91700,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -91705,7 +91791,8 @@
             "color":"#00cce5",
             "tth":[
               "doublev .dv01, .dv02 \"Y: 153\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -91857,7 +91944,8 @@
                 "thickness":155
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -92021,7 +92109,8 @@
               "alignv .av02 round",
               "singlev .av01, .sv01 \"Y: 144\"",
               "singlev .av02, .sv02 \"Y: 144\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -92158,7 +92247,8 @@
               "alignv .ih01 round",
               "alignv .ih03 round",
               "alignv .sh03 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -92265,7 +92355,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
@@ -141284,7 +141375,7 @@
       }
     ],
     "defaultMaster":"Regular",
-    "currentMaster":"#instance",
+    "currentMaster":"Regular",
     "interpolationFlags":0,
     "openTypeFeatures":[
       {
@@ -141343,7 +141434,7 @@
     },
     "info":{
       "tfn":"Flightline Code",
-      "sgn":"Flightline Code Medium",
+      "sgn":"Flightline Code",
       "creationDate":"2017/11/27 06:58:00",
       "copyright":"Copyright © 2012, AIRBUS (airbus-group.com)\nCopyright © 2026 Brett Wilson\nCopyright © 2019–2026, Microsoft Corporation",
       "trademark":"PolarSys, PolarSys B612 and B612 are trademarks of The Eclipse Foundation",
