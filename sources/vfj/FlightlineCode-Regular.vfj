@@ -156,7 +156,7 @@
       {
         "name":"exclam",
         "unicode":"0021",
-        "lastModified":"2026-10-29 03:48:38",
+        "lastModified":"2026-10-30 02:31:13",
         "layers":[
           {
             "name":"Thin",
@@ -229,8 +229,7 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -1925,7 +1924,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.141",
+                  "id":"elementdata.140",
                   "contours":[
                     {
                       "nodes":[
@@ -1976,7 +1975,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.142",
+                  "id":"elementdata.141",
                   "contours":[
                     {
                       "nodes":[
@@ -2028,7 +2027,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.143",
+                  "id":"elementdata.142",
                   "contours":[
                     {
                       "nodes":[
@@ -2257,7 +2256,7 @@
       {
         "name":"comma",
         "unicode":"002c",
-        "lastModified":"2026-10-29 03:44:20",
+        "lastModified":"2026-10-30 02:31:13",
         "layers":[
           {
             "name":"Thin",
@@ -2340,8 +2339,7 @@
             "color":"#00cce5",
             "tth":[
               "alignb .sv01 \"b: 0\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -5591,7 +5589,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.138",
+                  "id":"elementdata.137",
                   "contours":[
                     {
                       "nodes":[
@@ -5636,7 +5634,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.139",
+                  "id":"elementdata.138",
                   "contours":[
                     {
                       "nodes":[
@@ -5676,7 +5674,7 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.140",
+                  "id":"elementdata.139",
                   "contours":[
                     {
                       "nodes":[
@@ -6179,8 +6177,7 @@
               "singleh .ah01, .sh03 .none",
               "singleh .sh03, .sh04 .round",
               "interpolateh .ih01 .sh03, .ah01"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -6494,7 +6491,7 @@
       {
         "name":"C",
         "unicode":"0043",
-        "lastModified":"2026-10-29 03:10:07",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -9151,7 +9148,7 @@
       {
         "name":"N",
         "unicode":"004e",
-        "lastModified":"2026-10-29 03:44:20",
+        "lastModified":"2026-10-30 02:31:13",
         "layers":[
           {
             "name":"Thin",
@@ -9315,8 +9312,7 @@
               "fdeltah .at01 15-15 -1",
               "fdeltah .at01 41-41 -1",
               "fdeltah .at01 43-43 4"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -9826,7 +9822,7 @@
       {
         "name":"Q",
         "unicode":"0051",
-        "lastModified":"2026-10-29 03:48:58",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"light guides",
@@ -13012,7 +13008,7 @@
       {
         "name":"b",
         "unicode":"0062",
-        "lastModified":"2026-10-29 03:17:33",
+        "lastModified":"2026-10-30 02:31:18",
         "layers":[
           {
             "name":"Thin",
@@ -13082,7 +13078,6 @@
             "elements":[
               {
                 "elementData":{
-                  "id":"elementdata.137",
                   "contours":[
                     {
                       "nodes":[
@@ -13152,8 +13147,7 @@
               "singleh .sh02, .sh03 .none",
               "singleh .ah01, .sh04 .round",
               "singleh .sh04, rsb .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -13236,7 +13230,7 @@
       {
         "name":"c",
         "unicode":"0063",
-        "lastModified":"2026-10-29 03:44:20",
+        "lastModified":"2026-10-30 02:31:13",
         "layers":[
           {
             "name":"Thin",
@@ -13340,8 +13334,7 @@
               "alignh lsb round",
               "singleh lsb, .sh01 .round",
               "singleh .sh01, .sh02 \"X: 199\""
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -13404,7 +13397,7 @@
       {
         "name":"d",
         "unicode":"0064",
-        "lastModified":"2026-10-29 03:48:58",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -13649,7 +13642,7 @@
       {
         "name":"e",
         "unicode":"0065",
-        "lastModified":"2026-10-29 03:49:23",
+        "lastModified":"2026-10-30 02:31:13",
         "layers":[
           {
             "name":"Thin",
@@ -13794,8 +13787,7 @@
               "mdeltav .sv01 9-17 1",
               "doubleh .sh01, .sh02 \"X: 190\"",
               "singleh .sh02, .sh03 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -13886,7 +13878,7 @@
       {
         "name":"f",
         "unicode":"0066",
-        "lastModified":"2026-10-29 03:45:08",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -14105,7 +14097,7 @@
       {
         "name":"g",
         "unicode":"0067",
-        "lastModified":"2026-10-29 03:48:58",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -14382,7 +14374,7 @@
       {
         "name":"h",
         "unicode":"0068",
-        "lastModified":"2026-10-29 03:45:08",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -14602,7 +14594,7 @@
       {
         "name":"i",
         "unicode":"0069",
-        "lastModified":"2026-10-29 03:44:20",
+        "lastModified":"2026-10-30 02:31:13",
         "layers":[
           {
             "name":"Square dot transition:wt=450",
@@ -15109,8 +15101,7 @@
               "singlev .ab01, .av01 .round",
               "singlev .ah01, .sv02 .round",
               "alignh .ah01 round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -15190,7 +15181,7 @@
       {
         "name":"j",
         "unicode":"006a",
-        "lastModified":"2026-10-29 03:45:08",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Square dot transition:wt=450",
@@ -15545,7 +15536,7 @@
       {
         "name":"k",
         "unicode":"006b",
-        "lastModified":"2026-10-29 03:45:08",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -15801,7 +15792,7 @@
       {
         "name":"l",
         "unicode":"006c",
-        "lastModified":"2026-10-29 03:45:08",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -16207,7 +16198,7 @@
       {
         "name":"n",
         "unicode":"006e",
-        "lastModified":"2026-10-29 03:44:20",
+        "lastModified":"2026-10-30 02:31:13",
         "layers":[
           {
             "name":"Thin",
@@ -16335,8 +16326,7 @@
               "interpolateh .ih01 .sh01, .sh04",
               "singleh .sh02, .sh03 .none",
               "singleh .sh04, rsb .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -16405,7 +16395,7 @@
       {
         "name":"o",
         "unicode":"006f",
-        "lastModified":"2026-10-29 03:49:23",
+        "lastModified":"2026-10-30 02:31:13",
         "layers":[
           {
             "name":"Thin",
@@ -16526,8 +16516,7 @@
               "singleh lsb, .sh01 .none round",
               "singleh .sh01, .sh03 \"X: 199\"",
               "singleh .sh02, rsb .round"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -17073,7 +17062,7 @@
       {
         "name":"r",
         "unicode":"0072",
-        "lastModified":"2026-10-29 03:44:20",
+        "lastModified":"2026-10-30 02:31:13",
         "layers":[
           {
             "name":"Thin",
@@ -17178,8 +17167,7 @@
               "doubleh .dh03, .dh04 \"X: 190\"",
               "interpolateh .ih01 .dh02, .dh04",
               "singleh .dh02, .sh01 .none"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -17582,7 +17570,7 @@
       {
         "name":"t",
         "unicode":"0074",
-        "lastModified":"2026-10-29 03:49:23",
+        "lastModified":"2026-10-30 02:31:13",
         "layers":[
           {
             "name":"Thin",
@@ -17732,8 +17720,7 @@
               "fdelta .fh01 39-39 -1, 2",
               "fdeltav .fh01 40-40 4",
               "fdeltav .fh01 32-33 5"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -18196,7 +18183,7 @@
       {
         "name":"w",
         "unicode":"0077",
-        "lastModified":"2026-10-29 03:49:23",
+        "lastModified":"2026-10-30 02:31:13",
         "layers":[
           {
             "name":"Thin",
@@ -18376,8 +18363,7 @@
               "interpolateh .ih02 .sh02, .ih01",
               "interpolateh .ih07 .sh02, .sh03",
               "interpolateh .ih06 .sh04, .sh01"
-            ],
-            "active":true
+            ]
           },
           {
             "name":"Bold",
@@ -18868,7 +18854,7 @@
       {
         "name":"z",
         "unicode":"007a",
-        "lastModified":"2026-10-29 03:48:58",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -86883,7 +86869,7 @@
       {
         "name":"blank",
         "unicode":"2423",
-        "lastModified":"2026-06-19 21:33:04",
+        "lastModified":"2026-10-30 02:25:57",
         "layers":[
           {
             "name":"Thin",
@@ -86960,8 +86946,7 @@
                 "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           }
         ]
       },
@@ -87781,7 +87766,7 @@
       },
       {
         "name":"hyphen.full",
-        "lastModified":"2026-10-28 03:36:52",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -87910,7 +87895,7 @@
       },
       {
         "name":"equal.full",
-        "lastModified":"2026-10-28 03:37:29",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -88076,7 +88061,7 @@
       },
       {
         "name":"hyphen.lc",
-        "lastModified":"2026-10-28 03:37:29",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -88206,7 +88191,7 @@
       },
       {
         "name":"hyphen.lc.leftfull",
-        "lastModified":"2026-10-28 03:37:29",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -88336,7 +88321,7 @@
       },
       {
         "name":"hyphen.lc.rightfull",
-        "lastModified":"2026-10-28 03:37:29",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -88466,7 +88451,7 @@
       },
       {
         "name":"less.lc",
-        "lastModified":"2026-10-28 03:37:29",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -88580,7 +88565,7 @@
       },
       {
         "name":"greater.lc",
-        "lastModified":"2026-10-28 03:37:29",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -88690,7 +88675,7 @@
       },
       {
         "name":"equal.lc",
-        "lastModified":"2026-10-28 03:37:29",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -88856,7 +88841,7 @@
       },
       {
         "name":"equal.lc.leftfull",
-        "lastModified":"2026-10-28 03:37:29",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -89022,7 +89007,7 @@
       },
       {
         "name":"equal.lc.rightfull",
-        "lastModified":"2026-10-28 03:37:29",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -89188,7 +89173,7 @@
       },
       {
         "name":"equal.lc.full",
-        "lastModified":"2026-10-28 03:37:29",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -89354,7 +89339,7 @@
       },
       {
         "name":"less.lc.rightfull",
-        "lastModified":"2026-10-28 03:37:29",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -89468,7 +89453,7 @@
       },
       {
         "name":"greater.lc.leftfull",
-        "lastModified":"2026-10-28 03:37:29",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -89578,7 +89563,7 @@
       },
       {
         "name":"plus.lc",
-        "lastModified":"2026-10-28 03:37:29",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -89738,7 +89723,7 @@
       },
       {
         "name":"asterisk.lc",
-        "lastModified":"2026-10-28 03:37:29",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -89933,7 +89918,7 @@
       },
       {
         "name":"asciitilde.lc",
-        "lastModified":"2026-10-28 03:37:29",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -91623,28 +91608,44 @@
       {
         "name":"blank-cntr",
         "unicode":"2422",
-        "lastModified":"2026-06-20 20:05:33",
+        "lastModified":"2026-10-30 02:31:18",
         "layers":[
           {
             "name":"Regular",
-            "advanceWidth":1324,
+            "advanceWidth":1200,
             "elements":[
-              {
-                "elementData":"elementdata.137",
-                "transform":{
-                  "xOffset":150
-                },
-                "active":true
-              },
               {
                 "elementData":{
                   "contours":[
                     {
                       "nodes":[
-                        "-865 441",
-                        "-200 765",
-                        "-267 904",
-                        "-933 580"
+                        "-673 -436 {n:'.sh03'}",
+                        "-673 238",
+                        "-589 306  -493 350  -388 350 s {n:'.sv02'}",
+                        "-190 350  -108 171  -108 -6 s {n:'.ah01'}",
+                        "-108 -210  -215 -464  -459 -464 s {n:'.sv01'}",
+                        "-535 -464  -622 -452 c"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "-853 813 {n:'.sh01'}",
+                        "-853 -572",
+                        "-793 -596  -636 -624  -468 -624 s {n:'.ab01'}",
+                        "-175 -624  87 -379  87 -11 s {n:'.sh04'}",
+                        "87 255  -87 510  -369 510 s {n:'.at01'}",
+                        "-445 510  -520 490  -588 458",
+                        "-673 367 {n:'.iv01'}",
+                        "-673 1013 {n:'.sh02'}",
+                        "-873 993"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "-960.277 433",
+                        "-295.277 757",
+                        "-362.277 896",
+                        "-1028.28 572"
                       ]
                     }
                   ]
@@ -91652,24 +91653,116 @@
                 "transform":{
                   "xOffset":1013,
                   "yOffset":607
-                }
+                },
+                "active":true
               }
             ],
-            "color":"#00cce5",
-            "active":true
+            "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1324,
+            "advanceWidth":1200,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "450 212 {n:'.sh03'}",
+                        "450 826",
+                        "501 869  560 900  641 900 s {n:'.sv02'}",
+                        "717 900  785 817  785 598 s {n:'.ah01'}",
+                        "785 424  742 200  575 200 s {n:'.sv01'}",
+                        "535 200  489 205 c"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "123 1398 {n:'.sh01'}",
+                        "123 54",
+                        "203 22  398 -16  566 -16 s {n:'.ab01'}",
+                        "882 -16  1112 227  1112 593 s {n:'.sh04'}",
+                        "1112 930  913 1117  669 1117 s {n:'.at01'}",
+                        "627 1117  587 1107  547 1096",
+                        "450 974 {n:'.iv01'}",
+                        "450 1632 {n:'.sh02'}",
+                        "101 1601"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "72.7608 989.025",
+                        "737.761 1313.03",
+                        "628.672 1538.42",
+                        "-37.3278 1214.42"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
             "color":"#00cce5"
+          },
+          {
+            "name":"Thin",
+            "flags":0,
+            "advanceWidth":1200,
+            "advanceHeight":1600,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "273 91",
+                        "273 885",
+                        "382 974  498 1029  623 1029 s",
+                        "901 1029  1003 744  1003 607 s",
+                        "1003 316  810 72  547 72 s",
+                        "445 72  334 69 c"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "185 1435",
+                        "185 22",
+                        "231 3  363 -18  531 -18 s {n:'.ab01'}",
+                        "829 -18  1092 229  1092 598 s",
+                        "1092 817  935 1117  627 1117 s {n:'.at01'}",
+                        "529 1117  436 1085  350 1031",
+                        "273 950",
+                        "273 1612 {n:'.av01'}",
+                        "166 1599"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "35.0013 1073.23",
+                        "700.001 1397.23",
+                        "661.823 1476.43",
+                        "-4.1772 1152.43"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "color":"#1f964d",
+            "tth":[
+              "alignv .av01 round",
+              "alignt .at01 \"t: x\"",
+              "alignb .ab01 \"b: 0\""
+            ]
           }
         ]
       },
       {
         "name":"substituteformtwo-cntr",
         "unicode":"2426",
-        "lastModified":"2026-10-28 03:37:29",
+        "lastModified":"2026-10-29 16:20:04",
         "layers":[
           {
             "name":"Thin",
@@ -91677,7 +91770,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.138",
+                "elementData":"elementdata.137",
                 "transform":{
                   "xScale":-1,
                   "xOffset":1199
@@ -91692,7 +91785,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.139",
+                "elementData":"elementdata.138",
                 "transform":{
                   "xScale":-1,
                   "xOffset":1199
@@ -91709,7 +91802,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.140",
+                "elementData":"elementdata.139",
                 "transform":{
                   "xScale":-1,
                   "xOffset":1200
@@ -92327,7 +92420,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.141",
+                "elementData":"elementdata.140",
                 "transform":{
                   "xScale":1.33000004,
                   "yScale":1.33000004,
@@ -92345,7 +92438,7 @@
             "advanceHeight":1600,
             "elements":[
               {
-                "elementData":"elementdata.142",
+                "elementData":"elementdata.141",
                 "transform":{
                   "xScale":1.25,
                   "yScale":1.25,
@@ -92364,7 +92457,7 @@
             "advanceWidth":1200,
             "elements":[
               {
-                "elementData":"elementdata.143",
+                "elementData":"elementdata.142",
                 "transform":{
                   "xScale":1.13,
                   "yScale":1.13,
