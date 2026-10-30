@@ -229,7 +229,8 @@
             "tth":[
               "alignt .at01 \"t: 1\"",
               "alignb .ab01 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -2339,7 +2340,8 @@
             "color":"#00cce5",
             "tth":[
               "alignb .sv01 \"b: 0\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -6177,7 +6179,8 @@
               "singleh .ah01, .sh03 .none",
               "singleh .sh03, .sh04 .round",
               "interpolateh .ih01 .sh03, .ah01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -9312,7 +9315,8 @@
               "fdeltah .at01 15-15 -1",
               "fdeltah .at01 41-41 -1",
               "fdeltah .at01 43-43 4"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -13147,7 +13151,8 @@
               "singleh .sh02, .sh03 .none",
               "singleh .ah01, .sh04 .round",
               "singleh .sh04, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -13334,7 +13339,8 @@
               "alignh lsb round",
               "singleh lsb, .sh01 .round",
               "singleh .sh01, .sh02 \"X: 199\""
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -13787,7 +13793,8 @@
               "mdeltav .sv01 9-17 1",
               "doubleh .sh01, .sh02 \"X: 190\"",
               "singleh .sh02, .sh03 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -15101,7 +15108,8 @@
               "singlev .ab01, .av01 .round",
               "singlev .ah01, .sv02 .round",
               "alignh .ah01 round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -16326,7 +16334,8 @@
               "interpolateh .ih01 .sh01, .sh04",
               "singleh .sh02, .sh03 .none",
               "singleh .sh04, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -16516,7 +16525,8 @@
               "singleh lsb, .sh01 .none round",
               "singleh .sh01, .sh03 \"X: 199\"",
               "singleh .sh02, rsb .round"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -17167,7 +17177,8 @@
               "doubleh .dh03, .dh04 \"X: 190\"",
               "interpolateh .ih01 .dh02, .dh04",
               "singleh .dh02, .sh01 .none"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -17720,7 +17731,8 @@
               "fdelta .fh01 39-39 -1, 2",
               "fdeltav .fh01 40-40 4",
               "fdeltav .fh01 32-33 5"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -18363,7 +18375,8 @@
               "interpolateh .ih02 .sh02, .ih01",
               "interpolateh .ih07 .sh02, .sh03",
               "interpolateh .ih06 .sh04, .sh01"
-            ]
+            ],
+            "active":true
           },
           {
             "name":"Bold",
@@ -86946,7 +86959,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           }
         ]
       },
@@ -90903,7 +90917,8 @@
                   "xScale":0.65,
                   "yScale":0.65,
                   "yOffset":513
-                }
+                },
+                "active":true
               },
               {
                 "elementData":{
@@ -91657,7 +91672,8 @@
                 "active":true
               }
             ],
-            "color":"#00cce5"
+            "color":"#00cce5",
+            "active":true
           },
           {
             "name":"Bold",
