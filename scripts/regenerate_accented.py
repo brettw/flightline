@@ -389,22 +389,20 @@ def validate_required_inputs(
 def referenced_points(
     element: dict[str, Any],
     elements_by_id: dict[str, dict[str, Any]],
-    seen: Optional[set[str]] = None,
 ) -> list[Point]:
-    seen = set() if seen is None else seen
     element_data = element.get("elementData")
-    points: list[Point] = []
+    source = element
     if isinstance(element_data, str):
-        if element_data in seen:
-            return points
-        target = elements_by_id.get(element_data)
-        if not target:
-            return points
-        seen.add(element_data)
-        points = referenced_points(target, elements_by_id, seen)
-    elif isinstance(element_data, dict):
-        for contour in element_contours(element):
-            points.extend(contour_points(contour))
+        # A reference shares the target's outline but not the target element's
+        # own transform: FontLab applies only the reference's transform.
+        source = elements_by_id.get(element_data)
+        if not source:
+            return []
+    elif not isinstance(element_data, dict):
+        return []
+    points: list[Point] = []
+    for contour in element_contours(source):
+        points.extend(contour_points(contour))
     return [transform_point(point, element.get("transform")) for point in points]
 
 
@@ -500,12 +498,16 @@ def regenerate_font(font: dict[str, Any]) -> None:
                 raise SystemExit(f"{glyph_name}/{layer_name}: {error}") from error
             elements_by_id = build_elements_by_id(font)
 
+            # Measure what an unshifted reference draws, which leaves out any
+            # transform on the source element itself.
             base_points: list[Point] = []
             for element in base_elements:
-                base_points.extend(referenced_points(element, elements_by_id))
+                reference = component_reference(element["elementData"]["id"], 0, 0)
+                base_points.extend(referenced_points(reference, elements_by_id))
             accent_points: list[Point] = []
             for element in accent_elements:
-                accent_points.extend(referenced_points(element, elements_by_id))
+                reference = component_reference(element["elementData"]["id"], 0, 0)
+                accent_points.extend(referenced_points(reference, elements_by_id))
 
             base_point = extreme_point(base_points, base_mode)
             accent_point = extreme_point(accent_points, accent_mode)
