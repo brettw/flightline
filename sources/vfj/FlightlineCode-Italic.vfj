@@ -18530,7 +18530,7 @@
         "layers":[
           {
             "name":"Italic",
-            "advanceWidth":1200,
+            "advanceWidth":0,
             "elements":[
               {
                 "elementData":{
@@ -18538,10 +18538,10 @@
                   "contours":[
                     {
                       "nodes":[
-                        "871 1200 {n:'.ah01'}",
-                        "721 1200 {n:'.sh01'}",
-                        "549 1500",
-                        "757 1520 {n:'.at01'}"
+                        "-353 1200 {n:'.ah01'}",
+                        "-503 1200 {n:'.sh01'}",
+                        "-675 1500",
+                        "-467 1520 {n:'.at01'}"
                       ]
                     }
                   ]
@@ -18562,7 +18562,7 @@
           },
           {
             "name":"BoldItalic",
-            "advanceWidth":1200,
+            "advanceWidth":0,
             "elements":[
               {
                 "elementData":{
@@ -18570,10 +18570,10 @@
                   "contours":[
                     {
                       "nodes":[
-                        "1101 1200 {n:'.ah01'}",
-                        "886 1200 {n:'.sh01'}",
-                        "658 1520",
-                        "991 1500 {n:'.at01'}"
+                        "-121 1200 {n:'.ah01'}",
+                        "-336 1200 {n:'.sh01'}",
+                        "-564 1520",
+                        "-231 1500 {n:'.at01'}"
                       ]
                     }
                   ]
@@ -18589,7 +18589,7 @@
           {
             "name":"ThinItalic",
             "flags":0,
-            "advanceWidth":1200,
+            "advanceWidth":0,
             "elements":[
               {
                 "elementData":{
@@ -18597,10 +18597,10 @@
                   "contours":[
                     {
                       "nodes":[
-                        "718 1200",
-                        "622 1200",
-                        "495 1494",
-                        "577 1525"
+                        "-484 1200",
+                        "-580 1200",
+                        "-707 1494",
+                        "-625 1525"
                       ]
                     }
                   ]
@@ -18632,7 +18632,7 @@
               {
                 "elementData":"elementdata.7",
                 "transform":{
-                  "xOffset":-49,
+                  "xOffset":1175,
                   "yOffset":400
                 }
               }
@@ -18661,7 +18661,7 @@
               {
                 "elementData":"elementdata.9",
                 "transform":{
-                  "xOffset":-279,
+                  "xOffset":943,
                   "yOffset":400
                 }
               }
@@ -18731,7 +18731,7 @@
               {
                 "elementData":"elementdata.11",
                 "transform":{
-                  "xOffset":56,
+                  "xOffset":1258,
                   "yOffset":400
                 }
               }
@@ -20017,7 +20017,7 @@
               {
                 "elementData":"elementdata.7",
                 "transform":{
-                  "xOffset":-20,
+                  "xOffset":1204,
                   "yOffset":400
                 }
               }
@@ -20047,7 +20047,7 @@
               {
                 "elementData":"elementdata.9",
                 "transform":{
-                  "xOffset":-210,
+                  "xOffset":1012,
                   "yOffset":400
                 }
               }
@@ -20114,7 +20114,7 @@
               {
                 "elementData":"elementdata.11",
                 "transform":{
-                  "xOffset":150,
+                  "xOffset":1352,
                   "yOffset":400
                 }
               }
@@ -20494,7 +20494,7 @@
               {
                 "elementData":"elementdata.7",
                 "transform":{
-                  "xOffset":8,
+                  "xOffset":1232,
                   "yOffset":400
                 }
               }
@@ -20525,7 +20525,7 @@
               {
                 "elementData":"elementdata.9",
                 "transform":{
-                  "xOffset":-195,
+                  "xOffset":1027,
                   "yOffset":400
                 }
               }
@@ -20589,7 +20589,7 @@
               {
                 "elementData":"elementdata.11",
                 "transform":{
-                  "xOffset":83,
+                  "xOffset":1285,
                   "yOffset":400
                 }
               }
@@ -21242,7 +21242,7 @@
               {
                 "elementData":"elementdata.7",
                 "transform":{
-                  "xOffset":-49,
+                  "xOffset":1175,
                   "yOffset":400
                 }
               }
@@ -21271,7 +21271,7 @@
               {
                 "elementData":"elementdata.9",
                 "transform":{
-                  "xOffset":-250,
+                  "xOffset":972,
                   "yOffset":400
                 }
               }
@@ -21336,7 +21336,7 @@
               {
                 "elementData":"elementdata.11",
                 "transform":{
-                  "xOffset":75,
+                  "xOffset":1277,
                   "yOffset":400
                 }
               }
@@ -22050,7 +22050,7 @@
               {
                 "elementData":"elementdata.7",
                 "transform":{
-                  "xOffset":-76,
+                  "xOffset":1148,
                   "yOffset":400
                 }
               }
@@ -22078,7 +22078,7 @@
               {
                 "elementData":"elementdata.9",
                 "transform":{
-                  "xOffset":-290,
+                  "xOffset":932,
                   "yOffset":400
                 }
               }
@@ -22143,7 +22143,7 @@
               {
                 "elementData":"elementdata.11",
                 "transform":{
-                  "xOffset":70,
+                  "xOffset":1272,
                   "yOffset":400
                 }
               }
@@ -22943,7 +22943,7 @@
               {
                 "elementData":"elementdata.7",
                 "transform":{
-                  "xOffset":-1
+                  "xOffset":1223
                 },
                 "active":true
               }
@@ -22970,7 +22970,7 @@
               {
                 "elementData":"elementdata.9",
                 "transform":{
-                  "xOffset":-207
+                  "xOffset":1015
                 },
                 "active":true
               }
@@ -23038,7 +23038,7 @@
               {
                 "elementData":"elementdata.11",
                 "transform":{
-                  "xOffset":133
+                  "xOffset":1335
                 },
                 "active":true
               }
@@ -23927,7 +23927,7 @@
               {
                 "elementData":"elementdata.7",
                 "transform":{
-                  "xOffset":-83
+                  "xOffset":1141
                 }
               }
             ],
@@ -23954,7 +23954,7 @@
               {
                 "elementData":"elementdata.9",
                 "transform":{
-                  "xOffset":-265
+                  "xOffset":957
                 }
               }
             ],
@@ -24022,7 +24022,7 @@
               {
                 "elementData":"elementdata.11",
                 "transform":{
-                  "xOffset":75
+                  "xOffset":1277
                 }
               }
             ],
@@ -24524,7 +24524,7 @@
               {
                 "elementData":"elementdata.7",
                 "transform":{
-                  "xOffset":-149
+                  "xOffset":1075
                 }
               }
             ],
@@ -24541,7 +24541,7 @@
               {
                 "elementData":"elementdata.9",
                 "transform":{
-                  "xOffset":-295
+                  "xOffset":927
                 }
               }
             ],
@@ -24589,7 +24589,7 @@
               {
                 "elementData":"elementdata.11",
                 "transform":{
-                  "xOffset":-52
+                  "xOffset":1150
                 }
               }
             ],
@@ -25169,7 +25169,7 @@
               {
                 "elementData":"elementdata.7",
                 "transform":{
-                  "xOffset":-85
+                  "xOffset":1139
                 }
               }
             ],
@@ -25194,7 +25194,7 @@
               {
                 "elementData":"elementdata.9",
                 "transform":{
-                  "xOffset":-240
+                  "xOffset":982
                 }
               }
             ],
@@ -25255,7 +25255,7 @@
               {
                 "elementData":"elementdata.11",
                 "transform":{
-                  "xOffset":72
+                  "xOffset":1274
                 }
               }
             ],
@@ -25980,7 +25980,7 @@
               {
                 "elementData":"elementdata.7",
                 "transform":{
-                  "xOffset":-129
+                  "xOffset":1095
                 }
               }
             ],
@@ -26011,7 +26011,7 @@
               {
                 "elementData":"elementdata.9",
                 "transform":{
-                  "xOffset":-302
+                  "xOffset":920
                 }
               }
             ],
@@ -26081,7 +26081,7 @@
               {
                 "elementData":"elementdata.11",
                 "transform":{
-                  "xOffset":-4
+                  "xOffset":1198
                 }
               }
             ],
