@@ -18,7 +18,7 @@ COPY_LIST_PATH = Path(__file__).resolve().with_name("glyphs_from_cascadia.txt")
 CASCADIA_TILE_ROW_BOTTOM = -480
 CASCADIA_TILE_ROW_TOP = 1773
 FLIGHTLINE_TILE_ROW_BOTTOM = -500
-FLIGHTLINE_TILE_ROW_TOP = 1930
+FLIGHTLINE_TILE_ROW_TOP = 2067
 
 
 @dataclass(frozen=True)
