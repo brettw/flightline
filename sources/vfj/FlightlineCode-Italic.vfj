@@ -16260,20 +16260,68 @@
         "layers":[
           {
             "name":"Italic",
-            "advanceWidth":0,
+            "advanceWidth":1200,
             "advanceHeight":1600,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "147 827",
+                        "1080 827",
+                        "1053 672",
+                        "120 672"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
             "color":"#fe4a46"
           },
           {
             "name":"BoldItalic",
-            "advanceWidth":0,
+            "advanceWidth":1200,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "149 862",
+                        "1087 862",
+                        "1048 638",
+                        "110 638"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
             "color":"#00cce5"
           },
           {
             "name":"ThinItalic",
             "flags":0,
-            "advanceWidth":0,
+            "advanceWidth":1200,
             "advanceHeight":1600,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "141 794",
+                        "1070 794",
+                        "1051 706",
+                        "122 706"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
             "color":"#fe4a46",
             "active":true
           }

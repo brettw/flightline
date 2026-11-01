@@ -21740,20 +21740,68 @@
         "layers":[
           {
             "name":"Thin",
-            "advanceWidth":0,
+            "advanceWidth":1200,
             "advanceHeight":1600,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "130 706",
+                        "130 794",
+                        "1070 794",
+                        "1070 706"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
             "color":"#1f964d",
             "active":true
           },
           {
             "name":"Regular",
-            "advanceWidth":0,
+            "advanceWidth":1200,
             "advanceHeight":1600,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "130 672",
+                        "130 827",
+                        "1070 827",
+                        "1070 672"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "advanceWidth":0,
+            "advanceWidth":1200,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "130 638",
+                        "130 862",
+                        "1070 862",
+                        "1070 638"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
             "color":"#00cce5"
           }
         ]
