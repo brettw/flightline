@@ -109,6 +109,16 @@ AUDIT_BLOCKS: tuple[AuditBlock, ...] = (
 # Map Cascadia's terminal-row box into Flightline's terminal-row box for tiling
 # glyphs. Points outside Cascadia's row box keep proportional overshoot in
 # Flightline, preserving the intentional row-to-row overlap in .stypo glyphs.
+#
+# Vertical strokes were hand-extended in the VFJ sources after import, because
+# Mac apps round the row height up and the .stypo glyphs' small overlap leaves
+# seams between rows. This covers Box Drawing, the vertical-bar Block Elements
+# (U+2589-258F, U+2590, U+2595), and the Legacy Computing vertical eighths,
+# corner pieces, and right blocks (U+1FB70-1FB75, U+1FB7C-1FB7F,
+# U+1FB87-1FB8B). Stroke ends at the row top sit at 2385, 318 units above it,
+# and ends at the row bottom at -604, 104 below it (matching the horizontal
+# box-drawing overshoot). Corner pieces only extend the open end of their
+# stroke. Re-importing those glyphs would undo that.
 VERTICAL_TILE_TRANSFORM_BLOCKS: tuple[VerticalTileTransformBlock, ...] = (
     VerticalTileTransformBlock(
         "Box Drawing",
