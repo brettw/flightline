@@ -1,6 +1,19 @@
 {
   "tests": [
     {
+      "name": "combining grave follows the letter's height and crown in both VFJs",
+      "markAttachment": {
+        "fonts": ["vfj/FlightlineCode-Regular.vfj", "vfj/FlightlineCode-Italic.vfj"],
+        "mark": "gravecomb",
+        "anchor": "top",
+        "markAnchorY": 1100,
+        "baseAdvance": 1200,
+        "expectedYOffsets": {"C": 400, "Q": 400, "M": 400, "Z": 400, "a": 0, "q": 0, "m": 0, "z": 0},
+        "crownXTolerance": {"C": 20, "a": 20},
+        "precomposed": {"a": "agrave"}
+      }
+    },
+    {
       "name": "ss01 lowercases bracket glyphs",
       "feature": "ss01",
       "inputText": "()[]{}",

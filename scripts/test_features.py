@@ -3,7 +3,8 @@
 
 This is intentionally a small simulator for the Adobe FEA syntax used by this
 project's FontLab VFJ sources. It supports glyph classes, single substitutions,
-and contextual single substitutions with one marked input glyph.
+and contextual single substitutions with one marked input glyph. Separate VFJ
+checks verify mark attachment from the source anchors.
 """
 
 from __future__ import annotations
@@ -15,6 +16,11 @@ import sys
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Iterable, Optional
+
+if __package__:
+    from .regenerate_accented import build_elements_by_id, extreme_point, layer_points
+else:
+    from regenerate_accented import build_elements_by_id, extreme_point, layer_points
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -465,24 +471,80 @@ def format_glyphs(glyphs: list[str]) -> str:
     return " ".join(glyphs)
 
 
+def check_mark_attachment(path: Path, case: dict[str, Any]) -> None:
+    font = json.loads(path.read_text(encoding="utf-8"))["font"]
+    elements = build_elements_by_id(font)
+    layers = {
+        (layer["name"], glyph["name"]): layer
+        for glyph in font["glyphs"] for layer in glyph["layers"]
+    }
+
+    def anchor(layer: dict[str, Any], name: str) -> tuple[float, float]:
+        for item in layer.get("anchors", []):
+            if item["name"] == name:
+                x, y = item["point"].split()
+                return float(x), float(y)
+        raise ValueError(f"missing {name} anchor")
+
+    for master in font["masters"]:
+        name = master["fontMaster"]["name"]
+        glyph = case["mark"]
+        try:
+            mark = layers[name, glyph]
+            mx, my = anchor(mark, "_" + case["anchor"])
+            if "markAnchorY" in case and my != case["markAnchorY"]:
+                raise ValueError(f"expected mark anchor Y {case['markAnchorY']}, got {my:g}")
+            if mark["advanceWidth"] != 0:
+                raise ValueError("mark must have zero advance")
+            mark_points = layer_points(mark, elements)
+            xs = [point.x for point in mark_points]
+            xmin, xmax = min(xs), max(xs)
+            for glyph, rise in case["expectedYOffsets"].items():
+                base = layers[name, glyph]
+                bx, by = anchor(base, case["anchor"])
+                if by - my != rise:
+                    raise ValueError(f"expected mark rise {rise}, got {by - my:g}")
+                left, right = bx - mx + xmin, bx - mx + xmax
+                if base["advanceWidth"] != case["baseAdvance"]:
+                    raise ValueError(f"expected base advance {case['baseAdvance']}")
+                if not (0 <= left < right <= base["advanceWidth"]):
+                    raise ValueError(f"mark ink spans {left:g}..{right:g} outside the base cell")
+                tolerance = case.get("crownXTolerance", {}).get(glyph)
+                if tolerance is not None:
+                    crown = extreme_point(layer_points(base, elements), "top")
+                    if abs(bx - crown.x) > tolerance:
+                        raise ValueError(f"anchor X {bx:g} is too far from the crown at {crown.x:g}")
+                composed = case.get("precomposed", {}).get(glyph)
+                if composed:
+                    outline = {(p.x, p.y) for p in layer_points(layers[name, composed], elements)}
+                    if any((p.x + bx - mx, p.y + by - my) not in outline for p in mark_points):
+                        raise ValueError(f"attached mark and {composed} accent outlines differ")
+        except (KeyError, ValueError) as error:
+            raise ValueError(f"{path.name}, {name}, {glyph}: {error}") from error
+
+
 def run_tests(
-    program: FeatureProgram, tests: list[dict[str, Any]], default_features: list[str]
+    program: FeatureProgram, tests: list[dict[str, Any]], default_features: list[str],
+    test_dir: Path = DEFAULT_TEST_FILE.parent,
 ) -> int:
     failures = 0
     for test_number, test in enumerate(tests, start=1):
         name = str(test.get("name", f"test {test_number}"))
         input_field = "inputText" if "inputText" in test else "input"
-        if input_field not in test:
-            print(f"FAIL {name}: missing input or inputText", file=sys.stderr)
-            failures += 1
-            continue
-
         try:
+            if "markAttachment" in test:
+                case = test["markAttachment"]
+                for filename in case["fonts"]:
+                    check_mark_attachment(test_dir / filename, case)
+                print(f"PASS {name}")
+                continue
+            if input_field not in test:
+                raise ValueError("missing input or inputText")
             features = test_features(test, default_features)
             input_glyphs = test_glyphs(test, input_field)
             actual = program.apply(features, input_glyphs)
             expected = expected_glyphs(test)
-        except ValueError as error:
+        except (OSError, KeyError, ValueError) as error:
             print(f"FAIL {name}: {error}", file=sys.stderr)
             failures += 1
             continue
@@ -580,7 +642,7 @@ def main() -> int:
 
     try:
         tests = load_tests(args.test_file)
-        return run_tests(program, tests, default_features)
+        return run_tests(program, tests, default_features, args.test_file.parent)
     except (OSError, ValueError) as error:
         print(error, file=sys.stderr)
         return 1

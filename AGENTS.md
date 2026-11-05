@@ -136,3 +136,21 @@ Python's cache outside `~/Library`:
 ```bash
 PYTHONPYCACHEPREFIX=/tmp/code612-pycache python3 -m py_compile scripts/generate_features.py scripts/test_features.py
 ```
+
+## Combining grave in FontLab
+
+Both VFJs store an `_top` anchor on `gravecomb` (U+0300) and `top` anchors on
+Latin bases. Place `top` on the letter's design height (typically cap height
+or x-height), with optical adjustments for individual shapes. The gap above
+the letter comes from the clearance between `_top` and the accent outline.
+FontLab builds the variable GPOS `mark` feature from these
+per-master anchors. In **File > Export Profiles**, use **Open profile file**
+to import `sources/vfj/Flightline-Variable-TT.fl_profile` once. Select
+**Flightline Variable TT** when exporting either VFJ. This profile enables
+generation from anchors under **Features and Kerning > OpenType mark
+attachment**. FontLab 8.4's built-in Variable TT profile defaults to **Never**.
+
+To preview in FontLab, paste `Q̀x M̀x Z̀x  q̀x m̀x z̀x` into the Glyph
+window's text bar and enable **Apply mark attachment**. Each grave should
+clear its own letter, and the following `x` should start in the next cell.
+The feature tests also check anchor placement and advances in both sources.
