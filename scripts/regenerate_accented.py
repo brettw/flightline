@@ -20,7 +20,7 @@ ACCENTED_GLYPHS: tuple[tuple[str, str, str, str], ...] = (
     ("Acircumflex", "A", "circumflex", "U+00C2 LATIN CAPITAL LETTER A WITH CIRCUMFLEX"),
     ("Atilde", "A", "tilde", "U+00C3 LATIN CAPITAL LETTER A WITH TILDE"),
     ("Adieresis", "A", "dieresis", "U+00C4 LATIN CAPITAL LETTER A WITH DIAERESIS"),
-    ("Aring", "A", "ring", "U+00C5 LATIN CAPITAL LETTER A WITH RING ABOVE"),
+    ("Aring", "A", "ring", "U+00C5 LATIN CAPITAL LETTER A WITH RING ABOVE / U+212B ANGSTROM SIGN"),
     ("Ccedilla", "C", "cedilla", "U+00C7 LATIN CAPITAL LETTER C WITH CEDILLA"),
     ("Egrave", "E", "gravecomb", "U+00C8 LATIN CAPITAL LETTER E WITH GRAVE"),
     ("Eacute", "E", "acute", "U+00C9 LATIN CAPITAL LETTER E WITH ACUTE"),
@@ -71,7 +71,6 @@ ACCENTED_GLYPHS: tuple[tuple[str, str, str, str], ...] = (
     ("Scaron", "S", "caron", "U+0160 LATIN CAPITAL LETTER S WITH CARON"),
     ("scaron", "s", "caron", "U+0161 LATIN SMALL LETTER S WITH CARON"),
     ("Ydieresis", "Y", "dieresis", "U+0178 LATIN CAPITAL LETTER Y WITH DIAERESIS"),
-    ("angstrom", "A", "ring", "U+212B ANGSTROM SIGN"),
 )
 
 
@@ -515,6 +514,9 @@ def regenerate_font(font: dict[str, Any]) -> None:
         assert accent_glyph is not None
 
         for layer_name in layer_names:
+            # The upright Thin Å is drawn by hand for both U+00C5 and U+212B.
+            if (glyph_name, layer_name) == ("Aring", "Thin"):
+                continue
             layer = layer_by_name(glyph, layer_name)
             base_layer = layer_by_name(base_glyph, layer_name)
             accent_layer = layer_by_name(accent_glyph, layer_name)
