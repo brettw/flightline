@@ -471,6 +471,60 @@ def format_glyphs(glyphs: list[str]) -> str:
     return " ".join(glyphs)
 
 
+def anchor_point(layer: dict[str, Any], name: str) -> tuple[float, float]:
+    for item in layer.get("anchors", []):
+        if item["name"] == name:
+            x, y = item["point"].split()
+            return float(x), float(y)
+    raise ValueError(f"missing {name} anchor")
+
+
+def check_combining_marks(path: Path, case: dict[str, Any]) -> None:
+    font = json.loads(path.read_text(encoding="utf-8"))["font"]
+    elements = build_elements_by_id(font)
+    glyphs = {glyph["name"]: glyph for glyph in font["glyphs"]}
+    layers = {
+        (glyph["name"], layer["name"]): layer
+        for glyph in glyphs.values() for layer in glyph["layers"]
+    }
+    for master in font["masters"]:
+        name = master["fontMaster"]["name"]
+        for anchor, marks in case["anchors"].items():
+            for spacing, (spacing_code, mark_code) in marks.items():
+                mark = spacing + "comb"
+                try:
+                    for glyph, code, width in ((spacing, spacing_code, 1200), (mark, mark_code, 0)):
+                        if glyphs[glyph].get("unicode", "").upper() != code:
+                            raise ValueError(f"{glyph} must encode U+{code}")
+                        if layers[glyph, name]["advanceWidth"] != width:
+                            raise ValueError(f"{glyph} must advance {width} units")
+                    layer = layers[mark, name]
+                    mx, my = anchor_point(layer, "_" + anchor)
+                    points = layer_points(layer, elements)
+                    xmin, xmax = min(p.x for p in points), max(p.x for p in points)
+                    ymin, ymax = min(p.y for p in points), max(p.y for p in points)
+                    if anchor == "top":
+                        _, stack_y = anchor_point(layer, "top")
+                        if not (my < ymin and stack_y >= ymax - 1):
+                            raise ValueError("mark or stacking anchor lacks clearance")
+                    elif not (ymin < my <= ymax):
+                        raise ValueError("attachment anchor must meet the top of the below mark")
+                    for base in case["bases"]:
+                        base_layer = layers[base, name]
+                        bx, by = anchor_point(base_layer, anchor)
+                        center = (xmin + xmax) / 2 + bx - mx
+                        if not 0 <= center <= base_layer["advanceWidth"]:
+                            raise ValueError(f"mark center falls outside {base}'s cell")
+                        base_ys = [p.y for p in layer_points(base_layer, elements)]
+                        dy = by - my
+                        if anchor == "top" and ymin + dy <= max(base_ys):
+                            raise ValueError(f"mark overlaps {base}")
+                        if anchor != "top" and not ymin + dy < min(base_ys) <= ymax + dy:
+                            raise ValueError(f"mark must meet the lower edge of {base}")
+                except (KeyError, ValueError) as error:
+                    raise ValueError(f"{path.name}, {name}, {mark}: {error}") from error
+
+
 def check_mark_attachment(path: Path, case: dict[str, Any]) -> None:
     font = json.loads(path.read_text(encoding="utf-8"))["font"]
     elements = build_elements_by_id(font)
@@ -479,19 +533,12 @@ def check_mark_attachment(path: Path, case: dict[str, Any]) -> None:
         for glyph in font["glyphs"] for layer in glyph["layers"]
     }
 
-    def anchor(layer: dict[str, Any], name: str) -> tuple[float, float]:
-        for item in layer.get("anchors", []):
-            if item["name"] == name:
-                x, y = item["point"].split()
-                return float(x), float(y)
-        raise ValueError(f"missing {name} anchor")
-
     for master in font["masters"]:
         name = master["fontMaster"]["name"]
         glyph = case["mark"]
         try:
             mark = layers[name, glyph]
-            mx, my = anchor(mark, "_" + case["anchor"])
+            mx, my = anchor_point(mark, "_" + case["anchor"])
             if "markAnchorY" in case and my != case["markAnchorY"]:
                 raise ValueError(f"expected mark anchor Y {case['markAnchorY']}, got {my:g}")
             if mark["advanceWidth"] != 0:
@@ -501,7 +548,7 @@ def check_mark_attachment(path: Path, case: dict[str, Any]) -> None:
             xmin, xmax = min(xs), max(xs)
             for glyph, rise in case["expectedYOffsets"].items():
                 base = layers[name, glyph]
-                bx, by = anchor(base, case["anchor"])
+                bx, by = anchor_point(base, case["anchor"])
                 if by - my != rise:
                     raise ValueError(f"expected mark rise {rise}, got {by - my:g}")
                 left, right = bx - mx + xmin, bx - mx + xmax
@@ -532,10 +579,13 @@ def run_tests(
         name = str(test.get("name", f"test {test_number}"))
         input_field = "inputText" if "inputText" in test else "input"
         try:
-            if "markAttachment" in test:
-                case = test["markAttachment"]
+            if "markAttachment" in test or "combiningMarks" in test:
+                if "markAttachment" in test:
+                    case, check = test["markAttachment"], check_mark_attachment
+                else:
+                    case, check = test["combiningMarks"], check_combining_marks
                 for filename in case["fonts"]:
-                    check_mark_attachment(test_dir / filename, case)
+                    check(test_dir / filename, case)
                 print(f"PASS {name}")
                 continue
             if input_field not in test:

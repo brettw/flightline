@@ -14,6 +14,42 @@
       }
     },
     {
+      "name": "combining marks attach in each master and spacing accents keep their own cell",
+      "combiningMarks": {
+        "fonts": ["vfj/FlightlineCode-Regular.vfj", "vfj/FlightlineCode-Italic.vfj"],
+        "bases": ["Q", "M", "Z", "q", "m", "z", "dotlessi", "dotlessj", "Aacute", "aacute"],
+        "anchors": {
+          "top": {
+            "grave": ["0060", "0300"],
+            "acute": ["00B4", "0301"],
+            "circumflex": ["02C6", "0302"],
+            "tilde": ["02DC", "0303"],
+            "macron": ["00AF", "0304"],
+            "breve": ["02D8", "0306"],
+            "dotaccent": ["02D9", "0307"],
+            "dieresis": ["00A8", "0308"],
+            "ring": ["02DA", "030A"],
+            "hungarumlaut": ["02DD", "030B"],
+            "caron": ["02C7", "030C"]
+          },
+          "bottom": {"cedilla": ["00B8", "0327"]},
+          "ogonek": {"ogonek": ["02DB", "0328"]}
+        }
+      }
+    },
+    {
+      "name": "ccmp removes the dot on i and j before an above mark",
+      "feature": "ccmp",
+      "input": "i acutecomb j caroncomb i dotaccentcomb j ringcomb",
+      "expected": "dotlessi acutecomb dotlessj caroncomb dotlessi dotaccentcomb dotlessj ringcomb"
+    },
+    {
+      "name": "ccmp preserves dots on i and j before below marks or spacing accents",
+      "feature": "ccmp",
+      "input": "i cedillacomb j ogonekcomb i acute j dieresis i j",
+      "expected": "i cedillacomb j ogonekcomb i acute j dieresis i j"
+    },
+    {
       "name": "ss01 lowercases bracket glyphs",
       "feature": "ss01",
       "inputText": "()[]{}",

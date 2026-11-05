@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+from copy import deepcopy
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Iterable, Optional
@@ -79,6 +80,7 @@ BELOW_ACCENTS = {"cedilla", "ogonek"}
 UNSHIFTED_BASE_GLYPHS = {"dotlessi"}
 NUMBER_RE = re.compile(r"^-?\d+(?:\.\d+)?$")
 ELEMENT_ID_RE = re.compile(r"^elementdata(?:\.(\d+))?$")
+AFFINE_DEFAULTS = {"xScale": 1, "xyScale": 0, "yxScale": 0, "yScale": 1, "xOffset": 0, "yOffset": 0}
 
 
 @dataclass(frozen=True)
@@ -455,6 +457,44 @@ def component_reference(element_id: str, dx: float, dy: float) -> dict[str, Any]
     return reference
 
 
+def component_transform(element: dict[str, Any], component: dict[str, Any]) -> dict[str, Any]:
+    """Apply a glyph-name component's transform after its source element's."""
+    inner = element.get("transform", {})
+    outer = component.get("transform", {})
+    if not inner or not outer:
+        return dict(inner or outer)
+    a, b, c, d, x, y = (inner.get(k, v) for k, v in AFFINE_DEFAULTS.items())
+    A, B, C, D, X, Y = (outer.get(k, v) for k, v in AFFINE_DEFAULTS.items())
+    combined = (
+        A * a + C * b, B * a + D * b, A * c + C * d, B * c + D * d,
+        A * x + C * y + X, B * x + D * y + Y,
+    )
+    return {
+        key: value for (key, default), value in zip(AFFINE_DEFAULTS.items(), combined)
+        if value != default
+    }
+
+
+def local_accent(
+    source: dict[str, Any], reference: dict[str, Any], placed: dict[str, Any], accent_name: str,
+) -> dict[str, Any]:
+    # FontLab inherits anchors when every element is a reference. Keep the
+    # base linked and draw the same accent locally with its original placement.
+    data = deepcopy(source["elementData"])
+    source_id = data.pop("id")
+    placed_data = placed.get("elementData")
+    if placed.get("component", {}).get("glyphName") == accent_name:
+        transform = component_transform(source, placed)
+    elif placed_data == source_id or placed_data == data:
+        transform = placed.get("transform", {})
+    else:
+        transform = reference.get("transform", {})
+    accent = {"elementData": data}
+    if transform:
+        accent["transform"] = dict(transform)
+    return accent
+
+
 def regenerate_font(font: dict[str, Any]) -> None:
     layer_names = master_layer_names(font)
     glyph_by_name = glyphs_by_name(font)
@@ -483,6 +523,17 @@ def regenerate_font(font: dict[str, Any]) -> None:
             assert accent_layer is not None
 
             original_points = layer_points(layer, elements_by_id)
+            original_elements = layer_elements(layer)
+            anchored = any(not a["name"].startswith("_") for a in layer.get("anchors", []))
+            if anchored:
+                # A glyph-name component carries the source layer's transforms;
+                # an element-data reference carries only its own transform.
+                component_layers = {base_name: base_layer, accent_name: accent_layer}
+                for element in original_elements:
+                    source_name = element.get("component", {}).get("glyphName")
+                    if source_name in component_layers:
+                        points = layer_points(component_layers[source_name], elements_by_id)
+                        original_points.extend(transform_point(p, element.get("transform")) for p in points)
             if not original_points:
                 raise SystemExit(f"{glyph_name}/{layer_name}: no original points")
 
@@ -521,12 +572,27 @@ def regenerate_font(font: dict[str, Any]) -> None:
                 base_dy = 0
 
             new_elements: list[dict[str, Any]] = []
-            for element in base_elements:
+            separate_elements = len(original_elements) == len(base_elements) + len(accent_elements)
+            for index, element in enumerate(base_elements):
+                if anchored and separate_elements:
+                    original = original_elements[index]
+                    # A few letters have a custom-drawn base, such as Thin I.
+                    if element_contours(original) and element_contours(original) != element_contours(element):
+                        new_elements.append(original)
+                        continue
                 element_id = ensure_element_id(element, next_id)
                 new_elements.append(component_reference(element_id, base_dx, base_dy))
-            for element in accent_elements:
+            for index, element in enumerate(accent_elements):
                 element_id = ensure_element_id(element, next_id)
-                new_elements.append(component_reference(element_id, accent_dx, accent_dy))
+                accent = component_reference(element_id, accent_dx, accent_dy)
+                if anchored:
+                    placed = {}
+                    if original_elements[-1].get("component", {}).get("glyphName") == accent_name:
+                        placed = original_elements[-1]
+                    elif separate_elements:
+                        placed = original_elements[len(base_elements) + index]
+                    accent = local_accent(element, accent, placed, accent_name)
+                new_elements.append(accent)
             layer["elements"] = new_elements
 
 

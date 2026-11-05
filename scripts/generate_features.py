@@ -16,11 +16,7 @@ HEADER = """###
 # Font PostScript name: Code612-Bold
 # Font copyright: Copyright (c) 2012, AIRBUS (airbus-group.com)Copyright (c) 2026 Brett Wilson
 #
-# Totals:
-# Languagesystems: 3
-# GSUB lookups: 8
-# GSUB features: 4 (calt, ss01, ss02, ss03)
-# GPOS lookups: 0
+# FontLab generates mark and mkmk positioning from anchors on export.
 
 #
 # Languagesystem definitions
@@ -204,6 +200,21 @@ feature ss02 {
   sub zero by zero.alt;
 
 } ss02;
+"""
+
+# Ignore intervening marks below the letter when deciding whether to remove
+# the dot. The above mark then attaches to the dotless letter at x-height.
+ABOVE_MARK_CLASS = """@aboveMarks = [
+    gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb
+    dotaccentcomb dieresiscomb ringcomb hungarumlautcomb caroncomb
+];
+"""
+
+CCMP_FEATURE = """feature ccmp {
+  lookupflag UseMarkFilteringSet @aboveMarks;
+  sub i' @aboveMarks by dotlessi;
+  sub j' @aboveMarks by dotlessj;
+} ccmp;
 """
 
 
@@ -658,7 +669,8 @@ def generate_features() -> str:
     # Lookup order matters when both features are enabled: choose heights
     # before compacting arrows, which preserves the chosen height variants.
     return (
-        f"{HEADER}{generate_annotated_classes()}{HARDCODED_FEATURES}"
+        f"{HEADER}{generate_annotated_classes()}\n{ABOVE_MARK_CLASS}\n"
+        f"{CCMP_FEATURE}{HARDCODED_FEATURES}"
         f"{generate_height_feature()}{generate_calt()}\n"
     )
 

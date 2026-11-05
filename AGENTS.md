@@ -13,10 +13,12 @@ python3 scripts/generate_features.py
 The generator resolves paths relative to its own location and writes
 `../sources/features.txt`, so it works from any current working directory.
 
-`scripts/generate_features.py` has four main parts:
+`scripts/generate_features.py` emits:
 
 - `HEADER` is a literal block containing the FontLab-style preamble, glyph
   classes, and no `feature` blocks.
+- `ABOVE_MARK_CLASS` and `CCMP_FEATURE` handle dotless i/j before combining
+  accents above. The mark filtering set lets this rule see past marks below.
 - `HARDCODED_FEATURES` is a literal block containing `ss01` and `ss02`.
 - `generate_height_feature()` appends `ss03`, named "Contextual Punctuation
   Heights". This optional stylistic set contains all contextual height rules.
@@ -137,20 +139,45 @@ Python's cache outside `~/Library`:
 PYTHONPYCACHEPREFIX=/tmp/code612-pycache python3 -m py_compile scripts/generate_features.py scripts/test_features.py
 ```
 
-## Combining grave in FontLab
+<a id="combining-grave-in-fontlab"></a>
 
-Both VFJs store an `_top` anchor on `gravecomb` (U+0300) and `top` anchors on
-Latin bases. Place `top` on the letter's design height (typically cap height
-or x-height), with optical adjustments for individual shapes. The gap above
-the letter comes from the clearance between `_top` and the accent outline.
-FontLab builds the variable GPOS `mark` feature from these
-per-master anchors. In **File > Export Profiles**, use **Open profile file**
-to import `sources/vfj/Flightline-Variable-TT.fl_profile` once. Select
-**Flightline Variable TT** when exporting either VFJ. This profile enables
+## Combining accents in FontLab
+
+Both VFJs have zero-width combining counterparts to the spacing accents.
+The eleven above marks (grave, acute, circumflex, tilde, macron, breve, dot,
+diaeresis, ring, double acute, caron) have two anchors: `_top` attaches to
+the letter and `top` receives another mark. On a plain letter, place `top`
+at its optical center at cap height, x-height, or ascender height as appropriate.
+The gap comes from the distance between `_top` and the mark's ink. On an
+accented letter, `top` belongs on the top of the accent.
+
+Cedilla uses `_bottom` and `bottom`; ogonek uses `_ogonek` and `ogonek`.
+Keep these distinct: the cedilla generally attaches under the center, while
+the ogonek joins the lower-right stroke. On i and j, `ccmp` removes the
+original dot for accents above and keeps it for accents below.
+
+FontLab builds variable `mark` and `mkmk` lookups from the per-master anchors.
+In FontLab 8.4, a glyph made entirely of element references can show anchors
+in the editor but disappear from the exported attachment tables. Keep native
+contours in combining marks. In accented letters, keep the accent as contours
+and the reference to the base where available. The letter still receives
+additional marks after Unicode shaping selects its precomposed glyph.
+
+If **Flightline Variable TT** is missing from your FontLab export profiles,
+use **File > Export Profiles > Open profile file** to import
+`sources/vfj/Flightline-Variable-TT.fl_profile` and click **OK** to save it.
+FontLab remembers the profile across restarts for your user account. For
+each Regular or Italic export, make sure **Flightline Variable TT** is selected.
+This profile enables
 generation from anchors under **Features and Kerning > OpenType mark
 attachment**. FontLab 8.4's built-in Variable TT profile defaults to **Never**.
 
-To preview in FontLab, paste `Q̀x M̀x Z̀x  q̀x m̀x z̀x` into the Glyph
-window's text bar and enable **Apply mark attachment**. Each grave should
-clear its own letter, and the following `x` should start in the next cell.
-The feature tests also check anchor placement and advances in both sources.
+To preview without relying on a precomposed character, enter glyph names such
+as `/Q/macroncomb/x`, `/a/ogonekcomb/x`, or `/m/brevecomb/acutecomb/x` in the
+Glyph window's text bar and enable **Apply mark attachment**. The first two
+examples check the join to the letter; the third checks stacking. In each
+case the following `x` should start in the next cell.
+
+After exporting both TTFs, run `python3 scripts/test_exported_marks.py` with
+fontTools installed to check that the exported fonts include every attachment
+pair declared in the VFJs.

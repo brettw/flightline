@@ -7,11 +7,7 @@
 # Font PostScript name: Code612-Bold
 # Font copyright: Copyright (c) 2012, AIRBUS (airbus-group.com)Copyright (c) 2026 Brett Wilson
 #
-# Totals:
-# Languagesystems: 3
-# GSUB lookups: 8
-# GSUB features: 4 (calt, ss01, ss02, ss03)
-# GPOS lookups: 0
+# FontLab generates mark and mkmk positioning from anchors on export.
 
 #
 # Languagesystem definitions
@@ -175,6 +171,17 @@ languagesystem grek dflt; # Greek default
     asterisk.uc
 ];
 
+
+@aboveMarks = [
+    gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb
+    dotaccentcomb dieresiscomb ringcomb hungarumlautcomb caroncomb
+];
+
+feature ccmp {
+  lookupflag UseMarkFilteringSet @aboveMarks;
+  sub i' @aboveMarks by dotlessi;
+  sub j' @aboveMarks by dotlessj;
+} ccmp;
 
 feature ss01 {
 # GSUB feature: Stylistic Set 1
