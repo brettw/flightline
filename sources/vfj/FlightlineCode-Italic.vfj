@@ -40930,7 +40930,7 @@
         "unicode":"03c8",
         "layers":[
           {
-            "name":"MediumItalic",
+            "name":"MediumItalic:wt=500",
             "advanceWidth":1200,
             "elements":[
               {
