@@ -181,3 +181,12 @@ case the following `x` should start in the next cell.
 After exporting both TTFs, run `python3 scripts/test_exported_marks.py` with
 fontTools installed to check that the exported fonts include every attachment
 pair declared in the VFJs.
+
+## Upright TrueType hinting
+
+Edit the upright A–Z and a–z visual hints in the VFJ. The release script asks
+FontLab to compile those hints on a temporary alphabet with the final TrueType
+point numbers. It checks the outlines, variation deltas, and metrics before
+copying the instructions into the full upright font. FontLab 8's ordinary
+full-font export drops all glyph hints when it finds a conflict elsewhere in
+the font. The current profile exports vertical hinting.
