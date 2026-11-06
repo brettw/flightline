@@ -125043,17 +125043,17 @@
           ],
           "fontStemsH":[
             {
-              "value":160,
+              "value":88,
               "name":"Hstem"
             }
           ],
           "fontStemsV":[
             {
-              "value":210,
+              "value":88,
               "name":"V1"
             },
             {
-              "value":190,
+              "value":88,
               "name":"Vstem"
             }
           ],
@@ -125729,17 +125729,17 @@
           ],
           "fontStemsH":[
             {
-              "value":88,
+              "value":160,
               "name":"Hstem"
             }
           ],
           "fontStemsV":[
             {
-              "value":88,
+              "value":190,
               "name":"Vstem"
             },
             {
-              "value":88,
+              "value":210,
               "name":"V1"
             }
           ],

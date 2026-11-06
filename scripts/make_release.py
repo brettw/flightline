@@ -10,6 +10,7 @@ import struct
 import subprocess
 import sys
 import tempfile
+import time
 import zipfile
 from contextlib import contextmanager
 from pathlib import Path
@@ -25,6 +26,9 @@ VFJ_FILES = tuple(
     for style in ("Regular", "Italic")
 )
 TTF_FILES = tuple(TTF_DIR / f"{source.stem}-VF.ttf" for source in VFJ_FILES)
+FONTLAB_APP = "FontLab 8"
+EXPORT_PROFILE = "Flightline Variable TT"
+EXPORT_TIMEOUT = 300
 
 
 def fail(message: str, exit_code: int = 1) -> None:
@@ -185,29 +189,62 @@ def check_ttf_version(data: bytes, font_version: str) -> None:
         raise ValueError(f"name ID 5 contains {sorted(versions)}, expected {expected!r}")
 
 
-def wait_for_exports(original_ttfs: dict[Path, bytes | None], font_version: str) -> None:
-    print("Reopen both updated VFJs in FontLab. Use the Flightline Variable TT profile to export:")
-    for path in TTF_FILES:
-        print(f"  {path.relative_to(REPO_ROOT)}")
-    while True:
-        try:
-            input("Press Enter when both TTFs have been exported (Ctrl-C to cancel): ")
-        except (EOFError, KeyboardInterrupt):
-            fail("\nRelease cancelled. Review the local font changes before trying again.")
+def export_fonts(sources: dict[Path, bytes], font_version: str) -> dict[Path, bytes]:
+    # Retain failed jobs: FontLab may still be working after a timeout or Ctrl-C.
+    job = Path(tempfile.mkdtemp(prefix="flightline-release-")).resolve()
+    print(f"Exporting both fonts with {FONTLAB_APP} using {EXPORT_PROFILE}...")
+    print(f"FontLab export job: {job}")
+    try:
+        inputs = job / "sources"
+        inputs.mkdir()
+        for source, data in sources.items():
+            (inputs / source.name).write_bytes(data)
+        (job / "request.json").write_text(json.dumps({
+            "profile": EXPORT_PROFILE,
+            "sources": [str(path) for path in sources],
+        }), encoding="utf-8")
+        helper = job / "export.vfpy"
+        shutil.copyfile(SCRIPT_DIR / "export_fontlab.vfpy", helper)
+        result = run(["open", "-a", FONTLAB_APP, str(helper)], capture=True, check=False)
+        if result.returncode:
+            raise RuntimeError(result.stderr.strip() or "Could not start FontLab.")
 
-        errors = []
-        for path, original in original_ttfs.items():
+        deadline = time.monotonic() + EXPORT_TIMEOUT
+        result_path = job / "result.json"
+        while not result_path.exists():
+            if time.monotonic() >= deadline:
+                raise RuntimeError(
+                    f"FontLab did not finish within {EXPORT_TIMEOUT} seconds. "
+                    "Check its dialogs and Output panel."
+                )
+            time.sleep(0.2)
+        result_data = json.loads(result_path.read_text(encoding="utf-8"))
+        if result_data.get("ok") is not True:
+            raise RuntimeError(result_data.get("error", "FontLab export failed."))
+
+        exports = {}
+        for source, target in zip(VFJ_FILES, TTF_FILES):
+            data = (job / "ttf" / target.name).read_bytes()
             try:
-                data = path.read_bytes()
-                if data == original:
-                    raise ValueError("still contains the pre-export font")
                 check_ttf_version(data, font_version)
-            except (OSError, ValueError, KeyError, struct.error) as error:
-                errors.append(f"{path.name}: {error}")
-        if not errors:
-            return
-        print("\n".join(errors), file=sys.stderr)
-        print("Re-export the listed fonts and try again.")
+            except (ValueError, KeyError, struct.error) as error:
+                raise ValueError(f"{target.name}: {error}") from error
+            if target.exists() and data == target.read_bytes():
+                raise ValueError(f"{target.name}: still contains the pre-export font")
+            if source.read_bytes() != sources[source]:
+                raise ValueError(f"{source.name}: source changed during export")
+            exports[target] = data
+    except (OSError, ValueError, RuntimeError, KeyboardInterrupt) as error:
+        fail(
+            f"FontLab export stopped: {str(error) or 'cancelled'}\n"
+            f"Export files and diagnostics are in {job}.\n"
+            "Review the local VFJ version changes before starting another release."
+        )
+    try:
+        shutil.rmtree(job)
+    except OSError as error:
+        print(f"Exports validated. Could not remove temporary job {job}: {error}", file=sys.stderr)
+    return exports
 
 
 @contextmanager
@@ -322,6 +359,9 @@ def main() -> None:
     require_tool("git")
     require_clean_tree()
     require_tool("gh")
+    if sys.platform != "darwin":
+        fail("Automatic FontLab export requires macOS and FontLab 8.")
+    require_tool("open")
     checkout = current_checkout()
 
     previous_tag = last_reachable_tag()
@@ -334,19 +374,22 @@ def main() -> None:
     if current_checkout() != checkout:
         fail("The branch or HEAD changed while preparing the release. Start again.")
     fields = vfj_version_fields(font_version)
-    sources = {path: updated_vfj(path, fields) for path in VFJ_FILES}
+    sources = {path: updated_vfj(path, fields).encode("utf-8") for path in VFJ_FILES}
     original_ttfs = {path: path.read_bytes() if path.exists() else None for path in TTF_FILES}
-    for path, text in sources.items():
+    for path, data in sources.items():
         with atomic_output(path) as temp:
-            temp.write_bytes(text.encode("utf-8"))
+            temp.write_bytes(data)
     print(f"Updated both VFJs to Version {font_version} for {release_tag}.")
-    wait_for_exports(original_ttfs, font_version)
+    exports = export_fonts(sources, font_version)
     if current_checkout() != checkout:
         fail("The branch or HEAD changed during export. Release stopped.")
-    for path in VFJ_FILES:
-        info = json.loads(path.read_bytes())["font"]["info"]
-        if any(info.get(key) != value for key, value in fields.items()):
-            fail(f"{path.name}: source version changed during export. Release stopped.")
+    for path, original in original_ttfs.items():
+        current = path.read_bytes() if path.exists() else None
+        if current != original:
+            fail(f"{path.name}: tracked TTF changed during export. Release stopped.")
+    for path, data in exports.items():
+        with atomic_output(path) as temp:
+            temp.write_bytes(data)
 
     make_zip()
     commit_release(release_tag, previous_tag)
