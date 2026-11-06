@@ -92278,7 +92278,7 @@
         "unicode":"0030",
         "layers":[
           {
-            "name":":wt=550",
+            "name":"Medium:wt=550",
             "flags":0,
             "advanceWidth":1200,
             "advanceHeight":1600,
@@ -146939,7 +146939,7 @@
     },
     "info":{
       "tfn":"Flightline Code",
-      "sgn":"Flightline Code Thin",
+      "sgn":"Flightline Code",
       "creationDate":"2017/11/27 06:58:00",
       "copyright":"Copyright © 2012, AIRBUS (airbus-group.com)\nCopyright © 2026 Brett Wilson\nCopyright © 2019–2026, Microsoft Corporation",
       "trademark":"PolarSys, PolarSys B612 and B612 are trademarks of The Eclipse Foundation",
