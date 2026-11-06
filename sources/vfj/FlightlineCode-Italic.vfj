@@ -121344,7 +121344,7 @@
         "playStart":100,
         "axisInstances":[
           {
-            "name":"(Normal)",
+            "name":"(Regular)",
             "value":400
           },
           {
@@ -122109,11 +122109,11 @@
       {
         "fontMaster":{
           "name":"Italic",
-          "tsn":"Normal Italic",
+          "tsn":"Italic",
           "sgn":"Flightline Code",
-          "ffn":"Flightline Code Normal Italic",
+          "ffn":"Flightline Code Italic",
           "psn":"FlightlineCode-NormalItalic",
-          "weight_name":"Normal",
+          "weight_name":"Regular",
           "width_name":"Normal",
           "slope_name":"Italic",
           "ascender":2067,
