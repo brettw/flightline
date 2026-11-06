@@ -47550,37 +47550,6 @@
         "unicode":"207f",
         "layers":[
           {
-            "name":"BoldItalic",
-            "advanceWidth":1200,
-            "advanceHeight":1600,
-            "elements":[
-              {
-                "elementData":{
-                  "contours":[
-                    {
-                      "nodes":[
-                        "511 720",
-                        "352 720",
-                        "449 1270",
-                        "609 1280",
-                        "599 1220",
-                        "646 1270",
-                        "673 1277  700 1278  739 1278 s",
-                        "861 1278  923 1204  901 1088 s",
-                        "837 720",
-                        "678 720",
-                        "743 1088",
-                        "751 1142  723 1166  684 1166 s",
-                        "643 1166  613 1152  582 1124"
-                      ]
-                    }
-                  ]
-                }
-              }
-            ],
-            "color":"#fe4a46"
-          },
-          {
             "name":"Italic",
             "advanceWidth":1200,
             "advanceHeight":1600,
@@ -122657,7 +122626,7 @@
     },
     "info":{
       "tfn":"Flightline Code",
-      "sgn":"Flightline Code",
+      "sgn":"Flightline Code Thin",
       "creationDate":"2017/11/27 07:03:00",
       "copyright":"Copyright © 2012, AIRBUS (airbus-group.com)\nCopyright © 2026 Brett Wilson\nCopyright © 2019–2026, Microsoft Corporation",
       "trademark":"PolarSys, PolarSys B612 and B612 are trademarks of The Eclipse Foundation",
