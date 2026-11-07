@@ -205,7 +205,6 @@ def export_fonts(sources: dict[Path, bytes], font_version: str) -> dict[Path, by
         }), encoding="utf-8")
         helper = job / "export.vfpy"
         shutil.copyfile(SCRIPT_DIR / "export_fontlab.vfpy", helper)
-        shutil.copyfile(SCRIPT_DIR / "flightline_hinting.py", job / "flightline_hinting.py")
         result = run(["open", "-a", FONTLAB_APP, str(helper)], capture=True, check=False)
         if result.returncode:
             raise RuntimeError(result.stderr.strip() or "Could not start FontLab.")
