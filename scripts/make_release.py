@@ -26,8 +26,8 @@ VFJ_FILES = tuple(
     for style in ("Regular", "Italic")
 )
 TTF_FILES = tuple(TTF_DIR / f"{source.stem}-VF.ttf" for source in VFJ_FILES)
-FONTLAB_APP = "FontLab 8"
-EXPORT_PROFILE = "Flightline Variable TT"
+FONTLAB_APP = "FontLab 9"
+EXPORT_PROFILE = "Variable TT"
 EXPORT_TIMEOUT = 300
 
 
@@ -193,6 +193,7 @@ def export_fonts(sources: dict[Path, bytes], font_version: str) -> dict[Path, by
     # Retain failed jobs: FontLab may still be working after a timeout or Ctrl-C.
     job = Path(tempfile.mkdtemp(prefix="flightline-release-")).resolve()
     print(f"Exporting both fonts with {FONTLAB_APP} using {EXPORT_PROFILE}...")
+    print("If FontLab shows a Font Exported dialog, click OK to continue.")
     print(f"FontLab export job: {job}")
     try:
         inputs = job / "sources"
@@ -362,7 +363,7 @@ def main() -> None:
     require_clean_tree()
     require_tool("gh")
     if sys.platform != "darwin":
-        fail("Automatic FontLab export requires macOS and FontLab 8.")
+        fail(f"Automatic FontLab export requires macOS and {FONTLAB_APP}.")
     require_tool("open")
     checkout = current_checkout()
 

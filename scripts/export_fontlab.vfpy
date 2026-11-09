@@ -88,8 +88,8 @@ def export_job(job, request):
     control.profileName = request["profile"]
     if control.profileId < 0 or control.profileName != request["profile"]:
         raise RuntimeError(
-            "Import sources/vfj/Flightline-Variable-TT.fl_profile using "
-            "File > Export Profiles > Open profile file, then save the profiles."
+            f"FontLab export profile {request['profile']!r} is unavailable. "
+            "Check File > Export Profiles in FontLab 9."
         )
     control.destinationMode = preferences.DestinationFolder
     control.conflictMode = preferences.ConflictOverwrite

@@ -163,14 +163,15 @@ contours in combining marks. In accented letters, keep the accent as contours
 and the reference to the base where available. The letter still receives
 additional marks after Unicode shaping selects its precomposed glyph.
 
-If **Flightline Variable TT** is missing from your FontLab export profiles,
-use **File > Export Profiles > Open profile file** to import
-`sources/vfj/Flightline-Variable-TT.fl_profile` and click **OK** to save it.
-FontLab remembers the profile across restarts for your user account. For
-each Regular or Italic export, make sure **Flightline Variable TT** is selected.
-This profile enables
-generation from anchors under **Features and Kerning > OpenType mark
-attachment**. FontLab 8.4's built-in Variable TT profile defaults to **Never**.
+For both faces, use FontLab 9's built-in **Variable TT** profile. It exports
+variable mark attachment from the anchors and respects intermediate layers that
+apply to only a few glyphs. The older **Flightline Variable TT** profile in
+`sources/vfj/` was made for FontLab 8.4.
+
+Keep construction elements on separate guide layers (as in `indianrupee`):
+extra elements on one master can stop its outline from varying. For shared
+elements that should coincide, such as `asterisk` and `asterisk.uc`, use
+identical transforms so FontLab builds the same component in every master.
 
 To preview without relying on a precomposed character, enter glyph names such
 as `/Q/macroncomb/x`, `/a/ogonekcomb/x`, or `/m/brevecomb/acutecomb/x` in the
@@ -192,7 +193,7 @@ settings](https://github.com/googlefonts/gftools/blob/main/Lib/gftools/fix.py#L1
 the same all-size `gasp` range and a font-wide `prep` program for smart dropout
 control including stubs.
 
-For a manual build, export each face with **Flightline Variable TT**, then
+For a manual build, export each face from FontLab 9 with **Variable TT**, then
 run the finalizer on each exported file (requires fontTools), for example:
 
 ```bash
