@@ -1,0 +1,134 @@
+"""Run inside FontLab, from a temporary job created by make_release.py."""
+
+import json
+import runpy
+import string
+import traceback
+import unicodedata
+from pathlib import Path
+
+
+def vertical_hint(command):
+    op = command.split(maxsplit=1)[0]
+    if op in ("fdelta", "mdelta"):
+        return int(command.rsplit(",", 1)[1]) != 0
+    return op in ("alignt", "alignb") or op.endswith("v")
+
+
+def check_hinted_letters(font, source):
+    design = json.loads(source.read_bytes())["font"]
+    masters = {master["fontMaster"]["name"] for master in design["masters"]}
+    required = set(map(ord, string.ascii_letters))
+    for glyph in design["glyphs"]:
+        codes = [int(glyph["unicode"], 16)] if glyph.get("unicode") else glyph.get("unicodes", [])
+        letters = [cp for cp in codes if unicodedata.category(chr(cp)).startswith("L")]
+        if letters and any(vertical_hint(command) for layer in glyph["layers"]
+                           if layer["name"] in masters or ":wt=" in layer["name"]
+                           for command in layer.get("tth", [])):
+            required.update(letters)
+
+    glyf = font["glyf"]
+
+    def has_program(name):
+        glyph = glyf[name]
+        program = getattr(glyph, "program", None)
+        if program and program.getBytecode():
+            return True
+        return glyph.isComposite() and any(has_program(c.glyphName) for c in glyph.components)
+
+    cmap = font.getBestCmap()
+    missing = [chr(cp) for cp in sorted(required) if cp not in cmap or not has_program(cmap[cp])]
+    if missing:
+        raise RuntimeError(
+            f"{source.name}: missing TrueType hints on {', '.join(missing)}. "
+            "Check FontLab's Output panel for incompatible master programs."
+        )
+
+
+def export_variable(workspace, control, source, destination, *, unhinted):
+    from fontlab_private.fontTools.ttLib import TTFont
+
+    import fontlab
+    destination.mkdir(parents=True)
+    workspace.mainWindow.loadFont(str(source))
+    packages = map(fontlab.flPackage, workspace.packages())
+    package = next((p for p in packages if p.path and Path(p.path).resolve() == source), None)
+    if package is None:
+        raise RuntimeError(f"FontLab could not open {source}.")
+    try:
+        control.destinationFolder = str(destination)
+        workspace.exportFont(package, control)
+    finally:
+        package.close(False)
+
+    # FontLab can add another style suffix to the filename.
+    files = list(destination.glob("*.ttf"))
+    if len(files) != 1:
+        raise RuntimeError(
+            f"{source.name}: expected one variable TTF, found {len(files)}. "
+            "Check FontLab's Output panel for export errors."
+        )
+    with TTFont(files[0]) as font:
+        if "fvar" not in font or "gvar" not in font:
+            raise RuntimeError(f"{source.name}: export is not a variable TrueType font.")
+        if bool(font["head"].macStyle & 2) != source.stem.endswith("-Italic"):
+            raise RuntimeError(f"{source.name}: exported font has the wrong style.")
+        if not unhinted:
+            check_hinted_letters(font, source)
+    return files[0]
+
+
+def export_job(job, request):
+    import fontlab
+    from fontlab_private.fontTools import ttLib
+
+    workspace = fontlab.flWorkspace.instance()
+    preferences = fontlab.flPreferences()
+    control = fontlab.ExportControl()
+    control.profileName = request["profile"]
+    if control.profileId < 0 or control.profileName != request["profile"]:
+        raise RuntimeError(
+            "Import sources/vfj/Flightline-Variable-TT.fl_profile using "
+            "File > Export Profiles > Open profile file, then save the profiles."
+        )
+    control.destinationMode = preferences.DestinationFolder
+    control.conflictMode = preferences.ConflictOverwrite
+    control.contentMode = preferences.ContentInstances
+    control.groupProfiles = False
+    control.groupFamily = False
+
+    source_paths = {Path(path).resolve() for path in request["sources"]}
+    for package in map(fontlab.flPackage, workspace.packages()):
+        if package.path and Path(package.path).resolve() in source_paths:
+            raise RuntimeError(f"Close {package.path} in FontLab before releasing.")
+
+    exports = job / "ttf"
+    exports.mkdir()
+    unhinted = request.get("unhinted", False)
+    if unhinted:
+        prepare = runpy.run_path(str(job / "prepare_variable_font.py"))["prepare_font"]
+    for original in request["sources"]:
+        source = job / "sources" / Path(original).name
+        target = exports / f"{source.stem}-VF.ttf"
+        full_font = export_variable(workspace, control, source, job / "output" / source.stem,
+                                    unhinted=unhinted)
+        if unhinted:
+            target.write_bytes(prepare(full_font.read_bytes(), ttLib))
+        else:
+            full_font.replace(target)
+
+
+def main():
+    job = Path(__file__).resolve().parent
+    try:
+        request = json.loads((job / "request.json").read_text(encoding="utf-8"))
+        export_job(job, request)
+        result = {"ok": True}
+    except BaseException:
+        result = {"ok": False, "error": traceback.format_exc()}
+    pending = job / "result.tmp"
+    pending.write_text(json.dumps(result), encoding="utf-8")
+    pending.replace(job / "result.json")
+
+
+main()
