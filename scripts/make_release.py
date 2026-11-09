@@ -202,9 +202,11 @@ def export_fonts(sources: dict[Path, bytes], font_version: str) -> dict[Path, by
         (job / "request.json").write_text(json.dumps({
             "profile": EXPORT_PROFILE,
             "sources": [str(path) for path in sources],
+            "unhinted": True,
         }), encoding="utf-8")
         helper = job / "export.vfpy"
         shutil.copyfile(SCRIPT_DIR / "export_fontlab.vfpy", helper)
+        shutil.copyfile(SCRIPT_DIR / "prepare_variable_font.py", job / "prepare_variable_font.py")
         result = run(["open", "-a", FONTLAB_APP, str(helper)], capture=True, check=False)
         if result.returncode:
             raise RuntimeError(result.stderr.strip() or "Could not start FontLab.")

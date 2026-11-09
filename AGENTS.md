@@ -184,9 +184,22 @@ pair declared in the VFJs.
 
 ## TrueType hinting
 
-Edit the vertical visual hints in the VFJs. The Flightline Variable TT profile
-compiles them directly in both fonts. Keep each glyph's instructions compatible
-across its participating masters, including intermediate layers. FontLab 8
-discards all glyph hints when it encounters incompatible programs. The release
-export checks the basic Latin alphabet and every encoded letter with authored
-vertical hints, including letters that inherit their instructions from a component.
+The production variable fonts use unhinted outlines. Both VFJs set one `gasp`
+range: all four flags (`0x000F`) through 65535 ppem. After FontLab exports,
+`scripts/make_release.py` runs `scripts/prepare_variable_font.py` on both faces.
+This removes glyph instructions and installs the [Google Fonts unhinted
+settings](https://github.com/googlefonts/gftools/blob/main/Lib/gftools/fix.py#L172-L194):
+the same all-size `gasp` range and a font-wide `prep` program for smart dropout
+control including stubs.
+
+For a manual build, export each face with **Flightline Variable TT**, then
+run the finalizer on each exported file (requires fontTools), for example:
+
+```bash
+python3 scripts/prepare_variable_font.py path/to/Regular-export.ttf ttf/variable/FlightlineCode-Regular-VF.ttf
+```
+
+Keep the authored vertical visual hints in the VFJs for comparison builds.
+The raw FontLab profile compiles them. Keep each glyph's instructions compatible
+across its participating masters, including intermediate layers; FontLab 8 can
+discard all glyph hints when it encounters incompatible programs.

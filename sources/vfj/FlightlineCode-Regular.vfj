@@ -7299,10 +7299,7 @@
               "alignt .dv03 \"t: 1\"",
               "alignb .ab01 \"b: 0\"",
               "doublev .dv02, .dv01 .round",
-              "singlev .dv03, .sv01 .round",
-              "doubleh .dh01, .ab01 .round",
-              "doubleh .dv01, .sv02 .round",
-              "singleh .ab01, .sh01 .none"
+              "singlev .dv03, .sv01 .round"
             ]
           },
           {
@@ -7377,10 +7374,7 @@
               "alignt .at01 \"t: 1\"",
               "alignb .dh02 \"b: 0\"",
               "doublev .dv01, .dh03 .round",
-              "singlev .at01, .sv02 .round",
-              "doubleh .dh01, .dh02 \"X: 208\"",
-              "doubleh .dh03, .dh04 \"X: ecart du B\"",
-              "singleh .dh02, .sh01 .none"
+              "singlev .at01, .sv02 .round"
             ]
           },
           {
@@ -7453,10 +7447,7 @@
               "alignt .at01 \"t: 1\"",
               "alignb .dh02 \"b: 0\"",
               "doublev .dv01, .dh03 .round",
-              "singlev .at01, .sv02 .round",
-              "doubleh .dh01, .dh02 \"eq X: 208\"",
-              "doubleh .dh03, .dh04 \"eq X: ecart du B\"",
-              "singleh .dh02, .sh01 .none"
+              "singlev .at01, .sv02 .round"
             ]
           }
         ]
@@ -14276,10 +14267,7 @@
               "alignh .ah01 round",
               "alignh .ah02 round",
               "singleh lsb, .sh01 .none",
-              "singleh .ah01, .iv02 .none",
-              "interpolateh .ih01 .sh01, .iv02",
               "singleh .ah01, .sh05 .round",
-              "singleh .ah01, .sh06 .none",
               "singleh .sh01, .sh03 .round",
               "singleh .sh05, rsb .round"
             ]
@@ -14386,10 +14374,7 @@
               "alignh .ah01 round",
               "alignh .ah02 round",
               "singleh lsb, .sh01 .none",
-              "singleh .ah01, .sh02 .none",
-              "interpolateh .ih01 .sh01, .sh02",
               "singleh .ah01, .sh05 .round",
-              "singleh .ah01, .sh06 .none",
               "singleh .sh01, .sh03 .round",
               "singleh .sh05, rsb .round"
             ]
@@ -14495,10 +14480,7 @@
               "alignh .ah01 round",
               "alignh .ah02 round",
               "singleh lsb, .sh01 .none",
-              "singleh .ah01, .sh02 .none",
-              "interpolateh .ih01 .sh01, .sh02",
               "singleh .ah01, .sh05 .round",
-              "singleh .ah01, .sh06 .none",
               "singleh .sh01, .sh03 .round",
               "singleh .sh05, rsb .round"
             ]
@@ -142249,15 +142231,13 @@
         75
       ],
       "gasp":[
-        5,
-        16,
         15,
         65535
       ]
     },
     "info":{
       "tfn":"Flightline Code",
-      "sgn":"Flightline Code Thin",
+      "sgn":"Flightline Code",
       "creationDate":"2017/11/27 06:58:00",
       "copyright":"Copyright © 2012, AIRBUS (airbus-group.com)\nCopyright © 2026 Brett Wilson\nCopyright © 2019–2026, Microsoft Corporation",
       "trademark":"PolarSys, PolarSys B612 and B612 are trademarks of The Eclipse Foundation",
