@@ -775,7 +775,7 @@
         "unicode": "0023"
       },
       {
-        "lastModified": "2026-11-11 18:49:54",
+        "lastModified": "2026-11-11 19:33:40",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -988,7 +988,7 @@
         "unicode": "0024"
       },
       {
-        "lastModified": "2026-11-11 19:12:36",
+        "lastModified": "2026-11-11 19:33:40",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -1232,7 +1232,7 @@
         "unicode": "0025"
       },
       {
-        "lastModified": "2026-11-11 19:12:36",
+        "lastModified": "2026-11-11 19:33:40",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -1383,7 +1383,7 @@
         "unicode": "0026"
       },
       {
-        "lastModified": "2026-11-11 19:12:36",
+        "lastModified": "2026-11-11 19:33:40",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -1539,7 +1539,7 @@
         "unicode": "0027"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:33:40",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -1672,7 +1672,7 @@
         "unicode": "0028"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:33:40",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -1805,7 +1805,7 @@
         "unicode": "0029"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:33:40",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -1957,7 +1957,7 @@
         "unicode": "002a"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:33:40",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -2093,7 +2093,7 @@
         "unicode": "002b"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:33:40",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -2243,7 +2243,7 @@
         "unicode": "002c"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:33:40",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -2341,7 +2341,7 @@
         "unicode": "002d"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:33:40",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -2469,7 +2469,7 @@
         "unicode": "002e"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:33:40",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -2598,7 +2598,7 @@
         "unicode": "002f"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:52",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -2907,7 +2907,7 @@
         "unicode": "0030"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:52",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -3031,19 +3031,19 @@
                     {
                       "id": "contour.7",
                       "nodes": [
-                        "1005 0 {n:'.ab02'}",
-                        "403 0 {n:'.ab01'}",
-                        "403 88 {n:'.sh01'}",
+                        "1050 0 {n:'.ab02'}",
+                        "350 0 {n:'.ab01'}",
+                        "350 88 {n:'.sh01'}",
                         "670 88 {n:'.dh01'}",
-                        "670 1363.04",
-                        "666.46 1359.89 {n:'.ih01'}",
-                        "662.92 1356.74 {n:'.fh01'}",
-                        "316 1048 {n:'.fh02'}",
+                        "670 1329",
+                        "693 1445 {n:'.ih01'}",
+                        "625 1349 {n:'.fh01'}",
+                        "304 1056 {n:'.fh02'}",
                         "246 1115 {n:'.fh03'}",
                         "686 1517 {n:'.at01'}",
                         "758 1509",
                         "758 88 {n:'.dh02'}",
-                        "1005 88 {n:'.sh02'}"
+                        "1050 88 {n:'.sh02'}"
                       ]
                     }
                   ]
@@ -3060,7 +3060,7 @@
                     "contour": "contour.7",
                     "element": "element.5",
                     "index": 0,
-                    "point": "1005 0"
+                    "point": "1050 0"
                   }
                 },
                 "nodeThickness": {
@@ -3068,7 +3068,7 @@
                     "contour": "contour.7",
                     "element": "element.5",
                     "index": 12,
-                    "point": "1005 88"
+                    "point": "1050 88"
                   }
                 },
                 "thickness": 88
@@ -3117,7 +3117,7 @@
         "unicode": "0031"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:52",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -3232,16 +3232,16 @@
                       "id": "contour.8",
                       "nodes": [
                         "187 0 {n:'.sh01'}",
-                        "187 150",
-                        "317 355  458 503  592.061 626.094 {n:'.mh01'}",
-                        "725.945 777.899  888 939.964  888 1127.35 s {n:'.dh01'}",
-                        "888 1271.35  778.535 1429  596 1429 s {n:'.sv01'}",
-                        "361.159 1429  294.176 1235.02  284.738 1222.83",
+                        "187 102",
+                        "318 306  478 489  592 626 s {n:'.mh01'}",
+                        "722 781  888 940  888 1127 s {n:'.dh01'}",
+                        "888 1271  779 1429  596 1429 s {n:'.sv01'}",
+                        "361 1429  294 1235  285 1223",
                         "202 1252",
                         "265 1398  393 1517  596 1517 s {n:'.at01'}",
                         "835 1517  976 1315  976 1119 s {n:'.dh02'}",
                         "976 899  768 693  679 592 s",
-                        "537 428  376.052 253  279.052 88 {n:'.mh02'}",
+                        "537 428  408 277  279 88 {n:'.mh02'}",
                         "1004 88",
                         "1004 0"
                       ]
@@ -3283,7 +3283,7 @@
                     "contour": "contour.8",
                     "element": "element.6",
                     "index": 7,
-                    "point": "888 1127.3499"
+                    "point": "888 1127"
                   }
                 },
                 "nodeThickness": {
@@ -3308,7 +3308,7 @@
         "unicode": "0032"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:52",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -3445,17 +3445,17 @@
                       "nodes": [
                         "244 0 {n:'.ab01'}",
                         "244 88 {n:'.dh04'}",
-                        "604.427 102.668  924 229.375  924 534.955 s {n:'.dh01'}",
-                        "924 820.003  676.641 844.005  561 844 s {n:'.dv02'}",
-                        "444.066 843.995  1006.93 890.736  368 844 {n:'.dh03'}",
+                        "604 103  924 229  924 535 s {n:'.dh01'}",
+                        "924 820  677 844  561 844 s {n:'.dv02'}",
+                        "444 844  401 844  368 844 {n:'.dh03'}",
                         "368 942",
-                        "569 1092  834 1348  812 1386 {n:'.iv01'}",
-                        "750 1413",
+                        "596 1100  795 1284  828 1434 {n:'.iv01'}",
+                        "742 1413",
                         "262 1413 {n:'.sv01'}",
                         "272 1501 {n:'.at01'}",
                         "909 1501",
                         "909 1388",
-                        "848 1159  535 946  330 857",
+                        "811 1170  656 1042  454 914",
                         "561 932 {n:'.dv01'}",
                         "799 932  1012 826  1012 537 s {n:'.dh02'}",
                         "1012 154  596 0 c"
@@ -3534,7 +3534,7 @@
                     "contour": "contour.9",
                     "element": "element.7",
                     "index": 4,
-                    "point": "924 534.955"
+                    "point": "924 535"
                   }
                 },
                 "nodeThickness": {
@@ -3559,7 +3559,7 @@
         "unicode": "0033"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:52",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -3683,12 +3683,12 @@
                         "860 0 {n:'.dh02'}",
                         "772 0 {n:'.dh01'}",
                         "772 300 {n:'.sv01'}",
-                        "151 300",
-                        "151 447 {n:'.sh01'}",
+                        "131 300",
+                        "131 417 {n:'.sh01'}",
                         "626 1517 {n:'.at01'}",
-                        "710 1509 {n:'.ih01'}",
-                        "222 465",
-                        "186.008 388",
+                        "715 1509 {n:'.ih01'}",
+                        "243 463",
+                        "204 388",
                         "772 388 {n:'.sh02'}",
                         "772 924",
                         "860 916 {n:'.sh03'}",
@@ -3782,7 +3782,7 @@
         "unicode": "0034"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -3904,9 +3904,9 @@
                       "nodes": [
                         "249 0 {n:'.av01'}",
                         "249 88 {n:'.sh01'}",
-                        "578.347 96.4174  919 284.428  919 603.551 s {n:'.dh01'}",
-                        "919 767.253  834.188 928  613 928 s {n:'.dv02'}",
-                        "449.166 928  453.607 899.053  452.347 898.212",
+                        "578 96  919 284  919 604 s {n:'.dh01'}",
+                        "919 767  834 928  613 928 s {n:'.dv02'}",
+                        "449 928  338 831  337 830",
                         "249 834 {n:'.sh02'}",
                         "249 1501 {n:'.at01'}",
                         "907 1501 {n:'.at02'}",
@@ -4011,7 +4011,7 @@
                     "contour": "contour.11",
                     "element": "element.9",
                     "index": 4,
-                    "point": "919 603.5506"
+                    "point": "919 604"
                   }
                 },
                 "nodeThickness": {
@@ -4036,7 +4036,7 @@
         "unicode": "0035"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -4190,28 +4190,28 @@
                     {
                       "id": "contour.12",
                       "nodes": [
-                        "895 1529 {n:'.at02'}",
-                        "877 1397 {n:'.sh01'}",
-                        "889 1388  887 1386  887 1386 {n:'.sv01'}",
-                        "510 1386  255 1018  237 674 {n:'.sh04'}",
-                        "251 767",
-                        "345 840  533 904  673 904 s {n:'.dv02'}",
+                        "941 1516 {n:'.at02'}",
+                        "925 1429 {n:'.sh01'}",
+                        "917 1430  896 1430  896 1430 s {n:'.sv01'}",
+                        "514 1436  247 1051  249 669 {n:'.sh04'}",
+                        "297 749",
+                        "385 859  533 904  673 904 s {n:'.dv02'}",
                         "881 904  1076 785  1076 504 s {n:'.sh05'}",
                         "1076 221  890 -17  618 -17 s {n:'.ab01'}",
                         "259 -17  156 391  156 616 s {n:'.sh02'}",
                         "156 1096  445 1518  896 1518 s {n:'.at01'}",
-                        "912 1518  927 1518 c"
+                        "912 1518  922 1518 c"
                       ]
                     },
                     {
                       "id": "contour.13",
                       "nodes": [
-                        "248.576 554.787 {n:'.sh03'}",
-                        "248.576 529.5  252.589 486.446  279.306 380.791",
-                        "308.847 253.028  418.296 70.6162  613.835 70.6163 s {n:'.sv02'}",
-                        "892.874 70.6163  988.502 346.712  988.502 486.366 s {n:'.ah01'}",
-                        "988.502 692.746  891.593 811.702  674.345 811.702 s {n:'.dv01'}",
-                        "398.592 811.702  352.531 729.777 c"
+                        "249 555 {n:'.sh03'}",
+                        "249 530  253 486  279 381",
+                        "309 253  418 71  614 71 s {n:'.sv02'}",
+                        "893 71  989 347  989 486 s {n:'.ah01'}",
+                        "989 686  887 816  674 816 s {n:'.dv01'}",
+                        "438 816  365 712 c"
                       ]
                     }
                   ]
@@ -4236,10 +4236,10 @@
                     "contour": "contour.13",
                     "element": "element.10",
                     "index": 6,
-                    "point": "613.8349 70.6163"
+                    "point": "614 71"
                   }
                 },
-                "thickness": 87.6163
+                "thickness": 88
               },
               {
                 "horizontal": true,
@@ -4248,7 +4248,7 @@
                     "contour": "contour.13",
                     "element": "element.10",
                     "index": 12,
-                    "point": "674.345 811.7024"
+                    "point": "674 816"
                   }
                 },
                 "nodeThickness": {
@@ -4259,7 +4259,7 @@
                     "point": "673 904"
                   }
                 },
-                "thickness": 92.2976
+                "thickness": 88
               },
               {
                 "horizontal": true,
@@ -4268,7 +4268,7 @@
                     "contour": "contour.12",
                     "element": "element.10",
                     "index": 4,
-                    "point": "887 1386"
+                    "point": "896 1430"
                   }
                 },
                 "nodeThickness": {
@@ -4279,7 +4279,7 @@
                     "point": "896 1518"
                   }
                 },
-                "thickness": 132
+                "thickness": 88
               },
               {
                 "node0": {
@@ -4287,7 +4287,7 @@
                     "contour": "contour.13",
                     "element": "element.10",
                     "index": 9,
-                    "point": "988.5024 486.366"
+                    "point": "989 486"
                   }
                 },
                 "nodeThickness": {
@@ -4298,7 +4298,7 @@
                     "point": "1076 504"
                   }
                 },
-                "thickness": 87.4976,
+                "thickness": 87,
                 "vertical": true
               },
               {
@@ -4315,10 +4315,10 @@
                     "contour": "contour.13",
                     "element": "element.10",
                     "index": 0,
-                    "point": "248.576 554.7867"
+                    "point": "249 555"
                   }
                 },
-                "thickness": 92.576,
+                "thickness": 93,
                 "vertical": true
               }
             ],
@@ -4332,7 +4332,7 @@
         "unicode": "0036"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -4448,11 +4448,11 @@
                         "250 1501 {n:'.at01'}",
                         "1062 1501 {n:'.at02'}",
                         "1062 1395 s {n:'.sh01'}",
-                        "1062 1231  609 739  560 316 s {n:'.sh04'}",
-                        "545 195  545 81  545 0 {n:'.sh03'}",
+                        "1062 1231  599 746  560 316 s {n:'.sh04'}",
+                        "549 195  545 81  545 0 {n:'.sh03'}",
                         "457 0 {n:'.sh02'}",
-                        "457 81.2293  456.858 199.287  472.668 326.826",
-                        "527.169 797.309  974 1290  974 1413 {n:'.sv01'}",
+                        "457 81  457 199  473 327",
+                        "527 797  974 1270  974 1413 {n:'.sv01'}",
                         "250 1413"
                       ]
                     }
@@ -4540,7 +4540,7 @@
         "unicode": "0037"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -4720,42 +4720,38 @@
                 "elementData": {
                   "contours": [
                     {
-                      "id": "contour.15",
                       "nodes": [
-                        "607 1518 s {n:'.at01'}",
-                        "826 1518  986 1387  986 1173 s {n:'.ih01'}",
-                        "986 999  898 923  773 849 {n:'.ih02'}",
-                        "986 759  1086 628  1086 397 s {n:'.dh03'}",
-                        "1086 111  852 -17  613 -17 s {n:'.ab01'}",
-                        "382 -17  168 132  168 411 s {n:'.hr01'}",
-                        "168 643  304 766  479 853 {n:'.ih03'}",
-                        "352 934  247 1015  247 1162 {n:'.ih04'}",
-                        "246 1427  477 1518 c"
+                        "611 1517 s {n:'.sv01'}",
+                        "834 1517  999 1385  999 1169 s",
+                        "999 998  857 925  734 852",
+                        "944 762  1099 626  1099 399 s",
+                        "1099 111  859 -17  617 -17 s {n:'.sv03'}",
+                        "382 -17  164 132  164 413 s",
+                        "164 641  314 766  488 852",
+                        "362 932  242 1014  242 1158 s",
+                        "242 1389  451 1517 c"
                       ]
                     },
                     {
-                      "id": "contour.16",
                       "nodes": [
-                        "255.723 410.548 s {n:'.dh01'}",
-                        "255.723 216.156  391.75 71.8664  611.952 71.8664 s {n:'.sv01'}",
-                        "867.999 71.8664  997.538 214.198  997.538 390.307 s {n:'.dh02'}",
-                        "997.538 680.376  847.525 721.38  611.994 817.027 {n:'.mv01'}",
-                        "365.971 717.225  255.723 604.624 c"
+                        "252 413 s",
+                        "252 202  412 70  617 71 s {n:'.sv04'}",
+                        "844 72  1011 197  1011 399 s",
+                        "1011 599  801 743  611 821 {n:'.av152'}",
+                        "408 738  252 612 c"
                       ]
                     },
                     {
-                      "id": "contour.17",
                       "nodes": [
-                        "334.764 1175.49 s {n:'.sh02'}",
-                        "334.764 1023.7  458.241 960.971  637.896 881.243 {n:'.iv01'}",
-                        "809.079 950.754  899.034 1032.07  899.034 1171.59 s {n:'.sh01'}",
-                        "899.034 1330.5  781.054 1429.2  619.19 1429.2 s {n:'.sv02'}",
-                        "441.399 1429.2  334.764 1306.68 c"
+                        "330 1158 s",
+                        "330 1056  456 965  611 889 {n:'.av200'}",
+                        "745 954  911 1027  911 1169 s",
+                        "911 1338  784 1429  611 1429 s {n:'.sv02'}",
+                        "438 1429  330 1301 c"
                       ]
                     }
                   ]
-                },
-                "id": "element.12"
+                }
               }
             ],
             "flags": 0,
@@ -4764,15 +4760,26 @@
                 "horizontal": true,
                 "node0": {
                   "nodeNode": {
-                    "contour": "contour.15",
-                    "element": "element.12",
+                    "contour": {
+                      "id": "contour.15",
+                      "open": true
+                    },
+                    "element": {
+                      "active": true,
+                      "elementData": {
+                      },
+                      "id": "element.12"
+                    },
                     "index": 12,
                     "point": "613 -17"
                   }
                 },
                 "nodeThickness": {
                   "nodeNode": {
-                    "contour": "contour.16",
+                    "contour": {
+                      "id": "contour.16",
+                      "open": true
+                    },
                     "element": "element.12",
                     "index": 3,
                     "point": "611.9521 71.8664"
@@ -4784,7 +4791,10 @@
                 "horizontal": true,
                 "node0": {
                   "nodeNode": {
-                    "contour": "contour.17",
+                    "contour": {
+                      "id": "contour.17",
+                      "open": true
+                    },
                     "element": "element.12",
                     "index": 9,
                     "point": "619.1901 1429.2004"
@@ -4911,7 +4921,7 @@
         "unicode": "0038"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -5053,32 +5063,29 @@
                 "elementData": {
                   "contours": [
                     {
-                      "id": "contour.18",
                       "nodes": [
-                        "387 -17 {n:'.ab01'}",
-                        "366 109 {n:'.sh02'}",
-                        "721 132  977 424  1009 847 {n:'.sh03'}",
-                        "1010 760",
-                        "882 650  764 597  601 597 s {n:'.dv01'}",
-                        "365 597  178 773  178 1043 s {n:'.dh02'}",
-                        "178 1322  352 1518  625 1518 s {n:'.at01'}",
-                        "993 1518  1088 1119  1088 887 s {n:'.sh01'}",
-                        "1088 428  810 -16 c"
+                        "382 -17 {n:'.at02'}",
+                        "368 70 {n:'.sh01'}",
+                        "787 121  985 471  983 832 {n:'.sh04'}",
+                        "935 752",
+                        "847 642  699 597  559 597 s {n:'.dv02'}",
+                        "351 597  156 716  156 997 s {n:'.sh05'}",
+                        "156 1280  342 1518  614 1518 s {n:'.ab01'}",
+                        "973 1518  1076 1110  1076 885 s {n:'.sh02'}",
+                        "1076 453  867 38 c"
                       ]
                     },
                     {
-                      "id": "contour.19",
                       "nodes": [
-                        "990.969 989.648 {n:'.ah01'}",
-                        "986.037 1127.73  896.607 1430.72  632.135 1430.72 s {n:'.sv01'}",
-                        "383.084 1430.72  265.766 1250.08  265.766 1054.58 s {n:'.dh01'}",
-                        "265.766 881.865  353.913 687.495  601.459 687.495 s {n:'.dv02'}",
-                        "864.881 687.495  912.914 790.009 c"
+                        "983 946 {n:'.sh03'}",
+                        "983 1153  856 1430  618 1430 s {n:'.sv02'}",
+                        "339 1430  243 1154  243 1015 s {n:'.ah01'}",
+                        "243 815  345 685  558 685 s {n:'.dv01'}",
+                        "794 685  867 789 c"
                       ]
                     }
                   ]
-                },
-                "id": "element.13"
+                }
               }
             ],
             "flags": 0,
@@ -5087,8 +5094,16 @@
                 "horizontal": true,
                 "node0": {
                   "nodeNode": {
-                    "contour": "contour.18",
-                    "element": "element.13",
+                    "contour": {
+                      "id": "contour.18",
+                      "open": true
+                    },
+                    "element": {
+                      "active": true,
+                      "elementData": {
+                      },
+                      "id": "element.13"
+                    },
                     "index": 0,
                     "point": "387 -17"
                   }
@@ -5115,7 +5130,10 @@
                 },
                 "nodeThickness": {
                   "nodeNode": {
-                    "contour": "contour.19",
+                    "contour": {
+                      "id": "contour.19",
+                      "open": true
+                    },
                     "element": "element.13",
                     "index": 9,
                     "point": "601.4593 687.4946"
@@ -5194,7 +5212,7 @@
         "unicode": "0039"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -5370,7 +5388,7 @@
         "unicode": "003a"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -5537,7 +5555,7 @@
         "unicode": "003b"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -5634,7 +5652,7 @@
         "unicode": "003c"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -5770,7 +5788,7 @@
         "unicode": "003d"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -5867,7 +5885,7 @@
         "unicode": "003e"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -6021,7 +6039,7 @@
         "unicode": "003f"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -6202,7 +6220,7 @@
         "unicode": "0040"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:52",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -6414,7 +6432,7 @@
         "unicode": "0041"
       },
       {
-        "lastModified": "2026-11-11 19:11:57",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -6711,7 +6729,7 @@
         "unicode": "0042"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:52",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -6929,7 +6947,7 @@
         "unicode": "0043"
       },
       {
-        "lastModified": "2026-11-11 19:11:57",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -7188,7 +7206,7 @@
         "unicode": "0044"
       },
       {
-        "lastModified": "2026-11-11 19:11:57",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -7422,7 +7440,7 @@
         "unicode": "0045"
       },
       {
-        "lastModified": "2026-11-11 19:11:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -7642,7 +7660,7 @@
         "unicode": "0046"
       },
       {
-        "lastModified": "2026-11-11 19:11:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -7906,7 +7924,7 @@
         "unicode": "0047"
       },
       {
-        "lastModified": "2026-11-11 19:11:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -8154,7 +8172,7 @@
         "unicode": "0048"
       },
       {
-        "lastModified": "2026-11-11 19:11:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -8312,7 +8330,7 @@
         "unicode": "0049"
       },
       {
-        "lastModified": "2026-11-11 19:11:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -8509,7 +8527,7 @@
         "unicode": "004a"
       },
       {
-        "lastModified": "2026-11-11 19:11:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -8723,7 +8741,7 @@
         "unicode": "004b"
       },
       {
-        "lastModified": "2026-11-11 19:11:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -8898,7 +8916,7 @@
         "unicode": "004c"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -9313,7 +9331,7 @@
         "unicode": "004d"
       },
       {
-        "lastModified": "2026-11-11 19:10:59",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -9578,7 +9596,7 @@
         "unicode": "004e"
       },
       {
-        "lastModified": "2026-11-11 15:20:09",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -9815,7 +9833,7 @@
         "unicode": "004f"
       },
       {
-        "lastModified": "2026-11-11 18:47:40",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -10092,7 +10110,7 @@
         "unicode": "0050"
       },
       {
-        "lastModified": "2026-11-11 19:10:02",
+        "lastModified": "2026-11-11 19:51:52",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -10411,7 +10429,7 @@
         "unicode": "0051"
       },
       {
-        "lastModified": "2026-11-11 18:50:45",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -10717,7 +10735,7 @@
         "unicode": "0052"
       },
       {
-        "lastModified": "2026-11-11 19:06:29",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -10982,7 +11000,7 @@
         "unicode": "0053"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -11149,7 +11167,7 @@
         "unicode": "0054"
       },
       {
-        "lastModified": "2026-11-11 15:19:14",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -11365,7 +11383,7 @@
         "unicode": "0055"
       },
       {
-        "lastModified": "2026-11-11 19:06:29",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -11526,7 +11544,7 @@
         "unicode": "0056"
       },
       {
-        "lastModified": "2026-11-11 19:08:55",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -11732,7 +11750,7 @@
         "unicode": "0057"
       },
       {
-        "lastModified": "2026-11-11 19:10:02",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -11966,7 +11984,7 @@
         "unicode": "0058"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -12191,7 +12209,7 @@
         "unicode": "0059"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -12372,7 +12390,7 @@
         "unicode": "005a"
       },
       {
-        "lastModified": "2026-11-11 05:27:58",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -12541,7 +12559,7 @@
         "unicode": "005b"
       },
       {
-        "lastModified": "2026-11-11 05:27:58",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -12629,7 +12647,7 @@
         "unicode": "005c"
       },
       {
-        "lastModified": "2026-11-11 05:27:58",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -12799,7 +12817,7 @@
         "unicode": "005d"
       },
       {
-        "lastModified": "2026-11-10 21:27:59",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -12896,7 +12914,7 @@
         "unicode": "005e"
       },
       {
-        "lastModified": "2026-11-11 05:27:58",
+        "lastModified": "2026-11-11 19:51:53",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -12911,6 +12929,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -12933,6 +12952,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -12956,6 +12976,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -12981,7 +13002,7 @@
         "unicode": "005f"
       },
       {
-        "lastModified": "2026-11-10 21:27:59",
+        "lastModified": "2026-11-11 19:19:10",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -12996,6 +13017,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -13037,6 +13059,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -13060,6 +13083,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -13115,7 +13139,7 @@
         "unicode": "0060"
       },
       {
-        "lastModified": "2026-11-11 15:19:14",
+        "lastModified": "2026-11-11 19:29:36",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -13130,6 +13154,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -13219,6 +13244,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -13262,6 +13288,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -13412,7 +13439,7 @@
         "unicode": "0061"
       },
       {
-        "lastModified": "2026-11-11 15:17:25",
+        "lastModified": "2026-11-11 19:19:10",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -13420,6 +13447,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -13499,6 +13527,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -13536,6 +13565,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -13681,6 +13711,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -13767,6 +13798,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -13796,6 +13828,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -13891,7 +13924,7 @@
         "unicode": "0063"
       },
       {
-        "lastModified": "2026-11-11 19:10:02",
+        "lastModified": "2026-11-11 19:47:45",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -14468,6 +14501,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -14544,6 +14578,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -14582,6 +14617,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -14698,7 +14734,7 @@
         "unicode": "0066"
       },
       {
-        "lastModified": "2026-11-11 19:13:30",
+        "lastModified": "2026-11-11 19:47:45",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -15468,6 +15504,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -15530,6 +15567,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -15565,6 +15603,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -15682,6 +15721,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -15794,6 +15834,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -15827,6 +15868,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -15940,6 +15982,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -15992,6 +16035,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -16020,6 +16064,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -16122,6 +16167,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -16217,6 +16263,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -16257,6 +16304,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -16628,7 +16676,7 @@
         "unicode": "006e"
       },
       {
-        "lastModified": "2026-11-11 15:19:14",
+        "lastModified": "2026-11-11 19:47:45",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -16643,6 +16691,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -16717,6 +16766,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -16758,6 +16808,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -17169,7 +17220,7 @@
         "unicode": "0070"
       },
       {
-        "lastModified": "2026-11-11 15:19:14",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -17184,6 +17235,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -17264,6 +17316,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -17300,6 +17353,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -17429,7 +17483,7 @@
         "unicode": "0071"
       },
       {
-        "lastModified": "2026-11-11 19:14:58",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -17622,7 +17676,7 @@
         "unicode": "0072"
       },
       {
-        "lastModified": "2026-11-11 19:14:58",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -17859,7 +17913,7 @@
         "unicode": "0073"
       },
       {
-        "lastModified": "2026-11-11 18:17:25",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -18115,7 +18169,7 @@
         "unicode": "0074"
       },
       {
-        "lastModified": "2026-11-11 19:14:58",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -18348,7 +18402,7 @@
         "unicode": "0075"
       },
       {
-        "lastModified": "2026-11-11 15:19:14",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -18363,6 +18417,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -18423,6 +18478,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -18451,6 +18507,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -18517,7 +18574,7 @@
         "unicode": "0076"
       },
       {
-        "lastModified": "2026-11-11 15:19:14",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -18532,6 +18589,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -18665,6 +18723,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -18703,6 +18762,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -18795,7 +18855,7 @@
         "unicode": "0077"
       },
       {
-        "lastModified": "2026-11-11 15:19:14",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -18810,6 +18870,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -18927,6 +18988,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -18962,6 +19024,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -19029,7 +19092,7 @@
         "unicode": "0078"
       },
       {
-        "lastModified": "2026-11-11 15:19:14",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -19044,6 +19107,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -19108,6 +19172,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -19140,6 +19205,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -19217,7 +19283,7 @@
         "unicode": "0079"
       },
       {
-        "lastModified": "2026-11-11 19:13:30",
+        "lastModified": "2026-11-11 19:44:06",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -19400,7 +19466,7 @@
         "unicode": "007a"
       },
       {
-        "lastModified": "2026-11-11 15:12:09",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -19415,6 +19481,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -19489,6 +19556,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -19530,6 +19598,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -19607,7 +19676,7 @@
         "unicode": "007b"
       },
       {
-        "lastModified": "2026-11-11 05:27:58",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -19615,6 +19684,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -19662,6 +19732,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -19685,6 +19756,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -19740,7 +19812,7 @@
         "unicode": "007c"
       },
       {
-        "lastModified": "2026-11-11 15:12:09",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -19748,6 +19820,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -19820,6 +19893,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -19861,6 +19935,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -19960,7 +20035,7 @@
         "unicode": "007d"
       },
       {
-        "lastModified": "2026-11-11 05:27:58",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -19968,6 +20043,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -19994,6 +20070,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -20021,6 +20098,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -20063,7 +20141,7 @@
         "unicode": "00a0"
       },
       {
-        "lastModified": "2026-11-11 05:27:58",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -20071,6 +20149,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -20124,6 +20203,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -20160,6 +20240,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -20235,7 +20316,7 @@
         "unicode": "00a1"
       },
       {
-        "lastModified": "2026-11-11 15:12:09",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -20243,6 +20324,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -20318,6 +20400,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -20360,6 +20443,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -20411,7 +20495,7 @@
         "unicode": "00a2"
       },
       {
-        "lastModified": "2026-11-11 15:12:09",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -20426,6 +20510,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -20483,6 +20568,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -20525,6 +20611,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -20585,7 +20672,7 @@
         "unicode": "00a3"
       },
       {
-        "lastModified": "2026-11-11 05:27:58",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -20593,6 +20680,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -20640,6 +20728,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -20688,6 +20777,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -20738,7 +20828,7 @@
         "unicode": "00a4"
       },
       {
-        "lastModified": "2026-11-11 05:27:58",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -20746,6 +20836,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -20819,6 +20910,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -20865,6 +20957,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -20930,7 +21023,7 @@
         "unicode": "00a5"
       },
       {
-        "lastModified": "2026-11-11 05:27:58",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -20938,6 +21031,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -20968,6 +21062,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -20999,6 +21094,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -21032,7 +21128,7 @@
         "unicode": "00a6"
       },
       {
-        "lastModified": "2026-11-11 15:12:09",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -21047,6 +21143,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -21132,6 +21229,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -21180,6 +21278,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -21258,7 +21357,7 @@
         "unicode": "00a7"
       },
       {
-        "lastModified": "2026-11-10 21:27:59",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -21266,6 +21365,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -21299,6 +21399,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -21330,6 +21431,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -21363,7 +21465,7 @@
         "unicode": "00a8"
       },
       {
-        "lastModified": "2026-11-11 15:12:09",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -21371,6 +21473,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -21417,6 +21520,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -21464,6 +21568,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -21513,7 +21618,7 @@
         "unicode": "00a9"
       },
       {
-        "lastModified": "2026-11-11 15:12:09",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -21521,6 +21626,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -21571,6 +21677,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -21622,6 +21729,7 @@
             "color": "#3989c2",
             "elements": [
               {
+                "active": true,
                 "elementData": {
                   "contours": [
                     {
@@ -21675,7 +21783,7 @@
         "unicode": "00aa"
       },
       {
-        "lastModified": "2026-11-11 15:19:22",
+        "lastModified": "2026-11-11 19:43:44",
         "layers": [
           {
             "advanceHeight": 1600,
@@ -21683,6 +21791,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "component": {
                   "glyphName": "guilsinglleft"
                 }
@@ -21704,6 +21813,7 @@
             "color": "#bac000",
             "elements": [
               {
+                "active": true,
                 "component": {
                   "glyphName": "guilsinglleft"
                 }
@@ -21726,6 +21836,7 @@
             "color": "#00cce5",
             "elements": [
               {
+                "active": true,
                 "component": {
                   "glyphName": "guilsinglleft"
                 },
@@ -33509,7 +33620,7 @@
         "unicode": "039b"
       },
       {
-        "lastModified": "2026-11-11 19:15:00",
+        "lastModified": "2026-11-11 19:19:10",
         "layers": [
           {
             "advanceHeight": 1600,
