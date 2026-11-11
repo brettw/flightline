@@ -129176,17 +129176,7 @@
           "inktrapLen": 4,
           "italic": true,
           "italic_angle": -10,
-          "kerning": {
-            "kerningClasses": [
-              {
-                "2nd": true,
-                "name": "g",
-                "names": [
-                  "periodcentered"
-                ]
-              }
-            ]
-          },
+          "kerning": {},
           "location": {
             "wt": 200
           },
@@ -129439,17 +129429,7 @@
           "inktrapLen": 4,
           "italic": true,
           "italic_angle": -10,
-          "kerning": {
-            "kerningClasses": [
-              {
-                "2nd": true,
-                "name": "g",
-                "names": [
-                  "periodcentered"
-                ]
-              }
-            ]
-          },
+          "kerning": {},
           "location": {
             "wt": 700
           },

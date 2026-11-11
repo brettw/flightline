@@ -142342,24 +142342,7 @@
           "hintingParameters":{
             "codePPM":80
           },
-          "kerning":{
-            "kerningClasses":[
-              {
-                "name":"2",
-                "2nd":true,
-                "names":[
-                  "asterisk"
-                ]
-              },
-              {
-                "name":"0",
-                "2nd":true,
-                "names":[
-                  "slashedzero"
-                ]
-              }
-            ]
-          },
+          "kerning":{},
           "ttZonesT":[
             {
               "position":1500,
@@ -142746,58 +142729,7 @@
           "hintingParameters":{
             "codePPM":80
           },
-          "kerning":{
-            "kerningClasses":[
-              {
-                "name":"77",
-                "2nd":true,
-                "names":[
-                  "quotedblleft",
-                  "quotedblright",
-                  "quoteleft"
-                ]
-              },
-              {
-                "name":"v",
-                "2nd":true,
-                "names":[
-                  "onethirds"
-                ]
-              },
-              {
-                "name":"g",
-                "2nd":true,
-                "names":[
-                  "asterisk",
-                  "asterisk.lc",
-                  "asterisk.uc"
-                ]
-              },
-              {
-                "name":"a",
-                "2nd":true,
-                "names":[
-                  "save",
-                  "similar",
-                  "superscriptfour"
-                ]
-              },
-              {
-                "name":"2",
-                "2nd":true,
-                "names":[
-                  "onequarter"
-                ]
-              },
-              {
-                "name":"2a",
-                "2nd":true,
-                "names":[
-                  "onehalf"
-                ]
-              }
-            ]
-          },
+          "kerning":{},
           "fontZonesT":[
             {
               "position":1117,
@@ -143117,58 +143049,7 @@
           "hintingParameters":{
             "codePPM":80
           },
-          "kerning":{
-            "kerningClasses":[
-              {
-                "name":"77",
-                "2nd":true,
-                "names":[
-                  "quotedblleft",
-                  "quotedblright",
-                  "quoteleft"
-                ]
-              },
-              {
-                "name":"v",
-                "2nd":true,
-                "names":[
-                  "onethirds"
-                ]
-              },
-              {
-                "name":"g",
-                "2nd":true,
-                "names":[
-                  "asterisk",
-                  "asterisk.lc",
-                  "asterisk.uc"
-                ]
-              },
-              {
-                "name":"a",
-                "2nd":true,
-                "names":[
-                  "save",
-                  "similar",
-                  "superscriptfour"
-                ]
-              },
-              {
-                "name":"2",
-                "2nd":true,
-                "names":[
-                  "onequarter"
-                ]
-              },
-              {
-                "name":"2a",
-                "2nd":true,
-                "names":[
-                  "onehalf"
-                ]
-              }
-            ]
-          },
+          "kerning":{},
           "ttZonesT":[
             {
               "position":1500,
