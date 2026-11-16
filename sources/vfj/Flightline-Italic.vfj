@@ -122,7 +122,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -257,7 +256,6 @@
                 }
               }
             ],
-            "flags": 0,
             "guidelines": [
               {
                 "position": 30,
@@ -388,7 +386,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -564,7 +561,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -868,7 +864,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -1101,7 +1096,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -1341,7 +1335,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -1430,7 +1423,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -1588,7 +1580,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -1746,7 +1737,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -1886,7 +1876,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -1987,7 +1976,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -2079,7 +2067,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -2156,7 +2143,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -2236,7 +2222,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -2313,7 +2298,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -2492,7 +2476,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -2596,7 +2579,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -2700,7 +2682,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -2810,7 +2791,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -2923,7 +2903,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -3030,7 +3009,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -3158,7 +3136,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -3256,7 +3233,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -3402,7 +3378,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -3521,7 +3496,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -3628,7 +3602,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -3741,7 +3714,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -3827,7 +3799,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -3928,7 +3899,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -4014,7 +3984,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -4136,7 +4105,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -4291,7 +4259,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -4410,7 +4377,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -4556,7 +4522,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -4654,7 +4619,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -4764,7 +4728,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -4877,7 +4840,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -4978,7 +4940,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -5088,7 +5049,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -5192,7 +5152,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -5272,7 +5231,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -5382,7 +5340,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -5489,7 +5446,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -5581,7 +5537,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -5712,7 +5667,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -5828,7 +5782,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -5935,7 +5888,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -6048,7 +6000,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -6185,7 +6136,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -6316,7 +6266,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -6423,7 +6372,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -6512,7 +6460,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -6610,7 +6557,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -6705,7 +6651,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -6833,7 +6778,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -6946,7 +6890,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -7044,7 +6987,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -7151,7 +7093,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -7252,7 +7193,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -7329,7 +7269,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -7430,7 +7369,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -7516,7 +7454,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -7593,7 +7530,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -7670,7 +7606,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -7795,7 +7730,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -7917,7 +7851,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -8015,7 +7948,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -8140,7 +8072,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -8265,7 +8196,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -8393,7 +8323,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -8527,7 +8456,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -8634,7 +8562,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -8735,7 +8662,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -8848,7 +8774,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -8955,7 +8880,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -9047,7 +8971,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -9178,7 +9101,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -9282,7 +9204,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -9389,7 +9310,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -9511,7 +9431,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -9630,7 +9549,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -9728,7 +9646,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -9838,7 +9755,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -9957,7 +9873,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -10061,7 +9976,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -10153,7 +10067,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -10275,7 +10188,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -10388,7 +10300,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -10492,7 +10403,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -10599,7 +10509,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -10730,7 +10639,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -10807,7 +10715,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -10938,7 +10845,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -11027,7 +10933,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -11143,7 +11048,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -11392,7 +11296,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -11526,7 +11429,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -11548,31 +11450,35 @@
                   "contours": [
                     {
                       "nodes": [
-                        "264 121",
-                        "181 222",
-                        "365 378",
-                        "290 536  341 707  437 784",
-                        "307 940",
-                        "426 1042",
-                        "555 885",
-                        "635 981  897 953  961 885",
-                        "1144 1042",
-                        "1227 940",
-                        "1044 784",
-                        "1101 719  1109 507  972 378",
-                        "1101 222",
-                        "982 121",
-                        "854 278",
-                        "802 207  557 161  448 278"
+                        "189.809 222",
+                        "273 121",
+                        "456.683 278",
+                        "510.454 237  577.751 216  648.751 216 s",
+                        "719.751 216  794.454 237  862.683 278",
+                        "991 121",
+                        "1109.81 222",
+                        "981.316 378",
+                        "1032.07 439  1065.59 510  1078.11 581 s",
+                        "1090.63 652  1081.97 722  1052.9 784",
+                        "1236.41 940",
+                        "1153.4 1042",
+                        "969.714 885",
+                        "915.767 925  848.47 946  777.47 946 s",
+                        "706.47 946  631.767 925  563.714 885",
+                        "435.397 1042",
+                        "316.412 940",
+                        "445.905 784",
+                        "394.149 723  360.63 652  348.11 581 s",
+                        "335.591 510  344.072 439  374.316 378"
                       ]
                     },
                     {
                       "nodes": [
-                        "519 424 s",
-                        "609 324  747 339  843 424",
-                        "932 499  972 647  889 738",
-                        "801 831  653 795  575 738 s",
-                        "468 658  460 491 c"
+                        "491.11 581 s",
+                        "512.446 702  632.079 802  752.079 802 s",
+                        "873.079 802  955.446 702  934.11 581 s",
+                        "912.951 461  794.966 359  673.966 359 s",
+                        "553.966 359  469.951 461 c"
                       ]
                     }
                   ]
@@ -11591,31 +11497,35 @@
                   "contours": [
                     {
                       "nodes": [
-                        "258 72",
-                        "112 249",
-                        "291 400",
-                        "225 514  246 680  358 779",
-                        "232 930",
-                        "440 1109",
-                        "577 942",
-                        "664 984  824 1000  928 942",
-                        "1124 1109",
-                        "1267 930",
-                        "1090 779",
-                        "1146 664  1121 480  1023 400",
-                        "1147 249",
-                        "940 72",
-                        "803 238",
-                        "700 183  559 177  452 238"
+                        "129.21 249",
+                        "275 72",
+                        "469.27 238",
+                        "517.215 215  575.452 205  639.452 205 s",
+                        "702.452 205  763.391 216  820.27 238",
+                        "957 72",
+                        "1164.21 249",
+                        "1039.84 400",
+                        "1087.94 463  1118.58 529  1129.34 590 s",
+                        "1140.09 651  1132.2 714  1106.66 779",
+                        "1284.29 930",
+                        "1140.85 1109",
+                        "944.404 942",
+                        "895.46 965  838.047 974  775.047 974 s",
+                        "711.047 974  650.46 965  593.404 942",
+                        "456.851 1109",
+                        "249.288 930",
+                        "374.663 779",
+                        "324.378 715  294.917 650  284.337 590 s",
+                        "273.229 527  281.12 464  307.835 400"
                       ]
                     },
                     {
                       "nodes": [
-                        "660 417 s",
-                        "729 401  850 464  855 590 s",
-                        "860 721  793 748  721 761",
-                        "652 772  534 722  526 590 s",
-                        "518 466  589 433 c"
+                        "542.337 590 s",
+                        "565.084 719  664.489 761  737.489 761 s",
+                        "809.489 761  894.084 719  871.337 590 s",
+                        "848.591 461  748.833 417  676.833 417 s",
+                        "603.833 417  519.591 461 c"
                       ]
                     }
                   ]
@@ -11635,38 +11545,41 @@
                   "contours": [
                     {
                       "nodes": [
-                        "269 161.833",
-                        "238.5 199.5",
-                        "426.667 359.667",
-                        "344.167 554.333  420.167 729.5  502.833 788.167",
-                        "369.5 948.333",
-                        "414.333 986.167",
-                        "536.667 837.5",
-                        "610.833 978.5  957.833 913.833  988.5 837.5",
-                        "1160.67 986.167",
-                        "1193.67 948.333",
-                        "1005.67 788.167",
-                        "1063.5 764.833  1099 529.5  929.5 359.667",
-                        "1062.67 199.5",
-                        "1017 161.833",
-                        "896.5 311.333",
-                        "887 227  555.333 147.667  444.667 311.333"
+                        "206.285 214",
+                        "257.353 152",
+                        "442.036 309",
+                        "492.749 262  562.635 233  644.635 233 s",
+                        "725.635 233  805.572 261  872.86 308",
+                        "1002 150",
+                        "1074.93 212",
+                        "944.792 370",
+                        "999.195 429  1037.89 501  1051.82 580 s",
+                        "1065.93 660  1051.97 734  1016.38 793",
+                        "1201.06 950",
+                        "1149.99 1012",
+                        "965.311 855",
+                        "915.245 900  846.006 927  767.006 927 s",
+                        "688.006 927  610.245 900  544.487 856",
+                        "415.17 1013",
+                        "342.238 951",
+                        "471.555 794",
+                        "414.151 735  373.103 661  358.821 580 s",
+                        "345.067 502  358.372 430  392.145 372"
                       ]
                     },
                     {
                       "nodes": [
-                        "401.5 429.833",
-                        "509 259.833  661.167 234.833  833 285.667",
-                        "992 314  1121.17 562.833  1029 718.833",
-                        "925.167 880.167  752.167 855.833  615.833 861.333",
-                        "426.333 818  352.5 539.333 c"
+                        "447.821 580 s",
+                        "472.859 722  609.313 838  751.313 838 s",
+                        "893.313 838  988.859 722  963.821 580 s",
+                        "938.782 438  802.328 322  660.328 322 s",
+                        "518.328 322  422.782 438 c"
                       ]
                     }
                   ]
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -11812,7 +11725,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -11913,7 +11825,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -12068,7 +11979,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -12169,7 +12079,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -12321,7 +12230,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -12470,7 +12378,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -12601,7 +12508,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -12690,7 +12596,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -12887,7 +12792,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -12964,7 +12868,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -13071,7 +12974,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -13196,7 +13098,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -13300,7 +13201,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -13410,7 +13310,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -13487,7 +13386,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -13609,7 +13507,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -13704,7 +13601,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -13784,7 +13680,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -13882,7 +13777,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -13986,7 +13880,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -14117,7 +14010,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -14248,7 +14140,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -14436,7 +14327,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -14615,7 +14505,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -14809,7 +14698,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -14931,7 +14819,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -15074,7 +14961,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -15217,7 +15103,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -15375,7 +15260,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -15530,7 +15414,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -15697,7 +15580,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -15870,7 +15752,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -16019,7 +15900,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -16162,7 +16042,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -16299,7 +16178,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -16436,7 +16314,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -16588,7 +16465,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -16749,7 +16625,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -16853,7 +16728,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -16957,7 +16831,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -17076,7 +16949,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -17204,7 +17076,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -17338,7 +17209,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -17490,7 +17360,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -17621,7 +17490,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -17752,7 +17620,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -17898,7 +17765,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -18041,7 +17907,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -18196,7 +18061,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -18309,7 +18173,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -18440,7 +18303,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -18562,7 +18424,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -18684,7 +18545,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -18821,7 +18681,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -18967,7 +18826,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -19089,7 +18947,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -19211,7 +19068,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -19321,7 +19177,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -19470,7 +19325,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -19619,7 +19473,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -19783,7 +19636,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -19944,7 +19796,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -20117,7 +19968,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -20296,7 +20146,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -20484,7 +20333,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -20627,7 +20475,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -20776,7 +20623,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -20925,7 +20771,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -21089,7 +20934,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -21262,7 +21106,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -21363,7 +21206,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -21464,7 +21306,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -21580,7 +21421,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -21705,7 +21545,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -21857,7 +21696,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -21997,7 +21835,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -22128,7 +21965,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -22259,7 +22095,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -22405,7 +22240,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -22548,7 +22382,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -22703,7 +22536,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -22834,7 +22666,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -22965,7 +22796,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -23093,7 +22923,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -23221,7 +23050,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -23364,7 +23192,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -23516,7 +23343,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -23644,7 +23470,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -23763,7 +23588,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -23915,7 +23739,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -24064,7 +23887,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -24234,7 +24056,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -24380,7 +24201,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -24529,7 +24349,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -24675,7 +24494,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -24803,7 +24621,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -24895,7 +24712,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -24987,7 +24803,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -25076,7 +24891,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -25153,7 +24967,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -25260,7 +25073,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -25358,7 +25170,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -25447,7 +25258,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -25548,7 +25358,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -25667,7 +25476,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -25813,7 +25621,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -25902,7 +25709,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -26018,7 +25824,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -26131,7 +25936,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -26238,7 +26042,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -26342,7 +26145,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -26473,7 +26275,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -26553,7 +26354,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -26660,7 +26460,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -26755,7 +26554,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -26886,7 +26684,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -27002,7 +26799,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -27127,7 +26923,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -27234,7 +27029,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -27347,7 +27141,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -27469,7 +27262,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -27558,7 +27350,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -27656,7 +27447,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -27793,7 +27583,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -27906,7 +27695,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -28022,7 +27810,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -28141,7 +27928,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -28284,7 +28070,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -28418,7 +28203,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -28528,7 +28312,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -28656,7 +28439,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -28787,7 +28569,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -28897,7 +28678,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -29001,7 +28781,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -29129,7 +28908,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -29221,7 +28999,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -29328,7 +29105,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -29432,7 +29208,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -29539,7 +29314,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -29631,7 +29405,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -29765,7 +29538,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -29872,7 +29644,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -30000,7 +29771,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -30098,7 +29868,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -30217,7 +29986,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -30318,7 +30086,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -30428,7 +30195,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -30565,7 +30331,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -30702,7 +30467,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -30830,7 +30594,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -30946,7 +30709,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -31074,7 +30836,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -31193,7 +30954,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -31318,7 +31078,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -31461,7 +31220,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -31538,7 +31296,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -31615,7 +31372,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -31692,7 +31448,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -31769,7 +31524,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -31870,7 +31624,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -31953,7 +31706,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -32036,7 +31788,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -32119,7 +31870,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -32232,7 +31982,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -32345,7 +32094,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -32458,7 +32206,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -32559,7 +32306,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -32684,7 +32430,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -32878,7 +32623,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -33117,7 +32861,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -33410,7 +33153,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -33493,7 +33235,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -33606,7 +33347,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -33749,7 +33489,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -33832,7 +33571,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -33924,7 +33662,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -34016,7 +33753,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -34330,7 +34066,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -34557,7 +34292,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -34664,7 +34398,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -34765,7 +34498,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -34878,7 +34610,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -34985,7 +34716,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -35113,7 +34843,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -35208,7 +34937,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -35354,7 +35082,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -35473,7 +35200,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -35574,7 +35300,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -35651,7 +35376,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -35752,7 +35476,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -35850,7 +35573,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -35948,7 +35670,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -36052,7 +35773,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -36159,7 +35879,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -36263,7 +35982,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -36367,7 +36085,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -36477,7 +36194,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -36590,7 +36306,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -36697,7 +36412,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -36825,7 +36539,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -36920,7 +36633,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -37066,7 +36778,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -37185,7 +36896,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -37286,7 +36996,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -37363,7 +37072,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -37464,7 +37172,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -37562,7 +37269,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -37660,7 +37366,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -37806,7 +37511,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -37952,7 +37656,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -38104,7 +37807,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -38259,7 +37961,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -38423,7 +38124,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -38729,7 +38429,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -38974,7 +38673,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -39126,7 +38824,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -39245,7 +38942,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -39418,7 +39114,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -39667,7 +39362,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -39852,7 +39546,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -40037,7 +39730,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -40219,7 +39911,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -40401,7 +40092,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -40589,7 +40279,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -40780,7 +40469,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -40983,7 +40671,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -41189,7 +40876,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -41410,7 +41096,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -41637,7 +41322,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -41861,7 +41545,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -42073,7 +41756,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -42201,7 +41883,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -42281,7 +41962,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -42388,7 +42068,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -42522,7 +42201,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -42644,7 +42322,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -42739,7 +42416,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -42861,7 +42537,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -43010,7 +42685,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -43186,7 +42860,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -43326,7 +42999,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -43439,7 +43111,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -43579,7 +43250,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -43746,7 +43416,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -43823,7 +43492,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -43924,7 +43592,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -44049,7 +43716,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -44165,7 +43831,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -44257,7 +43922,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -44373,7 +44037,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -44513,7 +44176,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -44677,7 +44339,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -44814,7 +44475,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -44927,7 +44587,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -45064,7 +44723,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -45225,7 +44883,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -45778,7 +45435,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -46009,7 +45665,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -46178,7 +45833,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -46347,7 +46001,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -46580,7 +46233,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -46705,7 +46357,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -46918,7 +46569,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -47379,7 +47029,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -47576,7 +47225,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -47838,7 +47486,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -47975,7 +47622,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -48130,7 +47776,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -48246,7 +47891,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -48511,7 +48155,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -48636,7 +48279,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -48743,7 +48385,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -49082,7 +48723,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -49174,7 +48814,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -49512,7 +49151,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -49646,7 +49284,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -49738,7 +49375,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -49854,7 +49490,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -49994,7 +49629,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -50125,7 +49759,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -50259,7 +49892,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -50384,7 +50016,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -50509,7 +50140,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -50619,7 +50249,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -50729,7 +50358,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -51121,7 +50749,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -51309,7 +50936,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -51533,7 +51159,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -51709,7 +51334,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -51798,7 +51422,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -51899,7 +51522,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -52033,7 +51655,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -52429,7 +52050,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -52530,7 +52150,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -52607,7 +52226,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -52711,7 +52329,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -52846,7 +52463,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -52941,7 +52557,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -53528,7 +53143,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -53959,7 +53573,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -54147,7 +53760,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -54526,7 +54138,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -54897,7 +54508,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -55727,7 +55337,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -55885,7 +55494,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -56049,7 +55657,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -56276,7 +55883,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -56437,7 +56043,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -56619,7 +56224,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -56768,7 +56372,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -56968,7 +56571,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -57141,7 +56743,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -57302,7 +56903,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -57469,7 +57069,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -57600,7 +57199,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -57737,7 +57335,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -57913,7 +57510,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -58044,7 +57640,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -58196,7 +57791,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -58321,7 +57915,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -58494,7 +58087,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -58637,7 +58229,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -58771,7 +58362,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -58995,7 +58585,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -59147,7 +58736,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -59293,7 +58881,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -59442,7 +59029,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -59657,7 +59243,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -59863,7 +59448,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -60024,7 +59608,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -60224,7 +59807,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -60434,7 +60016,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -60628,7 +60209,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -60923,7 +60503,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -62127,7 +61706,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -62345,7 +61923,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -62563,7 +62140,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -62760,7 +62336,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -62957,7 +62532,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -63151,7 +62725,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -63505,7 +63078,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -63830,7 +63402,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -64084,7 +63655,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -64521,7 +64091,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -64784,7 +64353,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -65321,7 +64889,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -67390,7 +66957,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -67760,7 +67326,6 @@
                 }
               }
             ],
-            "flags": 0,
             "lib": {
               "com.fontlab.caretAnchors": true
             },
