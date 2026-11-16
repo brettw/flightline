@@ -2,6 +2,14 @@
   "font": {
     "axes": [
       {
+        "axisGraph": {
+          "200": 100,
+          "300": 200,
+          "350": 300,
+          "400": 400,
+          "550": 500,
+          "700": 700
+        },
         "axisInstances": [
           {
             "name": "(Regular)",
@@ -13,12 +21,13 @@
           }
         ],
         "default": 400,
-        "designMaximum": 1000,
-        "designMinimum": 100,
+        "designMaximum": 700,
+        "designMinimum": 200,
         "maximum": 700,
-        "minimum": 400,
+        "minimum": 100,
         "name": "weight",
-        "playStart": 100,
+        "playEnd": 700,
+        "playStart": 200,
         "shortName": "wt",
         "tag": "wght"
       }
@@ -142098,7 +142107,7 @@
       "license": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
       "licenseURL": "http://scripts.sil.org/OFL",
       "manufacturer": "AIRBUS",
-      "sgn": "Flightline Code Thin",
+      "sgn": "Flightline Code",
       "tfn": "Flightline Code",
       "trademark": "PolarSys, PolarSys B612 and B612 are trademarks of The Eclipse Foundation",
       "unicodeRange": "00000000000400001000b97980000083",
@@ -142641,6 +142650,7 @@
             "HintingMaxV": 500,
             "HintingMinH": 40,
             "HintingMinV": 40,
+            "MetricsIgnoreStroke": 0,
             "OS2UseTypoMetrics": true,
             "OpticalLeft": 0,
             "OpticalRight": 0,
@@ -142909,6 +142919,7 @@
             "HintingMaxV": 500,
             "HintingMinH": 40,
             "HintingMinV": 40,
+            "MetricsIgnoreStroke": 0,
             "OS2UseTypoMetrics": true,
             "OpticalLeft": 0,
             "OpticalRight": 0,
