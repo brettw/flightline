@@ -38409,19 +38409,19 @@
             "elements": [
               {
                 "elementData": {
-                  "contours": [
-                    {
-                      "nodes": [
-                        "380 1440",
-                        "336 1460",
-                        "196 1332  175 1225  175 1109 s",
-                        "175 1020  234 974  300 974 s",
-                        "367 974  424 1029  424 1095 s",
-                        "424 1171  368 1213  312 1216",
-                        "312 1313  380 1440 c"
-                      ]
-                    }
-                  ]
+                }
+              },
+              {
+                "elementData": {
+                  "component": {
+                    "glyphName": "quotesinglbase"
+                  }
+                },
+                "transform": {
+                  "xOffset": 650,
+                  "xScale": -1,
+                  "yOffset": 1216,
+                  "yScale": -1
                 }
               }
             ],
@@ -38434,23 +38434,29 @@
             "elements": [
               {
                 "elementData": {
-                  "contours": [
-                    {
-                      "nodes": [
-                        "425 1408",
-                        "323 1466",
-                        "164 1318  136 1176  136 1079 s",
-                        "136 996  208 925  300 925 s",
-                        "393 925  458 996  458 1079 s",
-                        "458 1161  408 1196  355 1217",
-                        "363 1281  395 1359 c"
-                      ]
-                    }
-                  ]
+                }
+              },
+              {
+                "elementData": {
+                  "component": {
+                    "glyphName": "quotesinglbase"
+                  }
+                },
+                "transform": {
+                  "xOffset": 649,
+                  "xScale": -1,
+                  "yOffset": 1216,
+                  "yScale": -1
                 }
               }
             ],
             "flags": 0,
+            "guidelines": [
+              {
+                "horizontal": true,
+                "position": 1517
+              }
+            ],
             "name": "Bold"
           },
           {
@@ -38460,23 +38466,29 @@
             "elements": [
               {
                 "elementData": {
-                  "contours": [
-                    {
-                      "nodes": [
-                        "343 1467",
-                        "348 1455",
-                        "223 1344  208 1267  208 1134 s",
-                        "208 1040  256 1016  300 1016 s",
-                        "346 1016  396 1057  396 1109 s",
-                        "396 1180  335 1227  276 1215",
-                        "270 1340  368 1508 c"
-                      ]
-                    }
-                  ]
+                }
+              },
+              {
+                "elementData": {
+                  "component": {
+                    "glyphName": "quotesinglbase"
+                  }
+                },
+                "transform": {
+                  "xOffset": 650,
+                  "xScale": -1,
+                  "yOffset": 1216,
+                  "yScale": -1
                 }
               }
             ],
             "flags": 0,
+            "guidelines": [
+              {
+                "horizontal": true,
+                "position": 1517
+              }
+            ],
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -38505,7 +38517,8 @@
                   "glyphName": "quotesinglbase"
                 },
                 "transform": {
-                  "yOffset": 1200
+                  "xOffset": -3,
+                  "yOffset": 1240
                 }
               }
             ],
@@ -38521,11 +38534,17 @@
                   "glyphName": "quotesinglbase"
                 },
                 "transform": {
-                  "yOffset": 1200
+                  "yOffset": 1242
                 }
               }
             ],
             "flags": 0,
+            "guidelines": [
+              {
+                "horizontal": true,
+                "position": 1517
+              }
+            ],
             "name": "Bold"
           },
           {
@@ -38538,11 +38557,17 @@
                   "glyphName": "quotesinglbase"
                 },
                 "transform": {
-                  "yOffset": 1200
+                  "yOffset": 1240
                 }
               }
             ],
             "flags": 0,
+            "guidelines": [
+              {
+                "horizontal": true,
+                "position": 1517
+              }
+            ],
             "lib": {
               "com.fontlab.caretAnchors": true
             },
@@ -38571,13 +38596,12 @@
                   "contours": [
                     {
                       "nodes": [
-                        "220 -240",
-                        "264 -260",
-                        "404 -132  425 -25  425 91 s",
-                        "425 180  366 226  300 226 s",
-                        "233 226  176 171  176 105 s",
-                        "176 29  232 -13  288 -16",
-                        "288 -113  220 -240 c"
+                        "204 -278",
+                        "244 -201  285 -97  285 -11",
+                        "217 -8  152 41  152 133 s",
+                        "152 211  219 277  300 277 s",
+                        "376 277  448 221  448 116 s",
+                        "448 -23  422 -148  256 -301"
                       ]
                     }
                   ]
@@ -38596,13 +38620,12 @@
                   "contours": [
                     {
                       "nodes": [
-                        "175 -208",
-                        "277 -266",
-                        "436 -118  464 24  464 121 s",
-                        "464 204  392 275  300 275 s",
-                        "207 275  142 204  142 121 s",
-                        "142 39  192 4  245 -17",
-                        "237 -81  205 -159 c"
+                        "175 -243",
+                        "205 -194  237 -81  245 -17",
+                        "192 4  142 39  142 121 s",
+                        "142 204  207 275  300 275 s",
+                        "392 275  464 204  464 121 s",
+                        "464 24  436 -153  277 -301"
                       ]
                     }
                   ]
@@ -38622,13 +38645,12 @@
                   "contours": [
                     {
                       "nodes": [
-                        "258 -267",
-                        "253 -255",
-                        "378 -144  393 -67  393 66 s",
-                        "393 160  345 185  300 185 s",
-                        "255 185  205 144  205 92 s",
-                        "205 21  266 -27  325 -15",
-                        "331 -140  233 -308 c"
+                        "204 -278",
+                        "244 -201  285 -97  285 -11",
+                        "227 -8  172 41  172 133 s",
+                        "172 211  229 277  300 277 s",
+                        "366 277  428 221  428 116 s",
+                        "428 -23  355 -145  256 -301"
                       ]
                     }
                   ]
@@ -38660,31 +38682,16 @@
             "color": "#00cce5",
             "elements": [
               {
-                "elementData": {
-                  "contours": [
-                    {
-                      "nodes": [
-                        "380 1440",
-                        "336 1460",
-                        "196 1332  175 1225  175 1109 s",
-                        "175 1020  234 974  300 974 s",
-                        "367 974  424 1029  424 1095 s",
-                        "424 1171  368 1213  312 1216",
-                        "312 1313  380 1440 c"
-                      ]
-                    },
-                    {
-                      "nodes": [
-                        "780 1440",
-                        "736 1460",
-                        "596 1332  575 1225  575 1109 s",
-                        "575 1020  634 974  700 974 s",
-                        "767 974  824 1029  824 1095 s",
-                        "824 1171  768 1213  712 1216",
-                        "712 1313  780 1440 c"
-                      ]
-                    }
-                  ]
+                "component": {
+                  "glyphName": "quoteleft"
+                },
+                "transform": {
+                  "xOffset": 400
+                }
+              },
+              {
+                "component": {
+                  "glyphName": "quoteleft"
                 }
               }
             ],
@@ -38696,31 +38703,19 @@
             "color": "#bac000",
             "elements": [
               {
-                "elementData": {
-                  "contours": [
-                    {
-                      "nodes": [
-                        "425 1408",
-                        "323 1466",
-                        "164 1318  136 1176  136 1079 s",
-                        "136 996  208 925  300 925 s",
-                        "393 925  458 996  458 1079 s",
-                        "458 1161  408 1196  355 1217",
-                        "363 1281  395 1359 c"
-                      ]
-                    },
-                    {
-                      "nodes": [
-                        "825 1408",
-                        "723 1466",
-                        "564 1318  536 1176  536 1079 s",
-                        "536 996  608 925  700 925 s",
-                        "793 925  858 996  858 1079 s",
-                        "858 1161  808 1196  755 1217",
-                        "763 1281  795 1359 c"
-                      ]
-                    }
-                  ]
+                "component": {
+                  "glyphName": "quoteleft"
+                },
+                "transform": {
+                  "xOffset": 355
+                }
+              },
+              {
+                "component": {
+                  "glyphName": "quoteleft"
+                },
+                "transform": {
+                  "xOffset": -45
                 }
               }
             ],
@@ -38733,31 +38728,16 @@
             "color": "#3989c2",
             "elements": [
               {
-                "elementData": {
-                  "contours": [
-                    {
-                      "nodes": [
-                        "343 1467",
-                        "348 1455",
-                        "223 1344  208 1267  208 1134 s",
-                        "208 1040  256 1016  300 1016 s",
-                        "346 1016  396 1057  396 1109 s",
-                        "396 1180  335 1227  276 1215",
-                        "270 1340  368 1508 c"
-                      ]
-                    },
-                    {
-                      "nodes": [
-                        "743 1467",
-                        "748 1455",
-                        "623 1344  608 1267  608 1134 s",
-                        "608 1040  656 1016  700 1016 s",
-                        "746 1016  796 1057  796 1109 s",
-                        "796 1180  735 1227  676 1215",
-                        "670 1340  768 1508 c"
-                      ]
-                    }
-                  ]
+                "component": {
+                  "glyphName": "quoteleft"
+                },
+                "transform": {
+                  "xOffset": 400
+                }
+              },
+              {
+                "component": {
+                  "glyphName": "quoteleft"
                 }
               }
             ],
@@ -38790,7 +38770,7 @@
                   "glyphName": "quotesinglbase"
                 },
                 "transform": {
-                  "yOffset": 1200
+                  "yOffset": 1240
                 }
               },
               {
@@ -38799,7 +38779,7 @@
                 },
                 "transform": {
                   "xOffset": 400,
-                  "yOffset": 1200
+                  "yOffset": 1240
                 }
               }
             ],
@@ -38815,7 +38795,7 @@
                   "glyphName": "quotesinglbase"
                 },
                 "transform": {
-                  "yOffset": 1200
+                  "yOffset": 1242
                 }
               },
               {
@@ -38824,11 +38804,17 @@
                 },
                 "transform": {
                   "xOffset": 400,
-                  "yOffset": 1200
+                  "yOffset": 1242
                 }
               }
             ],
             "flags": 0,
+            "guidelines": [
+              {
+                "horizontal": true,
+                "position": 1517
+              }
+            ],
             "name": "Bold"
           },
           {
@@ -38842,7 +38828,7 @@
                 },
                 "locked": true,
                 "transform": {
-                  "yOffset": 1200
+                  "yOffset": 1240
                 }
               },
               {
@@ -38851,12 +38837,18 @@
                 },
                 "locked": true,
                 "transform": {
-                  "xOffset": 400,
-                  "yOffset": 1200
+                  "xOffset": 397,
+                  "yOffset": 1240
                 }
               }
             ],
             "flags": 0,
+            "guidelines": [
+              {
+                "horizontal": true,
+                "position": 1517
+              }
+            ],
             "name": "Thin"
           }
         ],
@@ -73488,12 +73480,6 @@
               "horizontal": true,
               "name": "roundDescender",
               "position": -517,
-              "style": "custom"
-            },
-            {
-              "auto": true,
-              "horizontal": true,
-              "position": 522,
               "style": "custom"
             }
           ],
